@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-15T13:36:10.873510+00:00",
-  "total_guides": 9,
+  "last_updated": "2026-10-15T14:06:18.290832+00:00",
+  "total_guides": 11,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -585,6 +585,136 @@
         {
           "question": "Puis-je utiliser du papier aluminium dans mon Airfryer ?",
           "answer": "Oui, vous pouvez utiliser du papier aluminium, mais veillez à ne pas couvrir entièrement le fond du panier pour ne pas bloquer la circulation de l'air. Assurez-vous qu'il ne touche pas les éléments chauffants pour éviter tout risque."
+        }
+      ]
+    },
+    {
+      "slug": "tineco-floor-one-switch-s7-fw210100eu-entretien-consommables",
+      "title": "Entretien et Consommables pour Aspirateur Laveur Tineco Floor One Switch S7 (FW210100EU)",
+      "brand": "Tineco",
+      "model": "Floor One Switch S7 (FW210100EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide complet pour l'entretien et le remplacement des consommables de votre aspirateur laveur Tineco Floor One Switch S7 (FW210100EU). Trouvez filtres HEPA (FW200501EU), rouleaux brosse et solutions de nettoyage pour une performance optimale.",
+      "common_codes": [
+        {
+          "code": "Vider réservoir eau sale",
+          "meaning": "Le réservoir d'eau sale est plein ou mal positionné.",
+          "solution": "Videz le réservoir d'eau sale et rincez-le, puis assurez-vous qu'il est correctement remis en place dans l'appareil."
+        },
+        {
+          "code": "Nettoyer rouleau brosse",
+          "meaning": "Le rouleau brosse est obstrué par des cheveux, des débris ou le capteur détecte une résistance.",
+          "solution": "Retirez le rouleau brosse, nettoyez-le soigneusement et retirez tout enchevêtrement. Rincez-le et laissez-le sécher avant de le réinstaller."
+        },
+        {
+          "code": "Recharger batterie",
+          "meaning": "La batterie est faible et nécessite d'être rechargée.",
+          "solution": "Placez l'appareil sur sa station de charge pour le recharger complètement. Assurez-vous que les contacts de charge sont propres."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse microfibre bi-matière",
+          "part_number": "FW200301EU",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Perte d'efficacité de nettoyage, traînées sur le sol, ou développement d'odeurs désagréables.",
+          "search_keywords": "Tineco Floor One Switch S7 FW210100EU rouleau brosse FW200301EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA",
+          "part_number": "FW200501EU",
+          "frequency": "Tous les 6 à 12 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine dans l'air, ou mauvaise filtration.",
+          "search_keywords": "Tineco Floor One Switch S7 FW210100EU filtre HEPA FW200501EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Tineco",
+          "part_number": "FW200101EU",
+          "frequency": "Selon besoin (environ 1 bouteille tous les 2-3 mois)",
+          "why_replace": "L'utilisation d'un produit non adapté peut endommager l'appareil, laisser des résidus ou des traces sur les sols.",
+          "search_keywords": "Tineco Floor One Switch S7 FW210100EU solution nettoyage FW200101EU",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer la station de charge du Tineco Floor One Switch S7 ?",
+          "answer": "Videz et rincez le bac de récupération de la station. Essuyez les contacts de charge avec un chiffon sec. Assurez-vous qu'aucun débris ne bloque les canaux d'eau pour un fonctionnement optimal."
+        },
+        {
+          "question": "Mon Tineco Floor One Switch S7 sent mauvais. Que faire ?",
+          "answer": "Nettoyez en profondeur le réservoir d'eau sale, le filtre HEPA et le rouleau brosse. Laissez toutes les pièces sécher complètement à l'air libre avant de les réassembler. Utilisez uniquement la solution de nettoyage Tineco recommandée."
+        },
+        {
+          "question": "Puis-je utiliser mon Tineco Floor One Switch S7 sur des tapis ?",
+          "answer": "Le Tineco Floor One Switch S7 est conçu principalement pour les sols durs. Il dispose d'un mode aspirateur sec qui peut être utilisé sur des tapis à poils courts, mais le mode lavage est à éviter sur ces surfaces."
+        }
+      ]
+    },
+    {
+      "slug": "delonghi-rivelia-feam-44-55-b-entretien-detartrage",
+      "title": "Entretien, Détartrage et Consommables pour Machine à Café De'Longhi Rivelia (FEAM 44.55.B)",
+      "brand": "De'Longhi",
+      "model": "Rivelia (FEAM 44.55.B)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Maintenance essentielle pour votre machine à café à grains De'Longhi Rivelia (FEAM 44.55.B). Trouvez le filtre à eau DLS C002 et le détartrant EcoDecalk pour un café parfait et une longue durée de vie de votre appareil.",
+      "common_codes": [
+        {
+          "code": "Détartrer",
+          "meaning": "L'appareil indique qu'un cycle de détartrage est nécessaire pour maintenir la performance et la durée de vie.",
+          "solution": "Suivez les instructions à l'écran pour lancer le programme de détartrage en utilisant le produit détartrant De'Longhi EcoDecalk."
+        },
+        {
+          "code": "Vider marc de café",
+          "meaning": "Le bac à marc de café est plein et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le et rincez-le à l'eau claire, puis replacez-le correctement dans la machine."
+        },
+        {
+          "code": "Remplir réservoir eau",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas pour préparer un café.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau maximum et replacez-le fermement dans son logement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau De'Longhi DLS C002",
+          "part_number": "DLS C002",
+          "frequency": "Tous les 2 mois ou 50 litres d'eau",
+          "why_replace": "Réduit l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine.",
+          "search_keywords": "De'Longhi Rivelia FEAM 44.55.B filtre eau DLS C002",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détartrant De'Longhi EcoDecalk",
+          "part_number": "DLSC500",
+          "frequency": "Tous les 3 mois ou selon l'affichage de la machine",
+          "why_replace": "Prévient l'obstruction des conduits par le calcaire, les pannes de la machine et un café tiède.",
+          "search_keywords": "De'Longhi Rivelia FEAM 44.55.B détartrant DLSC500 EcoDecalk",
+          "affiliate_url": null
+        },
+        {
+          "name": "Liquide de nettoyage De'Longhi pour système LatteCrema",
+          "part_number": "DLSC550",
+          "frequency": "Selon usage (une fois par semaine si usage quotidien du lait)",
+          "why_replace": "Empêche le bouchage du système lait, le développement de bactéries et l'altération du goût des boissons lactées.",
+          "search_keywords": "De'Longhi Rivelia FEAM 44.55.B nettoyage lait DLSC550 LatteCrema",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser l'alerte de détartrage après l'avoir effectué sur ma Rivelia ?",
+          "answer": "Le cycle de détartrage complet, une fois terminé, réinitialise automatiquement l'alerte. Si ce n'est pas le cas, assurez-vous d'avoir suivi toutes les étapes du programme sans interruption."
+        },
+        {
+          "question": "Mon café n'est pas assez chaud avec ma De'Longhi Rivelia. Que puis-je faire ?",
+          "answer": "Préchauffez vos tasses avec de l'eau chaude. Vérifiez le réglage de la température de l'eau dans le menu de la machine. Un détartrage régulier peut aussi améliorer la température si le calcaire obstrue les conduits."
+        },
+        {
+          "question": "À quelle fréquence dois-je nettoyer le groupe infuseur de ma Rivelia ?",
+          "answer": "Le groupe infuseur doit être rincé à l'eau courante au moins une fois par semaine. Retirez-le, rincez-le abondamment sans savon, et laissez-le sécher à l'air libre avant de le remettre en place."
         }
       ]
     }

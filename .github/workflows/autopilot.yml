@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.name "AutoConsumables Autopilot Bot"
           git config --global user.email "bot@autoconsommables.fr"
-          git add docs/ data/catalog_state.json
+          git add docs/ data/catalog_state.json syndication/
           # Si aucune modification n'est détectée, ne pas échouer le workflow
           if git diff --staged --quiet; then
             echo "Aucune modification à commiter."

@@ -43,6 +43,7 @@ DATA_DIR = BASE_DIR / "data"
 TEMPLATES_DIR = BASE_DIR / "templates"
 DOCS_DIR = BASE_DIR / "docs"
 GUIDES_DIR = DOCS_DIR / "guides"
+SYNDICATION_DIR = BASE_DIR / "syndication"
 CATALOG_PATH = DATA_DIR / "catalog_state.json"
 
 
@@ -57,10 +58,11 @@ class ErrorCodeItem(BaseModel):
 
 
 class ConsumableItem(BaseModel):
-    name: str = Field(description="Nom usuel de la pièce d'usure ou du consommable")
-    frequency: str = Field(description="Fréquence recommandée de remplacement ou recharge")
-    why_replace: str = Field(description="Conséquence d'un filtre ou accessoire encrassé / usé")
-    search_keywords: str = Field(description="Mots-clés de recherche précis pour Amazon France")
+    name: str = Field(description="Nom précis de la pièce d'usure ou du consommable d'origine")
+    part_number: str = Field(default="Réf. OEM adaptable", description="Référence constructeur officielle (PN / Part Number, ex: DLS C002, CA6903/10, AF400-CRISP, ou Réf. constructeur adaptable)")
+    frequency: str = Field(description="Fréquence exacte recommandée de remplacement ou recharge")
+    why_replace: str = Field(description="Conséquence directe de l'usure ou de l'encrassement (perte de puissance, fuite, calcaire, odeurs)")
+    search_keywords: str = Field(description="Mots-clés de recherche ultra-précis pour Amazon France combinant marque, modèle exact, référence PN et nom de pièce")
     affiliate_url: Optional[str] = None
 
 
@@ -70,14 +72,14 @@ class FaqItem(BaseModel):
 
 
 class ApplianceGuide(BaseModel):
-    slug: str = Field(description="Identifiant URL unique en minuscules avec tirets (ex: roborock-s8-entretien)")
-    title: str = Field(description="Titre optimisé SEO H1 en français")
-    brand: str = Field(description="Marque de l'appareil (ex: Roborock, Delonghi, Philips)")
-    model: str = Field(description="Modèle exact de l'appareil (ex: S8 / S8+, EcoDecalk)")
+    slug: str = Field(description="Identifiant URL unique en minuscules avec tirets incluant la référence (ex: roborock-qrevo-curv-qrc02-entretien)")
+    title: str = Field(description="Titre optimisé SEO H1 en français incluant la référence constructeur exacte")
+    brand: str = Field(description="Marque de l'appareil (ex: Roborock, De'Longhi, Philips, Ninja, Tineco, Dreame)")
+    model: str = Field(description="Modèle ultra-précis avec référence constructeur exacte (ex: Switch S7 (FW210100EU), DoubleStack XL (SL400EU))")
     category: str = Field(description="Catégorie parmi: Aspirateurs Laveurs, Machines à Café à Grains, Robots Aspirateurs, Friteuses sans Huile (Air Fryer), Purificateurs d'Air, Centrales Vapeur")
-    meta_description: str = Field(description="Méta description SEO accrocheuse de 130 à 155 caractères")
+    meta_description: str = Field(description="Méta description SEO accrocheuse de 130 à 155 caractères avec référence PN")
     common_codes: List[ErrorCodeItem] = Field(description="3 codes erreurs ou voyants d'entretien courant", min_length=3, max_length=3)
-    consumables: List[ConsumableItem] = Field(description="3 à 4 consommables indispensables", min_length=3, max_length=4)
+    consumables: List[ConsumableItem] = Field(description="3 à 4 consommables indispensables avec référence PN", min_length=3, max_length=4)
     faq: List[FaqItem] = Field(description="3 questions/réponses pertinentes", min_length=3, max_length=3)
 
 
@@ -107,28 +109,36 @@ def build_affiliate_url(search_query: str, partner_tag: str) -> str:
 # Prompt Système & Génération IA avec google-genai
 # ==============================================================================
 
-SYSTEM_INSTRUCTION = """Tu es un ingénieur expert en maintenance préventive de petit électroménager et en SEO pratique en langue française.
+SYSTEM_INSTRUCTION = """Tu es un ingénieur expert en maintenance préventive de petit électroménager et en SEO d'intention d'achat en langue française.
 
 RÈGLE DE SÉCURITÉ ABSOLUE ET STRICTE :
 - INTERDICTION FORMELLE de traiter des réparations électriques internes (ouverture de carter haute tension, condensateurs, soudures), appareils au gaz, chaudières, automobile critique ou matériel médical.
 - LIMITE-TOI EXCLUSIVEMENT aux consommables et pièces d'usure remplaçables à la main sans outil par l'utilisateur (filtres HEPA, brosses rotatives amovibles, cartouches anticalcaire, bacs, sacs, produits de détartrage doux) et aux opérations d'entretien courant (nettoyage externe, vidage, réinitialisation de voyant filtre).
 
-MISSION :
-Tu dois sélectionner 2 NOUVEAUX modèles d'appareils domestiques très vendus en France parmi les catégories suivantes :
-- Aspirateurs Laveurs (ex: Tineco Floor One, Bissell CrossWave, Dreame H12, Roborock Dyad)
-- Machines à Café à Grains (ex: De'Longhi Magnifica / Primadonna, Krups Essential / Evidence, Philips Série 2200 / 3200, Melitta)
-- Friteuses sans Huile (Air Fryer) (ex: Ninja Foodi DualZone, Philips Airfryer XXL, Moulinex Easy Fry, Cosori)
-- Robots Aspirateurs Laveurs (ex: Roborock S7/S8/Qrevo, Dreame L10/L20, iRobot Roomba j7+, Ecovacs Deebot)
-- Purificateurs d'Air (ex: Philips Series 1000/2000, Xiaomi Smart Air Purifier 4, Levoit Core 300)
-- Centrales Vapeur (ex: Calor Pro Express, Philips PerfectCare)
+RÈGLE D'OR N°1 — CIBLAGE CHIRURGICAL DES RÉFÉRENCES EXACTES (2024 À 2026) :
+- INTERDICTION ABSOLUE de choisir des dénominations génériques ou des catégories vagues (ex: 'Aspirateur robot', 'Machine à café', 'Air Fryer').
+- Tu dois IMPÉRATIVEMENT sélectionner des modèles récents commercialisés entre 2024 et 2026 AVEC LEUR RÉFÉRENCE CONSTRUCTEUR EXACTE (SKU / Part Number complet).
+  Exemples de précision exigée :
+  * Tineco Floor One Switch S7 (FW210100EU)
+  * Ninja DoubleStack XL 9,5L (SL400EU)
+  * De'Longhi Rivelia (FEAM 44.55.B)
+  * Roborock Qrevo Curv (QRC02-00)
+  * Dreame X40 Ultra Complete
+  * Philips LatteGo Série 5400 (EP5447/90)
+  * Calor Pro Express Vision (GV9820C0)
+  * Rowenta X-Force Flex 15.60 (RH99F1WO)
+
+RÈGLE D'OR N°2 — TABLE TECHNIQUE DE CORRESPONDANCE DES PIÈCES :
+- Pour chaque consommable d'usure, fournis :
+  * Le nom précis de la pièce (ex: Rouleau brosse microfibre bi-matière, Cartouche filtrante anti-tartre)
+  * Le champ 'part_number' : la référence constructeur officielle exacte (PN / SKU / référence fabricant si connue, ex: DLS C002, CA6903/10, AF-400-PLATE, ZR009006) ou 'Réf. constructeur adaptable'
+  * La fréquence de remplacement recommandée
+  * Les mots-clés de recherche ultra-ciblés incluant la référence et le modèle pour Amazon France.
+
+RÈGLE D'OR N°3 — CODES PANNES & VOYANTS SPÉCIFIQUES :
+- Fournis 3 codes voyants ou alertes spécifiques à ce modèle exact (ex: voyant DWT, code E02, alerte Calc/Clean) avec la manipulation de résolution sans outil.
 
 Ces 2 appareils NE DOIVENT PAS faire partie de la liste des appareils déjà existants fournie dans la requête.
-
-Pour chaque appareil généré :
-1. Crée un slug unique (kebab-case, minuscules).
-2. Fournis 3 codes voyants ou erreurs fréquentes d'entretien courant avec la procédure simple sans outil.
-3. Fournis 3 à 4 consommables indispensables avec mots-clés de recherche précis sur Amazon.fr (ex: 'filtre hepa pour roborock s8').
-4. Fournis 3 questions/réponses FAQ utiles.
 
 Rends strictement une structure JSON valide correspondant au schéma demandé."""
 
@@ -395,14 +405,91 @@ def get_fallback_appliances(existing_slugs: List[str]) -> List[ApplianceGuide]:
     return selected[:2]
 
 
+def generate_syndication_markdown(guide: dict, site_base_url: str) -> str:
+    """Génère un export Markdown propre prêt pour la syndication sur dev.to, Medium ou blogs techniques."""
+    canonical_url = f"{site_base_url.rstrip('/')}/guides/{guide['slug']}.html"
+    date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    lines = [
+        "---",
+        f'title: "{guide["title"]}"',
+        f'description: "{guide.get("meta_description", "")}"',
+        f'canonical_url: "{canonical_url}"',
+        f'published_at: "{date_str}"',
+        'tags: ["diy", "guide", "electromenager", "entretien", "tech"]',
+        "---",
+        "",
+        f"# {guide['title']}",
+        "",
+        "> **Transparence Partenaire Amazon :** Cet article indépendant comporte des liens affiliés Amazon France (#LienAffilié). En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats éligibles sans surcoût pour vous.",
+        f"> *Source originale et guide interactif : [{canonical_url}]({canonical_url})*",
+        "",
+        "## ⚠️ Sécurité & Consignes Préalables",
+        "Débranchez impérativement votre appareil avant toute intervention. Les procédures ci-dessous ne concernent que l'entretien courant et les pièces d'usure amovibles sans outillage.",
+        "",
+        "## 🛠️ Table de Correspondances des Pièces & Consommables Certifiés",
+        "",
+        "| Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |",
+        "| :--- | :--- | :--- | :--- |",
+    ]
+
+    for item in guide.get("consumables", []):
+        pn = item.get("part_number") or "Réf. OEM adaptable"
+        url = item.get("affiliate_url", "")
+        lines.append(f"| **{item.get('name')}** | `{pn}` | {item.get('frequency')} | [Vérifier le stock Amazon France ↗]({url}) |")
+
+    lines.extend([
+        "",
+        "### 🔍 Analyse Technique des Pièces d'Usure",
+        "",
+    ])
+
+    for item in guide.get("consumables", []):
+        lines.append(f"#### {item.get('name')}")
+        lines.append(f"- **Référence Fabricant (PN) :** `{item.get('part_number', 'Réf. OEM adaptable')}`")
+        lines.append(f"- **Fréquence recommandée :** {item.get('frequency')}")
+        lines.append(f"- **Pourquoi est-ce critique ?** {item.get('why_replace')}")
+        lines.append(f"- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗]({item.get('affiliate_url')})")
+        lines.append("")
+
+    lines.extend([
+        "## 🚨 Codes Erreurs & Voyants d'Alerte Fréquents",
+        "",
+    ])
+
+    for code in guide.get("common_codes", []):
+        lines.append(f"### ⚠️ {code.get('code')}")
+        lines.append(f"- **Cause courante :** {code.get('meaning')}")
+        lines.append(f"- **Procédure de résolution sans outil :** {code.get('solution')}")
+        lines.append("")
+
+    lines.extend([
+        "## ❓ Questions Fréquentes (FAQ)",
+        "",
+    ])
+
+    for faq in guide.get("faq", []):
+        lines.append(f"### Q : {faq.get('question')}")
+        lines.append(f"**R :** {faq.get('answer')}")
+        lines.append("")
+
+    lines.extend([
+        "---",
+        f"*Fiche technique rédigée pour le modèle **{guide.get('brand')} {guide.get('model')}** — Retrouvez la version interactive en ligne sur [AutoConsommables.fr]({canonical_url}).*",
+    ])
+
+    return "\n".join(lines)
+
+
 # ==============================================================================
-# Moteur de Rendu Statique HTML (Jinja2)
+# Moteur de Rendu Statique HTML & Export Syndication Markdown
 # ==============================================================================
 
 def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str):
-    """Génère l'intégralité du site statique dans le dossier docs/."""
+    """Génère l'intégralité du site statique dans docs/ et les exports Markdown dans syndication/."""
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(GUIDES_DIR, exist_ok=True)
+    os.makedirs(SYNDICATION_DIR, exist_ok=True)
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -429,7 +516,7 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
             search_query = consumable.get("search_keywords", f"{guide.get('brand')} {consumable.get('name')}")
             consumable["affiliate_url"] = build_affiliate_url(search_query, partner_tag)
 
-    # 2. Génération de chaque page de guide (docs/guides/{slug}.html)
+    # 2. Génération de chaque page de guide HTML (docs/guides/{slug}.html) ET Markdown de syndication (syndication/{slug}.md)
     guide_template = env.get_template("guide.html")
     for guide in guides_list:
         guide_slug = guide["slug"]
@@ -444,6 +531,13 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         with open(guide_file, "w", encoding="utf-8") as f:
             f.write(guide_html)
         logger.info(f"Page guide générée : docs/guides/{guide_slug}.html")
+
+        # Export alternatif Markdown pour syndication rapide (dev.to, Medium, etc.)
+        syndication_md = generate_syndication_markdown(guide, clean_base_url)
+        syndication_file = SYNDICATION_DIR / f"{guide_slug}.md"
+        with open(syndication_file, "w", encoding="utf-8") as f:
+            f.write(syndication_md)
+        logger.info(f"Export syndication Markdown généré : syndication/{guide_slug}.md")
 
     # 3. Calcul des catégories et statistiques pour la page d'accueil
     categories_counter = {}

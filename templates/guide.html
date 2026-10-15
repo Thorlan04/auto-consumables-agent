@@ -216,10 +216,11 @@
             <table>
                 <thead>
                     <tr>
-                        <th style="min-width: 200px;">Consommable & Fonction</th>
-                        <th style="min-width: 150px;">Fréquence d'Entretien</th>
-                        <th style="min-width: 260px;">Pourquoi est-ce indispensable ?</th>
-                        <th style="min-width: 170px; text-align: center;">Disponibilité</th>
+                        <th style="min-width: 190px;">Pièce / Consommable</th>
+                        <th style="min-width: 130px;">Réf. Constructeur (PN)</th>
+                        <th style="min-width: 140px;">Fréquence d'Entretien</th>
+                        <th style="min-width: 240px;">Pourquoi est-ce indispensable ?</th>
+                        <th style="min-width: 160px; text-align: center;">Disponibilité</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -227,6 +228,11 @@
                     <tr>
                         <td>
                             <strong>{{ item.name }}</strong>
+                        </td>
+                        <td>
+                            <code style="background: #f1f5f9; padding: 0.2rem 0.45rem; border-radius: 4px; font-size: 0.8rem; font-weight: 700; color: #0f766e; border: 1px solid #cbd5e1;">
+                                {{ item.part_number if item.part_number else "Réf. OEM adaptable" }}
+                            </code>
                         </td>
                         <td>
                             <span style="font-size: 0.875rem; color: #475569;">{{ item.frequency }}</span>
