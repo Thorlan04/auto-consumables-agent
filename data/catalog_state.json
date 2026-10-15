@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-15T14:25:24.083007+00:00",
-  "total_guides": 13,
+  "last_updated": "2026-10-15T14:40:49.746330+00:00",
+  "total_guides": 15,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -861,6 +861,136 @@
         {
           "question": "Comment optimiser la durée de vie de ma machine à café Philips EP5447/90 ?",
           "answer": "Utilisez un filtre AquaClean et remplacez-le tous les 3 mois, détartrez la machine dès que l'alerte apparaît, nettoyez et lubrifiez régulièrement le groupe café, et rincez le système LatteGo après chaque utilisation."
+        }
+      ]
+    },
+    {
+      "slug": "dyson-v15s-detect-submarine-sv47-entretien-filtres",
+      "title": "Entretien Dyson V15s Detect Submarine (SV47) : Guide Complet Filtres et Têtes de Nettoyage",
+      "brand": "Dyson",
+      "model": "V15s Detect Submarine (SV47)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Optimisez votre Dyson V15s Detect Submarine (SV47) avec notre guide d'entretien. Trouvez filtres HEPA (PN 971634-01) et rouleaux Submarine pour une performance maximale.",
+      "common_codes": [
+        {
+          "code": "Voyant filtre clignotant",
+          "meaning": "Le filtre HEPA est encrassé ou mal positionné, réduisant la puissance d'aspiration de l'appareil.",
+          "solution": "Retirez le filtre HEPA, tapotez-le pour enlever la poussière, puis rincez-le à l'eau froide sans détergent. Laissez-le sécher complètement à l'air libre (au moins 24h) avant de le remettre en place."
+        },
+        {
+          "code": "Voyant obstruction",
+          "meaning": "Un blocage est présent dans le conduit d'aspiration, la brosse ou le tube, ce qui diminue le flux d'air et l'efficacité.",
+          "solution": "Déconnectez les accessoires et le tube de l'aspirateur. Vérifiez visuellement toutes les zones (tête, tube, corps de l'appareil) et retirez délicatement tous les débris ou cheveux à la main."
+        },
+        {
+          "code": "Voyant réservoir d'eau sale plein (mode Submarine)",
+          "meaning": "Le réservoir d'eau sale de la tête de nettoyage Submarine est plein et doit être vidé.",
+          "solution": "Retirez la tête de nettoyage Submarine, séparez le réservoir d'eau sale, videz-le et rincez-le à l'eau claire. Réassemblez correctement et remettez la tête en place sur l'aspirateur."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA post-moteur lavable",
+          "part_number": "971634-01",
+          "frequency": "Tous les 6 mois",
+          "why_replace": "Une filtration réduite entraîne une perte de puissance d'aspiration, un rejet de micro-particules et d'allergènes dans l'air, et des mauvaises odeurs persistantes.",
+          "search_keywords": "Dyson V15s Detect Submarine SV47 filtre HEPA 971634-01, filtre post-moteur Dyson V15s",
+          "affiliate_url": null
+        },
+        {
+          "name": "Rouleau brosse lavant Submarine",
+          "part_number": "972688-01",
+          "frequency": "Tous les 6-12 mois ou si usé",
+          "why_replace": "Un rouleau usé ou encrassé provoque une mauvaise performance de lavage, laisse des traces au sol et peut accumuler des saletés ou des odeurs désagréables.",
+          "search_keywords": "Dyson V15s Detect Submarine SV47 rouleau lavant, brosse Submarine Dyson 972688-01",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse Fluffy Optic™ pour sols durs",
+          "part_number": "971360-01",
+          "frequency": "Tous les 12-24 mois ou si usée",
+          "why_replace": "Une brosse usée perd son efficacité pour capturer les poussières fines, peut rayer les sols délicats et générer un bruit excessif pendant l'utilisation.",
+          "search_keywords": "Dyson V15s Detect Submarine SV47 brosse Fluffy Optic, rouleau brosse Dyson 971360-01",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le rouleau lavant Submarine après utilisation ?",
+          "answer": "Après chaque utilisation, retirez le rouleau lavant Submarine de la tête de nettoyage. Rincez-le abondamment à l'eau froide et laissez-le sécher à l'air libre, à la verticale, pendant au moins 24 heures avant de le réinstaller pour éviter les mauvaises odeurs."
+        },
+        {
+          "question": "Mon Dyson V15s Submarine ne distribue plus d'eau, que faire ?",
+          "answer": "Vérifiez que le réservoir d'eau propre est rempli et correctement inséré. Assurez-vous également que le rouleau lavant n'est pas obstrué et que le système de distribution d'eau est propre. Un détartrage du réservoir d'eau propre peut être nécessaire si vous utilisez de l'eau calcaire."
+        },
+        {
+          "question": "Puis-je utiliser du détergent dans le réservoir d'eau propre du Submarine ?",
+          "answer": "Non, Dyson recommande d'utiliser uniquement de l'eau claire avec le rouleau lavant Submarine. L'utilisation de détergents ou de produits de nettoyage peut endommager le système de l'appareil et annuler la garantie."
+        }
+      ]
+    },
+    {
+      "slug": "breville-barista-touch-impress-bes881bss-entretien-detartrage",
+      "title": "Entretien Breville Barista Touch Impress (BES881BSS) : Guide Complet Détartrage et Filtres",
+      "brand": "Breville",
+      "model": "Barista Touch Impress (BES881BSS)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Maintenez votre Breville Barista Touch Impress (BES881BSS) au top de sa performance. Guide d'entretien, détartrage, filtre à eau (PN BES008) et pastilles de nettoyage.",
+      "common_codes": [
+        {
+          "code": "Alerte 'Détartrage nécessaire'",
+          "meaning": "L'appareil a accumulé du calcaire et nécessite un cycle de détartrage pour maintenir ses performances optimales et éviter les pannes.",
+          "solution": "Suivez les instructions à l'écran : videz le réservoir d'eau, remplissez-le avec la solution détartrante recommandée et de l'eau, puis lancez le programme de détartrage automatique. Effectuez plusieurs rinçages du réservoir et de la machine après."
+        },
+        {
+          "code": "Alerte 'Nettoyage du groupe' / 'Clean Me'",
+          "meaning": "Le groupe d'infusion et les conduits internes sont encrassés par les huiles de café, altérant le goût et l'extraction.",
+          "solution": "Insérez une pastille de nettoyage dans le porte-filtre aveugle fourni, placez-le dans la machine et suivez le cycle de nettoyage automatique indiqué à l'écran. Rincez le porte-filtre après l'opération."
+        },
+        {
+          "code": "Alerte 'Vider le bac d'égouttement'",
+          "meaning": "Le bac d'égouttement sous le porte-filtre est plein d'eau et doit être vidé pour éviter tout débordement.",
+          "solution": "Retirez le bac d'égouttement, videz l'eau accumulée, rincez-le à l'eau claire et séchez-le soigneusement avant de le remettre en place dans la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau Breville ClaroSwiss",
+          "part_number": "BES008",
+          "frequency": "Tous les 2-3 mois",
+          "why_replace": "Un filtre usé altère le goût du café par le chlore et les impuretés, accélère l'accumulation de calcaire dans la machine et réduit la durée de vie de l'appareil.",
+          "search_keywords": "Breville Barista Touch Impress BES881BSS filtre eau, filtre ClaroSwiss BES008, filtre à eau Breville",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage Breville pour machine à espresso",
+          "part_number": "BES011",
+          "frequency": "Toutes les 2-4 semaines (selon utilisation)",
+          "why_replace": "Des conduits encrassés par les huiles de café donnent un goût amer ou rance au café, entraînent une extraction irrégulière et peuvent provoquer des pannes de la machine.",
+          "search_keywords": "Breville Barista Touch Impress BES881BSS pastilles nettoyage, pastille nettoyage Breville BES011",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution détartrante Breville pour machine à espresso",
+          "part_number": "BES012",
+          "frequency": "Tous les 2-3 mois (selon dureté de l'eau)",
+          "why_replace": "Le calcaire réduit le débit d'eau, rend la température instable, peut provoquer une surchauffe et endommager gravement les composants internes de la machine.",
+          "search_keywords": "Breville Barista Touch Impress BES881BSS détartrant, solution détartrage Breville BES012",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma Breville Barista Touch Impress ?",
+          "answer": "La machine vous alertera automatiquement, mais en général, un détartrage est recommandé tous les 2 à 3 mois. Si votre eau est très calcaire, une fréquence plus élevée peut être nécessaire, même avec l'utilisation d'un filtre à eau."
+        },
+        {
+          "question": "Pourquoi le café coule-t-il trop lentement ou pas du tout de ma machine ?",
+          "answer": "Plusieurs raisons sont possibles : une mouture de café trop fine, un tassage excessif, un filtre encrassé ou un besoin de détartrage de la machine. Commencez par vérifier la finesse de la mouture et la propreté de vos filtres."
+        },
+        {
+          "question": "Comment nettoyer efficacement la buse vapeur de ma machine Breville ?",
+          "answer": "Après chaque utilisation, essuyez la buse vapeur avec un chiffon humide propre. Si des trous sont obstrués, utilisez l'outil de nettoyage fourni pour les déboucher. Pour un nettoyage plus profond, purgez la vapeur pendant quelques secondes pour éliminer les résidus de lait internes."
         }
       ]
     }

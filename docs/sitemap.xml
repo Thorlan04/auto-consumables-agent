@@ -246,4 +246,36 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
