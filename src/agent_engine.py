@@ -91,25 +91,30 @@ class GeminiBatchResponse(BaseModel):
 # Fonction Pure de Monétisation Amazon Infaillible
 # ==============================================================================
 
-def build_affiliate_url(search_query: str, partner_tag: str) -> str:
+# ==============================================================================
+# Fonction Pure de Monétisation Amazon Infaillible (FR & International)
+# ==============================================================================
+
+def build_affiliate_url(search_query: str, partner_tag: str, domain: str = "amazon.fr") -> str:
     """Construit une URL de recherche Amazon Partenaires infaillible (sans 404 ni ASIN obsolète).
 
     Règles :
     - N'invente jamais d'ASIN ni d'URL directe produit.
     - Utilise urllib.parse.quote_plus pour encoder proprement la requête de recherche.
-    - Ajoute le tag d'affiliation officiel pour garantir la commission.
+    - Supporte amazon.fr (France/UE) et amazon.com (USA / Global).
     """
     cleaned_query = search_query.strip()
     encoded_query = urllib.parse.quote_plus(cleaned_query)
     clean_tag = partner_tag.strip() if partner_tag else "autoconsom-21"
-    return f"https://www.amazon.fr/s?k={encoded_query}&tag={clean_tag}"
+    clean_domain = domain.strip().lower()
+    return f"https://www.{clean_domain}/s?k={encoded_query}&tag={clean_tag}"
 
 
 # ==============================================================================
 # Prompt Système & Génération IA avec google-genai
 # ==============================================================================
 
-SYSTEM_INSTRUCTION = """Tu es un ingénieur expert en maintenance préventive de petit électroménager et en SEO d'intention d'achat en langue française.
+SYSTEM_INSTRUCTION = """Tu es un ingénieur expert mondial en maintenance préventive de petit électroménager et en SEO d'intention d'achat (France, USA, UK, Europe).
 
 RÈGLE DE SÉCURITÉ ABSOLUE ET STRICTE :
 - INTERDICTION FORMELLE de traiter des réparations électriques internes (ouverture de carter haute tension, condensateurs, soudures), appareils au gaz, chaudières, automobile critique ou matériel médical.
@@ -117,23 +122,26 @@ RÈGLE DE SÉCURITÉ ABSOLUE ET STRICTE :
 
 RÈGLE D'OR N°1 — CIBLAGE CHIRURGICAL DES RÉFÉRENCES EXACTES (2024 À 2026) :
 - INTERDICTION ABSOLUE de choisir des dénominations génériques ou des catégories vagues (ex: 'Aspirateur robot', 'Machine à café', 'Air Fryer').
-- Tu dois IMPÉRATIVEMENT sélectionner des modèles récents commercialisés entre 2024 et 2026 AVEC LEUR RÉFÉRENCE CONSTRUCTEUR EXACTE (SKU / Part Number complet).
+- Tu dois IMPÉRATIVEMENT sélectionner des modèles récents très populaires commercialisés entre 2024 et 2026 AVEC LEUR RÉFÉRENCE CONSTRUCTEUR EXACTE (SKU / Part Number complet).
   Exemples de précision exigée :
   * Tineco Floor One Switch S7 (FW210100EU)
   * Ninja DoubleStack XL 9,5L (SL400EU)
   * De'Longhi Rivelia (FEAM 44.55.B)
   * Roborock Qrevo Curv (QRC02-00)
   * Dreame X40 Ultra Complete
+  * Breville Barista Touch Impress (BES881BSS)
+  * Shark Stratos Cordless Pet Pro (IZ400EU / IZ400UK)
+  * Dyson V15s Detect Submarine (SV47)
   * Philips LatteGo Série 5400 (EP5447/90)
   * Calor Pro Express Vision (GV9820C0)
-  * Rowenta X-Force Flex 15.60 (RH99F1WO)
+  * Levoit Core 400S Smart True HEPA
 
 RÈGLE D'OR N°2 — TABLE TECHNIQUE DE CORRESPONDANCE DES PIÈCES :
 - Pour chaque consommable d'usure, fournis :
   * Le nom précis de la pièce (ex: Rouleau brosse microfibre bi-matière, Cartouche filtrante anti-tartre)
-  * Le champ 'part_number' : la référence constructeur officielle exacte (PN / SKU / référence fabricant si connue, ex: DLS C002, CA6903/10, AF-400-PLATE, ZR009006) ou 'Réf. constructeur adaptable'
+  * Le champ 'part_number' : la référence constructeur officielle exacte (PN / SKU / référence fabricant si connue, ex: DLS C002, CA6903/10, AF-400-PLATE, ZR009006, 971634-01) ou 'Réf. constructeur adaptable'
   * La fréquence de remplacement recommandée
-  * Les mots-clés de recherche ultra-ciblés incluant la référence et le modèle pour Amazon France.
+  * Les mots-clés de recherche ultra-ciblés incluant la référence et le modèle pour Amazon.
 
 RÈGLE D'OR N°3 — CODES PANNES & VOYANTS SPÉCIFIQUES :
 - Fournis 3 codes voyants ou alertes spécifiques à ce modèle exact (ex: voyant DWT, code E02, alerte Calc/Clean) avec la manipulation de résolution sans outil.
@@ -405,91 +413,147 @@ def get_fallback_appliances(existing_slugs: List[str]) -> List[ApplianceGuide]:
     return selected[:2]
 
 
-def generate_syndication_markdown(guide: dict, site_base_url: str) -> str:
+CATEGORY_EN_MAP = {
+    "Aspirateurs Laveurs": "Wet & Dry Vacuums",
+    "Machines à Café à Grains": "Bean-to-Cup Coffee Machines",
+    "Robots Aspirateurs": "Robot Vacuums & Mops",
+    "Friteuses sans Huile (Air Fryer)": "Air Fryers",
+    "Purificateurs d'Air": "Air Purifiers",
+    "Centrales Vapeur": "Steam Generator Irons",
+}
+
+
+def build_english_guide(guide: dict, partner_tag: str) -> dict:
+    """Adapte une fiche technique en version anglaise pour les marchés USA / UK / Global."""
+    en_cat = CATEGORY_EN_MAP.get(guide.get("category", ""), guide.get("category", "Home Appliances"))
+    en_title = f"{guide.get('brand')} {guide.get('model')}: Replacement Parts, Filters & Error Codes"
+    en_desc = f"Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for {guide.get('brand')} {guide.get('model')}."
+
+    en_consumables = []
+    for c in guide.get("consumables", []):
+        search_q = f"{guide.get('brand')} {guide.get('model')} {c.get('part_number', '')} {c.get('name')}".strip()
+        en_consumables.append({
+            "name": c.get("name"),
+            "part_number": c.get("part_number", "OEM compatible"),
+            "frequency": c.get("frequency"),
+            "why_replace": c.get("why_replace"),
+            "search_keywords": search_q,
+            "affiliate_url": build_affiliate_url(search_q, partner_tag, domain="amazon.com"),
+        })
+
+    return {
+        "slug": guide["slug"],
+        "title": en_title,
+        "brand": guide["brand"],
+        "model": guide["model"],
+        "category": en_cat,
+        "meta_description": en_desc,
+        "common_codes": guide.get("common_codes", []),
+        "consumables": en_consumables,
+        "faq": guide.get("faq", []),
+    }
+
+
+def generate_syndication_markdown(guide: dict, site_base_url: str, lang: str = "fr") -> str:
     """Génère un export Markdown propre prêt pour la syndication sur dev.to, Medium ou blogs techniques."""
-    canonical_url = f"{site_base_url.rstrip('/')}/guides/{guide['slug']}.html"
+    is_en = lang == "en"
+    canonical_path = f"/en/guides/{guide['slug']}.html" if is_en else f"/guides/{guide['slug']}.html"
+    canonical_url = f"{site_base_url.rstrip('/')}{canonical_path}"
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    title = guide["title"]
+    desc = guide.get("meta_description", "")
 
     lines = [
         "---",
-        f'title: "{guide["title"]}"',
-        f'description: "{guide.get("meta_description", "")}"',
+        f'title: "{title}"',
+        f'description: "{desc}"',
         f'canonical_url: "{canonical_url}"',
         f'published_at: "{date_str}"',
-        'tags: ["diy", "guide", "electromenager", "entretien", "tech"]',
+        'tags: ["diy", "guide", "appliances", "maintenance", "tech"]' if is_en else 'tags: ["diy", "guide", "electromenager", "entretien", "tech"]',
         "---",
         "",
-        f"# {guide['title']}",
+        f"# {title}",
         "",
-        "> **Transparence Partenaire Amazon :** Cet article indépendant comporte des liens affiliés Amazon France (#LienAffilié). En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats éligibles sans surcoût pour vous.",
-        f"> *Source originale et guide interactif : [{canonical_url}]({canonical_url})*",
+        "> **Amazon Associates Disclosure:** This independent article contains affiliate links (#AffiliateLink). As an Amazon Associate, we earn from qualifying purchases at no extra cost to you." if is_en else "> **Transparence Partenaire Amazon :** Cet article indépendant comporte des liens affiliés Amazon France (#LienAffilié). En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats éligibles sans surcoût pour vous.",
+        f"> *Interactive guide available at: [{canonical_url}]({canonical_url})*" if is_en else f"> *Source originale et guide interactif : [{canonical_url}]({canonical_url})*",
         "",
-        "## ⚠️ Sécurité & Consignes Préalables",
-        "Débranchez impérativement votre appareil avant toute intervention. Les procédures ci-dessous ne concernent que l'entretien courant et les pièces d'usure amovibles sans outillage.",
+        "## ⚠️ Safety & Preliminary Disclaimers" if is_en else "## ⚠️ Sécurité & Consignes Préalables",
+        "Always unplug your appliance before performing maintenance. These procedures strictly cover routine maintenance and tool-free wear parts." if is_en else "Débranchez impérativement votre appareil avant toute intervention. Les procédures ci-dessous ne concernent que l'entretien courant et les pièces d'usure amovibles sans outillage.",
         "",
-        "## 🛠️ Table de Correspondances des Pièces & Consommables Certifiés",
+        "## 🛠️ Parts Cross-Reference & Wear Chart" if is_en else "## 🛠️ Table de Correspondances des Pièces & Consommables Certifiés",
         "",
-        "| Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |",
+        "| Genuine Part / Accessory | Manufacturer PN | Replacement Interval | Check Availability |" if is_en else "| Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |",
         "| :--- | :--- | :--- | :--- |",
     ]
 
     for item in guide.get("consumables", []):
-        pn = item.get("part_number") or "Réf. OEM adaptable"
+        pn = item.get("part_number") or "OEM compatible"
         url = item.get("affiliate_url", "")
-        lines.append(f"| **{item.get('name')}** | `{pn}` | {item.get('frequency')} | [Vérifier le stock Amazon France ↗]({url}) |")
+        btn_txt = "Check Amazon Stock ↗" if is_en else "Vérifier le stock Amazon France ↗"
+        lines.append(f"| **{item.get('name')}** | `{pn}` | {item.get('frequency')} | [{btn_txt}]({url}) |")
 
     lines.extend([
         "",
-        "### 🔍 Analyse Technique des Pièces d'Usure",
+        "### 🔍 Detailed Wear-Part Analysis" if is_en else "### 🔍 Analyse Technique des Pièces d'Usure",
         "",
     ])
 
     for item in guide.get("consumables", []):
         lines.append(f"#### {item.get('name')}")
-        lines.append(f"- **Référence Fabricant (PN) :** `{item.get('part_number', 'Réf. OEM adaptable')}`")
-        lines.append(f"- **Fréquence recommandée :** {item.get('frequency')}")
-        lines.append(f"- **Pourquoi est-ce critique ?** {item.get('why_replace')}")
-        lines.append(f"- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗]({item.get('affiliate_url')})")
+        lines.append(f"- **Part Number (PN):** `{item.get('part_number', 'OEM compatible')}`" if is_en else f"- **Référence Fabricant (PN) :** `{item.get('part_number', 'Réf. OEM adaptable')}`")
+        lines.append(f"- **Recommended Interval:** {item.get('frequency')}" if is_en else f"- **Fréquence recommandée :** {item.get('frequency')}")
+        lines.append(f"- **Critical Impact:** {item.get('why_replace')}" if is_en else f"- **Pourquoi est-ce critique ?** {item.get('why_replace')}")
+        lines.append(f"- **Amazon Link:** [View genuine part on Amazon ↗]({item.get('affiliate_url')})" if is_en else f"- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗]({item.get('affiliate_url')})")
         lines.append("")
 
     lines.extend([
-        "## 🚨 Codes Erreurs & Voyants d'Alerte Fréquents",
+        "## 🚨 Error Codes & Maintenance Alerts" if is_en else "## 🚨 Codes Erreurs & Voyants d'Alerte Fréquents",
         "",
     ])
 
     for code in guide.get("common_codes", []):
         lines.append(f"### ⚠️ {code.get('code')}")
-        lines.append(f"- **Cause courante :** {code.get('meaning')}")
-        lines.append(f"- **Procédure de résolution sans outil :** {code.get('solution')}")
+        lines.append(f"- **Root Cause:** {code.get('meaning')}" if is_en else f"- **Cause courante :** {code.get('meaning')}")
+        lines.append(f"- **Tool-Free Resolution:** {code.get('solution')}" if is_en else f"- **Procédure de résolution sans outil :** {code.get('solution')}")
         lines.append("")
 
     lines.extend([
-        "## ❓ Questions Fréquentes (FAQ)",
+        "## ❓ Frequently Asked Questions (FAQ)" if is_en else "## ❓ Questions Fréquentes (FAQ)",
         "",
     ])
 
     for faq in guide.get("faq", []):
-        lines.append(f"### Q : {faq.get('question')}")
-        lines.append(f"**R :** {faq.get('answer')}")
+        lines.append(f"### Q: {faq.get('question')}" if is_en else f"### Q : {faq.get('question')}")
+        lines.append(f"**A:** {faq.get('answer')}" if is_en else f"**R :** {faq.get('answer')}")
         lines.append("")
 
     lines.extend([
         "---",
-        f"*Fiche technique rédigée pour le modèle **{guide.get('brand')} {guide.get('model')}** — Retrouvez la version interactive en ligne sur [AutoConsommables.fr]({canonical_url}).*",
+        f"*Maintenance datasheet generated for **{guide.get('brand')} {guide.get('model')}** — Read interactive guide at [{canonical_url}]({canonical_url}).*" if is_en else f"*Fiche technique rédigée pour le modèle **{guide.get('brand')} {guide.get('model')}** — Retrouvez la version interactive en ligne sur [AutoConsommables.fr]({canonical_url}).*",
     ])
 
     return "\n".join(lines)
 
 
 # ==============================================================================
-# Moteur de Rendu Statique HTML & Export Syndication Markdown
+# Moteur de Rendu Statique HTML & Export Syndication Markdown (FR & EN)
 # ==============================================================================
 
 def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str):
-    """Génère l'intégralité du site statique dans docs/ et les exports Markdown dans syndication/."""
+    """Génère l'intégralité du site statique dans docs/ (FR + EN) et les exports Markdown."""
+    # Dossiers français
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(GUIDES_DIR, exist_ok=True)
     os.makedirs(SYNDICATION_DIR, exist_ok=True)
+
+    # Dossiers anglais (International USA / UK)
+    docs_en_dir = DOCS_DIR / "en"
+    guides_en_dir = docs_en_dir / "guides"
+    syndication_en_dir = SYNDICATION_DIR / "en"
+    os.makedirs(docs_en_dir, exist_ok=True)
+    os.makedirs(guides_en_dir, exist_ok=True)
+    os.makedirs(syndication_en_dir, exist_ok=True)
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -510,13 +574,13 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
 
     guides_list = catalog_data.get("guides", [])
 
-    # 1. Mise à jour des URLs d'affiliation Amazon pour chaque consommable de chaque guide
+    # 1. Mise à jour des URLs d'affiliation Amazon France
     for guide in guides_list:
         for consumable in guide.get("consumables", []):
             search_query = consumable.get("search_keywords", f"{guide.get('brand')} {consumable.get('name')}")
-            consumable["affiliate_url"] = build_affiliate_url(search_query, partner_tag)
+            consumable["affiliate_url"] = build_affiliate_url(search_query, partner_tag, domain="amazon.fr")
 
-    # 2. Génération de chaque page de guide HTML (docs/guides/{slug}.html) ET Markdown de syndication (syndication/{slug}.md)
+    # 2. Génération des pages guides FR (docs/guides/{slug}.html) + Syndication FR
     guide_template = env.get_template("guide.html")
     for guide in guides_list:
         guide_slug = guide["slug"]
@@ -526,45 +590,83 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
             canonical_path=f"/guides/{guide_slug}.html",
             base_prefix="..",
             current_year=current_year,
+            lang="fr",
         )
-        guide_file = GUIDES_DIR / f"{guide_slug}.html"
-        with open(guide_file, "w", encoding="utf-8") as f:
+        with open(GUIDES_DIR / f"{guide_slug}.html", "w", encoding="utf-8") as f:
             f.write(guide_html)
-        logger.info(f"Page guide générée : docs/guides/{guide_slug}.html")
 
-        # Export alternatif Markdown pour syndication rapide (dev.to, Medium, etc.)
-        syndication_md = generate_syndication_markdown(guide, clean_base_url)
-        syndication_file = SYNDICATION_DIR / f"{guide_slug}.md"
-        with open(syndication_file, "w", encoding="utf-8") as f:
+        syndication_md = generate_syndication_markdown(guide, clean_base_url, lang="fr")
+        with open(SYNDICATION_DIR / f"{guide_slug}.md", "w", encoding="utf-8") as f:
             f.write(syndication_md)
-        logger.info(f"Export syndication Markdown généré : syndication/{guide_slug}.md")
 
-    # 3. Calcul des catégories et statistiques pour la page d'accueil
-    categories_counter = {}
+    # 3. Génération des pages guides EN (docs/en/guides/{slug}.html) + Syndication EN
+    en_guides_list = []
+    for guide in guides_list:
+        guide_slug = guide["slug"]
+        en_guide = build_english_guide(guide, partner_tag)
+        en_guides_list.append(en_guide)
+
+        guide_en_html = guide_template.render(
+            guide=en_guide,
+            site_url=clean_base_url,
+            canonical_path=f"/en/guides/{guide_slug}.html",
+            base_prefix="../..",
+            current_year=current_year,
+            lang="en",
+        )
+        with open(guides_en_dir / f"{guide_slug}.html", "w", encoding="utf-8") as f:
+            f.write(guide_en_html)
+
+        syndication_en_md = generate_syndication_markdown(en_guide, clean_base_url, lang="en")
+        with open(syndication_en_dir / f"{guide_slug}.md", "w", encoding="utf-8") as f:
+            f.write(syndication_en_md)
+
+    logger.info(f"{len(guides_list)} fiches générées en français ET en anglais (Total : {len(guides_list)*2} pages HTML).")
+
+    # 4. Statistiques des catégories FR et EN
+    cat_counts_fr = {}
     for g in guides_list:
         cat = g.get("category", "Autres")
-        categories_counter[cat] = categories_counter.get(cat, 0) + 1
+        cat_counts_fr[cat] = cat_counts_fr.get(cat, 0) + 1
+    categories_fr = [{"name": cat, "count": count} for cat, count in sorted(cat_counts_fr.items())]
 
-    categories_stats = [{"name": cat, "count": count} for cat, count in sorted(categories_counter.items())]
+    cat_counts_en = {}
+    for g in en_guides_list:
+        cat = g.get("category", "Other")
+        cat_counts_en[cat] = cat_counts_en.get(cat, 0) + 1
+    categories_en = [{"name": cat, "count": count} for cat, count in sorted(cat_counts_en.items())]
 
-    # 4. Génération de docs/index.html
+    # 5. Page d'Accueil FR (docs/index.html) & EN (docs/en/index.html)
     index_template = env.get_template("index.html")
-    index_html = index_template.render(
+    index_fr_html = index_template.render(
         guides=guides_list,
-        categories=categories_stats,
+        categories=categories_fr,
         total_guides=len(guides_list),
         site_url=clean_base_url,
         canonical_path="/index.html",
         base_prefix=".",
         current_year=current_year,
+        lang="fr",
     )
     with open(DOCS_DIR / "index.html", "w", encoding="utf-8") as f:
-        f.write(index_html)
-    logger.info("Page d'accueil générée : docs/index.html")
+        f.write(index_fr_html)
 
-    # 5. Génération de docs/mentions-legales.html
+    index_en_html = index_template.render(
+        guides=en_guides_list,
+        categories=categories_en,
+        total_guides=len(en_guides_list),
+        site_url=clean_base_url,
+        canonical_path="/en/index.html",
+        base_prefix="..",
+        current_year=current_year,
+        lang="en",
+    )
+    with open(docs_en_dir / "index.html", "w", encoding="utf-8") as f:
+        f.write(index_en_html)
+
+    # 6. Mentions Légales FR (docs/mentions-legales.html) & EN (docs/en/mentions-legales.html)
     mentions_template = env.get_template("mentions_legales.html")
-    mentions_html = mentions_template.render(
+    mentions_fr_html = mentions_template.render(
         editor_name=editor_name,
         editor_siret=editor_siret,
         editor_address=editor_address,
@@ -573,10 +675,25 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         canonical_path="/mentions-legales.html",
         base_prefix=".",
         current_year=current_year,
+        lang="fr",
     )
     with open(DOCS_DIR / "mentions-legales.html", "w", encoding="utf-8") as f:
-        f.write(mentions_html)
-    logger.info("Page mentions légales générée : docs/mentions-legales.html")
+        f.write(mentions_fr_html)
+
+    mentions_en_html = mentions_template.render(
+        editor_name=editor_name,
+        editor_siret=editor_siret,
+        editor_address=editor_address,
+        editor_email=editor_email,
+        site_url=clean_base_url,
+        canonical_path="/en/mentions-legales.html",
+        base_prefix="..",
+        current_year=current_year,
+        lang="en",
+    )
+    with open(docs_en_dir / "mentions-legales.html", "w", encoding="utf-8") as f:
+        f.write(mentions_en_html)
+    logger.info("Pages mentions légales générées (FR et EN).")
 
     # 6. Génération de docs/sitemap.xml
     sitemap_template = env.get_template("sitemap.xml")
@@ -647,9 +764,13 @@ def run_agent_engine():
     indexnow_key = os.getenv("INDEXNOW_KEY", "7b9d64f028e14674a9844c3569bf12a1")
     ensure_indexnow_key_file(str(DOCS_DIR), indexnow_key)
 
-    urls_to_ping = [f"{site_base_url.rstrip('/')}/index.html"]
+    urls_to_ping = [
+        f"{site_base_url.rstrip('/')}/index.html",
+        f"{site_base_url.rstrip('/')}/en/index.html",
+    ]
     for slug in added_slugs:
         urls_to_ping.append(f"{site_base_url.rstrip('/')}/guides/{slug}.html")
+        urls_to_ping.append(f"{site_base_url.rstrip('/')}/en/guides/{slug}.html")
 
     ping_indexnow(site_base_url, urls_to_ping, indexnow_key)
 

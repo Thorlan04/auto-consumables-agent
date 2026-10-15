@@ -18,9 +18,9 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Kit de nettoyage Philips Airfryer** | `Réf. OEM adaptable` | Selon le besoin | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21) |
-| **Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche)** | `Réf. OEM adaptable` | Selon le besoin (achat initial ou complémentaire) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21) |
-| **Papier sulfurisé perforé pour Airfryer** | `Réf. OEM adaptable` | À chaque utilisation | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21) |
+| **Kit de nettoyage Philips Airfryer** | `OEM compatible` | Selon le besoin | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21) |
+| **Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche)** | `OEM compatible` | Selon le besoin (achat initial ou complémentaire) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21) |
+| **Papier sulfurisé perforé pour Airfryer** | `OEM compatible` | À chaque utilisation | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

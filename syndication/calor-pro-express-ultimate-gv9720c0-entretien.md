@@ -18,9 +18,9 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Collecteur de calcaire Calor (Pièce de rechange)** | `Réf. OEM adaptable` | À nettoyer régulièrement (chaque mois ou dès que le voyant s'allume). À remplacer si endommagé. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21) |
-| **Eau déminéralisée ou déionisée** | `Réf. OEM adaptable` | À utiliser en complément ou exclusivement si votre eau du robinet est très calcaire. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21) |
-| **Bâtonnet de nettoyage pour semelle de fer** | `Réf. OEM adaptable` | Ponctuellement, dès que la semelle présente des traces ou colle aux tissus. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21) |
+| **Collecteur de calcaire Calor (Pièce de rechange)** | `OEM compatible` | À nettoyer régulièrement (chaque mois ou dès que le voyant s'allume). À remplacer si endommagé. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21) |
+| **Eau déminéralisée ou déionisée** | `OEM compatible` | À utiliser en complément ou exclusivement si votre eau du robinet est très calcaire. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21) |
+| **Bâtonnet de nettoyage pour semelle de fer** | `OEM compatible` | Ponctuellement, dès que la semelle présente des traces ou colle aux tissus. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

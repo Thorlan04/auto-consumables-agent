@@ -18,10 +18,10 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Paire de Rouleaux Brosses DuoRubber en Caoutchouc** | `Réf. OEM adaptable` | Remplacement tous les 6 à 12 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21) |
-| **Filtre à Air E11 Lavable pour Bac à Poussière** | `Réf. OEM adaptable` | Tous les 3 à 6 mois (lavage chaque semaine) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21) |
-| **Lingettes Serpillières Vibrantes VibraRise** | `Réf. OEM adaptable` | Remplacement tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21) |
-| **Sacs à Poussière Filtrants 2,5 L pour Station RockDock** | `Réf. OEM adaptable` | Tous les 1 à 2 mois par sac | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21) |
+| **Paire de Rouleaux Brosses DuoRubber en Caoutchouc** | `OEM compatible` | Remplacement tous les 6 à 12 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21) |
+| **Filtre à Air E11 Lavable pour Bac à Poussière** | `OEM compatible` | Tous les 3 à 6 mois (lavage chaque semaine) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21) |
+| **Lingettes Serpillières Vibrantes VibraRise** | `OEM compatible` | Remplacement tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21) |
+| **Sacs à Poussière Filtrants 2,5 L pour Station RockDock** | `OEM compatible` | Tous les 1 à 2 mois par sac | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

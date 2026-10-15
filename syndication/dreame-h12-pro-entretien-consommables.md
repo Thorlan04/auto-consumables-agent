@@ -18,9 +18,9 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Brosse Rouleau** | `Réf. OEM adaptable` | Tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21) |
-| **Filtre HEPA** | `Réf. OEM adaptable` | Tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21) |
-| **Solution de nettoyage Dreame** | `Réf. OEM adaptable` | Selon l'utilisation | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21) |
+| **Brosse Rouleau** | `OEM compatible` | Tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21) |
+| **Filtre HEPA** | `OEM compatible` | Tous les 3 à 6 mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21) |
+| **Solution de nettoyage Dreame** | `OEM compatible` | Selon l'utilisation | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

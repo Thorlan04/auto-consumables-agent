@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ lang | default('fr') }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Guides Consommables & Entretien Appareils Maison{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}Guides pratiques d'entretien courant, filtres de remplacement et pièces d'usure pour électroménager et appareils domestiques.{% endblock %}">
+    <title>{% block title %}{% if lang == 'en' %}Appliance Consumables & Maintenance Guides | AutoConsumables{% else %}Guides Consommables & Entretien Appareils Maison | AutoConsommables.fr{% endif %}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{% if lang == 'en' %}Practical maintenance guides, genuine replacement filters, brushes and wear parts for home appliances.{% else %}Guides pratiques d'entretien courant, filtres de remplacement et pièces d'usure pour électroménager et appareils domestiques.{% endif %}{% endblock %}">
     <link rel="canonical" href="{{ site_url }}{{ canonical_path }}">
+    <link rel="alternate" hreflang="fr" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
+    <link rel="alternate" hreflang="en" href="{{ site_url }}{% if '/en/' not in canonical_path %}/en{{ canonical_path }}{% else %}{{ canonical_path }}{% endif %}">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Réseaux Sociaux -->
@@ -312,27 +315,48 @@
     {% block head_extra %}{% endblock %}
 </head>
 <body>
-    <!-- 1. Bandeau Légal Obligatoire DGCCRF & Amazon Partenaires -->
+    <!-- 1. Bandeau Légal Obligatoire DGCCRF (FR) & FTC / Amazon Associates (EN/US) -->
     <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
         <div class="container">
+            {% if lang == 'en' %}
+            <strong>Transparency Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases (#AffiliateLink). Routine maintenance and wear-part guides are provided for informational purposes only.
+            {% else %}
             <strong>Transparence :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant fournis à titre indicatif.
+            {% endif %}
         </div>
     </aside>
 
-    <!-- Header Principal -->
+    <!-- Header Principal avec Sélecteur de Langue -->
     <header>
         <div class="container header-content">
             <a href="{{ base_prefix }}/index.html" class="site-logo">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                 </svg>
-                <span>AutoConsommables</span>.fr
+                <span>AutoConsumables</span>{% if lang == 'en' %}.com{% else %}.fr{% endif %}
             </a>
-            <nav aria-label="Menu principal">
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
+                    {% if lang == 'en' %}
+                    <li><a href="{{ base_prefix }}/index.html">Guides</a></li>
+                    <li><a href="{{ base_prefix }}/mentions-legales.html">Legal & Disclosure</a></li>
+                    {% else %}
                     <li><a href="{{ base_prefix }}/index.html">Guides d'Entretien</a></li>
                     <li><a href="{{ base_prefix }}/mentions-legales.html">Mentions Légales</a></li>
+                    {% endif %}
                 </ul>
+                <!-- Sélecteur de Langue Rapide -->
+                <div class="lang-selector" style="font-size: 0.85rem; font-weight: 700; border: 1px solid var(--border-color); padding: 0.25rem 0.6rem; border-radius: 9999px; background: #ffffff;">
+                    {% if lang == 'en' %}
+                    <a href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}" title="Passer en Français" style="color: #64748b;">FR 🇫🇷</a>
+                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
+                    <strong style="color: var(--primary);">EN 🇺🇸</strong>
+                    {% else %}
+                    <strong style="color: var(--primary);">FR 🇫🇷</strong>
+                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
+                    <a href="{{ site_url }}{% if '/en/' not in canonical_path %}/en{{ canonical_path }}{% else %}{{ canonical_path }}{% endif %}" title="Switch to English (US/UK)" style="color: #64748b;">EN 🇺🇸</a>
+                    {% endif %}
+                </div>
             </nav>
         </div>
     </header>
@@ -342,38 +366,55 @@
         {% block content %}{% endblock %}
     </main>
 
-    <!-- Pied de Page Conforme LCEN / RGPD -->
+    <!-- Pied de Page Conforme LCEN / FTC / RGPD -->
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>AutoConsommables.fr</h3>
-                    <p>Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.</p>
+                    <h3>AutoConsumables{% if lang == 'en' %}.com{% else %}.fr{% endif %}</h3>
+                    <p>
+                        {% if lang == 'en' %}
+                        Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.
+                        {% else %}
+                        Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.
+                        {% endif %}
+                    </p>
                     <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
+                        {% if lang == 'en' %}
+                        Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.
+                        {% else %}
                         Site statique à zéro cookie tiers et zéro tracker, hébergé sur GitHub Pages (Microsoft Azure infrastructure).
+                        {% endif %}
                     </p>
                 </div>
                 <div class="footer-col">
-                    <h3>Catégories Populaires</h3>
+                    <h3>{% if lang == 'en' %}Popular Categories{% else %}Catégories Populaires{% endif %}</h3>
                     <ul>
+                        {% if lang == 'en' %}
+                        <li><a href="{{ base_prefix }}/index.html?cat=Wet+and+Dry+Vacuums">Wet & Dry Vacuums</a></li>
+                        <li><a href="{{ base_prefix }}/index.html?cat=Bean-to-Cup+Coffee+Machines">Espresso Machines</a></li>
+                        <li><a href="{{ base_prefix }}/index.html?cat=Robot+Vacuums">Robot Vacuums</a></li>
+                        <li><a href="{{ base_prefix }}/index.html?cat=Air+Fryers">Air Fryers</a></li>
+                        {% else %}
                         <li><a href="{{ base_prefix }}/index.html?cat=Aspirateurs+Laveurs">Aspirateurs Laveurs</a></li>
                         <li><a href="{{ base_prefix }}/index.html?cat=Machines+à+Café+à+Grains">Machines à Café à Grains</a></li>
                         <li><a href="{{ base_prefix }}/index.html?cat=Robots+Aspirateurs">Robots Aspirateurs</a></li>
                         <li><a href="{{ base_prefix }}/index.html?cat=Friteuses+sans+Huile+(Air+Fryer)">Air Fryers</a></li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Informations Légales</h3>
+                    <h3>{% if lang == 'en' %}Legal & Disclosure{% else %}Informations Légales{% endif %}</h3>
                     <ul>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html">Mentions Légales & CGU</a></li>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
-                        <li><a href="{{ base_prefix }}/sitemap.xml">Plan du Site (Sitemap)</a></li>
+                        <li><a href="{{ base_prefix }}/mentions-legales.html">{% if lang == 'en' %}Terms & Legal Notice{% else %}Mentions Légales & CGU{% endif %}</a></li>
+                        <li><a href="{{ base_prefix }}/mentions-legales.html#affiliation">{% if lang == 'en' %}Amazon Affiliate Disclosure{% else %}Divulgation Partenaire Amazon{% endif %}</a></li>
+                        <li><a href="{{ base_prefix }}/mentions-legales.html#rgpd">{% if lang == 'en' %}Zero-Cookie Privacy Policy{% else %}Politique de Confidentialité (0 Cookie){% endif %}</a></li>
+                        <li><a href="{{ site_url }}/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ current_year }} AutoConsommables.fr — Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.</p>
+                <p>&copy; {{ current_year }} AutoConsumables — {% if lang == 'en' %}All rights reserved. Routine maintenance guides for preventive care.{% else %}Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.{% endif %}</p>
             </div>
         </div>
     </footer>

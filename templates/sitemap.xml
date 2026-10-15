@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Accueil FR & EN -->
     <url>
         <loc>{{ site_url }}/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/index.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>{{ site_url }}/en/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/index.html"/>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Mentions Légales / Disclosure FR & EN -->
+    <url>
         <loc>{{ site_url }}/mentions-legales.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/mentions-legales.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
+    <url>
+        <loc>{{ site_url }}/en/mentions-legales.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/mentions-legales.html"/>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Guides FR & EN -->
     {% for guide in guides %}
     <url>
         <loc>{{ site_url }}/guides/{{ guide.slug }}.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{{ site_url }}/en/guides/{{ guide.slug }}.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/guides/{{ guide.slug }}.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

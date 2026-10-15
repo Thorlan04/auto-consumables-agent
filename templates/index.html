@@ -171,9 +171,13 @@
 <!-- Section Héro avec Recherche Directe -->
 <section class="hero">
     <div class="container">
-        <h1>Prolongez la vie de vos appareils ménagers</h1>
+        <h1>{% if lang == 'en' %}Extend the Life of Your Home Appliances{% else %}Prolongez la vie de vos appareils ménagers{% endif %}</h1>
         <p>
+            {% if lang == 'en' %}
+            Genuine HEPA filters, descaling cartridges, roller brushes, seals and maintenance kits: find certified replacement wear parts and clear routine warning lights in 2 minutes.
+            {% else %}
             Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d'entretien : retrouvez les pièces d'usure certifiées et résolvez les voyants d'alerte en 2 minutes.
+            {% endif %}
         </p>
 
         <div class="search-box-wrapper">
@@ -184,12 +188,12 @@
             <input type="text"
                    id="guideSearch"
                    class="search-input"
-                   placeholder="Rechercher une marque, un modèle (ex: Tineco S5, Delonghi, Bissell, Ninja...)"
+                   placeholder="{% if lang == 'en' %}Search by brand, exact model or PN (e.g. Dyson V15, Roborock Qrevo, Ninja SL400EU...){% else %}Rechercher une marque, un modèle (ex: Tineco S7, Delonghi Rivelia, Ninja AF400EU...){% endif %}"
                    aria-label="Recherche d'un guide par marque ou appareil">
         </div>
 
         <div class="category-filters" id="categoryFilters">
-            <button class="filter-pill active" data-category="all">Toutes les catégories ({{ total_guides }})</button>
+            <button class="filter-pill active" data-category="all">{% if lang == 'en' %}All Categories{% else %}Toutes les catégories{% endif %} ({{ total_guides }})</button>
             {% for cat in categories %}
             <button class="filter-pill" data-category="{{ cat.name }}">{{ cat.name }} ({{ cat.count }})</button>
             {% endfor %}
@@ -200,8 +204,8 @@
 <div class="container">
     <!-- Message Aucun Résultat -->
     <div id="noResults" class="no-results">
-        <h3>Aucun appareil ne correspond à votre recherche</h3>
-        <p>Essayez un mot-clé plus court comme la marque (ex: <em>Delonghi</em>, <em>Tineco</em>, <em>Roborock</em>) ou changez de catégorie.</p>
+        <h3>{% if lang == 'en' %}No appliances match your search{% else %}Aucun appareil ne correspond à votre recherche{% endif %}</h3>
+        <p>{% if lang == 'en' %}Try a shorter keyword like the brand (e.g., <em>Ninja</em>, <em>Dyson</em>, <em>Roborock</em>) or clear your category filter.{% else %}Essayez un mot-clé plus court comme la marque (ex: <em>Delonghi</em>, <em>Tineco</em>, <em>Roborock</em>) ou changez de catégorie.{% endif %}</p>
     </div>
 
     <!-- Grille des Guides -->
@@ -220,20 +224,20 @@
             <p>{{ guide.meta_description }}</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>{% if lang == 'en' %}Essential wear parts covered:{% else %}Pièces & Consommables traités :{% endif %}</strong>
                 <ul>
                     {% for c in guide.consumables[:3] %}
-                    <li>{{ c.name }}</li>
+                    <li>{{ c.name }} <span style="font-size: 0.75rem; color: #94a3b8;">({{ c.part_number }})</span></li>
                     {% endfor %}
                 </ul>
             </div>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    {{ guide.common_codes | length }} codes voyants expliqués
+                    {{ guide.common_codes | length }} {% if lang == 'en' %}error codes explained{% else %}codes voyants expliqués{% endif %}
                 </span>
                 <a href="{{ base_prefix }}/guides/{{ guide.slug }}.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-                    Voir la fiche &rarr;
+                    {% if lang == 'en' %}View Guide &rarr;{% else %}Voir la fiche &rarr;{% endif %}
                 </a>
             </div>
         </article>

@@ -18,9 +18,9 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif)** | `Réf. OEM adaptable` | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
-| **Chiffon microfibre sec et doux** | `Réf. OEM adaptable` | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
-| **Coton-tige pour capteur PM2.5** | `Réf. OEM adaptable` | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
+| **Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif)** | `OEM compatible` | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
+| **Chiffon microfibre sec et doux** | `OEM compatible` | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
+| **Coton-tige pour capteur PM2.5** | `OEM compatible` | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

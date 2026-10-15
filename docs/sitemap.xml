@@ -1,79 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Accueil FR & EN -->
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/index.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/index.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Mentions Légales / Disclosure FR & EN -->
+    <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Guides FR & EN -->
+    <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"/>
+        <lastmod>2026-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"/>
         <lastmod>2026-10-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

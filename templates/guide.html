@@ -169,7 +169,7 @@
 <div class="container">
     <!-- Fil d'Ariane -->
     <nav class="breadcrumb" aria-label="Fil d'ariane">
-        <a href="{{ base_prefix }}/index.html">Accueil</a>
+        <a href="{{ base_prefix }}/index.html">{% if lang == 'en' %}Home{% else %}Accueil{% endif %}</a>
         <span>&rsaquo;</span>
         <a href="{{ base_prefix }}/index.html?cat={{ guide.category | urlencode }}">{{ guide.category }}</a>
         <span>&rsaquo;</span>
@@ -184,18 +184,23 @@
         </div>
         <h1>{{ guide.title }}</h1>
         <div class="guide-meta">
-            <span><strong>Modèle :</strong> {{ guide.model }}</span>
+            <span><strong>{% if lang == 'en' %}Model:{% else %}Modèle :{% endif %}</strong> {{ guide.model }}</span>
             <span>&bull;</span>
-            <span><strong>Entretien courant :</strong> Pièces d'usure amovibles sans outillage</span>
+            <span><strong>{% if lang == 'en' %}Routine care:{% else %}Entretien courant :{% endif %}</strong> {% if lang == 'en' %}Tool-free replaceable wear parts{% else %}Pièces d'usure amovibles sans outillage{% endif %}</span>
         </div>
     </header>
 
-    <!-- Avertissement de Sécurité Strict France / UE -->
+    <!-- Avertissement de Sécurité Strict France / UE / USA -->
     <div class="security-notice" role="alert">
-        <strong>Consignes de Sécurité & Responsabilité :</strong>
+        <strong>{% if lang == 'en' %}Safety & Disclaimers:{% else %}Consignes de Sécurité & Responsabilité :{% endif %}</strong>
+        {% if lang == 'en' %}
+        Always unplug the appliance and allow it to cool down completely before performing any maintenance.
+        This guide strictly covers routine care, simple cleaning, and tool-free consumable replacement. For internal electrical issues, contact a certified technician.
+        {% else %}
         Toujours débrancher électriquement l'appareil et attendre son complet refroidissement avant toute manipulation.
         Ce guide se limite strictement à l'entretien usuel, au remplacement de filtres/accessoires amovibles sans tournevis et au nettoyage externe.
         Pour toute anomalie électrique interne ou panne matérielle complexe, faites appel à un réparateur professionnel agréé.
+        {% endif %}
     </div>
 
     <!-- 1. Tableau Monétisé des Consommables Indispensables (Zéro 404) -->
@@ -206,21 +211,25 @@
                 <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
                 <line x1="12" y1="22.08" x2="12" y2="12"></line>
             </svg>
-            Consommables & Pièces d'Usure Recommandées
+            {% if lang == 'en' %}Certified Wear Parts & Replacement Consumables{% else %}Consommables & Pièces d'Usure Recommandées{% endif %}
         </h2>
         <p style="margin-bottom: 1rem; color: var(--text-muted);">
+            {% if lang == 'en' %}
+            Peak performance and long-term durability of your <strong>{{ guide.brand }} {{ guide.model }}</strong> rely on periodic replacement of these essential wear parts. Direct links point to verified dynamic search queries on Amazon:
+            {% else %}
             L'efficacité d'origine et la longévité de votre <strong>{{ guide.brand }} {{ guide.model }}</strong> reposent sur le remplacement périodique de ces 3 à 4 pièces d'usure. Les liens ci-dessous redirigent vers des requêtes de recherche Amazon officielles vérifiées :
+            {% endif %}
         </p>
 
         <div class="table-responsive">
             <table>
                 <thead>
                     <tr>
-                        <th style="min-width: 190px;">Pièce / Consommable</th>
-                        <th style="min-width: 130px;">Réf. Constructeur (PN)</th>
-                        <th style="min-width: 140px;">Fréquence d'Entretien</th>
-                        <th style="min-width: 240px;">Pourquoi est-ce indispensable ?</th>
-                        <th style="min-width: 160px; text-align: center;">Disponibilité</th>
+                        <th style="min-width: 190px;">{% if lang == 'en' %}Part / Accessory{% else %}Pièce / Consommable{% endif %}</th>
+                        <th style="min-width: 130px;">{% if lang == 'en' %}Part Number (PN){% else %}Réf. Constructeur (PN){% endif %}</th>
+                        <th style="min-width: 140px;">{% if lang == 'en' %}Replacement Interval{% else %}Fréquence d'Entretien{% endif %}</th>
+                        <th style="min-width: 240px;">{% if lang == 'en' %}Why Replace?{% else %}Pourquoi est-ce indispensable ?{% endif %}</th>
+                        <th style="min-width: 160px; text-align: center;">{% if lang == 'en' %}Availability{% else %}Disponibilité{% endif %}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -231,7 +240,7 @@
                         </td>
                         <td>
                             <code style="background: #f1f5f9; padding: 0.2rem 0.45rem; border-radius: 4px; font-size: 0.8rem; font-weight: 700; color: #0f766e; border: 1px solid #cbd5e1;">
-                                {{ item.part_number if item.part_number else "Réf. OEM adaptable" }}
+                                {{ item.part_number if item.part_number else "OEM compatible" }}
                             </code>
                         </td>
                         <td>
@@ -246,8 +255,8 @@
                                target="_blank"
                                class="btn btn-amazon"
                                style="font-size: 0.85rem; padding: 0.5rem 0.9rem;"
-                               aria-label="Vérifier le prix et la disponibilité pour {{ item.name }} sur Amazon">
-                                Voir sur Amazon &rarr;
+                               aria-label="Check price and availability for {{ item.name }} on Amazon">
+                                {% if lang == 'en' %}Check on Amazon &rarr;{% else %}Voir sur Amazon &rarr;{% endif %}
                             </a>
                         </td>
                     </tr>
@@ -265,10 +274,14 @@
                 <line x1="12" y1="8" x2="12" y2="12"></line>
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
-            Voyants d'Alerte & Codes d'Entretien Courant
+            {% if lang == 'en' %}Error Codes & Routine Maintenance Lights{% else %}Voyants d'Alerte & Codes d'Entretien Courant{% endif %}
         </h2>
         <p style="margin-bottom: 1.25rem; color: var(--text-muted);">
+            {% if lang == 'en' %}
+            Most alert icons and error messages on the {{ guide.brand }} {{ guide.model }} screen do not indicate fatal breakdowns, but simple routine maintenance needs:
+            {% else %}
             La majorité des signaux lumineux ou messages sur l'écran du {{ guide.brand }} {{ guide.model }} n'indiquent pas une panne grave, mais un simple besoin d'entretien de premier niveau :
+            {% endif %}
         </p>
 
         {% for code in guide.common_codes %}
@@ -276,9 +289,9 @@
             <h4>
                 <span>&#9888;</span> {{ code.code }}
             </h4>
-            <p><strong>Cause courante :</strong> {{ code.meaning }}</p>
+            <p><strong>{% if lang == 'en' %}Common Cause:{% else %}Cause courante :{% endif %}</strong> {{ code.meaning }}</p>
             <div class="error-solution">
-                <strong>Procédure de résolution sans outil :</strong> {{ code.solution }}
+                <strong>{% if lang == 'en' %}Tool-Free Fix:{% else %}Procédure de résolution sans outil :{% endif %}</strong> {{ code.solution }}
             </div>
         </div>
         {% endfor %}
@@ -292,7 +305,7 @@
                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                 <line x1="12" y1="17" x2="12.01" y2="17"></line>
             </svg>
-            Questions Fréquentes sur le {{ guide.brand }} {{ guide.model }}
+            {% if lang == 'en' %}Frequently Asked Questions ({{ guide.brand }} {{ guide.model }}){% else %}Questions Fréquentes sur le {{ guide.brand }} {{ guide.model }}{% endif %}
         </h2>
 
         {% for item in guide.faq %}
@@ -308,7 +321,7 @@
     <!-- Bouton de retour -->
     <div style="margin-top: 3rem; text-align: center;">
         <a href="{{ base_prefix }}/index.html" class="btn btn-secondary">
-            &larr; Retour à l'ensemble des guides d'appareils
+            {% if lang == 'en' %}&larr; Back to all appliance guides{% else %}&larr; Retour à l'ensemble des guides d'appareils{% endif %}
         </a>
     </div>
 </div>

@@ -18,10 +18,10 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Rouleau Brosse Microfibre Multi-surfaces** | `Réf. OEM adaptable` | Tous les 3 à 6 mois selon fréquence d'usage | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21) |
-| **Filtre à Air Sec HEPA Lavable** | `Réf. OEM adaptable` | Remplacement tous les 2 à 3 mois (lavage hebdo) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21) |
-| **Solution Nettoyante Désodorisante Multi-surfaces** | `Réf. OEM adaptable` | Recharge régulière (1 bouchon par réservoir) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21) |
-| **Brosse de Nettoyage et Outil de Coupe** | `Réf. OEM adaptable` | En cas de perte de l'accessoire d'origine | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21) |
+| **Rouleau Brosse Microfibre Multi-surfaces** | `OEM compatible` | Tous les 3 à 6 mois selon fréquence d'usage | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21) |
+| **Filtre à Air Sec HEPA Lavable** | `OEM compatible` | Remplacement tous les 2 à 3 mois (lavage hebdo) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21) |
+| **Solution Nettoyante Désodorisante Multi-surfaces** | `OEM compatible` | Recharge régulière (1 bouchon par réservoir) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21) |
+| **Brosse de Nettoyage et Outil de Coupe** | `OEM compatible` | En cas de perte de l'accessoire d'origine | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

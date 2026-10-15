@@ -18,10 +18,10 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Cartouche Filtrante Anticalcaire pour Réservoir d'Eau** | `Réf. OEM adaptable` | Tous les 2 mois (ou 50 litres d'eau) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21) |
-| **Détartrant Naturel EcoDecalk (500 ml)** | `Réf. OEM adaptable` | Tous les 2 à 3 mois selon voyant de détartrage | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21) |
-| **Tube de Graisse Alimentaire Silicone pour Infuseur** | `Réf. OEM adaptable` | Tous les 4 à 6 mois après rinçage approfondi | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21) |
-| **Kit Joints Toriques de Remplacement Infuseur** | `Réf. OEM adaptable` | Tous les 12 à 24 mois en cas de baisse de pression | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21) |
+| **Cartouche Filtrante Anticalcaire pour Réservoir d'Eau** | `OEM compatible` | Tous les 2 mois (ou 50 litres d'eau) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21) |
+| **Détartrant Naturel EcoDecalk (500 ml)** | `OEM compatible` | Tous les 2 à 3 mois selon voyant de détartrage | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21) |
+| **Tube de Graisse Alimentaire Silicone pour Infuseur** | `OEM compatible` | Tous les 4 à 6 mois après rinçage approfondi | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21) |
+| **Kit Joints Toriques de Remplacement Infuseur** | `OEM compatible` | Tous les 12 à 24 mois en cas de baisse de pression | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

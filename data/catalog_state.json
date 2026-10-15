@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-15T14:06:18.290832+00:00",
-  "total_guides": 11,
+  "last_updated": "2026-10-15T14:25:24.083007+00:00",
+  "total_guides": 13,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -715,6 +715,152 @@
         {
           "question": "À quelle fréquence dois-je nettoyer le groupe infuseur de ma Rivelia ?",
           "answer": "Le groupe infuseur doit être rincé à l'eau courante au moins une fois par semaine. Retirez-le, rincez-le abondamment sans savon, et laissez-le sécher à l'air libre avant de le remettre en place."
+        }
+      ]
+    },
+    {
+      "slug": "roborock-qrevo-maxv-qrmv01-00-entretien",
+      "title": "Entretien Roborock Qrevo MaxV (QRMV01-00) : Consommables et Codes Erreurs",
+      "brand": "Roborock",
+      "model": "Qrevo MaxV (QRMV01-00)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet pour l'entretien de votre Roborock Qrevo MaxV (QRMV01-00). Découvrez les consommables essentiels et les solutions aux codes erreurs pour une performance optimale.",
+      "common_codes": [
+        {
+          "code": "Voyant \"Bac à poussière plein\"",
+          "meaning": "Le bac à poussière est saturé ou le capteur est obstrué.",
+          "solution": "Retirez le bac à poussière, videz-le complètement et nettoyez le filtre. Vérifiez qu'aucun débris ne bloque le conduit d'aspiration ou le capteur."
+        },
+        {
+          "code": "Alerte \"Brosse principale bloquée\"",
+          "meaning": "Des cheveux, fils ou débris sont enroulés autour de la brosse principale ou l'axe est obstrué.",
+          "solution": "Retournez le robot. Retirez le couvercle de la brosse principale et la brosse. Déroulez les cheveux ou retirez les débris. Réinstallez la brosse et le couvercle correctement."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau sale plein\"",
+          "meaning": "Le réservoir d'eau sale de la station est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station d'accueil. Videz-le, rincez-le si nécessaire, puis replacez-le fermement dans son logement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois",
+          "why_replace": "Une brosse usée ou endommagée réduit l'efficacité d'aspiration et de nettoyage, pouvant laisser des débris ou rayer les sols.",
+          "search_keywords": "Roborock Qrevo MaxV QRMV01-00 brosse principale caoutchouc, brosse rouleau Roborock Qrevo MaxV",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse latérale",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Des poils tordus ou cassés diminuent la capacité du robot à collecter la poussière dans les coins et le long des murs.",
+          "search_keywords": "Roborock Qrevo MaxV QRMV01-00 brosse latérale, brosse de coin Roborock Qrevo MaxV",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois",
+          "why_replace": "Un filtre encrassé réduit la puissance d'aspiration, peut entraîner des odeurs et rejeter des allergènes dans l'air.",
+          "search_keywords": "Roborock Qrevo MaxV QRMV01-00 filtre HEPA, filtre à poussière Roborock Qrevo MaxV",
+          "affiliate_url": null
+        },
+        {
+          "name": "Lingettes de nettoyage (Mop Pads)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (ou selon usure)",
+          "why_replace": "Des lingettes usées ou déchirées nettoient moins bien, peuvent laisser des traces et affecter la qualité du lavage des sols.",
+          "search_keywords": "Roborock Qrevo MaxV QRMV01-00 lingettes mop pads, patins de lavage Roborock Qrevo MaxV",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le voyant d'entretien du filtre sur mon Roborock Qrevo MaxV ?",
+          "answer": "Après avoir nettoyé ou remplacé le filtre, ouvrez l'application Roborock, allez dans les paramètres du robot, puis dans 'Maintenance et Usure des pièces', et réinitialisez le compteur pour le filtre HEPA."
+        },
+        {
+          "question": "Puis-je utiliser des détergents non spécifiques avec mon Roborock Qrevo MaxV ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement la solution de nettoyage Roborock officielle ou de l'eau claire. L'utilisation de détergents non adaptés peut endommager le système de pulvérisation, les réservoirs ou les sols."
+        },
+        {
+          "question": "Mon Roborock Qrevo MaxV ne retourne plus à sa station, que faire ?",
+          "answer": "Vérifiez que la station est branchée et qu'il n'y a pas d'obstacles autour d'elle (1 mètre devant, 0.5 mètre de chaque côté). Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Redémarrez le robot et la station si nécessaire."
+        }
+      ]
+    },
+    {
+      "slug": "philips-lattego-serie-5400-ep5447-90-entretien",
+      "title": "Entretien Philips LatteGo Série 5400 (EP5447/90) : Détartrage, Filtres & Pièces",
+      "brand": "Philips",
+      "model": "LatteGo Série 5400 (EP5447/90)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Optimisez la durée de vie de votre Philips LatteGo Série 5400 (EP5447/90) avec nos conseils d'entretien, les références des consommables et la résolution des alertes courantes.",
+      "common_codes": [
+        {
+          "code": "Voyant \"CALC/CLEAN\" allumé",
+          "meaning": "La machine indique qu'un cycle de détartrage est nécessaire pour maintenir ses performances et éviter l'accumulation de calcaire.",
+          "solution": "Lancez le programme de détartrage en suivant les instructions affichées sur l'écran de la machine. Utilisez un détartrant doux compatible Philips. Le processus est guidé pas à pas et ne nécessite aucun outil."
+        },
+        {
+          "code": "Voyant \"Groupe café\" clignotant",
+          "meaning": "Le groupe café est sale, mal inséré ou nécessite un nettoyage et une lubrification.",
+          "solution": "Éteignez la machine. Retirez le groupe café, rincez-le abondamment à l'eau tiède (sans savon) et laissez-le sécher à l'air libre. Nettoyez l'intérieur de la machine. Lubrifiez le groupe café aux points indiqués avant de le réinsérer correctement jusqu'au clic."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau\" vide",
+          "meaning": "Le réservoir d'eau est vide ou mal positionné, empêchant la machine de fonctionner.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX, puis replacez-le fermement dans son logement jusqu'à ce qu'il s'enclenche correctement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau AquaClean",
+          "part_number": "CA6903/10",
+          "frequency": "Tous les 3 mois (ou 625 tasses)",
+          "why_replace": "Empêche l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine en réduisant la fréquence des détartrages.",
+          "search_keywords": "Philips LatteGo 5400 EP5447/90 filtre AquaClean, CA6903/10, filtre à eau Philips 5400",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détartrant Philips (liquide)",
+          "part_number": "CA6700/10",
+          "frequency": "Lorsque la machine l'indique (environ tous les 2-3 mois sans filtre AquaClean, 6-12 mois avec)",
+          "why_replace": "L'accumulation de calcaire obstrue les tuyaux, réduit la température du café et peut entraîner des pannes ou des fuites.",
+          "search_keywords": "Détartrant Philips CA6700/10, détartrant machine café Philips LatteGo 5400 EP5447/90",
+          "affiliate_url": null
+        },
+        {
+          "name": "Graisse pour groupe café",
+          "part_number": "HD5061/01",
+          "frequency": "Tous les 2 mois ou après chaque nettoyage complet",
+          "why_replace": "Une lubrification insuffisante peut rendre le groupe café difficile à manipuler, provoquer des grincements et endommager les pièces mobiles.",
+          "search_keywords": "Graisse groupe café Philips HD5061/01, lubrifiant Philips LatteGo 5400 EP5447/90",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage pour groupe café",
+          "part_number": "CA6704/10",
+          "frequency": "Une fois par mois ou toutes les 500 tasses",
+          "why_replace": "Élimine les résidus de café et les huiles grasses qui s'accumulent dans le groupe café, prévenant les obstructions et les altérations du goût.",
+          "search_keywords": "Pastilles nettoyage Philips CA6704/10, pastilles dégraissantes Philips LatteGo 5400 EP5447/90",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je nettoyer le système LatteGo de ma Philips Série 5400 ?",
+          "answer": "Le système LatteGo doit être rincé à l'eau après chaque utilisation. Pour un nettoyage en profondeur, vous pouvez le démonter et le laver au lave-vaisselle ou à la main quotidiennement."
+        },
+        {
+          "question": "Ma machine Philips LatteGo 5400 ne distribue plus de café, que faire ?",
+          "answer": "Vérifiez que le réservoir d'eau est plein et bien en place, que le bac à marc est vidé et que le groupe café est propre et correctement inséré. Si le voyant CALC/CLEAN est allumé, effectuez un détartrage."
+        },
+        {
+          "question": "Comment optimiser la durée de vie de ma machine à café Philips EP5447/90 ?",
+          "answer": "Utilisez un filtre AquaClean et remplacez-le tous les 3 mois, détartrez la machine dès que l'alerte apparaît, nettoyez et lubrifiez régulièrement le groupe café, et rincez le système LatteGo après chaque utilisation."
         }
       ]
     }

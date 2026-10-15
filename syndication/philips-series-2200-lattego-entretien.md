@@ -18,10 +18,10 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Cartouche Filtrante Anticalcaire AquaClean (CA6903)** | `Réf. OEM adaptable` | Tous les 3 mois (jusqu'à 5000 tasses sans détartrage) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21) |
-| **Pastilles Dégraissantes pour Circuit Café (CA6704)** | `Réf. OEM adaptable` | 1 fois par mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21) |
-| **Tube de Graisse Silicone Alimentaire pour Groupe Café** | `Réf. OEM adaptable` | Tous les 2 mois après rinçage à l'eau claire | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21) |
-| **Flacon Détartrant Spécial Machine à Café Philips (CA6700)** | `Réf. OEM adaptable` | Dès que le voyant 'Calc/Clean' s'allume | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=detartrant+philips+ca6700&tag=autoconsom-21) |
+| **Cartouche Filtrante Anticalcaire AquaClean (CA6903)** | `OEM compatible` | Tous les 3 mois (jusqu'à 5000 tasses sans détartrage) | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21) |
+| **Pastilles Dégraissantes pour Circuit Café (CA6704)** | `OEM compatible` | 1 fois par mois | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21) |
+| **Tube de Graisse Silicone Alimentaire pour Groupe Café** | `OEM compatible` | Tous les 2 mois après rinçage à l'eau claire | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21) |
+| **Flacon Détartrant Spécial Machine à Café Philips (CA6700)** | `OEM compatible` | Dès que le voyant 'Calc/Clean' s'allume | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=detartrant+philips+ca6700&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 

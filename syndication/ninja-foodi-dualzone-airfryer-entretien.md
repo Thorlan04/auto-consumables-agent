@@ -18,10 +18,10 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 | Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
 | :--- | :--- | :--- | :--- |
-| **Plaques Grilles Croustillantes Antiadhésives de Remplacement** | `Réf. OEM adaptable` | Tous les 12 à 18 mois en cas d'usure du revêtement céramique | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21) |
-| **Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire** | `Réf. OEM adaptable` | Consommable à usage unique pour chaque cuisson grasse | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21) |
-| **Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir** | `Réf. OEM adaptable` | Réutilisables sur plusieurs années | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21) |
-| **Pieds en Caoutchouc Silicone pour Grille de Cuisson** | `Réf. OEM adaptable` | En cas de perte ou durcissement lors des lavages | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21) |
+| **Plaques Grilles Croustillantes Antiadhésives de Remplacement** | `OEM compatible` | Tous les 12 à 18 mois en cas d'usure du revêtement céramique | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21) |
+| **Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire** | `OEM compatible` | Consommable à usage unique pour chaque cuisson grasse | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21) |
+| **Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir** | `OEM compatible` | Réutilisables sur plusieurs années | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21) |
+| **Pieds en Caoutchouc Silicone pour Grille de Cuisson** | `OEM compatible` | En cas de perte ou durcissement lors des lavages | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21) |
 
 ### 🔍 Analyse Technique des Pièces d'Usure
 
