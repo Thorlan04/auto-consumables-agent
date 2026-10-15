@@ -68,6 +68,23 @@ def ping_indexnow(site_base_url: str, url_list: List[str], indexnow_key: str = N
         return False
 
 
+def build_priority_ping_urls(site_base_url: str, added_slugs: List[str] = None) -> List[str]:
+    """Construit la liste prioritaire des URLs à soumettre à IndexNow (incluant les flux IA LLMs.txt et API)."""
+    base = site_base_url.rstrip("/")
+    urls = [
+        f"{base}/index.html",
+        f"{base}/en/index.html",
+        f"{base}/llms.txt",
+        f"{base}/llms-full.txt",
+        f"{base}/api/agents-catalog.json",
+    ]
+    if added_slugs:
+        for slug in added_slugs:
+            urls.append(f"{base}/guides/{slug}.html")
+            urls.append(f"{base}/en/guides/{slug}.html")
+    return urls
+
+
 if __name__ == "__main__":
-    test_urls = ["https://example.com/index.html"]
+    test_urls = build_priority_ping_urls("https://example.com")
     ping_indexnow("https://example.com", test_urls)

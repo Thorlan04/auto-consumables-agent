@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Auto-Consommables Guide & Store",
+  "name_for_model": "auto_consumables_catalog",
+  "description_for_human": "Trouve les consommables officiels, filtres, brosses et pièces d'usure pour électroménager avec liens d'achat Amazon vérifiés.",
+  "description_for_model": "Guide technique d'entretien, de pièces d'usure certifiées (filtres HEPA, brosses, cartouches anticalcaire) et de résolution de codes pannes pour appareils électroménagers (Roborock, Tineco, Ninja, De'Longhi, Philips, Dreame) avec liens d'achat affiliés vérifiés Amazon France et Global.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://thorlan04.github.io/auto-consumables-agent/.well-known/openapi.json"
+  },
+  "logo_url": "https://thorlan04.github.io/auto-consumables-agent/icons/icon-512x512.png",
+  "contact_email": "contact@autoconsommables.fr",
+  "legal_info_url": "https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html"
+}

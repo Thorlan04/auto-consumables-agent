@@ -33,9 +33,9 @@ except ImportError:
     pass
 
 try:
-    from indexnow_ping import ensure_indexnow_key_file, ping_indexnow
+    from indexnow_ping import build_priority_ping_urls, ensure_indexnow_key_file, ping_indexnow
 except ImportError:
-    from src.indexnow_ping import ensure_indexnow_key_file, ping_indexnow
+    from src.indexnow_ping import build_priority_ping_urls, ensure_indexnow_key_file, ping_indexnow
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("AgentEngine")
@@ -126,16 +126,19 @@ RÈGLE DE SÉCURITÉ ABSOLUE ET STRICTE :
 RÈGLE D'OR N°1 — CIBLAGE CHIRURGICAL DES RÉFÉRENCES EXACTES (2024 À 2026) :
 - INTERDICTION ABSOLUE de choisir des dénominations génériques ou des catégories vagues (ex: 'Aspirateur robot', 'Machine à café', 'Air Fryer').
 - Tu dois IMPÉRATIVEMENT sélectionner des modèles récents très populaires commercialisés entre 2024 et 2026 AVEC LEUR RÉFÉRENCE CONSTRUCTEUR EXACTE (SKU / Part Number complet).
-  Exemples de précision exigée :
-  * Tineco Floor One Switch S7 (FW210100EU)
+  Modèles de référence prioritaires à fort volume de recherche :
+  * Tineco Floor One Switch S7
+  * Ninja Foodi Dual Zone AF400EU
+  * Roborock S8 MaxV Ultra
+  * DeLonghi Magnifica Start ECAM 220.22.GB
+  * Philips Série 5400 EP5447/90
+  * Dreame H14 Pro
   * Ninja DoubleStack XL 9,5L (SL400EU)
-  * De'Longhi Rivelia (FEAM 44.55.B)
   * Roborock Qrevo Curv (QRC02-00)
   * Dreame X40 Ultra Complete
   * Breville Barista Touch Impress (BES881BSS)
   * Shark Stratos Cordless Pet Pro (IZ400EU / IZ400UK)
   * Dyson V15s Detect Submarine (SV47)
-  * Philips LatteGo Série 5400 (EP5447/90)
   * Calor Pro Express Vision (GV9820C0)
   * Levoit Core 400S Smart True HEPA
 
@@ -540,6 +543,260 @@ def generate_syndication_markdown(guide: dict, site_base_url: str, lang: str = "
 
 
 # ==============================================================================
+# Générateurs Standardisés LLMs.txt (GEO) & API JSON pour Agents IA
+# ==============================================================================
+
+def generate_llms_txt(catalog_data: dict, site_base_url: str) -> str:
+    """Génère docs/llms.txt respectant strictement la spécification LLMs.txt (GEO)."""
+    clean_base_url = site_base_url.rstrip("/")
+    guides_list = catalog_data.get("guides", [])
+
+    by_category: dict[str, list[dict]] = {}
+    for g in guides_list:
+        cat = g.get("category", "Autres Équipements")
+        by_category.setdefault(cat, []).append(g)
+
+    lines = [
+        "# Base Officielle des Consommables, Pièces d'Usure & Codes Entretien Appareils Domestiques (FR)",
+        "",
+        "> Catalogue technique structuré destiné aux assistants IA et moteurs de réponse. Contient les correspondances exactes de filtres, brosses, joints, cartouches et liens d'approvisionnement vérifiés sur Amazon.fr.",
+        "",
+        "## Documentation Complète & API pour Agents IA",
+        f"- [Catalogue Technique Exhaustif (Full Dump LLM)]({clean_base_url}/llms-full.txt): Base complète de tous les appareils, codes pannes et consommables avec liens affiliés directs vérifiés.",
+        f"- [API JSON Statique pour Agents Acheteurs]({clean_base_url}/api/agents-catalog.json): Flux JSON standardisé de tous les consommables avec références PN et URLs d'affiliation Amazon vérifiées.",
+        f"- [Spécification OpenAPI 3.0]({clean_base_url}/.well-known/openapi.json): Contrat d'API statique sans serveur pour Custom GPTs et agents d'achat autonomes.",
+        "",
+        "## Répertoire des Fiches d'Entretien par Catégorie",
+        "",
+    ]
+
+    for cat_name in sorted(by_category.keys()):
+        lines.append(f"### {cat_name}")
+        for guide in by_category[cat_name]:
+            slug = guide.get("slug")
+            brand = guide.get("brand")
+            model = guide.get("model")
+            lines.append(f"- [{brand} {model}]({clean_base_url}/guides/{slug}.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.")
+        lines.append("")
+
+    lines.extend([
+        "## Informations pour les Moteurs d'Inférence & Recherche IA",
+        "- Spécification : Standard mondial llms.txt (Generative Engine Optimization)",
+        f"- Source : {clean_base_url}",
+        "- Fréquence d'actualisation : Quotidienne via GitHub Actions",
+    ])
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: str) -> str:
+    """Génère docs/llms-full.txt contenant 100% des données techniques sans HTML pour ingestion directe."""
+    clean_base_url = site_base_url.rstrip("/")
+    now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    guides_list = catalog_data.get("guides", [])
+
+    lines = [
+        "# Base Complète des Pièces d'Usure, Consommables & Codes Entretien (FR)",
+        "",
+        "> Base de données technique exhaustive sans HTML destinée aux LLMs, agents d'achat autonomes et moteurs conversationnels (ChatGPT, Claude, Perplexity, Gemini). Permet l'ingestion totale des références sans parsing.",
+        f"> Domaine : {clean_base_url}",
+        f"> Horodatage de génération : {now_iso}",
+        f"> Total appareils répertoriés : {len(guides_list)}",
+        "",
+        "---",
+        "",
+    ]
+
+    for guide in guides_list:
+        slug = guide.get("slug")
+        brand = guide.get("brand")
+        model = guide.get("model")
+        category = guide.get("category", "Électroménager")
+        desc = guide.get("meta_description", "")
+
+        lines.extend([
+            f"## {brand} {model}",
+            f"- **Catégorie :** {category}",
+            f"- **Fiche Web Interactive (FR) :** {clean_base_url}/guides/{slug}.html",
+            f"- **Fiche Web Internationale (EN) :** {clean_base_url}/en/guides/{slug}.html",
+            f"- **Résumé d'Entretien :** {desc}",
+            "",
+            "### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte",
+            "| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |",
+            "|---|---|---|",
+        ])
+
+        for code in guide.get("common_codes", []):
+            clean_c = str(code.get("code", "")).replace("|", "-")
+            clean_m = str(code.get("meaning", "")).replace("|", "-")
+            clean_s = str(code.get("solution", "")).replace("|", "-")
+            lines.append(f"| {clean_c} | {clean_m} | {clean_s} |")
+
+        lines.extend([
+            "",
+            "### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés",
+            "| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |",
+            "|---|---|---|---|---|",
+        ])
+
+        for item in guide.get("consumables", []):
+            name = str(item.get("name", "")).replace("|", "-")
+            pn = str(item.get("part_number", "Réf. OEM adaptable")).replace("|", "-")
+            freq = str(item.get("frequency", "")).replace("|", "-")
+            why = str(item.get("why_replace", "")).replace("|", "-")
+            search_query = item.get("search_keywords", f"{brand} {name}")
+            aff_url = build_affiliate_url(search_query, partner_tag, domain="amazon.fr")
+            lines.append(f"| {name} | {pn} | {freq} | {why} | [{name} sur Amazon.fr]({aff_url}) |")
+
+        lines.extend([
+            "",
+            "### ❓ Questions Fréquentes de Maintenance",
+        ])
+
+        for faq in guide.get("faq", []):
+            q = faq.get("question", "")
+            a = faq.get("answer", "")
+            lines.append(f"- **Q : {q}**")
+            lines.append(f"  **R :** {a}")
+
+        lines.extend([
+            "",
+            "---",
+            "",
+        ])
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str):
+    """Génère le flux JSON statique pour agents acheteurs et la documentation OpenAPI / Plugin IA."""
+    clean_base_url = site_base_url.rstrip("/")
+    now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    guides_list = catalog_data.get("guides", [])
+
+    api_dir = DOCS_DIR / "api"
+    well_known_dir = DOCS_DIR / ".well-known"
+    os.makedirs(api_dir, exist_ok=True)
+    os.makedirs(well_known_dir, exist_ok=True)
+
+    # 1. docs/api/agents-catalog.json
+    api_catalog = {
+        "api_version": "1.0",
+        "description": "Base de données certifiée des consommables, pièces d'usure et codes pannes pour électroménager.",
+        "generated_at": now_iso,
+        "total_appliances": len(guides_list),
+        "documentation_geo": f"{clean_base_url}/llms.txt",
+        "full_dump_markdown": f"{clean_base_url}/llms-full.txt",
+        "appliances": []
+    }
+
+    for guide in guides_list:
+        slug = guide.get("slug")
+        brand = guide.get("brand")
+        model = guide.get("model")
+        category = guide.get("category")
+
+        consumables_api = []
+        for c in guide.get("consumables", []):
+            search_q = c.get("search_keywords", f"{brand} {c.get('name')}")
+            aff_fr = build_affiliate_url(search_q, partner_tag, domain="amazon.fr")
+            aff_global = build_affiliate_url(search_q, partner_tag, domain="amazon.com")
+            consumables_api.append({
+                "name": c.get("name"),
+                "part_number": c.get("part_number", "Réf. OEM adaptable"),
+                "frequency": c.get("frequency"),
+                "why_replace": c.get("why_replace"),
+                "search_keywords": search_q,
+                "purchase_url_fr": aff_fr,
+                "purchase_url_global": aff_global,
+            })
+
+        api_catalog["appliances"].append({
+            "slug": slug,
+            "brand": brand,
+            "model": model,
+            "category": category,
+            "meta_description": guide.get("meta_description"),
+            "url_fr": f"{clean_base_url}/guides/{slug}.html",
+            "url_en": f"{clean_base_url}/en/guides/{slug}.html",
+            "common_codes": guide.get("common_codes", []),
+            "consumables": consumables_api,
+            "faq": guide.get("faq", []),
+        })
+
+    with open(api_dir / "agents-catalog.json", "w", encoding="utf-8") as f:
+        json.dump(api_catalog, f, ensure_ascii=False, indent=2)
+
+    # 2. docs/.well-known/ai-plugin.json
+    ai_plugin = {
+        "schema_version": "v1",
+        "name_for_human": "Auto-Consommables Guide & Store",
+        "name_for_model": "auto_consumables_catalog",
+        "description_for_human": "Trouve les consommables officiels, filtres, brosses et pièces d'usure pour électroménager avec liens d'achat Amazon vérifiés.",
+        "description_for_model": "Guide technique d'entretien, de pièces d'usure certifiées (filtres HEPA, brosses, cartouches anticalcaire) et de résolution de codes pannes pour appareils électroménagers (Roborock, Tineco, Ninja, De'Longhi, Philips, Dreame) avec liens d'achat affiliés vérifiés Amazon France et Global.",
+        "auth": {
+            "type": "none"
+        },
+        "api": {
+            "type": "openapi",
+            "url": f"{clean_base_url}/.well-known/openapi.json"
+        },
+        "logo_url": f"{clean_base_url}/icons/icon-512x512.png",
+        "contact_email": "contact@autoconsommables.fr",
+        "legal_info_url": f"{clean_base_url}/mentions-legales.html"
+    }
+
+    with open(well_known_dir / "ai-plugin.json", "w", encoding="utf-8") as f:
+        json.dump(ai_plugin, f, ensure_ascii=False, indent=2)
+
+    # 3. docs/.well-known/openapi.json
+    openapi_spec = {
+        "openapi": "3.0.3",
+        "info": {
+            "title": "Auto-Consumables Agents API",
+            "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure et consommables électroménagers avec références PN officielles et liens de commande vérifiés sur Amazon.",
+            "version": "1.0.0"
+        },
+        "servers": [
+            {
+                "url": clean_base_url,
+                "description": "Serveur statique haute performance GitHub Pages"
+            }
+        ],
+        "paths": {
+            "/api/agents-catalog.json": {
+                "get": {
+                    "summary": "Consulter le catalogue complet des consommables et codes erreurs",
+                    "operationId": "getAgentsCatalog",
+                    "responses": {
+                        "200": {
+                            "description": "Catalogue technique complet avec références constructeur et URLs d'achat affiliées",
+                            "content": {
+                                "application/json": {
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "api_version": {"type": "string"},
+                                            "description": {"type": "string"},
+                                            "generated_at": {"type": "string"},
+                                            "total_appliances": {"type": "integer"},
+                                            "appliances": {"type": "array"}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    with open(well_known_dir / "openapi.json", "w", encoding="utf-8") as f:
+        json.dump(openapi_spec, f, ensure_ascii=False, indent=2)
+
+
+# ==============================================================================
 # Moteur de Rendu Statique HTML & Export Syndication Markdown (FR & EN)
 # ==============================================================================
 
@@ -757,6 +1014,20 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         f.write(robots_txt)
     logger.info("Fichier robots.txt généré : docs/robots.txt")
 
+    # 8. Flux IA Standardisés (LLMs.txt & API Agents Acheteurs)
+    llms_txt = generate_llms_txt(catalog_data, clean_base_url)
+    with open(DOCS_DIR / "llms.txt", "w", encoding="utf-8") as f:
+        f.write(llms_txt)
+    logger.info("Fichier docs/llms.txt généré avec succès.")
+
+    llms_full_txt = generate_llms_full_txt(catalog_data, partner_tag, clean_base_url)
+    with open(DOCS_DIR / "llms-full.txt", "w", encoding="utf-8") as f:
+        f.write(llms_full_txt)
+    logger.info("Fichier docs/llms-full.txt généré avec succès.")
+
+    generate_agents_api(catalog_data, partner_tag, clean_base_url)
+    logger.info("Flux API pour agents IA générés dans docs/api/ et docs/.well-known/.")
+
 
 # ==============================================================================
 # Exécution Principale
@@ -808,14 +1079,7 @@ def run_agent_engine():
     indexnow_key = os.getenv("INDEXNOW_KEY", "7b9d64f028e14674a9844c3569bf12a1")
     ensure_indexnow_key_file(str(DOCS_DIR), indexnow_key)
 
-    urls_to_ping = [
-        f"{site_base_url.rstrip('/')}/index.html",
-        f"{site_base_url.rstrip('/')}/en/index.html",
-    ]
-    for slug in added_slugs:
-        urls_to_ping.append(f"{site_base_url.rstrip('/')}/guides/{slug}.html")
-        urls_to_ping.append(f"{site_base_url.rstrip('/')}/en/guides/{slug}.html")
-
+    urls_to_ping = build_priority_ping_urls(site_base_url, added_slugs)
     ping_indexnow(site_base_url, urls_to_ping, indexnow_key)
 
     logger.info("Cycle autonome exécuté avec succès.")

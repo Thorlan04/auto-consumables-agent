@@ -1,4 +1,29 @@
+# Moteurs de recherche et Assistants Conversationnels IA (GEO - Generative Engine Optimization)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 User-agent: *
 Allow: /
 
+# Directives d'Indexation et Flux LLMs
 Sitemap: {{ site_url }}/sitemap.xml
+llms-txt: {{ site_url }}/llms.txt
+llms-full-txt: {{ site_url }}/llms-full.txt

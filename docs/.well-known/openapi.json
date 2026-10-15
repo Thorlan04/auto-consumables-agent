@@ -1,0 +1,51 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Auto-Consumables Agents API",
+    "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure et consommables électroménagers avec références PN officielles et liens de commande vérifiés sur Amazon.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://thorlan04.github.io/auto-consumables-agent",
+      "description": "Serveur statique haute performance GitHub Pages"
+    }
+  ],
+  "paths": {
+    "/api/agents-catalog.json": {
+      "get": {
+        "summary": "Consulter le catalogue complet des consommables et codes erreurs",
+        "operationId": "getAgentsCatalog",
+        "responses": {
+          "200": {
+            "description": "Catalogue technique complet avec références constructeur et URLs d'achat affiliées",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api_version": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "generated_at": {
+                      "type": "string"
+                    },
+                    "total_appliances": {
+                      "type": "integer"
+                    },
+                    "appliances": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
