@@ -980,6 +980,7 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
 
     clean_base_url = site_base_url.rstrip("/")
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    now_human = datetime.datetime.now(datetime.timezone.utc).strftime("%d/%m/%Y à %H:%M UTC")
     current_year = datetime.datetime.now().year
 
     # Variables d'éditeur pour les mentions légales (LCEN)
@@ -1124,6 +1125,8 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         total_pages=total_pages,
         total_consumables=total_consumables,
         total_codes=total_codes,
+        last_updated_human=now_human,
+        last_updated_iso=now_iso,
         site_url=clean_base_url,
         canonical_path="/dashboard.html",
         base_prefix=".",
@@ -1139,6 +1142,8 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         total_pages=total_pages,
         total_consumables=total_consumables,
         total_codes=total_codes,
+        last_updated_human=now_human,
+        last_updated_iso=now_iso,
         site_url=clean_base_url,
         canonical_path="/en/dashboard.html",
         base_prefix="..",

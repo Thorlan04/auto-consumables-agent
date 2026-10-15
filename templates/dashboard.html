@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}AutoConsumables Ops — Tableau de Bord Sécurisé{% endblock %}
-{% block meta_description %}Application interne de gestion et de métriques opérationnelles.{% endblock %}
+{% block title %}AutoConsumables Ops — Tableau de Bord Sécurisé & Télémétrie{% endblock %}
+{% block meta_description %}Application interne de gestion, télémétrie temps réel et inventaire des consommables.{% endblock %}
 
 {% block meta_robots %}<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">{% endblock %}
 
@@ -16,6 +16,19 @@
 <link rel="apple-touch-icon" href="{{ base_prefix }}/icon-192.png">
 
 <style>
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    @keyframes pulseGlow {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); color: #059669; }
+        100% { transform: scale(1); }
+    }
+    .kpi-updated {
+        animation: pulseGlow 0.6s ease-in-out;
+    }
+
     /* Écran de Verrouillage PIN Sécurisé */
     #pin-lock-overlay {
         position: fixed;
@@ -173,23 +186,32 @@
     <!-- En-tête du Dashboard avec Actions Rapides -->
     <div class="dashboard-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
         <div>
-            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
                 <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
                 <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #047857;">
                     Session Sécurisée • Mode Autonome
+                </span>
+                <span id="live-sync-indicator" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; font-weight: 700; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 0.2rem 0.55rem; border-radius: 9999px;">
+                    <span id="sync-dot" style="background: #10b981; width: 7px; height: 7px; border-radius: 50%; display: inline-block;"></span>
+                    <span id="sync-status-text">Synchronisé en direct</span>
                 </span>
             </div>
             <h1 style="font-size: 2.1rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
                 Centre de Contrôle Opérationnel
             </h1>
             <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.35rem;">
-                Télémétrie en temps réel, inventaire des pièces et raccourcis de gestion.
+                Télémétrie en temps réel, inventaire des pièces et veille réglementaire.
+                <span style="display: inline-block; margin-left: 0.5rem; font-size: 0.8rem; color: #64748b;">(Génération : <strong id="static-build-time">{{ last_updated_human }}</strong>)</span>
             </p>
         </div>
         
         <div class="dashboard-actions" style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+            <!-- Bouton d'actualisation manuelle en direct -->
+            <button onclick="refreshDashboardLive(true)" class="btn" id="btn-manual-sync" style="background: #0f766e; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+                <span id="sync-icon">🔄</span> Actualiser
+            </button>
             <!-- Bouton d'installation PWA Mobile -->
-            <button id="pwa-install-btn" class="btn" style="display: none; background: #0f766e; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none;">
+            <button id="pwa-install-btn" class="btn" style="display: none; background: #0284c7; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none;">
                 📱 Installer l'App
             </button>
             <button onclick="changePinPrompt()" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #475569; font-size: 0.85rem;">
@@ -201,16 +223,16 @@
         </div>
     </div>
 
-    <!-- 1. Cartes KPI Principales -->
+    <!-- 1. Cartes KPI Principales Dynamiques -->
     <div class="dashboard-kpi-grid">
         <div class="card" style="border-top: 4px solid var(--primary);">
             <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
                 Modèles Validés
             </div>
-            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div id="kpi-models" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_models }}
             </div>
-            <div class="kpi-sub" style="font-size: 0.85rem; color: #059669; font-weight: 600;">
+            <div id="kpi-pages" class="kpi-sub" style="font-size: 0.85rem; color: #059669; font-weight: 600;">
                 {{ total_pages }} pages FR & EN
             </div>
         </div>
@@ -219,7 +241,7 @@
             <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
                 Pièces (PN)
             </div>
-            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div id="kpi-consumables" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_consumables }}
             </div>
             <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
@@ -231,7 +253,7 @@
             <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
                 Codes Erreurs
             </div>
-            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div id="kpi-codes" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_codes }}
             </div>
             <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
@@ -284,11 +306,55 @@
 
             <a href="{{ base_prefix }}/sitemap.xml" target="_blank" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #0284c7;">
                 <div>
-                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Sitemap XML & Robots</h3>
-                    <p style="font-size: 0.85rem; color: var(--text-muted);">Cartographie XML des 30+ fiches soumise à Google et notifiée à Bing via IndexNow.</p>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Sitemap XML & Flux IA</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Cartographie XML, spécification llms.txt et flux RSS synchronisés pour les moteurs et agents IA.</p>
                 </div>
                 <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Voir sitemap.xml &rarr;</span>
             </a>
+        </div>
+    </div>
+
+    <!-- 2b. Veille Réglementaire & Rappels Conso (Live API v1) -->
+    <div class="card" style="margin-bottom: 2.5rem; border-left: 4px solid #f59e0b;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+            <div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                    <span style="background: #fef3c7; color: #b45309; padding: 0.2rem 0.6rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700;">
+                        DIRECT RAPPELCONSO (DGCCRF)
+                    </span>
+                    <span id="recalls-count-badge" style="font-size: 0.8rem; font-weight: 700; color: #d97706;">
+                        10 rappels récents synchronisés
+                    </span>
+                </div>
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-top: 0.35rem;">
+                    Derniers Rappels de Sécurité Électroménager
+                </h2>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Appareils déclarés non conformes en France et opportunités d'affiliation vers les modèles de remplacement sûrs.
+                </p>
+            </div>
+            <a href="{{ base_prefix }}/api/v1/rappels-officiels.json" target="_blank" class="btn" style="background: #fffbeb; border: 1px solid #fde68a; color: #b45309; font-size: 0.8rem; padding: 0.35rem 0.75rem; text-decoration: none;">
+                Flux JSON ↗
+            </a>
+        </div>
+
+        <div class="table-responsive">
+            <table id="recalls-table">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Marque & Modèle</th>
+                        <th style="width: 40%;">Motif de Sécurité</th>
+                        <th style="width: 35%; text-align: center;">Alternative Conforme Suggérée</th>
+                    </tr>
+                </thead>
+                <tbody id="recalls-table-body">
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 1.5rem;">
+                            Chargement du flux RappelConso en direct...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -328,15 +394,15 @@
         </div>
     </div>
 
-    <!-- 4. Inventaire du Catalogue Référencé -->
+    <!-- 4. Inventaire du Catalogue Référencé (Mis à Jour en Direct) -->
     <div class="card">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
             <div>
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
-                    Inventaire des 15 Modèles Référencés
+                <h2 id="catalog-table-title" style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    Inventaire des {{ total_models }} Modèles Référencés
                 </h2>
                 <p style="font-size: 0.85rem; color: var(--text-muted);">
-                    Fiches bilingues en ligne et exports Markdown de syndication.
+                    Fiches bilingues en ligne, miroirs Telegra.ph et exports Markdown de syndication.
                 </p>
             </div>
             <input type="text" id="catalog-search" placeholder="Filtrer par marque ou modèle..." style="padding: 0.45rem 0.8rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.875rem; min-width: 240px;">
@@ -356,7 +422,7 @@
                 </thead>
                 <tbody>
                     {% for g in guides %}
-                    <tr>
+                    <tr data-slug="{{ g.slug }}">
                         <td>
                             <strong>{{ g.brand }}</strong> {{ g.model }}
                         </td>
@@ -396,6 +462,7 @@
             if (overlay) overlay.style.display = 'none';
             if (content) content.style.display = 'block';
             renderLocalClicks();
+            refreshDashboardLive(false);
         } else {
             const field = document.getElementById('pin-field');
             if (field) field.focus();
@@ -433,6 +500,7 @@
             if (content) content.style.display = 'block';
             if (errEl) errEl.style.display = 'none';
             renderLocalClicks();
+            refreshDashboardLive(false);
         } else {
             if (errEl) errEl.style.display = 'block';
             if (field) {
@@ -488,11 +556,155 @@
         alert("✅ Votre code PIN a été modifié avec succès !");
     }
 
-    // Exécution immédiate
+    // =========================================================================
+    // Moteur de Synchronisation Dynamique Live (Zero Cache Statique)
+    // =========================================================================
+    async function refreshDashboardLive(manual = false) {
+        const syncIcon = document.getElementById('sync-icon');
+        const syncStatusText = document.getElementById('sync-status-text');
+        if (syncIcon) {
+            syncIcon.style.display = 'inline-block';
+            syncIcon.style.animation = 'spin 0.8s linear infinite';
+        }
+        if (syncStatusText && manual) {
+            syncStatusText.textContent = 'Actualisation en direct...';
+        }
+
+        try {
+            // 1. Synchronisation du Catalogue Live v1
+            const catalogRes = await fetch('{{ base_prefix }}/api/v1/catalog.json?_t=' + Date.now());
+            if (catalogRes.ok) {
+                const catalogData = await catalogRes.json();
+                const appliances = catalogData.appliances || [];
+
+                // Mise à jour des compteurs KPI
+                const modelsEl = document.getElementById('kpi-models');
+                const pagesEl = document.getElementById('kpi-pages');
+                const consumablesEl = document.getElementById('kpi-consumables');
+                const codesEl = document.getElementById('kpi-codes');
+                const titleEl = document.getElementById('catalog-table-title');
+
+                let totalConsumables = 0;
+                let totalCodes = 0;
+                appliances.forEach(app => {
+                    totalConsumables += (app.consumables ? app.consumables.length : 0);
+                    totalCodes += (app.common_codes ? app.common_codes.length : 0);
+                });
+
+                if (modelsEl) {
+                    modelsEl.textContent = appliances.length;
+                    modelsEl.classList.add('kpi-updated');
+                    setTimeout(() => modelsEl.classList.remove('kpi-updated'), 800);
+                }
+                if (pagesEl) pagesEl.textContent = (appliances.length * 2 + 6) + ' pages FR & EN';
+                if (consumablesEl) {
+                    consumablesEl.textContent = totalConsumables;
+                    consumablesEl.classList.add('kpi-updated');
+                    setTimeout(() => consumablesEl.classList.remove('kpi-updated'), 800);
+                }
+                if (codesEl) codesEl.textContent = totalCodes;
+                if (titleEl) titleEl.textContent = `Inventaire des ${appliances.length} Modèles Référencés`;
+
+                // Mise à jour dynamique des lignes manquantes du tableau
+                const tbody = document.querySelector('#catalog-table tbody');
+                if (tbody) {
+                    const existingSlugs = new Set();
+                    tbody.querySelectorAll('tr').forEach(row => {
+                        const slug = row.getAttribute('data-slug');
+                        if (slug) existingSlugs.add(slug);
+                    });
+
+                    appliances.forEach(app => {
+                        if (!existingSlugs.has(app.slug)) {
+                            const tr = document.createElement('tr');
+                            tr.setAttribute('data-slug', app.slug);
+                            tr.style.background = '#f0fdf4';
+                            tr.innerHTML = `
+                                <td>
+                                    <strong>${app.brand}</strong> ${app.model}
+                                    <span style="font-size: 0.65rem; background: #dcfce7; color: #15803d; padding: 0.1rem 0.35rem; border-radius: 4px; margin-left: 0.3rem;">✨ Récent</span>
+                                </td>
+                                <td><span class="badge">${app.category || "Électroménager"}</span></td>
+                                <td style="text-align: center; font-weight: 600; color: var(--primary);">${app.consumables ? app.consumables.length : 0}</td>
+                                <td style="text-align: center; font-weight: 600; color: #ef4444;">${app.common_codes ? app.common_codes.length : 0}</td>
+                                <td style="text-align: center;">
+                                    <a href="{{ base_prefix }}/guides/${app.slug}.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
+                                    <a href="{{ base_prefix }}/en/guides/${app.slug}.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
+                                </td>
+                                <td class="hide-mobile" style="text-align: center;">
+                                    <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/${app.slug}.md</code>
+                                </td>
+                            `;
+                            tbody.insertBefore(tr, tbody.firstChild);
+                        }
+                    });
+                }
+            }
+
+            // 2. Synchronisation des Rappels Conso Live (RappelConso DGCCRF)
+            const recallsRes = await fetch('{{ base_prefix }}/api/v1/rappels-officiels.json?_t=' + Date.now());
+            if (recallsRes.ok) {
+                const recallsData = await recallsRes.json();
+                const recalls = recallsData.recalls || [];
+                const badge = document.getElementById('recalls-count-badge');
+                if (badge) badge.textContent = `${recalls.length} rappels récents synchronisés`;
+
+                const rBody = document.getElementById('recalls-table-body');
+                if (rBody && recalls.length > 0) {
+                    let rHtml = '';
+                    recalls.slice(0, 8).forEach(r => {
+                        rHtml += `
+                            <tr>
+                                <td>
+                                    <strong style="color: #0f172a;">${r.brand || "Marque"}</strong><br>
+                                    <span style="font-size: 0.8rem; color: var(--text-muted);">${r.model || ""}</span>
+                                </td>
+                                <td style="font-size: 0.85rem;">
+                                    <div style="color: #b91c1c; font-weight: 600; margin-bottom: 0.2rem;">${r.risks || "Risque de sécurité"}</div>
+                                    <div style="color: #475569; font-size: 0.8rem;">${(r.reason || "").substring(0, 110)}...</div>
+                                </td>
+                                <td style="text-align: center;">
+                                    <a href="${r.safe_replacement_amazon_url}" target="_blank" rel="noopener noreferrer" class="btn" style="background: #0f766e; color: #ffffff; font-size: 0.75rem; font-weight: 700; padding: 0.4rem 0.75rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;">
+                                        🛒 Équivalent Conforme sur Amazon ↗
+                                    </a>
+                                </td>
+                            </tr>
+                        `;
+                    });
+                    rBody.innerHTML = rHtml;
+                }
+            }
+
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            if (syncStatusText) syncStatusText.textContent = `Synchronisé en direct (${timeStr})`;
+        } catch(e) {
+            console.log('Erreur synchronisation dashboard:', e);
+            if (syncStatusText) syncStatusText.textContent = 'Mode local sécurisé';
+        } finally {
+            if (syncIcon) syncIcon.style.animation = 'none';
+        }
+    }
+
+    // Exécution immédiate au chargement
     checkAuthOnLoad();
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', checkAuthOnLoad);
     }
+
+    // Auto-rafraîchissement régulier toutes les 60 secondes quand l'onglet est actif
+    setInterval(() => {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            refreshDashboardLive(false);
+        }
+    }, 60000);
+
+    // Rafraîchissement automatique lorsque l'utilisateur revient sur l'application mobile
+    window.addEventListener('focus', () => {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            refreshDashboardLive(false);
+        }
+    });
 
     // 2. Gestion de l'installation PWA Mobile
     let deferredPrompt;
@@ -515,9 +727,12 @@
         }
     });
 
-    // Enregistrement du Service Worker PWA
+    // Enregistrement du Service Worker PWA avec mise à jour forcée
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js').catch(err => {
+        navigator.serviceWorker.register('{{ base_prefix }}/sw.js').then((reg) => {
+            // Vérifier immédiatement si un nouveau Service Worker est disponible
+            reg.update();
+        }).catch(err => {
             console.log('SW registration note:', err);
         });
     }
