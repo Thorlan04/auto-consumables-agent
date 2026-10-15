@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://thorlan04.github.io/auto-consumables-agent/sitemap.xml

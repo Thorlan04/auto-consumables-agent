@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-15T13:13:40.429657+00:00",
-  "total_guides": 7,
+  "last_updated": "2026-10-15T13:36:10.873510+00:00",
+  "total_guides": 9,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -461,6 +461,130 @@
         {
           "question": "Ma centrale vapeur ne produit plus de vapeur, que faire ?",
           "answer": "Vérifiez d'abord le niveau d'eau dans le réservoir. Si le réservoir est plein, assurez-vous que le collecteur de calcaire est propre et correctement vissé. Laissez l'appareil chauffer suffisamment. Si le problème persiste, débranchez-le et rebranchez-le après quelques minutes pour tenter une réinitialisation."
+        }
+      ]
+    },
+    {
+      "slug": "dreame-h12-pro-entretien-consommables",
+      "title": "Entretien et Consommables Dreame H12 Pro : Guide Complet pour un Aspirateur Laveur Performant",
+      "brand": "Dreame",
+      "model": "H12 Pro",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Prolongez la vie de votre Dreame H12 Pro ! Découvrez les codes d'erreur courants, les consommables essentiels et nos astuces d'entretien pour une performance optimale.",
+      "common_codes": [
+        {
+          "code": "Réservoir d'eau sale plein (Voyant rouge)",
+          "meaning": "Le réservoir d'eau sale est à sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le, rincez-le à l'eau claire et replacez-le correctement dans l'appareil."
+        },
+        {
+          "code": "Brosse bloquée (Voyant brosse clignotant)",
+          "meaning": "La brosse rotative est obstruée par des cheveux, des fils ou d'autres débris, empêchant son fonctionnement.",
+          "solution": "Éteignez l'appareil, retirez la brosse rotative de son logement et nettoyez-la soigneusement en retirant tous les éléments qui l'entravent. Remettez-la en place."
+        },
+        {
+          "code": "Pas d'eau propre (Voyant réservoir d'eau propre vide)",
+          "meaning": "Le réservoir d'eau propre est vide, et l'appareil ne peut plus distribuer d'eau pour le lavage.",
+          "solution": "Remplissez le réservoir d'eau propre avec de l'eau du robinet (ou la solution de nettoyage Dreame) jusqu'à la marque MAX indiquée. Assurez-vous qu'il est bien inséré."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse Rouleau",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Une brosse usée ou encrassée réduit l'efficacité de nettoyage, peut laisser des traces et endommager les sols fragiles.",
+          "search_keywords": "brosse rouleau dreame h12 pro",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Un filtre encrassé diminue la puissance d'aspiration, nuit à la qualité de l'air et peut surcharger le moteur de l'appareil.",
+          "search_keywords": "filtre hepa dreame h12 pro",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Dreame",
+          "frequency": "Selon l'utilisation",
+          "why_replace": "L'utilisation d'une solution non adaptée peut endommager les conduits internes, laisser des résidus ou altérer la performance de nettoyage.",
+          "search_keywords": "solution nettoyage dreame h12 pro",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le réservoir d'eau sale de mon Dreame H12 Pro ?",
+          "answer": "Après chaque utilisation, videz le réservoir d'eau sale, rincez-le abondamment à l'eau claire pour éliminer les résidus et laissez-le sécher à l'air libre avant de le remettre en place."
+        },
+        {
+          "question": "Mon aspirateur laveur laisse des traces sur le sol, que faire ?",
+          "answer": "Vérifiez que la brosse est propre et en bon état, que le réservoir d'eau propre contient suffisamment de solution de nettoyage et que le réservoir d'eau sale n'est pas trop plein. Un nettoyage régulier de la brosse et des réservoirs est essentiel."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quel détergent avec mon Dreame H12 Pro ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement la solution de nettoyage Dreame officielle ou un détergent doux spécifiquement conçu pour les aspirateurs laveurs, afin d'éviter d'endommager les composants internes et de garantir la garantie."
+        }
+      ]
+    },
+    {
+      "slug": "philips-airfryer-xxl-hd9650-90-entretien-accessoires",
+      "title": "Entretien et Accessoires Philips Airfryer XXL HD9650/90 : Guide pour des Repas Sains",
+      "brand": "Philips",
+      "model": "Airfryer XXL HD9650/90",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Optimisez votre Philips Airfryer XXL HD9650/90 ! Découvrez les astuces d'entretien, les accessoires indispensables et les FAQ pour des cuissons parfaites.",
+      "common_codes": [
+        {
+          "code": "Voyant de nettoyage du filtre à graisse (non spécifique, mais recommandation)",
+          "meaning": "La grille anti-graisse du panier est encrassée, ce qui peut réduire l'efficacité de la cuisson et générer de la fumée.",
+          "solution": "Laissez l'appareil refroidir. Retirez le tiroir et le panier, puis nettoyez la grille anti-graisse avec de l'eau chaude savonneuse et une brosse non abrasive. Rincez et séchez."
+        },
+        {
+          "code": "Voyant d'alimentation clignotant",
+          "meaning": "L'appareil est en phase de préchauffage ou en mode pause pendant la cuisson.",
+          "solution": "C'est un comportement normal. Attendez que le préchauffage soit terminé ou appuyez sur le bouton de démarrage pour reprendre la cuisson. Assurez-vous que le tiroir est bien fermé."
+        },
+        {
+          "code": "Écran éteint / Non réactif",
+          "meaning": "L'appareil n'est pas alimenté ou est en mode veille prolongée.",
+          "solution": "Vérifiez que le cordon d'alimentation est correctement branché à la prise murale et à l'arrière de l'appareil. Appuyez sur le bouton marche/arrêt pour le réactiver."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Kit de nettoyage Philips Airfryer",
+          "frequency": "Selon le besoin",
+          "why_replace": "Maintient le panier et l'intérieur de l'appareil propres, assurant une cuisson homogène et prolongeant la durée de vie des revêtements.",
+          "search_keywords": "kit nettoyage philips airfryer xxl",
+          "affiliate_url": null
+        },
+        {
+          "name": "Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche)",
+          "frequency": "Selon le besoin (achat initial ou complémentaire)",
+          "why_replace": "Élargit les possibilités de cuisson (cuisson de gâteaux, grillades superposées) et facilite la préparation de certains plats spécifiques.",
+          "search_keywords": "accessoires philips airfryer xxl hd9650/90",
+          "affiliate_url": null
+        },
+        {
+          "name": "Papier sulfurisé perforé pour Airfryer",
+          "frequency": "À chaque utilisation",
+          "why_replace": "Protège le panier des salissures tenaces, réduit le temps de nettoyage et évite que les aliments ne collent.",
+          "search_keywords": "papier sulfurisé perforé airfryer xxl",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer l'intérieur de mon Philips Airfryer XXL ?",
+          "answer": "Après chaque utilisation, laissez l'appareil refroidir. Nettoyez le panier et le tiroir à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'intérieur de l'appareil avec un chiffon humide et doux, sans utiliser de produits abrasifs."
+        },
+        {
+          "question": "Mes aliments ne sont pas croustillants, que faire ?",
+          "answer": "Assurez-vous de ne pas surcharger le panier, de secouer ou de retourner les aliments à mi-cuisson, et d'utiliser une température et un temps de cuisson adaptés à la recette. Une fine couche d'huile peut aussi aider."
+        },
+        {
+          "question": "Puis-je utiliser du papier aluminium dans mon Airfryer ?",
+          "answer": "Oui, vous pouvez utiliser du papier aluminium, mais veillez à ne pas couvrir entièrement le fond du panier pour ne pas bloquer la circulation de l'air. Assurez-vous qu'il ne touche pas les éléments chauffants pour éviter tout risque."
         }
       ]
     }
