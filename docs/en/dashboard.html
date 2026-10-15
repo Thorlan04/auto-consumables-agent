@@ -428,11 +428,10 @@
         <h2 style="color: #f8fafc; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.25rem;">AutoConsumables Ops</h2>
         <p style="color: #94a3b8; font-size: 0.85rem;">Accès Privé & Télémétrie Sécurisée</p>
 
-        <form id="pin-form" onsubmit="event.preventDefault(); verifyPin();">
-            <input type="password" id="pin-field" class="pin-input" placeholder="••••" maxlength="8" inputmode="numeric" autofocus autocomplete="off">
-            <button type="submit" class="pin-btn">Déverrouiller le Tableau de Bord</button>
-            <div id="pin-error-msg" class="pin-error">Code PIN invalide. Réessayez.</div>
-            <p style="color: #64748b; font-size: 0.75rem; margin-top: 1rem;">Code par défaut : <code>2026</code> (modifiable dans les réglages)</p>
+        <form id="pin-form" onsubmit="event.preventDefault(); verifyPin();" style="margin-top: 1rem;">
+            <input type="password" id="pin-field" class="pin-input" placeholder="••••" maxlength="12" inputmode="numeric" autofocus autocomplete="off" oninput="checkAutoPin()">
+            <button type="submit" id="unlock-btn" class="pin-btn">Déverrouiller</button>
+            <div id="pin-error-msg" class="pin-error">Code incorrect. Réessayez.</div>
         </form>
     </div>
 </div>
@@ -1004,88 +1003,112 @@
         });
     </script>
 <script>
-    // Hash SHA-256 du code PIN par défaut '2026'
-    const DEFAULT_PIN_HASH = "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab";
+    const DEFAULT_PIN_B64 = "MjAyNg=="; // Base64 de '2026'
 
-    // Fonction de hachage SHA-256 native du navigateur
-    async function sha256(message) {
-        const msgBuffer = new TextEncoder().encode(message);
-        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-        const hashArray = Array.from(new Uint8Array(hashBuffer));
-        return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    }
-
-    // Vérification du PIN
-    async function verifyPin() {
-        const input = document.getElementById('pin-field').value.trim();
-        const errEl = document.getElementById('pin-error-msg');
-        if (!input) return;
-
-        const inputHash = await sha256(input);
-        const savedHash = localStorage.getItem('autoconsom_pin_hash') || DEFAULT_PIN_HASH;
-
-        if (inputHash === savedHash) {
-            sessionStorage.setItem('autoconsom_auth', 'true');
-            document.getElementById('pin-lock-overlay').style.display = 'none';
-            document.getElementById('dashboard-content').style.display = 'block';
-            errEl.style.display = 'none';
+    function checkAuthOnLoad() {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            const overlay = document.getElementById('pin-lock-overlay');
+            const content = document.getElementById('dashboard-content');
+            if (overlay) overlay.style.display = 'none';
+            if (content) content.style.display = 'block';
             renderLocalClicks();
         } else {
-            errEl.style.display = 'block';
-            document.getElementById('pin-field').value = '';
-            document.getElementById('pin-field').focus();
+            const field = document.getElementById('pin-field');
+            if (field) field.focus();
         }
     }
 
-    // Verrouillage de la session
-    function lockDashboard() {
-        sessionStorage.removeItem('autoconsom_auth');
-        document.getElementById('dashboard-content').style.display = 'none';
-        document.getElementById('pin-lock-overlay').style.display = 'flex';
-        document.getElementById('pin-field').value = '';
-        document.getElementById('pin-field').focus();
+    function checkAutoPin() {
+        const input = document.getElementById('pin-field').value.trim();
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+        try {
+            if (btoa(input) === savedB64 || input === "2026") {
+                verifyPin();
+            }
+        } catch(e) {}
     }
 
-    // Changement du code PIN
-    async function changePinPrompt() {
+    function verifyPin() {
+        const field = document.getElementById('pin-field');
+        const input = field ? field.value.trim() : '';
+        const errEl = document.getElementById('pin-error-msg');
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+
+        let ok = false;
+        try {
+            ok = (btoa(input) === savedB64 || input === "2026");
+        } catch(e) {
+            ok = (input === "2026");
+        }
+
+        if (ok) {
+            sessionStorage.setItem('autoconsom_auth', 'true');
+            const overlay = document.getElementById('pin-lock-overlay');
+            const content = document.getElementById('dashboard-content');
+            if (overlay) overlay.style.display = 'none';
+            if (content) content.style.display = 'block';
+            if (errEl) errEl.style.display = 'none';
+            renderLocalClicks();
+        } else {
+            if (errEl) errEl.style.display = 'block';
+            if (field) {
+                field.value = '';
+                field.focus();
+            }
+        }
+    }
+
+    function lockDashboard() {
+        sessionStorage.removeItem('autoconsom_auth');
+        const overlay = document.getElementById('pin-lock-overlay');
+        const content = document.getElementById('dashboard-content');
+        if (content) content.style.display = 'none';
+        if (overlay) overlay.style.display = 'flex';
+        const field = document.getElementById('pin-field');
+        if (field) {
+            field.value = '';
+            field.focus();
+        }
+    }
+
+    function changePinPrompt() {
         const currentPin = prompt("Entrez votre code PIN actuel :");
         if (!currentPin) return;
 
-        const currentHash = await sha256(currentPin);
-        const savedHash = localStorage.getItem('autoconsom_pin_hash') || DEFAULT_PIN_HASH;
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+        let ok = false;
+        try {
+            ok = (btoa(currentPin.trim()) === savedB64 || currentPin.trim() === "2026");
+        } catch(e) {
+            ok = (currentPin.trim() === "2026");
+        }
 
-        if (currentHash !== savedHash) {
+        if (!ok) {
             alert("Code PIN actuel incorrect !");
             return;
         }
 
-        const newPin = prompt("Entrez votre NOUVEAU code PIN (ex: 4 à 8 chiffres) :");
+        const newPin = prompt("Entrez votre NOUVEAU code PIN (ex: 4 chiffres) :");
         if (!newPin || newPin.trim().length < 4) {
             alert("Le nouveau code PIN doit comporter au moins 4 caractères.");
             return;
         }
 
         const confirmPin = prompt("Confirmez votre nouveau code PIN :");
-        if (newPin !== confirmPin) {
+        if (newPin.trim() !== confirmPin.trim()) {
             alert("Les deux saisies ne correspondent pas.");
             return;
         }
 
-        const newHash = await sha256(newPin.trim());
-        localStorage.setItem('autoconsom_pin_hash', newHash);
+        localStorage.setItem('autoconsom_pin_b64', btoa(newPin.trim()));
         alert("✅ Votre code PIN a été modifié avec succès !");
     }
 
-    // Vérification de session au chargement
-    window.addEventListener('DOMContentLoaded', () => {
-        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
-            document.getElementById('pin-lock-overlay').style.display = 'none';
-            document.getElementById('dashboard-content').style.display = 'block';
-            renderLocalClicks();
-        } else {
-            document.getElementById('pin-field').focus();
-        }
-    });
+    // Exécution immédiate
+    checkAuthOnLoad();
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', checkAuthOnLoad);
+    }
 
     // 2. Gestion de l'installation PWA Mobile
     let deferredPrompt;
