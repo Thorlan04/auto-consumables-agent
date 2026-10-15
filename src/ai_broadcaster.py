@@ -14,10 +14,18 @@ import json
 import logging
 import os
 import re
+import sys
 import urllib.parse
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 import requests
+
+if sys.platform.startswith("win"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("AiBroadcaster")

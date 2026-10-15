@@ -52,5 +52,6 @@ jobs:
             echo "Aucune modification à commiter."
           else
             git commit -m "chore(autopilot): ajout de nouveaux guides d'appareils et mise à jour du catalogue [skip ci]"
+            git pull --rebase origin main || true
             git push origin main
           fi
