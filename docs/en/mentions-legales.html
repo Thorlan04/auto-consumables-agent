@@ -8,7 +8,12 @@
     <link rel="canonical" href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html">
     <link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html">
     <link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html">
-    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html">
+    <link rel="alternate" hreflang="es" href="https://thorlan04.github.io/auto-consumables-agent/es/mentions-legales.html">
+    <link rel="alternate" hreflang="de" href="https://thorlan04.github.io/auto-consumables-agent/de/mentions-legales.html">
+    <link rel="alternate" hreflang="pt" href="https://thorlan04.github.io/auto-consumables-agent/pt/mentions-legales.html">
+    <link rel="alternate" hreflang="ja" href="https://thorlan04.github.io/auto-consumables-agent/ja/mentions-legales.html">
+    <link rel="alternate" hreflang="zh" href="https://thorlan04.github.io/auto-consumables-agent/zh/mentions-legales.html">
+    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html">
 <meta name="robots" content="index, follow">
     <!-- Open Graph / Réseaux Sociaux -->
     <meta property="og:type" content="website">
@@ -71,7 +76,7 @@
             padding: 0 1.25rem;
         }
 
-        /* Bandeau Transparence Légal (DGCCRF / Amazon Associates) */
+        /* Bandeau Transparence Légal (DGCCRF / FTC / Amazon Associates) */
         .affiliate-banner {
             background-color: #f1f5f9;
             border-bottom: 1px solid var(--border-color);
@@ -89,7 +94,7 @@
         header {
             background-color: #ffffff;
             border-bottom: 1px solid var(--border-color);
-            padding: 1rem 0;
+            padding: 0.85rem 0;
             position: sticky;
             top: 0;
             z-index: 50;
@@ -101,6 +106,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
+            flex-wrap: wrap;
         }
 
         .site-logo {
@@ -119,10 +125,45 @@
 
         .nav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 1.25rem;
             list-style: none;
             font-weight: 500;
-            font-size: 0.95rem;
+            font-size: 0.925rem;
+            align-items: center;
+        }
+
+        .lang-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.775rem;
+            font-weight: 700;
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.5rem;
+            border-radius: 9999px;
+            background: #ffffff;
+            white-space: nowrap;
+        }
+
+        .lang-pill-active {
+            background: var(--primary);
+            color: #ffffff !important;
+            padding: 0.15rem 0.45rem;
+            border-radius: 9999px;
+            text-decoration: none !important;
+        }
+
+        .lang-pill-link {
+            color: #64748b;
+            padding: 0.15rem 0.3rem;
+            text-decoration: none !important;
+            border-radius: 9999px;
+            transition: color 0.15s, background-color 0.15s;
+        }
+
+        .lang-pill-link:hover {
+            color: var(--primary);
+            background-color: #f1f5f9;
         }
 
         /* Contenu Principal */
@@ -239,14 +280,17 @@
 
         th {
             background-color: #f8fafc;
-            padding: 0.85rem 1rem;
+            color: #475569;
             font-weight: 600;
-            color: #334155;
-            border-bottom: 2px solid var(--border-color);
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
 
         td {
-            padding: 0.9rem 1rem;
+            padding: 1rem;
             border-bottom: 1px solid var(--border-color);
             vertical-align: middle;
         }
@@ -255,25 +299,31 @@
             border-bottom: none;
         }
 
+        tr:hover td {
+            background-color: #f8fafc;
+        }
+
         /* Footer */
         footer {
-            background-color: #0f172a;
-            color: #94a3b8;
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
             padding: 3rem 0 2rem;
-            font-size: 0.875rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
         }
 
         .footer-grid {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
-            gap: 2rem;
-            margin-bottom: 2rem;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
         }
 
         .footer-col h3 {
-            color: #f1f5f9;
             font-size: 1rem;
-            margin-bottom: 0.75rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .footer-col ul {
@@ -284,68 +334,38 @@
             margin-bottom: 0.5rem;
         }
 
-        .footer-col a {
-            color: #cbd5e1;
-        }
-
-        .footer-col a:hover {
-            color: #38bdf8;
-        }
-
         .footer-bottom {
-            border-top: 1px solid #1e293b;
+            border-top: 1px solid var(--border-color);
             padding-top: 1.5rem;
             text-align: center;
-            font-size: 0.8rem;
-            color: #64748b;
+            font-size: 0.825rem;
         }
 
+        /* Responsive Design Mobile-First */
         @media (max-width: 768px) {
             .footer-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
-        }
-
-        @media (max-width: 640px) {
-            .container {
-                padding: 0 0.85rem;
-            }
-            header {
-                padding: 0.75rem 0;
-            }
             .header-content {
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-                gap: 0.6rem;
-            }
-            .site-logo {
-                font-size: 1.15rem;
-            }
-            nav {
-                width: 100%;
-                justify-content: space-between;
-                gap: 0.5rem !important;
-                border-top: 1px solid var(--border-color);
-                padding-top: 0.5rem;
-                margin-top: 0.25rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
             }
             .nav-links {
-                gap: 0.75rem;
-                font-size: 0.85rem;
+                flex-wrap: wrap;
+                gap: 1rem;
             }
             .lang-selector {
-                padding: 0.2rem 0.5rem !important;
-                font-size: 0.75rem !important;
+                overflow-x: auto;
+                max-width: 100%;
+                -webkit-overflow-scrolling: touch;
             }
             main {
-                padding: 1.25rem 0 2.5rem;
+                padding: 1.5rem 0 3rem;
             }
-            .card {
-                padding: 1rem;
-                border-radius: var(--radius-md);
+            .container {
+                padding: 0 1rem;
             }
             h1 {
                 font-size: 1.6rem !important;
@@ -367,31 +387,38 @@
     </style>
 </head>
 <body>
-    <!-- 1. Bandeau Légal Obligatoire DGCCRF (FR) & FTC / Amazon Associates (EN/US) -->
+    <!-- 1. Bandeau Légal Obligatoire Partenaire Amazon -->
     <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
         <div class="container">
-            <strong>Transparency Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases (#AffiliateLink). Routine maintenance and wear-part guides are provided for informational purposes only.
+            <strong>Amazon Associates Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases at no extra cost to you (#AffiliateLink). Routine maintenance and wear-part guides.
         </div>
     </aside>
 
-    <!-- Header Principal avec Sélecteur de Langue -->
+    <!-- Header Principal avec Sélecteur International -->
     <header>
         <div class="container header-content">
-            <a href="../index.html" class="site-logo">
+            <a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html" class="site-logo">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                 </svg>
-                <span>AutoConsumables</span>.com            </a>
-            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
+                <span>AutoConsumables.com</span>
+            </a>
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
                 <ul class="nav-links">
-                    <li><a href="../index.html">Guides</a></li>
-                    <li><a href="../mentions-legales.html">Legal & Disclosure</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html">Maintenance Guides</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html">Legal &amp; Disclosure</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">Ops Dashboard</a></li>
                 </ul>
-                <!-- Sélecteur de Langue Rapide -->
-                <div class="lang-selector" style="font-size: 0.85rem; font-weight: 700; border: 1px solid var(--border-color); padding: 0.25rem 0.6rem; border-radius: 9999px; background: #ffffff;">
-                    <a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html" title="Passer en Français" style="color: #64748b;">FR 🇫🇷</a>
-                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
-                    <strong style="color: var(--primary);">EN 🇺🇸</strong>
+
+                <!-- Sélecteur International de Marchés & Langues -->
+                <div class="lang-selector" aria-label="Choisir la langue et la zone géographique">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html" class="lang-pill-link" title="FR">🇫🇷 FR</a>
+                            <span class="lang-pill-active" title="EN">🇺🇸 EN</span>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/mentions-legales.html" class="lang-pill-link" title="ES">🇪🇸 ES</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/mentions-legales.html" class="lang-pill-link" title="DE">🇩🇪 DE</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/mentions-legales.html" class="lang-pill-link" title="PT">🇧🇷 PT</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/mentions-legales.html" class="lang-pill-link" title="JA">🇯🇵 JA</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/mentions-legales.html" class="lang-pill-link" title="ZH">🇨🇳 ZH</a>
                 </div>
             </nav>
         </div>
@@ -491,29 +518,26 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <h3>AutoConsumables.com</h3>
-                    <p>
-                        Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.
-                    </p>
-                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
-                        Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.
-                    </p>
+                    <p>Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.</p>
                 </div>
                 <div class="footer-col">
                     <h3>Popular Categories</h3>
                     <ul>
-                        <li><a href="../index.html?cat=Wet+and+Dry+Vacuums">Wet & Dry Vacuums</a></li>
-                        <li><a href="../index.html?cat=Bean-to-Cup+Coffee+Machines">Espresso Machines</a></li>
-                        <li><a href="../index.html?cat=Robot+Vacuums">Robot Vacuums</a></li>
-                        <li><a href="../index.html?cat=Air+Fryers">Air Fryers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html?cat=Air%20Fryers">Air Fryers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html?cat=Air%20Purifiers">Air Purifiers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html?cat=Bean-to-Cup%20Coffee%20Machines">Bean-to-Cup Coffee Machines</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html?cat=Robot%20Vacuums%20%26%20Mops">Robot Vacuums &amp; Mops</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Legal & Disclosure</h3>
+                    <h3>Legal &amp; Disclosure</h3>
                     <ul>
-                        <li><a href="../mentions-legales.html">Terms & Legal Notice</a></li>
-                        <li><a href="../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
-                        <li><a href="../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
-                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html">Legal &amp; Disclosure</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/en/mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap XML (Global)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/llms.txt">Standard llms.txt (GEO)</a></li>
                     </ul>
                 </div>
             </div>
@@ -530,7 +554,7 @@
             if (!btn) return;
             try {
                 const item = {
-                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    title: document.title,
                     label: btn.getAttribute('aria-label') || 'Amazon Search Link',
                     url: btn.href,
                     timestamp: new Date().toISOString()

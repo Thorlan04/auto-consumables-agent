@@ -1,60 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <!-- Accueil FR & EN -->
+
+    <!-- Pages d'Accueil Internationales (7 Langues) -->
+    {% for lang_code, lang_path in [
+        ('fr', '/index.html'),
+        ('en', '/en/index.html'),
+        ('es', '/es/index.html'),
+        ('de', '/de/index.html'),
+        ('pt', '/pt/index.html'),
+        ('ja', '/ja/index.html'),
+        ('zh', '/zh/index.html')
+    ] %}
     <url>
-        <loc>{{ site_url }}/index.html</loc>
+        <loc>{{ site_url }}{{ lang_path }}</loc>
         <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/index.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/index.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/index.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
-    <url>
-        <loc>{{ site_url }}/en/index.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/index.html"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/index.html"/>
-        <lastmod>{{ now_iso }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
+    {% endfor %}
 
-    <!-- Mentions Légales / Disclosure FR & EN -->
+    <!-- Mentions Légales & Compliance (7 Langues) -->
+    {% for lang_code, lang_path in [
+        ('fr', '/mentions-legales.html'),
+        ('en', '/en/mentions-legales.html'),
+        ('es', '/es/mentions-legales.html'),
+        ('de', '/de/mentions-legales.html'),
+        ('pt', '/pt/mentions-legales.html'),
+        ('ja', '/ja/mentions-legales.html'),
+        ('zh', '/zh/mentions-legales.html')
+    ] %}
     <url>
-        <loc>{{ site_url }}/mentions-legales.html</loc>
+        <loc>{{ site_url }}{{ lang_path }}</loc>
         <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/mentions-legales.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
-    <url>
-        <loc>{{ site_url }}/en/mentions-legales.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/mentions-legales.html"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/mentions-legales.html"/>
-        <lastmod>{{ now_iso }}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
+    {% endfor %}
 
-
-    <!-- Guides FR & EN -->
+    <!-- Guides et Fiches Techniques par Appareil (7 Langues par Modèle) -->
     {% for guide in guides %}
+        {% for lang_code, prefix in [
+            ('fr', ''),
+            ('en', '/en'),
+            ('es', '/es'),
+            ('de', '/de'),
+            ('pt', '/pt'),
+            ('ja', '/ja'),
+            ('zh', '/zh')
+        ] %}
     <url>
-        <loc>{{ site_url }}/guides/{{ guide.slug }}.html</loc>
+        <loc>{{ site_url }}{{ prefix }}/guides/{{ guide.slug }}.html</loc>
         <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-    <url>
-        <loc>{{ site_url }}/en/guides/{{ guide.slug }}.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/guides/{{ guide.slug }}.html"/>
-        <lastmod>{{ now_iso }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
+        {% endfor %}
     {% endfor %}
 </urlset>

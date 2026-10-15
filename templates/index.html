@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Guides Consommables, Filtres & Codes Entretien Électroménager | AutoConsommables.fr{% endblock %}
-{% block meta_description %}Trouvez en 1 clic les références de filtres, brosses, cartouches et pièces d'usure pour vos appareils ménagers. Résolution de voyants et entretien courant.{% endblock %}
+{% block title %}{{ t.site_name }} — {{ t.tagline }}{% endblock %}
+{% block meta_description %}{{ t.hero_sub }}{% endblock %}
 
 {% block head_extra %}
 <style>
@@ -118,81 +118,92 @@
     .consumables-preview li {
         color: #475569;
         margin-bottom: 0.2rem;
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-    }
-    .consumables-preview li::before {
-        content: "•";
-        color: var(--primary);
-        font-weight: bold;
     }
     .card-footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-top: 1px solid var(--border-color);
+        padding-top: 1rem;
         margin-top: auto;
     }
     .no-results {
         text-align: center;
-        padding: 3rem 1rem;
-        color: var(--text-muted);
+        padding: 4rem 1rem;
         display: none;
+    }
+    .no-results h3 {
+        font-size: 1.3rem;
+        color: #0f172a;
+        margin-bottom: 0.5rem;
+    }
+    .no-results p {
+        color: var(--text-muted);
+        font-size: 0.95rem;
     }
     .value-props {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 1.5rem;
         margin: 4rem 0 2rem;
-        text-align: center;
+        padding-top: 3rem;
+        border-top: 1px solid var(--border-color);
     }
     .value-prop-card {
-        padding: 1.5rem;
         background: #ffffff;
-        border-radius: var(--radius-lg);
         border: 1px solid var(--border-color);
+        border-radius: var(--radius-lg);
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .value-prop-card svg {
+        margin: 0 auto 1rem;
+        display: block;
     }
     .value-prop-card h4 {
-        margin: 0.75rem 0 0.5rem;
+        font-size: 1.1rem;
         color: #0f172a;
-    }
-    @media (max-width: 768px) {
-        .value-props {
-            grid-template-columns: 1fr;
-        }
+        margin-bottom: 0.5rem;
     }
     @media (max-width: 640px) {
         .hero {
-            padding: 1.5rem 0 1.75rem;
+            padding: 1.75rem 0 2rem;
             margin-bottom: 1.5rem;
         }
         .hero h1 {
-            font-size: 1.5rem !important;
+            font-size: 1.65rem !important;
             line-height: 1.25;
+            margin-bottom: 0.75rem;
         }
         .hero p {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             margin-bottom: 1.25rem;
+            line-height: 1.45;
         }
         .search-input {
-            padding: 0.75rem 1rem 0.75rem 2.6rem;
-            font-size: 0.92rem;
+            padding: 0.8rem 1rem 0.8rem 2.75rem;
+            font-size: 0.95rem;
         }
         .search-icon {
             left: 0.9rem;
+            width: 18px;
+            height: 18px;
         }
         .category-filters {
             gap: 0.35rem;
             margin-top: 1rem;
         }
         .filter-pill {
-            padding: 0.3rem 0.7rem;
-            font-size: 0.78rem;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.775rem;
         }
         .guides-grid {
             grid-template-columns: 1fr;
             gap: 1rem;
             margin-bottom: 2rem;
+        }
+        .guide-card {
+            padding: 1.15rem;
         }
         .value-props {
             grid-template-columns: 1fr;
@@ -207,14 +218,8 @@
 <!-- Section Héro avec Recherche Directe -->
 <section class="hero">
     <div class="container">
-        <h1>{% if lang == 'en' %}Extend the Life of Your Home Appliances{% else %}Prolongez la vie de vos appareils ménagers{% endif %}</h1>
-        <p>
-            {% if lang == 'en' %}
-            Genuine HEPA filters, descaling cartridges, roller brushes, seals and maintenance kits: find certified replacement wear parts and clear routine warning lights in 2 minutes.
-            {% else %}
-            Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d'entretien : retrouvez les pièces d'usure certifiées et résolvez les voyants d'alerte en 2 minutes.
-            {% endif %}
-        </p>
+        <h1>{{ t.hero_title }}</h1>
+        <p>{{ t.hero_sub }}</p>
 
         <div class="search-box-wrapper">
             <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -224,12 +229,12 @@
             <input type="text"
                    id="guideSearch"
                    class="search-input"
-                   placeholder="{% if lang == 'en' %}Search by brand, exact model or PN (e.g. Dyson V15, Roborock Qrevo, Ninja SL400EU...){% else %}Rechercher une marque, un modèle (ex: Tineco S7, Delonghi Rivelia, Ninja AF400EU...){% endif %}"
-                   aria-label="Recherche d'un guide par marque ou appareil">
+                   placeholder="{{ t.search_placeholder }}"
+                   aria-label="Search guide by brand or model">
         </div>
 
         <div class="category-filters" id="categoryFilters">
-            <button class="filter-pill active" data-category="all">{% if lang == 'en' %}All Categories{% else %}Toutes les catégories{% endif %} ({{ total_guides }})</button>
+            <button class="filter-pill active" data-category="all">{{ t.all_categories }} ({{ total_guides }})</button>
             {% for cat in categories %}
             <button class="filter-pill" data-category="{{ cat.name }}">{{ cat.name }} ({{ cat.count }})</button>
             {% endfor %}
@@ -240,8 +245,8 @@
 <div class="container">
     <!-- Message Aucun Résultat -->
     <div id="noResults" class="no-results">
-        <h3>{% if lang == 'en' %}No appliances match your search{% else %}Aucun appareil ne correspond à votre recherche{% endif %}</h3>
-        <p>{% if lang == 'en' %}Try a shorter keyword like the brand (e.g., <em>Ninja</em>, <em>Dyson</em>, <em>Roborock</em>) or clear your category filter.{% else %}Essayez un mot-clé plus court comme la marque (ex: <em>Delonghi</em>, <em>Tineco</em>, <em>Roborock</em>) ou changez de catégorie.{% endif %}</p>
+        <h3>{{ t.no_results_title }}</h3>
+        <p>{{ t.no_results_desc }}</p>
     </div>
 
     <!-- Grille des Guides -->
@@ -260,7 +265,7 @@
             <p>{{ guide.meta_description }}</p>
 
             <div class="consumables-preview">
-                <strong>{% if lang == 'en' %}Essential wear parts covered:{% else %}Pièces & Consommables traités :{% endif %}</strong>
+                <strong>{{ t.parts_covered }}</strong>
                 <ul>
                     {% for c in guide.consumables[:3] %}
                     <li>{{ c.name }} <span style="font-size: 0.75rem; color: #94a3b8;">({{ c.part_number }})</span></li>
@@ -270,34 +275,66 @@
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    {{ guide.common_codes | length }} {% if lang == 'en' %}error codes explained{% else %}codes voyants expliqués{% endif %}
+                    {{ guide.common_codes | length }} {{ t.codes_explained }}
                 </span>
-                <a href="{{ base_prefix }}/guides/{{ guide.slug }}.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-                    {% if lang == 'en' %}View Guide &rarr;{% else %}Voir la fiche &rarr;{% endif %}
+                <a href="{{ lang_base_url }}/guides/{{ guide.slug }}.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    {{ t.view_guide }}
                 </a>
             </div>
         </article>
         {% endfor %}
     </div>
 
-    <!-- Piliers d'Éco-Entretien -->
+    <!-- Piliers d'Éco-Entretien Internationaux -->
     <section class="value-props">
         <div class="value-prop-card">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                 <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
             </svg>
-            <h4>Économies Durables</h4>
+            <h4>
+                {% if lang == 'en' %}Sustainable Savings{% elif lang == 'es' %}Ahorro Sostenible{% elif lang == 'de' %}Nachhaltige Ersparnis{% elif lang == 'pt' %}Economia Sustentável{% elif lang == 'ja' %}経済的な長寿命設計{% elif lang == 'zh' %}延长使用寿命与降低维修成本{% else %}Économies Durables{% endif %}
+            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
+                {% if lang == 'en' %}
+                Replacing a simple $10 filter prevents a $300 motor burnout. Preventive care protects your investment and the environment.
+                {% elif lang == 'es' %}
+                Sustituir a tiempo un filtro de 10 € evita la sobrecarga de un motor de 300 €. Máxima vida útil para su inversión.
+                {% elif lang == 'de' %}
+                Der rechtzeitige Tausch eines 10 € Filters schützt den 300 € Motor vor Überhitzung. Einfache Pflege spart bares Geld.
+                {% elif lang == 'pt' %}
+                Trocar um filtro de 10 € previne o desgaste de um motor de 300 €. Cuidado preventivo direto para o seu bolso.
+                {% elif lang == 'ja' %}
+                定期的な消耗品交換により、モーターの過熱や高額な故障修理を未然に防止します。
+                {% elif lang == 'zh' %}
+                定期更换关键滤网配件，可有效避免主机电机过热烧毁，延长整机使用年限。
+                {% else %}
                 Remplacer un filtre colmaté à 10 € évite la surchauffe d'un moteur d'aspirateur à 300 €. Un réflexe simple pour votre pouvoir d'achat.
+                {% endif %}
             </p>
         </div>
         <div class="value-prop-card">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary);">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
             </svg>
-            <h4>Zéro Outil Requis</h4>
+            <h4>
+                {% if lang == 'en' %}Zero Tools Required{% elif lang == 'es' %}Cero Herramientas Requeridas{% elif lang == 'de' %}Kein Werkzeug Erforderlich{% elif lang == 'pt' %}Zero Ferramentas{% elif lang == 'ja' %}工具不要の簡単脱着{% elif lang == 'zh' %}免工具轻松拆装{% else %}Zéro Outil Requis{% endif %}
+            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
+                {% if lang == 'en' %}
+                All our maintenance routines focus strictly on snap-on, hand-removable components: quick-release brushes, tanks, and filters.
+                {% elif lang == 'es' %}
+                Todas las instrucciones se centran exclusivamente en piezas extraíbles a mano: cepillos con clip, depósitos y filtros.
+                {% elif lang == 'de' %}
+                Alle Anleitungen beschränken sich auf handlösbare Verschleißteile: Klick-Bürsten, Wassertanks und Schnellwechsel-Filter.
+                {% elif lang == 'pt' %}
+                Todos os procedimentos são focados em peças de encaixe manual: escovas de clique rápido, reservatórios e filtros.
+                {% elif lang == 'ja' %}
+                ドライバー等の工具を使わず、手でワンタッチ脱着できる日常消耗品のみを厳選して解説しています。
+                {% elif lang == 'zh' %}
+                全部维护教程严格专注于手拆快装部件：卡扣式滚刷、水箱滤芯及简易清洁模块。
+                {% else %}
                 Toutes nos fiches d'entretien se concentrent exclusivement sur les pièces démontables à la main : brosses clipsables, tiroirs et réservoirs.
+                {% endif %}
             </p>
         </div>
         <div class="value-prop-card">
@@ -305,9 +342,25 @@
                 <circle cx="12" cy="12" r="10"/>
                 <polyline points="12 6 12 12 14 14"/>
             </svg>
-            <h4>Liens Amazon Vérifiés</h4>
+            <h4>
+                {% if lang == 'en' %}Verified Amazon Links{% elif lang == 'es' %}Enlaces Amazon Verificados{% elif lang == 'de' %}Geprüfte Amazon-Links{% elif lang == 'pt' %}Links Amazon Verificados{% elif lang == 'ja' %}検証済みAmazon直通リンク{% elif lang == 'zh' %}亚马逊精选正品链接{% else %}Liens Amazon Vérifiés{% endif %}
+            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
-                Nos liens mènent vers des requêtes dynamiques toujours à jour sur Amazon.fr pour éviter les ruptures de stock et les erreurs 404.
+                {% if lang == 'en' %}
+                Direct queries to official Amazon marketplaces with real-time stock routing to prevent 404 dead ends.
+                {% elif lang == 'es' %}
+                Enlaces dinámicos a Amazon con disponibilidad continua para evitar errores 404 o piezas agotadas.
+                {% elif lang == 'de' %}
+                Dynamische Suchabfragen auf Amazon mit stetiger Verfügbarkeitsprüfung ohne fehlerhafte 404-Seiten.
+                {% elif lang == 'pt' %}
+                Consultas dinâmicas na Amazon sempre atualizadas para evitar indisponibilidade e páginas inexistentes.
+                {% elif lang == 'ja' %}
+                Amazon公式ストアへ直結。在庫切れやリンク切れ（404）を回避する自動クエリを採用しています。
+                {% elif lang == 'zh' %}
+                精准直达亚马逊对应区域市场，动态匹配在售现货，杜绝404失效链接。
+                {% else %}
+                Nos liens mènent vers des requêtes dynamiques toujours à jour sur Amazon pour éviter les ruptures de stock et les erreurs 404.
+                {% endif %}
             </p>
         </div>
     </section>

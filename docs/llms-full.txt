@@ -1,4 +1,4 @@
-# Base Complète des Pièces d'Usure, Consommables & Codes Entretien (FR)
+# Base Complète des Pièces d'Usure, Consommables & Codes Entretien (FR & Multi-Market)
 
 > Base de données technique exhaustive sans HTML destinée aux LLMs, agents d'achat autonomes et moteurs conversationnels (ChatGPT, Claude, Perplexity, Gemini). Permet l'ingestion totale des références sans parsing.
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
@@ -12,7 +12,12 @@
 ## Tineco Floor One S5 (Combo / Pro)
 - **Catégorie :** Aspirateurs Laveurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Résumé d'Entretien :** Filtres HEPA, rouleaux brosses et solutions de nettoyage pour Tineco Floor One S5. Guide des voyants et entretien courant sans démontage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -23,12 +28,12 @@
 | Icône Auto-nettoyage Clignotante | L'appareil détecte un encrassement résiduel des conduits internes et requiert son cycle station. | Placer l'aspirateur sur sa base de charge branchée, s'assurer que le réservoir d'eau propre contient au moins 30% d'eau et appuyer sur le bouton cycle auto-nettoyage sur la poignée. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Rouleau Brosse Microfibre Multi-surfaces | Réf. OEM adaptable | Tous les 3 à 6 mois selon fréquence d'usage | L'usure des fibres réduit l'absorption de l'eau sale et peut causer des traces au sol et des mauvaises odeurs d'humidité persistantes. | [Rouleau Brosse Microfibre Multi-surfaces sur Amazon.fr](https://www.amazon.fr/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21) |
-| Filtre à Air Sec HEPA Lavable | Réf. OEM adaptable | Remplacement tous les 2 à 3 mois (lavage hebdo) | Un filtre colmaté par les micro-poussières étouffe le moteur d'aspiration, diminue la puissance et déclenche des arrêts de sécurité prématurés. | [Filtre à Air Sec HEPA Lavable sur Amazon.fr](https://www.amazon.fr/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21) |
-| Solution Nettoyante Désodorisante Multi-surfaces | Réf. OEM adaptable | Recharge régulière (1 bouchon par réservoir) | L'utilisation de détergents moussants non adaptés endommage les capteurs de niveau et la pompe. La formule officielle préserve les conduits internes. | [Solution Nettoyante Désodorisante Multi-surfaces sur Amazon.fr](https://www.amazon.fr/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21) |
-| Brosse de Nettoyage et Outil de Coupe | Réf. OEM adaptable | En cas de perte de l'accessoire d'origine | Permet de nettoyer facilement le tube d'aspiration interne et de sectionner les poils d'animaux enroulés autour de l'axe. | [Brosse de Nettoyage et Outil de Coupe sur Amazon.fr](https://www.amazon.fr/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleau Brosse Microfibre Multi-surfaces | Réf. OEM adaptable | Tous les 3 à 6 mois selon fréquence d'usage | L'usure des fibres réduit l'absorption de l'eau sale et peut causer des traces au sol et des mauvaises odeurs d'humidité persistantes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21) |
+| Filtre à Air Sec HEPA Lavable | Réf. OEM adaptable | Remplacement tous les 2 à 3 mois (lavage hebdo) | Un filtre colmaté par les micro-poussières étouffe le moteur d'aspiration, diminue la puissance et déclenche des arrêts de sécurité prématurés. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21) |
+| Solution Nettoyante Désodorisante Multi-surfaces | Réf. OEM adaptable | Recharge régulière (1 bouchon par réservoir) | L'utilisation de détergents moussants non adaptés endommage les capteurs de niveau et la pompe. La formule officielle préserve les conduits internes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21) |
+| Brosse de Nettoyage et Outil de Coupe | Réf. OEM adaptable | En cas de perte de l'accessoire d'origine | Permet de nettoyer facilement le tube d'aspiration interne et de sectionner les poils d'animaux enroulés autour de l'axe. | [Amazon.fr ↗](https://www.amazon.fr/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Peut-on laver le filtre HEPA du Tineco Floor One S5 à l'eau chaude ?**
@@ -43,7 +48,12 @@
 ## De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)
 - **Catégorie :** Machines à Café à Grains
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Résumé d'Entretien :** Cartouches filtrantes d'eau, détartrant EcoDecalk et graisse pour groupe café De'Longhi Magnifica S. Guide des voyants et entretien régulier.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -54,12 +64,12 @@
 | Voyant Point d'Exclamation Rouge Allumé | L'infuseur (groupe café) est mal positionné, très encrassé, ou la porte de visite latérale est mal fermée. | Éteindre la machine, ouvrir le volet latéral droit, presser les deux boutons rouges de l'infuseur pour l'extraire, le rincer sous l'eau tiède sans produit vaisselle, le sécher et le réenclencher jusqu'au déclic. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Cartouche Filtrante Anticalcaire pour Réservoir d'Eau | Réf. OEM adaptable | Tous les 2 mois (ou 50 litres d'eau) | Filtre le chlore, les métaux lourds et limite drastiquement les dépôts de calcaire dans le thermobloc, garantissant un goût de café pur et prolongeant la durée de vie. | [Cartouche Filtrante Anticalcaire pour Réservoir d'Eau sur Amazon.fr](https://www.amazon.fr/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21) |
-| Détartrant Naturel EcoDecalk (500 ml) | Réf. OEM adaptable | Tous les 2 à 3 mois selon voyant de détartrage | Formule à base d'acide lactique naturel conçue pour dissoudre le calcaire sans attaquer les tubulures internes en aluminium et les joints de chauffe. | [Détartrant Naturel EcoDecalk (500 ml) sur Amazon.fr](https://www.amazon.fr/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21) |
-| Tube de Graisse Alimentaire Silicone pour Infuseur | Réf. OEM adaptable | Tous les 4 à 6 mois après rinçage approfondi | Lubrifie les rails de guidage et le joint du piston de l'infuseur pour éviter les grincements, l'usure mécanique et le blocage de la transmission. | [Tube de Graisse Alimentaire Silicone pour Infuseur sur Amazon.fr](https://www.amazon.fr/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21) |
-| Kit Joints Toriques de Remplacement Infuseur | Réf. OEM adaptable | Tous les 12 à 24 mois en cas de baisse de pression | Les joints toriques en silicone s'assèchent et perdent leur étanchéité avec la chaleur, provoquant des fuites d'eau dans le bac récolte-gouttes. | [Kit Joints Toriques de Remplacement Infuseur sur Amazon.fr](https://www.amazon.fr/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche Filtrante Anticalcaire pour Réservoir d'Eau | Réf. OEM adaptable | Tous les 2 mois (ou 50 litres d'eau) | Filtre le chlore, les métaux lourds et limite drastiquement les dépôts de calcaire dans le thermobloc, garantissant un goût de café pur et prolongeant la durée de vie. | [Amazon.fr ↗](https://www.amazon.fr/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21) |
+| Détartrant Naturel EcoDecalk (500 ml) | Réf. OEM adaptable | Tous les 2 à 3 mois selon voyant de détartrage | Formule à base d'acide lactique naturel conçue pour dissoudre le calcaire sans attaquer les tubulures internes en aluminium et les joints de chauffe. | [Amazon.fr ↗](https://www.amazon.fr/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21) |
+| Tube de Graisse Alimentaire Silicone pour Infuseur | Réf. OEM adaptable | Tous les 4 à 6 mois après rinçage approfondi | Lubrifie les rails de guidage et le joint du piston de l'infuseur pour éviter les grincements, l'usure mécanique et le blocage de la transmission. | [Amazon.fr ↗](https://www.amazon.fr/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21) |
+| Kit Joints Toriques de Remplacement Infuseur | Réf. OEM adaptable | Tous les 12 à 24 mois en cas de baisse de pression | Les joints toriques en silicone s'assèchent et perdent leur étanchéité avec la chaleur, provoquant des fuites d'eau dans le bac récolte-gouttes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Peut-on nettoyer le groupe café (infuseur) au lave-vaisselle ?**
@@ -74,7 +84,12 @@
 ## Roborock S8 / S8 Pro Ultra
 - **Catégorie :** Robots Aspirateurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s8-entretien-consommables.html
 - **Résumé d'Entretien :** Filtres HEPA, rouleaux duo-rubber, serpillières vibrantes et sacs à poussière pour Roborock S8. Guide d'entretien sans démontage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -85,12 +100,12 @@
 | Erreur 4 : Capteurs de vide encrassés | Les 4 capteurs infrarouges de vide sous le châssis sont recouverts de poussière fine. | Retourner le robot, essuyer les 4 fenêtres transparentes de détection de falaise avec un chiffon en microfibre propre non pelucheux. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Paire de Rouleaux Brosses DuoRubber en Caoutchouc | Réf. OEM adaptable | Remplacement tous les 6 à 12 mois | L'usure des lamelles en caoutchouc diminue le frottement sur tapis et réduit l'efficacité d'aspiration des poils d'animaux. | [Paire de Rouleaux Brosses DuoRubber en Caoutchouc sur Amazon.fr](https://www.amazon.fr/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21) |
-| Filtre à Air E11 Lavable pour Bac à Poussière | Réf. OEM adaptable | Tous les 3 à 6 mois (lavage chaque semaine) | Le colmatage réduit le débit d'air du moteur HyperForce et entraîne des surchauffes lors des cycles longs. | [Filtre à Air E11 Lavable pour Bac à Poussière sur Amazon.fr](https://www.amazon.fr/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21) |
-| Lingettes Serpillières Vibrantes VibraRise | Réf. OEM adaptable | Remplacement tous les 3 à 6 mois | Les microfibres usées ne transmettent plus efficacement les vibrations soniques et laissent des traces sales au séchage. | [Lingettes Serpillières Vibrantes VibraRise sur Amazon.fr](https://www.amazon.fr/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21) |
-| Sacs à Poussière Filtrants 2,5 L pour Station RockDock | Réf. OEM adaptable | Tous les 1 à 2 mois par sac | Un sac plein empêche la vidange automatique et fait forcer la turbine de succion de la station. | [Sacs à Poussière Filtrants 2,5 L pour Station RockDock sur Amazon.fr](https://www.amazon.fr/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Paire de Rouleaux Brosses DuoRubber en Caoutchouc | Réf. OEM adaptable | Remplacement tous les 6 à 12 mois | L'usure des lamelles en caoutchouc diminue le frottement sur tapis et réduit l'efficacité d'aspiration des poils d'animaux. | [Amazon.fr ↗](https://www.amazon.fr/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21) |
+| Filtre à Air E11 Lavable pour Bac à Poussière | Réf. OEM adaptable | Tous les 3 à 6 mois (lavage chaque semaine) | Le colmatage réduit le débit d'air du moteur HyperForce et entraîne des surchauffes lors des cycles longs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21) |
+| Lingettes Serpillières Vibrantes VibraRise | Réf. OEM adaptable | Remplacement tous les 3 à 6 mois | Les microfibres usées ne transmettent plus efficacement les vibrations soniques et laissent des traces sales au séchage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21) |
+| Sacs à Poussière Filtrants 2,5 L pour Station RockDock | Réf. OEM adaptable | Tous les 1 à 2 mois par sac | Un sac plein empêche la vidange automatique et fait forcer la turbine de succion de la station. | [Amazon.fr ↗](https://www.amazon.fr/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Peut-on mettre du détergent classique dans le réservoir de la station RockDock ?**
@@ -105,7 +120,12 @@
 ## Ninja Foodi DualZone (AF300EU / AF400EU)
 - **Catégorie :** Friteuses sans Huile (Air Fryer)
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Résumé d'Entretien :** Grilles de cuisson croustillante, plaques antiadhésives et feuilles de cuisson pour Air Fryer Ninja DualZone. Entretien et nettoyage sans rayure.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -116,12 +136,12 @@
 | Fumée Blanche en Cours de Cuisson | Accumulation d'huile ou de gras de viande tombé sur la résistance supérieure ou au fond du bac. | Arrêter la cuisson, laisser refroidir, essuyer l'excès de graisse liquide au fond du panier et nettoyer la grille croustillante avec une éponge non abrasive. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Plaques Grilles Croustillantes Antiadhésives de Remplacement | Réf. OEM adaptable | Tous les 12 à 18 mois en cas d'usure du revêtement céramique | Lorsque le revêtement est rayé par des ustensiles métalliques, les aliments attachent et la circulation d'air par le bas est perturbée. | [Plaques Grilles Croustillantes Antiadhésives de Remplacement sur Amazon.fr](https://www.amazon.fr/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21) |
-| Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire | Réf. OEM adaptable | Consommable à usage unique pour chaque cuisson grasse | Évite l'encrassement des paniers et protège durablement le fond en téflon contre les graisses brûlées tenaces. | [Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire sur Amazon.fr](https://www.amazon.fr/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21) |
-| Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir | Réf. OEM adaptable | Réutilisables sur plusieurs années | Permet de cuire sauces, gratins et pâtisseries sans salir les tiroirs et facilite le démoulage sans spatule abrasive. | [Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir sur Amazon.fr](https://www.amazon.fr/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21) |
-| Pieds en Caoutchouc Silicone pour Grille de Cuisson | Réf. OEM adaptable | En cas de perte ou durcissement lors des lavages | Ces patins isolent la grille métallique des parois du tiroir pour empêcher toute rayure du panier lors de l'insertion. | [Pieds en Caoutchouc Silicone pour Grille de Cuisson sur Amazon.fr](https://www.amazon.fr/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Plaques Grilles Croustillantes Antiadhésives de Remplacement | Réf. OEM adaptable | Tous les 12 à 18 mois en cas d'usure du revêtement céramique | Lorsque le revêtement est rayé par des ustensiles métalliques, les aliments attachent et la circulation d'air par le bas est perturbée. | [Amazon.fr ↗](https://www.amazon.fr/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21) |
+| Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire | Réf. OEM adaptable | Consommable à usage unique pour chaque cuisson grasse | Évite l'encrassement des paniers et protège durablement le fond en téflon contre les graisses brûlées tenaces. | [Amazon.fr ↗](https://www.amazon.fr/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21) |
+| Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir | Réf. OEM adaptable | Réutilisables sur plusieurs années | Permet de cuire sauces, gratins et pâtisseries sans salir les tiroirs et facilite le démoulage sans spatule abrasive. | [Amazon.fr ↗](https://www.amazon.fr/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21) |
+| Pieds en Caoutchouc Silicone pour Grille de Cuisson | Réf. OEM adaptable | En cas de perte ou durcissement lors des lavages | Ces patins isolent la grille métallique des parois du tiroir pour empêcher toute rayure du panier lors de l'insertion. | [Amazon.fr ↗](https://www.amazon.fr/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Les paniers et grilles du Ninja DualZone passent-ils au lave-vaisselle ?**
@@ -136,7 +156,12 @@
 ## Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)
 - **Catégorie :** Machines à Café à Grains
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-series-2200-lattego-entretien.html
 - **Résumé d'Entretien :** Filtres anticalcaire AquaClean, pastilles dégraissantes et graisse pour groupe café Philips LatteGo. Entretien et voyants d'alerte.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -147,12 +172,12 @@
 | Voyant Bac à Marc Clignotant | Le bac à marc est plein ou la trappe de service n'est pas totalement refermée. | Vider le bac à marc machine allumée, patienter 5 secondes avant de le réinsérer pour que le cycle de détection s'effectue. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Cartouche Filtrante Anticalcaire AquaClean (CA6903) | Réf. OEM adaptable | Tous les 3 mois (jusqu'à 5000 tasses sans détartrage) | Élimine le calcaire et les impuretés de l'eau, préservant la température d'infusion et l'arôme des grains. | [Cartouche Filtrante Anticalcaire AquaClean (CA6903) sur Amazon.fr](https://www.amazon.fr/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21) |
-| Pastilles Dégraissantes pour Circuit Café (CA6704) | Réf. OEM adaptable | 1 fois par mois | Dissout les huiles de café rances accumulées dans la grille de filtrage du groupe sans attaquer les joints. | [Pastilles Dégraissantes pour Circuit Café (CA6704) sur Amazon.fr](https://www.amazon.fr/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21) |
-| Tube de Graisse Silicone Alimentaire pour Groupe Café | Réf. OEM adaptable | Tous les 2 mois après rinçage à l'eau claire | Garantit le coulissement silencieux des pistons de compression et prévient l'usure de l'engrenage principal. | [Tube de Graisse Silicone Alimentaire pour Groupe Café sur Amazon.fr](https://www.amazon.fr/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21) |
-| Flacon Détartrant Spécial Machine à Café Philips (CA6700) | Réf. OEM adaptable | Dès que le voyant 'Calc/Clean' s'allume | Formule douce homologuée pour éliminer le tartre résiduel sans altérer la chaudière en inox. | [Flacon Détartrant Spécial Machine à Café Philips (CA6700) sur Amazon.fr](https://www.amazon.fr/s?k=detartrant+philips+ca6700&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche Filtrante Anticalcaire AquaClean (CA6903) | Réf. OEM adaptable | Tous les 3 mois (jusqu'à 5000 tasses sans détartrage) | Élimine le calcaire et les impuretés de l'eau, préservant la température d'infusion et l'arôme des grains. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21) |
+| Pastilles Dégraissantes pour Circuit Café (CA6704) | Réf. OEM adaptable | 1 fois par mois | Dissout les huiles de café rances accumulées dans la grille de filtrage du groupe sans attaquer les joints. | [Amazon.fr ↗](https://www.amazon.fr/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21) |
+| Tube de Graisse Silicone Alimentaire pour Groupe Café | Réf. OEM adaptable | Tous les 2 mois après rinçage à l'eau claire | Garantit le coulissement silencieux des pistons de compression et prévient l'usure de l'engrenage principal. | [Amazon.fr ↗](https://www.amazon.fr/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21) |
+| Flacon Détartrant Spécial Machine à Café Philips (CA6700) | Réf. OEM adaptable | Dès que le voyant 'Calc/Clean' s'allume | Formule douce homologuée pour éliminer le tartre résiduel sans altérer la chaudière en inox. | [Amazon.fr ↗](https://www.amazon.fr/s?k=detartrant+philips+ca6700&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=detartrant+philips+ca6700&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Le pot à lait LatteGo a-t-il des tuyaux internes à nettoyer ?**
@@ -167,7 +192,12 @@
 ## Xiaomi Smart Air Purifier 4
 - **Catégorie :** Purificateurs d'Air
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Résumé d'Entretien :** Maximisez la durée de vie de votre purificateur d'air Xiaomi Smart Air Purifier 4 avec nos conseils d'entretien simple, remplacement de filtre et FAQ.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -178,11 +208,11 @@
 | Ventilation faible ou bruit excessif | Les grilles d'entrée/sortie d'air sont obstruées par de la poussière accumulée, ce qui réduit le flux d'air et peut forcer le moteur. | Éteignez et débranchez le purificateur. Utilisez un aspirateur avec une brosse douce ou un chiffon sec pour nettoyer délicatement la poussière des grilles d'entrée (souvent tout autour de la base) et de la grille de sortie d'air (sur le dessus). Assurez-vous que rien n'obstrue ces passages. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif) | Réf. OEM adaptable | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | Un filtre encrassé réduit drastiquement l'efficacité de purification, libère des allergènes et des odeurs, et peut endommager le moteur de l'appareil. | [Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif) sur Amazon.fr](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
-| Chiffon microfibre sec et doux | Réf. OEM adaptable | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | L'accumulation de poussière sur les surfaces externes et les grilles d'entrée peut réduire l'esthétique et potentiellement obstruer les entrées d'air, diminuant l'efficacité. | [Chiffon microfibre sec et doux sur Amazon.fr](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
-| Coton-tige pour capteur PM2.5 | Réf. OEM adaptable | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | Un capteur encrassé fournit des mesures erronées de la qualité de l'air, empêchant le purificateur de fonctionner de manière optimale en mode automatique. | [Coton-tige pour capteur PM2.5 sur Amazon.fr](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif) | Réf. OEM adaptable | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | Un filtre encrassé réduit drastiquement l'efficacité de purification, libère des allergènes et des odeurs, et peut endommager le moteur de l'appareil. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
+| Chiffon microfibre sec et doux | Réf. OEM adaptable | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | L'accumulation de poussière sur les surfaces externes et les grilles d'entrée peut réduire l'esthétique et potentiellement obstruer les entrées d'air, diminuant l'efficacité. | [Amazon.fr ↗](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
+| Coton-tige pour capteur PM2.5 | Réf. OEM adaptable | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | Un capteur encrassé fournit des mesures erronées de la qualité de l'air, empêchant le purificateur de fonctionner de manière optimale en mode automatique. | [Amazon.fr ↗](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment savoir quand changer le filtre de mon Xiaomi Smart Air Purifier 4 ?**
@@ -197,7 +227,12 @@
 ## Calor Pro Express Ultimate GV9720C0
 - **Catégorie :** Centrales Vapeur
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Résumé d'Entretien :** Guide d'entretien simple pour votre centrale vapeur Calor Pro Express Ultimate GV9720C0 : détartrage, nettoyage semelle et consommables.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -208,11 +243,11 @@
 | Semelle du fer sale ou collante | Des résidus de tissus, d'amidon ou de produits d'entretien se sont déposés sur la semelle, pouvant tacher les vêtements. | Assurez-vous que le fer est froid et débranché. Utilisez un chiffon doux et humide avec un peu de savon doux pour nettoyer la semelle. Pour les résidus tenaces, un bâtonnet de nettoyage spécifique pour semelle de fer peut être utilisé. Ne jamais utiliser d'abrasifs ou d'objets métalliques. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Collecteur de calcaire Calor (Pièce de rechange) | Réf. OEM adaptable | À nettoyer régulièrement (chaque mois ou dès que le voyant s'allume). À remplacer si endommagé. | Un collecteur encrassé ou endommagé empêche l'élimination efficace du calcaire, réduisant le débit de vapeur et risquant d'obstruer les conduits internes. | [Collecteur de calcaire Calor (Pièce de rechange) sur Amazon.fr](https://www.amazon.fr/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21) |
-| Eau déminéralisée ou déionisée | Réf. OEM adaptable | À utiliser en complément ou exclusivement si votre eau du robinet est très calcaire. | L'utilisation d'eau du robinet trop calcaire accélère l'accumulation de tartre, même avec le collecteur, et peut endommager l'appareil à long terme. | [Eau déminéralisée ou déionisée sur Amazon.fr](https://www.amazon.fr/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21) |
-| Bâtonnet de nettoyage pour semelle de fer | Réf. OEM adaptable | Ponctuellement, dès que la semelle présente des traces ou colle aux tissus. | Une semelle sale ou collante peut transférer des résidus sur les vêtements, les tacher et rendre le repassage moins fluide. | [Bâtonnet de nettoyage pour semelle de fer sur Amazon.fr](https://www.amazon.fr/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Collecteur de calcaire Calor (Pièce de rechange) | Réf. OEM adaptable | À nettoyer régulièrement (chaque mois ou dès que le voyant s'allume). À remplacer si endommagé. | Un collecteur encrassé ou endommagé empêche l'élimination efficace du calcaire, réduisant le débit de vapeur et risquant d'obstruer les conduits internes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21) |
+| Eau déminéralisée ou déionisée | Réf. OEM adaptable | À utiliser en complément ou exclusivement si votre eau du robinet est très calcaire. | L'utilisation d'eau du robinet trop calcaire accélère l'accumulation de tartre, même avec le collecteur, et peut endommager l'appareil à long terme. | [Amazon.fr ↗](https://www.amazon.fr/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21) |
+| Bâtonnet de nettoyage pour semelle de fer | Réf. OEM adaptable | Ponctuellement, dès que la semelle présente des traces ou colle aux tissus. | Une semelle sale ou collante peut transférer des résidus sur les vêtements, les tacher et rendre le repassage moins fluide. | [Amazon.fr ↗](https://www.amazon.fr/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Quelle type d'eau dois-je utiliser pour ma centrale vapeur Calor Pro Express Ultimate ?**
@@ -227,7 +262,12 @@
 ## Dreame H12 Pro
 - **Catégorie :** Aspirateurs Laveurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h12-pro-entretien-consommables.html
 - **Résumé d'Entretien :** Prolongez la vie de votre Dreame H12 Pro ! Découvrez les codes d'erreur courants, les consommables essentiels et nos astuces d'entretien pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -238,11 +278,11 @@
 | Pas d'eau propre (Voyant réservoir d'eau propre vide) | Le réservoir d'eau propre est vide, et l'appareil ne peut plus distribuer d'eau pour le lavage. | Remplissez le réservoir d'eau propre avec de l'eau du robinet (ou la solution de nettoyage Dreame) jusqu'à la marque MAX indiquée. Assurez-vous qu'il est bien inséré. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Brosse Rouleau | Réf. OEM adaptable | Tous les 3 à 6 mois | Une brosse usée ou encrassée réduit l'efficacité de nettoyage, peut laisser des traces et endommager les sols fragiles. | [Brosse Rouleau sur Amazon.fr](https://www.amazon.fr/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21) |
-| Filtre HEPA | Réf. OEM adaptable | Tous les 3 à 6 mois | Un filtre encrassé diminue la puissance d'aspiration, nuit à la qualité de l'air et peut surcharger le moteur de l'appareil. | [Filtre HEPA sur Amazon.fr](https://www.amazon.fr/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21) |
-| Solution de nettoyage Dreame | Réf. OEM adaptable | Selon l'utilisation | L'utilisation d'une solution non adaptée peut endommager les conduits internes, laisser des résidus ou altérer la performance de nettoyage. | [Solution de nettoyage Dreame sur Amazon.fr](https://www.amazon.fr/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse Rouleau | Réf. OEM adaptable | Tous les 3 à 6 mois | Une brosse usée ou encrassée réduit l'efficacité de nettoyage, peut laisser des traces et endommager les sols fragiles. | [Amazon.fr ↗](https://www.amazon.fr/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21) |
+| Filtre HEPA | Réf. OEM adaptable | Tous les 3 à 6 mois | Un filtre encrassé diminue la puissance d'aspiration, nuit à la qualité de l'air et peut surcharger le moteur de l'appareil. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21) |
+| Solution de nettoyage Dreame | Réf. OEM adaptable | Selon l'utilisation | L'utilisation d'une solution non adaptée peut endommager les conduits internes, laisser des résidus ou altérer la performance de nettoyage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment nettoyer le réservoir d'eau sale de mon Dreame H12 Pro ?**
@@ -257,7 +297,12 @@
 ## Philips Airfryer XXL HD9650/90
 - **Catégorie :** Friteuses sans Huile (Air Fryer)
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Résumé d'Entretien :** Optimisez votre Philips Airfryer XXL HD9650/90 ! Découvrez les astuces d'entretien, les accessoires indispensables et les FAQ pour des cuissons parfaites.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -268,11 +313,11 @@
 | Écran éteint / Non réactif | L'appareil n'est pas alimenté ou est en mode veille prolongée. | Vérifiez que le cordon d'alimentation est correctement branché à la prise murale et à l'arrière de l'appareil. Appuyez sur le bouton marche/arrêt pour le réactiver. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Kit de nettoyage Philips Airfryer | Réf. OEM adaptable | Selon le besoin | Maintient le panier et l'intérieur de l'appareil propres, assurant une cuisson homogène et prolongeant la durée de vie des revêtements. | [Kit de nettoyage Philips Airfryer sur Amazon.fr](https://www.amazon.fr/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21) |
-| Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche) | Réf. OEM adaptable | Selon le besoin (achat initial ou complémentaire) | Élargit les possibilités de cuisson (cuisson de gâteaux, grillades superposées) et facilite la préparation de certains plats spécifiques. | [Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche) sur Amazon.fr](https://www.amazon.fr/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21) |
-| Papier sulfurisé perforé pour Airfryer | Réf. OEM adaptable | À chaque utilisation | Protège le panier des salissures tenaces, réduit le temps de nettoyage et évite que les aliments ne collent. | [Papier sulfurisé perforé pour Airfryer sur Amazon.fr](https://www.amazon.fr/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Kit de nettoyage Philips Airfryer | Réf. OEM adaptable | Selon le besoin | Maintient le panier et l'intérieur de l'appareil propres, assurant une cuisson homogène et prolongeant la durée de vie des revêtements. | [Amazon.fr ↗](https://www.amazon.fr/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21) |
+| Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche) | Réf. OEM adaptable | Selon le besoin (achat initial ou complémentaire) | Élargit les possibilités de cuisson (cuisson de gâteaux, grillades superposées) et facilite la préparation de certains plats spécifiques. | [Amazon.fr ↗](https://www.amazon.fr/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21) |
+| Papier sulfurisé perforé pour Airfryer | Réf. OEM adaptable | À chaque utilisation | Protège le panier des salissures tenaces, réduit le temps de nettoyage et évite que les aliments ne collent. | [Amazon.fr ↗](https://www.amazon.fr/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment nettoyer l'intérieur de mon Philips Airfryer XXL ?**
@@ -287,7 +332,12 @@
 ## Tineco Floor One Switch S7 (FW210100EU)
 - **Catégorie :** Aspirateurs Laveurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Résumé d'Entretien :** Guide complet pour l'entretien et le remplacement des consommables de votre aspirateur laveur Tineco Floor One Switch S7 (FW210100EU). Trouvez filtres HEPA (FW200501EU), rouleaux brosse et solutions de nettoyage pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -298,11 +348,11 @@
 | Recharger batterie | La batterie est faible et nécessite d'être rechargée. | Placez l'appareil sur sa station de charge pour le recharger complètement. Assurez-vous que les contacts de charge sont propres. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Rouleau brosse microfibre bi-matière | FW200301EU | Tous les 3 à 6 mois (selon usage) | Perte d'efficacité de nettoyage, traînées sur le sol, ou développement d'odeurs désagréables. | [Rouleau brosse microfibre bi-matière sur Amazon.fr](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+rouleau+brosse+FW200301EU&tag=autoconsom-21) |
-| Filtre HEPA | FW200501EU | Tous les 6 à 12 mois | Diminution de la puissance d'aspiration, rejet de poussière fine dans l'air, ou mauvaise filtration. | [Filtre HEPA sur Amazon.fr](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+filtre+HEPA+FW200501EU&tag=autoconsom-21) |
-| Solution de nettoyage Tineco | FW200101EU | Selon besoin (environ 1 bouteille tous les 2-3 mois) | L'utilisation d'un produit non adapté peut endommager l'appareil, laisser des résidus ou des traces sur les sols. | [Solution de nettoyage Tineco sur Amazon.fr](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+solution+nettoyage+FW200101EU&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleau brosse microfibre bi-matière | FW200301EU | Tous les 3 à 6 mois (selon usage) | Perte d'efficacité de nettoyage, traînées sur le sol, ou développement d'odeurs désagréables. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+rouleau+brosse+FW200301EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+rouleau+brosse+FW200301EU&tag=autoconsom-21) |
+| Filtre HEPA | FW200501EU | Tous les 6 à 12 mois | Diminution de la puissance d'aspiration, rejet de poussière fine dans l'air, ou mauvaise filtration. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+filtre+HEPA+FW200501EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+filtre+HEPA+FW200501EU&tag=autoconsom-21) |
+| Solution de nettoyage Tineco | FW200101EU | Selon besoin (environ 1 bouteille tous les 2-3 mois) | L'utilisation d'un produit non adapté peut endommager l'appareil, laisser des résidus ou des traces sur les sols. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+solution+nettoyage+FW200101EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+solution+nettoyage+FW200101EU&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment nettoyer la station de charge du Tineco Floor One Switch S7 ?**
@@ -317,7 +367,12 @@
 ## De'Longhi Rivelia (FEAM 44.55.B)
 - **Catégorie :** Machines à Café à Grains
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Résumé d'Entretien :** Maintenance essentielle pour votre machine à café à grains De'Longhi Rivelia (FEAM 44.55.B). Trouvez le filtre à eau DLS C002 et le détartrant EcoDecalk pour un café parfait et une longue durée de vie de votre appareil.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -328,11 +383,11 @@
 | Remplir réservoir eau | Le niveau d'eau dans le réservoir est trop bas pour préparer un café. | Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau maximum et replacez-le fermement dans son logement. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Filtre à eau De'Longhi DLS C002 | DLS C002 | Tous les 2 mois ou 50 litres d'eau | Réduit l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine. | [Filtre à eau De'Longhi DLS C002 sur Amazon.fr](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+filtre+eau+DLS+C002&tag=autoconsom-21) |
-| Détartrant De'Longhi EcoDecalk | DLSC500 | Tous les 3 mois ou selon l'affichage de la machine | Prévient l'obstruction des conduits par le calcaire, les pannes de la machine et un café tiède. | [Détartrant De'Longhi EcoDecalk sur Amazon.fr](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+d%C3%A9tartrant+DLSC500+EcoDecalk&tag=autoconsom-21) |
-| Liquide de nettoyage De'Longhi pour système LatteCrema | DLSC550 | Selon usage (une fois par semaine si usage quotidien du lait) | Empêche le bouchage du système lait, le développement de bactéries et l'altération du goût des boissons lactées. | [Liquide de nettoyage De'Longhi pour système LatteCrema sur Amazon.fr](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+nettoyage+lait+DLSC550+LatteCrema&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau De'Longhi DLS C002 | DLS C002 | Tous les 2 mois ou 50 litres d'eau | Réduit l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+filtre+eau+DLS+C002&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+filtre+eau+DLS+C002&tag=autoconsom-21) |
+| Détartrant De'Longhi EcoDecalk | DLSC500 | Tous les 3 mois ou selon l'affichage de la machine | Prévient l'obstruction des conduits par le calcaire, les pannes de la machine et un café tiède. | [Amazon.fr ↗](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+d%C3%A9tartrant+DLSC500+EcoDecalk&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+d%C3%A9tartrant+DLSC500+EcoDecalk&tag=autoconsom-21) |
+| Liquide de nettoyage De'Longhi pour système LatteCrema | DLSC550 | Selon usage (une fois par semaine si usage quotidien du lait) | Empêche le bouchage du système lait, le développement de bactéries et l'altération du goût des boissons lactées. | [Amazon.fr ↗](https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+nettoyage+lait+DLSC550+LatteCrema&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+nettoyage+lait+DLSC550+LatteCrema&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment réinitialiser l'alerte de détartrage après l'avoir effectué sur ma Rivelia ?**
@@ -347,7 +402,12 @@
 ## Roborock Qrevo MaxV (QRMV01-00)
 - **Catégorie :** Robots Aspirateurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Résumé d'Entretien :** Guide complet pour l'entretien de votre Roborock Qrevo MaxV (QRMV01-00). Découvrez les consommables essentiels et les solutions aux codes erreurs pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -358,12 +418,12 @@
 | Voyant "Réservoir d'eau sale plein" | Le réservoir d'eau sale de la station est plein et doit être vidé. | Retirez le réservoir d'eau sale de la station d'accueil. Videz-le, rincez-le si nécessaire, puis replacez-le fermement dans son logement. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Brosse principale en caoutchouc | Réf. constructeur adaptable | Tous les 6 à 12 mois | Une brosse usée ou endommagée réduit l'efficacité d'aspiration et de nettoyage, pouvant laisser des débris ou rayer les sols. | [Brosse principale en caoutchouc sur Amazon.fr](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+principale+caoutchouc%2C+brosse+rouleau+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
-| Brosse latérale | Réf. constructeur adaptable | Tous les 3 à 6 mois | Des poils tordus ou cassés diminuent la capacité du robot à collecter la poussière dans les coins et le long des murs. | [Brosse latérale sur Amazon.fr](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+lat%C3%A9rale%2C+brosse+de+coin+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
-| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 6 à 12 mois | Un filtre encrassé réduit la puissance d'aspiration, peut entraîner des odeurs et rejeter des allergènes dans l'air. | [Filtre HEPA lavable sur Amazon.fr](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+filtre+HEPA%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
-| Lingettes de nettoyage (Mop Pads) | Réf. constructeur adaptable | Tous les 3 à 6 mois (ou selon usure) | Des lingettes usées ou déchirées nettoient moins bien, peuvent laisser des traces et affecter la qualité du lavage des sols. | [Lingettes de nettoyage (Mop Pads) sur Amazon.fr](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+lingettes+mop+pads%2C+patins+de+lavage+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale en caoutchouc | Réf. constructeur adaptable | Tous les 6 à 12 mois | Une brosse usée ou endommagée réduit l'efficacité d'aspiration et de nettoyage, pouvant laisser des débris ou rayer les sols. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+principale+caoutchouc%2C+brosse+rouleau+Roborock+Qrevo+MaxV&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+principale+caoutchouc%2C+brosse+rouleau+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
+| Brosse latérale | Réf. constructeur adaptable | Tous les 3 à 6 mois | Des poils tordus ou cassés diminuent la capacité du robot à collecter la poussière dans les coins et le long des murs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+lat%C3%A9rale%2C+brosse+de+coin+Roborock+Qrevo+MaxV&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+lat%C3%A9rale%2C+brosse+de+coin+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 6 à 12 mois | Un filtre encrassé réduit la puissance d'aspiration, peut entraîner des odeurs et rejeter des allergènes dans l'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+filtre+HEPA%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Qrevo+MaxV&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+MaxV+QRMV01-00+filtre+HEPA%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
+| Lingettes de nettoyage (Mop Pads) | Réf. constructeur adaptable | Tous les 3 à 6 mois (ou selon usure) | Des lingettes usées ou déchirées nettoient moins bien, peuvent laisser des traces et affecter la qualité du lavage des sols. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+lingettes+mop+pads%2C+patins+de+lavage+Roborock+Qrevo+MaxV&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+MaxV+QRMV01-00+lingettes+mop+pads%2C+patins+de+lavage+Roborock+Qrevo+MaxV&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment réinitialiser le voyant d'entretien du filtre sur mon Roborock Qrevo MaxV ?**
@@ -378,7 +438,12 @@
 ## Philips LatteGo Série 5400 (EP5447/90)
 - **Catégorie :** Machines à Café à Grains
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Résumé d'Entretien :** Optimisez la durée de vie de votre Philips LatteGo Série 5400 (EP5447/90) avec nos conseils d'entretien, les références des consommables et la résolution des alertes courantes.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -389,12 +454,12 @@
 | Voyant "Réservoir d'eau" vide | Le réservoir d'eau est vide ou mal positionné, empêchant la machine de fonctionner. | Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX, puis replacez-le fermement dans son logement jusqu'à ce qu'il s'enclenche correctement. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Filtre à eau AquaClean | CA6903/10 | Tous les 3 mois (ou 625 tasses) | Empêche l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine en réduisant la fréquence des détartrages. | [Filtre à eau AquaClean sur Amazon.fr](https://www.amazon.fr/s?k=Philips+LatteGo+5400+EP5447%2F90+filtre+AquaClean%2C+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+5400&tag=autoconsom-21) |
-| Détartrant Philips (liquide) | CA6700/10 | Lorsque la machine l'indique (environ tous les 2-3 mois sans filtre AquaClean, 6-12 mois avec) | L'accumulation de calcaire obstrue les tuyaux, réduit la température du café et peut entraîner des pannes ou des fuites. | [Détartrant Philips (liquide) sur Amazon.fr](https://www.amazon.fr/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
-| Graisse pour groupe café | HD5061/01 | Tous les 2 mois ou après chaque nettoyage complet | Une lubrification insuffisante peut rendre le groupe café difficile à manipuler, provoquer des grincements et endommager les pièces mobiles. | [Graisse pour groupe café sur Amazon.fr](https://www.amazon.fr/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
-| Pastilles de nettoyage pour groupe café | CA6704/10 | Une fois par mois ou toutes les 500 tasses | Élimine les résidus de café et les huiles grasses qui s'accumulent dans le groupe café, prévenant les obstructions et les altérations du goût. | [Pastilles de nettoyage pour groupe café sur Amazon.fr](https://www.amazon.fr/s?k=Pastilles+nettoyage+Philips+CA6704%2F10%2C+pastilles+d%C3%A9graissantes+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau AquaClean | CA6903/10 | Tous les 3 mois (ou 625 tasses) | Empêche l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine en réduisant la fréquence des détartrages. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+LatteGo+5400+EP5447%2F90+filtre+AquaClean%2C+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+5400&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+LatteGo+5400+EP5447%2F90+filtre+AquaClean%2C+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+5400&tag=autoconsom-21) |
+| Détartrant Philips (liquide) | CA6700/10 | Lorsque la machine l'indique (environ tous les 2-3 mois sans filtre AquaClean, 6-12 mois avec) | L'accumulation de calcaire obstrue les tuyaux, réduit la température du café et peut entraîner des pannes ou des fuites. | [Amazon.fr ↗](https://www.amazon.fr/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
+| Graisse pour groupe café | HD5061/01 | Tous les 2 mois ou après chaque nettoyage complet | Une lubrification insuffisante peut rendre le groupe café difficile à manipuler, provoquer des grincements et endommager les pièces mobiles. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
+| Pastilles de nettoyage pour groupe café | CA6704/10 | Une fois par mois ou toutes les 500 tasses | Élimine les résidus de café et les huiles grasses qui s'accumulent dans le groupe café, prévenant les obstructions et les altérations du goût. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Pastilles+nettoyage+Philips+CA6704%2F10%2C+pastilles+d%C3%A9graissantes+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Pastilles+nettoyage+Philips+CA6704%2F10%2C+pastilles+d%C3%A9graissantes+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : À quelle fréquence dois-je nettoyer le système LatteGo de ma Philips Série 5400 ?**
@@ -409,7 +474,12 @@
 ## Dyson V15s Detect Submarine (SV47)
 - **Catégorie :** Aspirateurs Laveurs
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Résumé d'Entretien :** Optimisez votre Dyson V15s Detect Submarine (SV47) avec notre guide d'entretien. Trouvez filtres HEPA (PN 971634-01) et rouleaux Submarine pour une performance maximale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -420,11 +490,11 @@
 | Voyant réservoir d'eau sale plein (mode Submarine) | Le réservoir d'eau sale de la tête de nettoyage Submarine est plein et doit être vidé. | Retirez la tête de nettoyage Submarine, séparez le réservoir d'eau sale, videz-le et rincez-le à l'eau claire. Réassemblez correctement et remettez la tête en place sur l'aspirateur. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Filtre HEPA post-moteur lavable | 971634-01 | Tous les 6 mois | Une filtration réduite entraîne une perte de puissance d'aspiration, un rejet de micro-particules et d'allergènes dans l'air, et des mauvaises odeurs persistantes. | [Filtre HEPA post-moteur lavable sur Amazon.fr](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+filtre+HEPA+971634-01%2C+filtre+post-moteur+Dyson+V15s&tag=autoconsom-21) |
-| Rouleau brosse lavant Submarine | 972688-01 | Tous les 6-12 mois ou si usé | Un rouleau usé ou encrassé provoque une mauvaise performance de lavage, laisse des traces au sol et peut accumuler des saletés ou des odeurs désagréables. | [Rouleau brosse lavant Submarine sur Amazon.fr](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+rouleau+lavant%2C+brosse+Submarine+Dyson+972688-01&tag=autoconsom-21) |
-| Brosse Fluffy Optic™ pour sols durs | 971360-01 | Tous les 12-24 mois ou si usée | Une brosse usée perd son efficacité pour capturer les poussières fines, peut rayer les sols délicats et générer un bruit excessif pendant l'utilisation. | [Brosse Fluffy Optic™ pour sols durs sur Amazon.fr](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+brosse+Fluffy+Optic%2C+rouleau+brosse+Dyson+971360-01&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre HEPA post-moteur lavable | 971634-01 | Tous les 6 mois | Une filtration réduite entraîne une perte de puissance d'aspiration, un rejet de micro-particules et d'allergènes dans l'air, et des mauvaises odeurs persistantes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+filtre+HEPA+971634-01%2C+filtre+post-moteur+Dyson+V15s&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dyson+V15s+Detect+Submarine+SV47+filtre+HEPA+971634-01%2C+filtre+post-moteur+Dyson+V15s&tag=autoconsom-21) |
+| Rouleau brosse lavant Submarine | 972688-01 | Tous les 6-12 mois ou si usé | Un rouleau usé ou encrassé provoque une mauvaise performance de lavage, laisse des traces au sol et peut accumuler des saletés ou des odeurs désagréables. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+rouleau+lavant%2C+brosse+Submarine+Dyson+972688-01&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dyson+V15s+Detect+Submarine+SV47+rouleau+lavant%2C+brosse+Submarine+Dyson+972688-01&tag=autoconsom-21) |
+| Brosse Fluffy Optic™ pour sols durs | 971360-01 | Tous les 12-24 mois ou si usée | Une brosse usée perd son efficacité pour capturer les poussières fines, peut rayer les sols délicats et générer un bruit excessif pendant l'utilisation. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+brosse+Fluffy+Optic%2C+rouleau+brosse+Dyson+971360-01&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dyson+V15s+Detect+Submarine+SV47+brosse+Fluffy+Optic%2C+rouleau+brosse+Dyson+971360-01&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : Comment nettoyer le rouleau lavant Submarine après utilisation ?**
@@ -439,7 +509,12 @@
 ## Breville Barista Touch Impress (BES881BSS)
 - **Catégorie :** Machines à Café à Grains
 - **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
-- **Fiche Web Internationale (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Résumé d'Entretien :** Maintenez votre Breville Barista Touch Impress (BES881BSS) au top de sa performance. Guide d'entretien, détartrage, filtre à eau (PN BES008) et pastilles de nettoyage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -450,11 +525,11 @@
 | Alerte 'Vider le bac d'égouttement' | Le bac d'égouttement sous le porte-filtre est plein d'eau et doit être vidé pour éviter tout débordement. | Retirez le bac d'égouttement, videz l'eau accumulée, rincez-le à l'eau claire et séchez-le soigneusement avant de le remettre en place dans la machine. |
 
 ### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
-| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |
-|---|---|---|---|---|
-| Filtre à eau Breville ClaroSwiss | BES008 | Tous les 2-3 mois | Un filtre usé altère le goût du café par le chlore et les impuretés, accélère l'accumulation de calcaire dans la machine et réduit la durée de vie de l'appareil. | [Filtre à eau Breville ClaroSwiss sur Amazon.fr](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+filtre+eau%2C+filtre+ClaroSwiss+BES008%2C+filtre+%C3%A0+eau+Breville&tag=autoconsom-21) |
-| Pastilles de nettoyage Breville pour machine à espresso | BES011 | Toutes les 2-4 semaines (selon utilisation) | Des conduits encrassés par les huiles de café donnent un goût amer ou rance au café, entraînent une extraction irrégulière et peuvent provoquer des pannes de la machine. | [Pastilles de nettoyage Breville pour machine à espresso sur Amazon.fr](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+pastilles+nettoyage%2C+pastille+nettoyage+Breville+BES011&tag=autoconsom-21) |
-| Solution détartrante Breville pour machine à espresso | BES012 | Tous les 2-3 mois (selon dureté de l'eau) | Le calcaire réduit le débit d'eau, rend la température instable, peut provoquer une surchauffe et endommager gravement les composants internes de la machine. | [Solution détartrante Breville pour machine à espresso sur Amazon.fr](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+d%C3%A9tartrant%2C+solution+d%C3%A9tartrage+Breville+BES012&tag=autoconsom-21) |
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau Breville ClaroSwiss | BES008 | Tous les 2-3 mois | Un filtre usé altère le goût du café par le chlore et les impuretés, accélère l'accumulation de calcaire dans la machine et réduit la durée de vie de l'appareil. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+filtre+eau%2C+filtre+ClaroSwiss+BES008%2C+filtre+%C3%A0+eau+Breville&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Breville+Barista+Touch+Impress+BES881BSS+filtre+eau%2C+filtre+ClaroSwiss+BES008%2C+filtre+%C3%A0+eau+Breville&tag=autoconsom-21) |
+| Pastilles de nettoyage Breville pour machine à espresso | BES011 | Toutes les 2-4 semaines (selon utilisation) | Des conduits encrassés par les huiles de café donnent un goût amer ou rance au café, entraînent une extraction irrégulière et peuvent provoquer des pannes de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+pastilles+nettoyage%2C+pastille+nettoyage+Breville+BES011&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Breville+Barista+Touch+Impress+BES881BSS+pastilles+nettoyage%2C+pastille+nettoyage+Breville+BES011&tag=autoconsom-21) |
+| Solution détartrante Breville pour machine à espresso | BES012 | Tous les 2-3 mois (selon dureté de l'eau) | Le calcaire réduit le débit d'eau, rend la température instable, peut provoquer une surchauffe et endommager gravement les composants internes de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+d%C3%A9tartrant%2C+solution+d%C3%A9tartrage+Breville+BES012&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Breville+Barista+Touch+Impress+BES881BSS+d%C3%A9tartrant%2C+solution+d%C3%A9tartrage+Breville+BES012&tag=autoconsom-21) |
 
 ### ❓ Questions Fréquentes de Maintenance
 - **Q : À quelle fréquence dois-je détartrer ma Breville Barista Touch Impress ?**

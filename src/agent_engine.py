@@ -426,53 +426,740 @@ def get_fallback_appliances(existing_slugs: List[str]) -> List[ApplianceGuide]:
     return selected[:2]
 
 
-CATEGORY_EN_MAP = {
-    "Aspirateurs Laveurs": "Wet & Dry Vacuums",
-    "Machines à Café à Grains": "Bean-to-Cup Coffee Machines",
-    "Robots Aspirateurs": "Robot Vacuums & Mops",
-    "Friteuses sans Huile (Air Fryer)": "Air Fryers",
-    "Purificateurs d'Air": "Air Purifiers",
-    "Centrales Vapeur": "Steam Generator Irons",
+SUPPORTED_LANGUAGES = ["fr", "en", "es", "de", "pt", "ja", "zh"]
+
+AMAZON_DOMAINS = {
+    "fr": "amazon.fr",
+    "en": "amazon.com",
+    "es": "amazon.es",
+    "de": "amazon.de",
+    "pt": "amazon.com.br",
+    "ja": "amazon.co.jp",
+    "zh": "amazon.com",
+}
+
+CATEGORY_MAPS = {
+    "en": {
+        "Aspirateurs Laveurs": "Wet & Dry Vacuums",
+        "Machines à Café à Grains": "Bean-to-Cup Coffee Machines",
+        "Robots Aspirateurs": "Robot Vacuums & Mops",
+        "Friteuses sans Huile (Air Fryer)": "Air Fryers",
+        "Purificateurs d'Air": "Air Purifiers",
+        "Centrales Vapeur": "Steam Generator Irons",
+    },
+    "es": {
+        "Aspirateurs Laveurs": "Aspiradoras Fregadoras",
+        "Machines à Café à Grains": "Cafeteras Superautomáticas de Grano",
+        "Robots Aspirateurs": "Robots Aspiradores y Fregasuelos",
+        "Friteuses sans Huile (Air Fryer)": "Freidoras de Aire (Air Fryer)",
+        "Purificateurs d'Air": "Purificadores de Aire",
+        "Centrales Vapeur": "Centros de Planchado a Vapor",
+    },
+    "de": {
+        "Aspirateurs Laveurs": "Nass- und Trockensauger / Wischsauger",
+        "Machines à Café à Grains": "Kaffeevollautomaten",
+        "Robots Aspirateurs": "Saug- und Wischroboter",
+        "Friteuses sans Huile (Air Fryer)": "Heißluftfritteusen (Air Fryer)",
+        "Purificateurs d'Air": "Luftreiniger",
+        "Centrales Vapeur": "Dampfbügelstationen",
+    },
+    "pt": {
+        "Aspirateurs Laveurs": "Aspiradores e Lavadoras de Piso",
+        "Machines à Café à Grains": "Cafeteiras Automáticas de Grãos",
+        "Robots Aspirateurs": "Robôs Aspiradores e Passa-Pano",
+        "Friteuses sans Huile (Air Fryer)": "Fritadeiras sem Óleo (Air Fryer)",
+        "Purificateurs d'Air": "Purificadores de Ar",
+        "Centrales Vapeur": "Ferros com Caldeira a Vapor",
+    },
+    "ja": {
+        "Aspirateurs Laveurs": "水拭きコードレス掃除機",
+        "Machines à Café à Grains": "全自動コーヒーマシン",
+        "Robots Aspirateurs": "ロボット掃除機（水拭き対応）",
+        "Friteuses sans Huile (Air Fryer)": "ノンフライヤー・エアフライヤー",
+        "Purificateurs d'Air": "空気清浄機",
+        "Centrales Vapeur": "スチームアイロン",
+    },
+    "zh": {
+        "Aspirateurs Laveurs": "无线洗地机与干湿吸尘器",
+        "Machines à Café à Grains": "全自动现磨咖啡机",
+        "Robots Aspirateurs": "扫拖一体机器人",
+        "Friteuses sans Huile (Air Fryer)": "空气炸锅",
+        "Purificateurs d'Air": "空气净化器",
+        "Centrales Vapeur": "增压式蒸汽挂烫机",
+    }
+}
+
+UI_TRANSLATIONS = {
+    "fr": {
+        "site_name": "AutoConsommables.fr",
+        "tagline": "Base Officielle des Consommables, Pièces d'Usure & Codes Entretien",
+        "banner_disclosure": "<strong>Transparence Partenaire Amazon :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant préventif.",
+        "nav_guides": "Guides d'Entretien",
+        "nav_legal": "Mentions Légales",
+        "nav_dashboard": "Tableau de Bord Ops",
+        "hero_title": "Prolongez la vie de vos appareils ménagers",
+        "hero_sub": "Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d'entretien : retrouvez les pièces d'usure certifiées et résolvez les voyants d'alerte en 2 minutes.",
+        "search_placeholder": "Rechercher une marque, un modèle (ex: Tineco S7, Delonghi Rivelia, Ninja AF400EU...)",
+        "all_categories": "Toutes les catégories",
+        "no_results_title": "Aucun appareil ne correspond à votre recherche",
+        "no_results_desc": "Essayez un mot-clé plus court comme la marque (ex: Delonghi, Tineco, Roborock) ou changez de catégorie.",
+        "parts_covered": "Pièces & Consommables traités :",
+        "codes_explained": "codes voyants expliqués",
+        "view_guide": "Voir la fiche →",
+        "model_label": "Modèle :",
+        "routine_care_label": "Entretien courant :",
+        "routine_care_value": "Pièces d'usure amovibles sans outillage",
+        "safety_title": "Consignes de Sécurité & Responsabilité :",
+        "safety_desc": "Toujours débrancher électriquement l'appareil et attendre son complet refroidissement avant toute manipulation. Ce guide se limite strictement à l'entretien usuel, au remplacement de filtres/accessoires amovibles sans outillage. Pour toute panne électrique complexe, faites appel à un réparateur professionnel agréé.",
+        "consumables_heading": "Consommables & Pièces d'Usure Recommandées",
+        "consumables_intro": "L'efficacité d'origine et la longévité de votre appareil reposent sur le remplacement périodique de ces pièces d'usure :",
+        "th_part": "Pièce / Consommable",
+        "th_pn": "Réf. Constructeur (PN)",
+        "th_freq": "Fréquence d'Entretien",
+        "th_why": "Pourquoi est-ce indispensable ?",
+        "th_avail": "Disponibilité",
+        "btn_amazon": "Voir sur Amazon →",
+        "errors_heading": "Voyants d'Alerte & Codes d'Entretien Courant",
+        "errors_intro": "La majorité des signaux lumineux ou messages sur l'écran n'indiquent pas une panne grave, mais un simple besoin d'entretien de premier niveau :",
+        "cause_label": "Cause courante :",
+        "solution_label": "Procédure de résolution sans outil :",
+        "faq_heading": "Questions Fréquentes (FAQ)",
+        "footer_desc": "Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.",
+        "footer_infra": "Site statique à zéro cookie tiers et zéro tracker, hébergé sur infrastructure mondiale haute performance.",
+        "footer_popular": "Catégories Populaires",
+        "footer_legal": "Informations Légales",
+        "footer_affiliate": "Divulgation Partenaire Amazon",
+        "footer_privacy": "Politique de Confidentialité (0 Cookie)",
+        "footer_copyright": "Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.",
+    },
+    "en": {
+        "site_name": "AutoConsumables.com",
+        "tagline": "Official Registry for Wear Parts, Consumables & Maintenance Codes",
+        "banner_disclosure": "<strong>Amazon Associates Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases at no extra cost to you (#AffiliateLink). Routine maintenance and wear-part guides.",
+        "nav_guides": "Maintenance Guides",
+        "nav_legal": "Legal & Disclosure",
+        "nav_dashboard": "Ops Dashboard",
+        "hero_title": "Extend the Life of Your Home Appliances",
+        "hero_sub": "Genuine HEPA filters, descaling cartridges, roller brushes, seals and maintenance kits: find certified replacement wear parts and clear routine warning lights in 2 minutes.",
+        "search_placeholder": "Search by brand, exact model or PN (e.g. Dyson V15, Roborock Qrevo, Ninja SL400EU...)",
+        "all_categories": "All Categories",
+        "no_results_title": "No appliances match your search",
+        "no_results_desc": "Try a shorter keyword like the brand (e.g., Ninja, Dyson, Roborock) or clear your category filter.",
+        "parts_covered": "Essential wear parts covered:",
+        "codes_explained": "error codes explained",
+        "view_guide": "View Guide →",
+        "model_label": "Model:",
+        "routine_care_label": "Routine care:",
+        "routine_care_value": "Tool-free replaceable wear parts",
+        "safety_title": "Safety & Disclaimers:",
+        "safety_desc": "Always unplug the appliance and allow it to cool down completely before performing any maintenance. This guide strictly covers routine care, simple cleaning, and tool-free consumable replacement. For internal electrical issues, contact a certified technician.",
+        "consumables_heading": "Certified Wear Parts & Replacement Consumables",
+        "consumables_intro": "Peak performance and long-term durability of your appliance rely on periodic replacement of these essential wear parts:",
+        "th_part": "Part / Accessory",
+        "th_pn": "Part Number (PN)",
+        "th_freq": "Replacement Interval",
+        "th_why": "Why Replace?",
+        "th_avail": "Availability",
+        "btn_amazon": "Check on Amazon →",
+        "errors_heading": "Error Codes & Routine Maintenance Lights",
+        "errors_intro": "Most alert icons and error messages on the screen do not indicate fatal breakdowns, but simple routine maintenance needs:",
+        "cause_label": "Common Cause:",
+        "solution_label": "Tool-Free Fix:",
+        "faq_heading": "Frequently Asked Questions (FAQ)",
+        "footer_desc": "Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.",
+        "footer_infra": "Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.",
+        "footer_popular": "Popular Categories",
+        "footer_legal": "Legal & Disclosure",
+        "footer_affiliate": "Amazon Affiliate Disclosure",
+        "footer_privacy": "Zero-Cookie Privacy Policy",
+        "footer_copyright": "All rights reserved. Routine maintenance guides for preventive care.",
+    },
+    "es": {
+        "site_name": "AutoConsumables.es",
+        "tagline": "Registro Oficial de Consumibles, Repuestos y Códigos de Error",
+        "banner_disclosure": "<strong>Transparencia de Afiliados Amazon:</strong> Como Afiliado de Amazon, percibimos ingresos por compras adscritas que cumplan los requisitos (#EnlaceAfiliado). Guías de cuidado preventivo.",
+        "nav_guides": "Guías de Mantenimiento",
+        "nav_legal": "Aviso Legal",
+        "nav_dashboard": "Panel de Operaciones",
+        "hero_title": "Alargue la vida útil de sus electrodomésticos",
+        "hero_sub": "Filtros HEPA, cartuchos antical, cepillos giratorios, juntas y kits de mantenimiento: encuentre recambios certificados y solucione alertas en 2 minutos.",
+        "search_placeholder": "Buscar por marca, modelo o referencia (ej: Delonghi, Cecotec, Roborock, Ninja...)",
+        "all_categories": "Todas las categorías",
+        "no_results_title": "No se encontraron electrodomésticos",
+        "no_results_desc": "Pruebe con una palabra clave más corta como la marca (ej: Delonghi, Cecotec, Roborock) o cambie de categoría.",
+        "parts_covered": "Recambios y consumibles tratados:",
+        "codes_explained": "códigos de error explicados",
+        "view_guide": "Ver guía →",
+        "model_label": "Modelo:",
+        "routine_care_label": "Mantenimiento habitual:",
+        "routine_care_value": "Piezas de desgaste extraíbles sin herramientas",
+        "safety_title": "Seguridad y Advertencias:",
+        "safety_desc": "Desenchufe siempre el aparato y déjelo enfriar antes de manipularlo. Esta guía se limita al mantenimiento rutinario y al cambio de piezas extraíbles sin herramientas. Para averías eléctricas internas, acuda a un servicio técnico autorizado.",
+        "consumables_heading": "Repuestos y Consumibles Recomendados",
+        "consumables_intro": "El rendimiento y la durabilidad de su aparato dependen del reemplazo regular de estas piezas de desgaste esencial:",
+        "th_part": "Pieza / Accesorio",
+        "th_pn": "Ref. Fabricante (PN)",
+        "th_freq": "Frecuencia de Sustitución",
+        "th_why": "¿Por qué es esencial?",
+        "th_avail": "Disponibilidad",
+        "btn_amazon": "Ver en Amazon →",
+        "errors_heading": "Códigos de Error y Luces de Alerta",
+        "errors_intro": "La mayoría de avisos luminosos o mensajes en pantalla indican un mantenimiento básico y no una avería grave:",
+        "cause_label": "Causa habitual:",
+        "solution_label": "Solución sin herramientas:",
+        "faq_heading": "Preguntas Frecuentes (FAQ)",
+        "footer_desc": "Su observatorio independiente de piezas de desgaste, filtros y códigos de mantenimiento para electrodomésticos.",
+        "footer_infra": "Sitio estático sin cookies ni rastreadores de terceros, alojado en infraestructura global.",
+        "footer_popular": "Categorías Populares",
+        "footer_legal": "Información Legal",
+        "footer_affiliate": "Divulgación de Afiliados Amazon",
+        "footer_privacy": "Política de Privacidad (Cero Cookies)",
+        "footer_copyright": "Todos los derechos reservados. Guías orientativas para mantenimiento preventivo.",
+    },
+    "de": {
+        "site_name": "AutoConsumables.de",
+        "tagline": "Offizielles Register für Ersatzteile, Filter & Fehlercodes",
+        "banner_disclosure": "<strong>Amazon-Partnerhinweis:</strong> Als Amazon-Partner verdienen wir an qualifizierten Verkäufen (#AffiliateLink). Wartungsratgeber zur vorbeugenden Gerätepflege.",
+        "nav_guides": "Wartungs-Ratgeber",
+        "nav_legal": "Impressum & Datenschutz",
+        "nav_dashboard": "Betriebs-Dashboard",
+        "hero_title": "Verlängern Sie die Lebensdauer Ihrer Haushaltsgeräte",
+        "hero_sub": "HEPA-Filter, Entkalkungskartuschen, Bürstenwalzen, Dichtungen und Pflegesets: Finden Sie zertifizierte Ersatzteile und beheben Sie Störungen in 2 Minuten.",
+        "search_placeholder": "Nach Marke, Modell oder Teilenummer suchen (z.B. DeLonghi, Vorwerk, Roborock, Dyson...)",
+        "all_categories": "Alle Kategorien",
+        "no_results_title": "Keine passenden Geräte gefunden",
+        "no_results_desc": "Versuchen Sie einen kürzeren Suchbegriff wie den Herstellernamen oder wählen Sie eine andere Kategorie.",
+        "parts_covered": "Behandelte Verschleißteile:",
+        "codes_explained": "Fehlercodes erklärt",
+        "view_guide": "Ratgeber öffnen →",
+        "model_label": "Modell:",
+        "routine_care_label": "Regelmäßige Pflege:",
+        "routine_care_value": "Werkzeuglos austauschbare Verschleißteile",
+        "safety_title": "Sicherheitshinweise & Haftung:",
+        "safety_desc": "Trennen Sie das Gerät vor jeder Wartung vom Stromnetz und lassen Sie es abkühlen. Diese Anleitung deckt nur die routinemäßige Pflege und den werkzeuglosen Austausch von Verschleißteilen ab. Bei internen Defekten wenden Sie sich an einen Fachbetrieb.",
+        "consumables_heading": "Empfohlene Ersatz- & Verschleißteile",
+        "consumables_intro": "Die optimale Saugleistung und Langlebigkeit Ihres Geräts erfordern den rechtzeitigen Austausch dieser Hauptverschleißteile:",
+        "th_part": "Ersatzteil / Zubehör",
+        "th_pn": "Hersteller-Nr. (PN)",
+        "th_freq": "Wechselintervall",
+        "th_why": "Warum notwendig?",
+        "th_avail": "Verfügbarkeit",
+        "btn_amazon": "Bei Amazon prüfen →",
+        "errors_heading": "Fehlercodes & Wartungsanzeigen",
+        "errors_intro": "Die meisten Signalleuchten oder Fehlercodes auf dem Display deuten auf einfache Pflege hin und nicht auf einen Totalschaden:",
+        "cause_label": "Mögliche Ursache:",
+        "solution_label": "Lösung ohne Werkzeug:",
+        "faq_heading": "Häufige Fragen (FAQ)",
+        "footer_desc": "Ihre unabhängige Plattform für kompatible Filter, Bürsten und Fehlercodes gängiger Haushaltsgeräte.",
+        "footer_infra": "Statische Website ohne Cookies oder Drittanbieter-Tracker auf globaler Infrastruktur.",
+        "footer_popular": "Beliebte Kategorien",
+        "footer_legal": "Rechtliche Hinweise",
+        "footer_affiliate": "Amazon-Partnererklärung",
+        "footer_privacy": "Datenschutzerklärung (0 Cookies)",
+        "footer_copyright": "Alle Rechte vorbehalten. Praxisanleitungen zur vorbeugenden Geräteinstandhaltung.",
+    },
+    "pt": {
+        "site_name": "AutoConsumables.pt",
+        "tagline": "Registro Oficial de Peças de Reposição, Filtros e Códigos de Erro",
+        "banner_disclosure": "<strong>Transparência Associados Amazon:</strong> Como Associado da Amazon, recebemos comissão por compras qualificadas (#LinkAfiliado). Guias para manutenção preventiva doméstica.",
+        "nav_guides": "Guias de Manutenção",
+        "nav_legal": "Aviso Legal",
+        "nav_dashboard": "Painel Operacional",
+        "hero_title": "Prolongue a vida útil dos seus eletrodomésticos",
+        "hero_sub": "Filtros HEPA, cartuchos descalcificantes, escovas rotativas e vedações: encontre peças certificadas e resolva alertas em 2 minutos.",
+        "search_placeholder": "Pesquisar por marca ou modelo (ex: Mondial, Electrolux, Roborock, Philips...)",
+        "all_categories": "Todas as categorias",
+        "no_results_title": "Nenhum aparelho encontrado",
+        "no_results_desc": "Tente uma palavra-chave mais curta, como o nome da marca, ou altere a categoria selecionada.",
+        "parts_covered": "Peças e consumíveis tratados:",
+        "codes_explained": "códigos explicados",
+        "view_guide": "Ver guia →",
+        "model_label": "Modelo:",
+        "routine_care_label": "Manutenção rotineira:",
+        "routine_care_value": "Peças substituíveis sem ferramentas",
+        "safety_title": "Segurança e Responsabilidade:",
+        "safety_desc": "Desligue sempre o aparelho da tomada e aguarde o resfriamento completo antes de qualquer intervenção. Este guia cobre apenas a manutenção básica e a troca de consumíveis manuais sem uso de ferramentas.",
+        "consumables_heading": "Peças de Reposição e Consumíveis Recomendados",
+        "consumables_intro": "A eficiência original e a longevidade do seu aparelho dependem da substituição periódica destas peças essenciais:",
+        "th_part": "Peça / Acessório",
+        "th_pn": "Cód. Fabricante (PN)",
+        "th_freq": "Frequência de Troca",
+        "th_why": "Por que é essencial?",
+        "th_avail": "Disponibilidade",
+        "btn_amazon": "Ver na Amazon →",
+        "errors_heading": "Códigos de Erro e Luzes de Alerta",
+        "errors_intro": "A maioria dos avisos luminosos ou códigos no ecrã indica necessidade de manutenção básica e não uma falha grave:",
+        "cause_label": "Causa comum:",
+        "solution_label": "Solução sem ferramentas:",
+        "faq_heading": "Perguntas Frecuentes (FAQ)",
+        "footer_desc": "Seu portal independente de peças de reposição, filtros e códigos de diagnóstico para eletrodomésticos.",
+        "footer_infra": "Site estático sem cookies ou rastreadores de terceiros, hospedado em infraestrutura global.",
+        "footer_popular": "Categorias Populares",
+        "footer_legal": "Informações Legais",
+        "footer_affiliate": "Divulgação de Afiliado Amazon",
+        "footer_privacy": "Política de Privacidade (Zero Cookies)",
+        "footer_copyright": "Todos os direitos reservados. Guias práticos para manutenção preventiva residencial.",
+    },
+    "ja": {
+        "site_name": "AutoConsumables.jp",
+        "tagline": "家電消耗品・純正互換パーツ＆エラーコード公式データベース",
+        "banner_disclosure": "<strong>Amazonアソシエイト開示情報：</strong> 当サイトはAmazonアソシエイト・プログラムの参加者であり、適格販売により収入を得ています（#アフィリエイトリンク）。",
+        "nav_guides": "メンテナンスガイド",
+        "nav_legal": "特定商取引・規約",
+        "nav_dashboard": "運用ダッシュボード",
+        "hero_title": "家電製品を長持ちさせる消耗品・お手入れガイド",
+        "hero_sub": "HEPAフィルター、除石灰カートリッジ、回転ブラシ、パッキン等：適合する交換パーツを見つけ、警告表示を2分で解消。",
+        "search_placeholder": "メーカー名・型番で検索 (例: ダイソン, デロンギ, ルンバ, ティネコ...)",
+        "all_categories": "すべてのカテゴリー",
+        "no_results_title": "該当する家電製品が見つかりません",
+        "no_results_desc": "メーカー名などの短いキーワードで再検索するか、カテゴリーの選択を解除してください。",
+        "parts_covered": "対象の消耗部品：",
+        "codes_explained": "のエラー解説",
+        "view_guide": "ガイドを見る →",
+        "model_label": "型番・モデル:",
+        "routine_care_label": "日常のお手入れ:",
+        "routine_care_value": "工具不要の交換パーツ",
+        "safety_title": "安全上の注意事項・免責事項:",
+        "safety_desc": "作業を行う前に必ず電源プラグをコンセントから抜き、本体が完全に冷めていることを確認してください。本ガイドは工具を使わずに脱着できるフィルターや消耗品の日常交換のみを対象としています。",
+        "consumables_heading": "推奨交換用消耗品・純正互換パーツ",
+        "consumables_intro": "本来の清掃力や寿命を維持するために、定期的な消耗品交換を推奨します：",
+        "th_part": "部品・消耗品",
+        "th_pn": "型番 (PN)",
+        "th_freq": "交換頻度",
+        "th_why": "交換の重要性",
+        "th_avail": "在庫・購入",
+        "btn_amazon": "Amazonで確認 →",
+        "errors_heading": "エラーコード・警告ランプの解除",
+        "errors_intro": "ディスプレイの警告表示や点滅ランプの多くは故障ではなく、日常の簡単なお手入れで解決します：",
+        "cause_label": "主な原因:",
+        "solution_label": "工具不要の解除手順:",
+        "faq_heading": "よくある質問 (FAQ)",
+        "footer_desc": "主要家電製品の消耗品交換時期、互換フィルター、日常エラーコードの独立データベース。",
+        "footer_infra": "クッキー不使用・トラッカーゼロ。グローバルインフラによる高速静的配信。",
+        "footer_popular": "人気カテゴリー",
+        "footer_legal": "法的表記・規約",
+        "footer_affiliate": "Amazonアソシエイト声明",
+        "footer_privacy": "プライバシーポリシー（Cookie不使用）",
+        "footer_copyright": "無断転載を禁じます。日常の予防保全を目的とした実践ガイド。",
+    },
+    "zh": {
+        "site_name": "AutoConsumables.cn",
+        "tagline": "家电原厂适配耗材、易损配件与故障代码技术数据库",
+        "banner_disclosure": "<strong>亚马逊联盟透明度声明：</strong> 作为亚马逊联盟合作伙伴，符合条件的购买会产生推广佣金（#推广链接）。日常维护指南仅供预防性保养参考。",
+        "nav_guides": "保养指南",
+        "nav_legal": "法律声明",
+        "nav_dashboard": "运维仪表盘",
+        "hero_title": "延长家用电器使用寿命的耗材保养指南",
+        "hero_sub": "HEPA滤网、除垢滤芯、滚刷、密封圈与保养套件：快速匹配正品配件，2分钟排除日常警报。",
+        "search_placeholder": "按品牌、具体型号或零件号搜索 (例如: 添可, 德龙, 石头科技, 追觅, 戴森...)",
+        "all_categories": "所有分类",
+        "no_results_title": "未找到匹配的家电设备",
+        "no_results_desc": "请尝试缩短搜索词（如只输入品牌名称），或清除分类筛选重试。",
+        "parts_covered": "收录易损耗材：",
+        "codes_explained": "项故障代码解析",
+        "view_guide": "查看详情 →",
+        "model_label": "型号:",
+        "routine_care_label": "日常维护:",
+        "routine_care_value": "无需工具即可拆装的易损耗材",
+        "safety_title": "安全须知与免责声明:",
+        "safety_desc": "在进行任何拆装维护前，请务必拔掉电源插头并等待机身完全冷却。本指南仅涵盖日常免工具可拆卸耗材的更换与清理，内部电路故障请联系官方授权维修点。",
+        "consumables_heading": "推荐易损耗材与替换配件",
+        "consumables_intro": "为保持机器最佳工作性能并延长使用寿命，建议定期更换以下核心易损部件：",
+        "th_part": "配件 / 耗材",
+        "th_pn": "原厂零件号 (PN)",
+        "th_freq": "更换周期",
+        "th_why": "更换原因及影响",
+        "th_avail": "选购链接",
+        "btn_amazon": "在亚马逊上查看 →",
+        "errors_heading": "故障报警代码与日常维护指示灯",
+        "errors_intro": "显示屏上的绝大多数报错图标和警报代码并非主板损坏，而是常规的基础清理提示：",
+        "cause_label": "常见原因:",
+        "solution_label": "无需工具的解决步骤:",
+        "faq_heading": "常见问题 (FAQ)",
+        "footer_desc": "面向主流家用电器的耗材对照、滤网适配与日常故障排除独立指南平台。",
+        "footer_infra": "零第三方Cookie、零追踪器的静态站点，部署于全球高性能云基础设施。",
+        "footer_popular": "热门品类",
+        "footer_legal": "合规与法律信息",
+        "footer_affiliate": "亚马逊联盟伙伴声明",
+        "footer_privacy": "隐私政策（零Cookie）",
+        "footer_copyright": "版权所有。为延长家电使用寿命而编写的预防性日常维护指南。",
+    }
 }
 
 
-def build_english_guide(guide: dict, partner_tag: str) -> dict:
-    """Adapte une fiche technique en version anglaise pour les marchés USA / UK / Global."""
-    en_cat = CATEGORY_EN_MAP.get(guide.get("category", ""), guide.get("category", "Home Appliances"))
-    en_title = f"{guide.get('brand')} {guide.get('model')}: Replacement Parts, Filters & Error Codes"
-    en_desc = f"Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for {guide.get('brand')} {guide.get('model')}."
+def localize_consumable_name(name: str, lang: str) -> str:
+    """Traduit ou adapte le nom du consommable selon la langue cible."""
+    if lang == "fr" or not name:
+        return name
+    n_lower = name.lower()
+    if "filtre" in n_lower or "hepa" in n_lower:
+        mapping = {
+            "en": "HEPA Filter Replacement",
+            "es": "Filtro HEPA de Alta Eficiencia",
+            "de": "HEPA-Ersatzfilter",
+            "pt": "Filtro HEPA de Alta Eficiência",
+            "ja": "交換用HEPA高機能フィルター",
+            "zh": "HEPA高效替换滤网",
+        }
+        return mapping.get(lang, name)
+    if "rouleau" in n_lower or "brosse" in n_lower:
+        if "latérale" in n_lower:
+            mapping = {
+                "en": "Side Edge Brush",
+                "es": "Cepillo Lateral para Esquinas",
+                "de": "Seitenbürste für Ecken",
+                "pt": "Escova Lateral de Cantos",
+                "ja": "サイドエッジブラシ",
+                "zh": "边角清洁边刷",
+            }
+            return mapping.get(lang, name)
+        mapping = {
+            "en": "Main Roller Brush",
+            "es": "Cepillo de Rodillo Principal",
+            "de": "Haupt-Bürstenwalze",
+            "pt": "Rolo de Escova Principal",
+            "ja": "メイン回転ブラシローラー",
+            "zh": "原装主滚刷配件",
+        }
+        return mapping.get(lang, name)
+    if "détartr" in n_lower or "anticalcaire" in n_lower or "calc" in n_lower:
+        mapping = {
+            "en": "Descaling Solution & Water Filter",
+            "es": "Líquido Descalcificador y Antical",
+            "de": "Entkalker & Wasserfilter",
+            "pt": "Solução Descalcificante e Filtro",
+            "ja": "純正除石灰剤・軟水フィルター",
+            "zh": "专用除垢剂与软水滤芯",
+        }
+        return mapping.get(lang, name)
+    if "serpilli" in n_lower or "microfibre" in n_lower or "lingette" in n_lower:
+        mapping = {
+            "en": "Microfiber Mop Pads",
+            "es": "Mopas de Microfibra Lavables",
+            "de": "Mikrofaser-Wischtücher",
+            "pt": "Panos de Microfibra Laváveis",
+            "ja": "マイクロファイバーモップクロス",
+            "zh": "可清洗超细纤维拖布",
+        }
+        return mapping.get(lang, name)
+    if "joint" in n_lower or "silicone" in n_lower:
+        mapping = {
+            "en": "Silicone Gasket Seal",
+            "es": "Junta de Silicona Hermética",
+            "de": "Silikon-Dichtungsring",
+            "pt": "Junta de Vedação em Silicone",
+            "ja": "耐熱シリコン密閉パッキン",
+            "zh": "耐温硅胶密封圈",
+        }
+        return mapping.get(lang, name)
+    return name
 
-    en_consumables = []
+
+def localize_frequency(freq: str, lang: str) -> str:
+    """Traduit les intervalles de remplacement standard."""
+    if lang == "fr" or not freq:
+        return freq
+    f_lower = freq.lower()
+    if "3 à 6 mois" in f_lower or "3-6" in f_lower:
+        mapping = {
+            "en": "Every 3 to 6 months",
+            "es": "Cada 3 a 6 meses",
+            "de": "Alle 3 bis 6 Monate",
+            "pt": "A cada 3 a 6 meses",
+            "ja": "3〜6ヶ月ごと",
+            "zh": "每3至6个月",
+        }
+        return mapping.get(lang, freq)
+    if "6 à 12 mois" in f_lower or "6-12" in f_lower or "1 an" in f_lower:
+        mapping = {
+            "en": "Every 6 to 12 months",
+            "es": "Cada 6 a 12 meses",
+            "de": "Alle 6 bis 12 Monate",
+            "pt": "A cada 6 a 12 meses",
+            "ja": "6〜12ヶ月ごと",
+            "zh": "每6至12个月",
+        }
+        return mapping.get(lang, freq)
+    if "usage" in f_lower or "chaque" in f_lower:
+        mapping = {
+            "en": "After each cleaning cycle",
+            "es": "Tras cada uso o ciclo",
+            "de": "Nach jedem Reinigungslauf",
+            "pt": "Após cada ciclo de limpeza",
+            "ja": "使用・清掃サイクルごと",
+            "zh": "每次清洁使用后",
+        }
+        return mapping.get(lang, freq)
+    if "mensuel" in f_lower or "200" in f_lower or "mois" in f_lower:
+        mapping = {
+            "en": "Monthly / every 200 cycles",
+            "es": "Mensual / cada 200 cafés",
+            "de": "Monatlich / alle 200 Zyklen",
+            "pt": "Mensal / a cada 200 ciclos",
+            "ja": "毎月 / 200回ごと",
+            "zh": "每月一次 / 每200杯",
+        }
+        return mapping.get(lang, freq)
+    return freq
+
+
+def localize_why_replace(why: str, lang: str) -> str:
+    """Traduit l'argumentaire technique de remplacement."""
+    if lang == "fr" or not why:
+        return why
+    w_lower = why.lower()
+    if "aspiration" in w_lower or "moteur" in w_lower or "surchauffe" in w_lower:
+        mapping = {
+            "en": "Prevents motor overheating and restores 100% factory suction power.",
+            "es": "Evita el sobrecalentamiento del motor y recupera el 100% de la potencia de succión.",
+            "de": "Verhindert Motorüberhitzung und stellt die maximale Saugleistung wieder her.",
+            "pt": "Evita o superaquecimento do motor e restaura a sucção original de fábrica.",
+            "ja": "モーターの過熱を防ぎ、新品時の強力な吸引力と排気清浄度を回復させます。",
+            "zh": "防止电机过热保护，恢复出厂级强劲吸力并保障排气洁净。",
+        }
+        return mapping.get(lang, why)
+    if "calcaire" in w_lower or "buse" in w_lower or "tartre" in w_lower:
+        mapping = {
+            "en": "Prevents mineral scale build-up and maintains optimal brew pressure and temperature.",
+            "es": "Evita la acumulación de cal y garantiza la presión y temperatura óptimas de extracción.",
+            "de": "Schützt vor Verkalkung der Heizelemente und garantiert optimalen Brühdruck.",
+            "pt": "Previne o acúmulo de calcário e preserva a pressão ideal de infusão e temperatura.",
+            "ja": "内部配管の石灰付着を防ぎ、理想的な抽出圧力と温度を維持します。",
+            "zh": "彻底清除加热水道水垢沉积，维持标准萃取水温与泵压。",
+        }
+        return mapping.get(lang, why)
+    if "brosse" in w_lower or "rouleau" in w_lower or "cheveux" in w_lower or "poils" in w_lower:
+        mapping = {
+            "en": "Eliminates hair tangles and avoids streak marks on hard floors.",
+            "es": "Evita marcas en suelos duros y garantiza una recogida eficaz sin enredos de pelo.",
+            "de": "Verhindert Streifenbildung auf Hartböden und sorgt für rückstandsfreie Schmutzaufnahme.",
+            "pt": "Evita marcas no chão e assegura a recolha eficiente de detritos e pelos.",
+            "ja": "毛髪の絡まりを除去し、フローリングに拭き筋を残さず清潔に磨き上げます。",
+            "zh": "避免毛发缠绕，彻底消除硬质地板水渍与划痕。",
+        }
+        return mapping.get(lang, why)
+    mapping = {
+        "en": "Essential for hygiene, optimal efficiency and extending appliance lifespan.",
+        "es": "Fundamental para la higiene, máxima eficacia y prolongar la vida útil del equipo.",
+        "de": "Unerlässlich für einwandfreie Hygiene und den Werterhalt des Geräts.",
+        "pt": "Indispensável para a higiene, eficiência energética e durabilidade do aparelho.",
+        "ja": "衛生状態を保ち、機器本来の性能発揮と製品寿命の延長に直結します。",
+        "zh": "确保使用卫生健康，恢复最佳运行效率并大幅延长整机寿命。",
+    }
+    return mapping.get(lang, why)
+
+
+def localize_common_codes(codes: list, lang: str) -> list:
+    """Traduit les codes erreurs et procédures de résolution."""
+    if lang == "fr" or not codes:
+        return codes
+    localized = []
+    for c in codes:
+        code_str = str(c.get("code", ""))
+        meaning_str = str(c.get("meaning", ""))
+        solution_str = str(c.get("solution", ""))
+        m_lower = meaning_str.lower()
+
+        if "filtre" in m_lower or "saturation" in m_lower or "bouch" in m_lower:
+            m_map = {
+                "en": "Filter clogged or airflow obstructed",
+                "es": "Filtro saturado u obstrucción de aire",
+                "de": "Filter verstopft oder Luftstrom behindert",
+                "pt": "Filtro saturado ou fluxo de ar bloqueado",
+                "ja": "フィルターの目詰まりまたは吸気口の閉塞",
+                "zh": "滤网严重堵塞或进风管道受阻",
+            }
+            s_map = {
+                "en": "Remove and tap out dust or wash filter under cold water. Let dry for 24h before reinserting.",
+                "es": "Extraiga el filtro, sacúdalo o lávelo bajo agua fría. Deje secar 24 h antes de volver a colocarlo.",
+                "de": "Filter entnehmen, ausklopfen oder unter kaltem Wasser spülen. 24 Std. trocknen lassen.",
+                "pt": "Retire o filtro, sacuda o pó ou lave em água fria. Deixe secar por 24 horas antes do uso.",
+                "ja": "フィルターを取り外してゴミを落とすか水洗いし、24時間完全乾燥させてから装着します。",
+                "zh": "拆下滤网轻轻拍打除尘，或用冷水彻底清洗，完全晾干24小时后重新装入。",
+            }
+        elif "brosse" in m_lower or "rouleau" in m_lower or "blocage" in m_lower:
+            m_map = {
+                "en": "Roller brush stalled or tangled by hair",
+                "es": "Cepillo giratorio bloqueado por pelos",
+                "de": "Bürstenwalze durch Haare blockiert",
+                "pt": "Escova rotativa bloqueada por fios ou pelos",
+                "ja": "ローラーブラシへの毛髪絡まり・回転停止",
+                "zh": "滚刷缠绕毛发或异物导致电机自停保护",
+            }
+            s_map = {
+                "en": "Release quick-clip cover, remove roller and cut away tangled hairs with scissors.",
+                "es": "Abra la tapa de fácil acceso, extraiga el rodillo y retire los pelos acumulados con tijeras.",
+                "de": "Klick-Abdeckung lösen, Walze herausnehmen und Verhedderungen vorsichtig zerschneiden.",
+                "pt": "Solte a tampa de clique, retire o rolo e corte os fios acumulados com uma tesoura.",
+                "ja": "ワンタッチカバーを外し、ブラシを取り出して絡まった髪の毛をハサミで切除してください。",
+                "zh": "解开快拆卡扣取出滚刷，使用小剪刀清理轴承及缝隙处缠绕的头发线头。",
+            }
+        elif "détartr" in m_lower or "calc" in m_lower:
+            m_map = {
+                "en": "Routine descaling reminder triggered",
+                "es": "Aviso de descalcificación rutinaria",
+                "de": "Regulärer Entkalkungshinweis aktiv",
+                "pt": "Alerta de descalcificação periódica ativado",
+                "ja": "定期的な除石灰（カルキ抜き）アラート",
+                "zh": "定期管路除垢保养提示灯点亮",
+            }
+            s_map = {
+                "en": "Fill water tank with descaling solution and water, run automatic cycle, then flush thoroughly.",
+                "es": "Llene el depósito con líquido descalcificador y agua, inicie el ciclo automático y aclare bien.",
+                "de": "Wassertank mit Entkalkerlösung befüllen, Spülprogramm starten und anschließend gründlich nachspülen.",
+                "pt": "Encha o reservatório com descalcificante e água, execute o ciclo automático e enxágue bem.",
+                "ja": "給水タンクに水と除石灰剤を入れ、自動洗浄モードを実行してすすぎを行ってください。",
+                "zh": "在水箱中注入除垢剂与清水，长按清洗键启动全自动除垢循环，随后彻底冲洗管路。",
+            }
+        elif "réservoir" in m_lower or "eau" in m_lower or "tank" in m_lower:
+            m_map = {
+                "en": "Clean water tank empty or dirty container full",
+                "es": "Depósito de agua limpia vacío o sucio lleno",
+                "de": "Frischwassertank leer oder Schmutzwassertank voll",
+                "pt": "Reservatório de água limpa vazio ou de suja cheio",
+                "ja": "浄水タンクの空水または汚水タンクの満水",
+                "zh": "清水箱缺水或污水箱已满溢警报",
+            }
+            s_map = {
+                "en": "Empty dirty container, clean float sensor and refill clean water tank.",
+                "es": "Vacíe el depósito de aguas residuales, limpie los sensores y recargue el agua limpia.",
+                "de": "Schmutzwassertank entleeren, Sensoren abwischen und Frischwasser auffüllen.",
+                "pt": "Esvazie o recipiente de água suja, limpe os sensores e reabasteça com água limpa.",
+                "ja": "汚水タンクを排水してフロートセンサーを拭き、浄水タンクに水を補給してください。",
+                "zh": "清空污水箱并擦拭电极水位传感器，重新将清水箱注满清水即可复位。",
+            }
+        else:
+            m_map = {
+                "en": f"Alert code {code_str}: routine sensor check required",
+                "es": f"Aviso {code_str}: comprobación rutinaria del sensor",
+                "de": f"Hinweis {code_str}: Überprüfung der Sensoren erforderlich",
+                "pt": f"Código {code_str}: verificação de rotina do sensor",
+                "ja": f"警告コード {code_str}: センサーの日常点検が必要です",
+                "zh": f"警报代码 {code_str}: 需进行日常传感器清洁与复位",
+            }
+            s_map = {
+                "en": "Turn off power for 30s, wipe external optical contacts and restart machine.",
+                "es": "Apague el equipo 30 s, limpie los contactos ópticos y reinicie.",
+                "de": "Gerät für 30 Sek. ausschalten, Sensorkontakte abwischen und neu starten.",
+                "pt": "Desligue o aparelho por 30 segundos, limpe os contactos e reinicie.",
+                "ja": "主電源を30秒間切り、センサー接点を拭き取ってから再起動してください。",
+                "zh": "关闭电源静置30秒，擦拭机身外部光学接触点后重新开机。",
+            }
+
+        localized.append({
+            "code": code_str,
+            "meaning": m_map.get(lang, meaning_str),
+            "solution": s_map.get(lang, solution_str),
+        })
+    return localized
+
+
+def build_localized_guide(guide: dict, lang: str, partner_tag: str) -> dict:
+    """Adapte et traduit intégralement une fiche technique pour n'importe quelle langue cible."""
+    if lang == "fr":
+        fr_consumables = []
+        for c in guide.get("consumables", []):
+            search_q = c.get("search_keywords", f"{guide.get('brand')} {guide.get('model')} {c.get('part_number', '')} {c.get('name')}").strip()
+            item = dict(c)
+            item["affiliate_url"] = build_affiliate_url(search_q, partner_tag, domain="amazon.fr")
+            fr_consumables.append(item)
+        res = dict(guide)
+        res["consumables"] = fr_consumables
+        return res
+
+    domain = AMAZON_DOMAINS.get(lang, "amazon.com")
+    cat_map = CATEGORY_MAPS.get(lang, {})
+    loc_cat = cat_map.get(guide.get("category", ""), guide.get("category", "Home Appliances"))
+
+    brand = guide.get("brand", "")
+    model = guide.get("model", "")
+
+    title_templates = {
+        "en": f"{brand} {model}: Replacement Parts, Filters & Error Codes",
+        "es": f"{brand} {model}: Repuestos, Filtros y Códigos de Error",
+        "de": f"{brand} {model}: Ersatzteile, Filter und Fehlercodes",
+        "pt": f"{brand} {model}: Peças de Reposição, Filtros e Códigos de Erro",
+        "ja": f"{brand} {model}: 交換部品・フィルター・エラーコード解説",
+        "zh": f"{brand} {model}: 耗材配件、滤网更换与故障代码指南",
+    }
+    desc_templates = {
+        "en": f"Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for {brand} {model}.",
+        "es": f"Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para {brand} {model}.",
+        "de": f"Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für {brand} {model}.",
+        "pt": f"Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para {brand} {model}.",
+        "ja": f"{brand} {model} の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。",
+        "zh": f"{brand} {model} 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。",
+    }
+
+    loc_consumables = []
     for c in guide.get("consumables", []):
-        search_q = f"{guide.get('brand')} {guide.get('model')} {c.get('part_number', '')} {c.get('name')}".strip()
-        en_consumables.append({
-            "name": c.get("name"),
-            "part_number": c.get("part_number", "OEM compatible"),
-            "frequency": c.get("frequency"),
-            "why_replace": c.get("why_replace"),
+        loc_name = localize_consumable_name(c.get("name", "Pièce"), lang)
+        loc_freq = localize_frequency(c.get("frequency", ""), lang)
+        loc_why = localize_why_replace(c.get("why_replace", ""), lang)
+        pn = c.get("part_number", "OEM compatible")
+        search_q = f"{brand} {model} {pn} {loc_name}".strip()
+        loc_consumables.append({
+            "name": loc_name,
+            "part_number": pn,
+            "frequency": loc_freq,
+            "why_replace": loc_why,
             "search_keywords": search_q,
-            "affiliate_url": build_affiliate_url(search_q, partner_tag, domain="amazon.com"),
+            "affiliate_url": build_affiliate_url(search_q, partner_tag, domain=domain),
+        })
+
+    loc_codes = localize_common_codes(guide.get("common_codes", []), lang)
+
+    # Localisation FAQ
+    loc_faq = []
+    for f in guide.get("faq", []):
+        q = f.get("question", "")
+        a = f.get("answer", "")
+        q_trans = {
+            "en": f"How often should I replace consumables on {brand} {model}?",
+            "es": f"¿Con qué frecuencia debo cambiar los consumibles en {brand} {model}?",
+            "de": f"Wie oft müssen die Verschleißteile beim {brand} {model} getauscht werden?",
+            "pt": f"Com que frequência devo substituir as peças no {brand} {model}?",
+            "ja": f"{brand} {model} の消耗品はどのくらいの頻度で交換すべきですか？",
+            "zh": f"{brand} {model} 的易损耗材应该多久更换一次？",
+        }
+        a_trans = {
+            "en": f"Filters and brushes should generally be replaced every 3 to 6 months depending on usage to maintain peak suction and motor longevity.",
+            "es": f"Los filtros y cepillos deben sustituirse cada 3 a 6 meses según la frecuencia de uso para garantizar el máximo rendimiento.",
+            "de": f"Filter und Bürsten sollten je nach Nutzung alle 3 bis 6 Monate erneuert werden, um die volle Saugleistung zu erhalten.",
+            "pt": f"Filtros e escovas devem ser trocados a cada 3 a 6 meses conforme o uso para preservar o motor.",
+            "ja": f"本来の吸引力とモーター寿命を保つため、フィルターとブラシは使用頻度に応じて3〜6ヶ月ごとの交換を推奨します。",
+            "zh": f"为维持出厂吸力并保护电机，建议根据使用频率每3至6个月更换一次滤网和滚刷。",
+        }
+        loc_faq.append({
+            "question": q_trans.get(lang, q),
+            "answer": a_trans.get(lang, a)
         })
 
     return {
         "slug": guide["slug"],
-        "title": en_title,
-        "brand": guide["brand"],
-        "model": guide["model"],
-        "category": en_cat,
-        "meta_description": en_desc,
-        "common_codes": guide.get("common_codes", []),
-        "consumables": en_consumables,
-        "faq": guide.get("faq", []),
+        "title": title_templates.get(lang, guide.get("title")),
+        "brand": brand,
+        "model": model,
+        "category": loc_cat,
+        "meta_description": desc_templates.get(lang, guide.get("meta_description")),
+        "common_codes": loc_codes,
+        "consumables": loc_consumables,
+        "faq": loc_faq if loc_faq else guide.get("faq", []),
     }
 
 
+def build_english_guide(guide: dict, partner_tag: str) -> dict:
+    """Wrapper de rétrocompatibilité pour la version anglaise."""
+    return build_localized_guide(guide, "en", partner_tag)
+
+
 def generate_syndication_markdown(guide: dict, site_base_url: str, lang: str = "fr") -> str:
-    """Génère un export Markdown propre prêt pour la syndication sur dev.to, Medium ou blogs techniques."""
-    is_en = lang == "en"
-    canonical_path = f"/en/guides/{guide['slug']}.html" if is_en else f"/guides/{guide['slug']}.html"
-    canonical_url = f"{site_base_url.rstrip('/')}{canonical_path}"
+    """Génère un export Markdown propre prêt pour la syndication multilingue (dev.to, Medium, etc.)."""
+    clean_base = site_base_url.rstrip("/")
+    canonical_path = f"/{lang}/guides/{guide['slug']}.html" if lang != "fr" else f"/guides/{guide['slug']}.html"
+    canonical_url = f"{clean_base}{canonical_path}"
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    t = UI_TRANSLATIONS.get(lang, UI_TRANSLATIONS["fr"])
 
     title = guide["title"]
     desc = guide.get("meta_description", "")
@@ -483,70 +1170,71 @@ def generate_syndication_markdown(guide: dict, site_base_url: str, lang: str = "
         f'description: "{desc}"',
         f'canonical_url: "{canonical_url}"',
         f'published_at: "{date_str}"',
-        'tags: ["diy", "guide", "appliances", "maintenance", "tech"]' if is_en else 'tags: ["diy", "guide", "electromenager", "entretien", "tech"]',
+        f'lang: "{lang}"',
+        'tags: ["diy", "guide", "appliances", "maintenance", "tech"]',
         "---",
         "",
         f"# {title}",
         "",
-        "> **Amazon Associates Disclosure:** This independent article contains affiliate links (#AffiliateLink). As an Amazon Associate, we earn from qualifying purchases at no extra cost to you." if is_en else "> **Transparence Partenaire Amazon :** Cet article indépendant comporte des liens affiliés Amazon France (#LienAffilié). En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats éligibles sans surcoût pour vous.",
-        f"> *Interactive guide available at: [{canonical_url}]({canonical_url})*" if is_en else f"> *Source originale et guide interactif : [{canonical_url}]({canonical_url})*",
+        f"> **{t['banner_disclosure']}**",
+        f"> *Source & Guide: [{canonical_url}]({canonical_url})*",
         "",
-        "## ⚠️ Safety & Preliminary Disclaimers" if is_en else "## ⚠️ Sécurité & Consignes Préalables",
-        "Always unplug your appliance before performing maintenance. These procedures strictly cover routine maintenance and tool-free wear parts." if is_en else "Débranchez impérativement votre appareil avant toute intervention. Les procédures ci-dessous ne concernent que l'entretien courant et les pièces d'usure amovibles sans outillage.",
+        f"## ⚠️ {t['safety_title']}",
+        f"{t['safety_desc']}",
         "",
-        "## 🛠️ Parts Cross-Reference & Wear Chart" if is_en else "## 🛠️ Table de Correspondances des Pièces & Consommables Certifiés",
+        f"## 🛠️ {t['consumables_heading']}",
         "",
-        "| Genuine Part / Accessory | Manufacturer PN | Replacement Interval | Check Availability |" if is_en else "| Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |",
+        f"| {t['th_part']} | {t['th_pn']} | {t['th_freq']} | {t['th_avail']} |",
         "| :--- | :--- | :--- | :--- |",
     ]
 
     for item in guide.get("consumables", []):
         pn = item.get("part_number") or "OEM compatible"
         url = item.get("affiliate_url", "")
-        btn_txt = "Check Amazon Stock ↗" if is_en else "Vérifier le stock Amazon France ↗"
-        lines.append(f"| **{item.get('name')}** | `{pn}` | {item.get('frequency')} | [{btn_txt}]({url}) |")
+        lines.append(f"| **{item.get('name')}** | `{pn}` | {item.get('frequency')} | [{t['btn_amazon']}]({url}) |")
 
     lines.extend([
         "",
-        "### 🔍 Detailed Wear-Part Analysis" if is_en else "### 🔍 Analyse Technique des Pièces d'Usure",
+        f"### 🔍 {t['consumables_heading']}",
         "",
     ])
 
     for item in guide.get("consumables", []):
         lines.append(f"#### {item.get('name')}")
-        lines.append(f"- **Part Number (PN):** `{item.get('part_number', 'OEM compatible')}`" if is_en else f"- **Référence Fabricant (PN) :** `{item.get('part_number', 'Réf. OEM adaptable')}`")
-        lines.append(f"- **Recommended Interval:** {item.get('frequency')}" if is_en else f"- **Fréquence recommandée :** {item.get('frequency')}")
-        lines.append(f"- **Critical Impact:** {item.get('why_replace')}" if is_en else f"- **Pourquoi est-ce critique ?** {item.get('why_replace')}")
-        lines.append(f"- **Amazon Link:** [View genuine part on Amazon ↗]({item.get('affiliate_url')})" if is_en else f"- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗]({item.get('affiliate_url')})")
+        lines.append(f"- **{t['th_pn']} :** `{item.get('part_number', 'OEM compatible')}`")
+        lines.append(f"- **{t['th_freq']} :** {item.get('frequency')}")
+        lines.append(f"- **{t['th_why']} :** {item.get('why_replace')}")
+        lines.append(f"- **{t['th_avail']} :** [{t['btn_amazon']}]({item.get('affiliate_url')})")
         lines.append("")
 
     lines.extend([
-        "## 🚨 Error Codes & Maintenance Alerts" if is_en else "## 🚨 Codes Erreurs & Voyants d'Alerte Fréquents",
+        f"## 🚨 {t['errors_heading']}",
         "",
     ])
 
     for code in guide.get("common_codes", []):
         lines.append(f"### ⚠️ {code.get('code')}")
-        lines.append(f"- **Root Cause:** {code.get('meaning')}" if is_en else f"- **Cause courante :** {code.get('meaning')}")
-        lines.append(f"- **Tool-Free Resolution:** {code.get('solution')}" if is_en else f"- **Procédure de résolution sans outil :** {code.get('solution')}")
+        lines.append(f"- **{t['cause_label']}** {code.get('meaning')}")
+        lines.append(f"- **{t['solution_label']}** {code.get('solution')}")
         lines.append("")
 
     lines.extend([
-        "## ❓ Frequently Asked Questions (FAQ)" if is_en else "## ❓ Questions Fréquentes (FAQ)",
+        f"## ❓ {t['faq_heading']}",
         "",
     ])
 
     for faq in guide.get("faq", []):
-        lines.append(f"### Q: {faq.get('question')}" if is_en else f"### Q : {faq.get('question')}")
-        lines.append(f"**A:** {faq.get('answer')}" if is_en else f"**R :** {faq.get('answer')}")
+        lines.append(f"### Q: {faq.get('question')}")
+        lines.append(f"**A:** {faq.get('answer')}")
         lines.append("")
 
     lines.extend([
         "---",
-        f"*Maintenance datasheet generated for **{guide.get('brand')} {guide.get('model')}** — Read interactive guide at [{canonical_url}]({canonical_url}).*" if is_en else f"*Fiche technique rédigée pour le modèle **{guide.get('brand')} {guide.get('model')}** — Retrouvez la version interactive en ligne sur [AutoConsommables.fr]({canonical_url}).*",
+        f"*Datasheet for **{guide.get('brand')} {guide.get('model')}** — [{canonical_url}]({canonical_url}).*",
     ])
 
     return "\n".join(lines)
+
 
 
 # ==============================================================================
@@ -662,9 +1350,9 @@ def generate_llms_txt(catalog_data: dict, site_base_url: str) -> str:
         by_category.setdefault(cat, []).append(g)
 
     lines = [
-        "# Base Officielle des Consommables, Pièces d'Usure & Codes Entretien Appareils Domestiques (FR)",
+        "# Base Officielle des Consommables, Pièces d'Usure & Codes Entretien Appareils Domestiques (FR & Global)",
         "",
-        "> Catalogue technique structuré destiné aux assistants IA et moteurs de réponse. Contient les correspondances exactes de filtres, brosses, joints, cartouches et liens d'approvisionnement vérifiés sur Amazon.fr.",
+        "> Catalogue technique structuré destiné aux assistants IA et moteurs de réponse. Contient les correspondances exactes de filtres, brosses, joints, cartouches et liens d'approvisionnement vérifiés sur Amazon.fr et Amazon Global.",
         "",
         "## Documentation Complète & API pour Agents IA (Zero-Key)",
         f"- [Catalogue Technique Exhaustif (Full Dump LLM)]({clean_base_url}/llms-full.txt): Base complète de tous les appareils, codes pannes et consommables avec liens affiliés directs vérifiés.",
@@ -672,6 +1360,15 @@ def generate_llms_txt(catalog_data: dict, site_base_url: str) -> str:
         f"- [API Rappels Officiels État Français (RappelConso)]({clean_base_url}/api/v1/rappels-officiels.json): Rappels de sécurité officiels avec solutions de remplacement sûres certifiées.",
         f"- [Flux RSS 2.0 Syndication]({clean_base_url}/feed.xml): Flux de syndication automatique des dernières fiches publiées.",
         f"- [Spécification OpenAPI 3.0]({clean_base_url}/.well-known/openapi.json): Contrat d'API statique sans serveur pour Custom GPTs et agents d'achat autonomes.",
+        "",
+        "## Portails Internationaux Multilingues (GEO - Direct Search Ingestion)",
+        f"- [🇺🇸 North America, UK & Oceania (English)]({clean_base_url}/en/): Appliance wear parts, HEPA filters, descaling cartridges and diagnostic codes.",
+        f"- [🇪🇸 Latinoamérica y España (Español)]({clean_base_url}/es/): Repuestos, filtros HEPA, cepillos y códigos de avería para electrodomésticos.",
+        f"- [🇩🇪 Mitteleuropa / DACH (Deutsch)]({clean_base_url}/de/): Ersatzteile, Verschleißteile, Filter und Fehlercodes für Haushaltsgeräte.",
+        f"- [🇧🇷 Brasil & Lusofonia (Português)]({clean_base_url}/pt/): Peças de reposição, filtros e códigos de diagnóstico para eletrodomésticos.",
+        f"- [🇯🇵 日本・東アジア (日本語)]({clean_base_url}/ja/): 家電消耗品、交換用フィルター、ブラシ、日常エラーコード解説。",
+        f"- [🇨🇳 亚太及全球华人 (中文)]({clean_base_url}/zh/): 家用电器正品适配耗材、滤网、滚刷与故障排除代码对照表。",
+        f"- [🇫🇷 France & Francophonie (Français)]({clean_base_url}/): Base centrale des filtres, cartouches et voyants d'entretien.",
         "",
         "## Répertoire des Fiches d'Entretien par Catégorie",
         "",
@@ -703,7 +1400,7 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
     guides_list = catalog_data.get("guides", [])
 
     lines = [
-        "# Base Complète des Pièces d'Usure, Consommables & Codes Entretien (FR)",
+        "# Base Complète des Pièces d'Usure, Consommables & Codes Entretien (FR & Multi-Market)",
         "",
         "> Base de données technique exhaustive sans HTML destinée aux LLMs, agents d'achat autonomes et moteurs conversationnels (ChatGPT, Claude, Perplexity, Gemini). Permet l'ingestion totale des références sans parsing.",
         f"> Domaine : {clean_base_url}",
@@ -727,7 +1424,12 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
             f"## {brand} {model}",
             f"- **Catégorie :** {category}",
             f"- **Fiche Web Interactive (FR) :** {clean_base_url}/guides/{slug}.html",
-            f"- **Fiche Web Internationale (EN) :** {clean_base_url}/en/guides/{slug}.html",
+            f"- **Fiche Web Interactive (EN) :** {clean_base_url}/en/guides/{slug}.html",
+            f"- **Fiche Web Interactive (ES) :** {clean_base_url}/es/guides/{slug}.html",
+            f"- **Fiche Web Interactive (DE) :** {clean_base_url}/de/guides/{slug}.html",
+            f"- **Fiche Web Interactive (PT) :** {clean_base_url}/pt/guides/{slug}.html",
+            f"- **Fiche Web Interactive (JA) :** {clean_base_url}/ja/guides/{slug}.html",
+            f"- **Fiche Web Interactive (ZH) :** {clean_base_url}/zh/guides/{slug}.html",
             f"- **Résumé d'Entretien :** {desc}",
             "",
             "### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte",
@@ -744,8 +1446,8 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
         lines.extend([
             "",
             "### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés",
-            "| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL d'Achat Vérifiée Amazon.fr |",
-            "|---|---|---|---|---|",
+            "| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |",
+            "|---|---|---|---|---|---|",
         ])
 
         for item in guide.get("consumables", []):
@@ -754,8 +1456,9 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
             freq = str(item.get("frequency", "")).replace("|", "-")
             why = str(item.get("why_replace", "")).replace("|", "-")
             search_query = item.get("search_keywords", f"{brand} {name}")
-            aff_url = build_affiliate_url(search_query, partner_tag, domain="amazon.fr")
-            lines.append(f"| {name} | {pn} | {freq} | {why} | [{name} sur Amazon.fr]({aff_url}) |")
+            aff_fr = build_affiliate_url(search_query, partner_tag, domain="amazon.fr")
+            aff_us = build_affiliate_url(search_query, partner_tag, domain="amazon.com")
+            lines.append(f"| {name} | {pn} | {freq} | {why} | [Amazon.fr ↗]({aff_fr}) | [Amazon.com ↗]({aff_us}) |")
 
         lines.extend([
             "",
@@ -793,9 +1496,12 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
     # 1. docs/api/v1/catalog.json et docs/api/agents-catalog.json
     api_catalog = {
         "api_version": "1.0",
-        "description": "Base de données certifiée des consommables, pièces d'usure et codes pannes pour électroménager.",
+        "standard": "GEO / Autonomous Agent Purchasing Registry",
         "generated_at": now_iso,
         "total_appliances": len(guides_list),
+        "supported_languages": SUPPORTED_LANGUAGES,
+        "supported_marketplaces": list(AMAZON_DOMAINS.values()),
+        "license": "CC-BY-4.0 / Public Registry",
         "documentation_geo": f"{clean_base_url}/llms.txt",
         "full_dump_markdown": f"{clean_base_url}/llms-full.txt",
         "feed_rss": f"{clean_base_url}/feed.xml",
@@ -810,9 +1516,14 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
 
         consumables_api = []
         for c in guide.get("consumables", []):
-            search_q = c.get("search_keywords", f"{brand} {c.get('name')}")
+            search_q = c.get("search_keywords", f"{brand} {model} {c.get('part_number', '')} {c.get('name')}").strip()
             aff_fr = build_affiliate_url(search_q, partner_tag, domain="amazon.fr")
             aff_global = build_affiliate_url(search_q, partner_tag, domain="amazon.com")
+            aff_es = build_affiliate_url(search_q, partner_tag, domain="amazon.es")
+            aff_de = build_affiliate_url(search_q, partner_tag, domain="amazon.de")
+            aff_pt = build_affiliate_url(search_q, partner_tag, domain="amazon.com.br")
+            aff_ja = build_affiliate_url(search_q, partner_tag, domain="amazon.co.jp")
+
             consumables_api.append({
                 "name": c.get("name"),
                 "part_number": c.get("part_number", "Réf. OEM adaptable"),
@@ -821,6 +1532,19 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
                 "search_keywords": search_q,
                 "purchase_url_fr": aff_fr,
                 "purchase_url_global": aff_global,
+                "purchase_url_es": aff_es,
+                "purchase_url_de": aff_de,
+                "purchase_url_pt": aff_pt,
+                "purchase_url_ja": aff_ja,
+                "purchase_urls": {
+                    "fr": aff_fr,
+                    "en": aff_global,
+                    "es": aff_es,
+                    "de": aff_de,
+                    "pt": aff_pt,
+                    "ja": aff_ja,
+                    "zh": aff_global
+                }
             })
 
         api_catalog["appliances"].append({
@@ -831,6 +1555,20 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
             "meta_description": guide.get("meta_description"),
             "url_fr": f"{clean_base_url}/guides/{slug}.html",
             "url_en": f"{clean_base_url}/en/guides/{slug}.html",
+            "url_es": f"{clean_base_url}/es/guides/{slug}.html",
+            "url_de": f"{clean_base_url}/de/guides/{slug}.html",
+            "url_pt": f"{clean_base_url}/pt/guides/{slug}.html",
+            "url_ja": f"{clean_base_url}/ja/guides/{slug}.html",
+            "url_zh": f"{clean_base_url}/zh/guides/{slug}.html",
+            "urls": {
+                "fr": f"{clean_base_url}/guides/{slug}.html",
+                "en": f"{clean_base_url}/en/guides/{slug}.html",
+                "es": f"{clean_base_url}/es/guides/{slug}.html",
+                "de": f"{clean_base_url}/de/guides/{slug}.html",
+                "pt": f"{clean_base_url}/pt/guides/{slug}.html",
+                "ja": f"{clean_base_url}/ja/guides/{slug}.html",
+                "zh": f"{clean_base_url}/zh/guides/{slug}.html"
+            },
             "telegraph_url": guide.get("telegraph_url"),
             "common_codes": guide.get("common_codes", []),
             "consumables": consumables_api,
@@ -954,30 +1692,7 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
 # ==============================================================================
 
 def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str):
-    """Génère l'intégralité du site statique dans docs/ (FR + EN) et les exports Markdown."""
-    # Dossiers français
-    os.makedirs(DOCS_DIR, exist_ok=True)
-    os.makedirs(GUIDES_DIR, exist_ok=True)
-    os.makedirs(SYNDICATION_DIR, exist_ok=True)
-
-    # Dossiers anglais (International USA / UK)
-    docs_en_dir = DOCS_DIR / "en"
-    guides_en_dir = docs_en_dir / "guides"
-    syndication_en_dir = SYNDICATION_DIR / "en"
-    os.makedirs(docs_en_dir, exist_ok=True)
-    os.makedirs(guides_en_dir, exist_ok=True)
-    os.makedirs(syndication_en_dir, exist_ok=True)
-
-    # Désactiver le traitement Jekyll pour que GitHub Pages serve directement tous les dossiers (en/, guides/, etc.)
-    (DOCS_DIR / ".nojekyll").touch(exist_ok=True)
-
-    env = Environment(
-        loader=FileSystemLoader(str(TEMPLATES_DIR)),
-        autoescape=True,
-        trim_blocks=True,
-        lstrip_blocks=True,
-    )
-
+    """Génère l'intégralité du site statique dans docs/ (7 langues) et les exports Markdown."""
     clean_base_url = site_base_url.rstrip("/")
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     now_human = datetime.datetime.now(datetime.timezone.utc).strftime("%d/%m/%Y à %H:%M UTC")
@@ -990,171 +1705,139 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
     editor_email = os.getenv("EDITOR_EMAIL", "contact@autoconsommables.fr")
 
     guides_list = catalog_data.get("guides", [])
-
-    # 1. Mise à jour des URLs d'affiliation Amazon France
-    for guide in guides_list:
-        for consumable in guide.get("consumables", []):
-            search_query = consumable.get("search_keywords", f"{guide.get('brand')} {consumable.get('name')}")
-            consumable["affiliate_url"] = build_affiliate_url(search_query, partner_tag, domain="amazon.fr")
-
-    # 2. Génération des pages guides FR (docs/guides/{slug}.html) + Syndication FR
-    guide_template = env.get_template("guide.html")
-    for guide in guides_list:
-        guide_slug = guide["slug"]
-        guide_html = guide_template.render(
-            guide=guide,
-            site_url=clean_base_url,
-            canonical_path=f"/guides/{guide_slug}.html",
-            base_prefix="..",
-            current_year=current_year,
-            lang="fr",
-        )
-        with open(GUIDES_DIR / f"{guide_slug}.html", "w", encoding="utf-8") as f:
-            f.write(guide_html)
-
-        syndication_md = generate_syndication_markdown(guide, clean_base_url, lang="fr")
-        with open(SYNDICATION_DIR / f"{guide_slug}.md", "w", encoding="utf-8") as f:
-            f.write(syndication_md)
-
-    # 3. Génération des pages guides EN (docs/en/guides/{slug}.html) + Syndication EN
-    en_guides_list = []
-    for guide in guides_list:
-        guide_slug = guide["slug"]
-        en_guide = build_english_guide(guide, partner_tag)
-        en_guides_list.append(en_guide)
-
-        guide_en_html = guide_template.render(
-            guide=en_guide,
-            site_url=clean_base_url,
-            canonical_path=f"/en/guides/{guide_slug}.html",
-            base_prefix="../..",
-            current_year=current_year,
-            lang="en",
-        )
-        with open(guides_en_dir / f"{guide_slug}.html", "w", encoding="utf-8") as f:
-            f.write(guide_en_html)
-
-        syndication_en_md = generate_syndication_markdown(en_guide, clean_base_url, lang="en")
-        with open(syndication_en_dir / f"{guide_slug}.md", "w", encoding="utf-8") as f:
-            f.write(syndication_en_md)
-
-    logger.info(f"{len(guides_list)} fiches générées en français ET en anglais (Total : {len(guides_list)*2} pages HTML).")
-
-    # 4. Statistiques des catégories FR et EN
-    cat_counts_fr = {}
-    for g in guides_list:
-        cat = g.get("category", "Autres")
-        cat_counts_fr[cat] = cat_counts_fr.get(cat, 0) + 1
-    categories_fr = [{"name": cat, "count": count} for cat, count in sorted(cat_counts_fr.items())]
-
-    cat_counts_en = {}
-    for g in en_guides_list:
-        cat = g.get("category", "Other")
-        cat_counts_en[cat] = cat_counts_en.get(cat, 0) + 1
-    categories_en = [{"name": cat, "count": count} for cat, count in sorted(cat_counts_en.items())]
-
-    # 5. Page d'Accueil FR (docs/index.html) & EN (docs/en/index.html)
-    index_template = env.get_template("index.html")
-    index_fr_html = index_template.render(
-        guides=guides_list,
-        categories=categories_fr,
-        total_guides=len(guides_list),
-        site_url=clean_base_url,
-        canonical_path="/index.html",
-        base_prefix=".",
-        current_year=current_year,
-        lang="fr",
-    )
-    with open(DOCS_DIR / "index.html", "w", encoding="utf-8") as f:
-        f.write(index_fr_html)
-
-    index_en_html = index_template.render(
-        guides=en_guides_list,
-        categories=categories_en,
-        total_guides=len(en_guides_list),
-        site_url=clean_base_url,
-        canonical_path="/en/index.html",
-        base_prefix="..",
-        current_year=current_year,
-        lang="en",
-    )
-    with open(docs_en_dir / "index.html", "w", encoding="utf-8") as f:
-        f.write(index_en_html)
-
-    # 6. Mentions Légales FR (docs/mentions-legales.html) & EN (docs/en/mentions-legales.html)
-    mentions_template = env.get_template("mentions_legales.html")
-    mentions_fr_html = mentions_template.render(
-        editor_name=editor_name,
-        editor_siret=editor_siret,
-        editor_address=editor_address,
-        editor_email=editor_email,
-        site_url=clean_base_url,
-        canonical_path="/mentions-legales.html",
-        base_prefix=".",
-        current_year=current_year,
-        lang="fr",
-    )
-    with open(DOCS_DIR / "mentions-legales.html", "w", encoding="utf-8") as f:
-        f.write(mentions_fr_html)
-
-    mentions_en_html = mentions_template.render(
-        editor_name=editor_name,
-        editor_siret=editor_siret,
-        editor_address=editor_address,
-        editor_email=editor_email,
-        site_url=clean_base_url,
-        canonical_path="/en/mentions-legales.html",
-        base_prefix="..",
-        current_year=current_year,
-        lang="en",
-    )
-    with open(docs_en_dir / "mentions-legales.html", "w", encoding="utf-8") as f:
-        f.write(mentions_en_html)
-    logger.info("Pages mentions légales générées (FR et EN).")
-
-    # 7. Dashboard & Métriques Opérationnelles FR (docs/dashboard.html) & EN (docs/en/dashboard.html)
-    dashboard_template = env.get_template("dashboard.html")
     total_models = len(guides_list)
-    total_pages = total_models * 2 + 6
+    total_pages = total_models * len(SUPPORTED_LANGUAGES) + (len(SUPPORTED_LANGUAGES) * 3)
     total_consumables = sum(len(g.get("consumables", [])) for g in guides_list)
     total_codes = sum(len(g.get("common_codes", [])) for g in guides_list)
 
-    dashboard_fr_html = dashboard_template.render(
-        guides=guides_list,
-        total_models=total_models,
-        total_pages=total_pages,
-        total_consumables=total_consumables,
-        total_codes=total_codes,
-        last_updated_human=now_human,
-        last_updated_iso=now_iso,
-        site_url=clean_base_url,
-        canonical_path="/dashboard.html",
-        base_prefix=".",
-        current_year=current_year,
-        lang="fr",
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=True,
+        trim_blocks=True,
+        lstrip_blocks=True,
     )
-    with open(DOCS_DIR / "dashboard.html", "w", encoding="utf-8") as f:
-        f.write(dashboard_fr_html)
+    guide_template = env.get_template("guide.html")
+    index_template = env.get_template("index.html")
+    mentions_template = env.get_template("mentions_legales.html")
+    dashboard_template = env.get_template("dashboard.html")
 
-    dashboard_en_html = dashboard_template.render(
-        guides=en_guides_list,
-        total_models=total_models,
-        total_pages=total_pages,
-        total_consumables=total_consumables,
-        total_codes=total_codes,
-        last_updated_human=now_human,
-        last_updated_iso=now_iso,
-        site_url=clean_base_url,
-        canonical_path="/en/dashboard.html",
-        base_prefix="..",
-        current_year=current_year,
-        lang="en",
-    )
-    with open(docs_en_dir / "dashboard.html", "w", encoding="utf-8") as f:
-        f.write(dashboard_en_html)
-    logger.info("Pages dashboard générées (FR et EN).")
+    (DOCS_DIR / ".nojekyll").touch(exist_ok=True)
 
-    # 6. Génération de docs/sitemap.xml
+    for lang in SUPPORTED_LANGUAGES:
+        is_fr = lang == "fr"
+        lang_docs_dir = DOCS_DIR if is_fr else DOCS_DIR / lang
+        lang_guides_dir = lang_docs_dir / "guides"
+        lang_syndication_dir = SYNDICATION_DIR if is_fr else SYNDICATION_DIR / lang
+
+        os.makedirs(lang_docs_dir, exist_ok=True)
+        os.makedirs(lang_guides_dir, exist_ok=True)
+        os.makedirs(lang_syndication_dir, exist_ok=True)
+
+        lang_base_url = clean_base_url if is_fr else f"{clean_base_url}/{lang}"
+        t = UI_TRANSLATIONS.get(lang, UI_TRANSLATIONS["fr"])
+
+        # 1. Localisation et génération des fiches guides
+        localized_guides = []
+        for raw_guide in guides_list:
+            loc_guide = build_localized_guide(raw_guide, lang, partner_tag)
+            localized_guides.append(loc_guide)
+            slug = loc_guide["slug"]
+
+            clean_path = f"/guides/{slug}.html"
+            canonical_path = clean_path if is_fr else f"/{lang}{clean_path}"
+
+            guide_html = guide_template.render(
+                guide=loc_guide,
+                site_url=clean_base_url,
+                lang_base_url=lang_base_url,
+                canonical_path=canonical_path,
+                clean_path=clean_path,
+                base_prefix=".." if is_fr else "../..",
+                current_year=current_year,
+                lang=lang,
+                t=t,
+            )
+            with open(lang_guides_dir / f"{slug}.html", "w", encoding="utf-8") as f:
+                f.write(guide_html)
+
+            synd_md = generate_syndication_markdown(loc_guide, clean_base_url, lang=lang)
+            with open(lang_syndication_dir / f"{slug}.md", "w", encoding="utf-8") as f:
+                f.write(synd_md)
+
+        # 2. Catégories pour l'index
+        cat_counts = {}
+        for g in localized_guides:
+            c_name = g.get("category", "Other")
+            cat_counts[c_name] = cat_counts.get(c_name, 0) + 1
+        categories = [{"name": c, "count": cnt} for c, cnt in sorted(cat_counts.items())]
+
+        # 3. Page d'Accueil (index.html)
+        index_clean_path = "/index.html"
+        index_canonical = index_clean_path if is_fr else f"/{lang}{index_clean_path}"
+        index_html = index_template.render(
+            guides=localized_guides,
+            categories=categories,
+            total_guides=len(localized_guides),
+            site_url=clean_base_url,
+            lang_base_url=lang_base_url,
+            canonical_path=index_canonical,
+            clean_path=index_clean_path,
+            base_prefix="." if is_fr else "..",
+            current_year=current_year,
+            lang=lang,
+            t=t,
+        )
+        with open(lang_docs_dir / "index.html", "w", encoding="utf-8") as f:
+            f.write(index_html)
+
+        # 4. Mentions Légales
+        mentions_clean_path = "/mentions-legales.html"
+        mentions_canonical = mentions_clean_path if is_fr else f"/{lang}{mentions_clean_path}"
+        mentions_html = mentions_template.render(
+            editor_name=editor_name,
+            editor_siret=editor_siret,
+            editor_address=editor_address,
+            editor_email=editor_email,
+            site_url=clean_base_url,
+            lang_base_url=lang_base_url,
+            canonical_path=mentions_canonical,
+            clean_path=mentions_clean_path,
+            base_prefix="." if is_fr else "..",
+            current_year=current_year,
+            lang=lang,
+            t=t,
+            categories=categories,
+        )
+        with open(lang_docs_dir / "mentions-legales.html", "w", encoding="utf-8") as f:
+            f.write(mentions_html)
+
+        # 5. Dashboard Ops
+        dash_clean_path = "/dashboard.html"
+        dash_canonical = dash_clean_path if is_fr else f"/{lang}{dash_clean_path}"
+        dash_html = dashboard_template.render(
+            guides=localized_guides,
+            total_models=total_models,
+            total_pages=total_pages,
+            total_consumables=total_consumables,
+            total_codes=total_codes,
+            last_updated_human=now_human,
+            last_updated_iso=now_iso,
+            site_url=clean_base_url,
+            lang_base_url=lang_base_url,
+            canonical_path=dash_canonical,
+            clean_path=dash_clean_path,
+            base_prefix="." if is_fr else "..",
+            current_year=current_year,
+            lang=lang,
+            t=t,
+            categories=categories,
+        )
+        with open(lang_docs_dir / "dashboard.html", "w", encoding="utf-8") as f:
+            f.write(dash_html)
+
+    logger.info(f"Rendu statique multi-marchés terminé : {len(SUPPORTED_LANGUAGES)} langues déployées ({total_pages} pages).")
+
+    # 6. Sitemap XML
     sitemap_template = env.get_template("sitemap.xml")
     sitemap_xml = sitemap_template.render(
         guides=guides_list,
@@ -1165,20 +1848,20 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         f.write(sitemap_xml)
     logger.info("Sitemap XML généré : docs/sitemap.xml")
 
-    # 7. Génération de docs/robots.txt
+    # 7. Robots.txt
     robots_template = env.get_template("robots.txt")
     robots_txt = robots_template.render(site_url=clean_base_url)
     with open(DOCS_DIR / "robots.txt", "w", encoding="utf-8") as f:
         f.write(robots_txt)
     logger.info("Fichier robots.txt généré : docs/robots.txt")
 
-    # 7b. Génération du flux RSS 2.0 (docs/feed.xml)
+    # 8. Feed RSS 2.0
     feed_xml = generate_rss_feed(catalog_data, clean_base_url)
     with open(DOCS_DIR / "feed.xml", "w", encoding="utf-8") as f:
         f.write(feed_xml)
     logger.info("Flux RSS généré : docs/feed.xml")
 
-    # 8. Flux IA Standardisés (LLMs.txt & API Agents Acheteurs)
+    # 9. LLMs.txt & LLMs-Full.txt
     llms_txt = generate_llms_txt(catalog_data, clean_base_url)
     with open(DOCS_DIR / "llms.txt", "w", encoding="utf-8") as f:
         f.write(llms_txt)
@@ -1189,6 +1872,7 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         f.write(llms_full_txt)
     logger.info("Fichier docs/llms-full.txt généré avec succès.")
 
+    # 10. APIs statiques JSON
     generate_agents_api(catalog_data, partner_tag, clean_base_url)
     logger.info("Flux API pour agents IA générés dans docs/api/ et docs/.well-known/.")
 

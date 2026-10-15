@@ -1,7 +1,21 @@
-# 🤖 Auto-Consumables Agent | Open Hardware Consumables & Maintenance Registry (GEO)
+# 🤖 Auto-Consumables Agent | Global Hardware Consumables & Maintenance Registry (GEO)
 
-> **Bilingual Public Database for AI Engines, LLMs & Autonomous Purchasing Agents.**
-> Ce dépôt héberge la base de données technique ouverte, le standard mondial `llms.txt` et l'API JSON gratuite des correspondances de consommables, filtres et codes pannes du petit électroménager grand public (2024-2026).
+> **Multilingual Open Database for AI Search Engines, LLMs & Autonomous Purchasing Agents.**
+> Ce dépôt héberge la base de données technique mondiale, le standard `llms.txt` et l'API JSON gratuite des correspondances de consommables, filtres et codes pannes du petit électroménager grand public (2024-2026).
+
+---
+
+## 🌍 Portails Mondiaux par Régions Géographiques
+
+| Région / Continent | Langue | Portail Web Dédié | Marché Amazon Associé |
+|---|---|---|---|
+| 🇪🇺 🌍 **Europe & Afrique Francophone** | 🇫🇷 Français | [https://thorlan04.github.io/auto-consumables-agent/index.html](https://thorlan04.github.io/auto-consumables-agent/index.html) | `amazon.fr` |
+| 🇺🇸 🇬🇧 🇦🇺 **North America, UK & Oceania** | 🇺🇸 English | [https://thorlan04.github.io/auto-consumables-agent/en/index.html](https://thorlan04.github.io/auto-consumables-agent/en/index.html) | `amazon.com` / `amazon.co.uk` |
+| 🇪🇸 🌎 **España, América Latina & Caribe** | 🇪🇸 Español | [https://thorlan04.github.io/auto-consumables-agent/es/index.html](https://thorlan04.github.io/auto-consumables-agent/es/index.html) | `amazon.es` / `amazon.com` |
+| 🇩🇪 🇦🇹 🇨🇭 **DACH (Deutschland, AT, CH)** | 🇩🇪 Deutsch | [https://thorlan04.github.io/auto-consumables-agent/de/index.html](https://thorlan04.github.io/auto-consumables-agent/de/index.html) | `amazon.de` |
+| 🇧🇷 🇵🇹 🇦🇴 **Brasil, Portugal & África Lusófona** | 🇧🇷 Português | [https://thorlan04.github.io/auto-consumables-agent/pt/index.html](https://thorlan04.github.io/auto-consumables-agent/pt/index.html) | `amazon.com.br` |
+| 🇯🇵 **Japan & East Asia** | 🇯🇵 日本語 | [https://thorlan04.github.io/auto-consumables-agent/ja/index.html](https://thorlan04.github.io/auto-consumables-agent/ja/index.html) | `amazon.co.jp` |
+| 🇨🇳 🌏 **East Asia & Global Diaspora** | 🇨🇳 简体中文 | [https://thorlan04.github.io/auto-consumables-agent/zh/index.html](https://thorlan04.github.io/auto-consumables-agent/zh/index.html) | `amazon.com` |
 
 ---
 
@@ -9,9 +23,9 @@
 
 Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rate-limit :
 
-- 📄 **Standard GEO :** [https://thorlan04.github.io/auto-consumables-agent/llms.txt](https://thorlan04.github.io/auto-consumables-agent/llms.txt) *(Spécification officielle pour ChatGPT Search, Claude, Perplexity)*
-- 📑 **Dump Technique Intégral :** [https://thorlan04.github.io/auto-consumables-agent/llms-full.txt](https://thorlan04.github.io/auto-consumables-agent/llms-full.txt) *(Toutes les pièces, codes pannes et liens directs en 1 requête)*
-- 🔌 **API JSON v1 Catalogue :** [https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json](https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json) *(Catalogue structuré et minifié pour agents d'achat)*
+- 📄 **Standard GEO International :** [https://thorlan04.github.io/auto-consumables-agent/llms.txt](https://thorlan04.github.io/auto-consumables-agent/llms.txt) *(Spécification officielle pour ChatGPT Search, Claude, Perplexity)*
+- 📑 **Dump Technique Intégral :** [https://thorlan04.github.io/auto-consumables-agent/llms-full.txt](https://thorlan04.github.io/auto-consumables-agent/llms-full.txt) *(Toutes les pièces, codes pannes et liens multi-marketplaces en 1 requête)*
+- 🔌 **API JSON v1 Catalogue Multi-Langues :** [https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json](https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json) *(Catalogue structuré avec purchase_urls pour agents d'achat)*
 - ⚠️ **API Rappels Officiels État Français :** [https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json](https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json) *(Derniers rappels DGCCRF/RappelConso avec équivalents sûrs)*
 - 📰 **Flux RSS 2.0 :** [https://thorlan04.github.io/auto-consumables-agent/feed.xml](https://thorlan04.github.io/auto-consumables-agent/feed.xml) *(Syndication temps réel des nouvelles fiches)*
 - ⚙️ **Contrat OpenAPI 3.0 :** [https://thorlan04.github.io/auto-consumables-agent/.well-known/openapi.json](https://thorlan04.github.io/auto-consumables-agent/.well-known/openapi.json)

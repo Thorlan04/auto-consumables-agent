@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% if lang == 'en' %}Appliance Consumables & Maintenance Guides | AutoConsumables{% else %}Guides Consommables & Entretien Appareils Maison | AutoConsommables.fr{% endif %}{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{% if lang == 'en' %}Practical maintenance guides, genuine replacement filters, brushes and wear parts for home appliances.{% else %}Guides pratiques d'entretien courant, filtres de remplacement et pièces d'usure pour électroménager et appareils domestiques.{% endif %}{% endblock %}">
+    <title>{% block title %}{{ t.site_name }} — {{ t.tagline }}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ t.hero_sub }}{% endblock %}">
     <link rel="canonical" href="{{ site_url }}{{ canonical_path }}">
-    <link rel="alternate" hreflang="fr" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
-    <link rel="alternate" hreflang="en" href="{{ site_url }}{% if '/en/' not in canonical_path %}/en{{ canonical_path }}{% else %}{{ canonical_path }}{% endif %}">
-    <link rel="alternate" hreflang="x-default" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
+    <link rel="alternate" hreflang="fr" href="{{ site_url }}{{ clean_path }}">
+    <link rel="alternate" hreflang="en" href="{{ site_url }}/en{{ clean_path }}">
+    <link rel="alternate" hreflang="es" href="{{ site_url }}/es{{ clean_path }}">
+    <link rel="alternate" hreflang="de" href="{{ site_url }}/de{{ clean_path }}">
+    <link rel="alternate" hreflang="pt" href="{{ site_url }}/pt{{ clean_path }}">
+    <link rel="alternate" hreflang="ja" href="{{ site_url }}/ja{{ clean_path }}">
+    <link rel="alternate" hreflang="zh" href="{{ site_url }}/zh{{ clean_path }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site_url }}/en{{ clean_path }}">
     {% block meta_robots %}<meta name="robots" content="index, follow">{% endblock %}
 
     <!-- Open Graph / Réseaux Sociaux -->
@@ -72,7 +77,7 @@
             padding: 0 1.25rem;
         }
 
-        /* Bandeau Transparence Légal (DGCCRF / Amazon Associates) */
+        /* Bandeau Transparence Légal (DGCCRF / FTC / Amazon Associates) */
         .affiliate-banner {
             background-color: #f1f5f9;
             border-bottom: 1px solid var(--border-color);
@@ -90,7 +95,7 @@
         header {
             background-color: #ffffff;
             border-bottom: 1px solid var(--border-color);
-            padding: 1rem 0;
+            padding: 0.85rem 0;
             position: sticky;
             top: 0;
             z-index: 50;
@@ -102,6 +107,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
+            flex-wrap: wrap;
         }
 
         .site-logo {
@@ -120,10 +126,45 @@
 
         .nav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 1.25rem;
             list-style: none;
             font-weight: 500;
-            font-size: 0.95rem;
+            font-size: 0.925rem;
+            align-items: center;
+        }
+
+        .lang-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.775rem;
+            font-weight: 700;
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.5rem;
+            border-radius: 9999px;
+            background: #ffffff;
+            white-space: nowrap;
+        }
+
+        .lang-pill-active {
+            background: var(--primary);
+            color: #ffffff !important;
+            padding: 0.15rem 0.45rem;
+            border-radius: 9999px;
+            text-decoration: none !important;
+        }
+
+        .lang-pill-link {
+            color: #64748b;
+            padding: 0.15rem 0.3rem;
+            text-decoration: none !important;
+            border-radius: 9999px;
+            transition: color 0.15s, background-color 0.15s;
+        }
+
+        .lang-pill-link:hover {
+            color: var(--primary);
+            background-color: #f1f5f9;
         }
 
         /* Contenu Principal */
@@ -240,14 +281,17 @@
 
         th {
             background-color: #f8fafc;
-            padding: 0.85rem 1rem;
+            color: #475569;
             font-weight: 600;
-            color: #334155;
-            border-bottom: 2px solid var(--border-color);
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
 
         td {
-            padding: 0.9rem 1rem;
+            padding: 1rem;
             border-bottom: 1px solid var(--border-color);
             vertical-align: middle;
         }
@@ -256,25 +300,31 @@
             border-bottom: none;
         }
 
+        tr:hover td {
+            background-color: #f8fafc;
+        }
+
         /* Footer */
         footer {
-            background-color: #0f172a;
-            color: #94a3b8;
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
             padding: 3rem 0 2rem;
-            font-size: 0.875rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
         }
 
         .footer-grid {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
-            gap: 2rem;
-            margin-bottom: 2rem;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
         }
 
         .footer-col h3 {
-            color: #f1f5f9;
             font-size: 1rem;
-            margin-bottom: 0.75rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .footer-col ul {
@@ -285,68 +335,38 @@
             margin-bottom: 0.5rem;
         }
 
-        .footer-col a {
-            color: #cbd5e1;
-        }
-
-        .footer-col a:hover {
-            color: #38bdf8;
-        }
-
         .footer-bottom {
-            border-top: 1px solid #1e293b;
+            border-top: 1px solid var(--border-color);
             padding-top: 1.5rem;
             text-align: center;
-            font-size: 0.8rem;
-            color: #64748b;
+            font-size: 0.825rem;
         }
 
+        /* Responsive Design Mobile-First */
         @media (max-width: 768px) {
             .footer-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
-        }
-
-        @media (max-width: 640px) {
-            .container {
-                padding: 0 0.85rem;
-            }
-            header {
-                padding: 0.75rem 0;
-            }
             .header-content {
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-                gap: 0.6rem;
-            }
-            .site-logo {
-                font-size: 1.15rem;
-            }
-            nav {
-                width: 100%;
-                justify-content: space-between;
-                gap: 0.5rem !important;
-                border-top: 1px solid var(--border-color);
-                padding-top: 0.5rem;
-                margin-top: 0.25rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
             }
             .nav-links {
-                gap: 0.75rem;
-                font-size: 0.85rem;
+                flex-wrap: wrap;
+                gap: 1rem;
             }
             .lang-selector {
-                padding: 0.2rem 0.5rem !important;
-                font-size: 0.75rem !important;
+                overflow-x: auto;
+                max-width: 100%;
+                -webkit-overflow-scrolling: touch;
             }
             main {
-                padding: 1.25rem 0 2.5rem;
+                padding: 1.5rem 0 3rem;
             }
-            .card {
-                padding: 1rem;
-                border-radius: var(--radius-md);
+            .container {
+                padding: 0 1rem;
             }
             h1 {
                 font-size: 1.6rem !important;
@@ -369,47 +389,46 @@
     {% block head_extra %}{% endblock %}
 </head>
 <body>
-    <!-- 1. Bandeau Légal Obligatoire DGCCRF (FR) & FTC / Amazon Associates (EN/US) -->
+    <!-- 1. Bandeau Légal Obligatoire Partenaire Amazon -->
     <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
         <div class="container">
-            {% if lang == 'en' %}
-            <strong>Transparency Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases (#AffiliateLink). Routine maintenance and wear-part guides are provided for informational purposes only.
-            {% else %}
-            <strong>Transparence :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant fournis à titre indicatif.
-            {% endif %}
+            {{ t.banner_disclosure | safe }}
         </div>
     </aside>
 
-    <!-- Header Principal avec Sélecteur de Langue -->
+    <!-- Header Principal avec Sélecteur International -->
     <header>
         <div class="container header-content">
-            <a href="{{ base_prefix }}/index.html" class="site-logo">
+            <a href="{{ lang_base_url }}/index.html" class="site-logo">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                 </svg>
-                <span>AutoConsumables</span>{% if lang == 'en' %}.com{% else %}.fr{% endif %}
+                <span>{{ t.site_name }}</span>
             </a>
-            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
                 <ul class="nav-links">
-                    {% if lang == 'en' %}
-                    <li><a href="{{ base_prefix }}/index.html">Guides</a></li>
-                    <li><a href="{{ base_prefix }}/mentions-legales.html">Legal & Disclosure</a></li>
-                    {% else %}
-                    <li><a href="{{ base_prefix }}/index.html">Guides d'Entretien</a></li>
-                    <li><a href="{{ base_prefix }}/mentions-legales.html">Mentions Légales</a></li>
-                    {% endif %}
+                    <li><a href="{{ lang_base_url }}/index.html">{{ t.nav_guides }}</a></li>
+                    <li><a href="{{ lang_base_url }}/mentions-legales.html">{{ t.nav_legal }}</a></li>
+                    <li><a href="{{ lang_base_url }}/dashboard.html">{{ t.nav_dashboard }}</a></li>
                 </ul>
-                <!-- Sélecteur de Langue Rapide -->
-                <div class="lang-selector" style="font-size: 0.85rem; font-weight: 700; border: 1px solid var(--border-color); padding: 0.25rem 0.6rem; border-radius: 9999px; background: #ffffff;">
-                    {% if lang == 'en' %}
-                    <a href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}" title="Passer en Français" style="color: #64748b;">FR 🇫🇷</a>
-                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
-                    <strong style="color: var(--primary);">EN 🇺🇸</strong>
-                    {% else %}
-                    <strong style="color: var(--primary);">FR 🇫🇷</strong>
-                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
-                    <a href="{{ site_url }}{% if '/en/' not in canonical_path %}/en{{ canonical_path }}{% else %}{{ canonical_path }}{% endif %}" title="Switch to English (US/UK)" style="color: #64748b;">EN 🇺🇸</a>
-                    {% endif %}
+
+                <!-- Sélecteur International de Marchés & Langues -->
+                <div class="lang-selector" aria-label="Choisir la langue et la zone géographique">
+                    {% for l_code, l_label, l_flag in [
+                        ('fr', 'FR', '🇫🇷'),
+                        ('en', 'EN', '🇺🇸'),
+                        ('es', 'ES', '🇪🇸'),
+                        ('de', 'DE', '🇩🇪'),
+                        ('pt', 'PT', '🇧🇷'),
+                        ('ja', 'JA', '🇯🇵'),
+                        ('zh', 'ZH', '🇨🇳')
+                    ] %}
+                        {% if lang == l_code %}
+                            <span class="lang-pill-active" title="{{ l_label }}">{{ l_flag }} {{ l_label }}</span>
+                        {% else %}
+                            <a href="{{ site_url }}{% if l_code != 'fr' %}/{{ l_code }}{% endif %}{{ clean_path }}" class="lang-pill-link" title="{{ l_label }}">{{ l_flag }} {{ l_label }}</a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </nav>
         </div>
@@ -425,50 +444,33 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>AutoConsumables{% if lang == 'en' %}.com{% else %}.fr{% endif %}</h3>
-                    <p>
-                        {% if lang == 'en' %}
-                        Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.
-                        {% else %}
-                        Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.
-                        {% endif %}
-                    </p>
-                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
-                        {% if lang == 'en' %}
-                        Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.
-                        {% else %}
-                        Site statique à zéro cookie tiers et zéro tracker, hébergé sur GitHub Pages (Microsoft Azure infrastructure).
-                        {% endif %}
-                    </p>
+                    <h3>{{ t.site_name }}</h3>
+                    <p>{{ t.footer_desc }}</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">{{ t.footer_infra }}</p>
                 </div>
                 <div class="footer-col">
-                    <h3>{% if lang == 'en' %}Popular Categories{% else %}Catégories Populaires{% endif %}</h3>
+                    <h3>{{ t.footer_popular }}</h3>
                     <ul>
-                        {% if lang == 'en' %}
-                        <li><a href="{{ base_prefix }}/index.html?cat=Wet+and+Dry+Vacuums">Wet & Dry Vacuums</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Bean-to-Cup+Coffee+Machines">Espresso Machines</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Robot+Vacuums">Robot Vacuums</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Air+Fryers">Air Fryers</a></li>
-                        {% else %}
-                        <li><a href="{{ base_prefix }}/index.html?cat=Aspirateurs+Laveurs">Aspirateurs Laveurs</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Machines+à+Café+à+Grains">Machines à Café à Grains</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Robots+Aspirateurs">Robots Aspirateurs</a></li>
-                        <li><a href="{{ base_prefix }}/index.html?cat=Friteuses+sans+Huile+(Air+Fryer)">Air Fryers</a></li>
+                        {% if categories %}
+                        {% for cat in categories[:4] %}
+                        <li><a href="{{ lang_base_url }}/index.html?cat={{ cat.name | urlencode }}">{{ cat.name }}</a></li>
+                        {% endfor %}
                         {% endif %}
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>{% if lang == 'en' %}Legal & Disclosure{% else %}Informations Légales{% endif %}</h3>
+                    <h3>{{ t.footer_legal }}</h3>
                     <ul>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html">{% if lang == 'en' %}Terms & Legal Notice{% else %}Mentions Légales & CGU{% endif %}</a></li>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html#affiliation">{% if lang == 'en' %}Amazon Affiliate Disclosure{% else %}Divulgation Partenaire Amazon{% endif %}</a></li>
-                        <li><a href="{{ base_prefix }}/mentions-legales.html#rgpd">{% if lang == 'en' %}Zero-Cookie Privacy Policy{% else %}Politique de Confidentialité (0 Cookie){% endif %}</a></li>
-                        <li><a href="{{ site_url }}/sitemap.xml">Sitemap</a></li>
+                        <li><a href="{{ lang_base_url }}/mentions-legales.html">{{ t.nav_legal }}</a></li>
+                        <li><a href="{{ lang_base_url }}/mentions-legales.html#affiliation">{{ t.footer_affiliate }}</a></li>
+                        <li><a href="{{ lang_base_url }}/mentions-legales.html#rgpd">{{ t.footer_privacy }}</a></li>
+                        <li><a href="{{ site_url }}/sitemap.xml">Sitemap XML (Global)</a></li>
+                        <li><a href="{{ site_url }}/llms.txt">Standard llms.txt (GEO)</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ current_year }} AutoConsumables — {% if lang == 'en' %}All rights reserved. Routine maintenance guides for preventive care.{% else %}Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.{% endif %}</p>
+                <p>&copy; {{ current_year }} AutoConsumables — {{ t.footer_copyright }}</p>
             </div>
         </div>
     </footer>
@@ -480,7 +482,7 @@
             if (!btn) return;
             try {
                 const item = {
-                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    title: document.title,
                     label: btn.getAttribute('aria-label') || 'Amazon Search Link',
                     url: btn.href,
                     timestamp: new Date().toISOString()

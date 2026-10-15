@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}{{ guide.title }} | AutoConsommables.fr{% endblock %}
+{% block title %}{{ guide.title }} | {{ t.site_name }}{% endblock %}
 {% block meta_description %}{{ guide.meta_description }}{% endblock %}
 
 {% block head_extra %}
-<!-- Données structurées JSON-LD (Schema.org) pour le référencement Google -->
+<!-- Données structurées JSON-LD (Schema.org) pour le référencement international Google -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15,20 +15,20 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Accueil",
-          "item": "{{ site_url }}/index.html"
+          "name": "{{ t.nav_guides }}",
+          "item": "{{ lang_base_url }}/index.html"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "{{ guide.category }}",
-          "item": "{{ site_url }}/index.html?cat={{ guide.category | urlencode }}"
+          "item": "{{ lang_base_url }}/index.html?cat={{ guide.category | urlencode }}"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "{{ guide.brand }} {{ guide.model }}",
-          "item": "{{ site_url }}/guides/{{ guide.slug }}.html"
+          "item": "{{ site_url }}{{ canonical_path }}"
         }
       ]
     },
@@ -37,10 +37,10 @@
       "headline": "{{ guide.title }}",
       "description": "{{ guide.meta_description }}",
       "articleSection": "{{ guide.category }}",
-      "inLanguage": "fr-FR",
+      "inLanguage": "{{ lang }}",
       "author": {
         "@type": "Organization",
-        "name": "AutoConsommables.fr"
+        "name": "{{ t.site_name }}"
       }
     },
     {
@@ -49,10 +49,10 @@
         {% for code in guide.common_codes %}
         {
           "@type": "Question",
-          "name": "{% if lang == 'en' %}How to fix {{ code.code }} on {{ guide.brand }} {{ guide.model }}?{% else %}Comment résoudre l'anomalie {{ code.code }} sur {{ guide.brand }} {{ guide.model }} ?{% endif %}",
+          "name": "{{ code.code }} - {{ guide.brand }} {{ guide.model }}",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "{% if lang == 'en' %}Cause: {{ code.meaning | replace('\"', '\\\"') }}. Tool-free fix: {{ code.solution | replace('\"', '\\\"') }}{% else %}Cause : {{ code.meaning | replace('\"', '\\\"') }}. Résolution sans outil : {{ code.solution | replace('\"', '\\\"') }}{% endif %}"
+            "text": "{{ t.cause_label }} {{ code.meaning | replace('\"', '\\\"') }}. {{ t.solution_label }} {{ code.solution | replace('\"', '\\\"') }}"
           }
         },
         {% endfor %}
@@ -226,23 +226,36 @@
         .table-responsive tr {
             background: #ffffff;
             border: 1px solid var(--border-color);
-            border-radius: var(--radius-lg);
-            padding: 1.15rem;
+            border-radius: var(--radius-md);
+            padding: 1rem;
             margin-bottom: 1rem;
             box-shadow: var(--shadow-sm);
         }
         .table-responsive td {
-            padding: 0.35rem 0;
-            text-align: left !important;
+            padding: 0.4rem 0;
+            border-bottom: 1px dashed #f1f5f9;
         }
         .table-responsive td:last-child {
-            padding-top: 0.85rem;
+            border-bottom: none;
+            padding-top: 0.75rem;
+            text-align: center;
         }
-        .table-responsive .btn-amazon {
-            display: flex;
+        .table-responsive td::before {
+            content: attr(data-label);
+            font-weight: 700;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+        .table-responsive td:last-child::before {
+            display: none;
+        }
+        .btn-amazon {
             width: 100%;
-            padding: 0.85rem;
-            font-size: 1rem;
+            padding: 0.75rem 1rem !important;
+            font-size: 0.95rem !important;
             justify-content: center;
         }
     }
@@ -250,17 +263,17 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container" style="max-width: 920px;">
     <!-- Fil d'Ariane -->
-    <nav class="breadcrumb" aria-label="Fil d'ariane">
-        <a href="{{ base_prefix }}/index.html">{% if lang == 'en' %}Home{% else %}Accueil{% endif %}</a>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ lang_base_url }}/index.html">{{ t.nav_guides }}</a>
         <span>&rsaquo;</span>
-        <a href="{{ base_prefix }}/index.html?cat={{ guide.category | urlencode }}">{{ guide.category }}</a>
+        <a href="{{ lang_base_url }}/index.html?cat={{ guide.category | urlencode }}">{{ guide.category }}</a>
         <span>&rsaquo;</span>
         <span>{{ guide.brand }} {{ guide.model }}</span>
     </nav>
 
-    <!-- En-tête du guide -->
+    <!-- En-tête du Guide -->
     <header class="guide-header">
         <div class="product-badge-group">
             <span class="badge badge-brand">{{ guide.brand }}</span>
@@ -268,23 +281,16 @@
         </div>
         <h1>{{ guide.title }}</h1>
         <div class="guide-meta">
-            <span><strong>{% if lang == 'en' %}Model:{% else %}Modèle :{% endif %}</strong> {{ guide.model }}</span>
+            <span><strong>{{ t.model_label }}</strong> {{ guide.model }}</span>
             <span>&bull;</span>
-            <span><strong>{% if lang == 'en' %}Routine care:{% else %}Entretien courant :{% endif %}</strong> {% if lang == 'en' %}Tool-free replaceable wear parts{% else %}Pièces d'usure amovibles sans outillage{% endif %}</span>
+            <span><strong>{{ t.routine_care_label }}</strong> {{ t.routine_care_value }}</span>
         </div>
     </header>
 
-    <!-- Avertissement de Sécurité Strict France / UE / USA -->
+    <!-- Avertissement de Sécurité Strict International -->
     <div class="security-notice" role="alert">
-        <strong>{% if lang == 'en' %}Safety & Disclaimers:{% else %}Consignes de Sécurité & Responsabilité :{% endif %}</strong>
-        {% if lang == 'en' %}
-        Always unplug the appliance and allow it to cool down completely before performing any maintenance.
-        This guide strictly covers routine care, simple cleaning, and tool-free consumable replacement. For internal electrical issues, contact a certified technician.
-        {% else %}
-        Toujours débrancher électriquement l'appareil et attendre son complet refroidissement avant toute manipulation.
-        Ce guide se limite strictement à l'entretien usuel, au remplacement de filtres/accessoires amovibles sans tournevis et au nettoyage externe.
-        Pour toute anomalie électrique interne ou panne matérielle complexe, faites appel à un réparateur professionnel agréé.
-        {% endif %}
+        <strong>{{ t.safety_title }}</strong>
+        {{ t.safety_desc }}
     </div>
 
     <!-- 1. Tableau Monétisé des Consommables Indispensables (Zéro 404) -->
@@ -295,52 +301,48 @@
                 <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
                 <line x1="12" y1="22.08" x2="12" y2="12"></line>
             </svg>
-            {% if lang == 'en' %}Certified Wear Parts & Replacement Consumables{% else %}Consommables & Pièces d'Usure Recommandées{% endif %}
+            {{ t.consumables_heading }}
         </h2>
         <p style="margin-bottom: 1rem; color: var(--text-muted);">
-            {% if lang == 'en' %}
-            Peak performance and long-term durability of your <strong>{{ guide.brand }} {{ guide.model }}</strong> rely on periodic replacement of these essential wear parts. Direct links point to verified dynamic search queries on Amazon:
-            {% else %}
-            L'efficacité d'origine et la longévité de votre <strong>{{ guide.brand }} {{ guide.model }}</strong> reposent sur le remplacement périodique de ces 3 à 4 pièces d'usure. Les liens ci-dessous redirigent vers des requêtes de recherche Amazon officielles vérifiées :
-            {% endif %}
+            {{ t.consumables_intro }}
         </p>
 
         <div class="table-responsive">
             <table>
                 <thead>
                     <tr>
-                        <th style="min-width: 190px;">{% if lang == 'en' %}Part / Accessory{% else %}Pièce / Consommable{% endif %}</th>
-                        <th style="min-width: 130px;">{% if lang == 'en' %}Part Number (PN){% else %}Réf. Constructeur (PN){% endif %}</th>
-                        <th style="min-width: 140px;">{% if lang == 'en' %}Replacement Interval{% else %}Fréquence d'Entretien{% endif %}</th>
-                        <th style="min-width: 240px;">{% if lang == 'en' %}Why Replace?{% else %}Pourquoi est-ce indispensable ?{% endif %}</th>
-                        <th style="min-width: 160px; text-align: center;">{% if lang == 'en' %}Availability{% else %}Disponibilité{% endif %}</th>
+                        <th style="min-width: 190px;">{{ t.th_part }}</th>
+                        <th style="min-width: 130px;">{{ t.th_pn }}</th>
+                        <th style="min-width: 140px;">{{ t.th_freq }}</th>
+                        <th style="min-width: 240px;">{{ t.th_why }}</th>
+                        <th style="min-width: 160px; text-align: center;">{{ t.th_avail }}</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for item in guide.consumables %}
                     <tr>
-                        <td>
+                        <td data-label="{{ t.th_part }}">
                             <strong>{{ item.name }}</strong>
                         </td>
-                        <td>
+                        <td data-label="{{ t.th_pn }}">
                             <code style="background: #f1f5f9; padding: 0.2rem 0.45rem; border-radius: 4px; font-size: 0.8rem; font-weight: 700; color: #0f766e; border: 1px solid #cbd5e1;">
                                 {{ item.part_number if item.part_number else "OEM compatible" }}
                             </code>
                         </td>
-                        <td>
+                        <td data-label="{{ t.th_freq }}">
                             <span style="font-size: 0.875rem; color: #475569;">{{ item.frequency }}</span>
                         </td>
-                        <td>
+                        <td data-label="{{ t.th_why }}">
                             <span style="font-size: 0.9rem;">{{ item.why_replace }}</span>
                         </td>
-                        <td style="text-align: center;">
+                        <td data-label="{{ t.th_avail }}" style="text-align: center;">
                             <a href="{{ item.affiliate_url }}"
                                rel="nofollow sponsored"
                                target="_blank"
                                class="btn btn-amazon"
                                style="font-size: 0.85rem; padding: 0.5rem 0.9rem;"
                                aria-label="Check price and availability for {{ item.name }} on Amazon">
-                                {% if lang == 'en' %}Check on Amazon &rarr;{% else %}Voir sur Amazon &rarr;{% endif %}
+                                {{ t.btn_amazon }}
                             </a>
                         </td>
                     </tr>
@@ -358,14 +360,10 @@
                 <line x1="12" y1="8" x2="12" y2="12"></line>
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
-            {% if lang == 'en' %}Error Codes & Routine Maintenance Lights{% else %}Voyants d'Alerte & Codes d'Entretien Courant{% endif %}
+            {{ t.errors_heading }}
         </h2>
         <p style="margin-bottom: 1.25rem; color: var(--text-muted);">
-            {% if lang == 'en' %}
-            Most alert icons and error messages on the {{ guide.brand }} {{ guide.model }} screen do not indicate fatal breakdowns, but simple routine maintenance needs:
-            {% else %}
-            La majorité des signaux lumineux ou messages sur l'écran du {{ guide.brand }} {{ guide.model }} n'indiquent pas une panne grave, mais un simple besoin d'entretien de premier niveau :
-            {% endif %}
+            {{ t.errors_intro }}
         </p>
 
         {% for code in guide.common_codes %}
@@ -373,9 +371,9 @@
             <h4>
                 <span>&#9888;</span> {{ code.code }}
             </h4>
-            <p><strong>{% if lang == 'en' %}Common Cause:{% else %}Cause courante :{% endif %}</strong> {{ code.meaning }}</p>
+            <p><strong>{{ t.cause_label }}</strong> {{ code.meaning }}</p>
             <div class="error-solution">
-                <strong>{% if lang == 'en' %}Tool-Free Fix:{% else %}Procédure de résolution sans outil :{% endif %}</strong> {{ code.solution }}
+                <strong>{{ t.solution_label }}</strong> {{ code.solution }}
             </div>
         </div>
         {% endfor %}
@@ -389,7 +387,7 @@
                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
                 <line x1="12" y1="17" x2="12.01" y2="17"></line>
             </svg>
-            {% if lang == 'en' %}Frequently Asked Questions ({{ guide.brand }} {{ guide.model }}){% else %}Questions Fréquentes sur le {{ guide.brand }} {{ guide.model }}{% endif %}
+            {{ t.faq_heading }} ({{ guide.brand }} {{ guide.model }})
         </h2>
 
         {% for item in guide.faq %}
@@ -404,8 +402,8 @@
 
     <!-- Bouton de retour -->
     <div style="margin-top: 3rem; text-align: center;">
-        <a href="{{ base_prefix }}/index.html" class="btn btn-secondary">
-            {% if lang == 'en' %}&larr; Back to all appliance guides{% else %}&larr; Retour à l'ensemble des guides d'appareils{% endif %}
+        <a href="{{ lang_base_url }}/index.html" class="btn btn-secondary">
+            &larr; {{ t.nav_guides }}
         </a>
     </div>
 </div>

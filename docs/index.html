@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guides Consommables, Filtres & Codes Entretien Électroménager | AutoConsommables.fr</title>
-    <meta name="description" content="Trouvez en 1 clic les références de filtres, brosses, cartouches et pièces d'usure pour vos appareils ménagers. Résolution de voyants et entretien courant.">
+    <title>AutoConsommables.fr — Base Officielle des Consommables, Pièces d&#39;Usure &amp; Codes Entretien</title>
+    <meta name="description" content="Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d&#39;entretien : retrouvez les pièces d&#39;usure certifiées et résolvez les voyants d&#39;alerte en 2 minutes.">
     <link rel="canonical" href="https://thorlan04.github.io/auto-consumables-agent/index.html">
     <link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/index.html">
     <link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/index.html">
-    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/index.html">
+    <link rel="alternate" hreflang="es" href="https://thorlan04.github.io/auto-consumables-agent/es/index.html">
+    <link rel="alternate" hreflang="de" href="https://thorlan04.github.io/auto-consumables-agent/de/index.html">
+    <link rel="alternate" hreflang="pt" href="https://thorlan04.github.io/auto-consumables-agent/pt/index.html">
+    <link rel="alternate" hreflang="ja" href="https://thorlan04.github.io/auto-consumables-agent/ja/index.html">
+    <link rel="alternate" hreflang="zh" href="https://thorlan04.github.io/auto-consumables-agent/zh/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/en/index.html">
 <meta name="robots" content="index, follow">
     <!-- Open Graph / Réseaux Sociaux -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Guides Consommables, Filtres & Codes Entretien Électroménager | AutoConsommables.fr">
-    <meta property="og:description" content="Trouvez en 1 clic les références de filtres, brosses, cartouches et pièces d'usure pour vos appareils ménagers. Résolution de voyants et entretien courant.">
+    <meta property="og:title" content="AutoConsommables.fr — Base Officielle des Consommables, Pièces d&#39;Usure &amp; Codes Entretien">
+    <meta property="og:description" content="Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d&#39;entretien : retrouvez les pièces d&#39;usure certifiées et résolvez les voyants d&#39;alerte en 2 minutes.">
     <meta property="og:url" content="https://thorlan04.github.io/auto-consumables-agent/index.html">
 
     <!-- CSS Inliné Ultra-Léger (< 15 Ko, Zéro Dépendance Bloquante, 100% Accessible) -->
@@ -71,7 +76,7 @@
             padding: 0 1.25rem;
         }
 
-        /* Bandeau Transparence Légal (DGCCRF / Amazon Associates) */
+        /* Bandeau Transparence Légal (DGCCRF / FTC / Amazon Associates) */
         .affiliate-banner {
             background-color: #f1f5f9;
             border-bottom: 1px solid var(--border-color);
@@ -89,7 +94,7 @@
         header {
             background-color: #ffffff;
             border-bottom: 1px solid var(--border-color);
-            padding: 1rem 0;
+            padding: 0.85rem 0;
             position: sticky;
             top: 0;
             z-index: 50;
@@ -101,6 +106,7 @@
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
+            flex-wrap: wrap;
         }
 
         .site-logo {
@@ -119,10 +125,45 @@
 
         .nav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 1.25rem;
             list-style: none;
             font-weight: 500;
-            font-size: 0.95rem;
+            font-size: 0.925rem;
+            align-items: center;
+        }
+
+        .lang-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.775rem;
+            font-weight: 700;
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.5rem;
+            border-radius: 9999px;
+            background: #ffffff;
+            white-space: nowrap;
+        }
+
+        .lang-pill-active {
+            background: var(--primary);
+            color: #ffffff !important;
+            padding: 0.15rem 0.45rem;
+            border-radius: 9999px;
+            text-decoration: none !important;
+        }
+
+        .lang-pill-link {
+            color: #64748b;
+            padding: 0.15rem 0.3rem;
+            text-decoration: none !important;
+            border-radius: 9999px;
+            transition: color 0.15s, background-color 0.15s;
+        }
+
+        .lang-pill-link:hover {
+            color: var(--primary);
+            background-color: #f1f5f9;
         }
 
         /* Contenu Principal */
@@ -239,14 +280,17 @@
 
         th {
             background-color: #f8fafc;
-            padding: 0.85rem 1rem;
+            color: #475569;
             font-weight: 600;
-            color: #334155;
-            border-bottom: 2px solid var(--border-color);
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
         }
 
         td {
-            padding: 0.9rem 1rem;
+            padding: 1rem;
             border-bottom: 1px solid var(--border-color);
             vertical-align: middle;
         }
@@ -255,25 +299,31 @@
             border-bottom: none;
         }
 
+        tr:hover td {
+            background-color: #f8fafc;
+        }
+
         /* Footer */
         footer {
-            background-color: #0f172a;
-            color: #94a3b8;
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
             padding: 3rem 0 2rem;
-            font-size: 0.875rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
         }
 
         .footer-grid {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
-            gap: 2rem;
-            margin-bottom: 2rem;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
         }
 
         .footer-col h3 {
-            color: #f1f5f9;
             font-size: 1rem;
-            margin-bottom: 0.75rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            font-weight: 700;
         }
 
         .footer-col ul {
@@ -284,68 +334,38 @@
             margin-bottom: 0.5rem;
         }
 
-        .footer-col a {
-            color: #cbd5e1;
-        }
-
-        .footer-col a:hover {
-            color: #38bdf8;
-        }
-
         .footer-bottom {
-            border-top: 1px solid #1e293b;
+            border-top: 1px solid var(--border-color);
             padding-top: 1.5rem;
             text-align: center;
-            font-size: 0.8rem;
-            color: #64748b;
+            font-size: 0.825rem;
         }
 
+        /* Responsive Design Mobile-First */
         @media (max-width: 768px) {
             .footer-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
-        }
-
-        @media (max-width: 640px) {
-            .container {
-                padding: 0 0.85rem;
-            }
-            header {
-                padding: 0.75rem 0;
-            }
             .header-content {
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-                gap: 0.6rem;
-            }
-            .site-logo {
-                font-size: 1.15rem;
-            }
-            nav {
-                width: 100%;
-                justify-content: space-between;
-                gap: 0.5rem !important;
-                border-top: 1px solid var(--border-color);
-                padding-top: 0.5rem;
-                margin-top: 0.25rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
             }
             .nav-links {
-                gap: 0.75rem;
-                font-size: 0.85rem;
+                flex-wrap: wrap;
+                gap: 1rem;
             }
             .lang-selector {
-                padding: 0.2rem 0.5rem !important;
-                font-size: 0.75rem !important;
+                overflow-x: auto;
+                max-width: 100%;
+                -webkit-overflow-scrolling: touch;
             }
             main {
-                padding: 1.25rem 0 2.5rem;
+                padding: 1.5rem 0 3rem;
             }
-            .card {
-                padding: 1rem;
-                border-radius: var(--radius-md);
+            .container {
+                padding: 0 1rem;
             }
             h1 {
                 font-size: 1.6rem !important;
@@ -479,81 +499,92 @@
     .consumables-preview li {
         color: #475569;
         margin-bottom: 0.2rem;
-        display: flex;
-        align-items: center;
-        gap: 0.35rem;
-    }
-    .consumables-preview li::before {
-        content: "•";
-        color: var(--primary);
-        font-weight: bold;
     }
     .card-footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-top: 1px solid var(--border-color);
+        padding-top: 1rem;
         margin-top: auto;
     }
     .no-results {
         text-align: center;
-        padding: 3rem 1rem;
-        color: var(--text-muted);
+        padding: 4rem 1rem;
         display: none;
+    }
+    .no-results h3 {
+        font-size: 1.3rem;
+        color: #0f172a;
+        margin-bottom: 0.5rem;
+    }
+    .no-results p {
+        color: var(--text-muted);
+        font-size: 0.95rem;
     }
     .value-props {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 1.5rem;
         margin: 4rem 0 2rem;
-        text-align: center;
+        padding-top: 3rem;
+        border-top: 1px solid var(--border-color);
     }
     .value-prop-card {
-        padding: 1.5rem;
         background: #ffffff;
-        border-radius: var(--radius-lg);
         border: 1px solid var(--border-color);
+        border-radius: var(--radius-lg);
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .value-prop-card svg {
+        margin: 0 auto 1rem;
+        display: block;
     }
     .value-prop-card h4 {
-        margin: 0.75rem 0 0.5rem;
+        font-size: 1.1rem;
         color: #0f172a;
-    }
-    @media (max-width: 768px) {
-        .value-props {
-            grid-template-columns: 1fr;
-        }
+        margin-bottom: 0.5rem;
     }
     @media (max-width: 640px) {
         .hero {
-            padding: 1.5rem 0 1.75rem;
+            padding: 1.75rem 0 2rem;
             margin-bottom: 1.5rem;
         }
         .hero h1 {
-            font-size: 1.5rem !important;
+            font-size: 1.65rem !important;
             line-height: 1.25;
+            margin-bottom: 0.75rem;
         }
         .hero p {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             margin-bottom: 1.25rem;
+            line-height: 1.45;
         }
         .search-input {
-            padding: 0.75rem 1rem 0.75rem 2.6rem;
-            font-size: 0.92rem;
+            padding: 0.8rem 1rem 0.8rem 2.75rem;
+            font-size: 0.95rem;
         }
         .search-icon {
             left: 0.9rem;
+            width: 18px;
+            height: 18px;
         }
         .category-filters {
             gap: 0.35rem;
             margin-top: 1rem;
         }
         .filter-pill {
-            padding: 0.3rem 0.7rem;
-            font-size: 0.78rem;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.775rem;
         }
         .guides-grid {
             grid-template-columns: 1fr;
             gap: 1rem;
             margin-bottom: 2rem;
+        }
+        .guide-card {
+            padding: 1.15rem;
         }
         .value-props {
             grid-template-columns: 1fr;
@@ -564,31 +595,38 @@
 </style>
 </head>
 <body>
-    <!-- 1. Bandeau Légal Obligatoire DGCCRF (FR) & FTC / Amazon Associates (EN/US) -->
+    <!-- 1. Bandeau Légal Obligatoire Partenaire Amazon -->
     <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
         <div class="container">
-            <strong>Transparence :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant fournis à titre indicatif.
+            <strong>Transparence Partenaire Amazon :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant préventif.
         </div>
     </aside>
 
-    <!-- Header Principal avec Sélecteur de Langue -->
+    <!-- Header Principal avec Sélecteur International -->
     <header>
         <div class="container header-content">
-            <a href="./index.html" class="site-logo">
+            <a href="https://thorlan04.github.io/auto-consumables-agent/index.html" class="site-logo">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                     <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                 </svg>
-                <span>AutoConsumables</span>.fr            </a>
-            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
+                <span>AutoConsommables.fr</span>
+            </a>
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
                 <ul class="nav-links">
-                    <li><a href="./index.html">Guides d'Entretien</a></li>
-                    <li><a href="./mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/index.html">Guides d&#39;Entretien</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html">Tableau de Bord Ops</a></li>
                 </ul>
-                <!-- Sélecteur de Langue Rapide -->
-                <div class="lang-selector" style="font-size: 0.85rem; font-weight: 700; border: 1px solid var(--border-color); padding: 0.25rem 0.6rem; border-radius: 9999px; background: #ffffff;">
-                    <strong style="color: var(--primary);">FR 🇫🇷</strong>
-                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
-                    <a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html" title="Switch to English (US/UK)" style="color: #64748b;">EN 🇺🇸</a>
+
+                <!-- Sélecteur International de Marchés & Langues -->
+                <div class="lang-selector" aria-label="Choisir la langue et la zone géographique">
+                            <span class="lang-pill-active" title="FR">🇫🇷 FR</span>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/index.html" class="lang-pill-link" title="EN">🇺🇸 EN</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/index.html" class="lang-pill-link" title="ES">🇪🇸 ES</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/index.html" class="lang-pill-link" title="DE">🇩🇪 DE</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/index.html" class="lang-pill-link" title="PT">🇧🇷 PT</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/index.html" class="lang-pill-link" title="JA">🇯🇵 JA</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/index.html" class="lang-pill-link" title="ZH">🇨🇳 ZH</a>
                 </div>
             </nav>
         </div>
@@ -600,9 +638,7 @@
 <section class="hero">
     <div class="container">
         <h1>Prolongez la vie de vos appareils ménagers</h1>
-        <p>
-            Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d'entretien : retrouvez les pièces d'usure certifiées et résolvez les voyants d'alerte en 2 minutes.
-        </p>
+        <p>Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d&#39;entretien : retrouvez les pièces d&#39;usure certifiées et résolvez les voyants d&#39;alerte en 2 minutes.</p>
 
         <div class="search-box-wrapper">
             <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -613,7 +649,7 @@
                    id="guideSearch"
                    class="search-input"
                    placeholder="Rechercher une marque, un modèle (ex: Tineco S7, Delonghi Rivelia, Ninja AF400EU...)"
-                   aria-label="Recherche d'un guide par marque ou appareil">
+                   aria-label="Search guide by brand or model">
         </div>
 
         <div class="category-filters" id="categoryFilters">
@@ -632,7 +668,7 @@
     <!-- Message Aucun Résultat -->
     <div id="noResults" class="no-results">
         <h3>Aucun appareil ne correspond à votre recherche</h3>
-        <p>Essayez un mot-clé plus court comme la marque (ex: <em>Delonghi</em>, <em>Tineco</em>, <em>Roborock</em>) ou changez de catégorie.</p>
+        <p>Essayez un mot-clé plus court comme la marque (ex: Delonghi, Tineco, Roborock) ou changez de catégorie.</p>
     </div>
 
     <!-- Grille des Guides -->
@@ -650,7 +686,7 @@
             <p>Filtres HEPA, rouleaux brosses et solutions de nettoyage pour Tineco Floor One S5. Guide des voyants et entretien courant sans démontage.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Rouleau Brosse Microfibre Multi-surfaces <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Filtre à Air Sec HEPA Lavable <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -660,9 +696,11 @@
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/tineco-floor-one-s5-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -678,7 +716,7 @@ Voir la fiche &rarr;                </a>
             <p>Cartouches filtrantes d&#39;eau, détartrant EcoDecalk et graisse pour groupe café De&#39;Longhi Magnifica S. Guide des voyants et entretien régulier.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Cartouche Filtrante Anticalcaire pour Réservoir d&#39;Eau <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Détartrant Naturel EcoDecalk (500 ml) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -688,9 +726,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/delonghi-magnifica-s-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -706,7 +746,7 @@ Voir la fiche &rarr;                </a>
             <p>Filtres HEPA, rouleaux duo-rubber, serpillières vibrantes et sacs à poussière pour Roborock S8. Guide d&#39;entretien sans démontage.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Paire de Rouleaux Brosses DuoRubber en Caoutchouc <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Filtre à Air E11 Lavable pour Bac à Poussière <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -716,9 +756,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/roborock-s8-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -734,7 +776,7 @@ Voir la fiche &rarr;                </a>
             <p>Grilles de cuisson croustillante, plaques antiadhésives et feuilles de cuisson pour Air Fryer Ninja DualZone. Entretien et nettoyage sans rayure.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Plaques Grilles Croustillantes Antiadhésives de Remplacement <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -744,9 +786,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/ninja-foodi-dualzone-airfryer-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -762,7 +806,7 @@ Voir la fiche &rarr;                </a>
             <p>Filtres anticalcaire AquaClean, pastilles dégraissantes et graisse pour groupe café Philips LatteGo. Entretien et voyants d&#39;alerte.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Cartouche Filtrante Anticalcaire AquaClean (CA6903) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Pastilles Dégraissantes pour Circuit Café (CA6704) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -772,9 +816,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/philips-series-2200-lattego-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -790,7 +836,7 @@ Voir la fiche &rarr;                </a>
             <p>Maximisez la durée de vie de votre purificateur d&#39;air Xiaomi Smart Air Purifier 4 avec nos conseils d&#39;entretien simple, remplacement de filtre et FAQ.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Chiffon microfibre sec et doux <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -800,9 +846,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/xiaomi-smart-air-purifier-4-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -818,7 +866,7 @@ Voir la fiche &rarr;                </a>
             <p>Guide d&#39;entretien simple pour votre centrale vapeur Calor Pro Express Ultimate GV9720C0 : détartrage, nettoyage semelle et consommables.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Collecteur de calcaire Calor (Pièce de rechange) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Eau déminéralisée ou déionisée <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -828,9 +876,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/calor-pro-express-ultimate-gv9720c0-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -846,7 +896,7 @@ Voir la fiche &rarr;                </a>
             <p>Prolongez la vie de votre Dreame H12 Pro ! Découvrez les codes d&#39;erreur courants, les consommables essentiels et nos astuces d&#39;entretien pour une performance optimale.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Brosse Rouleau <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Filtre HEPA <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -856,9 +906,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/dreame-h12-pro-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -874,7 +926,7 @@ Voir la fiche &rarr;                </a>
             <p>Optimisez votre Philips Airfryer XXL HD9650/90 ! Découvrez les astuces d&#39;entretien, les accessoires indispensables et les FAQ pour des cuissons parfaites.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Kit de nettoyage Philips Airfryer <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
                     <li>Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche) <span style="font-size: 0.75rem; color: #94a3b8;">()</span></li>
@@ -884,9 +936,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -902,7 +956,7 @@ Voir la fiche &rarr;                </a>
             <p>Guide complet pour l&#39;entretien et le remplacement des consommables de votre aspirateur laveur Tineco Floor One Switch S7 (FW210100EU). Trouvez filtres HEPA (FW200501EU), rouleaux brosse et solutions de nettoyage pour une performance optimale.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Rouleau brosse microfibre bi-matière <span style="font-size: 0.75rem; color: #94a3b8;">(FW200301EU)</span></li>
                     <li>Filtre HEPA <span style="font-size: 0.75rem; color: #94a3b8;">(FW200501EU)</span></li>
@@ -912,9 +966,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -930,7 +986,7 @@ Voir la fiche &rarr;                </a>
             <p>Maintenance essentielle pour votre machine à café à grains De&#39;Longhi Rivelia (FEAM 44.55.B). Trouvez le filtre à eau DLS C002 et le détartrant EcoDecalk pour un café parfait et une longue durée de vie de votre appareil.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Filtre à eau De&#39;Longhi DLS C002 <span style="font-size: 0.75rem; color: #94a3b8;">(DLS C002)</span></li>
                     <li>Détartrant De&#39;Longhi EcoDecalk <span style="font-size: 0.75rem; color: #94a3b8;">(DLSC500)</span></li>
@@ -940,9 +996,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -958,7 +1016,7 @@ Voir la fiche &rarr;                </a>
             <p>Guide complet pour l&#39;entretien de votre Roborock Qrevo MaxV (QRMV01-00). Découvrez les consommables essentiels et les solutions aux codes erreurs pour une performance optimale.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Brosse principale en caoutchouc <span style="font-size: 0.75rem; color: #94a3b8;">(Réf. constructeur adaptable)</span></li>
                     <li>Brosse latérale <span style="font-size: 0.75rem; color: #94a3b8;">(Réf. constructeur adaptable)</span></li>
@@ -968,9 +1026,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -986,7 +1046,7 @@ Voir la fiche &rarr;                </a>
             <p>Optimisez la durée de vie de votre Philips LatteGo Série 5400 (EP5447/90) avec nos conseils d&#39;entretien, les références des consommables et la résolution des alertes courantes.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Filtre à eau AquaClean <span style="font-size: 0.75rem; color: #94a3b8;">(CA6903/10)</span></li>
                     <li>Détartrant Philips (liquide) <span style="font-size: 0.75rem; color: #94a3b8;">(CA6700/10)</span></li>
@@ -996,9 +1056,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/philips-lattego-serie-5400-ep5447-90-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -1014,7 +1076,7 @@ Voir la fiche &rarr;                </a>
             <p>Optimisez votre Dyson V15s Detect Submarine (SV47) avec notre guide d&#39;entretien. Trouvez filtres HEPA (PN 971634-01) et rouleaux Submarine pour une performance maximale.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Filtre HEPA post-moteur lavable <span style="font-size: 0.75rem; color: #94a3b8;">(971634-01)</span></li>
                     <li>Rouleau brosse lavant Submarine <span style="font-size: 0.75rem; color: #94a3b8;">(972688-01)</span></li>
@@ -1024,9 +1086,11 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
         <article class="card guide-card"
@@ -1042,7 +1106,7 @@ Voir la fiche &rarr;                </a>
             <p>Maintenez votre Breville Barista Touch Impress (BES881BSS) au top de sa performance. Guide d&#39;entretien, détartrage, filtre à eau (PN BES008) et pastilles de nettoyage.</p>
 
             <div class="consumables-preview">
-                <strong>Pièces & Consommables traités :</strong>
+                <strong>Pièces &amp; Consommables traités :</strong>
                 <ul>
                     <li>Filtre à eau Breville ClaroSwiss <span style="font-size: 0.75rem; color: #94a3b8;">(BES008)</span></li>
                     <li>Pastilles de nettoyage Breville pour machine à espresso <span style="font-size: 0.75rem; color: #94a3b8;">(BES011)</span></li>
@@ -1052,20 +1116,23 @@ Voir la fiche &rarr;                </a>
 
             <div class="card-footer">
                 <span style="font-size: 0.8rem; color: #64748b;">
-                    3 codes voyants expliqués                </span>
-                <a href="./guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
-Voir la fiche &rarr;                </a>
+                    3 codes voyants expliqués
+                </span>
+                <a href="https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche →
+                </a>
             </div>
         </article>
     </div>
 
-    <!-- Piliers d'Éco-Entretien -->
+    <!-- Piliers d'Éco-Entretien Internationaux -->
     <section class="value-props">
         <div class="value-prop-card">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
                 <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
             </svg>
-            <h4>Économies Durables</h4>
+            <h4>
+Économies Durables            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
                 Remplacer un filtre colmaté à 10 € évite la surchauffe d'un moteur d'aspirateur à 300 €. Un réflexe simple pour votre pouvoir d'achat.
             </p>
@@ -1074,7 +1141,8 @@ Voir la fiche &rarr;                </a>
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary);">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
             </svg>
-            <h4>Zéro Outil Requis</h4>
+            <h4>
+Zéro Outil Requis            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
                 Toutes nos fiches d'entretien se concentrent exclusivement sur les pièces démontables à la main : brosses clipsables, tiroirs et réservoirs.
             </p>
@@ -1084,9 +1152,10 @@ Voir la fiche &rarr;                </a>
                 <circle cx="12" cy="12" r="10"/>
                 <polyline points="12 6 12 12 14 14"/>
             </svg>
-            <h4>Liens Amazon Vérifiés</h4>
+            <h4>
+Liens Amazon Vérifiés            </h4>
             <p style="font-size: 0.875rem; color: var(--text-muted);">
-                Nos liens mènent vers des requêtes dynamiques toujours à jour sur Amazon.fr pour éviter les ruptures de stock et les erreurs 404.
+                Nos liens mènent vers des requêtes dynamiques toujours à jour sur Amazon pour éviter les ruptures de stock et les erreurs 404.
             </p>
         </div>
     </section>
@@ -1098,35 +1167,32 @@ Voir la fiche &rarr;                </a>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>AutoConsumables.fr</h3>
-                    <p>
-                        Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.
-                    </p>
-                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
-                        Site statique à zéro cookie tiers et zéro tracker, hébergé sur GitHub Pages (Microsoft Azure infrastructure).
-                    </p>
+                    <h3>AutoConsommables.fr</h3>
+                    <p>Votre observatoire indépendant des consommables d&#39;usure, filtres de rechange et voyants d&#39;entretien pour le petit et gros électroménager courant.</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">Site statique à zéro cookie tiers et zéro tracker, hébergé sur infrastructure mondiale haute performance.</p>
                 </div>
                 <div class="footer-col">
                     <h3>Catégories Populaires</h3>
                     <ul>
-                        <li><a href="./index.html?cat=Aspirateurs+Laveurs">Aspirateurs Laveurs</a></li>
-                        <li><a href="./index.html?cat=Machines+à+Café+à+Grains">Machines à Café à Grains</a></li>
-                        <li><a href="./index.html?cat=Robots+Aspirateurs">Robots Aspirateurs</a></li>
-                        <li><a href="./index.html?cat=Friteuses+sans+Huile+(Air+Fryer)">Air Fryers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/index.html?cat=Aspirateurs%20Laveurs">Aspirateurs Laveurs</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/index.html?cat=Centrales%20Vapeur">Centrales Vapeur</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/index.html?cat=Friteuses%20sans%20Huile%20%28Air%20Fryer%29">Friteuses sans Huile (Air Fryer)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/index.html?cat=Machines%20%C3%A0%20Caf%C3%A9%20%C3%A0%20Grains">Machines à Café à Grains</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Informations Légales</h3>
                     <ul>
-                        <li><a href="./mentions-legales.html">Mentions Légales & CGU</a></li>
-                        <li><a href="./mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
-                        <li><a href="./mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
-                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap XML (Global)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/llms.txt">Standard llms.txt (GEO)</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 AutoConsumables — Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.</p>
+                <p>&copy; 2026 AutoConsumables — Tous droits réservés. Guides pratiques rédigés à des fins d&#39;entretien préventif non intrusif.</p>
             </div>
         </div>
     </footer>
@@ -1138,7 +1204,7 @@ Voir la fiche &rarr;                </a>
             if (!btn) return;
             try {
                 const item = {
-                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    title: document.title,
                     label: btn.getAttribute('aria-label') || 'Amazon Search Link',
                     url: btn.href,
                     timestamp: new Date().toISOString()

@@ -222,10 +222,24 @@ def update_github_readme(catalog_data: Dict[str, Any], site_base_url: str, partn
     total_guides = len(guides_list)
 
     lines = [
-        "# 🤖 Auto-Consumables Agent | Open Hardware Consumables & Maintenance Registry (GEO)",
+        "# 🤖 Auto-Consumables Agent | Global Hardware Consumables & Maintenance Registry (GEO)",
         "",
-        "> **Bilingual Public Database for AI Engines, LLMs & Autonomous Purchasing Agents.**",
-        "> Ce dépôt héberge la base de données technique ouverte, le standard mondial `llms.txt` et l'API JSON gratuite des correspondances de consommables, filtres et codes pannes du petit électroménager grand public (2024-2026).",
+        "> **Multilingual Open Database for AI Search Engines, LLMs & Autonomous Purchasing Agents.**",
+        "> Ce dépôt héberge la base de données technique mondiale, le standard `llms.txt` et l'API JSON gratuite des correspondances de consommables, filtres et codes pannes du petit électroménager grand public (2024-2026).",
+        "",
+        "---",
+        "",
+        "## 🌍 Portails Mondiaux par Régions Géographiques",
+        "",
+        "| Région / Continent | Langue | Portail Web Dédié | Marché Amazon Associé |",
+        "|---|---|---|---|",
+        f"| 🇪🇺 🌍 **Europe & Afrique Francophone** | 🇫🇷 Français | [{clean_base_url}/index.html]({clean_base_url}/index.html) | `amazon.fr` |",
+        f"| 🇺🇸 🇬🇧 🇦🇺 **North America, UK & Oceania** | 🇺🇸 English | [{clean_base_url}/en/index.html]({clean_base_url}/en/index.html) | `amazon.com` / `amazon.co.uk` |",
+        f"| 🇪🇸 🌎 **España, América Latina & Caribe** | 🇪🇸 Español | [{clean_base_url}/es/index.html]({clean_base_url}/es/index.html) | `amazon.es` / `amazon.com` |",
+        f"| 🇩🇪 🇦🇹 🇨🇭 **DACH (Deutschland, AT, CH)** | 🇩🇪 Deutsch | [{clean_base_url}/de/index.html]({clean_base_url}/de/index.html) | `amazon.de` |",
+        f"| 🇧🇷 🇵🇹 🇦🇴 **Brasil, Portugal & África Lusófona** | 🇧🇷 Português | [{clean_base_url}/pt/index.html]({clean_base_url}/pt/index.html) | `amazon.com.br` |",
+        f"| 🇯🇵 **Japan & East Asia** | 🇯🇵 日本語 | [{clean_base_url}/ja/index.html]({clean_base_url}/ja/index.html) | `amazon.co.jp` |",
+        f"| 🇨🇳 🌏 **East Asia & Global Diaspora** | 🇨🇳 简体中文 | [{clean_base_url}/zh/index.html]({clean_base_url}/zh/index.html) | `amazon.com` |",
         "",
         "---",
         "",
@@ -233,9 +247,9 @@ def update_github_readme(catalog_data: Dict[str, Any], site_base_url: str, partn
         "",
         "Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rate-limit :",
         "",
-        f"- 📄 **Standard GEO :** [{clean_base_url}/llms.txt]({clean_base_url}/llms.txt) *(Spécification officielle pour ChatGPT Search, Claude, Perplexity)*",
-        f"- 📑 **Dump Technique Intégral :** [{clean_base_url}/llms-full.txt]({clean_base_url}/llms-full.txt) *(Toutes les pièces, codes pannes et liens directs en 1 requête)*",
-        f"- 🔌 **API JSON v1 Catalogue :** [{clean_base_url}/api/v1/catalog.json]({clean_base_url}/api/v1/catalog.json) *(Catalogue structuré et minifié pour agents d'achat)*",
+        f"- 📄 **Standard GEO International :** [{clean_base_url}/llms.txt]({clean_base_url}/llms.txt) *(Spécification officielle pour ChatGPT Search, Claude, Perplexity)*",
+        f"- 📑 **Dump Technique Intégral :** [{clean_base_url}/llms-full.txt]({clean_base_url}/llms-full.txt) *(Toutes les pièces, codes pannes et liens multi-marketplaces en 1 requête)*",
+        f"- 🔌 **API JSON v1 Catalogue Multi-Langues :** [{clean_base_url}/api/v1/catalog.json]({clean_base_url}/api/v1/catalog.json) *(Catalogue structuré avec purchase_urls pour agents d'achat)*",
         f"- ⚠️ **API Rappels Officiels État Français :** [{clean_base_url}/api/v1/rappels-officiels.json]({clean_base_url}/api/v1/rappels-officiels.json) *(Derniers rappels DGCCRF/RappelConso avec équivalents sûrs)*",
         f"- 📰 **Flux RSS 2.0 :** [{clean_base_url}/feed.xml]({clean_base_url}/feed.xml) *(Syndication temps réel des nouvelles fiches)*",
         f"- ⚙️ **Contrat OpenAPI 3.0 :** [{clean_base_url}/.well-known/openapi.json]({clean_base_url}/.well-known/openapi.json)",
@@ -331,9 +345,15 @@ def ping_search_engines_indexnow(
     key = indexnow_key or os.getenv("INDEXNOW_KEY", "7b9d64f028e14674a9844c3569bf12a1")
     ensure_indexnow_key_file(str(DOCS_DIR), key)
 
+    # Indexs pour les 7 langues mondiales
     urls = [
         f"{base}/index.html",
         f"{base}/en/index.html",
+        f"{base}/es/index.html",
+        f"{base}/de/index.html",
+        f"{base}/pt/index.html",
+        f"{base}/ja/index.html",
+        f"{base}/zh/index.html",
         f"{base}/llms.txt",
         f"{base}/llms-full.txt",
         f"{base}/api/v1/catalog.json",
@@ -343,8 +363,11 @@ def ping_search_engines_indexnow(
 
     if added_slugs:
         for slug in added_slugs:
+            # Fiche principale FR
             urls.append(f"{base}/guides/{slug}.html")
-            urls.append(f"{base}/en/guides/{slug}.html")
+            # Fiches localisées dans les 6 autres langues
+            for lang in ["en", "es", "de", "pt", "ja", "zh"]:
+                urls.append(f"{base}/{lang}/guides/{slug}.html")
 
     return ping_indexnow(site_base_url, urls, key)
 

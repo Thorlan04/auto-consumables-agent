@@ -3,46 +3,47 @@ title: "Entretien Xiaomi Smart Air Purifier 4 : Filtres, Nettoyage et Codes Erre
 description: "Maximisez la durée de vie de votre purificateur d'air Xiaomi Smart Air Purifier 4 avec nos conseils d'entretien simple, remplacement de filtre et FAQ."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html"
 published_at: "2026-10-15"
-tags: ["diy", "guide", "electromenager", "entretien", "tech"]
+lang: "fr"
+tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
 
 # Entretien Xiaomi Smart Air Purifier 4 : Filtres, Nettoyage et Codes Erreur
 
-> **Transparence Partenaire Amazon :** Cet article indépendant comporte des liens affiliés Amazon France (#LienAffilié). En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats éligibles sans surcoût pour vous.
-> *Source originale et guide interactif : [https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html)*
+> **<strong>Transparence Partenaire Amazon :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant préventif.**
+> *Source & Guide: [https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html)*
 
-## ⚠️ Sécurité & Consignes Préalables
-Débranchez impérativement votre appareil avant toute intervention. Les procédures ci-dessous ne concernent que l'entretien courant et les pièces d'usure amovibles sans outillage.
+## ⚠️ Consignes de Sécurité & Responsabilité :
+Toujours débrancher électriquement l'appareil et attendre son complet refroidissement avant toute manipulation. Ce guide se limite strictement à l'entretien usuel, au remplacement de filtres/accessoires amovibles sans outillage. Pour toute panne électrique complexe, faites appel à un réparateur professionnel agréé.
 
-## 🛠️ Table de Correspondances des Pièces & Consommables Certifiés
+## 🛠️ Consommables & Pièces d'Usure Recommandées
 
-| Pièce / Accessoire d'Origine | Réf. Constructeur (PN) | Fréquence de Remplacement | Disponibilité & Référence Vérifiée |
+| Pièce / Consommable | Réf. Constructeur (PN) | Fréquence d'Entretien | Disponibilité |
 | :--- | :--- | :--- | :--- |
-| **Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif)** | `OEM compatible` | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
-| **Chiffon microfibre sec et doux** | `OEM compatible` | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
-| **Coton-tige pour capteur PM2.5** | `OEM compatible` | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | [Vérifier le stock Amazon France ↗](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
+| **Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif)** | `OEM compatible` | Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant. | [Voir sur Amazon →](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21) |
+| **Chiffon microfibre sec et doux** | `OEM compatible` | Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe. | [Voir sur Amazon →](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21) |
+| **Coton-tige pour capteur PM2.5** | `OEM compatible` | Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente. | [Voir sur Amazon →](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21) |
 
-### 🔍 Analyse Technique des Pièces d'Usure
+### 🔍 Consommables & Pièces d'Usure Recommandées
 
 #### Filtre Xiaomi Smart Air Purifier 4 (HEPA + Charbon Actif)
-- **Référence Fabricant (PN) :** `Réf. OEM adaptable`
-- **Fréquence recommandée :** Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant.
-- **Pourquoi est-ce critique ?** Un filtre encrassé réduit drastiquement l'efficacité de purification, libère des allergènes et des odeurs, et peut endommager le moteur de l'appareil.
-- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21)
+- **Réf. Constructeur (PN) :** `OEM compatible`
+- **Fréquence d'Entretien :** Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant.
+- **Pourquoi est-ce indispensable ? :** Un filtre encrassé réduit drastiquement l'efficacité de purification, libère des allergènes et des odeurs, et peut endommager le moteur de l'appareil.
+- **Disponibilité :** [Voir sur Amazon →](https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21)
 
 #### Chiffon microfibre sec et doux
-- **Référence Fabricant (PN) :** `Réf. OEM adaptable`
-- **Fréquence recommandée :** Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe.
-- **Pourquoi est-ce critique ?** L'accumulation de poussière sur les surfaces externes et les grilles d'entrée peut réduire l'esthétique et potentiellement obstruer les entrées d'air, diminuant l'efficacité.
-- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21)
+- **Réf. Constructeur (PN) :** `OEM compatible`
+- **Fréquence d'Entretien :** Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe.
+- **Pourquoi est-ce indispensable ? :** L'accumulation de poussière sur les surfaces externes et les grilles d'entrée peut réduire l'esthétique et potentiellement obstruer les entrées d'air, diminuant l'efficacité.
+- **Disponibilité :** [Voir sur Amazon →](https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21)
 
 #### Coton-tige pour capteur PM2.5
-- **Référence Fabricant (PN) :** `Réf. OEM adaptable`
-- **Fréquence recommandée :** Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente.
-- **Pourquoi est-ce critique ?** Un capteur encrassé fournit des mesures erronées de la qualité de l'air, empêchant le purificateur de fonctionner de manière optimale en mode automatique.
-- **Lien direct pièces adaptées :** [Accéder à la référence sur Amazon.fr ↗](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21)
+- **Réf. Constructeur (PN) :** `OEM compatible`
+- **Fréquence d'Entretien :** Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente.
+- **Pourquoi est-ce indispensable ? :** Un capteur encrassé fournit des mesures erronées de la qualité de l'air, empêchant le purificateur de fonctionner de manière optimale en mode automatique.
+- **Disponibilité :** [Voir sur Amazon →](https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21)
 
-## 🚨 Codes Erreurs & Voyants d'Alerte Fréquents
+## 🚨 Voyants d'Alerte & Codes d'Entretien Courant
 
 ### ⚠️ Voyant filtre clignotant / Message 'Replace Filter'
 - **Cause courante :** Le filtre à air combiné est arrivé en fin de vie et nécessite un remplacement pour maintenir l'efficacité de purification.
@@ -58,14 +59,14 @@ Débranchez impérativement votre appareil avant toute intervention. Les procéd
 
 ## ❓ Questions Fréquentes (FAQ)
 
-### Q : Comment savoir quand changer le filtre de mon Xiaomi Smart Air Purifier 4 ?
-**R :** Votre purificateur vous alertera via un voyant clignotant sur l'écran ou un message dans l'application mobile. En général, un filtre dure entre 6 et 12 mois, mais cela dépend de l'intensité d'utilisation et de la pollution de votre environnement.
+### Q: Comment savoir quand changer le filtre de mon Xiaomi Smart Air Purifier 4 ?
+**A:** Votre purificateur vous alertera via un voyant clignotant sur l'écran ou un message dans l'application mobile. En général, un filtre dure entre 6 et 12 mois, mais cela dépend de l'intensité d'utilisation et de la pollution de votre environnement.
 
-### Q : Puis-je laver le filtre de mon purificateur d'air Xiaomi ?
-**R :** Non, les filtres HEPA et à charbon actif des purificateurs Xiaomi ne sont pas lavables. Les laver endommagerait leur structure filtrante et les rendrait inefficaces. Ils doivent être remplacés lorsqu'ils sont saturés.
+### Q: Puis-je laver le filtre de mon purificateur d'air Xiaomi ?
+**A:** Non, les filtres HEPA et à charbon actif des purificateurs Xiaomi ne sont pas lavables. Les laver endommagerait leur structure filtrante et les rendrait inefficaces. Ils doivent être remplacés lorsqu'ils sont saturés.
 
-### Q : Comment nettoyer l'extérieur de mon purificateur d'air sans l'endommager ?
-**R :** Utilisez un chiffon doux et sec pour essuyer la poussière régulièrement. Pour les grilles d'entrée et de sortie d'air, un petit aspirateur avec une brosse douce peut être utilisé pour retirer la poussière accumulée sans abîmer l'appareil. Assurez-vous toujours que l'appareil est éteint et débranché avant le nettoyage.
+### Q: Comment nettoyer l'extérieur de mon purificateur d'air sans l'endommager ?
+**A:** Utilisez un chiffon doux et sec pour essuyer la poussière régulièrement. Pour les grilles d'entrée et de sortie d'air, un petit aspirateur avec une brosse douce peut être utilisé pour retirer la poussière accumulée sans abîmer l'appareil. Assurez-vous toujours que l'appareil est éteint et débranché avant le nettoyage.
 
 ---
-*Fiche technique rédigée pour le modèle **Xiaomi Smart Air Purifier 4** — Retrouvez la version interactive en ligne sur [AutoConsommables.fr](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html).*
+*Datasheet for **Xiaomi Smart Air Purifier 4** — [https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html).*

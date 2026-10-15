@@ -74,14 +74,21 @@ def build_priority_ping_urls(site_base_url: str, added_slugs: List[str] = None) 
     urls = [
         f"{base}/index.html",
         f"{base}/en/index.html",
+        f"{base}/es/index.html",
+        f"{base}/de/index.html",
+        f"{base}/pt/index.html",
+        f"{base}/ja/index.html",
+        f"{base}/zh/index.html",
         f"{base}/llms.txt",
         f"{base}/llms-full.txt",
+        f"{base}/api/v1/catalog.json",
         f"{base}/api/agents-catalog.json",
     ]
     if added_slugs:
         for slug in added_slugs:
             urls.append(f"{base}/guides/{slug}.html")
-            urls.append(f"{base}/en/guides/{slug}.html")
+            for lang in ["en", "es", "de", "pt", "ja", "zh"]:
+                urls.append(f"{base}/{lang}/guides/{slug}.html")
     return urls
 
 
