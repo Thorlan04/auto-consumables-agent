@@ -305,9 +305,63 @@
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 0 0.85rem;
+            }
+            header {
+                padding: 0.75rem 0;
+            }
+            .header-content {
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                gap: 0.6rem;
+            }
+            .site-logo {
+                font-size: 1.15rem;
+            }
+            nav {
+                width: 100%;
+                justify-content: space-between;
+                gap: 0.5rem !important;
+                border-top: 1px solid var(--border-color);
+                padding-top: 0.5rem;
+                margin-top: 0.25rem;
+            }
             .nav-links {
-                gap: 0.85rem;
+                gap: 0.75rem;
                 font-size: 0.85rem;
+            }
+            .lang-selector {
+                padding: 0.2rem 0.5rem !important;
+                font-size: 0.75rem !important;
+            }
+            main {
+                padding: 1.25rem 0 2.5rem;
+            }
+            .card {
+                padding: 1rem;
+                border-radius: var(--radius-md);
+            }
+            h1 {
+                font-size: 1.6rem !important;
+                line-height: 1.25 !important;
+            }
+            h2 {
+                font-size: 1.25rem !important;
+            }
+            .btn {
+                padding: 0.65rem 1rem;
+                font-size: 0.875rem;
+                min-height: 44px;
+            }
+            .table-responsive {
+                border-radius: var(--radius-md);
+                -webkit-overflow-scrolling: touch;
             }
         }
     </style>
@@ -381,6 +435,74 @@
         margin-top: 0.75rem;
         display: none;
     }
+
+    .dashboard-kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /* Optimisations Spécifiques Mobile / PWA */
+    @media (max-width: 640px) {
+        .pin-box {
+            padding: 1.75rem 1.25rem !important;
+            max-width: 320px !important;
+        }
+        .pin-input {
+            font-size: 1.5rem !important;
+            padding: 0.75rem !important;
+            margin: 1rem 0 !important;
+        }
+        .dashboard-header {
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 1rem !important;
+            margin-bottom: 1.25rem !important;
+            padding-bottom: 1rem !important;
+        }
+        .dashboard-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem !important;
+            width: 100%;
+        }
+        .dashboard-actions .btn {
+            flex: 1 1 calc(50% - 0.5rem);
+            font-size: 0.8rem !important;
+            padding: 0.55rem 0.6rem !important;
+            justify-content: center;
+            text-align: center;
+        }
+        .dashboard-kpi-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 0.65rem !important;
+            margin-bottom: 1.5rem !important;
+        }
+        .dashboard-kpi-grid .card {
+            padding: 0.75rem !important;
+        }
+        .kpi-title {
+            font-size: 0.7rem !important;
+            line-height: 1.2;
+        }
+        .kpi-value {
+            font-size: 1.5rem !important;
+            margin: 0.2rem 0 !important;
+        }
+        .kpi-sub {
+            font-size: 0.7rem !important;
+            line-height: 1.2;
+        }
+        #catalog-search {
+            width: 100% !important;
+            min-width: 0 !important;
+            margin-top: 0.5rem;
+        }
+        .hide-mobile {
+            display: none !important;
+        }
+    }
 </style>
 </head>
 <body>
@@ -439,7 +561,7 @@
 <!-- 2. Contenu du Dashboard (Déverrouillé) -->
 <div id="dashboard-content" class="container" style="max-width: 1200px; display: none;">
     <!-- En-tête du Dashboard avec Actions Rapides -->
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
+    <div class="dashboard-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
         <div>
             <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
                 <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
@@ -455,13 +577,13 @@
             </p>
         </div>
         
-        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+        <div class="dashboard-actions" style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
             <!-- Bouton d'installation PWA Mobile -->
             <button id="pwa-install-btn" class="btn" style="display: none; background: #0f766e; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none;">
-                📱 Installer l'App Mobile
+                📱 Installer l'App
             </button>
             <button onclick="changePinPrompt()" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #475569; font-size: 0.85rem;">
-                ⚙️ Changer le PIN
+                ⚙️ Changer PIN
             </button>
             <button onclick="lockDashboard()" class="btn" style="background: #fee2e2; border: 1px solid #fecaca; color: #991b1b; font-size: 0.85rem; font-weight: 600;">
                 🔒 Verrouiller
@@ -470,52 +592,52 @@
     </div>
 
     <!-- 1. Cartes KPI Principales -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
+    <div class="dashboard-kpi-grid">
         <div class="card" style="border-top: 4px solid var(--primary);">
-            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
                 Modèles Validés
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 15
             </div>
-            <div style="font-size: 0.85rem; color: #059669; font-weight: 600;">
-                36 pages en ligne (FR & EN)
+            <div class="kpi-sub" style="font-size: 0.85rem; color: #059669; font-weight: 600;">
+                36 pages FR & EN
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid var(--secondary);">
-            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                Pièces Référencées (PN)
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Pièces (PN)
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 52
             </div>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">
-                100% requêtes de recherche sans 404
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                100% requêtes sans 404
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid #ef4444;">
-            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                Codes Erreurs Mappés
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Codes Erreurs
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+            <div class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 45
             </div>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">
-                Schema.org FAQPage (Position Zéro)
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                Schema.org FAQPage
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid var(--amazon-orange);">
-            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                Clics Affiliés Détectés
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Clics Détectés
             </div>
-            <div id="stat-total-clicks" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.4rem 0 0.2rem;">
+            <div id="stat-total-clicks" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.4rem 0 0.2rem;">
                 0
             </div>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">
-                Télémétrie locale sans cookie
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                Télémétrie 0 cookie
             </div>
         </div>
     </div>
@@ -619,7 +741,7 @@
                         <th style="text-align: center;">Pièces (PN)</th>
                         <th style="text-align: center;">Codes Erreurs</th>
                         <th style="text-align: center;">Fiches Web</th>
-                        <th style="text-align: center;">Export MD</th>
+                        <th class="hide-mobile" style="text-align: center;">Export MD</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -640,7 +762,7 @@
                             <a href="./guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/tineco-floor-one-s5-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-s5-entretien-consommables.md</code>
                         </td>
                     </tr>
@@ -661,7 +783,7 @@
                             <a href="./guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/delonghi-magnifica-s-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-magnifica-s-entretien-consommables.md</code>
                         </td>
                     </tr>
@@ -682,7 +804,7 @@
                             <a href="./guides/roborock-s8-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/roborock-s8-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-s8-entretien-consommables.md</code>
                         </td>
                     </tr>
@@ -703,7 +825,7 @@
                             <a href="./guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/ninja-foodi-dualzone-airfryer-entretien.md</code>
                         </td>
                     </tr>
@@ -724,7 +846,7 @@
                             <a href="./guides/philips-series-2200-lattego-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/philips-series-2200-lattego-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-series-2200-lattego-entretien.md</code>
                         </td>
                     </tr>
@@ -745,7 +867,7 @@
                             <a href="./guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/xiaomi-smart-air-purifier-4-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/xiaomi-smart-air-purifier-4-entretien.md</code>
                         </td>
                     </tr>
@@ -766,7 +888,7 @@
                             <a href="./guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/calor-pro-express-ultimate-gv9720c0-entretien.md</code>
                         </td>
                     </tr>
@@ -787,7 +909,7 @@
                             <a href="./guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/dreame-h12-pro-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dreame-h12-pro-entretien-consommables.md</code>
                         </td>
                     </tr>
@@ -808,7 +930,7 @@
                             <a href="./guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-airfryer-xxl-hd9650-90-entretien-accessoires.md</code>
                         </td>
                     </tr>
@@ -829,7 +951,7 @@
                             <a href="./guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.md</code>
                         </td>
                     </tr>
@@ -850,7 +972,7 @@
                             <a href="./guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-rivelia-feam-44-55-b-entretien-detartrage.md</code>
                         </td>
                     </tr>
@@ -871,7 +993,7 @@
                             <a href="./guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-qrevo-maxv-qrmv01-00-entretien.md</code>
                         </td>
                     </tr>
@@ -892,7 +1014,7 @@
                             <a href="./guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-lattego-serie-5400-ep5447-90-entretien.md</code>
                         </td>
                     </tr>
@@ -913,7 +1035,7 @@
                             <a href="./guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dyson-v15s-detect-submarine-sv47-entretien-filtres.md</code>
                         </td>
                     </tr>
@@ -934,7 +1056,7 @@
                             <a href="./guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
                             <a href="./en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
-                        <td style="text-align: center;">
+                        <td class="hide-mobile" style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/breville-barista-touch-impress-bes881bss-entretien-detartrage.md</code>
                         </td>
                     </tr>
