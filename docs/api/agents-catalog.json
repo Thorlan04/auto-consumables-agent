@@ -1,11 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-<<<<<<< HEAD
-  "generated_at": "2026-10-15T21:08:31.681226+00:00",
-=======
   "generated_at": "2026-10-15T21:24:19.370684+00:00",
->>>>>>> 2fb4eb9 (feat(i18n): expand to 12 global language portals (IT, NL, PL, SV, AR) with multi-marketplace affiliate routing)
   "total_appliances": 15,
   "supported_languages": [
     "fr",
