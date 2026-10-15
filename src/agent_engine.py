@@ -555,6 +555,9 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
     os.makedirs(guides_en_dir, exist_ok=True)
     os.makedirs(syndication_en_dir, exist_ok=True)
 
+    # Désactiver le traitement Jekyll pour que GitHub Pages serve directement tous les dossiers (en/, guides/, etc.)
+    (DOCS_DIR / ".nojekyll").touch(exist_ok=True)
+
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
         autoescape=True,
