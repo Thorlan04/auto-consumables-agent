@@ -237,9 +237,14 @@ def update_github_readme(catalog_data: Dict[str, Any], site_base_url: str, partn
         f"| 🇺🇸 🇬🇧 🇦🇺 **North America, UK & Oceania** | 🇺🇸 English | [{clean_base_url}/en/index.html]({clean_base_url}/en/index.html) | `amazon.com` / `amazon.co.uk` |",
         f"| 🇪🇸 🌎 **España, América Latina & Caribe** | 🇪🇸 Español | [{clean_base_url}/es/index.html]({clean_base_url}/es/index.html) | `amazon.es` / `amazon.com` |",
         f"| 🇩🇪 🇦🇹 🇨🇭 **DACH (Deutschland, AT, CH)** | 🇩🇪 Deutsch | [{clean_base_url}/de/index.html]({clean_base_url}/de/index.html) | `amazon.de` |",
+        f"| 🇮🇹 **Italia & Svizzera Italiana** | 🇮🇹 Italiano | [{clean_base_url}/it/index.html]({clean_base_url}/it/index.html) | `amazon.it` |",
+        f"| 🇳🇱 🇧🇪 **Nederland & Vlaanderen** | 🇳🇱 Nederlands | [{clean_base_url}/nl/index.html]({clean_base_url}/nl/index.html) | `amazon.nl` |",
+        f"| 🇵🇱 **Polska (Central Europe)** | 🇵🇱 Polski | [{clean_base_url}/pl/index.html]({clean_base_url}/pl/index.html) | `amazon.pl` |",
         f"| 🇧🇷 🇵🇹 🇦🇴 **Brasil, Portugal & África Lusófona** | 🇧🇷 Português | [{clean_base_url}/pt/index.html]({clean_base_url}/pt/index.html) | `amazon.com.br` |",
+        f"| 🇸🇪 **Sverige & Norden** | 🇸🇪 Svenska | [{clean_base_url}/sv/index.html]({clean_base_url}/sv/index.html) | `amazon.se` |",
         f"| 🇯🇵 **Japan & East Asia** | 🇯🇵 日本語 | [{clean_base_url}/ja/index.html]({clean_base_url}/ja/index.html) | `amazon.co.jp` |",
         f"| 🇨🇳 🌏 **East Asia & Global Diaspora** | 🇨🇳 简体中文 | [{clean_base_url}/zh/index.html]({clean_base_url}/zh/index.html) | `amazon.com` |",
+        f"| 🇦🇪 🇸🇦 **Middle East & Gulf (MENA)** | 🇦🇪 العربية | [{clean_base_url}/ar/index.html]({clean_base_url}/ar/index.html) | `amazon.ae` / `amazon.sa` |",
         "",
         "---",
         "",
@@ -345,15 +350,20 @@ def ping_search_engines_indexnow(
     key = indexnow_key or os.getenv("INDEXNOW_KEY", "7b9d64f028e14674a9844c3569bf12a1")
     ensure_indexnow_key_file(str(DOCS_DIR), key)
 
-    # Indexs pour les 7 langues mondiales
+    # Indexs pour les 12 langues mondiales
     urls = [
         f"{base}/index.html",
         f"{base}/en/index.html",
         f"{base}/es/index.html",
         f"{base}/de/index.html",
+        f"{base}/it/index.html",
+        f"{base}/nl/index.html",
+        f"{base}/pl/index.html",
         f"{base}/pt/index.html",
+        f"{base}/sv/index.html",
         f"{base}/ja/index.html",
         f"{base}/zh/index.html",
+        f"{base}/ar/index.html",
         f"{base}/llms.txt",
         f"{base}/llms-full.txt",
         f"{base}/api/v1/catalog.json",
@@ -365,8 +375,8 @@ def ping_search_engines_indexnow(
         for slug in added_slugs:
             # Fiche principale FR
             urls.append(f"{base}/guides/{slug}.html")
-            # Fiches localisées dans les 6 autres langues
-            for lang in ["en", "es", "de", "pt", "ja", "zh"]:
+            # Fiches localisées dans les 11 autres langues
+            for lang in ["en", "es", "de", "it", "nl", "pl", "pt", "sv", "ja", "zh", "ar"]:
                 urls.append(f"{base}/{lang}/guides/{slug}.html")
 
     return ping_indexnow(site_base_url, urls, key)

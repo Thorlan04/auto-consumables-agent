@@ -15,9 +15,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s5-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s5-entretien-consommables.html
 - **Résumé d'Entretien :** Filtres HEPA, rouleaux brosses et solutions de nettoyage pour Tineco Floor One S5. Guide des voyants et entretien courant sans démontage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -51,9 +56,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-s-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-s-entretien-consommables.html
 - **Résumé d'Entretien :** Cartouches filtrantes d'eau, détartrant EcoDecalk et graisse pour groupe café De'Longhi Magnifica S. Guide des voyants et entretien régulier.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -87,9 +97,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-entretien-consommables.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s8-entretien-consommables.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s8-entretien-consommables.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s8-entretien-consommables.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s8-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s8-entretien-consommables.html
 - **Résumé d'Entretien :** Filtres HEPA, rouleaux duo-rubber, serpillières vibrantes et sacs à poussière pour Roborock S8. Guide d'entretien sans démontage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -123,9 +138,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-dualzone-airfryer-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-dualzone-airfryer-entretien.html
 - **Résumé d'Entretien :** Grilles de cuisson croustillante, plaques antiadhésives et feuilles de cuisson pour Air Fryer Ninja DualZone. Entretien et nettoyage sans rayure.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -159,9 +179,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-series-2200-lattego-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-series-2200-lattego-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-series-2200-lattego-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-series-2200-lattego-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-series-2200-lattego-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-series-2200-lattego-entretien.html
 - **Résumé d'Entretien :** Filtres anticalcaire AquaClean, pastilles dégraissantes et graisse pour groupe café Philips LatteGo. Entretien et voyants d'alerte.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -195,9 +220,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/xiaomi-smart-air-purifier-4-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/xiaomi-smart-air-purifier-4-entretien.html
 - **Résumé d'Entretien :** Maximisez la durée de vie de votre purificateur d'air Xiaomi Smart Air Purifier 4 avec nos conseils d'entretien simple, remplacement de filtre et FAQ.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -230,9 +260,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/calor-pro-express-ultimate-gv9720c0-entretien.html
 - **Résumé d'Entretien :** Guide d'entretien simple pour votre centrale vapeur Calor Pro Express Ultimate GV9720C0 : détartrage, nettoyage semelle et consommables.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -265,9 +300,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-h12-pro-entretien-consommables.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-h12-pro-entretien-consommables.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-h12-pro-entretien-consommables.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h12-pro-entretien-consommables.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h12-pro-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h12-pro-entretien-consommables.html
 - **Résumé d'Entretien :** Prolongez la vie de votre Dreame H12 Pro ! Découvrez les codes d'erreur courants, les consommables essentiels et nos astuces d'entretien pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -300,9 +340,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html
 - **Résumé d'Entretien :** Optimisez votre Philips Airfryer XXL HD9650/90 ! Découvrez les astuces d'entretien, les accessoires indispensables et les FAQ pour des cuissons parfaites.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -335,9 +380,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html
 - **Résumé d'Entretien :** Guide complet pour l'entretien et le remplacement des consommables de votre aspirateur laveur Tineco Floor One Switch S7 (FW210100EU). Trouvez filtres HEPA (FW200501EU), rouleaux brosse et solutions de nettoyage pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -370,9 +420,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html
 - **Résumé d'Entretien :** Maintenance essentielle pour votre machine à café à grains De'Longhi Rivelia (FEAM 44.55.B). Trouvez le filtre à eau DLS C002 et le détartrant EcoDecalk pour un café parfait et une longue durée de vie de votre appareil.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -405,9 +460,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html
 - **Résumé d'Entretien :** Guide complet pour l'entretien de votre Roborock Qrevo MaxV (QRMV01-00). Découvrez les consommables essentiels et les solutions aux codes erreurs pour une performance optimale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -441,9 +501,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-lattego-serie-5400-ep5447-90-entretien.html
 - **Résumé d'Entretien :** Optimisez la durée de vie de votre Philips LatteGo Série 5400 (EP5447/90) avec nos conseils d'entretien, les références des consommables et la résolution des alertes courantes.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -477,9 +542,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html
 - **Résumé d'Entretien :** Optimisez votre Dyson V15s Detect Submarine (SV47) avec notre guide d'entretien. Trouvez filtres HEPA (PN 971634-01) et rouleaux Submarine pour une performance maximale.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
@@ -512,9 +582,14 @@
 - **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html
 - **Résumé d'Entretien :** Maintenez votre Breville Barista Touch Impress (BES881BSS) au top de sa performance. Guide d'entretien, détartrage, filtre à eau (PN BES008) et pastilles de nettoyage.
 
 ### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte

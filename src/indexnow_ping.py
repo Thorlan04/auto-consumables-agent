@@ -76,9 +76,14 @@ def build_priority_ping_urls(site_base_url: str, added_slugs: List[str] = None) 
         f"{base}/en/index.html",
         f"{base}/es/index.html",
         f"{base}/de/index.html",
+        f"{base}/it/index.html",
+        f"{base}/nl/index.html",
+        f"{base}/pl/index.html",
         f"{base}/pt/index.html",
+        f"{base}/sv/index.html",
         f"{base}/ja/index.html",
         f"{base}/zh/index.html",
+        f"{base}/ar/index.html",
         f"{base}/llms.txt",
         f"{base}/llms-full.txt",
         f"{base}/api/v1/catalog.json",
@@ -87,7 +92,7 @@ def build_priority_ping_urls(site_base_url: str, added_slugs: List[str] = None) 
     if added_slugs:
         for slug in added_slugs:
             urls.append(f"{base}/guides/{slug}.html")
-            for lang in ["en", "es", "de", "pt", "ja", "zh"]:
+            for lang in ["en", "es", "de", "it", "nl", "pl", "pt", "sv", "ja", "zh", "ar"]:
                 urls.append(f"{base}/{lang}/guides/{slug}.html")
     return urls
 

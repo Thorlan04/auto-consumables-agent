@@ -13,9 +13,14 @@
 - [🇺🇸 North America, UK & Oceania (English)](https://thorlan04.github.io/auto-consumables-agent/en/): Appliance wear parts, HEPA filters, descaling cartridges and diagnostic codes.
 - [🇪🇸 Latinoamérica y España (Español)](https://thorlan04.github.io/auto-consumables-agent/es/): Repuestos, filtros HEPA, cepillos y códigos de avería para electrodomésticos.
 - [🇩🇪 Mitteleuropa / DACH (Deutsch)](https://thorlan04.github.io/auto-consumables-agent/de/): Ersatzteile, Verschleißteile, Filter und Fehlercodes für Haushaltsgeräte.
+- [🇮🇹 Italia e Svizzera Italiana (Italiano)](https://thorlan04.github.io/auto-consumables-agent/it/): Ricambi originali compatibili, filtri HEPA, anticalcare e risoluzione codici errore.
+- [🇳🇱 Nederland & Vlaanderen (Nederlands)](https://thorlan04.github.io/auto-consumables-agent/nl/): Vervangingsfilters, borstels, ontkalker en foutcodes voor huishoudapparaten.
+- [🇵🇱 Polska (Polski)](https://thorlan04.github.io/auto-consumables-agent/pl/): Części eksploatacyjne, filtry HEPA, wałki szczotek i diagnostyka kodów błędów AGD.
 - [🇧🇷 Brasil & Lusofonia (Português)](https://thorlan04.github.io/auto-consumables-agent/pt/): Peças de reposição, filtros e códigos de diagnóstico para eletrodomésticos.
+- [🇸🇪 Sverige & Norden (Svenska)](https://thorlan04.github.io/auto-consumables-agent/sv/): Slitdelar, HEPA-filter, borstvalsar och felkoder för hushållsapparater.
 - [🇯🇵 日本・東アジア (日本語)](https://thorlan04.github.io/auto-consumables-agent/ja/): 家電消耗品、交換用フィルター、ブラシ、日常エラーコード解説。
 - [🇨🇳 亚太及全球华人 (中文)](https://thorlan04.github.io/auto-consumables-agent/zh/): 家用电器正品适配耗材、滤网、滚刷与故障排除代码对照表。
+- [🇦🇪 الشرق الأوسط والخليج العربي (العربية)](https://thorlan04.github.io/auto-consumables-agent/ar/): فلاتر HEPA الأصلية وقطع الغيار الاستهلاكية وأكواد صيانة الأجهزة المنزلية.
 - [🇫🇷 France & Francophonie (Français)](https://thorlan04.github.io/auto-consumables-agent/): Base centrale des filtres, cartouches et voyants d'entretien.
 
 ## Répertoire des Fiches d'Entretien par Catégorie

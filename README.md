@@ -13,9 +13,14 @@
 | 🇺🇸 🇬🇧 🇦🇺 **North America, UK & Oceania** | 🇺🇸 English | [https://thorlan04.github.io/auto-consumables-agent/en/index.html](https://thorlan04.github.io/auto-consumables-agent/en/index.html) | `amazon.com` / `amazon.co.uk` |
 | 🇪🇸 🌎 **España, América Latina & Caribe** | 🇪🇸 Español | [https://thorlan04.github.io/auto-consumables-agent/es/index.html](https://thorlan04.github.io/auto-consumables-agent/es/index.html) | `amazon.es` / `amazon.com` |
 | 🇩🇪 🇦🇹 🇨🇭 **DACH (Deutschland, AT, CH)** | 🇩🇪 Deutsch | [https://thorlan04.github.io/auto-consumables-agent/de/index.html](https://thorlan04.github.io/auto-consumables-agent/de/index.html) | `amazon.de` |
+| 🇮🇹 **Italia & Svizzera Italiana** | 🇮🇹 Italiano | [https://thorlan04.github.io/auto-consumables-agent/it/index.html](https://thorlan04.github.io/auto-consumables-agent/it/index.html) | `amazon.it` |
+| 🇳🇱 🇧🇪 **Nederland & Vlaanderen** | 🇳🇱 Nederlands | [https://thorlan04.github.io/auto-consumables-agent/nl/index.html](https://thorlan04.github.io/auto-consumables-agent/nl/index.html) | `amazon.nl` |
+| 🇵🇱 **Polska (Central Europe)** | 🇵🇱 Polski | [https://thorlan04.github.io/auto-consumables-agent/pl/index.html](https://thorlan04.github.io/auto-consumables-agent/pl/index.html) | `amazon.pl` |
 | 🇧🇷 🇵🇹 🇦🇴 **Brasil, Portugal & África Lusófona** | 🇧🇷 Português | [https://thorlan04.github.io/auto-consumables-agent/pt/index.html](https://thorlan04.github.io/auto-consumables-agent/pt/index.html) | `amazon.com.br` |
+| 🇸🇪 **Sverige & Norden** | 🇸🇪 Svenska | [https://thorlan04.github.io/auto-consumables-agent/sv/index.html](https://thorlan04.github.io/auto-consumables-agent/sv/index.html) | `amazon.se` |
 | 🇯🇵 **Japan & East Asia** | 🇯🇵 日本語 | [https://thorlan04.github.io/auto-consumables-agent/ja/index.html](https://thorlan04.github.io/auto-consumables-agent/ja/index.html) | `amazon.co.jp` |
 | 🇨🇳 🌏 **East Asia & Global Diaspora** | 🇨🇳 简体中文 | [https://thorlan04.github.io/auto-consumables-agent/zh/index.html](https://thorlan04.github.io/auto-consumables-agent/zh/index.html) | `amazon.com` |
+| 🇦🇪 🇸🇦 **Middle East & Gulf (MENA)** | 🇦🇪 العربية | [https://thorlan04.github.io/auto-consumables-agent/ar/index.html](https://thorlan04.github.io/auto-consumables-agent/ar/index.html) | `amazon.ae` / `amazon.sa` |
 
 ---
 

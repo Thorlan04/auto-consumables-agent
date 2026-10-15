@@ -2,15 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-    <!-- Pages d'Accueil Internationales (7 Langues) -->
+    <!-- Pages d'Accueil Internationales (12 Langues) -->
     {% for lang_code, lang_path in [
         ('fr', '/index.html'),
         ('en', '/en/index.html'),
         ('es', '/es/index.html'),
         ('de', '/de/index.html'),
+        ('it', '/it/index.html'),
+        ('nl', '/nl/index.html'),
+        ('pl', '/pl/index.html'),
         ('pt', '/pt/index.html'),
+        ('sv', '/sv/index.html'),
         ('ja', '/ja/index.html'),
-        ('zh', '/zh/index.html')
+        ('zh', '/zh/index.html'),
+        ('ar', '/ar/index.html')
     ] %}
     <url>
         <loc>{{ site_url }}{{ lang_path }}</loc>
@@ -18,9 +23,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/index.html"/>
         <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/index.html"/>
         <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/index.html"/>
+        <xhtml:link rel="alternate" hreflang="it" href="{{ site_url }}/it/index.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="{{ site_url }}/nl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="{{ site_url }}/pl/index.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/index.html"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="{{ site_url }}/sv/index.html"/>
         <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/index.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="{{ site_url }}/ar/index.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/index.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>daily</changefreq>
@@ -28,15 +38,20 @@
     </url>
     {% endfor %}
 
-    <!-- Mentions Légales & Compliance (7 Langues) -->
+    <!-- Mentions Légales & Compliance (12 Langues) -->
     {% for lang_code, lang_path in [
         ('fr', '/mentions-legales.html'),
         ('en', '/en/mentions-legales.html'),
         ('es', '/es/mentions-legales.html'),
         ('de', '/de/mentions-legales.html'),
+        ('it', '/it/mentions-legales.html'),
+        ('nl', '/nl/mentions-legales.html'),
+        ('pl', '/pl/mentions-legales.html'),
         ('pt', '/pt/mentions-legales.html'),
+        ('sv', '/sv/mentions-legales.html'),
         ('ja', '/ja/mentions-legales.html'),
-        ('zh', '/zh/mentions-legales.html')
+        ('zh', '/zh/mentions-legales.html'),
+        ('ar', '/ar/mentions-legales.html')
     ] %}
     <url>
         <loc>{{ site_url }}{{ lang_path }}</loc>
@@ -44,9 +59,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="it" href="{{ site_url }}/it/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="{{ site_url }}/nl/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="{{ site_url }}/pl/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="{{ site_url }}/sv/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/mentions-legales.html"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="{{ site_url }}/ar/mentions-legales.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/mentions-legales.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>monthly</changefreq>
@@ -54,16 +74,21 @@
     </url>
     {% endfor %}
 
-    <!-- Guides et Fiches Techniques par Appareil (7 Langues par Modèle) -->
+    <!-- Guides et Fiches Techniques par Appareil (12 Langues par Modèle) -->
     {% for guide in guides %}
         {% for lang_code, prefix in [
             ('fr', ''),
             ('en', '/en'),
             ('es', '/es'),
             ('de', '/de'),
+            ('it', '/it'),
+            ('nl', '/nl'),
+            ('pl', '/pl'),
             ('pt', '/pt'),
+            ('sv', '/sv'),
             ('ja', '/ja'),
-            ('zh', '/zh')
+            ('zh', '/zh'),
+            ('ar', '/ar')
         ] %}
     <url>
         <loc>{{ site_url }}{{ prefix }}/guides/{{ guide.slug }}.html</loc>
@@ -71,9 +96,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="es" href="{{ site_url }}/es/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="de" href="{{ site_url }}/de/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="it" href="{{ site_url }}/it/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="{{ site_url }}/nl/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="{{ site_url }}/pl/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="pt" href="{{ site_url }}/pt/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="{{ site_url }}/sv/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="ja" href="{{ site_url }}/ja/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="zh" href="{{ site_url }}/zh/guides/{{ guide.slug }}.html"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="{{ site_url }}/ar/guides/{{ guide.slug }}.html"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_url }}/en/guides/{{ guide.slug }}.html"/>
         <lastmod>{{ now_iso }}</lastmod>
         <changefreq>weekly</changefreq>

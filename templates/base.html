@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang | default('fr') }}">
+<html lang="{{ lang | default('fr') }}" dir="{{ 'rtl' if lang == 'ar' else 'ltr' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,14 @@
     <link rel="alternate" hreflang="en" href="{{ site_url }}/en{{ clean_path }}">
     <link rel="alternate" hreflang="es" href="{{ site_url }}/es{{ clean_path }}">
     <link rel="alternate" hreflang="de" href="{{ site_url }}/de{{ clean_path }}">
+    <link rel="alternate" hreflang="it" href="{{ site_url }}/it{{ clean_path }}">
+    <link rel="alternate" hreflang="nl" href="{{ site_url }}/nl{{ clean_path }}">
+    <link rel="alternate" hreflang="pl" href="{{ site_url }}/pl{{ clean_path }}">
     <link rel="alternate" hreflang="pt" href="{{ site_url }}/pt{{ clean_path }}">
+    <link rel="alternate" hreflang="sv" href="{{ site_url }}/sv{{ clean_path }}">
     <link rel="alternate" hreflang="ja" href="{{ site_url }}/ja{{ clean_path }}">
     <link rel="alternate" hreflang="zh" href="{{ site_url }}/zh{{ clean_path }}">
+    <link rel="alternate" hreflang="ar" href="{{ site_url }}/ar{{ clean_path }}">
     <link rel="alternate" hreflang="x-default" href="{{ site_url }}/en{{ clean_path }}">
     {% block meta_robots %}<meta name="robots" content="index, follow">{% endblock %}
 
@@ -419,9 +424,14 @@
                         ('en', 'EN', '🇺🇸'),
                         ('es', 'ES', '🇪🇸'),
                         ('de', 'DE', '🇩🇪'),
+                        ('it', 'IT', '🇮🇹'),
+                        ('nl', 'NL', '🇳🇱'),
+                        ('pl', 'PL', '🇵🇱'),
                         ('pt', 'PT', '🇧🇷'),
+                        ('sv', 'SV', '🇸🇪'),
                         ('ja', 'JA', '🇯🇵'),
-                        ('zh', 'ZH', '🇨🇳')
+                        ('zh', 'ZH', '🇨🇳'),
+                        ('ar', 'AR', '🇦🇪')
                     ] %}
                         {% if lang == l_code %}
                             <span class="lang-pill-active" title="{{ l_label }}">{{ l_flag }} {{ l_label }}</span>

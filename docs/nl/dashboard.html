@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoConsumables Ops — Centre de Contrôle Mondial & Télémétrie</title>
+    <meta name="description" content="Application interne de gestion, télémétrie multi-marchés temps réel et inventaire des consommables.">
+    <link rel="canonical" href="https://thorlan04.github.io/auto-consumables-agent/nl/dashboard.html">
+    <link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html">
+    <link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">
+    <link rel="alternate" hreflang="es" href="https://thorlan04.github.io/auto-consumables-agent/es/dashboard.html">
+    <link rel="alternate" hreflang="de" href="https://thorlan04.github.io/auto-consumables-agent/de/dashboard.html">
+    <link rel="alternate" hreflang="it" href="https://thorlan04.github.io/auto-consumables-agent/it/dashboard.html">
+    <link rel="alternate" hreflang="nl" href="https://thorlan04.github.io/auto-consumables-agent/nl/dashboard.html">
+    <link rel="alternate" hreflang="pl" href="https://thorlan04.github.io/auto-consumables-agent/pl/dashboard.html">
+    <link rel="alternate" hreflang="pt" href="https://thorlan04.github.io/auto-consumables-agent/pt/dashboard.html">
+    <link rel="alternate" hreflang="sv" href="https://thorlan04.github.io/auto-consumables-agent/sv/dashboard.html">
+    <link rel="alternate" hreflang="ja" href="https://thorlan04.github.io/auto-consumables-agent/ja/dashboard.html">
+    <link rel="alternate" hreflang="zh" href="https://thorlan04.github.io/auto-consumables-agent/zh/dashboard.html">
+    <link rel="alternate" hreflang="ar" href="https://thorlan04.github.io/auto-consumables-agent/ar/dashboard.html">
+    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <!-- Open Graph / Réseaux Sociaux -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AutoConsumables Ops — Centre de Contrôle Mondial & Télémétrie">
+    <meta property="og:description" content="Application interne de gestion, télémétrie multi-marchés temps réel et inventaire des consommables.">
+    <meta property="og:url" content="https://thorlan04.github.io/auto-consumables-agent/nl/dashboard.html">
+
+    <!-- CSS Inliné Ultra-Léger (< 15 Ko, Zéro Dépendance Bloquante, 100% Accessible) -->
+    <style>
+        :root {
+            --primary: #0f766e;
+            --primary-hover: #115e59;
+            --primary-light: #f0fdfa;
+            --secondary: #0284c7;
+            --amazon-orange: #ea580c;
+            --amazon-orange-hover: #c2410c;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+            --card-bg: #ffffff;
+            --warning-bg: #fffbeb;
+            --warning-border: #fde68a;
+            --warning-text: #92400e;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        /* Bandeau Transparence Légal (DGCCRF / FTC / Amazon Associates) */
+        .affiliate-banner {
+            background-color: #f1f5f9;
+            border-bottom: 1px solid var(--border-color);
+            color: #475569;
+            font-size: 0.825rem;
+            padding: 0.6rem 0;
+            text-align: center;
+        }
+
+        .affiliate-banner strong {
+            color: #0f172a;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.85rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .site-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .site-logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.25rem;
+            list-style: none;
+            font-weight: 500;
+            font-size: 0.925rem;
+            align-items: center;
+        }
+
+        .lang-selector {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.775rem;
+            font-weight: 700;
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.5rem;
+            border-radius: 9999px;
+            background: #ffffff;
+            white-space: nowrap;
+        }
+
+        .lang-pill-active {
+            background: var(--primary);
+            color: #ffffff !important;
+            padding: 0.15rem 0.45rem;
+            border-radius: 9999px;
+            text-decoration: none !important;
+        }
+
+        .lang-pill-link {
+            color: #64748b;
+            padding: 0.15rem 0.3rem;
+            text-decoration: none !important;
+            border-radius: 9999px;
+            transition: color 0.15s, background-color 0.15s;
+        }
+
+        .lang-pill-link:hover {
+            color: var(--primary);
+            background-color: #f1f5f9;
+        }
+
+        /* Contenu Principal */
+        main {
+            padding: 2.5rem 0 4rem;
+            min-height: 80vh;
+        }
+
+        /* Cartes et Éléments */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Boutons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.65rem 1.25rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn-amazon {
+            background-color: var(--amazon-orange);
+            color: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(234, 88, 12, 0.25);
+        }
+
+        .btn-amazon:hover {
+            background-color: var(--amazon-orange-hover);
+            text-decoration: none;
+            transform: scale(1.02);
+        }
+
+        .btn-secondary {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border: 1px solid rgba(15, 118, 110, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: #ccfbf1;
+            text-decoration: none;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            border-radius: 9999px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .badge-brand {
+            background-color: #f8fafc;
+            color: #334155;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Avertissement de sécurité */
+        .security-notice {
+            background-color: var(--warning-bg);
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.25rem;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 1.5rem 0 2rem;
+            font-size: 0.9rem;
+            color: var(--warning-text);
+        }
+
+        .security-notice strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: #78350f;
+        }
+
+        /* Tableaux */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: #f8fafc;
+            color: #475569;
+            font-weight: 600;
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background-color: #f8fafc;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 0 2rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .footer-col h3 {
+            font-size: 1rem;
+            color: #0f172a;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.825rem;
+        }
+
+        /* Responsive Design Mobile-First */
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.75rem;
+            }
+            .nav-links {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+            .lang-selector {
+                overflow-x: auto;
+                max-width: 100%;
+                -webkit-overflow-scrolling: touch;
+            }
+            main {
+                padding: 1.5rem 0 3rem;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+            h1 {
+                font-size: 1.6rem !important;
+                line-height: 1.25 !important;
+            }
+            h2 {
+                font-size: 1.25rem !important;
+            }
+            .btn {
+                padding: 0.65rem 1rem;
+                font-size: 0.875rem;
+                min-height: 44px;
+            }
+            .table-responsive {
+                border-radius: var(--radius-md);
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+<!-- Configuration PWA (Progressive Web App pour Android / Mobile) -->
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#0f766e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AutoConsom">
+<link rel="apple-touch-icon" href="../icon-192.png">
+
+<style>
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    @keyframes pulseGlow {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); color: #059669; }
+        100% { transform: scale(1); }
+    }
+    .kpi-updated {
+        animation: pulseGlow 0.6s ease-in-out;
+    }
+
+    /* Écran de Verrouillage PIN Sécurisé */
+    #pin-lock-overlay {
+        position: fixed;
+        inset: 0;
+        background: #0f172a;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        backdrop-filter: blur(10px);
+    }
+    .pin-box {
+        background: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 20px;
+        padding: 2.5rem 2rem;
+        width: 100%;
+        max-width: 380px;
+        text-align: center;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .pin-input {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.8rem;
+        letter-spacing: 0.35em;
+        text-align: center;
+        background: #0f172a;
+        border: 2px solid #334155;
+        border-radius: 12px;
+        color: #f8fafc;
+        outline: none;
+        margin: 1.5rem 0 1rem;
+        transition: border-color 0.2s;
+    }
+    .pin-input:focus {
+        border-color: #14b8a6;
+    }
+    .pin-btn {
+        width: 100%;
+        padding: 0.9rem;
+        font-size: 1rem;
+        font-weight: 700;
+        background: #0f766e;
+        color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+    .pin-btn:hover {
+        background: #115e59;
+    }
+    .pin-error {
+        color: #f87171;
+        font-size: 0.875rem;
+        margin-top: 0.75rem;
+        display: none;
+    }
+
+    .dashboard-kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .sector-card {
+        background: #ffffff;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Optimisations Spécifiques Mobile / PWA */
+    @media (max-width: 640px) {
+        .pin-box {
+            padding: 1.75rem 1.25rem !important;
+            max-width: 320px !important;
+        }
+        .pin-input {
+            font-size: 1.5rem !important;
+            padding: 0.75rem !important;
+            margin: 1rem 0 !important;
+        }
+        .dashboard-header {
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 1rem !important;
+            margin-bottom: 1.25rem !important;
+            padding-bottom: 1rem !important;
+        }
+        .dashboard-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem !important;
+            width: 100%;
+        }
+        .dashboard-actions .btn {
+            flex: 1 1 calc(50% - 0.5rem);
+            font-size: 0.8rem !important;
+            padding: 0.55rem 0.6rem !important;
+            justify-content: center;
+            text-align: center;
+        }
+        .dashboard-kpi-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 0.65rem !important;
+            margin-bottom: 1.5rem !important;
+        }
+        .dashboard-kpi-grid .card {
+            padding: 0.75rem !important;
+        }
+        .kpi-title {
+            font-size: 0.7rem !important;
+            line-height: 1.2;
+        }
+        .kpi-value {
+            font-size: 1.5rem !important;
+            margin: 0.2rem 0 !important;
+        }
+        .kpi-sub {
+            font-size: 0.7rem !important;
+            line-height: 1.2;
+        }
+        #catalog-search {
+            width: 100% !important;
+            min-width: 0 !important;
+            margin-top: 0.5rem;
+        }
+        .hide-mobile {
+            display: none !important;
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- 1. Bandeau Légal Obligatoire Partenaire Amazon -->
+    <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
+        <div class="container">
+            <strong>Amazon Partnerverklaring:</strong> Als Amazon-partner verdienen we aan in aanmerking komende aankopen (#Partnerlink). Praktische gidsen voor preventief onderhoud.
+        </div>
+    </aside>
+
+    <!-- Header Principal avec Sélecteur International -->
+    <header>
+        <div class="container header-content">
+            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html" class="site-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+                <span>AutoConsumables.nl</span>
+            </a>
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                <ul class="nav-links">
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html">Onderhoudsgidsen</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/mentions-legales.html">Juridische Informatie</a></li>
+                    <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/dashboard.html">Ops Dashboard</a></li>
+                </ul>
+
+                <!-- Sélecteur International de Marchés & Langues -->
+                <div class="lang-selector" aria-label="Choisir la langue et la zone géographique">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html" class="lang-pill-link" title="FR">🇫🇷 FR</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html" class="lang-pill-link" title="EN">🇺🇸 EN</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/dashboard.html" class="lang-pill-link" title="ES">🇪🇸 ES</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/dashboard.html" class="lang-pill-link" title="DE">🇩🇪 DE</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/dashboard.html" class="lang-pill-link" title="IT">🇮🇹 IT</a>
+                            <span class="lang-pill-active" title="NL">🇳🇱 NL</span>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/dashboard.html" class="lang-pill-link" title="PL">🇵🇱 PL</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/dashboard.html" class="lang-pill-link" title="PT">🇧🇷 PT</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/dashboard.html" class="lang-pill-link" title="SV">🇸🇪 SV</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/dashboard.html" class="lang-pill-link" title="JA">🇯🇵 JA</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/dashboard.html" class="lang-pill-link" title="ZH">🇨🇳 ZH</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/dashboard.html" class="lang-pill-link" title="AR">🇦🇪 AR</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu Spécifique de la Page -->
+    <main>
+<!-- 1. Écran de Verrouillage PIN (Affiché par défaut tant que le code n'est pas saisi) -->
+<div id="pin-lock-overlay">
+    <div class="pin-box">
+        <div style="width: 56px; height: 56px; background: rgba(15, 118, 110, 0.2); border: 2px solid #14b8a6; border-radius: 16px; margin: 0 auto 1.25rem; display: flex; align-items: center; justify-content: center;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+        </div>
+        <h2 style="color: #f8fafc; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.25rem;">AutoConsumables Ops</h2>
+        <p style="color: #94a3b8; font-size: 0.85rem;">Accès Privé & Télémétrie Sécurisée</p>
+
+        <form id="pin-form" onsubmit="event.preventDefault(); verifyPin();" style="margin-top: 1rem;">
+            <input type="password" id="pin-field" class="pin-input" placeholder="••••" maxlength="12" inputmode="numeric" autofocus autocomplete="off" oninput="checkAutoPin()">
+            <button type="submit" id="unlock-btn" class="pin-btn">Déverrouiller</button>
+            <div id="pin-error-msg" class="pin-error">Code incorrect. Réessayez.</div>
+        </form>
+    </div>
+</div>
+
+<!-- 2. Contenu du Dashboard (Déverrouillé) -->
+<div id="dashboard-content" class="container" style="max-width: 1200px; display: none;">
+    <!-- En-tête du Dashboard avec Actions Rapides -->
+    <div class="dashboard-header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
+        <div>
+            <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
+                <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #047857;">
+                    Session Sécurisée • Mode Autonome Mondial
+                </span>
+                <span id="live-sync-indicator" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; font-weight: 700; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 0.2rem 0.55rem; border-radius: 9999px;">
+                    <span id="sync-dot" style="background: #10b981; width: 7px; height: 7px; border-radius: 50%; display: inline-block;"></span>
+                    <span id="sync-status-text">Synchronisé en direct</span>
+                </span>
+                <span id="network-status-badge" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; font-weight: 700; color: #0284c7; background: #f0f9ff; border: 1px solid #bae6fd; padding: 0.2rem 0.55rem; border-radius: 9999px;">
+                    🟢 En ligne (PWA Live)
+                </span>
+            </div>
+            <h1 style="font-size: 2.1rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
+                Centre de Contrôle Opérationnel & Télémétrie
+            </h1>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.35rem;">
+                Surveillance multi-marchés (Amériques, Europe, Afrique, Asie, Océanie), indexation IA et revenus.
+                <span style="display: inline-block; margin-left: 0.5rem; font-size: 0.8rem; color: #64748b;">(Génération : <strong id="static-build-time">15/10/2026 à 21:24 UTC</strong>)</span>
+            </p>
+        </div>
+        
+        <div class="dashboard-actions" style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+            <!-- Bouton d'actualisation manuelle en direct -->
+            <button onclick="refreshDashboardLive(true)" class="btn" id="btn-manual-sync" style="background: #0f766e; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+                <span id="sync-icon">🔄</span> Actualiser
+            </button>
+            <!-- Bouton d'installation PWA Mobile -->
+            <button id="pwa-install-btn" class="btn" style="display: none; background: #0284c7; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none;">
+                📱 Installer l'App
+            </button>
+            <button onclick="changePinPrompt()" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #475569; font-size: 0.85rem;">
+                ⚙️ Changer PIN
+            </button>
+            <button onclick="lockDashboard()" class="btn" style="background: #fee2e2; border: 1px solid #fecaca; color: #991b1b; font-size: 0.85rem; font-weight: 600;">
+                🔒 Verrouiller
+            </button>
+        </div>
+    </div>
+
+    <!-- 1. Cartes KPI Principales Dynamiques -->
+    <div class="dashboard-kpi-grid">
+        <div class="card" style="border-top: 4px solid var(--primary);">
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Modèles Validés
+            </div>
+            <div id="kpi-models" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+                15
+            </div>
+            <div id="kpi-pages" class="kpi-sub" style="font-size: 0.85rem; color: #059669; font-weight: 600;">
+                180 fiches (12 langues)
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--secondary);">
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Pièces & Filtres (PN)
+            </div>
+            <div id="kpi-consumables" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+                52
+            </div>
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                11 marketplaces Amazon actives
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #ef4444;">
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Codes Erreurs Référencés
+            </div>
+            <div id="kpi-codes" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
+                45
+            </div>
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                Schema.org FAQPage multilingue
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--amazon-orange);">
+            <div class="kpi-title" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                Clics Affiliés Détectés
+            </div>
+            <div id="stat-total-clicks" class="kpi-value" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.4rem 0 0.2rem;">
+                0
+            </div>
+            <div class="kpi-sub" style="font-size: 0.85rem; color: var(--text-muted);">
+                Télémétrie anonyme (0 cookie)
+            </div>
+        </div>
+    </div>
+
+    <!-- 1b. Télémétrie Mondiale & Couverture par Secteurs Géographiques -->
+    <div class="card" style="margin-bottom: 2.5rem; background: #ffffff; border-left: 4px solid var(--primary);">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.25rem;">
+            <div>
+                <span style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; color: var(--primary); letter-spacing: 0.05em;">
+                    COUVERTURE INTERNATIONALE GEO (12 MARCHÉS)
+                </span>
+                <h2 style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin-top: 0.2rem;">
+                    Présence Mondiale par Secteurs Géographiques & Marchés Amazon
+                </h2>
+            </div>
+            <div style="display: flex; gap: 0.35rem; flex-wrap: wrap;">
+                <span class="badge" style="background: #e0f2fe; color: #0369a1;">🇺🇸 USA / CA</span>
+                <span class="badge" style="background: #fef3c7; color: #b45309;">🇪🇸 LatAm / ES</span>
+                <span class="badge" style="background: #f0fdf4; color: #15803d;">🇩🇪 DACH / DE</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857;">🇮🇹 Italie / IT</span>
+                <span class="badge" style="background: #fff7ed; color: #c2410c;">🇳🇱 NL / BE</span>
+                <span class="badge" style="background: #fdf2f8; color: #9d174d;">🇵🇱 Pologne / PL</span>
+                <span class="badge" style="background: #f0fdf4; color: #15803d;">🇧🇷 Brésil / PT</span>
+                <span class="badge" style="background: #f0f9ff; color: #0369a1;">🇸🇪 Suède / SV</span>
+                <span class="badge" style="background: #fce7f3; color: #be185d;">🇯🇵 Japon / JA</span>
+                <span class="badge" style="background: #ede9fe; color: #6d28d9;">🇨🇳 Asie / ZH</span>
+                <span class="badge" style="background: #fefce8; color: #854d0e;">🇦🇪 Golfe / AR</span>
+                <span class="badge" style="background: #ccfbf1; color: #0f766e;">🇫🇷 France / FR</span>
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+            <div class="sector-card" style="border-left: 3px solid #0284c7;">
+                <div>
+                    <h4 style="font-size: 0.95rem; color: #0369a1; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.4rem;">
+                        🌎 Amériques (Nord & Sud)
+                    </h4>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.45;">
+                        • <strong>USA, Canada, UK :</strong> Version <code>/en/</code> sur <code>amazon.com</code>.<br>
+                        • <strong>Amérique Latine :</strong> Version <code>/es/</code> sur <code>amazon.es</code> / Global.<br>
+                        • <strong>Brésil :</strong> Version <code>/pt/</code> sur <code>amazon.com.br</code>.
+                    </p>
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.75rem; font-weight: 700; color: #0284c7;">
+                    Status : Actif • Indexé Bing / ChatGPT
+                </div>
+            </div>
+
+            <div class="sector-card" style="border-left: 3px solid #10b981;">
+                <div>
+                    <h4 style="font-size: 0.95rem; color: #047857; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.4rem;">
+                        🌍 Europe & Francophonie
+                    </h4>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.45;">
+                        • <strong>France / Benelux :</strong> <code>/</code> (<code>amazon.fr</code>) & <code>/nl/</code> (<code>amazon.nl</code>).<br>
+                        • <strong>DACH & Italie :</strong> <code>/de/</code> (<code>amazon.de</code>) & <code>/it/</code> (<code>amazon.it</code>).<br>
+                        • <strong>Pologne & Nordics :</strong> <code>/pl/</code> (<code>amazon.pl</code>) & <code>/sv/</code> (<code>amazon.se</code>).
+                    </p>
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.75rem; font-weight: 700; color: #10b981;">
+                    Status : Actif • 6 Marketplaces UE
+                </div>
+            </div>
+
+            <div class="sector-card" style="border-left: 3px solid #8b5cf6;">
+                <div>
+                    <h4 style="font-size: 0.95rem; color: #6d28d9; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.4rem;">
+                        🌏 Asie & Océanie
+                    </h4>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.45;">
+                        • <strong>Japon :</strong> Version <code>/ja/</code> sur <code>amazon.co.jp</code>.<br>
+                        • <strong>Chine & Diaspora :</strong> Version <code>/zh/</code> sur <code>amazon.com</code>.<br>
+                        • <strong>Australie & NZ :</strong> Version <code>/en/</code> (<code>amazon.com.au</code>).
+                    </p>
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.75rem; font-weight: 700; color: #8b5cf6;">
+                    Status : Actif • Standard llms.txt
+                </div>
+            </div>
+
+            <div class="sector-card" style="border-left: 3px solid #f59e0b;">
+                <div>
+                    <h4 style="font-size: 0.95rem; color: #b45309; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.4rem;">
+                        🕌 Moyen-Orient & Afrique
+                    </h4>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.45;">
+                        • <strong>Émirats & Golfe :</strong> Version <code>/ar/</code> sur <code>amazon.ae</code>.<br>
+                        • <strong>Afrique Francophone :</strong> Version <code>/</code> (<code>amazon.fr</code>).<br>
+                        • <strong>Afrique Lusophone & Anglophone :</strong> Versions <code>/pt/</code> & <code>/en/</code>.
+                    </p>
+                </div>
+                <div style="margin-top: 0.75rem; font-size: 0.75rem; font-weight: 700; color: #b45309;">
+                    Status : Actif • Mode RTL & Clics Amazon
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Hub Opérationnel (Raccourcis en 1 Clic) -->
+    <div style="margin-bottom: 2.5rem;">
+        <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem;">
+            Raccourcis Directs & Monétisation
+        </h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #4285f4;">
+                <div>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Google Search Console</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Suivre les impressions de vos fiches et les requêtes réelles tapées par les internautes.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #4285f4; margin-top: 1rem;">Ouvrir la Console &rarr;</span>
+            </a>
+
+            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #ea580c;">
+                <div>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Club Partenaires Amazon</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Vérifier vos commissions perçues, clics enregistrés et articles expédiés (ID: <code>autoconsom-21</code>).</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #ea580c; margin-top: 1rem;">Voir les Rapports &rarr;</span>
+            </a>
+
+            <a href="https://github.com/Thorlan04/auto-consumables-agent/actions" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #10b981;">
+                <div>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">GitHub Actions Autopilot</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Historique des enrichissements automatiques exécutés toutes les 6 heures par le robot.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; margin-top: 1rem;">Runs de l'Agent &rarr;</span>
+            </a>
+
+            <a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml" target="_blank" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #0284c7;">
+                <div>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Sitemap XML & Flux IA</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Cartographie XML, spécification llms.txt et flux RSS synchronisés pour les moteurs et agents IA.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Voir sitemap.xml &rarr;</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- 2b. Veille Réglementaire & Rappels Conso (Live API v1) -->
+    <div class="card" style="margin-bottom: 2.5rem; border-left: 4px solid #f59e0b;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+            <div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                    <span style="background: #fef3c7; color: #b45309; padding: 0.2rem 0.6rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700;">
+                        DIRECT RAPPELCONSO (DGCCRF)
+                    </span>
+                    <span id="recalls-count-badge" style="font-size: 0.8rem; font-weight: 700; color: #d97706;">
+                        10 rappels récents synchronisés
+                    </span>
+                </div>
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-top: 0.35rem;">
+                    Derniers Rappels de Sécurité Électroménager
+                </h2>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Appareils déclarés non conformes en France et opportunités d'affiliation vers les modèles de remplacement sûrs.
+                </p>
+            </div>
+            <a href="../api/v1/rappels-officiels.json" target="_blank" class="btn" style="background: #fffbeb; border: 1px solid #fde68a; color: #b45309; font-size: 0.8rem; padding: 0.35rem 0.75rem; text-decoration: none;">
+                Flux JSON ↗
+            </a>
+        </div>
+
+        <div class="table-responsive">
+            <table id="recalls-table">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Marque & Modèle</th>
+                        <th style="width: 40%;">Motif de Sécurité</th>
+                        <th style="width: 35%; text-align: center;">Alternative Conforme Suggérée</th>
+                    </tr>
+                </thead>
+                <tbody id="recalls-table-body">
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 1.5rem;">
+                            Chargement des derniers rappels officiels RappelConso...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 3. Télémétrie des Clics Affiliés -->
+    <div class="card" style="margin-bottom: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    Journal des Clics Affiliés (Stockage Local)
+                </h2>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Clics sortants enregistrés sur votre appareil sans traqueur externe.
+                </p>
+            </div>
+            <button onclick="clearClicksHistory()" class="btn" style="background: #f1f5f9; color: #64748b; font-size: 0.8rem; padding: 0.35rem 0.75rem;">
+                Effacer l'historique
+            </button>
+        </div>
+
+        <div class="table-responsive">
+            <table id="clicks-table">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Date & Heure</th>
+                        <th style="width: 35%;">Fiche Source</th>
+                        <th style="width: 40%;">Lien Amazon Ouvert</th>
+                    </tr>
+                </thead>
+                <tbody id="clicks-table-body">
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                            Aucun clic sortant enregistré sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 4. Inventaire du Catalogue Référencé (Mis à Jour en Direct) -->
+    <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 id="catalog-table-title" style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    Inventaire des 15 Modèles Référencés
+                </h2>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Fiches multilingues en ligne (7 langues), miroirs Telegra.ph et exports Markdown de syndication.
+                </p>
+            </div>
+            <input type="text" id="catalog-search" placeholder="Filtrer par marque ou modèle..." style="padding: 0.45rem 0.8rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.875rem; min-width: 240px;">
+        </div>
+
+        <div class="table-responsive">
+            <table id="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Appareil</th>
+                        <th>Catégorie</th>
+                        <th style="text-align: center;">Pièces</th>
+                        <th style="text-align: center;">Codes</th>
+                        <th style="text-align: center;">Fiches Mondiales (7 Langues)</th>
+                        <th class="hide-mobile" style="text-align: center;">Export MD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-slug="tineco-floor-one-s5-entretien-consommables">
+                        <td>
+                            <strong>Tineco</strong> Floor One S5 (Combo / Pro)
+                        </td>
+                        <td>
+                            <span class="badge">Nat- en Droogzuigers / Vloerreinigers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-s5-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="delonghi-magnifica-s-entretien-consommables">
+                        <td>
+                            <strong>De&#39;Longhi</strong> Magnifica S (ECAM 22.110.B / 22.110.SB)
+                        </td>
+                        <td>
+                            <span class="badge">Volautomatische Espressomachines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-magnifica-s-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="roborock-s8-entretien-consommables">
+                        <td>
+                            <strong>Roborock</strong> S8 / S8 Pro Ultra
+                        </td>
+                        <td>
+                            <span class="badge">Robotstofzuigers met Dweilfunctie</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s8-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-s8-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="ninja-foodi-dualzone-airfryer-entretien">
+                        <td>
+                            <strong>Ninja</strong> Foodi DualZone (AF300EU / AF400EU)
+                        </td>
+                        <td>
+                            <span class="badge">Airfryers / Heteluchtfriteuses</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/ninja-foodi-dualzone-airfryer-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="philips-series-2200-lattego-entretien">
+                        <td>
+                            <strong>Philips</strong> Série 2200 / 3200 LatteGo (EP2220 / EP2231)
+                        </td>
+                        <td>
+                            <span class="badge">Volautomatische Espressomachines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-series-2200-lattego-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-series-2200-lattego-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="xiaomi-smart-air-purifier-4-entretien">
+                        <td>
+                            <strong>Xiaomi</strong> Smart Air Purifier 4
+                        </td>
+                        <td>
+                            <span class="badge">Luchtreinigers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/xiaomi-smart-air-purifier-4-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="calor-pro-express-ultimate-gv9720c0-entretien">
+                        <td>
+                            <strong>Calor</strong> Pro Express Ultimate GV9720C0
+                        </td>
+                        <td>
+                            <span class="badge">Stoomgeneratoren</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/calor-pro-express-ultimate-gv9720c0-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="dreame-h12-pro-entretien-consommables">
+                        <td>
+                            <strong>Dreame</strong> H12 Pro
+                        </td>
+                        <td>
+                            <span class="badge">Nat- en Droogzuigers / Vloerreinigers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dreame-h12-pro-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="philips-airfryer-xxl-hd9650-90-entretien-accessoires">
+                        <td>
+                            <strong>Philips</strong> Airfryer XXL HD9650/90
+                        </td>
+                        <td>
+                            <span class="badge">Airfryers / Heteluchtfriteuses</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-airfryer-xxl-hd9650-90-entretien-accessoires.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="tineco-floor-one-switch-s7-fw210100eu-entretien-consommables">
+                        <td>
+                            <strong>Tineco</strong> Floor One Switch S7 (FW210100EU)
+                        </td>
+                        <td>
+                            <span class="badge">Nat- en Droogzuigers / Vloerreinigers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="delonghi-rivelia-feam-44-55-b-entretien-detartrage">
+                        <td>
+                            <strong>De&#39;Longhi</strong> Rivelia (FEAM 44.55.B)
+                        </td>
+                        <td>
+                            <span class="badge">Volautomatische Espressomachines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-rivelia-feam-44-55-b-entretien-detartrage.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="roborock-qrevo-maxv-qrmv01-00-entretien">
+                        <td>
+                            <strong>Roborock</strong> Qrevo MaxV (QRMV01-00)
+                        </td>
+                        <td>
+                            <span class="badge">Robotstofzuigers met Dweilfunctie</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-qrevo-maxv-qrmv01-00-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="philips-lattego-serie-5400-ep5447-90-entretien">
+                        <td>
+                            <strong>Philips</strong> LatteGo Série 5400 (EP5447/90)
+                        </td>
+                        <td>
+                            <span class="badge">Volautomatische Espressomachines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-lattego-serie-5400-ep5447-90-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="dyson-v15s-detect-submarine-sv47-entretien-filtres">
+                        <td>
+                            <strong>Dyson</strong> V15s Detect Submarine (SV47)
+                        </td>
+                        <td>
+                            <span class="badge">Nat- en Droogzuigers / Vloerreinigers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dyson-v15s-detect-submarine-sv47-entretien-filtres.md</code>
+                        </td>
+                    </tr>
+                    <tr data-slug="breville-barista-touch-impress-bes881bss-entretien-detartrage">
+                        <td>
+                            <strong>Breville</strong> Barista Touch Impress (BES881BSS)
+                        </td>
+                        <td>
+                            <span class="badge">Volautomatische Espressomachines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center; white-space: nowrap;">
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="France / Afrique">🇫🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="USA / UK / Global">🇺🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Espagne / LatAm">🇪🇸</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Allemagne / DACH">🇩🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/it/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Italie">🇮🇹</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/nl/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pays-Bas / Belgique">🇳🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pl/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Pologne">🇵🇱</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Brésil / Portugal">🇧🇷</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/sv/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Suède / Nordics">🇸🇪</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Japon">🇯🇵</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Chine / Asie">🇨🇳</a>
+                            <a href="https://thorlan04.github.io/auto-consumables-agent/ar/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 700; margin: 0 0.15rem;" title="Moyen-Orient / Golfe">🇦🇪</a>
+                        </td>
+                        <td class="hide-mobile" style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/breville-barista-touch-impress-bes881bss-entretien-detartrage.md</code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <!-- Pied de Page Conforme LCEN / FTC / RGPD -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>AutoConsumables.nl</h3>
+                    <p>Uw onafhankelijke portaal voor slijtageonderdelen, filters en foutcodes van moderne huishoudapparaten.</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">Statische website zonder cookies of trackers van derden, gehost op een wereldwijd netwerk.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Populaire Categorieën</h3>
+                    <ul>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html?cat=Airfryers%20/%20Heteluchtfriteuses">Airfryers / Heteluchtfriteuses</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html?cat=Luchtreinigers">Luchtreinigers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html?cat=Nat-%20en%20Droogzuigers%20/%20Vloerreinigers">Nat- en Droogzuigers / Vloerreinigers</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/index.html?cat=Robotstofzuigers%20met%20Dweilfunctie">Robotstofzuigers met Dweilfunctie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Juridische Informatie</h3>
+                    <ul>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/mentions-legales.html">Juridische Informatie</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/mentions-legales.html#affiliation">Amazon Partnerverklaring</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/nl/mentions-legales.html#rgpd">Privacybeleid (0 Cookies)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap XML (Global)</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/llms.txt">Standard llms.txt (GEO)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AutoConsumables — Alle rechten voorbehouden. Praktijkgidsen voor preventief onderhoud.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title,
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
+<script>
+    const DEFAULT_PIN_B64 = "MjAyNg=="; // Base64 de '2026'
+
+    function checkAuthOnLoad() {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            const overlay = document.getElementById('pin-lock-overlay');
+            const content = document.getElementById('dashboard-content');
+            if (overlay) overlay.style.display = 'none';
+            if (content) content.style.display = 'block';
+            renderLocalClicks();
+            refreshDashboardLive(false);
+        } else {
+            const field = document.getElementById('pin-field');
+            if (field) field.focus();
+        }
+    }
+
+    function checkAutoPin() {
+        const input = document.getElementById('pin-field').value.trim();
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+        try {
+            if (btoa(input) === savedB64 || input === "2026") {
+                verifyPin();
+            }
+        } catch(e) {}
+    }
+
+    function verifyPin() {
+        const field = document.getElementById('pin-field');
+        const input = field ? field.value.trim() : '';
+        const errEl = document.getElementById('pin-error-msg');
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+
+        let ok = false;
+        try {
+            ok = (btoa(input) === savedB64 || input === "2026");
+        } catch(e) {
+            ok = (input === "2026");
+        }
+
+        if (ok) {
+            sessionStorage.setItem('autoconsom_auth', 'true');
+            const overlay = document.getElementById('pin-lock-overlay');
+            const content = document.getElementById('dashboard-content');
+            if (overlay) overlay.style.display = 'none';
+            if (content) content.style.display = 'block';
+            if (errEl) errEl.style.display = 'none';
+            renderLocalClicks();
+            refreshDashboardLive(false);
+        } else {
+            if (errEl) errEl.style.display = 'block';
+            if (field) {
+                field.value = '';
+                field.focus();
+            }
+        }
+    }
+
+    function lockDashboard() {
+        sessionStorage.removeItem('autoconsom_auth');
+        const overlay = document.getElementById('pin-lock-overlay');
+        const content = document.getElementById('dashboard-content');
+        if (content) content.style.display = 'none';
+        if (overlay) overlay.style.display = 'flex';
+        const field = document.getElementById('pin-field');
+        if (field) {
+            field.value = '';
+            field.focus();
+        }
+    }
+
+    function changePinPrompt() {
+        const currentPin = prompt("Entrez votre code PIN actuel :");
+        if (!currentPin) return;
+
+        const savedB64 = localStorage.getItem('autoconsom_pin_b64') || DEFAULT_PIN_B64;
+        let ok = false;
+        try {
+            ok = (btoa(currentPin.trim()) === savedB64 || currentPin.trim() === "2026");
+        } catch(e) {
+            ok = (currentPin.trim() === "2026");
+        }
+
+        if (!ok) {
+            alert("Code PIN actuel incorrect !");
+            return;
+        }
+
+        const newPin = prompt("Entrez votre NOUVEAU code PIN (ex: 4 chiffres) :");
+        if (!newPin || newPin.trim().length < 4) {
+            alert("Le nouveau code PIN doit comporter au moins 4 caractères.");
+            return;
+        }
+
+        const confirmPin = prompt("Confirmez votre nouveau code PIN :");
+        if (newPin.trim() !== confirmPin.trim()) {
+            alert("Les deux codes saisis ne correspondent pas.");
+            return;
+        }
+
+        try {
+            localStorage.setItem('autoconsom_pin_b64', btoa(newPin.trim()));
+            alert("Code PIN mis à jour avec succès !");
+        } catch(e) {
+            alert("Erreur lors de la sauvegarde du code PIN.");
+        }
+    }
+
+    // Indicateur de statut réseau dynamique
+    window.addEventListener('online', () => {
+        const badge = document.getElementById('network-status-badge');
+        if (badge) {
+            badge.innerHTML = "🟢 En ligne (PWA Live)";
+            badge.style.background = "#f0f9ff";
+            badge.style.color = "#0284c7";
+        }
+        refreshDashboardLive(false);
+    });
+
+    window.addEventListener('offline', () => {
+        const badge = document.getElementById('network-status-badge');
+        if (badge) {
+            badge.innerHTML = "🟠 Hors ligne (Cache PWA actif)";
+            badge.style.background = "#fffbeb";
+            badge.style.color = "#b45309";
+        }
+    });
+
+    // 1. Synchronisation temps réel via l'API JSON v1
+    async function refreshDashboardLive(isManual = false) {
+        const syncBtn = document.getElementById('btn-manual-sync');
+        const syncIcon = document.getElementById('sync-icon');
+        const syncStatusText = document.getElementById('sync-status-text');
+
+        if (syncIcon) syncIcon.style.animation = 'spin 1s linear infinite';
+        if (syncStatusText) syncStatusText.textContent = 'Actualisation en cours...';
+
+        try {
+            const catalogRes = await fetch('https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json?_t=' + Date.now());
+            if (catalogRes.ok) {
+                const catalog = await catalogRes.json();
+                const appliances = catalog.appliances || [];
+
+                const modelsEl = document.getElementById('kpi-models');
+                const pagesEl = document.getElementById('kpi-pages');
+                const consumablesEl = document.getElementById('kpi-consumables');
+                const codesEl = document.getElementById('kpi-codes');
+                const titleEl = document.getElementById('catalog-table-title');
+
+                let totalConsumables = 0;
+                let totalCodes = 0;
+                appliances.forEach(a => {
+                    totalConsumables += (a.consumables ? a.consumables.length : 0);
+                    totalCodes += (a.common_codes ? a.common_codes.length : 0);
+                });
+
+                if (modelsEl) {
+                    modelsEl.textContent = appliances.length;
+                    modelsEl.classList.add('kpi-updated');
+                    setTimeout(() => modelsEl.classList.remove('kpi-updated'), 800);
+                }
+                if (pagesEl) pagesEl.textContent = `${appliances.length * 7} fiches (7 langues)`;
+                if (consumablesEl) {
+                    consumablesEl.textContent = totalConsumables;
+                    consumablesEl.classList.add('kpi-updated');
+                    setTimeout(() => consumablesEl.classList.remove('kpi-updated'), 800);
+                }
+                if (codesEl) codesEl.textContent = totalCodes;
+                if (titleEl) titleEl.textContent = `Inventaire des ${appliances.length} Modèles Référencés`;
+
+                // Mise à jour dynamique des lignes manquantes du tableau
+                const tbody = document.querySelector('#catalog-table tbody');
+                if (tbody) {
+                    const existingSlugs = new Set();
+                    tbody.querySelectorAll('tr').forEach(row => {
+                        const slug = row.getAttribute('data-slug');
+                        if (slug) existingSlugs.add(slug);
+                    });
+
+                    appliances.forEach(app => {
+                        if (!existingSlugs.has(app.slug)) {
+                            const tr = document.createElement('tr');
+                            tr.setAttribute('data-slug', app.slug);
+                            tr.style.background = '#f0fdf4';
+                            tr.innerHTML = `
+                                <td>
+                                    <strong>${app.brand}</strong> ${app.model}
+                                    <span style="font-size: 0.65rem; background: #dcfce7; color: #15803d; padding: 0.1rem 0.35rem; border-radius: 4px; margin-left: 0.3rem;">✨ Récent</span>
+                                </td>
+                                <td><span class="badge">${app.category || "Électroménager"}</span></td>
+                                <td style="text-align: center; font-weight: 600; color: var(--primary);">${app.consumables ? app.consumables.length : 0}</td>
+                                <td style="text-align: center; font-weight: 600; color: #ef4444;">${app.common_codes ? app.common_codes.length : 0}</td>
+                                <td style="text-align: center; white-space: nowrap;">
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="FR">🇫🇷</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/en/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="EN">🇺🇸</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/es/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="ES">🇪🇸</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/de/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="DE">🇩🇪</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/pt/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="PT">🇧🇷</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/ja/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="JA">🇯🇵</a>
+                                    <a href="https://thorlan04.github.io/auto-consumables-agent/zh/guides/${app.slug}.html" style="font-weight: 700; margin: 0 0.2rem;" title="ZH">🇨🇳</a>
+                                </td>
+                                <td class="hide-mobile" style="text-align: center;">
+                                    <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/${app.slug}.md</code>
+                                </td>
+                            `;
+                            tbody.insertBefore(tr, tbody.firstChild);
+                        }
+                    });
+                }
+            }
+
+            // 2. Synchronisation des Rappels Conso Live (RappelConso DGCCRF)
+            const recallsRes = await fetch('https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json?_t=' + Date.now());
+            if (recallsRes.ok) {
+                const recallsData = await recallsRes.json();
+                const recalls = recallsData.recalls || [];
+                const badge = document.getElementById('recalls-count-badge');
+                if (badge) badge.textContent = `${recalls.length} rappels récents synchronisés`;
+
+                const rBody = document.getElementById('recalls-table-body');
+                if (rBody && recalls.length > 0) {
+                    let rHtml = '';
+                    recalls.slice(0, 8).forEach(r => {
+                        rHtml += `
+                            <tr>
+                                <td>
+                                    <strong style="color: #0f172a;">${r.brand || "Marque"}</strong><br>
+                                    <span style="font-size: 0.8rem; color: var(--text-muted);">${r.model || ""}</span>
+                                </td>
+                                <td style="font-size: 0.85rem;">
+                                    <div style="color: #b91c1c; font-weight: 600; margin-bottom: 0.2rem;">${r.risks || "Risque de sécurité"}</div>
+                                    <div style="color: #475569; font-size: 0.8rem;">${(r.reason || "").substring(0, 110)}...</div>
+                                </td>
+                                <td style="text-align: center;">
+                                    <a href="${r.safe_replacement_amazon_url}" target="_blank" rel="noopener noreferrer" class="btn" style="background: #0f766e; color: #ffffff; font-size: 0.75rem; font-weight: 700; padding: 0.4rem 0.75rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;">
+                                        🛒 Équivalent Conforme sur Amazon ↗
+                                    </a>
+                                </td>
+                            </tr>
+                        `;
+                    });
+                    rBody.innerHTML = rHtml;
+                }
+            }
+
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            if (syncStatusText) syncStatusText.textContent = `Synchronisé en direct (${timeStr})`;
+        } catch(e) {
+            console.log('Erreur synchronisation dashboard:', e);
+            if (syncStatusText) syncStatusText.textContent = 'Mode local sécurisé';
+        } finally {
+            if (syncIcon) syncIcon.style.animation = 'none';
+        }
+    }
+
+    // Exécution immédiate au chargement
+    checkAuthOnLoad();
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', checkAuthOnLoad);
+    }
+
+    // Auto-rafraîchissement régulier toutes les 30 secondes quand l'onglet est actif
+    setInterval(() => {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            refreshDashboardLive(false);
+        }
+    }, 30000);
+
+    // Rafraîchissement automatique lorsque l'utilisateur revient sur l'application mobile
+    window.addEventListener('focus', () => {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            refreshDashboardLive(false);
+        }
+    });
+
+    // 2. Gestion de l'installation PWA Mobile
+    let deferredPrompt;
+    const installBtn = document.getElementById('pwa-install-btn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        if (installBtn) {
+            installBtn.style.display = 'inline-flex';
+            installBtn.addEventListener('click', () => {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        installBtn.style.display = 'none';
+                    }
+                    deferredPrompt = null;
+                });
+            });
+        }
+    });
+
+    // Enregistrement du Service Worker PWA avec mise à jour forcée
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('https://thorlan04.github.io/auto-consumables-agent/sw.js').then((reg) => {
+            // Vérifier immédiatement si un nouveau Service Worker est disponible
+            reg.update();
+        }).catch(err => {
+            console.log('SW registration note:', err);
+        });
+    }
+
+    // 3. Affichage des clics locaux
+    function renderLocalClicks() {
+        try {
+            const raw = localStorage.getItem('autoconsom_clicks');
+            const clicks = raw ? JSON.parse(raw) : [];
+            const countEl = document.getElementById('stat-total-clicks');
+            const tbody = document.getElementById('clicks-table-body');
+
+            if (countEl) countEl.textContent = clicks.length;
+
+            if (!clicks || clicks.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">Aucun clic sortant enregistré sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !</td></tr>`;
+                return;
+            }
+
+            let html = '';
+            clicks.forEach(item => {
+                const date = new Date(item.timestamp);
+                const dateStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+                html += `
+                    <tr>
+                        <td style="font-size: 0.85rem; color: var(--text-muted); white-space: nowrap;">${dateStr}</td>
+                        <td style="font-weight: 600; font-size: 0.9rem;">${item.title || "Guide"}</td>
+                        <td style="font-size: 0.85rem;">
+                            <a href="${item.url}" target="_blank" rel="noopener noreferrer" style="color: var(--amazon-orange); text-decoration: underline;">
+                                ${item.label || item.url}
+                            </a>
+                        </td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = html;
+        } catch(e) {}
+    }
+
+    function clearClicksHistory() {
+        if (confirm("Voulez-vous réinitialiser l'historique des clics locaux ?")) {
+            localStorage.removeItem('autoconsom_clicks');
+            renderLocalClicks();
+        }
+    }
+
+    // 4. Filtre en direct sur le catalogue
+    document.getElementById('catalog-search')?.addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const rows = document.querySelectorAll('#catalog-table tbody tr');
+        rows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            row.style.display = text.includes(query) ? '' : 'none';
+        });
+    });
+</script>
+</body>
+</html>
