@@ -2,6 +2,8 @@
 
 > Base de données technique exhaustive sans HTML destinée aux LLMs, agents d'achat autonomes et moteurs conversationnels (ChatGPT, Claude, Perplexity, Gemini). Permet l'ingestion totale des références sans parsing.
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
+> API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
+> API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-15
 > Total appareils répertoriés : 15
 

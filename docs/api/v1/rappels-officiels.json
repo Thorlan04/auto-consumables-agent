@@ -1,0 +1,118 @@
+{
+  "api_version": "1.0",
+  "source": "RappelConso - République Française (data.economie.gouv.fr)",
+  "retrieved_at": "2026-10-15T19:44:12.343215+00:00",
+  "total_recalls": 10,
+  "recalls": [
+    {
+      "brand": "sans marque",
+      "model": "modèle 3123 – alimentation réglable 3v–12v, 3a, 36w",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-10-13T14:45:13+00:00",
+      "reason": "produit déclaré non conforme et dangereux à la suite d'un contrôle effectué par les autorités françaises de surveillance du marché. les non-conformités constatées concernent la sécurité électrique du produit, avec des risques de choc électrique et de",
+      "risks": "choc électrique|incendie",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23759/interne",
+      "safe_replacement_search": "appareils électriques, électroménager sans marque certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+sans+marque+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "jatrhg",
+      "model": "s1_72_8m",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-10-08T15:48:22+00:00",
+      "reason": "non-conformité à la réglementation française (norme nf c 15-100) applicable aux bornes de recharge résidentielles et tertiaires : risque de choc électrique en raison de l'absence d'obturateurs de sécurité sur la fiche type 2 du câble attaché.",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23727/interne",
+      "safe_replacement_search": "appareils électriques, électroménager jatrhg certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+jatrhg+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "youngkee",
+      "model": "pointeur laser - youngkee - 303 - vert - 5 km avec piles",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-09-24T12:10:05+00:00",
+      "reason": "non conforme et dangereux",
+      "risks": "blessures|brûlures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23603/interne",
+      "safe_replacement_search": "appareils électriques, électroménager youngkee certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+youngkee+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "acebell",
+      "model": "acebell tl-b3-5-eu",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-09-16T09:33:15+00:00",
+      "reason": "émission de rayonnement parasite  puissance rayonnée par  la sonnette occupe les limites de bande passante / bande ¤masque d'émission hors bande de l'émetteur.",
+      "risks": "risque environnemental",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23348/interne",
+      "safe_replacement_search": "appareils électriques, électroménager acebell certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+acebell+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "bonplus",
+      "model": "nettoyeur haute pression bonplus 2¤batteries 48 v",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-09-15T12:13:17+00:00",
+      "reason": "produit potentiellement dangereux",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23520/interne",
+      "safe_replacement_search": "appareils électriques, électroménager bonplus certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+bonplus+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "atelier loupiote",
+      "model": "lampes à poser atome et alice, baladeuses antoine, archimède et ariane, lampadaire tipi, toutes teintes et couleurs de câble, y compris versions l'imparfait et camif. tous exemplaires à câble textile avec fiche et interrupteur.",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-09-04T14:07:32+00:00",
+      "reason": "après essais en laboratoire (ddpp du rhône), le câble d'alimentation textile n'est pas du type requis par la norme nf en iec 60598-1 et son arrêt de traction ne résiste pas aux essais de traction et de torsion. notice et marquage incomplets.",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23442/interne",
+      "safe_replacement_search": "appareils électriques, électroménager atelier loupiote certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+atelier+loupiote+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "ribimex",
+      "model": "prm115/600",
+      "category": "machines",
+      "publication_date": "2026-09-01T11:12:52+00:00",
+      "reason": "le manque d’efficacité du protecteur de la meuleuse est tel qu’il existe un risque de blessure de l’utilisateur. (cf.¤manquement 06)",
+      "risks": "blessures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23372/interne",
+      "safe_replacement_search": "machines ribimex certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=machines+ribimex+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "la sommelière",
+      "model": "dvv4¤dvv6¤dvv6ss¤dvv8",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-09-01T10:33:48+00:00",
+      "reason": "risques d’échauffement, de dégagement de fumée et de combustion de la carte électronique lors de défaut d'entretien après plusieurs années d'utilisation¤",
+      "risks": "incendie",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23358/interne",
+      "safe_replacement_search": "appareils électriques, électroménager la sommelière certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+la+sommeli%C3%A8re+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "kosilum",
+      "model": "référence 601849",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-08-25T14:39:44+00:00",
+      "reason": "l’isolation et le maintien du câble d’alimentation sont insuffisants.",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23315/interne",
+      "safe_replacement_search": "appareils électriques, électroménager kosilum certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+kosilum+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
+    {
+      "brand": "legrand",
+      "model": "réfrences pro : 402038",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-08-04T15:36:46+00:00",
+      "reason": "défaut de conformité affectant le seuil de déclenchement de certains de ¤ces interrupteurs différentiels fabriqués en semaine 24 de  2024. le seuil de déclenchement mesuré est d’environ ¤80 ma, soit un niveau supérieur à la valeur nominale de 30 ma",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23050/interne",
+      "safe_replacement_search": "appareils électriques, électroménager legrand certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+legrand+certifie+conforme+sans+danger&tag=autoconsom-21"
+    }
+  ]
+}

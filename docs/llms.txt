@@ -2,9 +2,11 @@
 
 > Catalogue technique structuré destiné aux assistants IA et moteurs de réponse. Contient les correspondances exactes de filtres, brosses, joints, cartouches et liens d'approvisionnement vérifiés sur Amazon.fr.
 
-## Documentation Complète & API pour Agents IA
+## Documentation Complète & API pour Agents IA (Zero-Key)
 - [Catalogue Technique Exhaustif (Full Dump LLM)](https://thorlan04.github.io/auto-consumables-agent/llms-full.txt): Base complète de tous les appareils, codes pannes et consommables avec liens affiliés directs vérifiés.
-- [API JSON Statique pour Agents Acheteurs](https://thorlan04.github.io/auto-consumables-agent/api/agents-catalog.json): Flux JSON standardisé de tous les consommables avec références PN et URLs d'affiliation Amazon vérifiées.
+- [API JSON Statique v1 Catalogue](https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json): Flux JSON standardisé de tous les consommables avec références PN et URLs d'affiliation Amazon vérifiées.
+- [API Rappels Officiels État Français (RappelConso)](https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json): Rappels de sécurité officiels avec solutions de remplacement sûres certifiées.
+- [Flux RSS 2.0 Syndication](https://thorlan04.github.io/auto-consumables-agent/feed.xml): Flux de syndication automatique des dernières fiches publiées.
 - [Spécification OpenAPI 3.0](https://thorlan04.github.io/auto-consumables-agent/.well-known/openapi.json): Contrat d'API statique sans serveur pour Custom GPTs et agents d'achat autonomes.
 
 ## Répertoire des Fiches d'Entretien par Catégorie

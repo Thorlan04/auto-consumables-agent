@@ -32,25 +32,29 @@
           "name": "Rouleau Brosse Microfibre Multi-surfaces",
           "frequency": "Tous les 3 à 6 mois selon fréquence d'usage",
           "why_replace": "L'usure des fibres réduit l'absorption de l'eau sale et peut causer des traces au sol et des mauvaises odeurs d'humidité persistantes.",
-          "search_keywords": "rouleau brosse tineco floor one s5 microfibre"
+          "search_keywords": "rouleau brosse tineco floor one s5 microfibre",
+          "affiliate_url": "https://www.amazon.fr/s?k=rouleau+brosse+tineco+floor+one+s5+microfibre&tag=autoconsom-21"
         },
         {
           "name": "Filtre à Air Sec HEPA Lavable",
           "frequency": "Remplacement tous les 2 à 3 mois (lavage hebdo)",
           "why_replace": "Un filtre colmaté par les micro-poussières étouffe le moteur d'aspiration, diminue la puissance et déclenche des arrêts de sécurité prématurés.",
-          "search_keywords": "filtre hepa tineco floor one s5"
+          "search_keywords": "filtre hepa tineco floor one s5",
+          "affiliate_url": "https://www.amazon.fr/s?k=filtre+hepa+tineco+floor+one+s5&tag=autoconsom-21"
         },
         {
           "name": "Solution Nettoyante Désodorisante Multi-surfaces",
           "frequency": "Recharge régulière (1 bouchon par réservoir)",
           "why_replace": "L'utilisation de détergents moussants non adaptés endommage les capteurs de niveau et la pompe. La formule officielle préserve les conduits internes.",
-          "search_keywords": "solution nettoyante liquide tineco sol"
+          "search_keywords": "solution nettoyante liquide tineco sol",
+          "affiliate_url": "https://www.amazon.fr/s?k=solution+nettoyante+liquide+tineco+sol&tag=autoconsom-21"
         },
         {
           "name": "Brosse de Nettoyage et Outil de Coupe",
           "frequency": "En cas de perte de l'accessoire d'origine",
           "why_replace": "Permet de nettoyer facilement le tube d'aspiration interne et de sectionner les poils d'animaux enroulés autour de l'axe.",
-          "search_keywords": "accessoire brosse nettoyage tineco"
+          "search_keywords": "accessoire brosse nettoyage tineco",
+          "affiliate_url": "https://www.amazon.fr/s?k=accessoire+brosse+nettoyage+tineco&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -66,7 +70,8 @@
           "question": "Peut-on utiliser du vinaigre blanc dans le réservoir d'eau propre ?",
           "answer": "Le vinaigre blanc pur est déconseillé par le fabricant car son acidité peut détériorer les joints en silicone et la membrane de la pompe de pulvérisation. Privilégiez de l'eau tiède avec la solution de nettoyage sans mousse homologuée."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S5-Combo--Pro---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "delonghi-magnifica-s-entretien-consommables",
@@ -97,25 +102,29 @@
           "name": "Cartouche Filtrante Anticalcaire pour Réservoir d'Eau",
           "frequency": "Tous les 2 mois (ou 50 litres d'eau)",
           "why_replace": "Filtre le chlore, les métaux lourds et limite drastiquement les dépôts de calcaire dans le thermobloc, garantissant un goût de café pur et prolongeant la durée de vie.",
-          "search_keywords": "cartouche filtrante delonghi magnifica dls c002"
+          "search_keywords": "cartouche filtrante delonghi magnifica dls c002",
+          "affiliate_url": "https://www.amazon.fr/s?k=cartouche+filtrante+delonghi+magnifica+dls+c002&tag=autoconsom-21"
         },
         {
           "name": "Détartrant Naturel EcoDecalk (500 ml)",
           "frequency": "Tous les 2 à 3 mois selon voyant de détartrage",
           "why_replace": "Formule à base d'acide lactique naturel conçue pour dissoudre le calcaire sans attaquer les tubulures internes en aluminium et les joints de chauffe.",
-          "search_keywords": "detartrant delonghi ecodecalk 500ml"
+          "search_keywords": "detartrant delonghi ecodecalk 500ml",
+          "affiliate_url": "https://www.amazon.fr/s?k=detartrant+delonghi+ecodecalk+500ml&tag=autoconsom-21"
         },
         {
           "name": "Tube de Graisse Alimentaire Silicone pour Infuseur",
           "frequency": "Tous les 4 à 6 mois après rinçage approfondi",
           "why_replace": "Lubrifie les rails de guidage et le joint du piston de l'infuseur pour éviter les grincements, l'usure mécanique et le blocage de la transmission.",
-          "search_keywords": "graisse alimentaire machine cafe silicone"
+          "search_keywords": "graisse alimentaire machine cafe silicone",
+          "affiliate_url": "https://www.amazon.fr/s?k=graisse+alimentaire+machine+cafe+silicone&tag=autoconsom-21"
         },
         {
           "name": "Kit Joints Toriques de Remplacement Infuseur",
           "frequency": "Tous les 12 à 24 mois en cas de baisse de pression",
           "why_replace": "Les joints toriques en silicone s'assèchent et perdent leur étanchéité avec la chaleur, provoquant des fuites d'eau dans le bac récolte-gouttes.",
-          "search_keywords": "joint infuseur delonghi magnifica rouge"
+          "search_keywords": "joint infuseur delonghi magnifica rouge",
+          "affiliate_url": "https://www.amazon.fr/s?k=joint+infuseur+delonghi+magnifica+rouge&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -131,7 +140,8 @@
           "question": "Le vinaigre blanc est-il recommandé pour détartrer une Magnifica S ?",
           "answer": "Non, De'Longhi déconseille formellement le vinaigre blanc car son acidité acétique peut corroder les soudures internes de la chaudière et durcir les joints toriques, provoquant des fuites internes. Utilisez exclusivement un détartrant à base d'acide lactique tel que l'EcoDecalk."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/DeLonghi-Magnifica-S-ECAM-22110B--22110SB---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "roborock-s8-entretien-consommables",
@@ -163,28 +173,28 @@
           "frequency": "Remplacement tous les 6 à 12 mois",
           "why_replace": "L'usure des lamelles en caoutchouc diminue le frottement sur tapis et réduit l'efficacité d'aspiration des poils d'animaux.",
           "search_keywords": "brosse duo rubber roborock s8",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=brosse+duo+rubber+roborock+s8&tag=autoconsom-21"
         },
         {
           "name": "Filtre à Air E11 Lavable pour Bac à Poussière",
           "frequency": "Tous les 3 à 6 mois (lavage chaque semaine)",
           "why_replace": "Le colmatage réduit le débit d'air du moteur HyperForce et entraîne des surchauffes lors des cycles longs.",
           "search_keywords": "filtre lavable bac roborock s8",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=filtre+lavable+bac+roborock+s8&tag=autoconsom-21"
         },
         {
           "name": "Lingettes Serpillières Vibrantes VibraRise",
           "frequency": "Remplacement tous les 3 à 6 mois",
           "why_replace": "Les microfibres usées ne transmettent plus efficacement les vibrations soniques et laissent des traces sales au séchage.",
           "search_keywords": "lingette serpillere vibrarise roborock s8",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=lingette+serpillere+vibrarise+roborock+s8&tag=autoconsom-21"
         },
         {
           "name": "Sacs à Poussière Filtrants 2,5 L pour Station RockDock",
           "frequency": "Tous les 1 à 2 mois par sac",
           "why_replace": "Un sac plein empêche la vidange automatique et fait forcer la turbine de succion de la station.",
           "search_keywords": "sac poussiere station roborock s8 pro ultra",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=sac+poussiere+station+roborock+s8+pro+ultra&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -200,7 +210,8 @@
           "question": "Les brosses DuoRubber sont-elles compatibles avec les séries S7 ?",
           "answer": "Non, le système à double rouleau contrarotatif du Roborock S8 utilise un mécanisme d'engrenage différent des brosses simples du Roborock S7."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Roborock-S8--S8-Pro-Ultra---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "ninja-foodi-dualzone-airfryer-entretien",
@@ -232,28 +243,28 @@
           "frequency": "Tous les 12 à 18 mois en cas d'usure du revêtement céramique",
           "why_replace": "Lorsque le revêtement est rayé par des ustensiles métalliques, les aliments attachent et la circulation d'air par le bas est perturbée.",
           "search_keywords": "plaque croustillante grille ninja dualzone af300eu af400eu",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=plaque+croustillante+grille+ninja+dualzone+af300eu+af400eu&tag=autoconsom-21"
         },
         {
           "name": "Papiers Cuisson Perforés Jetables Spéciaux Tiroir Rectangulaire",
           "frequency": "Consommable à usage unique pour chaque cuisson grasse",
           "why_replace": "Évite l'encrassement des paniers et protège durablement le fond en téflon contre les graisses brûlées tenaces.",
           "search_keywords": "papier cuisson rectangulaire air fryer ninja dual zone",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=papier+cuisson+rectangulaire+air+fryer+ninja+dual+zone&tag=autoconsom-21"
         },
         {
           "name": "Mains et Moules en Silicone Alimentaire pour Cuisson Double Tiroir",
           "frequency": "Réutilisables sur plusieurs années",
           "why_replace": "Permet de cuire sauces, gratins et pâtisseries sans salir les tiroirs et facilite le démoulage sans spatule abrasive.",
           "search_keywords": "moule silicone panier ninja air fryer af300eu",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=moule+silicone+panier+ninja+air+fryer+af300eu&tag=autoconsom-21"
         },
         {
           "name": "Pieds en Caoutchouc Silicone pour Grille de Cuisson",
           "frequency": "En cas de perte ou durcissement lors des lavages",
           "why_replace": "Ces patins isolent la grille métallique des parois du tiroir pour empêcher toute rayure du panier lors de l'insertion.",
           "search_keywords": "embout caoutchouc grille air fryer ninja",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=embout+caoutchouc+grille+air+fryer+ninja&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -269,7 +280,8 @@
           "question": "Comment nettoyer les projections de graisse sur les résistances supérieures ?",
           "answer": "Débranchez l'appareil et laissez-le refroidir. Retournez l'appareil délicatement et frottez doucement la grille de protection de la résistance avec une éponge légèrement humide et du bicarbonate de soude sans produit abrasif."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Ninja-Foodi-DualZone-AF300EU--AF400EU---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "philips-series-2200-lattego-entretien",
@@ -301,28 +313,28 @@
           "frequency": "Tous les 3 mois (jusqu'à 5000 tasses sans détartrage)",
           "why_replace": "Élimine le calcaire et les impuretés de l'eau, préservant la température d'infusion et l'arôme des grains.",
           "search_keywords": "filtre aquaclean philips ca6903",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=filtre+aquaclean+philips+ca6903&tag=autoconsom-21"
         },
         {
           "name": "Pastilles Dégraissantes pour Circuit Café (CA6704)",
           "frequency": "1 fois par mois",
           "why_replace": "Dissout les huiles de café rances accumulées dans la grille de filtrage du groupe sans attaquer les joints.",
           "search_keywords": "pastilles degraissantes cafe philips ca6704",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=pastilles+degraissantes+cafe+philips+ca6704&tag=autoconsom-21"
         },
         {
           "name": "Tube de Graisse Silicone Alimentaire pour Groupe Café",
           "frequency": "Tous les 2 mois après rinçage à l'eau claire",
           "why_replace": "Garantit le coulissement silencieux des pistons de compression et prévient l'usure de l'engrenage principal.",
           "search_keywords": "graisse silicone alimentaire machine cafe philips saeco",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=graisse+silicone+alimentaire+machine+cafe+philips+saeco&tag=autoconsom-21"
         },
         {
           "name": "Flacon Détartrant Spécial Machine à Café Philips (CA6700)",
           "frequency": "Dès que le voyant 'Calc/Clean' s'allume",
           "why_replace": "Formule douce homologuée pour éliminer le tartre résiduel sans altérer la chaudière en inox.",
           "search_keywords": "detartrant philips ca6700",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=detartrant+philips+ca6700&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -338,7 +350,8 @@
           "question": "Peut-on utiliser de l'eau adoucie avec le filtre AquaClean ?",
           "answer": "Oui, mais il est toujours recommandé d'activer le filtre AquaClean pour retenir les micro-particules et le chlore qui altèrent le goût du café."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Philips-Série-2200--3200-LatteGo-EP2220--EP2231---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "xiaomi-smart-air-purifier-4-entretien",
@@ -370,21 +383,21 @@
           "frequency": "Tous les 6 à 12 mois, selon l'utilisation et la qualité de l'air ambiant.",
           "why_replace": "Un filtre encrassé réduit drastiquement l'efficacité de purification, libère des allergènes et des odeurs, et peut endommager le moteur de l'appareil.",
           "search_keywords": "filtre xiaomi smart air purifier 4, filtre hepa charbon actif xiaomi 4",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=filtre+xiaomi+smart+air+purifier+4%2C+filtre+hepa+charbon+actif+xiaomi+4&tag=autoconsom-21"
         },
         {
           "name": "Chiffon microfibre sec et doux",
           "frequency": "Régulièrement, toutes les 2 à 4 semaines, pour le nettoyage externe.",
           "why_replace": "L'accumulation de poussière sur les surfaces externes et les grilles d'entrée peut réduire l'esthétique et potentiellement obstruer les entrées d'air, diminuant l'efficacité.",
           "search_keywords": "chiffon microfibre pour appareils électroniques, kit nettoyage purificateur d'air",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=chiffon+microfibre+pour+appareils+%C3%A9lectroniques%2C+kit+nettoyage+purificateur+d%27air&tag=autoconsom-21"
         },
         {
           "name": "Coton-tige pour capteur PM2.5",
           "frequency": "Tous les 2 à 3 mois, ou en cas de lecture PM2.5 incohérente.",
           "why_replace": "Un capteur encrassé fournit des mesures erronées de la qualité de l'air, empêchant le purificateur de fonctionner de manière optimale en mode automatique.",
           "search_keywords": "coton-tige nettoyage capteur, kit entretien purificateur d'air",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=coton-tige+nettoyage+capteur%2C+kit+entretien+purificateur+d%27air&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -400,7 +413,8 @@
           "question": "Comment nettoyer l'extérieur de mon purificateur d'air sans l'endommager ?",
           "answer": "Utilisez un chiffon doux et sec pour essuyer la poussière régulièrement. Pour les grilles d'entrée et de sortie d'air, un petit aspirateur avec une brosse douce peut être utilisé pour retirer la poussière accumulée sans abîmer l'appareil. Assurez-vous toujours que l'appareil est éteint et débranché avant le nettoyage."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Xiaomi-Smart-Air-Purifier-4---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "calor-pro-express-ultimate-gv9720c0-entretien",
@@ -432,21 +446,21 @@
           "frequency": "À nettoyer régulièrement (chaque mois ou dès que le voyant s'allume). À remplacer si endommagé.",
           "why_replace": "Un collecteur encrassé ou endommagé empêche l'élimination efficace du calcaire, réduisant le débit de vapeur et risquant d'obstruer les conduits internes.",
           "search_keywords": "collecteur calcaire calor pro express ultimate gv9720c0, réservoir anticalcaire calor",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=collecteur+calcaire+calor+pro+express+ultimate+gv9720c0%2C+r%C3%A9servoir+anticalcaire+calor&tag=autoconsom-21"
         },
         {
           "name": "Eau déminéralisée ou déionisée",
           "frequency": "À utiliser en complément ou exclusivement si votre eau du robinet est très calcaire.",
           "why_replace": "L'utilisation d'eau du robinet trop calcaire accélère l'accumulation de tartre, même avec le collecteur, et peut endommager l'appareil à long terme.",
           "search_keywords": "eau déminéralisée centrale vapeur, eau déionisée fer à repasser",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=eau+d%C3%A9min%C3%A9ralis%C3%A9e+centrale+vapeur%2C+eau+d%C3%A9ionis%C3%A9e+fer+%C3%A0+repasser&tag=autoconsom-21"
         },
         {
           "name": "Bâtonnet de nettoyage pour semelle de fer",
           "frequency": "Ponctuellement, dès que la semelle présente des traces ou colle aux tissus.",
           "why_replace": "Une semelle sale ou collante peut transférer des résidus sur les vêtements, les tacher et rendre le repassage moins fluide.",
           "search_keywords": "bâtonnet nettoyage semelle fer, nettoyant semelle fer à repasser",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=b%C3%A2tonnet+nettoyage+semelle+fer%2C+nettoyant+semelle+fer+%C3%A0+repasser&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -462,7 +476,8 @@
           "question": "Ma centrale vapeur ne produit plus de vapeur, que faire ?",
           "answer": "Vérifiez d'abord le niveau d'eau dans le réservoir. Si le réservoir est plein, assurez-vous que le collecteur de calcaire est propre et correctement vissé. Laissez l'appareil chauffer suffisamment. Si le problème persiste, débranchez-le et rebranchez-le après quelques minutes pour tenter une réinitialisation."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Calor-Pro-Express-Ultimate-GV9720C0---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "dreame-h12-pro-entretien-consommables",
@@ -494,21 +509,21 @@
           "frequency": "Tous les 3 à 6 mois",
           "why_replace": "Une brosse usée ou encrassée réduit l'efficacité de nettoyage, peut laisser des traces et endommager les sols fragiles.",
           "search_keywords": "brosse rouleau dreame h12 pro",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=brosse+rouleau+dreame+h12+pro&tag=autoconsom-21"
         },
         {
           "name": "Filtre HEPA",
           "frequency": "Tous les 3 à 6 mois",
           "why_replace": "Un filtre encrassé diminue la puissance d'aspiration, nuit à la qualité de l'air et peut surcharger le moteur de l'appareil.",
           "search_keywords": "filtre hepa dreame h12 pro",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=filtre+hepa+dreame+h12+pro&tag=autoconsom-21"
         },
         {
           "name": "Solution de nettoyage Dreame",
           "frequency": "Selon l'utilisation",
           "why_replace": "L'utilisation d'une solution non adaptée peut endommager les conduits internes, laisser des résidus ou altérer la performance de nettoyage.",
           "search_keywords": "solution nettoyage dreame h12 pro",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=solution+nettoyage+dreame+h12+pro&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -524,7 +539,8 @@
           "question": "Puis-je utiliser n'importe quel détergent avec mon Dreame H12 Pro ?",
           "answer": "Il est fortement recommandé d'utiliser uniquement la solution de nettoyage Dreame officielle ou un détergent doux spécifiquement conçu pour les aspirateurs laveurs, afin d'éviter d'endommager les composants internes et de garantir la garantie."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Dreame-H12-Pro---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "philips-airfryer-xxl-hd9650-90-entretien-accessoires",
@@ -556,21 +572,21 @@
           "frequency": "Selon le besoin",
           "why_replace": "Maintient le panier et l'intérieur de l'appareil propres, assurant une cuisson homogène et prolongeant la durée de vie des revêtements.",
           "search_keywords": "kit nettoyage philips airfryer xxl",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=kit+nettoyage+philips+airfryer+xxl&tag=autoconsom-21"
         },
         {
           "name": "Accessoires de cuisson pour Airfryer XXL (ex: moule à gâteau, grille double couche)",
           "frequency": "Selon le besoin (achat initial ou complémentaire)",
           "why_replace": "Élargit les possibilités de cuisson (cuisson de gâteaux, grillades superposées) et facilite la préparation de certains plats spécifiques.",
           "search_keywords": "accessoires philips airfryer xxl hd9650/90",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=accessoires+philips+airfryer+xxl+hd9650%2F90&tag=autoconsom-21"
         },
         {
           "name": "Papier sulfurisé perforé pour Airfryer",
           "frequency": "À chaque utilisation",
           "why_replace": "Protège le panier des salissures tenaces, réduit le temps de nettoyage et évite que les aliments ne collent.",
           "search_keywords": "papier sulfurisé perforé airfryer xxl",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=papier+sulfuris%C3%A9+perfor%C3%A9+airfryer+xxl&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -586,7 +602,8 @@
           "question": "Puis-je utiliser du papier aluminium dans mon Airfryer ?",
           "answer": "Oui, vous pouvez utiliser du papier aluminium, mais veillez à ne pas couvrir entièrement le fond du panier pour ne pas bloquer la circulation de l'air. Assurez-vous qu'il ne touche pas les éléments chauffants pour éviter tout risque."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Philips-Airfryer-XXL-HD965090---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "tineco-floor-one-switch-s7-fw210100eu-entretien-consommables",
@@ -619,7 +636,7 @@
           "frequency": "Tous les 3 à 6 mois (selon usage)",
           "why_replace": "Perte d'efficacité de nettoyage, traînées sur le sol, ou développement d'odeurs désagréables.",
           "search_keywords": "Tineco Floor One Switch S7 FW210100EU rouleau brosse FW200301EU",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+rouleau+brosse+FW200301EU&tag=autoconsom-21"
         },
         {
           "name": "Filtre HEPA",
@@ -627,7 +644,7 @@
           "frequency": "Tous les 6 à 12 mois",
           "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine dans l'air, ou mauvaise filtration.",
           "search_keywords": "Tineco Floor One Switch S7 FW210100EU filtre HEPA FW200501EU",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+filtre+HEPA+FW200501EU&tag=autoconsom-21"
         },
         {
           "name": "Solution de nettoyage Tineco",
@@ -635,7 +652,7 @@
           "frequency": "Selon besoin (environ 1 bouteille tous les 2-3 mois)",
           "why_replace": "L'utilisation d'un produit non adapté peut endommager l'appareil, laisser des résidus ou des traces sur les sols.",
           "search_keywords": "Tineco Floor One Switch S7 FW210100EU solution nettoyage FW200101EU",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Tineco+Floor+One+Switch+S7+FW210100EU+solution+nettoyage+FW200101EU&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -651,7 +668,8 @@
           "question": "Puis-je utiliser mon Tineco Floor One Switch S7 sur des tapis ?",
           "answer": "Le Tineco Floor One Switch S7 est conçu principalement pour les sols durs. Il dispose d'un mode aspirateur sec qui peut être utilisé sur des tapis à poils courts, mais le mode lavage est à éviter sur ces surfaces."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-Switch-S7-FW210100EU---Pièces--Entretien-10-15-2"
     },
     {
       "slug": "delonghi-rivelia-feam-44-55-b-entretien-detartrage",
@@ -684,7 +702,7 @@
           "frequency": "Tous les 2 mois ou 50 litres d'eau",
           "why_replace": "Réduit l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine.",
           "search_keywords": "De'Longhi Rivelia FEAM 44.55.B filtre eau DLS C002",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+filtre+eau+DLS+C002&tag=autoconsom-21"
         },
         {
           "name": "Détartrant De'Longhi EcoDecalk",
@@ -692,7 +710,7 @@
           "frequency": "Tous les 3 mois ou selon l'affichage de la machine",
           "why_replace": "Prévient l'obstruction des conduits par le calcaire, les pannes de la machine et un café tiède.",
           "search_keywords": "De'Longhi Rivelia FEAM 44.55.B détartrant DLSC500 EcoDecalk",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+d%C3%A9tartrant+DLSC500+EcoDecalk&tag=autoconsom-21"
         },
         {
           "name": "Liquide de nettoyage De'Longhi pour système LatteCrema",
@@ -700,7 +718,7 @@
           "frequency": "Selon usage (une fois par semaine si usage quotidien du lait)",
           "why_replace": "Empêche le bouchage du système lait, le développement de bactéries et l'altération du goût des boissons lactées.",
           "search_keywords": "De'Longhi Rivelia FEAM 44.55.B nettoyage lait DLSC550 LatteCrema",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=De%27Longhi+Rivelia+FEAM+44.55.B+nettoyage+lait+DLSC550+LatteCrema&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -716,7 +734,8 @@
           "question": "À quelle fréquence dois-je nettoyer le groupe infuseur de ma Rivelia ?",
           "answer": "Le groupe infuseur doit être rincé à l'eau courante au moins une fois par semaine. Retirez-le, rincez-le abondamment sans savon, et laissez-le sécher à l'air libre avant de le remettre en place."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/DeLonghi-Rivelia-FEAM-4455B---Pièces--Entretien-10-15"
     },
     {
       "slug": "roborock-qrevo-maxv-qrmv01-00-entretien",
@@ -749,7 +768,7 @@
           "frequency": "Tous les 6 à 12 mois",
           "why_replace": "Une brosse usée ou endommagée réduit l'efficacité d'aspiration et de nettoyage, pouvant laisser des débris ou rayer les sols.",
           "search_keywords": "Roborock Qrevo MaxV QRMV01-00 brosse principale caoutchouc, brosse rouleau Roborock Qrevo MaxV",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+principale+caoutchouc%2C+brosse+rouleau+Roborock+Qrevo+MaxV&tag=autoconsom-21"
         },
         {
           "name": "Brosse latérale",
@@ -757,7 +776,7 @@
           "frequency": "Tous les 3 à 6 mois",
           "why_replace": "Des poils tordus ou cassés diminuent la capacité du robot à collecter la poussière dans les coins et le long des murs.",
           "search_keywords": "Roborock Qrevo MaxV QRMV01-00 brosse latérale, brosse de coin Roborock Qrevo MaxV",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+brosse+lat%C3%A9rale%2C+brosse+de+coin+Roborock+Qrevo+MaxV&tag=autoconsom-21"
         },
         {
           "name": "Filtre HEPA lavable",
@@ -765,7 +784,7 @@
           "frequency": "Tous les 6 à 12 mois",
           "why_replace": "Un filtre encrassé réduit la puissance d'aspiration, peut entraîner des odeurs et rejeter des allergènes dans l'air.",
           "search_keywords": "Roborock Qrevo MaxV QRMV01-00 filtre HEPA, filtre à poussière Roborock Qrevo MaxV",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+filtre+HEPA%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Qrevo+MaxV&tag=autoconsom-21"
         },
         {
           "name": "Lingettes de nettoyage (Mop Pads)",
@@ -773,7 +792,7 @@
           "frequency": "Tous les 3 à 6 mois (ou selon usure)",
           "why_replace": "Des lingettes usées ou déchirées nettoient moins bien, peuvent laisser des traces et affecter la qualité du lavage des sols.",
           "search_keywords": "Roborock Qrevo MaxV QRMV01-00 lingettes mop pads, patins de lavage Roborock Qrevo MaxV",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Roborock+Qrevo+MaxV+QRMV01-00+lingettes+mop+pads%2C+patins+de+lavage+Roborock+Qrevo+MaxV&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -789,7 +808,8 @@
           "question": "Mon Roborock Qrevo MaxV ne retourne plus à sa station, que faire ?",
           "answer": "Vérifiez que la station est branchée et qu'il n'y a pas d'obstacles autour d'elle (1 mètre devant, 0.5 mètre de chaque côté). Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Redémarrez le robot et la station si nécessaire."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Roborock-Qrevo-MaxV-QRMV01-00---Pièces--Entretien-10-15"
     },
     {
       "slug": "philips-lattego-serie-5400-ep5447-90-entretien",
@@ -822,7 +842,7 @@
           "frequency": "Tous les 3 mois (ou 625 tasses)",
           "why_replace": "Empêche l'accumulation de calcaire, améliore le goût du café et prolonge la durée de vie de la machine en réduisant la fréquence des détartrages.",
           "search_keywords": "Philips LatteGo 5400 EP5447/90 filtre AquaClean, CA6903/10, filtre à eau Philips 5400",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Philips+LatteGo+5400+EP5447%2F90+filtre+AquaClean%2C+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+5400&tag=autoconsom-21"
         },
         {
           "name": "Détartrant Philips (liquide)",
@@ -830,7 +850,7 @@
           "frequency": "Lorsque la machine l'indique (environ tous les 2-3 mois sans filtre AquaClean, 6-12 mois avec)",
           "why_replace": "L'accumulation de calcaire obstrue les tuyaux, réduit la température du café et peut entraîner des pannes ou des fuites.",
           "search_keywords": "Détartrant Philips CA6700/10, détartrant machine café Philips LatteGo 5400 EP5447/90",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21"
         },
         {
           "name": "Graisse pour groupe café",
@@ -838,7 +858,7 @@
           "frequency": "Tous les 2 mois ou après chaque nettoyage complet",
           "why_replace": "Une lubrification insuffisante peut rendre le groupe café difficile à manipuler, provoquer des grincements et endommager les pièces mobiles.",
           "search_keywords": "Graisse groupe café Philips HD5061/01, lubrifiant Philips LatteGo 5400 EP5447/90",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21"
         },
         {
           "name": "Pastilles de nettoyage pour groupe café",
@@ -846,7 +866,7 @@
           "frequency": "Une fois par mois ou toutes les 500 tasses",
           "why_replace": "Élimine les résidus de café et les huiles grasses qui s'accumulent dans le groupe café, prévenant les obstructions et les altérations du goût.",
           "search_keywords": "Pastilles nettoyage Philips CA6704/10, pastilles dégraissantes Philips LatteGo 5400 EP5447/90",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Pastilles+nettoyage+Philips+CA6704%2F10%2C+pastilles+d%C3%A9graissantes+Philips+LatteGo+5400+EP5447%2F90&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -862,7 +882,8 @@
           "question": "Comment optimiser la durée de vie de ma machine à café Philips EP5447/90 ?",
           "answer": "Utilisez un filtre AquaClean et remplacez-le tous les 3 mois, détartrez la machine dès que l'alerte apparaît, nettoyez et lubrifiez régulièrement le groupe café, et rincez le système LatteGo après chaque utilisation."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Philips-LatteGo-Série-5400-EP544790---Pièces--Entretien-10-15"
     },
     {
       "slug": "dyson-v15s-detect-submarine-sv47-entretien-filtres",
@@ -895,7 +916,7 @@
           "frequency": "Tous les 6 mois",
           "why_replace": "Une filtration réduite entraîne une perte de puissance d'aspiration, un rejet de micro-particules et d'allergènes dans l'air, et des mauvaises odeurs persistantes.",
           "search_keywords": "Dyson V15s Detect Submarine SV47 filtre HEPA 971634-01, filtre post-moteur Dyson V15s",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+filtre+HEPA+971634-01%2C+filtre+post-moteur+Dyson+V15s&tag=autoconsom-21"
         },
         {
           "name": "Rouleau brosse lavant Submarine",
@@ -903,7 +924,7 @@
           "frequency": "Tous les 6-12 mois ou si usé",
           "why_replace": "Un rouleau usé ou encrassé provoque une mauvaise performance de lavage, laisse des traces au sol et peut accumuler des saletés ou des odeurs désagréables.",
           "search_keywords": "Dyson V15s Detect Submarine SV47 rouleau lavant, brosse Submarine Dyson 972688-01",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+rouleau+lavant%2C+brosse+Submarine+Dyson+972688-01&tag=autoconsom-21"
         },
         {
           "name": "Brosse Fluffy Optic™ pour sols durs",
@@ -911,7 +932,7 @@
           "frequency": "Tous les 12-24 mois ou si usée",
           "why_replace": "Une brosse usée perd son efficacité pour capturer les poussières fines, peut rayer les sols délicats et générer un bruit excessif pendant l'utilisation.",
           "search_keywords": "Dyson V15s Detect Submarine SV47 brosse Fluffy Optic, rouleau brosse Dyson 971360-01",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Dyson+V15s+Detect+Submarine+SV47+brosse+Fluffy+Optic%2C+rouleau+brosse+Dyson+971360-01&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -927,7 +948,8 @@
           "question": "Puis-je utiliser du détergent dans le réservoir d'eau propre du Submarine ?",
           "answer": "Non, Dyson recommande d'utiliser uniquement de l'eau claire avec le rouleau lavant Submarine. L'utilisation de détergents ou de produits de nettoyage peut endommager le système de l'appareil et annuler la garantie."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Dyson-V15s-Detect-Submarine-SV47---Pièces--Entretien-10-15"
     },
     {
       "slug": "breville-barista-touch-impress-bes881bss-entretien-detartrage",
@@ -960,7 +982,7 @@
           "frequency": "Tous les 2-3 mois",
           "why_replace": "Un filtre usé altère le goût du café par le chlore et les impuretés, accélère l'accumulation de calcaire dans la machine et réduit la durée de vie de l'appareil.",
           "search_keywords": "Breville Barista Touch Impress BES881BSS filtre eau, filtre ClaroSwiss BES008, filtre à eau Breville",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+filtre+eau%2C+filtre+ClaroSwiss+BES008%2C+filtre+%C3%A0+eau+Breville&tag=autoconsom-21"
         },
         {
           "name": "Pastilles de nettoyage Breville pour machine à espresso",
@@ -968,7 +990,7 @@
           "frequency": "Toutes les 2-4 semaines (selon utilisation)",
           "why_replace": "Des conduits encrassés par les huiles de café donnent un goût amer ou rance au café, entraînent une extraction irrégulière et peuvent provoquer des pannes de la machine.",
           "search_keywords": "Breville Barista Touch Impress BES881BSS pastilles nettoyage, pastille nettoyage Breville BES011",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+pastilles+nettoyage%2C+pastille+nettoyage+Breville+BES011&tag=autoconsom-21"
         },
         {
           "name": "Solution détartrante Breville pour machine à espresso",
@@ -976,7 +998,7 @@
           "frequency": "Tous les 2-3 mois (selon dureté de l'eau)",
           "why_replace": "Le calcaire réduit le débit d'eau, rend la température instable, peut provoquer une surchauffe et endommager gravement les composants internes de la machine.",
           "search_keywords": "Breville Barista Touch Impress BES881BSS détartrant, solution détartrage Breville BES012",
-          "affiliate_url": null
+          "affiliate_url": "https://www.amazon.fr/s?k=Breville+Barista+Touch+Impress+BES881BSS+d%C3%A9tartrant%2C+solution+d%C3%A9tartrage+Breville+BES012&tag=autoconsom-21"
         }
       ],
       "faq": [
@@ -992,7 +1014,9 @@
           "question": "Comment nettoyer efficacement la buse vapeur de ma machine Breville ?",
           "answer": "Après chaque utilisation, essuyez la buse vapeur avec un chiffon humide propre. Si des trous sont obstrués, utilisez l'outil de nettoyage fourni pour les déboucher. Pour un nettoyage plus profond, purgez la vapeur pendant quelques secondes pour éliminer les résidus de lait internes."
         }
-      ]
+      ],
+      "telegraph_url": "https://telegra.ph/Breville-Barista-Touch-Impress-BES881BSS---Pièces--Entretien-10-15"
     }
-  ]
+  ],
+  "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"
 }

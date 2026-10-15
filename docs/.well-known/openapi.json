@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Auto-Consumables Agents API",
-    "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure et consommables électroménagers avec références PN officielles et liens de commande vérifiés sur Amazon.",
+    "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure, consommables électroménagers et rappels de sécurité avec liens vérifiés sur Amazon.",
     "version": "1.0.0"
   },
   "servers": [
@@ -12,10 +12,10 @@
     }
   ],
   "paths": {
-    "/api/agents-catalog.json": {
+    "/api/v1/catalog.json": {
       "get": {
         "summary": "Consulter le catalogue complet des consommables et codes erreurs",
-        "operationId": "getAgentsCatalog",
+        "operationId": "getCatalogV1",
         "responses": {
           "200": {
             "description": "Catalogue technique complet avec références constructeur et URLs d'achat affiliées",
@@ -27,9 +27,6 @@
                     "api_version": {
                       "type": "string"
                     },
-                    "description": {
-                      "type": "string"
-                    },
                     "generated_at": {
                       "type": "string"
                     },
@@ -37,6 +34,38 @@
                       "type": "integer"
                     },
                     "appliances": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/rappels-officiels.json": {
+      "get": {
+        "summary": "Consulter les derniers appareils électroménagers rappelés (RappelConso)",
+        "operationId": "getOfficialRecalls",
+        "responses": {
+          "200": {
+            "description": "Liste des rappels de sécurité avec suggestions d'appareils de remplacement conformes",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api_version": {
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    },
+                    "total_recalls": {
+                      "type": "integer"
+                    },
+                    "recalls": {
                       "type": "array"
                     }
                   }

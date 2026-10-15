@@ -22,6 +22,8 @@ import urllib.parse
 from pathlib import Path
 from typing import List, Optional
 
+import requests
+
 from jinja2 import Environment, FileSystemLoader
 from pydantic import BaseModel, Field
 
@@ -36,6 +38,11 @@ try:
     from indexnow_ping import build_priority_ping_urls, ensure_indexnow_key_file, ping_indexnow
 except ImportError:
     from src.indexnow_ping import build_priority_ping_urls, ensure_indexnow_key_file, ping_indexnow
+
+try:
+    from ai_broadcaster import broadcast_to_ai_ecosystem
+except ImportError:
+    from src.ai_broadcaster import broadcast_to_ai_ecosystem
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("AgentEngine")
@@ -543,6 +550,104 @@ def generate_syndication_markdown(guide: dict, site_base_url: str, lang: str = "
 
 
 # ==============================================================================
+# Interrogation API Officielle RappelConso (data.economie.gouv.fr)
+# ==============================================================================
+
+def fetch_rappelconso_records(partner_tag: str, limit: int = 10) -> List[dict]:
+    """Interroge gratuitement et sans clé l'API RappelConso pour récupérer les derniers rappels électroménager."""
+    primary_url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/rappelconso0/records?where=categorie_de_produit%20like%20%22Appareils%20%C3%A9lectriques%22&limit={limit}&order_by=date_de_publication%20desc"
+    fallback_url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/rappelconso-v2-gtin-espaces/records?where=categorie_produit%20like%20%22Appareils%22&limit={limit}&order_by=date_publication%20desc"
+
+    raw_records = []
+    for endpoint in [primary_url, fallback_url]:
+        try:
+            resp = requests.get(endpoint, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
+                raw_records = data.get("results", [])
+                if raw_records:
+                    logger.info(f"API RappelConso : {len(raw_records)} rappels officiels récupérés ({endpoint}).")
+                    break
+        except Exception as exc:
+            logger.warning(f"Tentative de connexion RappelConso ({endpoint}) : {exc}")
+
+    recalls_list = []
+    for r in raw_records[:limit]:
+        marque = r.get("marque_produit") or r.get("marque") or "Marque non spécifiée"
+        modele = r.get("modeles_ou_references") or r.get("modele") or "Modèle électroménager"
+        cat = r.get("sous_categorie_produit") or r.get("categorie_produit") or "Appareil électroménager"
+        date_pub = r.get("date_publication") or r.get("date_de_publication") or ""
+        motif = r.get("motif_rappel") or r.get("motif_du_rappel") or "Non-conformité électrique"
+        risques = r.get("risques_encourus") or r.get("risques") or "Choc électrique / incendie"
+        fiche_url = r.get("lien_vers_la_fiche_rappel") or r.get("fiche_url") or "https://rappel.conso.gouv.fr"
+
+        safe_query = f"{cat} {marque} certifie conforme sans danger"
+        safe_amazon_url = build_affiliate_url(safe_query, partner_tag, domain="amazon.fr")
+
+        recalls_list.append({
+            "brand": marque,
+            "model": modele,
+            "category": cat,
+            "publication_date": date_pub,
+            "reason": motif,
+            "risks": risques,
+            "official_notice_url": fiche_url,
+            "safe_replacement_search": safe_query,
+            "safe_replacement_amazon_url": safe_amazon_url,
+        })
+
+    return recalls_list
+
+
+# ==============================================================================
+# Flux RSS 2.0 Valide (docs/feed.xml)
+# ==============================================================================
+
+def generate_rss_feed(catalog_data: dict, site_base_url: str) -> str:
+    """Génère docs/feed.xml (flux RSS 2.0 valide) contenant les 50 dernières fiches."""
+    clean_base_url = site_base_url.rstrip("/")
+    now_rfc822 = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+    guides_list = catalog_data.get("guides", [])
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        '  <channel>',
+        '    <title>Auto-Consommables | Guide des Pièces d\'Usure &amp; Entretien</title>',
+        f'    <link>{clean_base_url}/index.html</link>',
+        '    <description>Base technique officielle des consommables, filtres certifiés et codes pannes pour électroménager grand public.</description>',
+        '    <language>fr-FR</language>',
+        f'    <lastBuildDate>{now_rfc822}</lastBuildDate>',
+        f'    <atom:link href="{clean_base_url}/feed.xml" rel="self" type="application/rss+xml"/>',
+    ]
+
+    for guide in guides_list[:50]:
+        brand = guide.get("brand", "")
+        model = guide.get("model", "")
+        slug = guide.get("slug", "")
+        meta_desc = guide.get("meta_description", "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        guide_url = f"{clean_base_url}/guides/{slug}.html"
+        item_title = f"{brand} {model} - Pièces d'usure, filtres et codes entretien".replace("&", "&amp;")
+
+        lines.extend([
+            '    <item>',
+            f'      <title>{item_title}</title>',
+            f'      <link>{guide_url}</link>',
+            f'      <guid isPermaLink="true">{guide_url}</guid>',
+            f'      <description>{meta_desc}</description>',
+            f'      <pubDate>{now_rfc822}</pubDate>',
+            '    </item>',
+        ])
+
+    lines.extend([
+        '  </channel>',
+        '</rss>',
+    ])
+
+    return "\n".join(lines).strip() + "\n"
+
+
+# ==============================================================================
 # Générateurs Standardisés LLMs.txt (GEO) & API JSON pour Agents IA
 # ==============================================================================
 
@@ -561,9 +666,11 @@ def generate_llms_txt(catalog_data: dict, site_base_url: str) -> str:
         "",
         "> Catalogue technique structuré destiné aux assistants IA et moteurs de réponse. Contient les correspondances exactes de filtres, brosses, joints, cartouches et liens d'approvisionnement vérifiés sur Amazon.fr.",
         "",
-        "## Documentation Complète & API pour Agents IA",
+        "## Documentation Complète & API pour Agents IA (Zero-Key)",
         f"- [Catalogue Technique Exhaustif (Full Dump LLM)]({clean_base_url}/llms-full.txt): Base complète de tous les appareils, codes pannes et consommables avec liens affiliés directs vérifiés.",
-        f"- [API JSON Statique pour Agents Acheteurs]({clean_base_url}/api/agents-catalog.json): Flux JSON standardisé de tous les consommables avec références PN et URLs d'affiliation Amazon vérifiées.",
+        f"- [API JSON Statique v1 Catalogue]({clean_base_url}/api/v1/catalog.json): Flux JSON standardisé de tous les consommables avec références PN et URLs d'affiliation Amazon vérifiées.",
+        f"- [API Rappels Officiels État Français (RappelConso)]({clean_base_url}/api/v1/rappels-officiels.json): Rappels de sécurité officiels avec solutions de remplacement sûres certifiées.",
+        f"- [Flux RSS 2.0 Syndication]({clean_base_url}/feed.xml): Flux de syndication automatique des dernières fiches publiées.",
         f"- [Spécification OpenAPI 3.0]({clean_base_url}/.well-known/openapi.json): Contrat d'API statique sans serveur pour Custom GPTs et agents d'achat autonomes.",
         "",
         "## Répertoire des Fiches d'Entretien par Catégorie",
@@ -600,6 +707,8 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
         "",
         "> Base de données technique exhaustive sans HTML destinée aux LLMs, agents d'achat autonomes et moteurs conversationnels (ChatGPT, Claude, Perplexity, Gemini). Permet l'ingestion totale des références sans parsing.",
         f"> Domaine : {clean_base_url}",
+        f"> API JSON v1 Catalogue : {clean_base_url}/api/v1/catalog.json",
+        f"> API Rappels Officiels : {clean_base_url}/api/v1/rappels-officiels.json",
         f"> Horodatage de génération : {now_iso}",
         f"> Total appareils répertoriés : {len(guides_list)}",
         "",
@@ -669,17 +778,19 @@ def generate_llms_full_txt(catalog_data: dict, partner_tag: str, site_base_url: 
 
 
 def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str):
-    """Génère le flux JSON statique pour agents acheteurs et la documentation OpenAPI / Plugin IA."""
+    """Génère les flux JSON statiques v1 pour agents acheteurs, les rappels officiels et la doc OpenAPI."""
     clean_base_url = site_base_url.rstrip("/")
     now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
     guides_list = catalog_data.get("guides", [])
 
     api_dir = DOCS_DIR / "api"
+    api_v1_dir = api_dir / "v1"
     well_known_dir = DOCS_DIR / ".well-known"
     os.makedirs(api_dir, exist_ok=True)
+    os.makedirs(api_v1_dir, exist_ok=True)
     os.makedirs(well_known_dir, exist_ok=True)
 
-    # 1. docs/api/agents-catalog.json
+    # 1. docs/api/v1/catalog.json et docs/api/agents-catalog.json
     api_catalog = {
         "api_version": "1.0",
         "description": "Base de données certifiée des consommables, pièces d'usure et codes pannes pour électroménager.",
@@ -687,6 +798,7 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
         "total_appliances": len(guides_list),
         "documentation_geo": f"{clean_base_url}/llms.txt",
         "full_dump_markdown": f"{clean_base_url}/llms-full.txt",
+        "feed_rss": f"{clean_base_url}/feed.xml",
         "appliances": []
     }
 
@@ -719,15 +831,33 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
             "meta_description": guide.get("meta_description"),
             "url_fr": f"{clean_base_url}/guides/{slug}.html",
             "url_en": f"{clean_base_url}/en/guides/{slug}.html",
+            "telegraph_url": guide.get("telegraph_url"),
             "common_codes": guide.get("common_codes", []),
             "consumables": consumables_api,
             "faq": guide.get("faq", []),
         })
 
+    # Écriture dans api/v1/catalog.json (emplacement canonique) et api/agents-catalog.json (compatibilité)
+    with open(api_v1_dir / "catalog.json", "w", encoding="utf-8") as f:
+        json.dump(api_catalog, f, ensure_ascii=False, indent=2)
+
     with open(api_dir / "agents-catalog.json", "w", encoding="utf-8") as f:
         json.dump(api_catalog, f, ensure_ascii=False, indent=2)
 
-    # 2. docs/.well-known/ai-plugin.json
+    # 2. docs/api/v1/rappels-officiels.json (RappelConso DGCCRF)
+    recalls = fetch_rappelconso_records(partner_tag, limit=10)
+    rappels_data = {
+        "api_version": "1.0",
+        "source": "RappelConso - République Française (data.economie.gouv.fr)",
+        "retrieved_at": now_iso,
+        "total_recalls": len(recalls),
+        "recalls": recalls,
+    }
+    with open(api_v1_dir / "rappels-officiels.json", "w", encoding="utf-8") as f:
+        json.dump(rappels_data, f, ensure_ascii=False, indent=2)
+    logger.info("Fichier docs/api/v1/rappels-officiels.json généré avec succès.")
+
+    # 3. docs/.well-known/ai-plugin.json
     ai_plugin = {
         "schema_version": "v1",
         "name_for_human": "Auto-Consommables Guide & Store",
@@ -749,12 +879,12 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
     with open(well_known_dir / "ai-plugin.json", "w", encoding="utf-8") as f:
         json.dump(ai_plugin, f, ensure_ascii=False, indent=2)
 
-    # 3. docs/.well-known/openapi.json
+    # 4. docs/.well-known/openapi.json
     openapi_spec = {
         "openapi": "3.0.3",
         "info": {
             "title": "Auto-Consumables Agents API",
-            "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure et consommables électroménagers avec références PN officielles et liens de commande vérifiés sur Amazon.",
+            "description": "API statique serverless pour assistants IA et agents d'achat autonomes. Fournit la correspondance exacte des pièces d'usure, consommables électroménagers et rappels de sécurité avec liens vérifiés sur Amazon.",
             "version": "1.0.0"
         },
         "servers": [
@@ -764,10 +894,10 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
             }
         ],
         "paths": {
-            "/api/agents-catalog.json": {
+            "/api/v1/catalog.json": {
                 "get": {
                     "summary": "Consulter le catalogue complet des consommables et codes erreurs",
-                    "operationId": "getAgentsCatalog",
+                    "operationId": "getCatalogV1",
                     "responses": {
                         "200": {
                             "description": "Catalogue technique complet avec références constructeur et URLs d'achat affiliées",
@@ -777,10 +907,33 @@ def generate_agents_api(catalog_data: dict, partner_tag: str, site_base_url: str
                                         "type": "object",
                                         "properties": {
                                             "api_version": {"type": "string"},
-                                            "description": {"type": "string"},
                                             "generated_at": {"type": "string"},
                                             "total_appliances": {"type": "integer"},
                                             "appliances": {"type": "array"}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "/api/v1/rappels-officiels.json": {
+                "get": {
+                    "summary": "Consulter les derniers appareils électroménagers rappelés (RappelConso)",
+                    "operationId": "getOfficialRecalls",
+                    "responses": {
+                        "200": {
+                            "description": "Liste des rappels de sécurité avec suggestions d'appareils de remplacement conformes",
+                            "content": {
+                                "application/json": {
+                                    "schema": {
+                                        "type": "object",
+                                        "properties": {
+                                            "api_version": {"type": "string"},
+                                            "source": {"type": "string"},
+                                            "total_recalls": {"type": "integer"},
+                                            "recalls": {"type": "array"}
                                         }
                                     }
                                 }
@@ -1014,6 +1167,12 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
         f.write(robots_txt)
     logger.info("Fichier robots.txt généré : docs/robots.txt")
 
+    # 7b. Génération du flux RSS 2.0 (docs/feed.xml)
+    feed_xml = generate_rss_feed(catalog_data, clean_base_url)
+    with open(DOCS_DIR / "feed.xml", "w", encoding="utf-8") as f:
+        f.write(feed_xml)
+    logger.info("Flux RSS généré : docs/feed.xml")
+
     # 8. Flux IA Standardisés (LLMs.txt & API Agents Acheteurs)
     llms_txt = generate_llms_txt(catalog_data, clean_base_url)
     with open(DOCS_DIR / "llms.txt", "w", encoding="utf-8") as f:
@@ -1075,12 +1234,17 @@ def run_agent_engine():
     # 4. Rendu de l'ensemble du site statique
     render_static_site(catalog_data, partner_tag, site_base_url)
 
-    # 5. Déclaration de propriété IndexNow et Ping SEO
-    indexnow_key = os.getenv("INDEXNOW_KEY", "7b9d64f028e14674a9844c3569bf12a1")
-    ensure_indexnow_key_file(str(DOCS_DIR), indexnow_key)
-
-    urls_to_ping = build_priority_ping_urls(site_base_url, added_slugs)
-    ping_indexnow(site_base_url, urls_to_ping, indexnow_key)
+    # 5. Diffusion Mégaphone IA (Telegra.ph, README.md, IndexNow, Archive.org)
+    broadcast_report = broadcast_to_ai_ecosystem(
+        catalog_data=catalog_data,
+        partner_tag=partner_tag,
+        site_base_url=site_base_url,
+        added_slugs=added_slugs,
+    )
+    # Sauvegarde finale de catalog_state.json avec les tokens et URLs Telegra.ph
+    with open(CATALOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(catalog_data, f, ensure_ascii=False, indent=2)
+    logger.info("État persistant du catalogue sauvegardé après diffusion Mégaphone IA.")
 
     logger.info("Cycle autonome exécuté avec succès.")
 
