@@ -1,140 +1,243 @@
 {% extends "base.html" %}
 
-{% block title %}{% if lang == 'en' %}Operations & Analytics Dashboard | AutoConsumables.com{% else %}Tableau de Bord & Métriques Opérationnelles | AutoConsumables.fr{% endif %}{% endblock %}
-{% block meta_description %}{% if lang == 'en' %}Real-time operational dashboard for AutoConsumables: catalog metrics, affiliate tracking, and diagnostic hub.{% else %}Tableau de bord opérationnel en temps réel d'AutoConsumables : métriques du catalogue, suivi des clics et hub de diagnostic.{% endif %}{% endblock %}
+{% block title %}AutoConsumables Ops — Tableau de Bord Sécurisé{% endblock %}
+{% block meta_description %}Application interne de gestion et de métriques opérationnelles.{% endblock %}
+
+{% block meta_robots %}<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">{% endblock %}
+
+{% block head_extra %}
+<!-- Configuration PWA (Progressive Web App pour Android / Mobile) -->
+<link rel="manifest" href="{{ base_prefix }}/manifest.json">
+<meta name="theme-color" content="#0f766e">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AutoConsom">
+<link rel="apple-touch-icon" href="{{ base_prefix }}/icon-192.png">
+
+<style>
+    /* Écran de Verrouillage PIN Sécurisé */
+    #pin-lock-overlay {
+        position: fixed;
+        inset: 0;
+        background: #0f172a;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        backdrop-filter: blur(10px);
+    }
+    .pin-box {
+        background: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 20px;
+        padding: 2.5rem 2rem;
+        width: 100%;
+        max-width: 380px;
+        text-align: center;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .pin-input {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.8rem;
+        letter-spacing: 0.35em;
+        text-align: center;
+        background: #0f172a;
+        border: 2px solid #334155;
+        border-radius: 12px;
+        color: #f8fafc;
+        outline: none;
+        margin: 1.5rem 0 1rem;
+        transition: border-color 0.2s;
+    }
+    .pin-input:focus {
+        border-color: #14b8a6;
+    }
+    .pin-btn {
+        width: 100%;
+        padding: 0.9rem;
+        font-size: 1rem;
+        font-weight: 700;
+        background: #0f766e;
+        color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+    .pin-btn:hover {
+        background: #115e59;
+    }
+    .pin-error {
+        color: #f87171;
+        font-size: 0.875rem;
+        margin-top: 0.75rem;
+        display: none;
+    }
+</style>
+{% endblock %}
 
 {% block content %}
-<div class="container" style="max-width: 1200px;">
-    <!-- En-tête du Dashboard -->
+<!-- 1. Écran de Verrouillage PIN (Affiché par défaut tant que le code n'est pas saisi) -->
+<div id="pin-lock-overlay">
+    <div class="pin-box">
+        <div style="width: 56px; height: 56px; background: rgba(15, 118, 110, 0.2); border: 2px solid #14b8a6; border-radius: 16px; margin: 0 auto 1.25rem; display: flex; align-items: center; justify-content: center;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+        </div>
+        <h2 style="color: #f8fafc; font-size: 1.4rem; font-weight: 800; margin-bottom: 0.25rem;">AutoConsumables Ops</h2>
+        <p style="color: #94a3b8; font-size: 0.85rem;">Accès Privé & Télémétrie Sécurisée</p>
+
+        <form id="pin-form" onsubmit="event.preventDefault(); verifyPin();">
+            <input type="password" id="pin-field" class="pin-input" placeholder="••••" maxlength="8" inputmode="numeric" autofocus autocomplete="off">
+            <button type="submit" class="pin-btn">Déverrouiller le Tableau de Bord</button>
+            <div id="pin-error-msg" class="pin-error">Code PIN invalide. Réessayez.</div>
+            <p style="color: #64748b; font-size: 0.75rem; margin-top: 1rem;">Code par défaut : <code>2026</code> (modifiable dans les réglages)</p>
+        </form>
+    </div>
+</div>
+
+<!-- 2. Contenu du Dashboard (Déverrouillé) -->
+<div id="dashboard-content" class="container" style="max-width: 1200px; display: none;">
+    <!-- En-tête du Dashboard avec Actions Rapides -->
     <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
         <div>
             <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
                 <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
                 <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #047857;">
-                    {% if lang == 'en' %}System Live & Autonomous{% else %}Système Actif & Autonome{% endif %}
+                    Session Sécurisée • Mode Autonome
                 </span>
             </div>
-            <h1 style="font-size: 2.2rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
-                {% if lang == 'en' %}Operations & Analytics Dashboard{% else %}Tableau de Bord & Métriques Opérationnelles{% endif %}
+            <h1 style="font-size: 2.1rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
+                Centre de Contrôle Opérationnel
             </h1>
-            <p style="color: var(--text-muted); font-size: 1rem; margin-top: 0.35rem;">
-                {% if lang == 'en' %}Autonomous content generation, inventory tracking, and affiliate click analytics.{% else %}Suivi de la production de contenu autonome, de l'inventaire des pièces et des interactions visiteurs.{% endif %}
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.35rem;">
+                Télémétrie en temps réel, inventaire des pièces et raccourcis de gestion.
             </p>
         </div>
-        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #334155; font-size: 0.875rem;">
-                Google Search Console &nearr;
-            </a>
-            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="btn btn-amazon" style="font-size: 0.875rem;">
-                Amazon Club Partenaires &nearr;
-            </a>
+        
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;">
+            <!-- Bouton d'installation PWA Mobile -->
+            <button id="pwa-install-btn" class="btn" style="display: none; background: #0f766e; color: #ffffff; font-size: 0.85rem; font-weight: 700; border: none;">
+                📱 Installer l'App Mobile
+            </button>
+            <button onclick="changePinPrompt()" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #475569; font-size: 0.85rem;">
+                ⚙️ Changer le PIN
+            </button>
+            <button onclick="lockDashboard()" class="btn" style="background: #fee2e2; border: 1px solid #fecaca; color: #991b1b; font-size: 0.85rem; font-weight: 600;">
+                🔒 Verrouiller
+            </button>
         </div>
     </div>
 
     <!-- 1. Cartes KPI Principales -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
         <div class="card" style="border-top: 4px solid var(--primary);">
             <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                {% if lang == 'en' %}Indexed Appliance Models{% else %}Modèles d'Appareils Validés{% endif %}
+                Modèles Validés
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_models }}
             </div>
             <div style="font-size: 0.85rem; color: #059669; font-weight: 600;">
-                {{ total_pages }} {% if lang == 'en' %}Bilingual HTML pages live{% else %}Pages HTML en ligne (FR & EN){% endif %}
+                {{ total_pages }} pages en ligne (FR & EN)
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid var(--secondary);">
             <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                {% if lang == 'en' %}Tracked Consumables & PN{% else %}Consommables & Part Numbers{% endif %}
+                Pièces Référencées (PN)
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_consumables }}
             </div>
             <div style="font-size: 0.85rem; color: var(--text-muted);">
-                {% if lang == 'en' %}100% verified dynamic queries{% else %}Requêtes de recherche sans 404{% endif %}
+                100% requêtes de recherche sans 404
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid #ef4444;">
             <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                {% if lang == 'en' %}Resolved Error Codes{% else %}Codes Erreurs & Voyants Mappés{% endif %}
+                Codes Erreurs Mappés
             </div>
-            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.4rem 0 0.2rem;">
                 {{ total_codes }}
             </div>
             <div style="font-size: 0.85rem; color: var(--text-muted);">
-                {% if lang == 'en' %}Indexed in Schema.org FAQPage{% else %}Indexés en Schema.org FAQPage{% endif %}
+                Schema.org FAQPage (Position Zéro)
             </div>
         </div>
 
         <div class="card" style="border-top: 4px solid var(--amazon-orange);">
             <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
-                {% if lang == 'en' %}Affiliate Click Logs{% else %}Clics Partenaires Détectés{% endif %}
+                Clics Affiliés Détectés
             </div>
-            <div id="stat-total-clicks" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.5rem 0 0.25rem;">
+            <div id="stat-total-clicks" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.4rem 0 0.2rem;">
                 0
             </div>
             <div style="font-size: 0.85rem; color: var(--text-muted);">
-                {% if lang == 'en' %}Zero-cookie browser telemetry{% else %}Télémétrie locale 0 cookie{% endif %}
+                Télémétrie locale sans cookie
             </div>
         </div>
     </div>
 
-    <!-- 2. Hub Opérationnel & Raccourcis Stratégiques -->
+    <!-- 2. Hub Opérationnel (Raccourcis en 1 Clic) -->
     <div style="margin-bottom: 2.5rem;">
-        <h2 style="font-size: 1.4rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem;">
-            {% if lang == 'en' %}Mission Control Hub{% else %}Centre de Commande & Liens Stratégiques{% endif %}
+        <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem;">
+            Raccourcis Directs & Monétisation
         </h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
             <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #4285f4;">
                 <div>
-                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Google Search Console</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Suivez les impressions Google, les clics naturels et l'indexation de vos 30+ fiches de consommables.</p>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Google Search Console</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Suivre les impressions de vos fiches et les requêtes réelles tapées par les internautes.</p>
                 </div>
                 <span style="font-size: 0.85rem; font-weight: 700; color: #4285f4; margin-top: 1rem;">Ouvrir la Console &rarr;</span>
             </a>
 
             <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #ea580c;">
                 <div>
-                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Club Partenaires Amazon</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Consultez les commandes expédiées, les revenus d'affiliation et le taux de conversion de votre ID <code>autoconsom-21</code>.</p>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Club Partenaires Amazon</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Vérifier vos commissions perçues, clics enregistrés et articles expédiés (ID: <code>autoconsom-21</code>).</p>
                 </div>
                 <span style="font-size: 0.85rem; font-weight: 700; color: #ea580c; margin-top: 1rem;">Voir les Rapports &rarr;</span>
             </a>
 
             <a href="https://github.com/Thorlan04/auto-consumables-agent/actions" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #10b981;">
                 <div>
-                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">GitHub Actions Autopilot</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Vérifiez les exécutions programmées du robot toutes les 6 heures et l'état des enrichissements IA.</p>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">GitHub Actions Autopilot</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Historique des enrichissements automatiques exécutés toutes les 6 heures par le robot.</p>
                 </div>
-                <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; margin-top: 1rem;">Historique des Runs &rarr;</span>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; margin-top: 1rem;">Runs de l'Agent &rarr;</span>
             </a>
 
             <a href="{{ base_prefix }}/sitemap.xml" target="_blank" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #0284c7;">
                 <div>
-                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Sitemap XML & IndexNow</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Le fichier cartographique XML à jour soumis à Google et notifié en temps réel à Bing / Yahoo.</p>
+                    <h3 style="font-size: 1.05rem; color: #1e293b; margin-bottom: 0.35rem;">Sitemap XML & Robots</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Cartographie XML des 30+ fiches soumise à Google et notifiée à Bing via IndexNow.</p>
                 </div>
-                <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Consulter sitemap.xml &rarr;</span>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Voir sitemap.xml &rarr;</span>
             </a>
         </div>
     </div>
 
-    <!-- 3. Télémétrie des Clics Affiliés en Temps Réel -->
+    <!-- 3. Télémétrie des Clics Affiliés -->
     <div class="card" style="margin-bottom: 2.5rem;">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
             <div>
-                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
-                    {% if lang == 'en' %}Affiliate Link Click Log (Zero-Cookie Local Storage){% else %}Journal des Clics Affiliés (Stockage Local Anonyme){% endif %}
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    Journal des Clics Affiliés (Stockage Local)
                 </h2>
-                <p style="font-size: 0.875rem; color: var(--text-muted);">
-                    {% if lang == 'en' %}Every outbound click to Amazon on this browser is recorded locally without third-party trackers.{% else %}Chaque clic sortant vers Amazon est consigné localement sur ce navigateur sans aucun cookie tiers intrusif.{% endif %}
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Clics sortants enregistrés sur votre appareil sans traqueur externe.
                 </p>
             </div>
-            <button onclick="clearClicksHistory()" class="btn" style="background: #f1f5f9; color: #64748b; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
-                {% if lang == 'en' %}Clear click history{% else %}Effacer l'historique local{% endif %}
+            <button onclick="clearClicksHistory()" class="btn" style="background: #f1f5f9; color: #64748b; font-size: 0.8rem; padding: 0.35rem 0.75rem;">
+                Effacer l'historique
             </button>
         </div>
 
@@ -142,15 +245,15 @@
             <table id="clicks-table">
                 <thead>
                     <tr>
-                        <th style="width: 25%;">{% if lang == 'en' %}Timestamp{% else %}Date & Heure{% endif %}</th>
-                        <th style="width: 35%;">{% if lang == 'en' %}Source Guide / Appliance{% else %}Fiche Appareil Source{% endif %}</th>
-                        <th style="width: 40%;">{% if lang == 'en' %}Target Search Query{% else %}Requête de Pièce Ouverte sur Amazon{% endif %}</th>
+                        <th style="width: 25%;">Date & Heure</th>
+                        <th style="width: 35%;">Fiche Source</th>
+                        <th style="width: 40%;">Lien Amazon Ouvert</th>
                     </tr>
                 </thead>
                 <tbody id="clicks-table-body">
                     <tr>
                         <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
-                            {% if lang == 'en' %}No outbound clicks recorded yet on this browser. Click an Amazon link on any guide to test tracking!{% else %}Aucun clic sortant enregistré pour le moment sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !{% endif %}
+                            Aucun clic sortant enregistré sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !
                         </td>
                     </tr>
                 </tbody>
@@ -158,30 +261,30 @@
         </div>
     </div>
 
-    <!-- 4. Inventaire Complet du Catalogue Référencé -->
+    <!-- 4. Inventaire du Catalogue Référencé -->
     <div class="card">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
             <div>
-                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
-                    {% if lang == 'en' %}Appliance Catalogue & Syndication Hub{% else %}Inventaire du Catalogue & Fichiers de Syndication{% endif %}
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    Inventaire des 15 Modèles Référencés
                 </h2>
-                <p style="font-size: 0.875rem; color: var(--text-muted);">
-                    {% if lang == 'en' %}Full listing of generated guides with error codes count and markdown syndication exports.{% else %}Toutes les fiches générées avec le décompte des codes d'erreurs et les fichiers Markdown prêts à syndiquer.{% endif %}
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    Fiches bilingues en ligne et exports Markdown de syndication.
                 </p>
             </div>
-            <input type="text" id="catalog-search" placeholder="{% if lang == 'en' %}Filter by brand or model...{% else %}Filtrer par marque ou modèle...{% endif %}" style="padding: 0.5rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; min-width: 260px;">
+            <input type="text" id="catalog-search" placeholder="Filtrer par marque ou modèle..." style="padding: 0.45rem 0.8rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.875rem; min-width: 240px;">
         </div>
 
         <div class="table-responsive">
             <table id="catalog-table">
                 <thead>
                     <tr>
-                        <th>Marque & Modèle</th>
+                        <th>Appareil</th>
                         <th>Catégorie</th>
                         <th style="text-align: center;">Pièces (PN)</th>
                         <th style="text-align: center;">Codes Erreurs</th>
                         <th style="text-align: center;">Fiches Web</th>
-                        <th style="text-align: center;">Syndication MD</th>
+                        <th style="text-align: center;">Export MD</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -200,8 +303,8 @@
                             {{ g.common_codes | length }}
                         </td>
                         <td style="text-align: center;">
-                            <a href="{{ base_prefix }}/guides/{{ g.slug }}.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
-                            <a href="{{ base_prefix }}/en/guides/{{ g.slug }}.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                            <a href="{{ base_prefix }}/guides/{{ g.slug }}.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche FR">FR 🇫🇷</a>
+                            <a href="{{ base_prefix }}/en/guides/{{ g.slug }}.html" style="color: #64748b; font-weight: 600;" title="Fiche EN">EN 🇺🇸</a>
                         </td>
                         <td style="text-align: center;">
                             <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/{{ g.slug }}.md</code>
@@ -217,7 +320,118 @@
 
 {% block scripts_extra %}
 <script>
-    // 1. Chargement et affichage des clics affiliés locaux
+    // Hash SHA-256 du code PIN par défaut '2026'
+    const DEFAULT_PIN_HASH = "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab";
+
+    // Fonction de hachage SHA-256 native du navigateur
+    async function sha256(message) {
+        const msgBuffer = new TextEncoder().encode(message);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Vérification du PIN
+    async function verifyPin() {
+        const input = document.getElementById('pin-field').value.trim();
+        const errEl = document.getElementById('pin-error-msg');
+        if (!input) return;
+
+        const inputHash = await sha256(input);
+        const savedHash = localStorage.getItem('autoconsom_pin_hash') || DEFAULT_PIN_HASH;
+
+        if (inputHash === savedHash) {
+            sessionStorage.setItem('autoconsom_auth', 'true');
+            document.getElementById('pin-lock-overlay').style.display = 'none';
+            document.getElementById('dashboard-content').style.display = 'block';
+            errEl.style.display = 'none';
+            renderLocalClicks();
+        } else {
+            errEl.style.display = 'block';
+            document.getElementById('pin-field').value = '';
+            document.getElementById('pin-field').focus();
+        }
+    }
+
+    // Verrouillage de la session
+    function lockDashboard() {
+        sessionStorage.removeItem('autoconsom_auth');
+        document.getElementById('dashboard-content').style.display = 'none';
+        document.getElementById('pin-lock-overlay').style.display = 'flex';
+        document.getElementById('pin-field').value = '';
+        document.getElementById('pin-field').focus();
+    }
+
+    // Changement du code PIN
+    async function changePinPrompt() {
+        const currentPin = prompt("Entrez votre code PIN actuel :");
+        if (!currentPin) return;
+
+        const currentHash = await sha256(currentPin);
+        const savedHash = localStorage.getItem('autoconsom_pin_hash') || DEFAULT_PIN_HASH;
+
+        if (currentHash !== savedHash) {
+            alert("Code PIN actuel incorrect !");
+            return;
+        }
+
+        const newPin = prompt("Entrez votre NOUVEAU code PIN (ex: 4 à 8 chiffres) :");
+        if (!newPin || newPin.trim().length < 4) {
+            alert("Le nouveau code PIN doit comporter au moins 4 caractères.");
+            return;
+        }
+
+        const confirmPin = prompt("Confirmez votre nouveau code PIN :");
+        if (newPin !== confirmPin) {
+            alert("Les deux saisies ne correspondent pas.");
+            return;
+        }
+
+        const newHash = await sha256(newPin.trim());
+        localStorage.setItem('autoconsom_pin_hash', newHash);
+        alert("✅ Votre code PIN a été modifié avec succès !");
+    }
+
+    // Vérification de session au chargement
+    window.addEventListener('DOMContentLoaded', () => {
+        if (sessionStorage.getItem('autoconsom_auth') === 'true') {
+            document.getElementById('pin-lock-overlay').style.display = 'none';
+            document.getElementById('dashboard-content').style.display = 'block';
+            renderLocalClicks();
+        } else {
+            document.getElementById('pin-field').focus();
+        }
+    });
+
+    // 2. Gestion de l'installation PWA Mobile
+    let deferredPrompt;
+    const installBtn = document.getElementById('pwa-install-btn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        if (installBtn) {
+            installBtn.style.display = 'inline-flex';
+            installBtn.addEventListener('click', () => {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        installBtn.style.display = 'none';
+                    }
+                    deferredPrompt = null;
+                });
+            });
+        }
+    });
+
+    // Enregistrement du Service Worker PWA
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').catch(err => {
+            console.log('SW registration note:', err);
+        });
+    }
+
+    // 3. Affichage des clics locaux
     function renderLocalClicks() {
         try {
             const raw = localStorage.getItem('autoconsom_clicks');
@@ -249,9 +463,7 @@
                 `;
             });
             tbody.innerHTML = html;
-        } catch(e) {
-            console.error('Erreur lecture clics:', e);
-        }
+        } catch(e) {}
     }
 
     function clearClicksHistory() {
@@ -261,7 +473,7 @@
         }
     }
 
-    // 2. Filtre en direct sur le tableau du catalogue
+    // 4. Filtre en direct sur le catalogue
     document.getElementById('catalog-search')?.addEventListener('input', function(e) {
         const query = e.target.value.toLowerCase().trim();
         const rows = document.querySelectorAll('#catalog-table tbody tr');
@@ -270,8 +482,5 @@
             row.style.display = text.includes(query) ? '' : 'none';
         });
     });
-
-    // Exécuter au chargement
-    renderLocalClicks();
 </script>
 {% endblock %}

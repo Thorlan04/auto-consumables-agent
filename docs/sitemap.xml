@@ -37,23 +37,6 @@
         <priority>0.3</priority>
     </url>
 
-    <!-- Dashboard FR & EN -->
-    <url>
-        <loc>https://thorlan04.github.io/auto-consumables-agent/dashboard.html</loc>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html"/>
-        <lastmod>2026-10-15</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html"/>
-        <lastmod>2026-10-15</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
 
     <!-- Guides FR & EN -->
     <url>

@@ -9,7 +9,7 @@
     <link rel="alternate" hreflang="fr" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
     <link rel="alternate" hreflang="en" href="{{ site_url }}{% if '/en/' not in canonical_path %}/en{{ canonical_path }}{% else %}{{ canonical_path }}{% endif %}">
     <link rel="alternate" hreflang="x-default" href="{{ site_url }}{{ canonical_path | replace('/en/', '/') }}">
-    <meta name="robots" content="index, follow">
+    {% block meta_robots %}<meta name="robots" content="index, follow">{% endblock %}
 
     <!-- Open Graph / Réseaux Sociaux -->
     <meta property="og:type" content="website">
@@ -339,11 +339,9 @@
                 <ul class="nav-links">
                     {% if lang == 'en' %}
                     <li><a href="{{ base_prefix }}/index.html">Guides</a></li>
-                    <li><a href="{{ base_prefix }}/dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="{{ base_prefix }}/mentions-legales.html">Legal & Disclosure</a></li>
                     {% else %}
                     <li><a href="{{ base_prefix }}/index.html">Guides d'Entretien</a></li>
-                    <li><a href="{{ base_prefix }}/dashboard.html">Tableau de Bord</a></li>
                     <li><a href="{{ base_prefix }}/mentions-legales.html">Mentions Légales</a></li>
                     {% endif %}
                 </ul>
@@ -411,7 +409,6 @@
                         <li><a href="{{ base_prefix }}/mentions-legales.html">{% if lang == 'en' %}Terms & Legal Notice{% else %}Mentions Légales & CGU{% endif %}</a></li>
                         <li><a href="{{ base_prefix }}/mentions-legales.html#affiliation">{% if lang == 'en' %}Amazon Affiliate Disclosure{% else %}Divulgation Partenaire Amazon{% endif %}</a></li>
                         <li><a href="{{ base_prefix }}/mentions-legales.html#rgpd">{% if lang == 'en' %}Zero-Cookie Privacy Policy{% else %}Politique de Confidentialité (0 Cookie){% endif %}</a></li>
-                        <li><a href="{{ base_prefix }}/dashboard.html">{% if lang == 'en' %}Operations & Stats Dashboard{% else %}Tableau de Bord & Métriques{% endif %}</a></li>
                         <li><a href="{{ site_url }}/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>

@@ -37,23 +37,6 @@
         <priority>0.3</priority>
     </url>
 
-    <!-- Dashboard FR & EN -->
-    <url>
-        <loc>{{ site_url }}/dashboard.html</loc>
-        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/dashboard.html"/>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/dashboard.html"/>
-        <lastmod>{{ now_iso }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>{{ site_url }}/en/dashboard.html</loc>
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site_url }}/en/dashboard.html"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="{{ site_url }}/dashboard.html"/>
-        <lastmod>{{ now_iso }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
 
     <!-- Guides FR & EN -->
     {% for guide in guides %}
