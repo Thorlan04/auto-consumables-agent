@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Comment résoudre l'anomalie Réservoir d&#39;eau sale plein (Voyant rouge) sur Dreame H12 Pro ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le réservoir d&#39;eau sale est à sa capacité maximale et doit être vidé.. Résolution sans outil : Retirez le réservoir d&#39;eau sale, videz-le, rincez-le à l&#39;eau claire et replacez-le correctement dans l&#39;appareil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Brosse bloquée (Voyant brosse clignotant) sur Dreame H12 Pro ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : La brosse rotative est obstruée par des cheveux, des fils ou d&#39;autres débris, empêchant son fonctionnement.. Résolution sans outil : Éteignez l&#39;appareil, retirez la brosse rotative de son logement et nettoyez-la soigneusement en retirant tous les éléments qui l&#39;entravent. Remettez-la en place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Pas d&#39;eau propre (Voyant réservoir d&#39;eau propre vide) sur Dreame H12 Pro ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le réservoir d&#39;eau propre est vide, et l&#39;appareil ne peut plus distribuer d&#39;eau pour le lavage.. Résolution sans outil : Remplissez le réservoir d&#39;eau propre avec de l&#39;eau du robinet (ou la solution de nettoyage Dreame) jusqu&#39;à la marque MAX indiquée. Assurez-vous qu&#39;il est bien inséré."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment nettoyer le réservoir d&#39;eau sale de mon Dreame H12 Pro ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../index.html">Guides d'Entretien</a></li>
+                    <li><a href="../dashboard.html">Tableau de Bord</a></li>
                     <li><a href="../mentions-legales.html">Mentions Légales</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -761,6 +786,7 @@ Questions Fréquentes sur le Dreame H12 Pro        </h2>
                         <li><a href="../mentions-legales.html">Mentions Légales & CGU</a></li>
                         <li><a href="../mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
                         <li><a href="../mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="../dashboard.html">Tableau de Bord & Métriques</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -770,5 +796,25 @@ Questions Fréquentes sur le Dreame H12 Pro        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

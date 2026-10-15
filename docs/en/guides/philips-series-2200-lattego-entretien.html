@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Voyant AquaClean Orange Clignotant on Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le filtre à eau AquaClean a atteint sa capacité maximale de filtration (ou n&#39;a pas été activé correctement).. Tool-free fix: Remplacer la cartouche AquaClean, la secouer 5 secondes dans l&#39;eau pour chasser l&#39;air, l&#39;insérer dans le réservoir et maintenir le bouton AquaClean 3 secondes jusqu&#39;au bip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Voyant Avertissement Triangle Rouge Clignotant on Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: La chambre d&#39;extraction (groupe café) est bloquée, mal enclenchée ou de l&#39;air est emprisonné dans le circuit d&#39;eau.. Tool-free fix: Retirer le réservoir, ouvrir la trappe de service latérale, retirer le groupe café, le rincer sous l&#39;eau tiède, vérifier qu&#39;il est en position neutre avant de le réinsérer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Voyant Bac à Marc Clignotant on Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le bac à marc est plein ou la trappe de service n&#39;est pas totalement refermée.. Tool-free fix: Vider le bac à marc machine allumée, patienter 5 secondes avant de le réinsérer pour que le cycle de détection s&#39;effectue."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Le pot à lait LatteGo a-t-il des tuyaux internes à nettoyer ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -785,6 +810,7 @@ Frequently Asked Questions (Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -794,5 +820,25 @@ Frequently Asked Questions (Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

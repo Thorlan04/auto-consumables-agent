@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Voyant de nettoyage du filtre à graisse (non spécifique, mais recommandation) on Philips Airfryer XXL HD9650/90?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: La grille anti-graisse du panier est encrassée, ce qui peut réduire l&#39;efficacité de la cuisson et générer de la fumée.. Tool-free fix: Laissez l&#39;appareil refroidir. Retirez le tiroir et le panier, puis nettoyez la grille anti-graisse avec de l&#39;eau chaude savonneuse et une brosse non abrasive. Rincez et séchez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Voyant d&#39;alimentation clignotant on Philips Airfryer XXL HD9650/90?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;appareil est en phase de préchauffage ou en mode pause pendant la cuisson.. Tool-free fix: C&#39;est un comportement normal. Attendez que le préchauffage soit terminé ou appuyez sur le bouton de démarrage pour reprendre la cuisson. Assurez-vous que le tiroir est bien fermé."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Écran éteint / Non réactif on Philips Airfryer XXL HD9650/90?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;appareil n&#39;est pas alimenté ou est en mode veille prolongée.. Tool-free fix: Vérifiez que le cordon d&#39;alimentation est correctement branché à la prise murale et à l&#39;arrière de l&#39;appareil. Appuyez sur le bouton marche/arrêt pour le réactiver."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment nettoyer l&#39;intérieur de mon Philips Airfryer XXL ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (Philips Airfryer XXL HD9650/90)        </h2>
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (Philips Airfryer XXL HD9650/90)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}{% if lang == 'en' %}Operations & Analytics Dashboard | AutoConsumables.com{% else %}Tableau de Bord & Métriques Opérationnelles | AutoConsumables.fr{% endif %}{% endblock %}
+{% block meta_description %}{% if lang == 'en' %}Real-time operational dashboard for AutoConsumables: catalog metrics, affiliate tracking, and diagnostic hub.{% else %}Tableau de bord opérationnel en temps réel d'AutoConsumables : métriques du catalogue, suivi des clics et hub de diagnostic.{% endif %}{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1200px;">
+    <!-- En-tête du Dashboard -->
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
+        <div>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
+                <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #047857;">
+                    {% if lang == 'en' %}System Live & Autonomous{% else %}Système Actif & Autonome{% endif %}
+                </span>
+            </div>
+            <h1 style="font-size: 2.2rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
+                {% if lang == 'en' %}Operations & Analytics Dashboard{% else %}Tableau de Bord & Métriques Opérationnelles{% endif %}
+            </h1>
+            <p style="color: var(--text-muted); font-size: 1rem; margin-top: 0.35rem;">
+                {% if lang == 'en' %}Autonomous content generation, inventory tracking, and affiliate click analytics.{% else %}Suivi de la production de contenu autonome, de l'inventaire des pièces et des interactions visiteurs.{% endif %}
+            </p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #334155; font-size: 0.875rem;">
+                Google Search Console &nearr;
+            </a>
+            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="btn btn-amazon" style="font-size: 0.875rem;">
+                Amazon Club Partenaires &nearr;
+            </a>
+        </div>
+    </div>
+
+    <!-- 1. Cartes KPI Principales -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
+        <div class="card" style="border-top: 4px solid var(--primary);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                {% if lang == 'en' %}Indexed Appliance Models{% else %}Modèles d'Appareils Validés{% endif %}
+            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                {{ total_models }}
+            </div>
+            <div style="font-size: 0.85rem; color: #059669; font-weight: 600;">
+                {{ total_pages }} {% if lang == 'en' %}Bilingual HTML pages live{% else %}Pages HTML en ligne (FR & EN){% endif %}
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--secondary);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                {% if lang == 'en' %}Tracked Consumables & PN{% else %}Consommables & Part Numbers{% endif %}
+            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                {{ total_consumables }}
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+                {% if lang == 'en' %}100% verified dynamic queries{% else %}Requêtes de recherche sans 404{% endif %}
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #ef4444;">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                {% if lang == 'en' %}Resolved Error Codes{% else %}Codes Erreurs & Voyants Mappés{% endif %}
+            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                {{ total_codes }}
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+                {% if lang == 'en' %}Indexed in Schema.org FAQPage{% else %}Indexés en Schema.org FAQPage{% endif %}
+            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--amazon-orange);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+                {% if lang == 'en' %}Affiliate Click Logs{% else %}Clics Partenaires Détectés{% endif %}
+            </div>
+            <div id="stat-total-clicks" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.5rem 0 0.25rem;">
+                0
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+                {% if lang == 'en' %}Zero-cookie browser telemetry{% else %}Télémétrie locale 0 cookie{% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Hub Opérationnel & Raccourcis Stratégiques -->
+    <div style="margin-bottom: 2.5rem;">
+        <h2 style="font-size: 1.4rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem;">
+            {% if lang == 'en' %}Mission Control Hub{% else %}Centre de Commande & Liens Stratégiques{% endif %}
+        </h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #4285f4;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Google Search Console</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Suivez les impressions Google, les clics naturels et l'indexation de vos 30+ fiches de consommables.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #4285f4; margin-top: 1rem;">Ouvrir la Console &rarr;</span>
+            </a>
+
+            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #ea580c;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Club Partenaires Amazon</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Consultez les commandes expédiées, les revenus d'affiliation et le taux de conversion de votre ID <code>autoconsom-21</code>.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #ea580c; margin-top: 1rem;">Voir les Rapports &rarr;</span>
+            </a>
+
+            <a href="https://github.com/Thorlan04/auto-consumables-agent/actions" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #10b981;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">GitHub Actions Autopilot</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Vérifiez les exécutions programmées du robot toutes les 6 heures et l'état des enrichissements IA.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; margin-top: 1rem;">Historique des Runs &rarr;</span>
+            </a>
+
+            <a href="{{ base_prefix }}/sitemap.xml" target="_blank" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #0284c7;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Sitemap XML & IndexNow</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Le fichier cartographique XML à jour soumis à Google et notifié en temps réel à Bing / Yahoo.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Consulter sitemap.xml &rarr;</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- 3. Télémétrie des Clics Affiliés en Temps Réel -->
+    <div class="card" style="margin-bottom: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    {% if lang == 'en' %}Affiliate Link Click Log (Zero-Cookie Local Storage){% else %}Journal des Clics Affiliés (Stockage Local Anonyme){% endif %}
+                </h2>
+                <p style="font-size: 0.875rem; color: var(--text-muted);">
+                    {% if lang == 'en' %}Every outbound click to Amazon on this browser is recorded locally without third-party trackers.{% else %}Chaque clic sortant vers Amazon est consigné localement sur ce navigateur sans aucun cookie tiers intrusif.{% endif %}
+                </p>
+            </div>
+            <button onclick="clearClicksHistory()" class="btn" style="background: #f1f5f9; color: #64748b; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+                {% if lang == 'en' %}Clear click history{% else %}Effacer l'historique local{% endif %}
+            </button>
+        </div>
+
+        <div class="table-responsive">
+            <table id="clicks-table">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">{% if lang == 'en' %}Timestamp{% else %}Date & Heure{% endif %}</th>
+                        <th style="width: 35%;">{% if lang == 'en' %}Source Guide / Appliance{% else %}Fiche Appareil Source{% endif %}</th>
+                        <th style="width: 40%;">{% if lang == 'en' %}Target Search Query{% else %}Requête de Pièce Ouverte sur Amazon{% endif %}</th>
+                    </tr>
+                </thead>
+                <tbody id="clicks-table-body">
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                            {% if lang == 'en' %}No outbound clicks recorded yet on this browser. Click an Amazon link on any guide to test tracking!{% else %}Aucun clic sortant enregistré pour le moment sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !{% endif %}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 4. Inventaire Complet du Catalogue Référencé -->
+    <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+                    {% if lang == 'en' %}Appliance Catalogue & Syndication Hub{% else %}Inventaire du Catalogue & Fichiers de Syndication{% endif %}
+                </h2>
+                <p style="font-size: 0.875rem; color: var(--text-muted);">
+                    {% if lang == 'en' %}Full listing of generated guides with error codes count and markdown syndication exports.{% else %}Toutes les fiches générées avec le décompte des codes d'erreurs et les fichiers Markdown prêts à syndiquer.{% endif %}
+                </p>
+            </div>
+            <input type="text" id="catalog-search" placeholder="{% if lang == 'en' %}Filter by brand or model...{% else %}Filtrer par marque ou modèle...{% endif %}" style="padding: 0.5rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; min-width: 260px;">
+        </div>
+
+        <div class="table-responsive">
+            <table id="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Marque & Modèle</th>
+                        <th>Catégorie</th>
+                        <th style="text-align: center;">Pièces (PN)</th>
+                        <th style="text-align: center;">Codes Erreurs</th>
+                        <th style="text-align: center;">Fiches Web</th>
+                        <th style="text-align: center;">Syndication MD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for g in guides %}
+                    <tr>
+                        <td>
+                            <strong>{{ g.brand }}</strong> {{ g.model }}
+                        </td>
+                        <td>
+                            <span class="badge">{{ g.category }}</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            {{ g.consumables | length }}
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            {{ g.common_codes | length }}
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="{{ base_prefix }}/guides/{{ g.slug }}.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="{{ base_prefix }}/en/guides/{{ g.slug }}.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/{{ g.slug }}.md</code>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts_extra %}
+<script>
+    // 1. Chargement et affichage des clics affiliés locaux
+    function renderLocalClicks() {
+        try {
+            const raw = localStorage.getItem('autoconsom_clicks');
+            const clicks = raw ? JSON.parse(raw) : [];
+            const countEl = document.getElementById('stat-total-clicks');
+            const tbody = document.getElementById('clicks-table-body');
+
+            if (countEl) countEl.textContent = clicks.length;
+
+            if (!clicks || clicks.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">Aucun clic sortant enregistré sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !</td></tr>`;
+                return;
+            }
+
+            let html = '';
+            clicks.forEach(item => {
+                const date = new Date(item.timestamp);
+                const dateStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+                html += `
+                    <tr>
+                        <td style="font-size: 0.85rem; color: var(--text-muted); white-space: nowrap;">${dateStr}</td>
+                        <td style="font-weight: 600; font-size: 0.9rem;">${item.title || 'Guide d\\'entretien'}</td>
+                        <td style="font-size: 0.85rem;">
+                            <a href="${item.url}" target="_blank" rel="noopener noreferrer" style="color: var(--amazon-orange); text-decoration: underline;">
+                                ${item.label || item.url}
+                            </a>
+                        </td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = html;
+        } catch(e) {
+            console.error('Erreur lecture clics:', e);
+        }
+    }
+
+    function clearClicksHistory() {
+        if (confirm("Voulez-vous réinitialiser l'historique des clics locaux ?")) {
+            localStorage.removeItem('autoconsom_clicks');
+            renderLocalClicks();
+        }
+    }
+
+    // 2. Filtre en direct sur le tableau du catalogue
+    document.getElementById('catalog-search')?.addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const rows = document.querySelectorAll('#catalog-table tbody tr');
+        rows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            row.style.display = text.includes(query) ? '' : 'none';
+        });
+    });
+
+    // Exécuter au chargement
+    renderLocalClicks();
+</script>
+{% endblock %}

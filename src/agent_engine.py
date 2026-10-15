@@ -32,7 +32,10 @@ try:
 except ImportError:
     pass
 
-from indexnow_ping import ensure_indexnow_key_file, ping_indexnow
+try:
+    from indexnow_ping import ensure_indexnow_key_file, ping_indexnow
+except ImportError:
+    from src.indexnow_ping import ensure_indexnow_key_file, ping_indexnow
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("AgentEngine")
@@ -697,6 +700,44 @@ def render_static_site(catalog_data: dict, partner_tag: str, site_base_url: str)
     with open(docs_en_dir / "mentions-legales.html", "w", encoding="utf-8") as f:
         f.write(mentions_en_html)
     logger.info("Pages mentions légales générées (FR et EN).")
+
+    # 7. Dashboard & Métriques Opérationnelles FR (docs/dashboard.html) & EN (docs/en/dashboard.html)
+    dashboard_template = env.get_template("dashboard.html")
+    total_models = len(guides_list)
+    total_pages = total_models * 2 + 6
+    total_consumables = sum(len(g.get("consumables", [])) for g in guides_list)
+    total_codes = sum(len(g.get("common_codes", [])) for g in guides_list)
+
+    dashboard_fr_html = dashboard_template.render(
+        guides=guides_list,
+        total_models=total_models,
+        total_pages=total_pages,
+        total_consumables=total_consumables,
+        total_codes=total_codes,
+        site_url=clean_base_url,
+        canonical_path="/dashboard.html",
+        base_prefix=".",
+        current_year=current_year,
+        lang="fr",
+    )
+    with open(DOCS_DIR / "dashboard.html", "w", encoding="utf-8") as f:
+        f.write(dashboard_fr_html)
+
+    dashboard_en_html = dashboard_template.render(
+        guides=en_guides_list,
+        total_models=total_models,
+        total_pages=total_pages,
+        total_consumables=total_consumables,
+        total_codes=total_codes,
+        site_url=clean_base_url,
+        canonical_path="/en/dashboard.html",
+        base_prefix="..",
+        current_year=current_year,
+        lang="en",
+    )
+    with open(docs_en_dir / "dashboard.html", "w", encoding="utf-8") as f:
+        f.write(dashboard_en_html)
+    logger.info("Pages dashboard générées (FR et EN).")
 
     # 6. Génération de docs/sitemap.xml
     sitemap_template = env.get_template("sitemap.xml")

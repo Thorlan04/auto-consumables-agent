@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations & Analytics Dashboard | AutoConsumables.com</title>
+    <meta name="description" content="Real-time operational dashboard for AutoConsumables: catalog metrics, affiliate tracking, and diagnostic hub.">
+    <link rel="canonical" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">
+    <link rel="alternate" hreflang="fr" href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html">
+    <link rel="alternate" hreflang="en" href="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">
+    <link rel="alternate" hreflang="x-default" href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Réseaux Sociaux -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Operations & Analytics Dashboard | AutoConsumables.com">
+    <meta property="og:description" content="Real-time operational dashboard for AutoConsumables: catalog metrics, affiliate tracking, and diagnostic hub.">
+    <meta property="og:url" content="https://thorlan04.github.io/auto-consumables-agent/en/dashboard.html">
+
+    <!-- CSS Inliné Ultra-Léger (< 15 Ko, Zéro Dépendance Bloquante, 100% Accessible) -->
+    <style>
+        :root {
+            --primary: #0f766e;
+            --primary-hover: #115e59;
+            --primary-light: #f0fdfa;
+            --secondary: #0284c7;
+            --amazon-orange: #ea580c;
+            --amazon-orange-hover: #c2410c;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+            --card-bg: #ffffff;
+            --warning-bg: #fffbeb;
+            --warning-border: #fde68a;
+            --warning-text: #92400e;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        /* Bandeau Transparence Légal (DGCCRF / Amazon Associates) */
+        .affiliate-banner {
+            background-color: #f1f5f9;
+            border-bottom: 1px solid var(--border-color);
+            color: #475569;
+            font-size: 0.825rem;
+            padding: 0.6rem 0;
+            text-align: center;
+        }
+
+        .affiliate-banner strong {
+            color: #0f172a;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .site-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .site-logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        /* Contenu Principal */
+        main {
+            padding: 2.5rem 0 4rem;
+            min-height: 80vh;
+        }
+
+        /* Cartes et Éléments */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Boutons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.65rem 1.25rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn-amazon {
+            background-color: var(--amazon-orange);
+            color: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(234, 88, 12, 0.25);
+        }
+
+        .btn-amazon:hover {
+            background-color: var(--amazon-orange-hover);
+            text-decoration: none;
+            transform: scale(1.02);
+        }
+
+        .btn-secondary {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border: 1px solid rgba(15, 118, 110, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: #ccfbf1;
+            text-decoration: none;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            border-radius: 9999px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .badge-brand {
+            background-color: #f8fafc;
+            color: #334155;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Avertissement de sécurité */
+        .security-notice {
+            background-color: var(--warning-bg);
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.25rem;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 1.5rem 0 2rem;
+            font-size: 0.9rem;
+            color: var(--warning-text);
+        }
+
+        .security-notice strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: #78350f;
+        }
+
+        /* Tableaux */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: #f8fafc;
+            padding: 0.85rem 1rem;
+            font-weight: 600;
+            color: #334155;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 0 2rem;
+            font-size: 0.875rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-col h3 {
+            color: #f1f5f9;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-col a {
+            color: #cbd5e1;
+        }
+
+        .footer-col a:hover {
+            color: #38bdf8;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #1e293b;
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .nav-links {
+                gap: 0.85rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. Bandeau Légal Obligatoire DGCCRF (FR) & FTC / Amazon Associates (EN/US) -->
+    <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
+        <div class="container">
+            <strong>Transparency Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases (#AffiliateLink). Routine maintenance and wear-part guides are provided for informational purposes only.
+        </div>
+    </aside>
+
+    <!-- Header Principal avec Sélecteur de Langue -->
+    <header>
+        <div class="container header-content">
+            <a href="../index.html" class="site-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+                <span>AutoConsumables</span>.com            </a>
+            <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Guides</a></li>
+                    <li><a href="../dashboard.html">Dashboard & Stats</a></li>
+                    <li><a href="../mentions-legales.html">Legal & Disclosure</a></li>
+                </ul>
+                <!-- Sélecteur de Langue Rapide -->
+                <div class="lang-selector" style="font-size: 0.85rem; font-weight: 700; border: 1px solid var(--border-color); padding: 0.25rem 0.6rem; border-radius: 9999px; background: #ffffff;">
+                    <a href="https://thorlan04.github.io/auto-consumables-agent/dashboard.html" title="Passer en Français" style="color: #64748b;">FR 🇫🇷</a>
+                    <span style="color: #cbd5e1; margin: 0 0.25rem;">|</span>
+                    <strong style="color: var(--primary);">EN 🇺🇸</strong>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu Spécifique de la Page -->
+    <main>
+<div class="container" style="max-width: 1200px;">
+    <!-- En-tête du Dashboard -->
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 1.5rem;">
+        <div>
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                <span style="background: #10b981; width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #10b981;"></span>
+                <span style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #047857;">
+System Live & Autonomous                </span>
+            </div>
+            <h1 style="font-size: 2.2rem; font-weight: 800; color: #0f172a; line-height: 1.2;">
+Operations & Analytics Dashboard            </h1>
+            <p style="color: var(--text-muted); font-size: 1rem; margin-top: 0.35rem;">
+Autonomous content generation, inventory tracking, and affiliate click analytics.            </p>
+        </div>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="btn" style="background: #ffffff; border: 1px solid var(--border-color); color: #334155; font-size: 0.875rem;">
+                Google Search Console &nearr;
+            </a>
+            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="btn btn-amazon" style="font-size: 0.875rem;">
+                Amazon Club Partenaires &nearr;
+            </a>
+        </div>
+    </div>
+
+    <!-- 1. Cartes KPI Principales -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
+        <div class="card" style="border-top: 4px solid var(--primary);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+Indexed Appliance Models            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                15
+            </div>
+            <div style="font-size: 0.85rem; color: #059669; font-weight: 600;">
+                36 Bilingual HTML pages live            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--secondary);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+Tracked Consumables & PN            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                52
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+100% verified dynamic queries            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid #ef4444;">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+Resolved Error Codes            </div>
+            <div style="font-size: 2.2rem; font-weight: 800; color: #0f172a; margin: 0.5rem 0 0.25rem;">
+                45
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+Indexed in Schema.org FAQPage            </div>
+        </div>
+
+        <div class="card" style="border-top: 4px solid var(--amazon-orange);">
+            <div style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+Affiliate Click Logs            </div>
+            <div id="stat-total-clicks" style="font-size: 2.2rem; font-weight: 800; color: #ea580c; margin: 0.5rem 0 0.25rem;">
+                0
+            </div>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">
+Zero-cookie browser telemetry            </div>
+        </div>
+    </div>
+
+    <!-- 2. Hub Opérationnel & Raccourcis Stratégiques -->
+    <div style="margin-bottom: 2.5rem;">
+        <h2 style="font-size: 1.4rem; font-weight: 700; color: #0f172a; margin-bottom: 1rem;">
+Mission Control Hub        </h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+            <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #4285f4;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Google Search Console</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Suivez les impressions Google, les clics naturels et l'indexation de vos 30+ fiches de consommables.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #4285f4; margin-top: 1rem;">Ouvrir la Console &rarr;</span>
+            </a>
+
+            <a href="https://partenaires.amazon.fr/" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #ea580c;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Club Partenaires Amazon</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Consultez les commandes expédiées, les revenus d'affiliation et le taux de conversion de votre ID <code>autoconsom-21</code>.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #ea580c; margin-top: 1rem;">Voir les Rapports &rarr;</span>
+            </a>
+
+            <a href="https://github.com/Thorlan04/auto-consumables-agent/actions" target="_blank" rel="noopener noreferrer" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #10b981;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">GitHub Actions Autopilot</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Vérifiez les exécutions programmées du robot toutes les 6 heures et l'état des enrichissements IA.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #10b981; margin-top: 1rem;">Historique des Runs &rarr;</span>
+            </a>
+
+            <a href="../sitemap.xml" target="_blank" class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between; border-left: 4px solid #0284c7;">
+                <div>
+                    <h3 style="font-size: 1.1rem; color: #1e293b; margin-bottom: 0.4rem;">Sitemap XML & IndexNow</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Le fichier cartographique XML à jour soumis à Google et notifié en temps réel à Bing / Yahoo.</p>
+                </div>
+                <span style="font-size: 0.85rem; font-weight: 700; color: #0284c7; margin-top: 1rem;">Consulter sitemap.xml &rarr;</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- 3. Télémétrie des Clics Affiliés en Temps Réel -->
+    <div class="card" style="margin-bottom: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+Affiliate Link Click Log (Zero-Cookie Local Storage)                </h2>
+                <p style="font-size: 0.875rem; color: var(--text-muted);">
+Every outbound click to Amazon on this browser is recorded locally without third-party trackers.                </p>
+            </div>
+            <button onclick="clearClicksHistory()" class="btn" style="background: #f1f5f9; color: #64748b; font-size: 0.8rem; padding: 0.4rem 0.8rem;">
+Clear click history            </button>
+        </div>
+
+        <div class="table-responsive">
+            <table id="clicks-table">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Timestamp</th>
+                        <th style="width: 35%;">Source Guide / Appliance</th>
+                        <th style="width: 40%;">Target Search Query</th>
+                    </tr>
+                </thead>
+                <tbody id="clicks-table-body">
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">
+No outbound clicks recorded yet on this browser. Click an Amazon link on any guide to test tracking!                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 4. Inventaire Complet du Catalogue Référencé -->
+    <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+                <h2 style="font-size: 1.3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">
+Appliance Catalogue & Syndication Hub                </h2>
+                <p style="font-size: 0.875rem; color: var(--text-muted);">
+Full listing of generated guides with error codes count and markdown syndication exports.                </p>
+            </div>
+            <input type="text" id="catalog-search" placeholder="Filter by brand or model..." style="padding: 0.5rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; min-width: 260px;">
+        </div>
+
+        <div class="table-responsive">
+            <table id="catalog-table">
+                <thead>
+                    <tr>
+                        <th>Marque & Modèle</th>
+                        <th>Catégorie</th>
+                        <th style="text-align: center;">Pièces (PN)</th>
+                        <th style="text-align: center;">Codes Erreurs</th>
+                        <th style="text-align: center;">Fiches Web</th>
+                        <th style="text-align: center;">Syndication MD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Tineco</strong> Floor One S5 (Combo / Pro)
+                        </td>
+                        <td>
+                            <span class="badge">Wet &amp; Dry Vacuums</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/tineco-floor-one-s5-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/tineco-floor-one-s5-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-s5-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>De&#39;Longhi</strong> Magnifica S (ECAM 22.110.B / 22.110.SB)
+                        </td>
+                        <td>
+                            <span class="badge">Bean-to-Cup Coffee Machines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/delonghi-magnifica-s-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/delonghi-magnifica-s-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-magnifica-s-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Roborock</strong> S8 / S8 Pro Ultra
+                        </td>
+                        <td>
+                            <span class="badge">Robot Vacuums &amp; Mops</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/roborock-s8-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/roborock-s8-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-s8-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Ninja</strong> Foodi DualZone (AF300EU / AF400EU)
+                        </td>
+                        <td>
+                            <span class="badge">Air Fryers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/ninja-foodi-dualzone-airfryer-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/ninja-foodi-dualzone-airfryer-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/ninja-foodi-dualzone-airfryer-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Philips</strong> Série 2200 / 3200 LatteGo (EP2220 / EP2231)
+                        </td>
+                        <td>
+                            <span class="badge">Bean-to-Cup Coffee Machines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/philips-series-2200-lattego-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/philips-series-2200-lattego-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-series-2200-lattego-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Xiaomi</strong> Smart Air Purifier 4
+                        </td>
+                        <td>
+                            <span class="badge">Air Purifiers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/xiaomi-smart-air-purifier-4-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/xiaomi-smart-air-purifier-4-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/xiaomi-smart-air-purifier-4-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Calor</strong> Pro Express Ultimate GV9720C0
+                        </td>
+                        <td>
+                            <span class="badge">Steam Generator Irons</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/calor-pro-express-ultimate-gv9720c0-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/calor-pro-express-ultimate-gv9720c0-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Dreame</strong> H12 Pro
+                        </td>
+                        <td>
+                            <span class="badge">Wet &amp; Dry Vacuums</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/dreame-h12-pro-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/dreame-h12-pro-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dreame-h12-pro-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Philips</strong> Airfryer XXL HD9650/90
+                        </td>
+                        <td>
+                            <span class="badge">Air Fryers</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-airfryer-xxl-hd9650-90-entretien-accessoires.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Tineco</strong> Floor One Switch S7 (FW210100EU)
+                        </td>
+                        <td>
+                            <span class="badge">Wet &amp; Dry Vacuums</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>De&#39;Longhi</strong> Rivelia (FEAM 44.55.B)
+                        </td>
+                        <td>
+                            <span class="badge">Bean-to-Cup Coffee Machines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/delonghi-rivelia-feam-44-55-b-entretien-detartrage.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Roborock</strong> Qrevo MaxV (QRMV01-00)
+                        </td>
+                        <td>
+                            <span class="badge">Robot Vacuums &amp; Mops</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/roborock-qrevo-maxv-qrmv01-00-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Philips</strong> LatteGo Série 5400 (EP5447/90)
+                        </td>
+                        <td>
+                            <span class="badge">Bean-to-Cup Coffee Machines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            4
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/philips-lattego-serie-5400-ep5447-90-entretien.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/philips-lattego-serie-5400-ep5447-90-entretien.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Dyson</strong> V15s Detect Submarine (SV47)
+                        </td>
+                        <td>
+                            <span class="badge">Wet &amp; Dry Vacuums</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/dyson-v15s-detect-submarine-sv47-entretien-filtres.md</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Breville</strong> Barista Touch Impress (BES881BSS)
+                        </td>
+                        <td>
+                            <span class="badge">Bean-to-Cup Coffee Machines</span>
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: var(--primary);">
+                            3
+                        </td>
+                        <td style="text-align: center; font-weight: 600; color: #ef4444;">
+                            3
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="../guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="font-weight: 600; margin-right: 0.5rem;" title="Fiche Française">FR 🇫🇷</a>
+                            <a href="../en/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html" style="color: #64748b; font-weight: 600;" title="Fiche Anglaise">EN 🇺🇸</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <code style="font-size: 0.75rem; background: #f8fafc; padding: 0.2rem 0.4rem; border-radius: 4px; border: 1px solid var(--border-color);">syndication/breville-barista-touch-impress-bes881bss-entretien-detartrage.md</code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <!-- Pied de Page Conforme LCEN / FTC / RGPD -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>AutoConsumables.com</h3>
+                    <p>
+                        Your independent resource for OEM-compatible replacement filters, brushes, and routine error codes for major home appliances.
+                    </p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
+                        Static zero-cookie, zero-tracker site hosted on high-performance global infrastructure.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Popular Categories</h3>
+                    <ul>
+                        <li><a href="../index.html?cat=Wet+and+Dry+Vacuums">Wet & Dry Vacuums</a></li>
+                        <li><a href="../index.html?cat=Bean-to-Cup+Coffee+Machines">Espresso Machines</a></li>
+                        <li><a href="../index.html?cat=Robot+Vacuums">Robot Vacuums</a></li>
+                        <li><a href="../index.html?cat=Air+Fryers">Air Fryers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legal & Disclosure</h3>
+                    <ul>
+                        <li><a href="../mentions-legales.html">Terms & Legal Notice</a></li>
+                        <li><a href="../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
+                        <li><a href="../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../dashboard.html">Operations & Stats Dashboard</a></li>
+                        <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AutoConsumables — All rights reserved. Routine maintenance guides for preventive care.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
+<script>
+    // 1. Chargement et affichage des clics affiliés locaux
+    function renderLocalClicks() {
+        try {
+            const raw = localStorage.getItem('autoconsom_clicks');
+            const clicks = raw ? JSON.parse(raw) : [];
+            const countEl = document.getElementById('stat-total-clicks');
+            const tbody = document.getElementById('clicks-table-body');
+
+            if (countEl) countEl.textContent = clicks.length;
+
+            if (!clicks || clicks.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: var(--text-muted); padding: 2rem;">Aucun clic sortant enregistré sur ce navigateur. Ouvrez un guide et cliquez sur un bouton Amazon pour tester !</td></tr>`;
+                return;
+            }
+
+            let html = '';
+            clicks.forEach(item => {
+                const date = new Date(item.timestamp);
+                const dateStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+                html += `
+                    <tr>
+                        <td style="font-size: 0.85rem; color: var(--text-muted); white-space: nowrap;">${dateStr}</td>
+                        <td style="font-weight: 600; font-size: 0.9rem;">${item.title || 'Guide d\\'entretien'}</td>
+                        <td style="font-size: 0.85rem;">
+                            <a href="${item.url}" target="_blank" rel="noopener noreferrer" style="color: var(--amazon-orange); text-decoration: underline;">
+                                ${item.label || item.url}
+                            </a>
+                        </td>
+                    </tr>
+                `;
+            });
+            tbody.innerHTML = html;
+        } catch(e) {
+            console.error('Erreur lecture clics:', e);
+        }
+    }
+
+    function clearClicksHistory() {
+        if (confirm("Voulez-vous réinitialiser l'historique des clics locaux ?")) {
+            localStorage.removeItem('autoconsom_clicks');
+            renderLocalClicks();
+        }
+    }
+
+    // 2. Filtre en direct sur le tableau du catalogue
+    document.getElementById('catalog-search')?.addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const rows = document.querySelectorAll('#catalog-table tbody tr');
+        rows.forEach(row => {
+            const text = row.textContent.toLowerCase();
+            row.style.display = text.includes(query) ? '' : 'none';
+        });
+    });
+
+    // Exécuter au chargement
+    renderLocalClicks();
+</script>
+</body>
+</html>

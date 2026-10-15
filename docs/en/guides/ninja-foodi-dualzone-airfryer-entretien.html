@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Code Affiché : &#39;SHUT&#39; on Ninja Foodi DualZone (AF300EU / AF400EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;un des deux tiroirs de cuisson n&#39;est pas inséré à fond dans son logement.. Tool-free fix: Pousser fermement le tiroir concerné (Zone 1 ou Zone 2) jusqu&#39;à entendre le clic de contact de sécurité mécanique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Message : &#39;E01&#39; ou &#39;E02&#39; on Ninja Foodi DualZone (AF300EU / AF400EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Anomalie passagère de la sonde de température thermique du panier 1 ou 2.. Tool-free fix: Débrancher l&#39;appareil du secteur pendant 10 minutes pour réinitialiser la carte de contrôle, vérifier qu&#39;aucun résidu de graisse ne bloque la sonde en haut du compartiment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Fumée Blanche en Cours de Cuisson on Ninja Foodi DualZone (AF300EU / AF400EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Accumulation d&#39;huile ou de gras de viande tombé sur la résistance supérieure ou au fond du bac.. Tool-free fix: Arrêter la cuisson, laisser refroidir, essuyer l&#39;excès de graisse liquide au fond du panier et nettoyer la grille croustillante avec une éponge non abrasive."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Les paniers et grilles du Ninja DualZone passent-ils au lave-vaisselle ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -785,6 +810,7 @@ Frequently Asked Questions (Ninja Foodi DualZone (AF300EU / AF400EU))        </h
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -794,5 +820,25 @@ Frequently Asked Questions (Ninja Foodi DualZone (AF300EU / AF400EU))        </h
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

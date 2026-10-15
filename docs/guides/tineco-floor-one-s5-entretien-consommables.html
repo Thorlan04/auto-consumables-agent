@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant Rouleau Rouge Clignotant sur Tineco Floor One S5 (Combo / Pro) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Blocage mécanique du rouleau brosse ou cheveux enroulés autour de l&#39;axe.. Résolution sans outil : Retirer le capot transparent du rouleau en pressant le loquet, dégager le rouleau brosse et couper les fils ou cheveux avec l&#39;outil de coupe fourni. Rincer et sécher le rouleau."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant DWT (Réservoir Eau Sale) Plein sur Tineco Floor One S5 (Combo / Pro) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le flotteur du bac d&#39;eau sale a atteint le niveau maximum ou les capteurs de niveau sont encrassés.. Résolution sans outil : Vider immédiatement le réservoir d&#39;eau sale (DWT), rincer abondamment le filtre à débris et essuyer les deux électrodes métalliques sous le couvercle avec un chiffon sec."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Icône Auto-nettoyage Clignotante sur Tineco Floor One S5 (Combo / Pro) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : L&#39;appareil détecte un encrassement résiduel des conduits internes et requiert son cycle station.. Résolution sans outil : Placer l&#39;aspirateur sur sa base de charge branchée, s&#39;assurer que le réservoir d&#39;eau propre contient au moins 30% d&#39;eau et appuyer sur le bouton cycle auto-nettoyage sur la poignée."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Peut-on laver le filtre HEPA du Tineco Floor One S5 à l&#39;eau chaude ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../index.html">Guides d'Entretien</a></li>
+                    <li><a href="../dashboard.html">Tableau de Bord</a></li>
                     <li><a href="../mentions-legales.html">Mentions Légales</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -786,6 +811,7 @@ Questions Fréquentes sur le Tineco Floor One S5 (Combo / Pro)        </h2>
                         <li><a href="../mentions-legales.html">Mentions Légales & CGU</a></li>
                         <li><a href="../mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
                         <li><a href="../mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="../dashboard.html">Tableau de Bord & Métriques</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -795,5 +821,25 @@ Questions Fréquentes sur le Tineco Floor One S5 (Combo / Pro)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

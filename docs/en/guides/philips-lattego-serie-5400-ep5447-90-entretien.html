@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Voyant &#34;CALC/CLEAN&#34; allumé on Philips LatteGo Série 5400 (EP5447/90)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: La machine indique qu&#39;un cycle de détartrage est nécessaire pour maintenir ses performances et éviter l&#39;accumulation de calcaire.. Tool-free fix: Lancez le programme de détartrage en suivant les instructions affichées sur l&#39;écran de la machine. Utilisez un détartrant doux compatible Philips. Le processus est guidé pas à pas et ne nécessite aucun outil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Voyant &#34;Groupe café&#34; clignotant on Philips LatteGo Série 5400 (EP5447/90)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le groupe café est sale, mal inséré ou nécessite un nettoyage et une lubrification.. Tool-free fix: Éteignez la machine. Retirez le groupe café, rincez-le abondamment à l&#39;eau tiède (sans savon) et laissez-le sécher à l&#39;air libre. Nettoyez l&#39;intérieur de la machine. Lubrifiez le groupe café aux points indiqués avant de le réinsérer correctement jusqu&#39;au clic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Voyant &#34;Réservoir d&#39;eau&#34; vide on Philips LatteGo Série 5400 (EP5447/90)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le réservoir d&#39;eau est vide ou mal positionné, empêchant la machine de fonctionner.. Tool-free fix: Retirez le réservoir d&#39;eau, remplissez-le d&#39;eau fraîche jusqu&#39;au niveau MAX, puis replacez-le fermement dans son logement jusqu&#39;à ce qu&#39;il s&#39;enclenche correctement."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "À quelle fréquence dois-je nettoyer le système LatteGo de ma Philips Série 5400 ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -785,6 +810,7 @@ Frequently Asked Questions (Philips LatteGo Série 5400 (EP5447/90))        </h2
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -794,5 +820,25 @@ Frequently Asked Questions (Philips LatteGo Série 5400 (EP5447/90))        </h2
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

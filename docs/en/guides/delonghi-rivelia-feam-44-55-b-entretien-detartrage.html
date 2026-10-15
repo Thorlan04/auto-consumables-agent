@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Détartrer on De&#39;Longhi Rivelia (FEAM 44.55.B)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;appareil indique qu&#39;un cycle de détartrage est nécessaire pour maintenir la performance et la durée de vie.. Tool-free fix: Suivez les instructions à l&#39;écran pour lancer le programme de détartrage en utilisant le produit détartrant De&#39;Longhi EcoDecalk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Vider marc de café on De&#39;Longhi Rivelia (FEAM 44.55.B)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le bac à marc de café est plein et doit être vidé.. Tool-free fix: Retirez le bac à marc, videz-le et rincez-le à l&#39;eau claire, puis replacez-le correctement dans la machine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Remplir réservoir eau on De&#39;Longhi Rivelia (FEAM 44.55.B)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le niveau d&#39;eau dans le réservoir est trop bas pour préparer un café.. Tool-free fix: Retirez le réservoir d&#39;eau, remplissez-le d&#39;eau fraîche jusqu&#39;au niveau maximum et replacez-le fermement dans son logement."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment réinitialiser l&#39;alerte de détartrage après l&#39;avoir effectué sur ma Rivelia ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (De&#39;Longhi Rivelia (FEAM 44.55.B))        </h2>
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (De&#39;Longhi Rivelia (FEAM 44.55.B))        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

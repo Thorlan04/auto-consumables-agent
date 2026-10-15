@@ -46,13 +46,23 @@
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {% for code in guide.common_codes %}
+        {
+          "@type": "Question",
+          "name": "{% if lang == 'en' %}How to fix {{ code.code }} on {{ guide.brand }} {{ guide.model }}?{% else %}Comment résoudre l'anomalie {{ code.code }} sur {{ guide.brand }} {{ guide.model }} ?{% endif %}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{% if lang == 'en' %}Cause: {{ code.meaning | replace('\"', '\\\"') }}. Tool-free fix: {{ code.solution | replace('\"', '\\\"') }}{% else %}Cause : {{ code.meaning | replace('\"', '\\\"') }}. Résolution sans outil : {{ code.solution | replace('\"', '\\\"') }}{% endif %}"
+          }
+        },
+        {% endfor %}
         {% for item in guide.faq %}
         {
           "@type": "Question",
-          "name": "{{ item.question | replace('"', '\\"') }}",
+          "name": "{{ item.question | replace('\"', '\\\"') }}",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "{{ item.answer | replace('"', '\\"') }}"
+            "text": "{{ item.answer | replace('\"', '\\\"') }}"
           }
         }{% if not loop.last %},{% endif %}
         {% endfor %}

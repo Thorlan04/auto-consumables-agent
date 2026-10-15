@@ -339,9 +339,11 @@
                 <ul class="nav-links">
                     {% if lang == 'en' %}
                     <li><a href="{{ base_prefix }}/index.html">Guides</a></li>
+                    <li><a href="{{ base_prefix }}/dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="{{ base_prefix }}/mentions-legales.html">Legal & Disclosure</a></li>
                     {% else %}
                     <li><a href="{{ base_prefix }}/index.html">Guides d'Entretien</a></li>
+                    <li><a href="{{ base_prefix }}/dashboard.html">Tableau de Bord</a></li>
                     <li><a href="{{ base_prefix }}/mentions-legales.html">Mentions Légales</a></li>
                     {% endif %}
                 </ul>
@@ -409,6 +411,7 @@
                         <li><a href="{{ base_prefix }}/mentions-legales.html">{% if lang == 'en' %}Terms & Legal Notice{% else %}Mentions Légales & CGU{% endif %}</a></li>
                         <li><a href="{{ base_prefix }}/mentions-legales.html#affiliation">{% if lang == 'en' %}Amazon Affiliate Disclosure{% else %}Divulgation Partenaire Amazon{% endif %}</a></li>
                         <li><a href="{{ base_prefix }}/mentions-legales.html#rgpd">{% if lang == 'en' %}Zero-Cookie Privacy Policy{% else %}Politique de Confidentialité (0 Cookie){% endif %}</a></li>
+                        <li><a href="{{ base_prefix }}/dashboard.html">{% if lang == 'en' %}Operations & Stats Dashboard{% else %}Tableau de Bord & Métriques{% endif %}</a></li>
                         <li><a href="{{ site_url }}/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -418,6 +421,26 @@
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
     {% block scripts_extra %}{% endblock %}
 </body>
 </html>

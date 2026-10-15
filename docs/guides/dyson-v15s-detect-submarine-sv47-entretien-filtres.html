@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant filtre clignotant sur Dyson V15s Detect Submarine (SV47) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le filtre HEPA est encrassé ou mal positionné, réduisant la puissance d&#39;aspiration de l&#39;appareil.. Résolution sans outil : Retirez le filtre HEPA, tapotez-le pour enlever la poussière, puis rincez-le à l&#39;eau froide sans détergent. Laissez-le sécher complètement à l&#39;air libre (au moins 24h) avant de le remettre en place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant obstruction sur Dyson V15s Detect Submarine (SV47) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Un blocage est présent dans le conduit d&#39;aspiration, la brosse ou le tube, ce qui diminue le flux d&#39;air et l&#39;efficacité.. Résolution sans outil : Déconnectez les accessoires et le tube de l&#39;aspirateur. Vérifiez visuellement toutes les zones (tête, tube, corps de l&#39;appareil) et retirez délicatement tous les débris ou cheveux à la main."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant réservoir d&#39;eau sale plein (mode Submarine) sur Dyson V15s Detect Submarine (SV47) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le réservoir d&#39;eau sale de la tête de nettoyage Submarine est plein et doit être vidé.. Résolution sans outil : Retirez la tête de nettoyage Submarine, séparez le réservoir d&#39;eau sale, videz-le et rincez-le à l&#39;eau claire. Réassemblez correctement et remettez la tête en place sur l&#39;aspirateur."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment nettoyer le rouleau lavant Submarine après utilisation ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../index.html">Guides d'Entretien</a></li>
+                    <li><a href="../dashboard.html">Tableau de Bord</a></li>
                     <li><a href="../mentions-legales.html">Mentions Légales</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -761,6 +786,7 @@ Questions Fréquentes sur le Dyson V15s Detect Submarine (SV47)        </h2>
                         <li><a href="../mentions-legales.html">Mentions Légales & CGU</a></li>
                         <li><a href="../mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
                         <li><a href="../mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="../dashboard.html">Tableau de Bord & Métriques</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -770,5 +796,25 @@ Questions Fréquentes sur le Dyson V15s Detect Submarine (SV47)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

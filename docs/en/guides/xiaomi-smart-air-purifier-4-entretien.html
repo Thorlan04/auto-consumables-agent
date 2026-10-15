@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Voyant filtre clignotant / Message &#39;Replace Filter&#39; on Xiaomi Smart Air Purifier 4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le filtre à air combiné est arrivé en fin de vie et nécessite un remplacement pour maintenir l&#39;efficacité de purification.. Tool-free fix: Appuyez sur le bouton d&#39;alimentation pour éteindre l&#39;appareil. Ouvrez le compartiment du filtre, retirez l&#39;ancien filtre et insérez le nouveau. Refermez le compartiment. Appuyez longuement sur le bouton de réinitialisation du filtre (souvent intégré au bouton d&#39;alimentation ou sur le panneau arrière) pendant environ 6 secondes jusqu&#39;à ce que le voyant s&#39;éteigne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Affichage PM2.5 incohérent ou élevé après nettoyage on Xiaomi Smart Air Purifier 4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le capteur de particules fines (PM2.5) est encrassé par la poussière, ce qui fausse les mesures de qualité de l&#39;air.. Tool-free fix: Éteignez l&#39;appareil et débranchez-le. Localisez le couvercle du capteur PM2.5 (souvent à l&#39;arrière ou sur le côté). Ouvrez-le et utilisez un coton-tige sec et propre pour nettoyer délicatement la lentille du capteur ainsi que les orifices d&#39;entrée/sortie d&#39;air. Refermez le couvercle et rebranchez l&#39;appareil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Ventilation faible ou bruit excessif on Xiaomi Smart Air Purifier 4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Les grilles d&#39;entrée/sortie d&#39;air sont obstruées par de la poussière accumulée, ce qui réduit le flux d&#39;air et peut forcer le moteur.. Tool-free fix: Éteignez et débranchez le purificateur. Utilisez un aspirateur avec une brosse douce ou un chiffon sec pour nettoyer délicatement la poussière des grilles d&#39;entrée (souvent tout autour de la base) et de la grille de sortie d&#39;air (sur le dessus). Assurez-vous que rien n&#39;obstrue ces passages."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment savoir quand changer le filtre de mon Xiaomi Smart Air Purifier 4 ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (Xiaomi Smart Air Purifier 4)        </h2>
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (Xiaomi Smart Air Purifier 4)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

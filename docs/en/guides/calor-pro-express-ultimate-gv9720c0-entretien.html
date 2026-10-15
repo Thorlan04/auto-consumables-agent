@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Voyant &#39;Calc&#39; ou &#39;Anticalc&#39; allumé/clignotant on Calor Pro Express Ultimate GV9720C0?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;appareil signale que le collecteur de calcaire est plein et doit être vidé pour maintenir les performances de la vapeur.. Tool-free fix: Éteignez et débranchez la centrale vapeur. Attendez qu&#39;elle refroidisse complètement (environ 2 heures). Dévissez le collecteur de calcaire situé sur le côté ou à l&#39;arrière de la base. Rincez-le abondamment sous l&#39;eau du robinet pour éliminer le calcaire. Revissez-le fermement. Rebranchez et allumez l&#39;appareil pour réinitialiser le voyant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Manque d&#39;eau / Voyant réservoir vide on Calor Pro Express Ultimate GV9720C0?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le niveau d&#39;eau dans le réservoir est trop bas pour produire de la vapeur.. Tool-free fix: Éteignez la centrale vapeur. Retirez le réservoir d&#39;eau amovible. Remplissez-le avec de l&#39;eau du robinet (ou un mélange si votre eau est très dure, voir FAQ) jusqu&#39;au niveau maximum indiqué. Réinsérez le réservoir correctement jusqu&#39;à entendre un clic. Rallumez l&#39;appareil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Semelle du fer sale ou collante on Calor Pro Express Ultimate GV9720C0?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Des résidus de tissus, d&#39;amidon ou de produits d&#39;entretien se sont déposés sur la semelle, pouvant tacher les vêtements.. Tool-free fix: Assurez-vous que le fer est froid et débranché. Utilisez un chiffon doux et humide avec un peu de savon doux pour nettoyer la semelle. Pour les résidus tenaces, un bâtonnet de nettoyage spécifique pour semelle de fer peut être utilisé. Ne jamais utiliser d&#39;abrasifs ou d&#39;objets métalliques."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quelle type d&#39;eau dois-je utiliser pour ma centrale vapeur Calor Pro Express Ultimate ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (Calor Pro Express Ultimate GV9720C0)        </h2>
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (Calor Pro Express Ultimate GV9720C0)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Alerte &#39;Détartrage nécessaire&#39; on Breville Barista Touch Impress (BES881BSS)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: L&#39;appareil a accumulé du calcaire et nécessite un cycle de détartrage pour maintenir ses performances optimales et éviter les pannes.. Tool-free fix: Suivez les instructions à l&#39;écran : videz le réservoir d&#39;eau, remplissez-le avec la solution détartrante recommandée et de l&#39;eau, puis lancez le programme de détartrage automatique. Effectuez plusieurs rinçages du réservoir et de la machine après."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Alerte &#39;Nettoyage du groupe&#39; / &#39;Clean Me&#39; on Breville Barista Touch Impress (BES881BSS)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le groupe d&#39;infusion et les conduits internes sont encrassés par les huiles de café, altérant le goût et l&#39;extraction.. Tool-free fix: Insérez une pastille de nettoyage dans le porte-filtre aveugle fourni, placez-le dans la machine et suivez le cycle de nettoyage automatique indiqué à l&#39;écran. Rincez le porte-filtre après l&#39;opération."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Alerte &#39;Vider le bac d&#39;égouttement&#39; on Breville Barista Touch Impress (BES881BSS)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le bac d&#39;égouttement sous le porte-filtre est plein d&#39;eau et doit être vidé pour éviter tout débordement.. Tool-free fix: Retirez le bac d&#39;égouttement, videz l&#39;eau accumulée, rincez-le à l&#39;eau claire et séchez-le soigneusement avant de le remettre en place dans la machine."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "À quelle fréquence dois-je détartrer ma Breville Barista Touch Impress ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (Breville Barista Touch Impress (BES881BSS))        <
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (Breville Barista Touch Impress (BES881BSS))        <
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

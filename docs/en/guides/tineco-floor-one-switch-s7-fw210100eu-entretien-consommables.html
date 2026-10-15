@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Vider réservoir eau sale on Tineco Floor One Switch S7 (FW210100EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le réservoir d&#39;eau sale est plein ou mal positionné.. Tool-free fix: Videz le réservoir d&#39;eau sale et rincez-le, puis assurez-vous qu&#39;il est correctement remis en place dans l&#39;appareil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Nettoyer rouleau brosse on Tineco Floor One Switch S7 (FW210100EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le rouleau brosse est obstrué par des cheveux, des débris ou le capteur détecte une résistance.. Tool-free fix: Retirez le rouleau brosse, nettoyez-le soigneusement et retirez tout enchevêtrement. Rincez-le et laissez-le sécher avant de le réinstaller."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Recharger batterie on Tineco Floor One Switch S7 (FW210100EU)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: La batterie est faible et nécessite d&#39;être rechargée.. Tool-free fix: Placez l&#39;appareil sur sa station de charge pour le recharger complètement. Assurez-vous que les contacts de charge sont propres."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Comment nettoyer la station de charge du Tineco Floor One Switch S7 ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -760,6 +785,7 @@ Frequently Asked Questions (Tineco Floor One Switch S7 (FW210100EU))        </h2
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -769,5 +795,25 @@ Frequently Asked Questions (Tineco Floor One Switch S7 (FW210100EU))        </h2
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

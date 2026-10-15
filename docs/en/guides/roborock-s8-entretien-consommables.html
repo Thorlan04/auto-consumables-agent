@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "How to fix Erreur 1 : Tour LiDAR bloquée on Roborock S8 / S8 Pro Ultra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: La tourelle laser supérieure ne tourne plus librement en raison d&#39;une poussière ou d&#39;un obstacle.. Tool-free fix: Retirer tout obstacle visuel, faire tourner délicatement la tête rotative orange au doigt pour déloger les poussières, nettoyer la lentille au chiffon doux sec."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Erreur 2 : Pare-chocs bloqué on Roborock S8 / S8 Pro Ultra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Le pare-chocs avant reste enfoncé suite à un contact ou de la poussière est coincée dans l&#39;interstice.. Tool-free fix: Tapoter doucement plusieurs fois sur le pare-chocs avant droit et gauche pour débloquer les micro-interrupteurs mécaniques et dégager d&#39;éventuels débris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to fix Erreur 4 : Capteurs de vide encrassés on Roborock S8 / S8 Pro Ultra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause: Les 4 capteurs infrarouges de vide sous le châssis sont recouverts de poussière fine.. Tool-free fix: Retourner le robot, essuyer les 4 fenêtres transparentes de détection de falaise avec un chiffon en microfibre propre non pelucheux."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Peut-on mettre du détergent classique dans le réservoir de la station RockDock ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../../index.html">Guides</a></li>
+                    <li><a href="../../dashboard.html">Dashboard & Stats</a></li>
                     <li><a href="../../mentions-legales.html">Legal & Disclosure</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -785,6 +810,7 @@ Frequently Asked Questions (Roborock S8 / S8 Pro Ultra)        </h2>
                         <li><a href="../../mentions-legales.html">Terms & Legal Notice</a></li>
                         <li><a href="../../mentions-legales.html#affiliation">Amazon Affiliate Disclosure</a></li>
                         <li><a href="../../mentions-legales.html#rgpd">Zero-Cookie Privacy Policy</a></li>
+                        <li><a href="../../dashboard.html">Operations & Stats Dashboard</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -794,5 +820,25 @@ Frequently Asked Questions (Roborock S8 / S8 Pro Ultra)        </h2>
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>

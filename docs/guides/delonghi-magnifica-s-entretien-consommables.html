@@ -356,6 +356,30 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant Détartrage Rouge Fixe ou Clignotant sur De&#39;Longhi Magnifica S (ECAM 22.110.B / 22.110.SB) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : L&#39;appareil a atteint le nombre de cycles configuré selon la dureté de l&#39;eau et nécessite un détartrage complet.. Résolution sans outil : Verser une dose de détartrant EcoDecalk (100 ml) dans le réservoir avec 1 L d&#39;eau, placer un récipient de 2 L sous la buse vapeur et maintenir le bouton détartrage enfoncé pendant 5 secondes pour lancer le cycle automatique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant Marc de Café Rouge Fixe sur De&#39;Longhi Magnifica S (ECAM 22.110.B / 22.110.SB) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : Le bac à marc de café est plein (ou a été vidé machine éteinte sans réinitialiser le compteur de galettes).. Résolution sans outil : Retirer le tiroir d&#39;égouttement et le bac à marcs machine ALLUMÉE, vider les galettes, nettoyer le tiroir, attendre 5 secondes avant de réinsérer pour permettre au micro-contacteur de détecter l&#39;opération."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment résoudre l'anomalie Voyant Point d&#39;Exclamation Rouge Allumé sur De&#39;Longhi Magnifica S (ECAM 22.110.B / 22.110.SB) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cause : L&#39;infuseur (groupe café) est mal positionné, très encrassé, ou la porte de visite latérale est mal fermée.. Résolution sans outil : Éteindre la machine, ouvrir le volet latéral droit, presser les deux boutons rouges de l&#39;infuseur pour l&#39;extraire, le rincer sous l&#39;eau tiède sans produit vaisselle, le sécher et le réenclencher jusqu&#39;au déclic."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Peut-on nettoyer le groupe café (infuseur) au lave-vaisselle ?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -502,6 +526,7 @@
             <nav aria-label="Menu principal" style="display: flex; align-items: center; gap: 1.5rem;">
                 <ul class="nav-links">
                     <li><a href="../index.html">Guides d'Entretien</a></li>
+                    <li><a href="../dashboard.html">Tableau de Bord</a></li>
                     <li><a href="../mentions-legales.html">Mentions Légales</a></li>
                 </ul>
                 <!-- Sélecteur de Langue Rapide -->
@@ -786,6 +811,7 @@ Questions Fréquentes sur le De&#39;Longhi Magnifica S (ECAM 22.110.B / 22.110.S
                         <li><a href="../mentions-legales.html">Mentions Légales & CGU</a></li>
                         <li><a href="../mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
                         <li><a href="../mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="../dashboard.html">Tableau de Bord & Métriques</a></li>
                         <li><a href="https://thorlan04.github.io/auto-consumables-agent/sitemap.xml">Sitemap</a></li>
                     </ul>
                 </div>
@@ -795,5 +821,25 @@ Questions Fréquentes sur le De&#39;Longhi Magnifica S (ECAM 22.110.B / 22.110.S
             </div>
         </div>
     </footer>
+
+    <!-- Traceur local et anonyme des clics partenaires (0 cookie, 100% conforme RGPD/CNIL) -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn-amazon');
+            if (!btn) return;
+            try {
+                const item = {
+                    title: document.title.replace(' | AutoConsommables.fr', '').replace(' | AutoConsommables.com', ''),
+                    label: btn.getAttribute('aria-label') || 'Amazon Search Link',
+                    url: btn.href,
+                    timestamp: new Date().toISOString()
+                };
+                const clicks = JSON.parse(localStorage.getItem('autoconsom_clicks') || '[]');
+                clicks.unshift(item);
+                if (clicks.length > 200) clicks.pop();
+                localStorage.setItem('autoconsom_clicks', JSON.stringify(clicks));
+            } catch (err) {}
+        });
+    </script>
 </body>
 </html>
