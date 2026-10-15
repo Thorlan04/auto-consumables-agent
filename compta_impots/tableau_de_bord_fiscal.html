@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livre des Recettes & Tableau de Bord Fiscal Micro-Entreprise</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #eff6ff;
+            --secondary: #0d9488;
+            --accent-urssaf: #0284c7;
+            --accent-impots: #b45309;
+            --text-dark: #0f172a;
+            --text-muted: #64748b;
+            --border: #cbd5e1;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --success: #15803d;
+            --warning-bg: #fffbeb;
+            --warning-border: #fef08a;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-dark);
+            line-height: 1.5;
+            padding: 2rem 1rem;
+        }
+
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header.fiscal-header {
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.75rem 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .header-title h1 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 0.35rem;
+        }
+
+        .header-title p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .header-badges {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.35rem;
+        }
+
+        .badge-official {
+            background-color: #dbeafe;
+            color: #1e40af;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.35rem 0.75rem;
+            border-radius: 9999px;
+            text-transform: uppercase;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .card-header h2 {
+            font-size: 1.25rem;
+            color: var(--primary);
+        }
+
+        /* Grille des déclarations fiscales */
+        .tax-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tax-box {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            position: relative;
+        }
+
+        .tax-box.impots {
+            border-left: 5px solid var(--accent-impots);
+        }
+
+        .tax-box.urssaf {
+            border-left: 5px solid var(--accent-urssaf);
+        }
+
+        .tax-box .case-name {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .tax-box .case-code {
+            display: inline-block;
+            background: #1e293b;
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 1rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            margin: 0.35rem 0;
+        }
+
+        .tax-box .amount {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin: 0.25rem 0;
+        }
+
+        .tax-box .description {
+            font-size: 0.8rem;
+            color: #475569;
+            line-height: 1.4;
+        }
+
+        /* Tableaux */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: #334155;
+            text-align: left;
+            padding: 0.75rem 1rem;
+            font-weight: 600;
+            border-bottom: 2px solid var(--border);
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .amount-bold {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .notice-legal {
+            background-color: var(--warning-bg);
+            border: 1px solid var(--warning-border);
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.25rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #78350f;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-print {
+            background-color: var(--primary);
+            color: #ffffff;
+            border: none;
+            padding: 0.6rem 1.25rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-print:hover {
+            background-color: #1e40af;
+        }
+
+        /* Impression propre pour contrôle fiscal / URSSAF */
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+                font-size: 11pt;
+            }
+            .btn-print, .no-print {
+                display: none !important;
+            }
+            .card {
+                box-shadow: none;
+                border: 1px solid #94a3b8;
+                page-break-inside: avoid;
+            }
+            header.fiscal-header {
+                border-bottom: 2px solid #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- En-tête officiel -->
+        <header class="fiscal-header">
+            <div class="header-title">
+                <h1>Tableau de Bord Fiscal & Social Micro-Entreprise</h1>
+                <p>Suivi officiel du Chiffre d'Affaires • Déclarations URSSAF & Formulaire 2042-C-PRO</p>
+                <p style="font-size: 0.8rem; color: #64748b; margin-top: 0.25rem;">
+                    Généré hors-ligne le <strong>15/10/2026 à 14:55</strong> • Strictement confidentiel (usage interne)
+                </p>
+            </div>
+            <div class="header-badges">
+                <span class="badge-official">Conforme Art. L123-28 Code de Commerce</span>
+                <button class="btn-print no-print" onclick="window.print()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                    Imprimer / Exporter en PDF
+                </button>
+            </div>
+        </header>
+
+        <!-- Avertissement Légal Pédagogique -->
+        <div class="notice-legal">
+            <strong>Rappel Réglementaire Micro-Entreprise :</strong>
+            En micro-entreprise (auto-entrepreneur), la comptabilité repose sur une <strong>comptabilité d'encaissement</strong>. Seuls les montants bruts réellement encaissés (virement reçu sur votre compte bancaire) au cours du mois ou du trimestre doivent être déclarés. Les commissions Amazon sont versées par <em>Amazon Europe Core S.à r.l.</em> (Luxembourg) sous forme d'autofacture mensuelle.
+        </div>
+
+        <!-- ==================== ANNÉE FISCALE 2026 ==================== -->
+        <section class="card">
+            <div class="card-header">
+                <h2>Exercice Fiscal Civil : Année 2026</h2>
+                <div style="font-size: 1.1rem; font-weight: 700; color: var(--primary);">
+                    Chiffre d'Affaires Annuel Encaissé : <span style="font-size: 1.4rem;">145.50 €</span>
+                </div>
+            </div>
+
+            <!-- Déclaration Annuelle des Revenus (Impôts.gouv - Formulaire 2042-C-PRO) -->
+            <h3 style="font-size: 1.05rem; color: var(--accent-impots); margin-bottom: 0.75rem;">
+                1. Déclaration Annuelle aux Impôts (Formulaire 2042-C-PRO au printemps 2027)
+            </h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                Reportez le montant total de <strong>145.50 €</strong> dans <u>une seule</u> des cases ci-dessous selon votre option fiscale :
+            </p>
+
+            <div class="tax-grid">
+                <div class="tax-box impots">
+                    <div class="case-name">Micro-BIC Classique (Sans VFL)</div>
+                    <div class="case-code">Case 5KP</div>
+                    <div class="amount">145.50 €</div>
+                    <div class="description">
+                        Prestations de services commerciales. L'administration fiscale applique automatiquement un <strong>abattement forfaitaire de 50%</strong>. Le solde est soumis au barème progressif de l'impôt sur le revenu.
+                    </div>
+                </div>
+
+                <div class="tax-box impots">
+                    <div class="case-name">Micro-BIC avec Versement Libératoire</div>
+                    <div class="case-code">Case 5TB</div>
+                    <div class="amount">145.50 €</div>
+                    <div class="description">
+                        Si vous avez opté pour le Versement Fiscal Libératoire (1,7% payé avec vos cotisations URSSAF). Ce montant sert uniquement au calcul de votre revenu fiscal de référence (RFR) sans double imposition.
+                    </div>
+                </div>
+
+                <div class="tax-box impots">
+                    <div class="case-name">Micro-BNC Classique (Sans VFL)</div>
+                    <div class="case-code">Case 5HQ</div>
+                    <div class="amount">145.50 €</div>
+                    <div class="description">
+                        Si votre activité d'affiliation a été enregistrée en libéral / prestations intellectuelles. L'administration applique un <strong>abattement forfaitaire de 34%</strong>.
+                    </div>
+                </div>
+
+                <div class="tax-box impots">
+                    <div class="case-name">Micro-BNC avec Versement Libératoire</div>
+                    <div class="case-code">Case 5TE</div>
+                    <div class="amount">145.50 €</div>
+                    <div class="description">
+                        Si vous avez opté pour le versement libératoire en statut BNC (2,2% payé à l'URSSAF). Déclaration pour calcul du taux effectif et du RFR.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Déclaration Périodique URSSAF -->
+            <h3 style="font-size: 1.05rem; color: var(--accent-urssaf); margin: 1.5rem 0 0.75rem;">
+                2. Déclarations Périodiques URSSAF (2026) sur <code>autoentrepreneur.urssaf.fr</code>
+            </h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+                Ligne à compléter sur le portail URSSAF : <em>« Chiffre d'affaires des autres prestations de services »</em> (BIC ou BNC selon votre notification d'affiliation).
+            </p>
+
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem;">
+                <div class="tax-box urssaf">
+                    <div class="case-name">1er Trimestre (Jan - Mar)</div>
+                    <div class="amount" style="font-size: 1.35rem;">0.00 €</div>
+                    <div class="description">À télédéclarer avant le 30 Avril 2026</div>
+                </div>
+                <div class="tax-box urssaf">
+                    <div class="case-name">2ème Trimestre (Avr - Jun)</div>
+                    <div class="amount" style="font-size: 1.35rem;">0.00 €</div>
+                    <div class="description">À télédéclarer avant le 31 Juillet 2026</div>
+                </div>
+                <div class="tax-box urssaf">
+                    <div class="case-name">3ème Trimestre (Juil - Sep)</div>
+                    <div class="amount" style="font-size: 1.35rem;">0.00 €</div>
+                    <div class="description">À télédéclarer avant le 31 Octobre 2026</div>
+                </div>
+                <div class="tax-box urssaf">
+                    <div class="case-name">4ème Trimestre (Oct - Déc)</div>
+                    <div class="amount" style="font-size: 1.35rem;">145.50 €</div>
+                    <div class="description">À télédéclarer avant le 31 Janvier 2027</div>
+                </div>
+            </div>
+
+            <!-- Détail Mensuel -->
+            <h4 style="font-size: 0.95rem; color: var(--text-dark); margin-bottom: 0.5rem;">
+                Ventilation Mensuelle (Si vous avez opté pour la déclaration mensuelle URSSAF) :
+            </h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mois</th>
+                        <th class="text-right">Montant Encaissé (€)</th>
+                        <th>Échéance Limite Déclaration URSSAF</th>
+                        <th>Statut</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                    <tr>
+                        <td><strong>Janvier 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Février 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Février 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Mars 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Mars 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Avril 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Avril 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Mai 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Mai 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Juin 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Juin 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Juillet 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Juillet 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Août 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Août 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Septembre 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Septembre 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Octobre 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Octobre 2026</strong></td>
+                        <td class="text-right amount-bold">145.50 €</td>
+                        <td>Dernier jour de Novembre 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #15803d;">Recette enregistrée</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Novembre 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Décembre 2026</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                    <tr>
+                        <td><strong>Décembre 2026</strong></td>
+                        <td class="text-right amount-bold">0.00 €</td>
+                        <td>Dernier jour de Janvier 2027</td>
+                        <td><span style="font-size: 0.8rem; color: #94a3b8;">Néant (0 €)</span></td>
+                    </tr>
+            
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- ==================== LIVRE DES RECETTES OFFICIEL ==================== -->
+        <section class="card">
+            <div class="card-header">
+                <h2>Livre des Recettes Chronologique (Article L123-28 du Code de commerce)</h2>
+                <div style="font-size: 0.9rem; color: var(--text-muted);">
+                    Total Opérations : <strong>1</strong>
+                </div>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                Ce registre doit être conservé pendant une durée minimale de 10 ans (article L123-22 du Code de commerce) avec les pièces justificatives associées (relevés de compte bancaire et autofactures mensuelles éditées par Amazon).
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date d'Encaissement</th>
+                        <th>N° Pièce / Réf. Autofacture</th>
+                        <th>Client / Tiers</th>
+                        <th>Nature de l'Opération</th>
+                        <th>Mode de Paiement</th>
+                        <th class="text-right">Montant Brut (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr>
+                        <td><strong>2026-10-28</strong></td>
+                        <td><code>AMZ-2026-10</code></td>
+                        <td>Amazon Europe Core S.à r.l.</td>
+                        <td>Commissions d'affiliation Amazon Partenaires</td>
+                        <td>Virement SEPA</td>
+                        <td class="text-right amount-bold">145.50 €</td>
+                    </tr>
+            
+                    <tr style="background-color: #f1f5f9; font-weight: 800; border-top: 2px solid var(--border);">
+                        <td colspan="5" style="text-align: right; text-transform: uppercase;">Total Cumulé Historique :</td>
+                        <td class="text-right amount-bold" style="font-size: 1.15rem; color: var(--primary);">145.50 €</td>
+                    </tr>
+        
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Conseils Pratiques Gestion TVA et Franchise -->
+        <section class="card" style="background: #f8fafc;">
+            <h3 style="font-size: 1.05rem; color: var(--text-dark); margin-bottom: 0.75rem;">
+                Repères Légaux : Plafonds & TVA (Art. 293 B du CGI)
+            </h3>
+            <ul style="margin-left: 1.5rem; font-size: 0.85rem; color: #475569; line-height: 1.7;">
+                <li><strong>Franchise en base de TVA (Prestations de services) :</strong> Seuil de base de 36 800 € et seuil majoré de 39 100 €. En dessous, vous ne facturez pas de TVA ("TVA non applicable, art. 293 B du CGI").</li>
+                <li><strong>Seuil de Chiffre d'Affaires Micro-Entreprise :</strong> Plafond de 77 700 € annuel pour les prestations de services en régime micro-social.</li>
+                <li><strong>Territorialité des commissions Amazon :</strong> Amazon Europe Core S.à r.l. étant basée au Luxembourg, les autofactures sont émises hors taxe avec autoliquidation de TVA intracommunautaire (à reporter éventuellement sur la déclaration européenne de services DES si applicable).</li>
+            </ul>
+        </section>
+
+        <footer style="text-align: center; font-size: 0.8rem; color: #94a3b8; margin-top: 2rem;">
+            Document généré automatiquement par <code>auto-consumables-agent</code> • Registre interne non public
+        </footer>
+    </div>
+</body>
+</html>

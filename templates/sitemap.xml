@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site_url }}/index.html</loc>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>{{ site_url }}/mentions-legales.html</loc>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    {% for guide in guides %}
+    <url>
+        <loc>{{ site_url }}/guides/{{ guide.slug }}.html</loc>
+        <lastmod>{{ now_iso }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% endfor %}
+</urlset>

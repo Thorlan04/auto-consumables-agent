@@ -1,0 +1,56 @@
+name: Auto-Consumables Autopilot Pipeline
+
+on:
+  schedule:
+    # Exécution automatique toutes les 6 heures (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permet également de déclencher manuellement le robot depuis l'interface GitHub
+
+permissions:
+  contents: write # Requis pour commiter et pousser automatiquement les pages générées
+
+jobs:
+  build-and-expand:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du dépôt (Checkout)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurer l'environnement Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Exécuter le Moteur Autonome (Découverte IA & Rendu Statique)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          EDITOR_NAME: ${{ secrets.EDITOR_NAME }}
+          EDITOR_SIRET: ${{ secrets.EDITOR_SIRET }}
+          EDITOR_ADDRESS: ${{ secrets.EDITOR_ADDRESS }}
+          EDITOR_EMAIL: ${{ secrets.EDITOR_EMAIL }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          python src/agent_engine.py
+
+      - name: Sauvegarder et déployer les modifications (Git Commit & Push)
+        run: |
+          git config --global user.name "AutoConsumables Autopilot Bot"
+          git config --global user.email "bot@autoconsommables.fr"
+          git add docs/ data/catalog_state.json
+          # Si aucune modification n'est détectée, ne pas échouer le workflow
+          if git diff --staged --quiet; then
+            echo "Aucune modification à commiter."
+          else
+            git commit -m "chore(autopilot): ajout de nouveaux guides d'appareils et mise à jour du catalogue [skip ci]"
+            git push origin main
+          fi

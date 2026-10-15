@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Mentions Légales, Affiliation & Confidentialité | AutoConsommables.fr{% endblock %}
+{% block meta_description %}Mentions légales obligatoires (Loi LCEN), politique de confidentialité zéro cookie et déclaration de partenariat Amazon.{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 860px;">
+    <h1 style="font-size: 2.2rem; color: #0f172a; margin-bottom: 1.5rem;">Mentions Légales & Politique de Confidentialité</h1>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            1. Éditeur du Site (Loi LCEN n° 2004-575)
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Le présent site internet accessible à l'adresse <strong>{{ site_url }}</strong> est édité par :
+        </p>
+        <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin-bottom: 1rem;">
+            <li><strong>Exploitant / Éditeur :</strong> {{ editor_name }}</li>
+            <li><strong>Statut juridique :</strong> Micro-Entreprise (Entreprise Individuelle - EI)</li>
+            <li><strong>Numéro SIRET :</strong> {{ editor_siret }}</li>
+            <li><strong>Adresse postale / Siège :</strong> {{ editor_address }}</li>
+            <li><strong>Contact électronique :</strong> <a href="mailto:{{ editor_email }}">{{ editor_email }}</a></li>
+            <li><strong>Directeur de la publication :</strong> {{ editor_name }}</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">
+            TVA non applicable, art. 293 B du Code Général des Impôts (régime de la franchise en base de TVA pour micro-entreprises).
+        </p>
+    </div>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            2. Hébergement Technique
+        </h2>
+        <p style="margin-bottom: 0.75rem;">Le site est hébergé de manière statique via la plateforme GitHub Pages opérée par :</p>
+        <ul style="list-style: none; padding-left: 0; line-height: 1.8;">
+            <li><strong>Hébergeur :</strong> GitHub Inc.</li>
+            <li><strong>Siège social :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</li>
+            <li><strong>Filiale européenne :</strong> GitHub B.V., Prins Bernhardplein 200, 1097 JB Amsterdam, Pays-Bas</li>
+            <li><strong>Téléphone :</strong> +1 (877) 448-4820</li>
+            <li><strong>Site Web :</strong> <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">https://pages.github.com</a></li>
+        </ul>
+    </div>
+
+    <div class="card" id="affiliation" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            3. Programme Partenaires Amazon & Transparence Commerciale
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Conformément aux directives de la <strong>DGCCRF</strong> et aux conditions d'exploitation du Club Partenaires d'Amazon Europe :
+        </p>
+        <blockquote style="background: #f8fafc; border-left: 4px solid var(--amazon-orange); padding: 1rem; margin: 1rem 0; font-style: italic; color: #334155;">
+            « En tant que Partenaire Amazon, le site réalise un bénéfice sur les achats remplissant les conditions requises. »
+        </blockquote>
+        <p style="margin-bottom: 0.75rem;">
+            Tous les liens vers le site marchand Amazon.fr présents sur ce site sont des liens affiliés (#LienAffilié) marqués avec l'attribut <code>rel="nofollow sponsored"</code>.
+            Lorsque vous cliquez sur l'un de ces liens et réalisez un achat éligible, une commission peut être reversée à l'éditeur du site, sans que cela n'entraîne le moindre surcoût pour vous.
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+            AutoConsommables.fr ne vend directement aucun bien matériel et n'assume aucune responsabilité quant au processus d'achat, à la livraison, au service après-vente ou à la garantie des produits commandés sur la plateforme Amazon.
+        </p>
+    </div>
+
+    <div class="card" id="rgpd" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            4. Données Personnelles & Cookies (Exemption CNIL)
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            <strong>Engagement Zéro Cookie & Respect de la Vie Privée :</strong>
+        </p>
+        <ul style="margin-left: 1.5rem; margin-bottom: 1rem; line-height: 1.7;">
+            <li>Le présent site n'utilise <strong>aucun cookie traceur</strong>, ni cookie publicitaire, ni cookie analytique tiers (aucun script Google Analytics, Facebook Pixel ou équivalent).</li>
+            <li>Aucune donnée à caractère personnel (nom, adresse IP persistante, email) n'est collectée lors de la simple navigation sur le site.</li>
+            <li>En application des recommandations de la CNIL et du Règlement Général sur la Protection des Données (RGPD n° 2016/679), le site est <strong>totalement exempté de bandeau de consentement aux cookies</strong>, assurant une navigation immédiate et sans pistage.</li>
+        </ul>
+    </div>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            5. Limitation de Responsabilité & Consignes de Sécurité
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Les fiches pratiques et guides d'entretien fournis sur le site ont un but purement informatif et préventif.
+            Ils concernent uniquement des opérations d'entretien usuel de premier niveau (remplacement de filtres, cartouches, nettoyage de brosses ou vidage de réservoirs) réalisables sans démontage mécanique complexe ni outillage électroportatif.
+        </p>
+        <p style="margin-bottom: 0.75rem;">
+            L'utilisateur est tenu de se référer prioritairement à la notice officielle d'utilisation fournie par le fabricant de son appareil et de débrancher l'alimentation électrique avant toute intervention.
+            L'éditeur ne saurait être tenu responsable d'un mauvais montage, d'une détérioration d'un équipement ou de tout accident survenu lors d'une manipulation effectuée par un utilisateur.
+        </p>
+    </div>
+</div>
+{% endblock %}

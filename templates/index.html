@@ -1,0 +1,349 @@
+{% extends "base.html" %}
+
+{% block title %}Guides Consommables, Filtres & Codes Entretien Électroménager | AutoConsommables.fr{% endblock %}
+{% block meta_description %}Trouvez en 1 clic les références de filtres, brosses, cartouches et pièces d'usure pour vos appareils ménagers. Résolution de voyants et entretien courant.{% endblock %}
+
+{% block head_extra %}
+<style>
+    .hero {
+        text-align: center;
+        padding: 2.5rem 0 3rem;
+        background: linear-gradient(180deg, #ffffff 0%, var(--bg-light) 100%);
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 2.5rem;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #0f172a;
+        margin-bottom: 1rem;
+        letter-spacing: -0.02em;
+    }
+    .hero p {
+        font-size: 1.15rem;
+        color: var(--text-muted);
+        max-width: 720px;
+        margin: 0 auto 2rem;
+    }
+    .search-box-wrapper {
+        max-width: 650px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .search-input {
+        width: 100%;
+        padding: 1rem 1.25rem 1rem 3rem;
+        font-size: 1.05rem;
+        border: 2px solid var(--border-color);
+        border-radius: 9999px;
+        outline: none;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .search-input:focus {
+        border-color: var(--primary);
+        box-shadow: 0 4px 16px rgba(15, 118, 110, 0.15);
+    }
+    .search-icon {
+        position: absolute;
+        left: 1.15rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #94a3b8;
+    }
+    .category-filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .filter-pill {
+        background: #ffffff;
+        border: 1px solid var(--border-color);
+        padding: 0.4rem 0.9rem;
+        border-radius: 9999px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: #475569;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    .filter-pill:hover, .filter-pill.active {
+        background: var(--primary);
+        color: #ffffff;
+        border-color: var(--primary);
+    }
+    .guides-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .guide-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 0.75rem;
+    }
+    .guide-card h3 {
+        font-size: 1.2rem;
+        color: #0f172a;
+        margin-bottom: 0.5rem;
+    }
+    .guide-card p {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+    .consumables-preview {
+        background: #f8fafc;
+        border-radius: var(--radius-md);
+        padding: 0.75rem;
+        margin-bottom: 1.25rem;
+        font-size: 0.825rem;
+    }
+    .consumables-preview strong {
+        display: block;
+        color: #334155;
+        margin-bottom: 0.35rem;
+    }
+    .consumables-preview ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    .consumables-preview li {
+        color: #475569;
+        margin-bottom: 0.2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+    .consumables-preview li::before {
+        content: "•";
+        color: var(--primary);
+        font-weight: bold;
+    }
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+    }
+    .no-results {
+        text-align: center;
+        padding: 3rem 1rem;
+        color: var(--text-muted);
+        display: none;
+    }
+    .value-props {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin: 4rem 0 2rem;
+        text-align: center;
+    }
+    .value-prop-card {
+        padding: 1.5rem;
+        background: #ffffff;
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border-color);
+    }
+    .value-prop-card h4 {
+        margin: 0.75rem 0 0.5rem;
+        color: #0f172a;
+    }
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 1.85rem;
+        }
+        .value-props {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Section Héro avec Recherche Directe -->
+<section class="hero">
+    <div class="container">
+        <h1>Prolongez la vie de vos appareils ménagers</h1>
+        <p>
+            Filtres HEPA, cartouches anticalcaire, brosses rotatives, joints et solutions d'entretien : retrouvez les pièces d'usure certifiées et résolvez les voyants d'alerte en 2 minutes.
+        </p>
+
+        <div class="search-box-wrapper">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text"
+                   id="guideSearch"
+                   class="search-input"
+                   placeholder="Rechercher une marque, un modèle (ex: Tineco S5, Delonghi, Bissell, Ninja...)"
+                   aria-label="Recherche d'un guide par marque ou appareil">
+        </div>
+
+        <div class="category-filters" id="categoryFilters">
+            <button class="filter-pill active" data-category="all">Toutes les catégories ({{ total_guides }})</button>
+            {% for cat in categories %}
+            <button class="filter-pill" data-category="{{ cat.name }}">{{ cat.name }} ({{ cat.count }})</button>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <!-- Message Aucun Résultat -->
+    <div id="noResults" class="no-results">
+        <h3>Aucun appareil ne correspond à votre recherche</h3>
+        <p>Essayez un mot-clé plus court comme la marque (ex: <em>Delonghi</em>, <em>Tineco</em>, <em>Roborock</em>) ou changez de catégorie.</p>
+    </div>
+
+    <!-- Grille des Guides -->
+    <div class="guides-grid" id="guidesGrid">
+        {% for guide in guides %}
+        <article class="card guide-card"
+                 data-title="{{ guide.title | lower }}"
+                 data-brand="{{ guide.brand | lower }}"
+                 data-model="{{ guide.model | lower }}"
+                 data-category="{{ guide.category }}">
+            <div class="guide-card-header">
+                <span class="badge badge-brand">{{ guide.brand }}</span>
+                <span class="badge">{{ guide.category }}</span>
+            </div>
+            <h3>{{ guide.title }}</h3>
+            <p>{{ guide.meta_description }}</p>
+
+            <div class="consumables-preview">
+                <strong>Pièces & Consommables traités :</strong>
+                <ul>
+                    {% for c in guide.consumables[:3] %}
+                    <li>{{ c.name }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="card-footer">
+                <span style="font-size: 0.8rem; color: #64748b;">
+                    {{ guide.common_codes | length }} codes voyants expliqués
+                </span>
+                <a href="{{ base_prefix }}/guides/{{ guide.slug }}.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 0.9rem;">
+                    Voir la fiche &rarr;
+                </a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+
+    <!-- Piliers d'Éco-Entretien -->
+    <section class="value-props">
+        <div class="value-prop-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+            <h4>Économies Durables</h4>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">
+                Remplacer un filtre colmaté à 10 € évite la surchauffe d'un moteur d'aspirateur à 300 €. Un réflexe simple pour votre pouvoir d'achat.
+            </p>
+        </div>
+        <div class="value-prop-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary);">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+            <h4>Zéro Outil Requis</h4>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">
+                Toutes nos fiches d'entretien se concentrent exclusivement sur les pièces démontables à la main : brosses clipsables, tiroirs et réservoirs.
+            </p>
+        </div>
+        <div class="value-prop-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--amazon-orange);">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 14 14"/>
+            </svg>
+            <h4>Liens Amazon Vérifiés</h4>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">
+                Nos liens mènent vers des requêtes dynamiques toujours à jour sur Amazon.fr pour éviter les ruptures de stock et les erreurs 404.
+            </p>
+        </div>
+    </section>
+</div>
+{% endblock %}
+
+{% block scripts_extra %}
+<script>
+    // Moteur de recherche et filtre instantané JavaScript pur (0 dépendance externe)
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('guideSearch');
+        const filterPills = document.querySelectorAll('.filter-pill');
+        const cards = document.querySelectorAll('.guide-card');
+        const noResults = document.getElementById('noResults');
+
+        let activeCategory = 'all';
+
+        // Lecture d'un éventuel paramètre URL (?cat=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const catParam = urlParams.get('cat');
+        if (catParam) {
+            activeCategory = catParam;
+            filterPills.forEach(p => {
+                if (p.getAttribute('data-category') === catParam) {
+                    p.classList.add('active');
+                } else {
+                    p.classList.remove('active');
+                }
+            });
+        }
+
+        function filterItems() {
+            const query = searchInput.value.trim().toLowerCase();
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const title = card.getAttribute('data-title') || '';
+                const brand = card.getAttribute('data-brand') || '';
+                const model = card.getAttribute('data-model') || '';
+                const category = card.getAttribute('data-category') || '';
+
+                const matchesQuery = !query ||
+                    title.includes(query) ||
+                    brand.includes(query) ||
+                    model.includes(query) ||
+                    category.toLowerCase().includes(query);
+
+                const matchesCategory = (activeCategory === 'all') || (category === activeCategory);
+
+                if (matchesQuery && matchesCategory) {
+                    card.style.display = 'flex';
+                    card.style.flexDirection = 'column';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        searchInput.addEventListener('input', filterItems);
+
+        filterPills.forEach(pill => {
+            pill.addEventListener('click', function() {
+                filterPills.forEach(p => p.classList.remove('active'));
+                this.classList.add('active');
+                activeCategory = this.getAttribute('data-category');
+                filterItems();
+            });
+        });
+
+        // Exécution initiale au cas où paramètre URL
+        if (catParam) {
+            filterItems();
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,309 @@
+{% extends "base.html" %}
+
+{% block title %}{{ guide.title }} | AutoConsommables.fr{% endblock %}
+{% block meta_description %}{{ guide.meta_description }}{% endblock %}
+
+{% block head_extra %}
+<!-- Données structurées JSON-LD (Schema.org) pour le référencement Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "{{ site_url }}/index.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ guide.category }}",
+          "item": "{{ site_url }}/index.html?cat={{ guide.category | urlencode }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{ guide.brand }} {{ guide.model }}",
+          "item": "{{ site_url }}/guides/{{ guide.slug }}.html"
+        }
+      ]
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "{{ guide.title }}",
+      "description": "{{ guide.meta_description }}",
+      "articleSection": "{{ guide.category }}",
+      "inLanguage": "fr-FR",
+      "author": {
+        "@type": "Organization",
+        "name": "AutoConsommables.fr"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in guide.faq %}
+        {
+          "@type": "Question",
+          "name": "{{ item.question | replace('"', '\\"') }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ item.answer | replace('"', '\\"') }}"
+          }
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+    .breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 1.5rem;
+    }
+    .breadcrumb a {
+        color: var(--text-muted);
+    }
+    .breadcrumb span {
+        color: #94a3b8;
+    }
+    .guide-header {
+        margin-bottom: 2rem;
+    }
+    .guide-header h1 {
+        font-size: 2rem;
+        line-height: 1.25;
+        color: #0f172a;
+        margin-bottom: 0.75rem;
+    }
+    .guide-meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+    }
+    .section-title {
+        font-size: 1.4rem;
+        color: #0f172a;
+        margin: 2.5rem 0 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .error-card {
+        background: #ffffff;
+        border-left: 4px solid #ef4444;
+        border-radius: var(--radius-md);
+        padding: 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid var(--border-color);
+        border-left-width: 4px;
+        box-shadow: var(--shadow-sm);
+    }
+    .error-card h4 {
+        color: #991b1b;
+        font-size: 1.05rem;
+        margin-bottom: 0.35rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .error-card p {
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+    }
+    .error-solution {
+        background: #f8fafc;
+        padding: 0.75rem 1rem;
+        border-radius: var(--radius-md);
+        font-size: 0.9rem;
+        border: 1px dashed var(--border-color);
+    }
+    .error-solution strong {
+        color: var(--primary);
+    }
+    .faq-item {
+        background: #ffffff;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        margin-bottom: 0.85rem;
+        overflow: hidden;
+    }
+    .faq-question {
+        padding: 1rem 1.25rem;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+        background: #ffffff;
+    }
+    .faq-answer {
+        padding: 0 1.25rem 1.25rem;
+        font-size: 0.95rem;
+        color: #334155;
+    }
+    .product-badge-group {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Fil d'Ariane -->
+    <nav class="breadcrumb" aria-label="Fil d'ariane">
+        <a href="{{ base_prefix }}/index.html">Accueil</a>
+        <span>&rsaquo;</span>
+        <a href="{{ base_prefix }}/index.html?cat={{ guide.category | urlencode }}">{{ guide.category }}</a>
+        <span>&rsaquo;</span>
+        <span>{{ guide.brand }} {{ guide.model }}</span>
+    </nav>
+
+    <!-- En-tête du guide -->
+    <header class="guide-header">
+        <div class="product-badge-group">
+            <span class="badge badge-brand">{{ guide.brand }}</span>
+            <span class="badge">{{ guide.category }}</span>
+        </div>
+        <h1>{{ guide.title }}</h1>
+        <div class="guide-meta">
+            <span><strong>Modèle :</strong> {{ guide.model }}</span>
+            <span>&bull;</span>
+            <span><strong>Entretien courant :</strong> Pièces d'usure amovibles sans outillage</span>
+        </div>
+    </header>
+
+    <!-- Avertissement de Sécurité Strict France / UE -->
+    <div class="security-notice" role="alert">
+        <strong>Consignes de Sécurité & Responsabilité :</strong>
+        Toujours débrancher électriquement l'appareil et attendre son complet refroidissement avant toute manipulation.
+        Ce guide se limite strictement à l'entretien usuel, au remplacement de filtres/accessoires amovibles sans tournevis et au nettoyage externe.
+        Pour toute anomalie électrique interne ou panne matérielle complexe, faites appel à un réparateur professionnel agréé.
+    </div>
+
+    <!-- 1. Tableau Monétisé des Consommables Indispensables (Zéro 404) -->
+    <section id="consommables">
+        <h2 class="section-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+            Consommables & Pièces d'Usure Recommandées
+        </h2>
+        <p style="margin-bottom: 1rem; color: var(--text-muted);">
+            L'efficacité d'origine et la longévité de votre <strong>{{ guide.brand }} {{ guide.model }}</strong> reposent sur le remplacement périodique de ces 3 à 4 pièces d'usure. Les liens ci-dessous redirigent vers des requêtes de recherche Amazon officielles vérifiées :
+        </p>
+
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="min-width: 200px;">Consommable & Fonction</th>
+                        <th style="min-width: 150px;">Fréquence d'Entretien</th>
+                        <th style="min-width: 260px;">Pourquoi est-ce indispensable ?</th>
+                        <th style="min-width: 170px; text-align: center;">Disponibilité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in guide.consumables %}
+                    <tr>
+                        <td>
+                            <strong>{{ item.name }}</strong>
+                        </td>
+                        <td>
+                            <span style="font-size: 0.875rem; color: #475569;">{{ item.frequency }}</span>
+                        </td>
+                        <td>
+                            <span style="font-size: 0.9rem;">{{ item.why_replace }}</span>
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="{{ item.affiliate_url }}"
+                               rel="nofollow sponsored"
+                               target="_blank"
+                               class="btn btn-amazon"
+                               style="font-size: 0.85rem; padding: 0.5rem 0.9rem;"
+                               aria-label="Vérifier le prix et la disponibilité pour {{ item.name }} sur Amazon">
+                                Voir sur Amazon &rarr;
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 2. Codes Erreurs & Voyants Courants -->
+    <section id="codes-erreurs">
+        <h2 class="section-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #ef4444;">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            Voyants d'Alerte & Codes d'Entretien Courant
+        </h2>
+        <p style="margin-bottom: 1.25rem; color: var(--text-muted);">
+            La majorité des signaux lumineux ou messages sur l'écran du {{ guide.brand }} {{ guide.model }} n'indiquent pas une panne grave, mais un simple besoin d'entretien de premier niveau :
+        </p>
+
+        {% for code in guide.common_codes %}
+        <div class="error-card">
+            <h4>
+                <span>&#9888;</span> {{ code.code }}
+            </h4>
+            <p><strong>Cause courante :</strong> {{ code.meaning }}</p>
+            <div class="error-solution">
+                <strong>Procédure de résolution sans outil :</strong> {{ code.solution }}
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+
+    <!-- 3. Foire Aux Questions (FAQ) -->
+    <section id="faq">
+        <h2 class="section-title">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--secondary);">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            Questions Fréquentes sur le {{ guide.brand }} {{ guide.model }}
+        </h2>
+
+        {% for item in guide.faq %}
+        <details class="faq-item" {% if loop.first %}open{% endif %}>
+            <summary class="faq-question">{{ item.question }}</summary>
+            <div class="faq-answer">
+                <p>{{ item.answer }}</p>
+            </div>
+        </details>
+        {% endfor %}
+    </section>
+
+    <!-- Bouton de retour -->
+    <div style="margin-top: 3rem; text-align: center;">
+        <a href="{{ base_prefix }}/index.html" class="btn btn-secondary">
+            &larr; Retour à l'ensemble des guides d'appareils
+        </a>
+    </div>
+</div>
+{% endblock %}

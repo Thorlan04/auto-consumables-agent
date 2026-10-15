@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales, Affiliation & Confidentialité | AutoConsommables.fr</title>
+    <meta name="description" content="Mentions légales obligatoires (Loi LCEN), politique de confidentialité zéro cookie et déclaration de partenariat Amazon.">
+    <link rel="canonical" href="https://example.com/mentions-legales.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Réseaux Sociaux -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mentions Légales, Affiliation & Confidentialité | AutoConsommables.fr">
+    <meta property="og:description" content="Mentions légales obligatoires (Loi LCEN), politique de confidentialité zéro cookie et déclaration de partenariat Amazon.">
+    <meta property="og:url" content="https://example.com/mentions-legales.html">
+
+    <!-- CSS Inliné Ultra-Léger (< 15 Ko, Zéro Dépendance Bloquante, 100% Accessible) -->
+    <style>
+        :root {
+            --primary: #0f766e;
+            --primary-hover: #115e59;
+            --primary-light: #f0fdfa;
+            --secondary: #0284c7;
+            --amazon-orange: #ea580c;
+            --amazon-orange-hover: #c2410c;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+            --card-bg: #ffffff;
+            --warning-bg: #fffbeb;
+            --warning-border: #fde68a;
+            --warning-text: #92400e;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --radius-md: 8px;
+            --radius-lg: 12px;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        /* Bandeau Transparence Légal (DGCCRF / Amazon Associates) */
+        .affiliate-banner {
+            background-color: #f1f5f9;
+            border-bottom: 1px solid var(--border-color);
+            color: #475569;
+            font-size: 0.825rem;
+            padding: 0.6rem 0;
+            text-align: center;
+        }
+
+        .affiliate-banner strong {
+            color: #0f172a;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .site-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .site-logo span {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        /* Contenu Principal */
+        main {
+            padding: 2.5rem 0 4rem;
+            min-height: 80vh;
+        }
+
+        /* Cartes et Éléments */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Boutons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.65rem 1.25rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn-amazon {
+            background-color: var(--amazon-orange);
+            color: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(234, 88, 12, 0.25);
+        }
+
+        .btn-amazon:hover {
+            background-color: var(--amazon-orange-hover);
+            text-decoration: none;
+            transform: scale(1.02);
+        }
+
+        .btn-secondary {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border: 1px solid rgba(15, 118, 110, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: #ccfbf1;
+            text-decoration: none;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            border-radius: 9999px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .badge-brand {
+            background-color: #f8fafc;
+            color: #334155;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Avertissement de sécurité */
+        .security-notice {
+            background-color: var(--warning-bg);
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.25rem;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            margin: 1.5rem 0 2rem;
+            font-size: 0.9rem;
+            color: var(--warning-text);
+        }
+
+        .security-notice strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: #78350f;
+        }
+
+        /* Tableaux */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: #f8fafc;
+            padding: 0.85rem 1rem;
+            font-weight: 600;
+            color: #334155;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 0 2rem;
+            font-size: 0.875rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-col h3 {
+            color: #f1f5f9;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-col a {
+            color: #cbd5e1;
+        }
+
+        .footer-col a:hover {
+            color: #38bdf8;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #1e293b;
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .nav-links {
+                gap: 0.85rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. Bandeau Légal Obligatoire DGCCRF & Amazon Partenaires -->
+    <aside class="affiliate-banner" aria-label="Avertissement d'affiliation et transparence">
+        <div class="container">
+            <strong>Transparence :</strong> En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises (#LienAffilié). Guides d'entretien courant fournis à titre indicatif.
+        </div>
+    </aside>
+
+    <!-- Header Principal -->
+    <header>
+        <div class="container header-content">
+            <a href="./index.html" class="site-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+                <span>AutoConsommables</span>.fr
+            </a>
+            <nav aria-label="Menu principal">
+                <ul class="nav-links">
+                    <li><a href="./index.html">Guides d'Entretien</a></li>
+                    <li><a href="./mentions-legales.html">Mentions Légales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu Spécifique de la Page -->
+    <main>
+<div class="container" style="max-width: 860px;">
+    <h1 style="font-size: 2.2rem; color: #0f172a; margin-bottom: 1.5rem;">Mentions Légales & Politique de Confidentialité</h1>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            1. Éditeur du Site (Loi LCEN n° 2004-575)
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Le présent site internet accessible à l'adresse <strong>https://example.com</strong> est édité par :
+        </p>
+        <ul style="list-style: none; padding-left: 0; line-height: 1.8; margin-bottom: 1rem;">
+            <li><strong>Exploitant / Éditeur :</strong> Alexandre</li>
+            <li><strong>Statut juridique :</strong> Micro-Entreprise (Entreprise Individuelle - EI)</li>
+            <li><strong>Numéro SIRET :</strong> 000 000 000 00000</li>
+            <li><strong>Adresse postale / Siège :</strong> France</li>
+            <li><strong>Contact électronique :</strong> <a href="mailto:contact@autoconsommables.fr">contact@autoconsommables.fr</a></li>
+            <li><strong>Directeur de la publication :</strong> Alexandre</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">
+            TVA non applicable, art. 293 B du Code Général des Impôts (régime de la franchise en base de TVA pour micro-entreprises).
+        </p>
+    </div>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            2. Hébergement Technique
+        </h2>
+        <p style="margin-bottom: 0.75rem;">Le site est hébergé de manière statique via la plateforme GitHub Pages opérée par :</p>
+        <ul style="list-style: none; padding-left: 0; line-height: 1.8;">
+            <li><strong>Hébergeur :</strong> GitHub Inc.</li>
+            <li><strong>Siège social :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</li>
+            <li><strong>Filiale européenne :</strong> GitHub B.V., Prins Bernhardplein 200, 1097 JB Amsterdam, Pays-Bas</li>
+            <li><strong>Téléphone :</strong> +1 (877) 448-4820</li>
+            <li><strong>Site Web :</strong> <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">https://pages.github.com</a></li>
+        </ul>
+    </div>
+
+    <div class="card" id="affiliation" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            3. Programme Partenaires Amazon & Transparence Commerciale
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Conformément aux directives de la <strong>DGCCRF</strong> et aux conditions d'exploitation du Club Partenaires d'Amazon Europe :
+        </p>
+        <blockquote style="background: #f8fafc; border-left: 4px solid var(--amazon-orange); padding: 1rem; margin: 1rem 0; font-style: italic; color: #334155;">
+            « En tant que Partenaire Amazon, le site réalise un bénéfice sur les achats remplissant les conditions requises. »
+        </blockquote>
+        <p style="margin-bottom: 0.75rem;">
+            Tous les liens vers le site marchand Amazon.fr présents sur ce site sont des liens affiliés (#LienAffilié) marqués avec l'attribut <code>rel="nofollow sponsored"</code>.
+            Lorsque vous cliquez sur l'un de ces liens et réalisez un achat éligible, une commission peut être reversée à l'éditeur du site, sans que cela n'entraîne le moindre surcoût pour vous.
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+            AutoConsommables.fr ne vend directement aucun bien matériel et n'assume aucune responsabilité quant au processus d'achat, à la livraison, au service après-vente ou à la garantie des produits commandés sur la plateforme Amazon.
+        </p>
+    </div>
+
+    <div class="card" id="rgpd" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            4. Données Personnelles & Cookies (Exemption CNIL)
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            <strong>Engagement Zéro Cookie & Respect de la Vie Privée :</strong>
+        </p>
+        <ul style="margin-left: 1.5rem; margin-bottom: 1rem; line-height: 1.7;">
+            <li>Le présent site n'utilise <strong>aucun cookie traceur</strong>, ni cookie publicitaire, ni cookie analytique tiers (aucun script Google Analytics, Facebook Pixel ou équivalent).</li>
+            <li>Aucune donnée à caractère personnel (nom, adresse IP persistante, email) n'est collectée lors de la simple navigation sur le site.</li>
+            <li>En application des recommandations de la CNIL et du Règlement Général sur la Protection des Données (RGPD n° 2016/679), le site est <strong>totalement exempté de bandeau de consentement aux cookies</strong>, assurant une navigation immédiate et sans pistage.</li>
+        </ul>
+    </div>
+
+    <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1.3rem; color: #0f172a; margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">
+            5. Limitation de Responsabilité & Consignes de Sécurité
+        </h2>
+        <p style="margin-bottom: 0.75rem;">
+            Les fiches pratiques et guides d'entretien fournis sur le site ont un but purement informatif et préventif.
+            Ils concernent uniquement des opérations d'entretien usuel de premier niveau (remplacement de filtres, cartouches, nettoyage de brosses ou vidage de réservoirs) réalisables sans démontage mécanique complexe ni outillage électroportatif.
+        </p>
+        <p style="margin-bottom: 0.75rem;">
+            L'utilisateur est tenu de se référer prioritairement à la notice officielle d'utilisation fournie par le fabricant de son appareil et de débrancher l'alimentation électrique avant toute intervention.
+            L'éditeur ne saurait être tenu responsable d'un mauvais montage, d'une détérioration d'un équipement ou de tout accident survenu lors d'une manipulation effectuée par un utilisateur.
+        </p>
+    </div>
+</div>
+    </main>
+
+    <!-- Pied de Page Conforme LCEN / RGPD -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>AutoConsommables.fr</h3>
+                    <p>Votre observatoire indépendant des consommables d'usure, filtres de rechange et voyants d'entretien pour le petit et gros électroménager courant.</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #94a3b8;">
+                        Site statique à zéro cookie tiers et zéro tracker, hébergé sur GitHub Pages (Microsoft Azure infrastructure).
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Catégories Populaires</h3>
+                    <ul>
+                        <li><a href="./index.html?cat=Aspirateurs+Laveurs">Aspirateurs Laveurs</a></li>
+                        <li><a href="./index.html?cat=Machines+à+Café+à+Grains">Machines à Café à Grains</a></li>
+                        <li><a href="./index.html?cat=Robots+Aspirateurs">Robots Aspirateurs</a></li>
+                        <li><a href="./index.html?cat=Friteuses+sans+Huile+(Air+Fryer)">Air Fryers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Informations Légales</h3>
+                    <ul>
+                        <li><a href="./mentions-legales.html">Mentions Légales & CGU</a></li>
+                        <li><a href="./mentions-legales.html#affiliation">Divulgation Partenaire Amazon</a></li>
+                        <li><a href="./mentions-legales.html#rgpd">Politique de Confidentialité (0 Cookie)</a></li>
+                        <li><a href="./sitemap.xml">Plan du Site (Sitemap)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AutoConsommables.fr — Tous droits réservés. Guides pratiques rédigés à des fins d'entretien préventif non intrusif.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
