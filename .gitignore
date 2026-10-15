@@ -22,3 +22,8 @@ desktop.ini
 # Données fiscales personnelles (Ne JAMAIS exposer publiquement sur GitHub si vous tenez à votre anonymat de CA)
 # NOTE : Vous pouvez choisir de versionner ce dossier dans un repo privé, mais il ne doit JAMAIS être copié dans docs/ !
 # compta_impots/*.csv
+
+# Node & Browser testing
+node_modules/
+package-lock.json
+package.json
