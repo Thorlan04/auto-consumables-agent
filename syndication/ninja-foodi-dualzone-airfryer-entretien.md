@@ -2,7 +2,7 @@
 title: "Ninja Foodi DualZone (AF300EU / AF400EU) : Entretien, Grilles et Accessoires"
 description: "Grilles de cuisson croustillante, plaques antiadhésives et feuilles de cuisson pour Air Fryer Ninja DualZone. Entretien et nettoyage sans rayure."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

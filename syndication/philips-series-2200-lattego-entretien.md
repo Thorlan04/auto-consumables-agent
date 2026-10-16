@@ -2,7 +2,7 @@
 title: "Philips Série 2200 / 3200 LatteGo : Filtres AquaClean, Détartrage et Joints"
 description: "Filtres anticalcaire AquaClean, pastilles dégraissantes et graisse pour groupe café Philips LatteGo. Entretien et voyants d'alerte."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-series-2200-lattego-entretien.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

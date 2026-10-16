@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Dreame H12 Pro : Guide Complet pour un Aspirateur Laveur Performant"
 description: "Prolongez la vie de votre Dreame H12 Pro ! Découvrez les codes d'erreur courants, les consommables essentiels et nos astuces d'entretien pour une performance optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

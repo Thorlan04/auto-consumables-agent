@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Philips Airfryer XXL HD9650/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

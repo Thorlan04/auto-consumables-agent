@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

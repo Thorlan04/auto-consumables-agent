@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Philips Airfryer XXL HD9650/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

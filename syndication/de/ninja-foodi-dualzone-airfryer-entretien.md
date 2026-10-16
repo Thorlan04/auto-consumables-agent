@@ -2,7 +2,7 @@
 title: "Ninja Foodi DualZone (AF300EU / AF400EU): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ninja Foodi DualZone (AF300EU / AF400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-dualzone-airfryer-entretien.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

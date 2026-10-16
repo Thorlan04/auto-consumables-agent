@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-15"
+published_at: "2026-10-16"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
