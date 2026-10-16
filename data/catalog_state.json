@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-16T03:56:39.810346+00:00",
-  "total_guides": 15,
+  "last_updated": "2026-10-16T11:04:03.036241+00:00",
+  "total_guides": 17,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1016,6 +1016,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Breville-Barista-Touch-Impress-BES881BSS---Pièces--Entretien-10-15"
+    },
+    {
+      "slug": "roborock-s8-maxv-ultra-entretien",
+      "title": "Entretien Roborock S8 MaxV Ultra: Consommables, filtres et codes erreurs pour une performance optimale",
+      "brand": "Roborock",
+      "model": "S8 MaxV Ultra",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Prolongez la durée de vie de votre Roborock S8 MaxV Ultra. Découvrez les consommables, filtres et solutions aux codes erreurs pour un entretien facile et efficace.",
+      "common_codes": [
+        {
+          "code": "Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale de la station d'accueil est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station d'accueil, videz-le, rincez-le et replacez-le correctement."
+        },
+        {
+          "code": "Brosse principale bloquée",
+          "meaning": "Des cheveux ou des débris sont enroulés autour de la brosse principale, l'empêchant de tourner.",
+          "solution": "Retournez le robot, retirez le couvercle de la brosse principale, nettoyez la brosse et retirez tous les débris. Réinstallez la brosse et son couvercle."
+        },
+        {
+          "code": "Voyant filtre sec clignotant",
+          "meaning": "Le filtre à air de la station d'accueil est encrassé ou humide et nécessite un nettoyage/remplacement.",
+          "solution": "Ouvrez le compartiment du filtre à air sur la station, retirez le filtre, nettoyez-le sous l'eau ou remplacez-le si nécessaire. Laissez sécher complètement avant de le remettre."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale DuoRoller Riser (silicone)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Diminution de l'efficacité de nettoyage, marques au sol, bruits anormaux.",
+          "search_keywords": "Roborock S8 MaxV Ultra brosse principale DuoRoller Riser, brosse silicone S8 MaxV Ultra, accessoires Roborock S8 MaxV Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Réduction de l'aspiration, rejet de poussières fines, mauvaises odeurs.",
+          "search_keywords": "Roborock S8 MaxV Ultra filtre HEPA, filtre lavable S8 MaxV Ultra, filtre poussière Roborock",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse latérale en silicone",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Usure des poils, efficacité de balayage réduite sur les bords et dans les coins.",
+          "search_keywords": "Roborock S8 MaxV Ultra brosse latérale, brosse de coin S8 MaxV Ultra, accessoires Roborock S8 MaxV Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Lingettes de nettoyage VibraRise 3.0",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-3 mois (selon utilisation et lavage)",
+          "why_replace": "Diminution de l'efficacité de lavage, traces au sol, accumulation de saleté.",
+          "search_keywords": "Roborock S8 MaxV Ultra lingettes lavables, mop S8 MaxV Ultra, patins lavage Roborock",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le module de brosse latérale de mon S8 MaxV Ultra?",
+          "answer": "Retirez la brosse latérale en tirant dessus (elle est souvent clipsée ou vissée avec une vis facile à dévisser à la main). Nettoyez les cheveux et débris enroulés autour de l'axe et des poils. Replacez-la fermement."
+        },
+        {
+          "question": "Pourquoi mon Roborock S8 MaxV Ultra ne charge-t-il plus correctement à sa station?",
+          "answer": "Vérifiez que les contacts de charge sous le robot et sur la station d'accueil sont propres et exempts de poussière ou de saleté. Nettoyez-les délicatement avec un chiffon sec. Assurez-vous également que la station est bien branchée."
+        },
+        {
+          "question": "Que faire si mon robot laisse des traces d'eau après le lavage?",
+          "answer": "Vérifiez si les lingettes de lavage sont propres et correctement fixées. Assurez-vous que le réservoir d'eau propre est rempli et que les buses de pulvérisation ne sont pas obstruées. Un remplacement des lingettes usées peut être nécessaire."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Roborock-S8-MaxV-Ultra---Pièces--Entretien-10-16"
+    },
+    {
+      "slug": "ninja-doublestack-xl-sl400eu-entretien",
+      "title": "Entretien Ninja DoubleStack XL 9,5L (SL400EU): Accessoires, nettoyage et astuces pour votre Air Fryer",
+      "brand": "Ninja",
+      "model": "DoubleStack XL 9,5L (SL400EU)",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Maximisez la durée de vie de votre Ninja DoubleStack XL (SL400EU). Découvrez les accessoires, le nettoyage et les solutions aux problèmes courants de votre Air Fryer.",
+      "common_codes": [
+        {
+          "code": "Panier non détecté",
+          "meaning": "Le ou les paniers de cuisson ne sont pas correctement insérés ou détectés par l'appareil.",
+          "solution": "Assurez-vous que les paniers sont entièrement insérés et bien enclenchés dans l'appareil. Poussez-les fermement jusqu'à entendre un clic si applicable."
+        },
+        {
+          "code": "Hot (voyant clignotant)",
+          "meaning": "L'appareil est encore chaud après utilisation et ne peut pas être manipulé ou nettoyé immédiatement.",
+          "solution": "Laissez l'appareil refroidir complètement avant de le manipuler ou de le nettoyer. Le voyant s'éteindra une fois la température sécuritaire atteinte."
+        },
+        {
+          "code": "Clean Filter (voyant lumineux)",
+          "meaning": "Un nettoyage du filtre à graisse ou des grilles de protection interne est recommandé pour maintenir la performance.",
+          "solution": "Débranchez l'appareil et laissez-le refroidir. Retirez les paniers et les grilles. Nettoyez les surfaces internes et le filtre à graisse (s'il est amovible) avec de l'eau chaude savonneuse."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Grilles de cuisson antiadhésives",
+          "part_number": "AF-SL400-PLATE",
+          "frequency": "Tous les 12-24 mois (selon usage et entretien)",
+          "why_replace": "Revêtement antiadhésif rayé ou usé, aliments qui collent, nettoyage difficile.",
+          "search_keywords": "Ninja DoubleStack XL SL400EU grilles, plateaux cuisson Ninja DoubleStack, accessoires SL400EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Panier de cuisson (compartiment principal)",
+          "part_number": "AF-SL400-BASKET",
+          "frequency": "Tous les 24-36 mois (selon usage et entretien)",
+          "why_replace": "Déformation, revêtement antiadhésif endommagé, fissures.",
+          "search_keywords": "Ninja DoubleStack XL SL400EU panier, tiroir cuisson SL400EU, pièces détachées Ninja DoubleStack",
+          "affiliate_url": null
+        },
+        {
+          "name": "Séparateur de panier",
+          "part_number": "AF-SL400-DIVIDER",
+          "frequency": "Tous les 24-36 mois (si usure)",
+          "why_replace": "Déformation, perte d'étanchéité entre les compartiments, difficulté à insérer/retirer.",
+          "search_keywords": "Ninja DoubleStack XL SL400EU séparateur, diviseur panier SL400EU, accessoires Ninja Air Fryer",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer l'intérieur de mon Ninja DoubleStack XL sans l'abîmer?",
+          "answer": "Débranchez et laissez l'appareil refroidir complètement. Retirez les paniers et grilles. Utilisez un chiffon doux et de l'eau chaude savonneuse pour nettoyer l'intérieur. Évitez les éponges abrasives et les produits chimiques agressifs. Essuyez avec un chiffon humide puis séchez."
+        },
+        {
+          "question": "Mes aliments collent aux grilles de cuisson, que faire?",
+          "answer": "Assurez-vous que les grilles sont propres et non rayées. Vous pouvez les vaporiser légèrement d'huile de cuisson avant chaque utilisation. Si le revêtement est trop usé, il est temps de remplacer les grilles."
+        },
+        {
+          "question": "Est-il normal que de la fumée s'échappe de l'appareil pendant la cuisson?",
+          "answer": "Une légère fumée peut être normale avec des aliments très gras. Cependant, une fumée excessive peut indiquer un excès de graisse accumulée ou des résidus alimentaires brûlés. Nettoyez soigneusement l'appareil, en particulier les paniers et les grilles, après chaque utilisation."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Ninja-DoubleStack-XL-95L-SL400EU---Pièces--Entretien-10-16"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

@@ -37,6 +37,7 @@
 ### Friteuses sans Huile (Air Fryer)
 - [Ninja Foodi DualZone (AF300EU / AF400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips Airfryer XXL HD9650/90](https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Ninja DoubleStack XL 9,5L (SL400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-doublestack-xl-sl400eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -51,6 +52,7 @@
 ### Robots Aspirateurs
 - [Roborock S8 / S8 Pro Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock Qrevo MaxV (QRMV01-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Roborock S8 MaxV Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-maxv-ultra-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

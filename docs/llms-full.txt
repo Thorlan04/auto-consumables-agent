@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-16
-> Total appareils répertoriés : 15
+> Total appareils répertoriés : 17
 
 ---
 
@@ -613,5 +613,86 @@
   **R :** Plusieurs raisons sont possibles : une mouture de café trop fine, un tassage excessif, un filtre encrassé ou un besoin de détartrage de la machine. Commencez par vérifier la finesse de la mouture et la propreté de vos filtres.
 - **Q : Comment nettoyer efficacement la buse vapeur de ma machine Breville ?**
   **R :** Après chaque utilisation, essuyez la buse vapeur avec un chiffon humide propre. Si des trous sont obstrués, utilisez l'outil de nettoyage fourni pour les déboucher. Pour un nettoyage plus profond, purgez la vapeur pendant quelques secondes pour éliminer les résidus de lait internes.
+
+---
+
+## Roborock S8 MaxV Ultra
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s8-maxv-ultra-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s8-maxv-ultra-entretien.html
+- **Résumé d'Entretien :** Prolongez la durée de vie de votre Roborock S8 MaxV Ultra. Découvrez les consommables, filtres et solutions aux codes erreurs pour un entretien facile et efficace.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Réservoir d'eau sale plein | Le réservoir d'eau sale de la station d'accueil est plein et doit être vidé. | Retirez le réservoir d'eau sale de la station d'accueil, videz-le, rincez-le et replacez-le correctement. |
+| Brosse principale bloquée | Des cheveux ou des débris sont enroulés autour de la brosse principale, l'empêchant de tourner. | Retournez le robot, retirez le couvercle de la brosse principale, nettoyez la brosse et retirez tous les débris. Réinstallez la brosse et son couvercle. |
+| Voyant filtre sec clignotant | Le filtre à air de la station d'accueil est encrassé ou humide et nécessite un nettoyage/remplacement. | Ouvrez le compartiment du filtre à air sur la station, retirez le filtre, nettoyez-le sous l'eau ou remplacez-le si nécessaire. Laissez sécher complètement avant de le remettre. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale DuoRoller Riser (silicone) | Réf. constructeur adaptable | Tous les 6-12 mois | Diminution de l'efficacité de nettoyage, marques au sol, bruits anormaux. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S8+MaxV+Ultra+brosse+principale+DuoRoller+Riser%2C+brosse+silicone+S8+MaxV+Ultra%2C+accessoires+Roborock+S8+MaxV+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S8+MaxV+Ultra+brosse+principale+DuoRoller+Riser%2C+brosse+silicone+S8+MaxV+Ultra%2C+accessoires+Roborock+S8+MaxV+Ultra&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 3-6 mois | Réduction de l'aspiration, rejet de poussières fines, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S8+MaxV+Ultra+filtre+HEPA%2C+filtre+lavable+S8+MaxV+Ultra%2C+filtre+poussi%C3%A8re+Roborock&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S8+MaxV+Ultra+filtre+HEPA%2C+filtre+lavable+S8+MaxV+Ultra%2C+filtre+poussi%C3%A8re+Roborock&tag=autoconsom-21) |
+| Brosse latérale en silicone | Réf. constructeur adaptable | Tous les 3-6 mois | Usure des poils, efficacité de balayage réduite sur les bords et dans les coins. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S8+MaxV+Ultra+brosse+lat%C3%A9rale%2C+brosse+de+coin+S8+MaxV+Ultra%2C+accessoires+Roborock+S8+MaxV+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S8+MaxV+Ultra+brosse+lat%C3%A9rale%2C+brosse+de+coin+S8+MaxV+Ultra%2C+accessoires+Roborock+S8+MaxV+Ultra&tag=autoconsom-21) |
+| Lingettes de nettoyage VibraRise 3.0 | Réf. constructeur adaptable | Tous les 1-3 mois (selon utilisation et lavage) | Diminution de l'efficacité de lavage, traces au sol, accumulation de saleté. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S8+MaxV+Ultra+lingettes+lavables%2C+mop+S8+MaxV+Ultra%2C+patins+lavage+Roborock&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S8+MaxV+Ultra+lingettes+lavables%2C+mop+S8+MaxV+Ultra%2C+patins+lavage+Roborock&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le module de brosse latérale de mon S8 MaxV Ultra?**
+  **R :** Retirez la brosse latérale en tirant dessus (elle est souvent clipsée ou vissée avec une vis facile à dévisser à la main). Nettoyez les cheveux et débris enroulés autour de l'axe et des poils. Replacez-la fermement.
+- **Q : Pourquoi mon Roborock S8 MaxV Ultra ne charge-t-il plus correctement à sa station?**
+  **R :** Vérifiez que les contacts de charge sous le robot et sur la station d'accueil sont propres et exempts de poussière ou de saleté. Nettoyez-les délicatement avec un chiffon sec. Assurez-vous également que la station est bien branchée.
+- **Q : Que faire si mon robot laisse des traces d'eau après le lavage?**
+  **R :** Vérifiez si les lingettes de lavage sont propres et correctement fixées. Assurez-vous que le réservoir d'eau propre est rempli et que les buses de pulvérisation ne sont pas obstruées. Un remplacement des lingettes usées peut être nécessaire.
+
+---
+
+## Ninja DoubleStack XL 9,5L (SL400EU)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-doublestack-xl-sl400eu-entretien.html
+- **Résumé d'Entretien :** Maximisez la durée de vie de votre Ninja DoubleStack XL (SL400EU). Découvrez les accessoires, le nettoyage et les solutions aux problèmes courants de votre Air Fryer.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Panier non détecté | Le ou les paniers de cuisson ne sont pas correctement insérés ou détectés par l'appareil. | Assurez-vous que les paniers sont entièrement insérés et bien enclenchés dans l'appareil. Poussez-les fermement jusqu'à entendre un clic si applicable. |
+| Hot (voyant clignotant) | L'appareil est encore chaud après utilisation et ne peut pas être manipulé ou nettoyé immédiatement. | Laissez l'appareil refroidir complètement avant de le manipuler ou de le nettoyer. Le voyant s'éteindra une fois la température sécuritaire atteinte. |
+| Clean Filter (voyant lumineux) | Un nettoyage du filtre à graisse ou des grilles de protection interne est recommandé pour maintenir la performance. | Débranchez l'appareil et laissez-le refroidir. Retirez les paniers et les grilles. Nettoyez les surfaces internes et le filtre à graisse (s'il est amovible) avec de l'eau chaude savonneuse. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Grilles de cuisson antiadhésives | AF-SL400-PLATE | Tous les 12-24 mois (selon usage et entretien) | Revêtement antiadhésif rayé ou usé, aliments qui collent, nettoyage difficile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+DoubleStack+XL+SL400EU+grilles%2C+plateaux+cuisson+Ninja+DoubleStack%2C+accessoires+SL400EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+DoubleStack+XL+SL400EU+grilles%2C+plateaux+cuisson+Ninja+DoubleStack%2C+accessoires+SL400EU&tag=autoconsom-21) |
+| Panier de cuisson (compartiment principal) | AF-SL400-BASKET | Tous les 24-36 mois (selon usage et entretien) | Déformation, revêtement antiadhésif endommagé, fissures. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+DoubleStack+XL+SL400EU+panier%2C+tiroir+cuisson+SL400EU%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ninja+DoubleStack&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+DoubleStack+XL+SL400EU+panier%2C+tiroir+cuisson+SL400EU%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ninja+DoubleStack&tag=autoconsom-21) |
+| Séparateur de panier | AF-SL400-DIVIDER | Tous les 24-36 mois (si usure) | Déformation, perte d'étanchéité entre les compartiments, difficulté à insérer/retirer. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+DoubleStack+XL+SL400EU+s%C3%A9parateur%2C+diviseur+panier+SL400EU%2C+accessoires+Ninja+Air+Fryer&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+DoubleStack+XL+SL400EU+s%C3%A9parateur%2C+diviseur+panier+SL400EU%2C+accessoires+Ninja+Air+Fryer&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer l'intérieur de mon Ninja DoubleStack XL sans l'abîmer?**
+  **R :** Débranchez et laissez l'appareil refroidir complètement. Retirez les paniers et grilles. Utilisez un chiffon doux et de l'eau chaude savonneuse pour nettoyer l'intérieur. Évitez les éponges abrasives et les produits chimiques agressifs. Essuyez avec un chiffon humide puis séchez.
+- **Q : Mes aliments collent aux grilles de cuisson, que faire?**
+  **R :** Assurez-vous que les grilles sont propres et non rayées. Vous pouvez les vaporiser légèrement d'huile de cuisson avant chaque utilisation. Si le revêtement est trop usé, il est temps de remplacer les grilles.
+- **Q : Est-il normal que de la fumée s'échappe de l'appareil pendant la cuisson?**
+  **R :** Une légère fumée peut être normale avec des aliments très gras. Cependant, une fumée excessive peut indiquer un excès de graisse accumulée ou des résidus alimentaires brûlés. Nettoyez soigneusement l'appareil, en particulier les paniers et les grilles, après chaque utilisation.
 
 ---
