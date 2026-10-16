@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-16T11:04:03.332937+00:00",
+  "generated_at": "2026-10-16T16:22:46.377770+00:00",
   "total_appliances": 17,
   "supported_languages": [
     "fr",
@@ -2577,7 +2577,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s8-maxv-ultra-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s8-maxv-ultra-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Roborock-S8-MaxV-Ultra---Pièces--Entretien-10-16",
       "common_codes": [
         {
           "code": "Réservoir d'eau sale plein",
@@ -2762,7 +2762,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-doublestack-xl-sl400eu-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-doublestack-xl-sl400eu-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Ninja-DoubleStack-XL-95L-SL400EU---Pièces--Entretien-10-16",
       "common_codes": [
         {
           "code": "Panier non détecté",
