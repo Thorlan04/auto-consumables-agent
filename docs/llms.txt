@@ -45,6 +45,7 @@
 - [De'Longhi Rivelia (FEAM 44.55.B)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips LatteGo Série 5400 (EP5447/90)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Breville Barista Touch Impress (BES881BSS)](https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [De'Longhi Magnifica Start ECAM 220.22.GB](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -53,6 +54,7 @@
 - [Roborock S8 / S8 Pro Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock Qrevo MaxV (QRMV01-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock S8 MaxV Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-maxv-ultra-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Dreame X40 Ultra Complete](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

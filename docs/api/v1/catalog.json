@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-17T10:24:04.885733+00:00",
-  "total_appliances": 17,
+  "generated_at": "2026-10-17T15:17:43.889288+00:00",
+  "total_appliances": 19,
   "supported_languages": [
     "fr",
     "en",
@@ -2890,6 +2890,344 @@
         {
           "question": "Est-il normal que de la fumée s'échappe de l'appareil pendant la cuisson?",
           "answer": "Une légère fumée peut être normale avec des aliments très gras. Cependant, une fumée excessive peut indiquer un excès de graisse accumulée ou des résidus alimentaires brûlés. Nettoyez soigneusement l'appareil, en particulier les paniers et les grilles, après chaque utilisation."
+        }
+      ]
+    },
+    {
+      "slug": "delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage",
+      "brand": "De'Longhi",
+      "model": "Magnifica Start ECAM 220.22.GB",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet d'entretien pour votre De'Longhi Magnifica Start ECAM 220.22.GB. Découvrez les consommables (filtre DLS C002), le détartrage et les codes d'erreur.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Détartrage (clignotant)",
+          "meaning": "La machine a besoin d'être détartrée pour maintenir ses performances optimales.",
+          "solution": "Remplissez le réservoir d'eau avec la solution de détartrage De'Longhi et de l'eau, puis suivez les instructions à l'écran ou du manuel pour lancer le cycle de détartrage automatique."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau vide\" (clignotant)",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas ou le réservoir n'est pas correctement inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau maximum et assurez-vous qu'il est bien en place."
+        },
+        {
+          "code": "Voyant \"Bac à marc plein\" (clignotant)",
+          "meaning": "Le bac à marc de café est plein et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le, rincez-le si nécessaire, puis réinsérez-le correctement. Le voyant devrait s'éteindre."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau De'Longhi DLS C002",
+          "part_number": "DLS C002",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau",
+          "why_replace": "Prévient l'accumulation de calcaire, améliore le goût du café, prolonge la durée de vie de la machine.",
+          "search_keywords": "DeLonghi Magnifica Start ECAM 220.22.GB filtre eau DLS C002, filtre DeLonghi DLS C002, cartouche filtrante Magnifica Start",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Détartrant écologique De'Longhi EcoDecalk",
+          "part_number": "DLSC500",
+          "frequency": "Tous les 3 mois ou selon l'alerte de la machine et la dureté de l'eau",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les circuits et altérer la saveur du café, assurant le bon fonctionnement.",
+          "search_keywords": "DeLonghi détartrant EcoDecalk DLSC500, détartrant Magnifica Start ECAM 220.22.GB, produit détartrage DeLonghi",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Graisse alimentaire De'Longhi pour l'infuseur",
+          "part_number": "DLSC029",
+          "frequency": "Tous les 6 à 12 mois ou après 500 cafés",
+          "why_replace": "Lubrifie les joints de l'infuseur, assure un bon fonctionnement et une étanchéité optimale pour une extraction parfaite.",
+          "search_keywords": "DeLonghi graisse alimentaire infuseur DLSC029, graisse Magnifica Start, lubrifiant infuseur DeLonghi",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le voyant de détartrage après l'opération sur ma Magnifica Start ?",
+          "answer": "Le voyant de détartrage se réinitialise automatiquement une fois le cycle de détartrage complet et correctement terminé. Si ce n'est pas le cas, assurez-vous d'avoir bien suivi toutes les étapes du processus et que le réservoir d'eau est rempli."
+        },
+        {
+          "question": "À quelle fréquence dois-je nettoyer l'infuseur de ma De'Longhi ECAM 220.22.GB ?",
+          "answer": "Il est recommandé de rincer l'infuseur à l'eau courante au moins une fois par mois. Pour un nettoyage plus approfondi et la lubrification des joints, effectuez-le tous les 6 à 12 mois."
+        },
+        {
+          "question": "Ma Magnifica Start ne fait plus de café, le voyant 'réservoir d'eau' clignote même si le réservoir est plein. Que faire ?",
+          "answer": "Vérifiez que le réservoir est correctement inséré et poussé jusqu'au fond. Si le problème persiste, retirez le filtre à eau DLS C002 et testez sans pour voir si le débit d'eau est rétabli. Le filtre pourrait être obstrué ou mal positionné."
+        }
+      ]
+    },
+    {
+      "slug": "dreame-x40-ultra-complete-entretien-consommables",
+      "brand": "Dreame",
+      "model": "X40 Ultra Complete",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide d'entretien pour votre robot Dreame X40 Ultra Complete. Trouvez les filtres HEPA, brosses latérales et accessoires pour une performance optimale. Réf. PN inclus.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-x40-ultra-complete-entretien-consommables.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-x40-ultra-complete-entretien-consommables.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Erreur Brosse principale bloquée",
+          "meaning": "Un objet (cheveux, fil) est enroulé autour de la brosse principale, l'empêchant de tourner.",
+          "solution": "Éteignez le robot. Retournez-le et retirez le couvercle de la brosse principale. Nettoyez soigneusement la brosse en retirant tous les débris et cheveux enchevêtrés. Réinstallez la brosse et le couvercle."
+        },
+        {
+          "code": "Erreur Capteur de falaise sale",
+          "meaning": "Les capteurs situés sous le robot sont encrassés par la poussière ou la saleté, perturbant la navigation.",
+          "solution": "Éteignez le robot. Essuyez délicatement les quatre capteurs de falaise situés sous le robot avec un chiffon doux et sec."
+        },
+        {
+          "code": "Bac à poussière/réservoir d'eau plein ou mal installé",
+          "meaning": "Le bac à poussière est plein, le réservoir d'eau n'est pas correctement mis en place, ou le sac de la station est plein.",
+          "solution": "Vérifiez le bac à poussière et videz-le si nécessaire. Assurez-vous que le réservoir d'eau est correctement rempli et bien inséré. Si le robot est connecté à une station de vidage automatique, vérifiez que le sac à poussière de la station n'est pas plein et remplacez-le si besoin."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA pour bac à poussière Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Maintient la capacité de filtration de l'air, empêche les allergènes de ressortir, préserve la puissance d'aspiration.",
+          "search_keywords": "Dreame X40 Ultra Complete filtre HEPA, filtre aspirateur robot Dreame X40, filtre à poussière Dreame X40",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosses latérales Dreame X40 Ultra Complete (paire)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Assure un balayage efficace des bords et des coins, une usure excessive réduit la performance de nettoyage.",
+          "search_keywords": "Dreame X40 Ultra Complete brosse latérale, brosses latérales Dreame X40, kit brosses Dreame X40",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse principale en caoutchouc Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (selon usage)",
+          "why_replace": "Maintient une aspiration optimale et un ramassage efficace des débris, une brosse usée perd en performance.",
+          "search_keywords": "Dreame X40 Ultra Complete brosse principale, brosse centrale Dreame X40, rouleau brosse Dreame X40",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sacs à poussière pour station de vidage Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1 à 2 mois (selon usage)",
+          "why_replace": "Permet la vidange automatique du robot, prévient les odeurs et maintient l'hygiène de la station.",
+          "search_keywords": "Dreame X40 Ultra Complete sacs poussière, sac station vidage Dreame X40, sac aspirateur Dreame X40",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs de mon Dreame X40 Ultra Complete ?",
+          "answer": "Éteignez le robot. Utilisez un chiffon doux et sec pour essuyer délicatement les capteurs de falaise situés sous le robot, ainsi que les capteurs de distance et de collision sur les côtés et à l'avant."
+        },
+        {
+          "question": "Mon robot Dreame X40 Ultra Complete laisse des traces d'eau, que faire ?",
+          "answer": "Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau est rempli avec de l'eau propre (sans détergent non approuvé) et que les buses ne sont pas obstruées. Les patins usés peuvent aussi causer ce problème."
+        },
+        {
+          "question": "Comment puis-je vider manuellement le bac à poussière de mon X40 Ultra Complete si ma station de vidage est pleine ou en panne ?",
+          "answer": "Soulevez le capot supérieur du robot pour accéder au bac à poussière. Retirez le bac, ouvrez-le, videz son contenu dans une poubelle et nettoyez le filtre HEPA. Réinsérez le bac correctement."
         }
       ]
     }

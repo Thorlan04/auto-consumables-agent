@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-17T10:24:04.617212+00:00",
-  "total_guides": 17,
+  "last_updated": "2026-10-17T15:17:43.551885+00:00",
+  "total_guides": 19,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1156,6 +1156,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Ninja-DoubleStack-XL-95L-SL400EU---Pièces--Entretien-10-16"
+    },
+    {
+      "slug": "delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage",
+      "title": "Entretien De'Longhi Magnifica Start ECAM 220.22.GB : Détartrage, Filtre & Pièces",
+      "brand": "De'Longhi",
+      "model": "Magnifica Start ECAM 220.22.GB",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet d'entretien pour votre De'Longhi Magnifica Start ECAM 220.22.GB. Découvrez les consommables (filtre DLS C002), le détartrage et les codes d'erreur.",
+      "common_codes": [
+        {
+          "code": "Voyant Détartrage (clignotant)",
+          "meaning": "La machine a besoin d'être détartrée pour maintenir ses performances optimales.",
+          "solution": "Remplissez le réservoir d'eau avec la solution de détartrage De'Longhi et de l'eau, puis suivez les instructions à l'écran ou du manuel pour lancer le cycle de détartrage automatique."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau vide\" (clignotant)",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas ou le réservoir n'est pas correctement inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau maximum et assurez-vous qu'il est bien en place."
+        },
+        {
+          "code": "Voyant \"Bac à marc plein\" (clignotant)",
+          "meaning": "Le bac à marc de café est plein et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le, rincez-le si nécessaire, puis réinsérez-le correctement. Le voyant devrait s'éteindre."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau De'Longhi DLS C002",
+          "part_number": "DLS C002",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau",
+          "why_replace": "Prévient l'accumulation de calcaire, améliore le goût du café, prolonge la durée de vie de la machine.",
+          "search_keywords": "DeLonghi Magnifica Start ECAM 220.22.GB filtre eau DLS C002, filtre DeLonghi DLS C002, cartouche filtrante Magnifica Start",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détartrant écologique De'Longhi EcoDecalk",
+          "part_number": "DLSC500",
+          "frequency": "Tous les 3 mois ou selon l'alerte de la machine et la dureté de l'eau",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les circuits et altérer la saveur du café, assurant le bon fonctionnement.",
+          "search_keywords": "DeLonghi détartrant EcoDecalk DLSC500, détartrant Magnifica Start ECAM 220.22.GB, produit détartrage DeLonghi",
+          "affiliate_url": null
+        },
+        {
+          "name": "Graisse alimentaire De'Longhi pour l'infuseur",
+          "part_number": "DLSC029",
+          "frequency": "Tous les 6 à 12 mois ou après 500 cafés",
+          "why_replace": "Lubrifie les joints de l'infuseur, assure un bon fonctionnement et une étanchéité optimale pour une extraction parfaite.",
+          "search_keywords": "DeLonghi graisse alimentaire infuseur DLSC029, graisse Magnifica Start, lubrifiant infuseur DeLonghi",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le voyant de détartrage après l'opération sur ma Magnifica Start ?",
+          "answer": "Le voyant de détartrage se réinitialise automatiquement une fois le cycle de détartrage complet et correctement terminé. Si ce n'est pas le cas, assurez-vous d'avoir bien suivi toutes les étapes du processus et que le réservoir d'eau est rempli."
+        },
+        {
+          "question": "À quelle fréquence dois-je nettoyer l'infuseur de ma De'Longhi ECAM 220.22.GB ?",
+          "answer": "Il est recommandé de rincer l'infuseur à l'eau courante au moins une fois par mois. Pour un nettoyage plus approfondi et la lubrification des joints, effectuez-le tous les 6 à 12 mois."
+        },
+        {
+          "question": "Ma Magnifica Start ne fait plus de café, le voyant 'réservoir d'eau' clignote même si le réservoir est plein. Que faire ?",
+          "answer": "Vérifiez que le réservoir est correctement inséré et poussé jusqu'au fond. Si le problème persiste, retirez le filtre à eau DLS C002 et testez sans pour voir si le débit d'eau est rétabli. Le filtre pourrait être obstrué ou mal positionné."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/DeLonghi-Magnifica-Start-ECAM-22022GB---Pièces--Entretien-10-17"
+    },
+    {
+      "slug": "dreame-x40-ultra-complete-entretien-consommables",
+      "title": "Entretien Dreame X40 Ultra Complete : Filtres, Brosses & Pièces détachées",
+      "brand": "Dreame",
+      "model": "X40 Ultra Complete",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide d'entretien pour votre robot Dreame X40 Ultra Complete. Trouvez les filtres HEPA, brosses latérales et accessoires pour une performance optimale. Réf. PN inclus.",
+      "common_codes": [
+        {
+          "code": "Erreur Brosse principale bloquée",
+          "meaning": "Un objet (cheveux, fil) est enroulé autour de la brosse principale, l'empêchant de tourner.",
+          "solution": "Éteignez le robot. Retournez-le et retirez le couvercle de la brosse principale. Nettoyez soigneusement la brosse en retirant tous les débris et cheveux enchevêtrés. Réinstallez la brosse et le couvercle."
+        },
+        {
+          "code": "Erreur Capteur de falaise sale",
+          "meaning": "Les capteurs situés sous le robot sont encrassés par la poussière ou la saleté, perturbant la navigation.",
+          "solution": "Éteignez le robot. Essuyez délicatement les quatre capteurs de falaise situés sous le robot avec un chiffon doux et sec."
+        },
+        {
+          "code": "Bac à poussière/réservoir d'eau plein ou mal installé",
+          "meaning": "Le bac à poussière est plein, le réservoir d'eau n'est pas correctement mis en place, ou le sac de la station est plein.",
+          "solution": "Vérifiez le bac à poussière et videz-le si nécessaire. Assurez-vous que le réservoir d'eau est correctement rempli et bien inséré. Si le robot est connecté à une station de vidage automatique, vérifiez que le sac à poussière de la station n'est pas plein et remplacez-le si besoin."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA pour bac à poussière Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Maintient la capacité de filtration de l'air, empêche les allergènes de ressortir, préserve la puissance d'aspiration.",
+          "search_keywords": "Dreame X40 Ultra Complete filtre HEPA, filtre aspirateur robot Dreame X40, filtre à poussière Dreame X40",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosses latérales Dreame X40 Ultra Complete (paire)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Assure un balayage efficace des bords et des coins, une usure excessive réduit la performance de nettoyage.",
+          "search_keywords": "Dreame X40 Ultra Complete brosse latérale, brosses latérales Dreame X40, kit brosses Dreame X40",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse principale en caoutchouc Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (selon usage)",
+          "why_replace": "Maintient une aspiration optimale et un ramassage efficace des débris, une brosse usée perd en performance.",
+          "search_keywords": "Dreame X40 Ultra Complete brosse principale, brosse centrale Dreame X40, rouleau brosse Dreame X40",
+          "affiliate_url": null
+        },
+        {
+          "name": "Sacs à poussière pour station de vidage Dreame X40 Ultra Complete",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1 à 2 mois (selon usage)",
+          "why_replace": "Permet la vidange automatique du robot, prévient les odeurs et maintient l'hygiène de la station.",
+          "search_keywords": "Dreame X40 Ultra Complete sacs poussière, sac station vidage Dreame X40, sac aspirateur Dreame X40",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs de mon Dreame X40 Ultra Complete ?",
+          "answer": "Éteignez le robot. Utilisez un chiffon doux et sec pour essuyer délicatement les capteurs de falaise situés sous le robot, ainsi que les capteurs de distance et de collision sur les côtés et à l'avant."
+        },
+        {
+          "question": "Mon robot Dreame X40 Ultra Complete laisse des traces d'eau, que faire ?",
+          "answer": "Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau est rempli avec de l'eau propre (sans détergent non approuvé) et que les buses ne sont pas obstruées. Les patins usés peuvent aussi causer ce problème."
+        },
+        {
+          "question": "Comment puis-je vider manuellement le bac à poussière de mon X40 Ultra Complete si ma station de vidage est pleine ou en panne ?",
+          "answer": "Soulevez le capot supérieur du robot pour accéder au bac à poussière. Retirez le bac, ouvrez-le, videz son contenu dans une poubelle et nettoyez le filtre HEPA. Réinsérez le bac correctement."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Dreame-X40-Ultra-Complete---Pièces--Entretien-10-17"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-17
-> Total appareils répertoriés : 17
+> Total appareils répertoriés : 19
 
 ---
 
@@ -694,5 +694,86 @@
   **R :** Assurez-vous que les grilles sont propres et non rayées. Vous pouvez les vaporiser légèrement d'huile de cuisson avant chaque utilisation. Si le revêtement est trop usé, il est temps de remplacer les grilles.
 - **Q : Est-il normal que de la fumée s'échappe de l'appareil pendant la cuisson?**
   **R :** Une légère fumée peut être normale avec des aliments très gras. Cependant, une fumée excessive peut indiquer un excès de graisse accumulée ou des résidus alimentaires brûlés. Nettoyez soigneusement l'appareil, en particulier les paniers et les grilles, après chaque utilisation.
+
+---
+
+## De'Longhi Magnifica Start ECAM 220.22.GB
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre De'Longhi Magnifica Start ECAM 220.22.GB. Découvrez les consommables (filtre DLS C002), le détartrage et les codes d'erreur.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Détartrage (clignotant) | La machine a besoin d'être détartrée pour maintenir ses performances optimales. | Remplissez le réservoir d'eau avec la solution de détartrage De'Longhi et de l'eau, puis suivez les instructions à l'écran ou du manuel pour lancer le cycle de détartrage automatique. |
+| Voyant "Réservoir d'eau vide" (clignotant) | Le niveau d'eau dans le réservoir est trop bas ou le réservoir n'est pas correctement inséré. | Remplissez le réservoir d'eau fraîche jusqu'au niveau maximum et assurez-vous qu'il est bien en place. |
+| Voyant "Bac à marc plein" (clignotant) | Le bac à marc de café est plein et doit être vidé. | Retirez le bac à marc, videz-le, rincez-le si nécessaire, puis réinsérez-le correctement. Le voyant devrait s'éteindre. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau De'Longhi DLS C002 | DLS C002 | Tous les 2 mois ou après 50 litres d'eau | Prévient l'accumulation de calcaire, améliore le goût du café, prolonge la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=DeLonghi+Magnifica+Start+ECAM+220.22.GB+filtre+eau+DLS+C002%2C+filtre+DeLonghi+DLS+C002%2C+cartouche+filtrante+Magnifica+Start&tag=autoconsom-21) |
+| Détartrant écologique De'Longhi EcoDecalk | DLSC500 | Tous les 3 mois ou selon l'alerte de la machine et la dureté de l'eau | Élimine les dépôts de calcaire qui peuvent obstruer les circuits et altérer la saveur du café, assurant le bon fonctionnement. | [Amazon.fr ↗](https://www.amazon.fr/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=DeLonghi+d%C3%A9tartrant+EcoDecalk+DLSC500%2C+d%C3%A9tartrant+Magnifica+Start+ECAM+220.22.GB%2C+produit+d%C3%A9tartrage+DeLonghi&tag=autoconsom-21) |
+| Graisse alimentaire De'Longhi pour l'infuseur | DLSC029 | Tous les 6 à 12 mois ou après 500 cafés | Lubrifie les joints de l'infuseur, assure un bon fonctionnement et une étanchéité optimale pour une extraction parfaite. | [Amazon.fr ↗](https://www.amazon.fr/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=DeLonghi+graisse+alimentaire+infuseur+DLSC029%2C+graisse+Magnifica+Start%2C+lubrifiant+infuseur+DeLonghi&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment réinitialiser le voyant de détartrage après l'opération sur ma Magnifica Start ?**
+  **R :** Le voyant de détartrage se réinitialise automatiquement une fois le cycle de détartrage complet et correctement terminé. Si ce n'est pas le cas, assurez-vous d'avoir bien suivi toutes les étapes du processus et que le réservoir d'eau est rempli.
+- **Q : À quelle fréquence dois-je nettoyer l'infuseur de ma De'Longhi ECAM 220.22.GB ?**
+  **R :** Il est recommandé de rincer l'infuseur à l'eau courante au moins une fois par mois. Pour un nettoyage plus approfondi et la lubrification des joints, effectuez-le tous les 6 à 12 mois.
+- **Q : Ma Magnifica Start ne fait plus de café, le voyant 'réservoir d'eau' clignote même si le réservoir est plein. Que faire ?**
+  **R :** Vérifiez que le réservoir est correctement inséré et poussé jusqu'au fond. Si le problème persiste, retirez le filtre à eau DLS C002 et testez sans pour voir si le débit d'eau est rétabli. Le filtre pourrait être obstrué ou mal positionné.
+
+---
+
+## Dreame X40 Ultra Complete
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-x40-ultra-complete-entretien-consommables.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre robot Dreame X40 Ultra Complete. Trouvez les filtres HEPA, brosses latérales et accessoires pour une performance optimale. Réf. PN inclus.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Erreur Brosse principale bloquée | Un objet (cheveux, fil) est enroulé autour de la brosse principale, l'empêchant de tourner. | Éteignez le robot. Retournez-le et retirez le couvercle de la brosse principale. Nettoyez soigneusement la brosse en retirant tous les débris et cheveux enchevêtrés. Réinstallez la brosse et le couvercle. |
+| Erreur Capteur de falaise sale | Les capteurs situés sous le robot sont encrassés par la poussière ou la saleté, perturbant la navigation. | Éteignez le robot. Essuyez délicatement les quatre capteurs de falaise situés sous le robot avec un chiffon doux et sec. |
+| Bac à poussière/réservoir d'eau plein ou mal installé | Le bac à poussière est plein, le réservoir d'eau n'est pas correctement mis en place, ou le sac de la station est plein. | Vérifiez le bac à poussière et videz-le si nécessaire. Assurez-vous que le réservoir d'eau est correctement rempli et bien inséré. Si le robot est connecté à une station de vidage automatique, vérifiez que le sac à poussière de la station n'est pas plein et remplacez-le si besoin. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre HEPA pour bac à poussière Dreame X40 Ultra Complete | Réf. constructeur adaptable | Tous les 3 à 6 mois (selon usage) | Maintient la capacité de filtration de l'air, empêche les allergènes de ressortir, préserve la puissance d'aspiration. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+filtre+HEPA%2C+filtre+aspirateur+robot+Dreame+X40%2C+filtre+%C3%A0+poussi%C3%A8re+Dreame+X40&tag=autoconsom-21) |
+| Brosses latérales Dreame X40 Ultra Complete (paire) | Réf. constructeur adaptable | Tous les 3 à 6 mois (selon usage) | Assure un balayage efficace des bords et des coins, une usure excessive réduit la performance de nettoyage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+lat%C3%A9rale%2C+brosses+lat%C3%A9rales+Dreame+X40%2C+kit+brosses+Dreame+X40&tag=autoconsom-21) |
+| Brosse principale en caoutchouc Dreame X40 Ultra Complete | Réf. constructeur adaptable | Tous les 6 à 12 mois (selon usage) | Maintient une aspiration optimale et un ramassage efficace des débris, une brosse usée perd en performance. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+brosse+principale%2C+brosse+centrale+Dreame+X40%2C+rouleau+brosse+Dreame+X40&tag=autoconsom-21) |
+| Sacs à poussière pour station de vidage Dreame X40 Ultra Complete | Réf. constructeur adaptable | Tous les 1 à 2 mois (selon usage) | Permet la vidange automatique du robot, prévient les odeurs et maintient l'hygiène de la station. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+X40+Ultra+Complete+sacs+poussi%C3%A8re%2C+sac+station+vidage+Dreame+X40%2C+sac+aspirateur+Dreame+X40&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les capteurs de mon Dreame X40 Ultra Complete ?**
+  **R :** Éteignez le robot. Utilisez un chiffon doux et sec pour essuyer délicatement les capteurs de falaise situés sous le robot, ainsi que les capteurs de distance et de collision sur les côtés et à l'avant.
+- **Q : Mon robot Dreame X40 Ultra Complete laisse des traces d'eau, que faire ?**
+  **R :** Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau est rempli avec de l'eau propre (sans détergent non approuvé) et que les buses ne sont pas obstruées. Les patins usés peuvent aussi causer ce problème.
+- **Q : Comment puis-je vider manuellement le bac à poussière de mon X40 Ultra Complete si ma station de vidage est pleine ou en panne ?**
+  **R :** Soulevez le capot supérieur du robot pour accéder au bac à poussière. Retirez le bac, ouvrez-le, videz son contenu dans une poubelle et nettoyez le filtre HEPA. Réinsérez le bac correctement.
 
 ---
