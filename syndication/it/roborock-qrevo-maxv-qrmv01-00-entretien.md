@@ -2,7 +2,7 @@
 title: "Roborock Qrevo MaxV (QRMV01-00): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock Qrevo MaxV (QRMV01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

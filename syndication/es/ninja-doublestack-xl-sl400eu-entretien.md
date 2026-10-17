@@ -2,7 +2,7 @@
 title: "Ninja DoubleStack XL 9,5L (SL400EU): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Ninja DoubleStack XL 9,5L (SL400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Entretien Centrale Vapeur Calor Pro Express Ultimate GV9720C0"
 description: "Guide d'entretien simple pour votre centrale vapeur Calor Pro Express Ultimate GV9720C0 : détartrage, nettoyage semelle et consommables."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

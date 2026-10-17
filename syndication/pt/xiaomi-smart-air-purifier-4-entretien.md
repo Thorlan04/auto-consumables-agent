@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

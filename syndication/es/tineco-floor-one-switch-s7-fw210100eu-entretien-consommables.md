@@ -2,7 +2,7 @@
 title: "Tineco Floor One Switch S7 (FW210100EU): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Tineco Floor One Switch S7 (FW210100EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

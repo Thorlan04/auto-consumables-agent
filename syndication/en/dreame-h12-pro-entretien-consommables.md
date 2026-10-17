@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

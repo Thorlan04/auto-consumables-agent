@@ -2,7 +2,7 @@
 title: "Roborock Qrevo MaxV (QRMV01-00): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Roborock Qrevo MaxV (QRMV01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

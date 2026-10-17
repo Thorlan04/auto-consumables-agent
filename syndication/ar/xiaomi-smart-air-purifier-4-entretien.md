@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-16"
+published_at: "2026-10-17"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
