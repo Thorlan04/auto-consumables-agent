@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-17T15:17:43.889288+00:00",
+  "generated_at": "2026-10-17T20:22:12.126436+00:00",
   "total_appliances": 19,
   "supported_languages": [
     "fr",
@@ -2915,7 +2915,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/DeLonghi-Magnifica-Start-ECAM-22022GB---Pièces--Entretien-10-17",
       "common_codes": [
         {
           "code": "Voyant Détartrage (clignotant)",
@@ -3068,7 +3068,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-x40-ultra-complete-entretien-consommables.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-x40-ultra-complete-entretien-consommables.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Dreame-X40-Ultra-Complete---Pièces--Entretien-10-17",
       "common_codes": [
         {
           "code": "Erreur Brosse principale bloquée",
