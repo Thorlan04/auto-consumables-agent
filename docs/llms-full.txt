@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-10-17
-> Total appareils répertoriés : 19
+> Horodatage de génération : 2026-10-18
+> Total appareils répertoriés : 21
 
 ---
 
@@ -775,5 +775,85 @@
   **R :** Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau est rempli avec de l'eau propre (sans détergent non approuvé) et que les buses ne sont pas obstruées. Les patins usés peuvent aussi causer ce problème.
 - **Q : Comment puis-je vider manuellement le bac à poussière de mon X40 Ultra Complete si ma station de vidage est pleine ou en panne ?**
   **R :** Soulevez le capot supérieur du robot pour accéder au bac à poussière. Retirez le bac, ouvrez-le, videz son contenu dans une poubelle et nettoyez le filtre HEPA. Réinsérez le bac correctement.
+
+---
+
+## Dreame H14 Pro
+- **Catégorie :** Aspirateurs Laveurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h14-pro-aspirateur-laveur-entretien.html
+- **Résumé d'Entretien :** Guide d'entretien du Dreame H14 Pro : remplacez les rouleaux brosses et filtres HEPA pour une performance optimale. Résolvez les codes erreurs courants.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Réservoir d'eau sale plein" | Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé. | Retirez le réservoir d'eau sale, videz-le complètement, rincez-le à l'eau claire et remettez-le en place correctement. |
+| Voyant "Rouleau brosse bloqué" | Un corps étranger (cheveux, débris) bloque la rotation du rouleau brosse. | Éteignez l'appareil, retirez le rouleau brosse et nettoyez-le minutieusement. Enlevez tous les cheveux et débris emmêlés. |
+| Voyant "Réservoir d'eau propre vide" | Le réservoir d'eau propre est vide et l'appareil ne peut plus laver. | Retirez le réservoir d'eau propre, remplissez-le d'eau du robinet, puis remettez-le en place. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleau brosse multi-surfaces Dreame H14 Pro | Réf. constructeur adaptable | Tous les 3-6 mois | Perte d'efficacité de nettoyage, traînées, mauvaises odeurs dues à l'accumulation de saletés. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21) |
+| Filtre HEPA Dreame H14 Pro | Réf. constructeur adaptable | Tous les 3-6 mois | Diminution de la puissance d'aspiration, rejet de poussières fines, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21) |
+| Solution de nettoyage Dreame pour sols | Réf. constructeur adaptable | Selon l'utilisation (recharge du flacon) | Nettoyage inefficace, absence de parfum frais, accumulation de bactéries sans désinfectant. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le réservoir d'eau sale du Dreame H14 Pro ?**
+  **R :** Retirez le réservoir, videz l'eau sale, rincez-le à l'eau claire et utilisez la brosse de nettoyage fournie pour enlever les résidus solides. Laissez-le sécher à l'air avant de le remettre en place.
+- **Q : Mon Dreame H14 Pro laisse des traces, que faire ?**
+  **R :** Vérifiez et nettoyez le rouleau brosse et le filtre. Assurez-vous que le réservoir d'eau propre contient suffisamment d'eau et que la solution de nettoyage est correctement dosée. Un rouleau brosse usé ou sale peut laisser des traces.
+- **Q : Est-il nécessaire d'utiliser la solution de nettoyage Dreame spécifique ?**
+  **R :** Il est fortement recommandé d'utiliser la solution de nettoyage Dreame officielle ou une solution compatible approuvée pour éviter d'endommager l'appareil, de faire mousser excessivement ou de laisser des résidus.
+
+---
+
+## Levoit Core 400S Smart True HEPA
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-400s-smart-hepa-entretien-filtres.html
+- **Résumé d'Entretien :** Guide d'entretien du purificateur d'air Levoit Core 400S : remplacez les filtres True HEPA et charbon actif pour un air pur optimal.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Changement de filtre" (rouge clignotant) | Le filtre combiné (pré-filtre, HEPA, charbon actif) a atteint la fin de sa durée de vie et doit être remplacé. | Remplacez le filtre par un nouveau. Après le remplacement, branchez l'appareil, puis maintenez le bouton "Vérification du filtre" (Filter Check) enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne pour réinitialiser le compteur. |
+| Voyant "Qualité de l'air" (orange/rouge) | Indique une qualité de l'air médiocre ou mauvaise détectée par le capteur de particules. | Assurez-vous que la pièce est bien ventilée. Nettoyez délicatement le capteur de poussière situé à l'arrière de l'appareil avec un coton-tige sec. Si le problème persiste, le filtre peut être saturé. |
+| Voyant "Verrouillage enfant" (symbole cadenas) | La fonction de verrouillage enfant est activée, empêchant toute modification des réglages. | Maintenez le bouton "Verrouillage enfant" enfoncé pendant 3 secondes pour désactiver cette fonction et retrouver l'accès aux commandes. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre de remplacement 3-en-1 Levoit Core 400S (Pré-filtre, True HEPA, Charbon Actif) | Core 400S-RF | Tous les 6-8 mois (ou selon l'indicateur) | Perte d'efficacité de filtration des poussières, allergènes, odeurs et COV, augmentation de la consommation électrique. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21) |
+| Mèche d'aromatisation Levoit Core 400S (pour diffuseur d'huiles essentielles) | Réf. constructeur adaptable | Tous les 1-3 mois (ou si odeur faible) | Diffusion d'arômes réduite, accumulation de résidus d'huiles essentielles. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21) |
+| Filtre de remplacement Levoit Core 400S "Pet Allergy" (H13 True HEPA) | Core 400S-RF-P | Tous les 6-8 mois (ou selon l'indicateur) | Filtration améliorée des poils d'animaux, squames, odeurs fortes, allergènes spécifiques. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je nettoyer le pré-filtre du Levoit Core 400S ?**
+  **R :** Le pré-filtre, intégré au filtre principal, doit être nettoyé délicatement avec un aspirateur ou un chiffon sec tous les 2 à 4 semaines pour maintenir une efficacité optimale et prolonger la durée de vie du filtre HEPA.
+- **Q : Puis-je laver le filtre True HEPA du Levoit Core 400S ?**
+  **R :** Non, le filtre True HEPA et le filtre à charbon actif ne sont pas lavables. Les laver endommagerait leur structure et annulerait leur capacité de filtration. Ils doivent être remplacés.
+- **Q : Le purificateur d'air Levoit Core 400S fait-il du bruit, est-ce normal ?**
+  **R :** Un léger bruit est normal, surtout à des vitesses de ventilateur élevées. Si le bruit est excessif ou anormal, vérifiez que le filtre est correctement installé et que rien n'obstrue les entrées/sorties d'air.
 
 ---

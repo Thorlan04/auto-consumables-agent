@@ -2,7 +2,7 @@
 title: "Ninja DoubleStack XL 9,5L (SL400EU): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ninja DoubleStack XL 9,5L (SL400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

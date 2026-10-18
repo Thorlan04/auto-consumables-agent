@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

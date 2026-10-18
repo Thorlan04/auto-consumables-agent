@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

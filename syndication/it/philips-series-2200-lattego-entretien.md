@@ -2,7 +2,7 @@
 title: "Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-series-2200-lattego-entretien.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

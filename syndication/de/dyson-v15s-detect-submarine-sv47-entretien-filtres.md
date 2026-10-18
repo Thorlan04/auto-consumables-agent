@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dyson V15s Detect Submarine (SV47)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-17T20:22:11.792987+00:00",
-  "total_guides": 19,
+  "last_updated": "2026-10-18T03:53:22.005942+00:00",
+  "total_guides": 21,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1296,6 +1296,138 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Dreame-X40-Ultra-Complete---Pièces--Entretien-10-17"
+    },
+    {
+      "slug": "dreame-h14-pro-aspirateur-laveur-entretien",
+      "title": "Entretien Dreame H14 Pro : Consommables & Codes Erreur (2024-2026)",
+      "brand": "Dreame",
+      "model": "H14 Pro",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide d'entretien du Dreame H14 Pro : remplacez les rouleaux brosses et filtres HEPA pour une performance optimale. Résolvez les codes erreurs courants.",
+      "common_codes": [
+        {
+          "code": "Voyant \"Réservoir d'eau sale plein\"",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le complètement, rincez-le à l'eau claire et remettez-le en place correctement."
+        },
+        {
+          "code": "Voyant \"Rouleau brosse bloqué\"",
+          "meaning": "Un corps étranger (cheveux, débris) bloque la rotation du rouleau brosse.",
+          "solution": "Éteignez l'appareil, retirez le rouleau brosse et nettoyez-le minutieusement. Enlevez tous les cheveux et débris emmêlés."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau propre vide\"",
+          "meaning": "Le réservoir d'eau propre est vide et l'appareil ne peut plus laver.",
+          "solution": "Retirez le réservoir d'eau propre, remplissez-le d'eau du robinet, puis remettez-le en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse multi-surfaces Dreame H14 Pro",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Perte d'efficacité de nettoyage, traînées, mauvaises odeurs dues à l'accumulation de saletés.",
+          "search_keywords": "Dreame H14 Pro rouleau brosse, brosse de rechange Dreame H14 Pro, rouleau aspirateur laveur Dreame H14 Pro",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA Dreame H14 Pro",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines, mauvaises odeurs.",
+          "search_keywords": "Dreame H14 Pro filtre HEPA, filtre aspirateur Dreame H14 Pro, filtre de rechange H14 Pro",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Dreame pour sols",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Selon l'utilisation (recharge du flacon)",
+          "why_replace": "Nettoyage inefficace, absence de parfum frais, accumulation de bactéries sans désinfectant.",
+          "search_keywords": "Liquide nettoyage Dreame H14 Pro, détergent sols Dreame, solution nettoyante Dreame",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le réservoir d'eau sale du Dreame H14 Pro ?",
+          "answer": "Retirez le réservoir, videz l'eau sale, rincez-le à l'eau claire et utilisez la brosse de nettoyage fournie pour enlever les résidus solides. Laissez-le sécher à l'air avant de le remettre en place."
+        },
+        {
+          "question": "Mon Dreame H14 Pro laisse des traces, que faire ?",
+          "answer": "Vérifiez et nettoyez le rouleau brosse et le filtre. Assurez-vous que le réservoir d'eau propre contient suffisamment d'eau et que la solution de nettoyage est correctement dosée. Un rouleau brosse usé ou sale peut laisser des traces."
+        },
+        {
+          "question": "Est-il nécessaire d'utiliser la solution de nettoyage Dreame spécifique ?",
+          "answer": "Il est fortement recommandé d'utiliser la solution de nettoyage Dreame officielle ou une solution compatible approuvée pour éviter d'endommager l'appareil, de faire mousser excessivement ou de laisser des résidus."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Dreame-H14-Pro---Pièces--Entretien-10-18"
+    },
+    {
+      "slug": "levoit-core-400s-smart-hepa-entretien-filtres",
+      "title": "Entretien Levoit Core 400S Smart True HEPA : Remplacement Filtres & Voyants (2024-2026)",
+      "brand": "Levoit",
+      "model": "Core 400S Smart True HEPA",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide d'entretien du purificateur d'air Levoit Core 400S : remplacez les filtres True HEPA et charbon actif pour un air pur optimal.",
+      "common_codes": [
+        {
+          "code": "Voyant \"Changement de filtre\" (rouge clignotant)",
+          "meaning": "Le filtre combiné (pré-filtre, HEPA, charbon actif) a atteint la fin de sa durée de vie et doit être remplacé.",
+          "solution": "Remplacez le filtre par un nouveau. Après le remplacement, branchez l'appareil, puis maintenez le bouton \"Vérification du filtre\" (Filter Check) enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne pour réinitialiser le compteur."
+        },
+        {
+          "code": "Voyant \"Qualité de l'air\" (orange/rouge)",
+          "meaning": "Indique une qualité de l'air médiocre ou mauvaise détectée par le capteur de particules.",
+          "solution": "Assurez-vous que la pièce est bien ventilée. Nettoyez délicatement le capteur de poussière situé à l'arrière de l'appareil avec un coton-tige sec. Si le problème persiste, le filtre peut être saturé."
+        },
+        {
+          "code": "Voyant \"Verrouillage enfant\" (symbole cadenas)",
+          "meaning": "La fonction de verrouillage enfant est activée, empêchant toute modification des réglages.",
+          "solution": "Maintenez le bouton \"Verrouillage enfant\" enfoncé pendant 3 secondes pour désactiver cette fonction et retrouver l'accès aux commandes."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre de remplacement 3-en-1 Levoit Core 400S (Pré-filtre, True HEPA, Charbon Actif)",
+          "part_number": "Core 400S-RF",
+          "frequency": "Tous les 6-8 mois (ou selon l'indicateur)",
+          "why_replace": "Perte d'efficacité de filtration des poussières, allergènes, odeurs et COV, augmentation de la consommation électrique.",
+          "search_keywords": "Levoit Core 400S filtre, filtre HEPA Levoit Core 400S, Levoit 400S-RF, filtre de rechange Core 400S",
+          "affiliate_url": null
+        },
+        {
+          "name": "Mèche d'aromatisation Levoit Core 400S (pour diffuseur d'huiles essentielles)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-3 mois (ou si odeur faible)",
+          "why_replace": "Diffusion d'arômes réduite, accumulation de résidus d'huiles essentielles.",
+          "search_keywords": "Levoit Core 400S mèche, tampon aromatique Levoit 400S, accessoires Levoit Core 400S",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre de remplacement Levoit Core 400S \"Pet Allergy\" (H13 True HEPA)",
+          "part_number": "Core 400S-RF-P",
+          "frequency": "Tous les 6-8 mois (ou selon l'indicateur)",
+          "why_replace": "Filtration améliorée des poils d'animaux, squames, odeurs fortes, allergènes spécifiques.",
+          "search_keywords": "Levoit Core 400S filtre animaux, filtre Levoit 400S allergie, filtre Core 400S pour animaux",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je nettoyer le pré-filtre du Levoit Core 400S ?",
+          "answer": "Le pré-filtre, intégré au filtre principal, doit être nettoyé délicatement avec un aspirateur ou un chiffon sec tous les 2 à 4 semaines pour maintenir une efficacité optimale et prolonger la durée de vie du filtre HEPA."
+        },
+        {
+          "question": "Puis-je laver le filtre True HEPA du Levoit Core 400S ?",
+          "answer": "Non, le filtre True HEPA et le filtre à charbon actif ne sont pas lavables. Les laver endommagerait leur structure et annulerait leur capacité de filtration. Ils doivent être remplacés."
+        },
+        {
+          "question": "Le purificateur d'air Levoit Core 400S fait-il du bruit, est-ce normal ?",
+          "answer": "Un léger bruit est normal, surtout à des vitesses de ventilateur élevées. Si le bruit est excessif ou anormal, vérifiez que le filtre est correctement installé et que rien n'obstrue les entrées/sorties d'air."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Levoit-Core-400S-Smart-True-HEPA---Pièces--Entretien-10-18"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

@@ -2,7 +2,7 @@
 title: "Entretien, Détartrage et Consommables pour Machine à Café De'Longhi Rivelia (FEAM 44.55.B)"
 description: "Maintenance essentielle pour votre machine à café à grains De'Longhi Rivelia (FEAM 44.55.B). Trouvez le filtre à eau DLS C002 et le détartrant EcoDecalk pour un café parfait et une longue durée de vie de votre appareil."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

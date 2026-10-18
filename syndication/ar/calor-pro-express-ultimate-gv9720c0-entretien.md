@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Calor Pro Express Ultimate GV9720C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

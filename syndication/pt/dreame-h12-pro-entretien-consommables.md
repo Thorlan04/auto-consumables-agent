@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-17"
+published_at: "2026-10-18"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

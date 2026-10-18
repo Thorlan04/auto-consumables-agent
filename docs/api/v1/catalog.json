@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-17T20:22:12.126436+00:00",
-  "total_appliances": 19,
+  "generated_at": "2026-10-18T03:53:22.339756+00:00",
+  "total_appliances": 21,
   "supported_languages": [
     "fr",
     "en",
@@ -3228,6 +3228,312 @@
         {
           "question": "Comment puis-je vider manuellement le bac à poussière de mon X40 Ultra Complete si ma station de vidage est pleine ou en panne ?",
           "answer": "Soulevez le capot supérieur du robot pour accéder au bac à poussière. Retirez le bac, ouvrez-le, videz son contenu dans une poubelle et nettoyez le filtre HEPA. Réinsérez le bac correctement."
+        }
+      ]
+    },
+    {
+      "slug": "dreame-h14-pro-aspirateur-laveur-entretien",
+      "brand": "Dreame",
+      "model": "H14 Pro",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide d'entretien du Dreame H14 Pro : remplacez les rouleaux brosses et filtres HEPA pour une performance optimale. Résolvez les codes erreurs courants.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h14-pro-aspirateur-laveur-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Réservoir d'eau sale plein\"",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le complètement, rincez-le à l'eau claire et remettez-le en place correctement."
+        },
+        {
+          "code": "Voyant \"Rouleau brosse bloqué\"",
+          "meaning": "Un corps étranger (cheveux, débris) bloque la rotation du rouleau brosse.",
+          "solution": "Éteignez l'appareil, retirez le rouleau brosse et nettoyez-le minutieusement. Enlevez tous les cheveux et débris emmêlés."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau propre vide\"",
+          "meaning": "Le réservoir d'eau propre est vide et l'appareil ne peut plus laver.",
+          "solution": "Retirez le réservoir d'eau propre, remplissez-le d'eau du robinet, puis remettez-le en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse multi-surfaces Dreame H14 Pro",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Perte d'efficacité de nettoyage, traînées, mauvaises odeurs dues à l'accumulation de saletés.",
+          "search_keywords": "Dreame H14 Pro rouleau brosse, brosse de rechange Dreame H14 Pro, rouleau aspirateur laveur Dreame H14 Pro",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+H14+Pro+rouleau+brosse%2C+brosse+de+rechange+Dreame+H14+Pro%2C+rouleau+aspirateur+laveur+Dreame+H14+Pro&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA Dreame H14 Pro",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines, mauvaises odeurs.",
+          "search_keywords": "Dreame H14 Pro filtre HEPA, filtre aspirateur Dreame H14 Pro, filtre de rechange H14 Pro",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+H14+Pro+filtre+HEPA%2C+filtre+aspirateur+Dreame+H14+Pro%2C+filtre+de+rechange+H14+Pro&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Solution de nettoyage Dreame pour sols",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Selon l'utilisation (recharge du flacon)",
+          "why_replace": "Nettoyage inefficace, absence de parfum frais, accumulation de bactéries sans désinfectant.",
+          "search_keywords": "Liquide nettoyage Dreame H14 Pro, détergent sols Dreame, solution nettoyante Dreame",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Liquide+nettoyage+Dreame+H14+Pro%2C+d%C3%A9tergent+sols+Dreame%2C+solution+nettoyante+Dreame&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le réservoir d'eau sale du Dreame H14 Pro ?",
+          "answer": "Retirez le réservoir, videz l'eau sale, rincez-le à l'eau claire et utilisez la brosse de nettoyage fournie pour enlever les résidus solides. Laissez-le sécher à l'air avant de le remettre en place."
+        },
+        {
+          "question": "Mon Dreame H14 Pro laisse des traces, que faire ?",
+          "answer": "Vérifiez et nettoyez le rouleau brosse et le filtre. Assurez-vous que le réservoir d'eau propre contient suffisamment d'eau et que la solution de nettoyage est correctement dosée. Un rouleau brosse usé ou sale peut laisser des traces."
+        },
+        {
+          "question": "Est-il nécessaire d'utiliser la solution de nettoyage Dreame spécifique ?",
+          "answer": "Il est fortement recommandé d'utiliser la solution de nettoyage Dreame officielle ou une solution compatible approuvée pour éviter d'endommager l'appareil, de faire mousser excessivement ou de laisser des résidus."
+        }
+      ]
+    },
+    {
+      "slug": "levoit-core-400s-smart-hepa-entretien-filtres",
+      "brand": "Levoit",
+      "model": "Core 400S Smart True HEPA",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide d'entretien du purificateur d'air Levoit Core 400S : remplacez les filtres True HEPA et charbon actif pour un air pur optimal.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Changement de filtre\" (rouge clignotant)",
+          "meaning": "Le filtre combiné (pré-filtre, HEPA, charbon actif) a atteint la fin de sa durée de vie et doit être remplacé.",
+          "solution": "Remplacez le filtre par un nouveau. Après le remplacement, branchez l'appareil, puis maintenez le bouton \"Vérification du filtre\" (Filter Check) enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne pour réinitialiser le compteur."
+        },
+        {
+          "code": "Voyant \"Qualité de l'air\" (orange/rouge)",
+          "meaning": "Indique une qualité de l'air médiocre ou mauvaise détectée par le capteur de particules.",
+          "solution": "Assurez-vous que la pièce est bien ventilée. Nettoyez délicatement le capteur de poussière situé à l'arrière de l'appareil avec un coton-tige sec. Si le problème persiste, le filtre peut être saturé."
+        },
+        {
+          "code": "Voyant \"Verrouillage enfant\" (symbole cadenas)",
+          "meaning": "La fonction de verrouillage enfant est activée, empêchant toute modification des réglages.",
+          "solution": "Maintenez le bouton \"Verrouillage enfant\" enfoncé pendant 3 secondes pour désactiver cette fonction et retrouver l'accès aux commandes."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre de remplacement 3-en-1 Levoit Core 400S (Pré-filtre, True HEPA, Charbon Actif)",
+          "part_number": "Core 400S-RF",
+          "frequency": "Tous les 6-8 mois (ou selon l'indicateur)",
+          "why_replace": "Perte d'efficacité de filtration des poussières, allergènes, odeurs et COV, augmentation de la consommation électrique.",
+          "search_keywords": "Levoit Core 400S filtre, filtre HEPA Levoit Core 400S, Levoit 400S-RF, filtre de rechange Core 400S",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+filtre%2C+filtre+HEPA+Levoit+Core+400S%2C+Levoit+400S-RF%2C+filtre+de+rechange+Core+400S&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Mèche d'aromatisation Levoit Core 400S (pour diffuseur d'huiles essentielles)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-3 mois (ou si odeur faible)",
+          "why_replace": "Diffusion d'arômes réduite, accumulation de résidus d'huiles essentielles.",
+          "search_keywords": "Levoit Core 400S mèche, tampon aromatique Levoit 400S, accessoires Levoit Core 400S",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+m%C3%A8che%2C+tampon+aromatique+Levoit+400S%2C+accessoires+Levoit+Core+400S&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre de remplacement Levoit Core 400S \"Pet Allergy\" (H13 True HEPA)",
+          "part_number": "Core 400S-RF-P",
+          "frequency": "Tous les 6-8 mois (ou selon l'indicateur)",
+          "why_replace": "Filtration améliorée des poils d'animaux, squames, odeurs fortes, allergènes spécifiques.",
+          "search_keywords": "Levoit Core 400S filtre animaux, filtre Levoit 400S allergie, filtre Core 400S pour animaux",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+400S+filtre+animaux%2C+filtre+Levoit+400S+allergie%2C+filtre+Core+400S+pour+animaux&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je nettoyer le pré-filtre du Levoit Core 400S ?",
+          "answer": "Le pré-filtre, intégré au filtre principal, doit être nettoyé délicatement avec un aspirateur ou un chiffon sec tous les 2 à 4 semaines pour maintenir une efficacité optimale et prolonger la durée de vie du filtre HEPA."
+        },
+        {
+          "question": "Puis-je laver le filtre True HEPA du Levoit Core 400S ?",
+          "answer": "Non, le filtre True HEPA et le filtre à charbon actif ne sont pas lavables. Les laver endommagerait leur structure et annulerait leur capacité de filtration. Ils doivent être remplacés."
+        },
+        {
+          "question": "Le purificateur d'air Levoit Core 400S fait-il du bruit, est-ce normal ?",
+          "answer": "Un léger bruit est normal, surtout à des vitesses de ventilateur élevées. Si le bruit est excessif ou anormal, vérifiez que le filtre est correctement installé et que rien n'obstrue les entrées/sorties d'air."
         }
       ]
     }
