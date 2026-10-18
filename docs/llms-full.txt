@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-18
-> Total appareils répertoriés : 21
+> Total appareils répertoriés : 23
 
 ---
 
@@ -855,5 +855,86 @@
   **R :** Non, le filtre True HEPA et le filtre à charbon actif ne sont pas lavables. Les laver endommagerait leur structure et annulerait leur capacité de filtration. Ils doivent être remplacés.
 - **Q : Le purificateur d'air Levoit Core 400S fait-il du bruit, est-ce normal ?**
   **R :** Un léger bruit est normal, surtout à des vitesses de ventilateur élevées. Si le bruit est excessif ou anormal, vérifiez que le filtre est correctement installé et que rien n'obstrue les entrées/sorties d'air.
+
+---
+
+## Roborock Qrevo Curv (QRC02-00)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-curv-qrc02-00-entretien.html
+- **Résumé d'Entretien :** Optimisez l'entretien de votre Roborock Qrevo Curv (QRC02-00) avec nos conseils sur les consommables et la résolution des codes erreurs. Prolongez la durée de vie de votre robot.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant de brosse principale bloquée | La brosse principale est entravée par des cheveux ou des débris. | Retournez le robot, ouvrez le compartiment de la brosse principale, retirez la brosse et nettoyez-la des cheveux et des débris accumulés. Réinstallez la brosse. |
+| Réservoir d'eau sale plein | Le réservoir d'eau sale est à sa capacité maximale et doit être vidé. | Retirez le réservoir d'eau sale de la station de vidage, videz-le, rincez-le et replacez-le correctement dans la station. |
+| Alerte "Vider le bac à poussière" | Le bac à poussière intégré au robot ou le sac de la station est plein. | Pour le robot, retirez le bac à poussière et videz-le. Pour la station, vérifiez le niveau du sac à poussière et remplacez-le si nécessaire. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale en caoutchouc | Réf. constructeur adaptable | Tous les 6-12 mois | Usure des lamelles, réduction de l'efficacité de ramassage, risque de rayures sur les sols durs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 3-6 mois | Diminution de la puissance d'aspiration, rejet de poussières fines, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21) |
+| Lingettes de lavage en microfibre | Réf. constructeur adaptable | Tous les 1-3 mois (selon usage) | Perte d'efficacité de nettoyage, traces, saleté incrustée, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21) |
+| Sacs à poussière pour station de vidage | Réf. constructeur adaptable | Tous les 1-2 mois (selon usage) | Capacité de stockage pleine, diminution de l'efficacité de vidage automatique, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les capteurs de mon Roborock Qrevo Curv ?**
+  **R :** Utilisez un chiffon doux et sec pour essuyer délicatement tous les capteurs (anti-chute, muraux, de stationnement) situés sur le pourtour et sous le robot. Assurez-vous qu'aucun débris ne les obstrue.
+- **Q : Mon robot ne retourne pas à sa station, que faire ?**
+  **R :** Vérifiez que la station est branchée et qu'aucun obstacle ne bloque le chemin du robot. Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Redémarrez le robot si nécessaire.
+- **Q : Comment réinitialiser le voyant de remplacement de brosse sur mon Roborock Qrevo Curv ?**
+  **R :** Après avoir remplacé la brosse, allez dans l'application Roborock, section "Maintenance" ou "Consommables", et réinitialisez manuellement le compteur d'usure de la brosse principale.
+
+---
+
+## Shark Stratos Cordless Pet Pro (IZ400EU)
+- **Catégorie :** Aspirateurs Balais
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien de votre Shark Stratos Cordless Pet Pro (IZ400EU). Découvrez les filtres, brosses et astuces pour prolonger sa puissance d'aspiration.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Check Brush-Roll" | La brosse rotative est bloquée ou obstruée par des cheveux ou des débris. | Éteignez l'aspirateur, retirez le rouleau-brosse et nettoyez-le de tous les cheveux ou débris emmêlés. Assurez-vous qu'il tourne librement avant de le réinsérer. |
+| Voyant "Clean Filter" | Les filtres (pré-moteur et post-moteur HEPA) sont encrassés et nécessitent un nettoyage. | Éteignez l'appareil. Retirez les filtres en mousse et feutre, rincez-les à l'eau froide jusqu'à ce que l'eau soit claire. Laissez sécher complètement à l'air libre pendant 24 heures avant de les réinstaller. Pour le filtre HEPA, tapotez-le pour enlever la poussière, ne pas le laver. |
+| Voyant "Max Fill Line" sur le bac à poussière | Le bac à poussière est plein et doit être vidé. | Déclipsez le bac à poussière de l'appareil, ouvrez le loquet inférieur et videz son contenu dans une poubelle. Reclipsez le bac correctement. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Kit de filtres pré-moteur (mousse et feutre) | Réf. constructeur adaptable (Shark XFFK400 ou similaire) | Remplacement annuel (nettoyage mensuel) | Perte d'efficacité de filtration, diminution de la puissance d'aspiration, rejet de poussières fines. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21) |
+| Filtre Post-Moteur HEPA | Réf. constructeur adaptable (Shark XFFH400 ou similaire) | Remplacement annuel (nettoyage tous les 3 mois) | Réduction de la qualité de l'air rejeté, diminution de l'aspiration, accumulation d'allergènes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21) |
+| Rouleau-brosse DuoClean PowerFins Anti Hair Wrap | Réf. constructeur adaptable (Shark 117FLT400 ou similaire) | Tous les 12-24 mois (selon usage) | Usure des poils/lamelles, diminution de l'efficacité de ramassage des débris et poils, brosse bruyante. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Mon Shark Stratos aspire moins bien, que dois-je vérifier ?**
+  **R :** Vérifiez que le bac à poussière n'est pas plein, que les filtres (mousse, feutre et HEPA) sont propres et secs, et qu'aucun blocage n'obstrue le tube ou la brosse. Nettoyez toutes les pièces amovibles.
+- **Q : Comment nettoyer la brosse autonettoyante Anti Hair Wrap ?**
+  **R :** La technologie Anti Hair Wrap est conçue pour éviter l'emmêlement. Si des cheveux persistent, éteignez l'aspirateur, retirez la brosse et utilisez des ciseaux pour couper délicatement les cheveux coincés le long de la rainure, puis retirez-les.
+- **Q : À quelle fréquence dois-je vider le bac à poussière de mon aspirateur IZ400EU ?**
+  **R :** Il est recommandé de vider le bac à poussière après chaque utilisation, ou dès que la ligne de remplissage maximale est atteinte, pour maintenir une performance d'aspiration optimale.
 
 ---

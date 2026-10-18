@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-18T03:53:22.339756+00:00",
-  "total_appliances": 21,
+  "generated_at": "2026-10-18T10:42:06.634254+00:00",
+  "total_appliances": 23,
   "supported_languages": [
     "fr",
     "en",
@@ -3253,7 +3253,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-h14-pro-aspirateur-laveur-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h14-pro-aspirateur-laveur-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Dreame-H14-Pro---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "Voyant \"Réservoir d'eau sale plein\"",
@@ -3406,7 +3406,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-400s-smart-hepa-entretien-filtres.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Levoit-Core-400S-Smart-True-HEPA---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "Voyant \"Changement de filtre\" (rouge clignotant)",
@@ -3534,6 +3534,344 @@
         {
           "question": "Le purificateur d'air Levoit Core 400S fait-il du bruit, est-ce normal ?",
           "answer": "Un léger bruit est normal, surtout à des vitesses de ventilateur élevées. Si le bruit est excessif ou anormal, vérifiez que le filtre est correctement installé et que rien n'obstrue les entrées/sorties d'air."
+        }
+      ]
+    },
+    {
+      "slug": "roborock-qrevo-curv-qrc02-00-entretien",
+      "brand": "Roborock",
+      "model": "Qrevo Curv (QRC02-00)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Optimisez l'entretien de votre Roborock Qrevo Curv (QRC02-00) avec nos conseils sur les consommables et la résolution des codes erreurs. Prolongez la durée de vie de votre robot.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant de brosse principale bloquée",
+          "meaning": "La brosse principale est entravée par des cheveux ou des débris.",
+          "solution": "Retournez le robot, ouvrez le compartiment de la brosse principale, retirez la brosse et nettoyez-la des cheveux et des débris accumulés. Réinstallez la brosse."
+        },
+        {
+          "code": "Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale est à sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station de vidage, videz-le, rincez-le et replacez-le correctement dans la station."
+        },
+        {
+          "code": "Alerte \"Vider le bac à poussière\"",
+          "meaning": "Le bac à poussière intégré au robot ou le sac de la station est plein.",
+          "solution": "Pour le robot, retirez le bac à poussière et videz-le. Pour la station, vérifiez le niveau du sac à poussière et remplacez-le si nécessaire."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Usure des lamelles, réduction de l'efficacité de ramassage, risque de rayures sur les sols durs.",
+          "search_keywords": "Roborock Qrevo Curv brosse principale caoutchouc QRC02-00",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+brosse+principale+caoutchouc+QRC02-00&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines, mauvaises odeurs.",
+          "search_keywords": "Roborock Qrevo Curv filtre HEPA QRC02-00",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+filtre+HEPA+QRC02-00&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Lingettes de lavage en microfibre",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-3 mois (selon usage)",
+          "why_replace": "Perte d'efficacité de nettoyage, traces, saleté incrustée, mauvaises odeurs.",
+          "search_keywords": "Roborock Qrevo Curv lingettes lavage QRC02-00",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+lingettes+lavage+QRC02-00&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sacs à poussière pour station de vidage",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-2 mois (selon usage)",
+          "why_replace": "Capacité de stockage pleine, diminution de l'efficacité de vidage automatique, mauvaises odeurs.",
+          "search_keywords": "Roborock Qrevo Curv sacs poussière QRC02-00",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+Qrevo+Curv+sacs+poussi%C3%A8re+QRC02-00&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs de mon Roborock Qrevo Curv ?",
+          "answer": "Utilisez un chiffon doux et sec pour essuyer délicatement tous les capteurs (anti-chute, muraux, de stationnement) situés sur le pourtour et sous le robot. Assurez-vous qu'aucun débris ne les obstrue."
+        },
+        {
+          "question": "Mon robot ne retourne pas à sa station, que faire ?",
+          "answer": "Vérifiez que la station est branchée et qu'aucun obstacle ne bloque le chemin du robot. Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Redémarrez le robot si nécessaire."
+        },
+        {
+          "question": "Comment réinitialiser le voyant de remplacement de brosse sur mon Roborock Qrevo Curv ?",
+          "answer": "Après avoir remplacé la brosse, allez dans l'application Roborock, section \"Maintenance\" ou \"Consommables\", et réinitialisez manuellement le compteur d'usure de la brosse principale."
+        }
+      ]
+    },
+    {
+      "slug": "shark-stratos-cordless-pet-pro-iz400eu-entretien",
+      "brand": "Shark",
+      "model": "Stratos Cordless Pet Pro (IZ400EU)",
+      "category": "Aspirateurs Balais",
+      "meta_description": "Guide complet pour l'entretien de votre Shark Stratos Cordless Pet Pro (IZ400EU). Découvrez les filtres, brosses et astuces pour prolonger sa puissance d'aspiration.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Check Brush-Roll\"",
+          "meaning": "La brosse rotative est bloquée ou obstruée par des cheveux ou des débris.",
+          "solution": "Éteignez l'aspirateur, retirez le rouleau-brosse et nettoyez-le de tous les cheveux ou débris emmêlés. Assurez-vous qu'il tourne librement avant de le réinsérer."
+        },
+        {
+          "code": "Voyant \"Clean Filter\"",
+          "meaning": "Les filtres (pré-moteur et post-moteur HEPA) sont encrassés et nécessitent un nettoyage.",
+          "solution": "Éteignez l'appareil. Retirez les filtres en mousse et feutre, rincez-les à l'eau froide jusqu'à ce que l'eau soit claire. Laissez sécher complètement à l'air libre pendant 24 heures avant de les réinstaller. Pour le filtre HEPA, tapotez-le pour enlever la poussière, ne pas le laver."
+        },
+        {
+          "code": "Voyant \"Max Fill Line\" sur le bac à poussière",
+          "meaning": "Le bac à poussière est plein et doit être vidé.",
+          "solution": "Déclipsez le bac à poussière de l'appareil, ouvrez le loquet inférieur et videz son contenu dans une poubelle. Reclipsez le bac correctement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Kit de filtres pré-moteur (mousse et feutre)",
+          "part_number": "Réf. constructeur adaptable (Shark XFFK400 ou similaire)",
+          "frequency": "Remplacement annuel (nettoyage mensuel)",
+          "why_replace": "Perte d'efficacité de filtration, diminution de la puissance d'aspiration, rejet de poussières fines.",
+          "search_keywords": "Shark Stratos IZ400EU filtre mousse feutre XFFK400",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+filtre+mousse+feutre+XFFK400&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre Post-Moteur HEPA",
+          "part_number": "Réf. constructeur adaptable (Shark XFFH400 ou similaire)",
+          "frequency": "Remplacement annuel (nettoyage tous les 3 mois)",
+          "why_replace": "Réduction de la qualité de l'air rejeté, diminution de l'aspiration, accumulation d'allergènes.",
+          "search_keywords": "Shark Stratos IZ400EU filtre HEPA XFFH400",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+filtre+HEPA+XFFH400&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Rouleau-brosse DuoClean PowerFins Anti Hair Wrap",
+          "part_number": "Réf. constructeur adaptable (Shark 117FLT400 ou similaire)",
+          "frequency": "Tous les 12-24 mois (selon usage)",
+          "why_replace": "Usure des poils/lamelles, diminution de l'efficacité de ramassage des débris et poils, brosse bruyante.",
+          "search_keywords": "Shark Stratos IZ400EU rouleau brosse PowerFins 117FLT400",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+Stratos+IZ400EU+rouleau+brosse+PowerFins+117FLT400&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mon Shark Stratos aspire moins bien, que dois-je vérifier ?",
+          "answer": "Vérifiez que le bac à poussière n'est pas plein, que les filtres (mousse, feutre et HEPA) sont propres et secs, et qu'aucun blocage n'obstrue le tube ou la brosse. Nettoyez toutes les pièces amovibles."
+        },
+        {
+          "question": "Comment nettoyer la brosse autonettoyante Anti Hair Wrap ?",
+          "answer": "La technologie Anti Hair Wrap est conçue pour éviter l'emmêlement. Si des cheveux persistent, éteignez l'aspirateur, retirez la brosse et utilisez des ciseaux pour couper délicatement les cheveux coincés le long de la rainure, puis retirez-les."
+        },
+        {
+          "question": "À quelle fréquence dois-je vider le bac à poussière de mon aspirateur IZ400EU ?",
+          "answer": "Il est recommandé de vider le bac à poussière après chaque utilisation, ou dès que la ligne de remplissage maximale est atteinte, pour maintenir une performance d'aspiration optimale."
         }
       ]
     }
