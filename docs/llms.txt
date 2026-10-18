@@ -27,6 +27,7 @@
 
 ### Aspirateurs Balais
 - [Shark Stratos Cordless Pet Pro (IZ400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Dyson Gen5detect SV23](https://thorlan04.github.io/auto-consumables-agent/guides/dyson-gen5detect-sv23-entretien-filtres.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Aspirateurs Laveurs
 - [Tineco Floor One S5 (Combo / Pro)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s5-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -37,6 +38,7 @@
 
 ### Centrales Vapeur
 - [Calor Pro Express Ultimate GV9720C0](https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Calor Pro Express Vision GV9820C0](https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Friteuses sans Huile (Air Fryer)
 - [Ninja Foodi DualZone (AF300EU / AF400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-dualzone-airfryer-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.

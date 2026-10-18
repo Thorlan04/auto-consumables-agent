@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-18T10:42:06.376311+00:00",
-  "total_guides": 23,
+  "last_updated": "2026-10-18T15:39:42.380676+00:00",
+  "total_guides": 25,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1568,6 +1568,138 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Shark-Stratos-Cordless-Pet-Pro-IZ400EU---Pièces--Entretien-10-18"
+    },
+    {
+      "slug": "calor-pro-express-vision-gv9820c0-entretien-detartrage",
+      "title": "Entretien et Consommables Calor Pro Express Vision GV9820C0",
+      "brand": "Calor",
+      "model": "Pro Express Vision GV9820C0",
+      "category": "Centrales Vapeur",
+      "meta_description": "Maximisez la durée de vie de votre centrale vapeur Calor Pro Express Vision GV9820C0. Trouvez les produits d'entretien et résolvez les codes erreurs courants.",
+      "common_codes": [
+        {
+          "code": "Voyant Calc/Clean (orange clignotant)",
+          "meaning": "L'appareil signale qu'un détartrage est nécessaire pour maintenir ses performances.",
+          "solution": "Attendez que le fer refroidisse. Retirez le collecteur de tartre (tige) situé à l'arrière du générateur, rincez-le sous l'eau et réinsérez-le. Appuyez sur le bouton 'Reset' pendant 3 secondes pour éteindre le voyant."
+        },
+        {
+          "code": "Voyant 'Réservoir vide'",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas pour produire de la vapeur.",
+          "solution": "Retirez le réservoir d'eau amovible et remplissez-le avec de l'eau du robinet jusqu'au niveau MAX. Replacez-le correctement dans la base."
+        },
+        {
+          "code": "Voyant 'Pas de vapeur' (fixe)",
+          "meaning": "La centrale vapeur est allumée mais ne produit pas de vapeur, souvent dû à un amorçage non effectué ou un problème de connexion.",
+          "solution": "Vérifiez que le réservoir est rempli. Appuyez sur la gâchette vapeur du fer plusieurs fois de suite (environ 2-3 secondes par pression) pour amorcer la pompe et faire circuler l'eau dans le circuit."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Solution de détartrage doux pour centrales vapeur",
+          "part_number": "Réf. constructeur adaptable (ex: Durgol Swiss Espresso)",
+          "frequency": "Tous les 3 à 6 mois (selon usage et dureté de l'eau)",
+          "why_replace": "Prévient l'accumulation de calcaire dans la chaudière, prolonge la durée de vie de l'appareil et assure une production de vapeur optimale.",
+          "search_keywords": "Détartrant centrale vapeur Calor GV9820C0, produit détartrage fer vapeur, solution anticalcaire centrale vapeur",
+          "affiliate_url": null
+        },
+        {
+          "name": "Patin de nettoyage de semelle de fer",
+          "part_number": "Réf. constructeur adaptable (ex: Wpro SKS100)",
+          "frequency": "Selon besoin, lorsque la semelle est sale ou collante",
+          "why_replace": "Élimine les résidus de tissu brûlé et les salissures de la semelle pour une glisse parfaite et éviter de tacher les vêtements.",
+          "search_keywords": "Nettoyant semelle fer vapeur Calor, stick nettoyage fer GV9820C0, produit entretien semelle fer",
+          "affiliate_url": null
+        },
+        {
+          "name": "Tige collecteur de tartre de rechange (si perdu/endommagé)",
+          "part_number": "Réf. constructeur adaptable (ex: CS-00139707)",
+          "frequency": "Uniquement si perdu ou endommagé",
+          "why_replace": "Le collecteur est essentiel pour piéger le calcaire et doit être en parfait état pour fonctionner. Son absence ou dommage compromet l'appareil.",
+          "search_keywords": "Collecteur tartre Calor GV9820C0, bouchon vidange centrale vapeur Calor, pièce rechange collecteur GV9820C0",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer la semelle de mon fer Calor Pro Express Vision ?",
+          "answer": "Laissez le fer refroidir complètement. Utilisez un stick nettoyant spécial semelle de fer. Appliquez-le sur la semelle froide, puis essuyez avec un chiffon humide propre. Ne grattez jamais la semelle avec un objet métallique."
+        },
+        {
+          "question": "À quelle fréquence dois-je détartrer ma centrale vapeur GV9820C0 ?",
+          "answer": "La fréquence dépend de la dureté de votre eau et de votre utilisation. En moyenne, un détartrage via le collecteur de tartre est recommandé lorsque le voyant Calc/Clean s'allume, ou tous les 3 à 6 mois si vous utilisez une eau très dure."
+        },
+        {
+          "question": "Puis-je utiliser de l'eau déminéralisée dans ma centrale Calor Pro Express Vision ?",
+          "answer": "Il est recommandé d'utiliser de l'eau du robinet non traitée. L'eau 100% déminéralisée ou distillée peut altérer le fonctionnement de l'appareil ou la qualité de la vapeur sur certains modèles. Consultez toujours votre manuel d'utilisation."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Calor-Pro-Express-Vision-GV9820C0---Pièces--Entretien-10-18"
+    },
+    {
+      "slug": "dyson-gen5detect-sv23-entretien-filtres",
+      "title": "Entretien et Filtres Dyson Gen5detect SV23 : Guide Complet",
+      "brand": "Dyson",
+      "model": "Gen5detect SV23",
+      "category": "Aspirateurs Balais",
+      "meta_description": "Maintenez la performance de votre aspirateur Dyson Gen5detect SV23. Découvrez comment nettoyer les filtres, remplacer les brosses et résoudre les alertes courantes.",
+      "common_codes": [
+        {
+          "code": "Voyant 'Filtre encrassé' (icône filtre clignotante)",
+          "meaning": "Le filtre est obstrué et nécessite un nettoyage pour restaurer la puissance d'aspiration.",
+          "solution": "Retirez le filtre HEPA (situé à l'arrière du moteur), lavez-le à l'eau froide du robinet sans détergent. Essorez-le et laissez-le sécher à l'air libre pendant au moins 24 heures avant de le réinsérer."
+        },
+        {
+          "code": "Voyant 'Obstruction' (icône tuyau/brosse)",
+          "meaning": "Un blocage est détecté dans la brosse, le tube ou le bac collecteur, réduisant l'aspiration.",
+          "solution": "Éteignez l'appareil. Vérifiez et retirez tout débris bloquant la brosse motorisée, le tube d'aspiration ou l'entrée du bac. Videz le bac si plein."
+        },
+        {
+          "code": "Voyant 'Batterie faible' (icône batterie rouge clignotante)",
+          "meaning": "Le niveau de charge de la batterie est faible et l'aspirateur doit être rechargé.",
+          "solution": "Placez l'aspirateur sur sa station de charge ou branchez directement le chargeur. Assurez-vous que le voyant de charge s'allume (bleu ou vert selon le modèle)."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA lavable (post-moteur)",
+          "part_number": "971634-01",
+          "frequency": "Lavage mensuel, remplacement tous les 12 mois",
+          "why_replace": "Un filtre encrassé réduit drastiquement la puissance d'aspiration, relâche des allergènes dans l'air et peut endommager le moteur.",
+          "search_keywords": "Filtre Dyson Gen5detect SV23, filtre HEPA 971634-01, remplacement filtre Dyson Gen5detect",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse Fluffy Optic™ de rechange",
+          "part_number": "971638-01",
+          "frequency": "Tous les 12 à 24 mois, ou si usée/endommagée",
+          "why_replace": "Des brosses usées ou endommagées ne ramassent plus efficacement la poussière et les débris, laissant la saleté au sol.",
+          "search_keywords": "Brosse Fluffy Optic Dyson Gen5detect SV23, rouleau brosse 971638-01, tête de nettoyage Dyson Gen5detect",
+          "affiliate_url": null
+        },
+        {
+          "name": "Mini-brosse motorisée anti-emmêlement",
+          "part_number": "972170-01",
+          "frequency": "Tous les 12 à 24 mois, ou si les poils sont usés/endommagés",
+          "why_replace": "Les poils et le mécanisme peuvent s'user, réduisant l'efficacité à ramasser les cheveux et la saleté incrustée sur les tissus et petites surfaces.",
+          "search_keywords": "Mini brosse motorisée Dyson Gen5detect, accessoire 972170-01, brosse anti-emmêlement SV23",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le bac collecteur de mon Dyson Gen5detect ?",
+          "answer": "Videz le bac en appuyant sur le levier rouge. Pour un nettoyage plus approfondi, déclipsez le bac de l'appareil (voir manuel), videz-le, puis essuyez l'intérieur avec un chiffon humide. Ne lavez pas le cyclone à l'eau."
+        },
+        {
+          "question": "Mon Dyson Gen5detect perd de la puissance d'aspiration, que faire ?",
+          "answer": "Vérifiez que le bac est vide et que le filtre HEPA est propre et sec. Contrôlez également l'absence d'obstruction dans la brosse, le tube ou le conduit d'aspiration. Un filtre encrassé est la cause la plus fréquente."
+        },
+        {
+          "question": "Puis-je laver la brosse motorisée de mon Dyson Gen5detect à l'eau ?",
+          "answer": "Oui, les rouleaux des brosses Fluffy Optic™ et Digital Motorbar™ sont lavables. Retirez le rouleau de la tête de nettoyage, lavez-le à l'eau froide sans détergent. Laissez-le sécher complètement à l'air libre (minimum 24 heures) avant de le réinsérer. Ne lavez jamais la tête de nettoyage elle-même."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Dyson-Gen5detect-SV23---Pièces--Entretien-10-18"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

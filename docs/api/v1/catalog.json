@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-18T10:42:06.634254+00:00",
-  "total_appliances": 23,
+  "generated_at": "2026-10-18T15:39:42.870638+00:00",
+  "total_appliances": 25,
   "supported_languages": [
     "fr",
     "en",
@@ -3559,7 +3559,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-qrevo-curv-qrc02-00-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Roborock-Qrevo-Curv-QRC02-00---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "Voyant de brosse principale bloquée",
@@ -3744,7 +3744,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Shark-Stratos-Cordless-Pet-Pro-IZ400EU---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "Voyant \"Check Brush-Roll\"",
@@ -3872,6 +3872,312 @@
         {
           "question": "À quelle fréquence dois-je vider le bac à poussière de mon aspirateur IZ400EU ?",
           "answer": "Il est recommandé de vider le bac à poussière après chaque utilisation, ou dès que la ligne de remplissage maximale est atteinte, pour maintenir une performance d'aspiration optimale."
+        }
+      ]
+    },
+    {
+      "slug": "calor-pro-express-vision-gv9820c0-entretien-detartrage",
+      "brand": "Calor",
+      "model": "Pro Express Vision GV9820C0",
+      "category": "Centrales Vapeur",
+      "meta_description": "Maximisez la durée de vie de votre centrale vapeur Calor Pro Express Vision GV9820C0. Trouvez les produits d'entretien et résolvez les codes erreurs courants.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Calc/Clean (orange clignotant)",
+          "meaning": "L'appareil signale qu'un détartrage est nécessaire pour maintenir ses performances.",
+          "solution": "Attendez que le fer refroidisse. Retirez le collecteur de tartre (tige) situé à l'arrière du générateur, rincez-le sous l'eau et réinsérez-le. Appuyez sur le bouton 'Reset' pendant 3 secondes pour éteindre le voyant."
+        },
+        {
+          "code": "Voyant 'Réservoir vide'",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas pour produire de la vapeur.",
+          "solution": "Retirez le réservoir d'eau amovible et remplissez-le avec de l'eau du robinet jusqu'au niveau MAX. Replacez-le correctement dans la base."
+        },
+        {
+          "code": "Voyant 'Pas de vapeur' (fixe)",
+          "meaning": "La centrale vapeur est allumée mais ne produit pas de vapeur, souvent dû à un amorçage non effectué ou un problème de connexion.",
+          "solution": "Vérifiez que le réservoir est rempli. Appuyez sur la gâchette vapeur du fer plusieurs fois de suite (environ 2-3 secondes par pression) pour amorcer la pompe et faire circuler l'eau dans le circuit."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Solution de détartrage doux pour centrales vapeur",
+          "part_number": "Réf. constructeur adaptable (ex: Durgol Swiss Espresso)",
+          "frequency": "Tous les 3 à 6 mois (selon usage et dureté de l'eau)",
+          "why_replace": "Prévient l'accumulation de calcaire dans la chaudière, prolonge la durée de vie de l'appareil et assure une production de vapeur optimale.",
+          "search_keywords": "Détartrant centrale vapeur Calor GV9820C0, produit détartrage fer vapeur, solution anticalcaire centrale vapeur",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+centrale+vapeur+Calor+GV9820C0%2C+produit+d%C3%A9tartrage+fer+vapeur%2C+solution+anticalcaire+centrale+vapeur&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Patin de nettoyage de semelle de fer",
+          "part_number": "Réf. constructeur adaptable (ex: Wpro SKS100)",
+          "frequency": "Selon besoin, lorsque la semelle est sale ou collante",
+          "why_replace": "Élimine les résidus de tissu brûlé et les salissures de la semelle pour une glisse parfaite et éviter de tacher les vêtements.",
+          "search_keywords": "Nettoyant semelle fer vapeur Calor, stick nettoyage fer GV9820C0, produit entretien semelle fer",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Nettoyant+semelle+fer+vapeur+Calor%2C+stick+nettoyage+fer+GV9820C0%2C+produit+entretien+semelle+fer&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Tige collecteur de tartre de rechange (si perdu/endommagé)",
+          "part_number": "Réf. constructeur adaptable (ex: CS-00139707)",
+          "frequency": "Uniquement si perdu ou endommagé",
+          "why_replace": "Le collecteur est essentiel pour piéger le calcaire et doit être en parfait état pour fonctionner. Son absence ou dommage compromet l'appareil.",
+          "search_keywords": "Collecteur tartre Calor GV9820C0, bouchon vidange centrale vapeur Calor, pièce rechange collecteur GV9820C0",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Collecteur+tartre+Calor+GV9820C0%2C+bouchon+vidange+centrale+vapeur+Calor%2C+pi%C3%A8ce+rechange+collecteur+GV9820C0&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer la semelle de mon fer Calor Pro Express Vision ?",
+          "answer": "Laissez le fer refroidir complètement. Utilisez un stick nettoyant spécial semelle de fer. Appliquez-le sur la semelle froide, puis essuyez avec un chiffon humide propre. Ne grattez jamais la semelle avec un objet métallique."
+        },
+        {
+          "question": "À quelle fréquence dois-je détartrer ma centrale vapeur GV9820C0 ?",
+          "answer": "La fréquence dépend de la dureté de votre eau et de votre utilisation. En moyenne, un détartrage via le collecteur de tartre est recommandé lorsque le voyant Calc/Clean s'allume, ou tous les 3 à 6 mois si vous utilisez une eau très dure."
+        },
+        {
+          "question": "Puis-je utiliser de l'eau déminéralisée dans ma centrale Calor Pro Express Vision ?",
+          "answer": "Il est recommandé d'utiliser de l'eau du robinet non traitée. L'eau 100% déminéralisée ou distillée peut altérer le fonctionnement de l'appareil ou la qualité de la vapeur sur certains modèles. Consultez toujours votre manuel d'utilisation."
+        }
+      ]
+    },
+    {
+      "slug": "dyson-gen5detect-sv23-entretien-filtres",
+      "brand": "Dyson",
+      "model": "Gen5detect SV23",
+      "category": "Aspirateurs Balais",
+      "meta_description": "Maintenez la performance de votre aspirateur Dyson Gen5detect SV23. Découvrez comment nettoyer les filtres, remplacer les brosses et résoudre les alertes courantes.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-gen5detect-sv23-entretien-filtres.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-gen5detect-sv23-entretien-filtres.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant 'Filtre encrassé' (icône filtre clignotante)",
+          "meaning": "Le filtre est obstrué et nécessite un nettoyage pour restaurer la puissance d'aspiration.",
+          "solution": "Retirez le filtre HEPA (situé à l'arrière du moteur), lavez-le à l'eau froide du robinet sans détergent. Essorez-le et laissez-le sécher à l'air libre pendant au moins 24 heures avant de le réinsérer."
+        },
+        {
+          "code": "Voyant 'Obstruction' (icône tuyau/brosse)",
+          "meaning": "Un blocage est détecté dans la brosse, le tube ou le bac collecteur, réduisant l'aspiration.",
+          "solution": "Éteignez l'appareil. Vérifiez et retirez tout débris bloquant la brosse motorisée, le tube d'aspiration ou l'entrée du bac. Videz le bac si plein."
+        },
+        {
+          "code": "Voyant 'Batterie faible' (icône batterie rouge clignotante)",
+          "meaning": "Le niveau de charge de la batterie est faible et l'aspirateur doit être rechargé.",
+          "solution": "Placez l'aspirateur sur sa station de charge ou branchez directement le chargeur. Assurez-vous que le voyant de charge s'allume (bleu ou vert selon le modèle)."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA lavable (post-moteur)",
+          "part_number": "971634-01",
+          "frequency": "Lavage mensuel, remplacement tous les 12 mois",
+          "why_replace": "Un filtre encrassé réduit drastiquement la puissance d'aspiration, relâche des allergènes dans l'air et peut endommager le moteur.",
+          "search_keywords": "Filtre Dyson Gen5detect SV23, filtre HEPA 971634-01, remplacement filtre Dyson Gen5detect",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Filtre+Dyson+Gen5detect+SV23%2C+filtre+HEPA+971634-01%2C+remplacement+filtre+Dyson+Gen5detect&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse Fluffy Optic™ de rechange",
+          "part_number": "971638-01",
+          "frequency": "Tous les 12 à 24 mois, ou si usée/endommagée",
+          "why_replace": "Des brosses usées ou endommagées ne ramassent plus efficacement la poussière et les débris, laissant la saleté au sol.",
+          "search_keywords": "Brosse Fluffy Optic Dyson Gen5detect SV23, rouleau brosse 971638-01, tête de nettoyage Dyson Gen5detect",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Brosse+Fluffy+Optic+Dyson+Gen5detect+SV23%2C+rouleau+brosse+971638-01%2C+t%C3%AAte+de+nettoyage+Dyson+Gen5detect&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Mini-brosse motorisée anti-emmêlement",
+          "part_number": "972170-01",
+          "frequency": "Tous les 12 à 24 mois, ou si les poils sont usés/endommagés",
+          "why_replace": "Les poils et le mécanisme peuvent s'user, réduisant l'efficacité à ramasser les cheveux et la saleté incrustée sur les tissus et petites surfaces.",
+          "search_keywords": "Mini brosse motorisée Dyson Gen5detect, accessoire 972170-01, brosse anti-emmêlement SV23",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Mini+brosse+motoris%C3%A9e+Dyson+Gen5detect%2C+accessoire+972170-01%2C+brosse+anti-emm%C3%AAlement+SV23&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le bac collecteur de mon Dyson Gen5detect ?",
+          "answer": "Videz le bac en appuyant sur le levier rouge. Pour un nettoyage plus approfondi, déclipsez le bac de l'appareil (voir manuel), videz-le, puis essuyez l'intérieur avec un chiffon humide. Ne lavez pas le cyclone à l'eau."
+        },
+        {
+          "question": "Mon Dyson Gen5detect perd de la puissance d'aspiration, que faire ?",
+          "answer": "Vérifiez que le bac est vide et que le filtre HEPA est propre et sec. Contrôlez également l'absence d'obstruction dans la brosse, le tube ou le conduit d'aspiration. Un filtre encrassé est la cause la plus fréquente."
+        },
+        {
+          "question": "Puis-je laver la brosse motorisée de mon Dyson Gen5detect à l'eau ?",
+          "answer": "Oui, les rouleaux des brosses Fluffy Optic™ et Digital Motorbar™ sont lavables. Retirez le rouleau de la tête de nettoyage, lavez-le à l'eau froide sans détergent. Laissez-le sécher complètement à l'air libre (minimum 24 heures) avant de le réinsérer. Ne lavez jamais la tête de nettoyage elle-même."
         }
       ]
     }
