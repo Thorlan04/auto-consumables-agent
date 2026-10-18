@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-18T15:39:42.380676+00:00",
-  "total_guides": 25,
+  "last_updated": "2026-10-18T20:22:54.215679+00:00",
+  "total_guides": 27,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1700,6 +1700,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Dyson-Gen5detect-SV23---Pièces--Entretien-10-18"
+    },
+    {
+      "slug": "ecovacs-deebot-t30-omni-dx14-entretien",
+      "title": "Entretien Ecovacs Deebot T30 Omni (DX14) : Filtres, Brosses et Consommables",
+      "brand": "Ecovacs",
+      "model": "Deebot T30 Omni (DX14)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Optimisez la durée de vie de votre Ecovacs Deebot T30 Omni (DX14) avec nos guides d'entretien. Trouvez filtres HEPA, brosses et conseils pour un nettoyage optimal.",
+      "common_codes": [
+        {
+          "code": "Brosse principale emmêlée",
+          "meaning": "Des cheveux ou fibres sont enroulés autour de la brosse principale, empêchant sa rotation.",
+          "solution": "Retournez le robot, ouvrez le compartiment de la brosse principale. Retirez la brosse et utilisez l'outil de nettoyage fourni pour couper et enlever les cheveux/fibres. Replacez la brosse et fermez le compartiment."
+        },
+        {
+          "code": "Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale de la station Omni est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station, videz-le, rincez-le à l'eau claire et replacez-le correctement dans la station."
+        },
+        {
+          "code": "Capteur de chute sale",
+          "meaning": "Les capteurs de chute situés sous le robot sont obstrués par la poussière, affectant la navigation.",
+          "solution": "Éteignez le robot. Retournez-le et utilisez un chiffon sec et propre pour essuyer délicatement les quatre capteurs de chute situés sur le dessous."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse latérale (paire)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Des brosses usées ou tordues réduisent l'efficacité du nettoyage des bords et coins.",
+          "search_keywords": "Ecovacs Deebot T30 Omni brosses latérales DX14, brosse latérale T30 Omni, accessoires Ecovacs T30 Omni",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA (avec grille)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Un filtre encrassé réduit la puissance d'aspiration et peut relâcher des allergènes dans l'air.",
+          "search_keywords": "Ecovacs Deebot T30 Omni filtre HEPA DX14, filtre Ecovacs T30 Omni, kit filtres T30 Omni",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Une brosse usée ou abîmée réduit l'efficacité d'aspiration et peut rayer les sols.",
+          "search_keywords": "Ecovacs Deebot T30 Omni brosse principale DX14, brosse à rouleau T30 Omni, brosse caoutchouc Ecovacs T30 Omni",
+          "affiliate_url": null
+        },
+        {
+          "name": "Patins de lavage rotatifs (paire)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-2 mois (selon usage)",
+          "why_replace": "Des patins sales ou usés ne nettoient plus efficacement et peuvent laisser des traces.",
+          "search_keywords": "Ecovacs Deebot T30 Omni patins lavage DX14, serpillières T30 Omni, tampons nettoyage Ecovacs T30 Omni",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le voyant de remplacement des consommables sur mon Deebot T30 Omni ?",
+          "answer": "Après avoir remplacé les consommables (brosses, filtres), ouvrez l'application Ecovacs Home, allez dans \"Réglages\" > \"Maintenance\" et réinitialisez manuellement le compteur de chaque pièce remplacée."
+        },
+        {
+          "question": "Mon robot ne retourne pas à sa station. Que faire ?",
+          "answer": "Vérifiez que la station Omni est branchée, qu'il n'y a pas d'obstacles autour d'elle (1 mètre de chaque côté) et que les contacts de charge du robot et de la station sont propres. Essuyez-les avec un chiffon sec."
+        },
+        {
+          "question": "Le robot laisse des traces d'eau. Comment résoudre ce problème ?",
+          "answer": "Assurez-vous que le réservoir d'eau propre est rempli, que les patins de lavage sont propres et correctement installés. Vérifiez également dans l'application le niveau d'humidité des patins (mode de lavage) et ajustez-le si nécessaire."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Ecovacs-Deebot-T30-Omni-DX14---Pièces--Entretien-10-18"
+    },
+    {
+      "slug": "philips-ovi-smart-xxl-connected-hd9880-90-entretien",
+      "title": "Entretien Philips Ovi Smart XXL Connected HD9880/90 : Panier, Grille et Nettoyage Facile",
+      "brand": "Philips",
+      "model": "Ovi Smart XXL Connected HD9880/90",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Prolongez la vie de votre Philips Ovi Smart XXL Connected HD9880/90. Découvrez comment nettoyer le panier, la grille et maintenir votre Airfryer performant.",
+      "common_codes": [
+        {
+          "code": "E1",
+          "meaning": "Surchauffe de l'appareil. Le capteur de température a détecté une chaleur excessive.",
+          "solution": "Débranchez l'Airfryer et laissez-le refroidir complètement pendant au moins 30 minutes. Assurez-vous que les évents d'air à l'arrière ne sont pas obstrués. Rebranchez et redémarrez."
+        },
+        {
+          "code": "Panier mal inséré",
+          "meaning": "Le tiroir ou le panier de cuisson n'est pas correctement fermé ou inséré, empêchant le démarrage de la cuisson.",
+          "solution": "Poussez fermement le tiroir jusqu'à entendre un clic et qu'il soit complètement aligné avec le corps de l'appareil. Assurez-vous que la poignée est bien verrouillée."
+        },
+        {
+          "code": "Nettoyage nécessaire",
+          "meaning": "L'appareil détecte une accumulation de résidus de graisse ou d'aliments, nécessitant un nettoyage.",
+          "solution": "Débranchez l'appareil. Laissez-le refroidir. Retirez le panier et le tiroir. Lavez-les à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'intérieur de l'appareil avec un chiffon humide."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Panier de cuisson antiadhésif",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Remplacement si le revêtement est abîmé (rayures profondes)",
+          "why_replace": "Un revêtement endommagé peut coller les aliments et libérer des particules, affectant la sécurité et le goût.",
+          "search_keywords": "Panier Philips Ovi Smart XXL HD9880/90, panier cuisson Airfryer HD9880/90, accessoire Philips HD9880/90",
+          "affiliate_url": null
+        },
+        {
+          "name": "Grille de cuisson (fond amovible)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Remplacement si déformée ou revêtement abîmé",
+          "why_replace": "Une grille abîmée peut affecter la circulation de l'air chaud et la cuisson uniforme des aliments, ou rayer le panier.",
+          "search_keywords": "Grille Philips Ovi Smart XXL HD9880/90, fond amovible Airfryer HD9880/90, plateau cuisson HD9880/90",
+          "affiliate_url": null
+        },
+        {
+          "name": "Kit de nettoyage doux (brosse, éponge)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Selon besoin",
+          "why_replace": "Des outils de nettoyage adaptés prolongent la durée de vie du revêtement antiadhésif et assurent une hygiène parfaite.",
+          "search_keywords": "Kit nettoyage Philips Airfryer, brosse nettoyage HD9880/90, accessoires entretien Airfryer Philips",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer efficacement l'élément chauffant de mon Airfryer ?",
+          "answer": "Après refroidissement complet, retirez le panier et le tiroir. Retournez l'appareil et utilisez une brosse douce (non métallique) pour retirer délicatement les résidus alimentaires de l'élément chauffant. Ne grattez pas."
+        },
+        {
+          "question": "Est-il normal que de la fumée blanche s'échappe de mon Airfryer ?",
+          "answer": "Une petite quantité de fumée blanche peut être normale lors de la cuisson d'aliments gras. Cependant, si la fumée est excessive et persistante, nettoyez le panier, la grille et l'intérieur de l'appareil pour éliminer les résidus de graisse accumulés."
+        },
+        {
+          "question": "Puis-je utiliser du papier sulfurisé ou de l'aluminium dans mon Airfryer ?",
+          "answer": "Oui, vous pouvez utiliser du papier sulfurisé ou de l'aluminium, mais assurez-vous qu'ils ne recouvrent pas tout le fond du panier pour permettre une bonne circulation de l'air. Ne les laissez jamais flotter librement, surtout sans aliments pour les maintenir."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Philips-Ovi-Smart-XXL-Connected-HD988090---Pièces--Entretien-10-18"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"
