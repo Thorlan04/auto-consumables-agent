@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-19
-> Total appareils répertoriés : 27
+> Total appareils répertoriés : 29
 
 ---
 
@@ -1097,5 +1097,85 @@
   **R :** Une petite quantité de fumée blanche peut être normale lors de la cuisson d'aliments gras. Cependant, si la fumée est excessive et persistante, nettoyez le panier, la grille et l'intérieur de l'appareil pour éliminer les résidus de graisse accumulés.
 - **Q : Puis-je utiliser du papier sulfurisé ou de l'aluminium dans mon Airfryer ?**
   **R :** Oui, vous pouvez utiliser du papier sulfurisé ou de l'aluminium, mais assurez-vous qu'ils ne recouvrent pas tout le fond du panier pour permettre une bonne circulation de l'air. Ne les laissez jamais flotter librement, surtout sans aliments pour les maintenir.
+
+---
+
+## Tineco Floor One S7 Pro (FW210300EU)
+- **Catégorie :** Aspirateurs Laveurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien du Tineco Floor One S7 Pro (FW210300EU). Trouvez les pièces FW210300-BRUSH, FW210300-HEPA et solutions aux codes erreurs.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant 'Réservoir d'eau sale plein' | Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé. | Retirez le réservoir d'eau sale, videz-le, rincez-le et remettez-le en place correctement. Le voyant s'éteindra automatiquement. |
+| Voyant 'Réservoir d'eau propre vide' | Le réservoir d'eau propre est vide et l'appareil ne peut plus distribuer d'eau pour le nettoyage. | Retirez le réservoir d'eau propre, remplissez-le d'eau fraîche (et de solution Tineco si désiré), puis réinsérez-le fermement dans l'appareil. |
+| Voyant 'Brosse bloquée' | La brosse rotative est obstruée par des cheveux, des débris ou un objet, empêchant sa rotation. | Éteignez l'appareil, retirez le couvercle de la brosse, puis retirez la brosse. Nettoyez soigneusement la brosse et son compartiment, enlevez tous les débris et remontez l'ensemble. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleau brosse microfibre bi-matière | FW210300-BRUSH | Tous les 3 à 6 mois (selon usage) | Une brosse usée ou encrassée réduit l'efficacité de nettoyage, laisse des traces et peut provoquer de mauvaises odeurs. Le remplacement assure une performance optimale. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21) |
+| Filtre HEPA | FW210300-HEPA | Tous les 3 à 6 mois (selon usage) | Un filtre HEPA encrassé diminue la puissance d'aspiration, peut rejeter des particules fines dans l'air et causer des odeurs. Le remplacement est crucial pour une bonne filtration. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21) |
+| Solution nettoyante multi-surfaces Tineco | Tineco Deodorizing & Cleaning Solution (TC-DCS) | Selon les besoins (environ 1 bouteille tous les 2 mois) | L'utilisation de la solution Tineco garantit un nettoyage efficace et désodorisant. L'absence de solution ou l'utilisation d'un produit non adapté peut endommager l'appareil et laisser des résidus. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer la brosse et le filtre après chaque utilisation ?**
+  **R :** Après chaque utilisation, lancez le cycle d'auto-nettoyage de l'appareil. Pour un nettoyage plus approfondi, retirez la brosse et le filtre HEPA, rincez-les à l'eau claire et laissez-les sécher complètement à l'air libre avant de les remettre en place.
+- **Q : Mon aspirateur-laveur dégage une mauvaise odeur, que faire ?**
+  **R :** Les mauvaises odeurs sont souvent causées par des résidus dans le réservoir d'eau sale, la brosse ou le filtre HEPA. Videz et rincez le réservoir d'eau sale après chaque utilisation. Nettoyez en profondeur la brosse et le filtre, et assurez-vous qu'ils sont bien secs. Utilisez la solution nettoyante Tineco recommandée.
+- **Q : Puis-je utiliser n'importe quelle solution de nettoyage avec mon Tineco S7 Pro ?**
+  **R :** Non, il est fortement recommandé d'utiliser uniquement la solution nettoyante Tineco officielle (TC-DCS). L'utilisation d'autres produits peut endommager le système de pulvérisation, laisser des résidus ou annuler la garantie.
+
+---
+
+## Philips Série 3300 LatteGo (EP3347/90)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre machine à café Philips 3300 LatteGo (EP3347/90). Découvrez les filtres CA6903/10, les kits de détartrage CA6700/10 et solutions aux alertes.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant 'AquaClean' (clignotant) | La cartouche filtrante AquaClean est épuisée et doit être remplacée ou retirée pour un détartrage manuel. | Retirez l'ancienne cartouche AquaClean, insérez une nouvelle cartouche, puis activez-la via le menu de la machine. Si vous ne la remplacez pas, la machine vous demandera un détartrage plus fréquent. |
+| Voyant 'Détartrer' (clignotant) | La machine a besoin d'être détartrée pour éliminer l'accumulation de calcaire. | Suivez les instructions de détartrage affichées sur l'écran de la machine. Utilisez le détartrant Philips recommandé (CA6700/10) et un cycle complet de détartrage. |
+| Symbole 'Groupe café' (clignotant) | Le groupe café nécessite un nettoyage ou un rinçage. | Éteignez la machine. Retirez le groupe café en ouvrant la trappe de service. Rincez-le abondamment à l'eau tiède sous le robinet. Laissez-le sécher à l'air libre avant de le réinsérer. Si nécessaire, lubrifiez les rails. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche filtrante AquaClean | CA6903/10 | Tous les 3 mois ou après 95 litres d'eau | Prévient l'accumulation de calcaire, améliore la qualité de l'eau et le goût du café, prolonge la durée de vie de la machine. Un filtre usé ne protège plus contre le calcaire. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21) |
+| Kit de détartrage pour machine à café | CA6700/10 | Tous les 3 à 6 mois (selon la dureté de l'eau et l'utilisation d'AquaClean) | Élimine les dépôts de calcaire qui peuvent obstruer les conduits, altérer la température du café et endommager les composants internes. Indispensable pour la maintenance préventive. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21) |
+| Tube de graisse lubrifiante pour groupe café | HD5061/01 | Tous les 2 mois ou lorsque le groupe café émet des bruits anormaux | Assure le bon fonctionnement et la fluidité du groupe café, prévient l'usure prématurée des pièces mobiles et les blocages. Une lubrification régulière est essentielle. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je remplacer la cartouche AquaClean sur ma Philips EP3347/90 ?**
+  **R :** La cartouche AquaClean doit être remplacée tous les 3 mois environ, ou lorsque la machine l'indique. Une cartouche AquaClean active peut vous dispenser de détartrer la machine pendant 5000 tasses, à condition de la remplacer régulièrement.
+- **Q : Comment détartrer correctement ma machine Philips Série 3300 LatteGo ?**
+  **R :** Lorsque le voyant 'Détartrer' clignote, suivez les instructions pas-à-pas affichées sur l'écran. Utilisez un détartrant Philips (CA6700/10) et assurez-vous de vider les réservoirs et de rincer correctement la machine après le cycle.
+- **Q : Comment nettoyer le système LatteGo de ma machine ?**
+  **R :** Le système LatteGo est très facile à nettoyer. Après chaque utilisation, détachez-le et rincez-le sous l'eau du robinet. Vous pouvez également le passer au lave-vaisselle. Le nettoyage régulier prévient l'accumulation de résidus de lait et les mauvaises odeurs.
 
 ---

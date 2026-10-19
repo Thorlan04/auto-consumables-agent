@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-19T12:40:30.350177+00:00",
-  "total_appliances": 27,
+  "generated_at": "2026-10-19T22:10:52.539255+00:00",
+  "total_appliances": 29,
   "supported_languages": [
     "fr",
     "en",
@@ -4516,6 +4516,312 @@
         {
           "question": "Puis-je utiliser du papier sulfurisé ou de l'aluminium dans mon Airfryer ?",
           "answer": "Oui, vous pouvez utiliser du papier sulfurisé ou de l'aluminium, mais assurez-vous qu'ils ne recouvrent pas tout le fond du panier pour permettre une bonne circulation de l'air. Ne les laissez jamais flotter librement, surtout sans aliments pour les maintenir."
+        }
+      ]
+    },
+    {
+      "slug": "tineco-floor-one-s7-pro-fw210300eu-entretien",
+      "brand": "Tineco",
+      "model": "Floor One S7 Pro (FW210300EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide complet pour l'entretien du Tineco Floor One S7 Pro (FW210300EU). Trouvez les pièces FW210300-BRUSH, FW210300-HEPA et solutions aux codes erreurs.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant 'Réservoir d'eau sale plein'",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le, rincez-le et remettez-le en place correctement. Le voyant s'éteindra automatiquement."
+        },
+        {
+          "code": "Voyant 'Réservoir d'eau propre vide'",
+          "meaning": "Le réservoir d'eau propre est vide et l'appareil ne peut plus distribuer d'eau pour le nettoyage.",
+          "solution": "Retirez le réservoir d'eau propre, remplissez-le d'eau fraîche (et de solution Tineco si désiré), puis réinsérez-le fermement dans l'appareil."
+        },
+        {
+          "code": "Voyant 'Brosse bloquée'",
+          "meaning": "La brosse rotative est obstruée par des cheveux, des débris ou un objet, empêchant sa rotation.",
+          "solution": "Éteignez l'appareil, retirez le couvercle de la brosse, puis retirez la brosse. Nettoyez soigneusement la brosse et son compartiment, enlevez tous les débris et remontez l'ensemble."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse microfibre bi-matière",
+          "part_number": "FW210300-BRUSH",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Une brosse usée ou encrassée réduit l'efficacité de nettoyage, laisse des traces et peut provoquer de mauvaises odeurs. Le remplacement assure une performance optimale.",
+          "search_keywords": "Tineco Floor One S7 Pro brosse rouleau FW210300-BRUSH, rouleau brosse Tineco S7 Pro",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+Floor+One+S7+Pro+brosse+rouleau+FW210300-BRUSH%2C+rouleau+brosse+Tineco+S7+Pro&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA",
+          "part_number": "FW210300-HEPA",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Un filtre HEPA encrassé diminue la puissance d'aspiration, peut rejeter des particules fines dans l'air et causer des odeurs. Le remplacement est crucial pour une bonne filtration.",
+          "search_keywords": "Tineco Floor One S7 Pro filtre HEPA FW210300-HEPA, filtre Tineco S7 Pro",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+Floor+One+S7+Pro+filtre+HEPA+FW210300-HEPA%2C+filtre+Tineco+S7+Pro&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Solution nettoyante multi-surfaces Tineco",
+          "part_number": "Tineco Deodorizing & Cleaning Solution (TC-DCS)",
+          "frequency": "Selon les besoins (environ 1 bouteille tous les 2 mois)",
+          "why_replace": "L'utilisation de la solution Tineco garantit un nettoyage efficace et désodorisant. L'absence de solution ou l'utilisation d'un produit non adapté peut endommager l'appareil et laisser des résidus.",
+          "search_keywords": "Tineco solution nettoyante multi-surfaces TC-DCS, détergent Tineco Floor One",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+solution+nettoyante+multi-surfaces+TC-DCS%2C+d%C3%A9tergent+Tineco+Floor+One&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer la brosse et le filtre après chaque utilisation ?",
+          "answer": "Après chaque utilisation, lancez le cycle d'auto-nettoyage de l'appareil. Pour un nettoyage plus approfondi, retirez la brosse et le filtre HEPA, rincez-les à l'eau claire et laissez-les sécher complètement à l'air libre avant de les remettre en place."
+        },
+        {
+          "question": "Mon aspirateur-laveur dégage une mauvaise odeur, que faire ?",
+          "answer": "Les mauvaises odeurs sont souvent causées par des résidus dans le réservoir d'eau sale, la brosse ou le filtre HEPA. Videz et rincez le réservoir d'eau sale après chaque utilisation. Nettoyez en profondeur la brosse et le filtre, et assurez-vous qu'ils sont bien secs. Utilisez la solution nettoyante Tineco recommandée."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quelle solution de nettoyage avec mon Tineco S7 Pro ?",
+          "answer": "Non, il est fortement recommandé d'utiliser uniquement la solution nettoyante Tineco officielle (TC-DCS). L'utilisation d'autres produits peut endommager le système de pulvérisation, laisser des résidus ou annuler la garantie."
+        }
+      ]
+    },
+    {
+      "slug": "philips-3300-lattego-ep3347-90-entretien-detartrage",
+      "brand": "Philips",
+      "model": "Série 3300 LatteGo (EP3347/90)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour votre machine à café Philips 3300 LatteGo (EP3347/90). Découvrez les filtres CA6903/10, les kits de détartrage CA6700/10 et solutions aux alertes.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant 'AquaClean' (clignotant)",
+          "meaning": "La cartouche filtrante AquaClean est épuisée et doit être remplacée ou retirée pour un détartrage manuel.",
+          "solution": "Retirez l'ancienne cartouche AquaClean, insérez une nouvelle cartouche, puis activez-la via le menu de la machine. Si vous ne la remplacez pas, la machine vous demandera un détartrage plus fréquent."
+        },
+        {
+          "code": "Voyant 'Détartrer' (clignotant)",
+          "meaning": "La machine a besoin d'être détartrée pour éliminer l'accumulation de calcaire.",
+          "solution": "Suivez les instructions de détartrage affichées sur l'écran de la machine. Utilisez le détartrant Philips recommandé (CA6700/10) et un cycle complet de détartrage."
+        },
+        {
+          "code": "Symbole 'Groupe café' (clignotant)",
+          "meaning": "Le groupe café nécessite un nettoyage ou un rinçage.",
+          "solution": "Éteignez la machine. Retirez le groupe café en ouvrant la trappe de service. Rincez-le abondamment à l'eau tiède sous le robinet. Laissez-le sécher à l'air libre avant de le réinsérer. Si nécessaire, lubrifiez les rails."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante AquaClean",
+          "part_number": "CA6903/10",
+          "frequency": "Tous les 3 mois ou après 95 litres d'eau",
+          "why_replace": "Prévient l'accumulation de calcaire, améliore la qualité de l'eau et le goût du café, prolonge la durée de vie de la machine. Un filtre usé ne protège plus contre le calcaire.",
+          "search_keywords": "Philips AquaClean CA6903/10 filtre machine à café, cartouche Philips EP3347/90",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+AquaClean+CA6903%2F10+filtre+machine+%C3%A0+caf%C3%A9%2C+cartouche+Philips+EP3347%2F90&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Kit de détartrage pour machine à café",
+          "part_number": "CA6700/10",
+          "frequency": "Tous les 3 à 6 mois (selon la dureté de l'eau et l'utilisation d'AquaClean)",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les conduits, altérer la température du café et endommager les composants internes. Indispensable pour la maintenance préventive.",
+          "search_keywords": "Philips kit détartrage machine à café CA6700/10, détartrant Philips EP3347/90",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+kit+d%C3%A9tartrage+machine+%C3%A0+caf%C3%A9+CA6700%2F10%2C+d%C3%A9tartrant+Philips+EP3347%2F90&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Tube de graisse lubrifiante pour groupe café",
+          "part_number": "HD5061/01",
+          "frequency": "Tous les 2 mois ou lorsque le groupe café émet des bruits anormaux",
+          "why_replace": "Assure le bon fonctionnement et la fluidité du groupe café, prévient l'usure prématurée des pièces mobiles et les blocages. Une lubrification régulière est essentielle.",
+          "search_keywords": "Philips lubrifiant groupe café HD5061/01, graisse groupe café Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+lubrifiant+groupe+caf%C3%A9+HD5061%2F01%2C+graisse+groupe+caf%C3%A9+Philips&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je remplacer la cartouche AquaClean sur ma Philips EP3347/90 ?",
+          "answer": "La cartouche AquaClean doit être remplacée tous les 3 mois environ, ou lorsque la machine l'indique. Une cartouche AquaClean active peut vous dispenser de détartrer la machine pendant 5000 tasses, à condition de la remplacer régulièrement."
+        },
+        {
+          "question": "Comment détartrer correctement ma machine Philips Série 3300 LatteGo ?",
+          "answer": "Lorsque le voyant 'Détartrer' clignote, suivez les instructions pas-à-pas affichées sur l'écran. Utilisez un détartrant Philips (CA6700/10) et assurez-vous de vider les réservoirs et de rincer correctement la machine après le cycle."
+        },
+        {
+          "question": "Comment nettoyer le système LatteGo de ma machine ?",
+          "answer": "Le système LatteGo est très facile à nettoyer. Après chaque utilisation, détachez-le et rincez-le sous l'eau du robinet. Vous pouvez également le passer au lave-vaisselle. Le nettoyage régulier prévient l'accumulation de résidus de lait et les mauvaises odeurs."
         }
       ]
     }
