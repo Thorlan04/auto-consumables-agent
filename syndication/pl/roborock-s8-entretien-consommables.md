@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

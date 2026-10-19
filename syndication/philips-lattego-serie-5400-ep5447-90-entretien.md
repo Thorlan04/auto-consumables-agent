@@ -2,7 +2,7 @@
 title: "Entretien Philips LatteGo Série 5400 (EP5447/90) : Détartrage, Filtres & Pièces"
 description: "Optimisez la durée de vie de votre Philips LatteGo Série 5400 (EP5447/90) avec nos conseils d'entretien, les références des consommables et la résolution des alertes courantes."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

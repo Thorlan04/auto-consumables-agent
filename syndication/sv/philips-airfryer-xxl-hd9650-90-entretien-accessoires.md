@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Philips Airfryer XXL HD9650/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

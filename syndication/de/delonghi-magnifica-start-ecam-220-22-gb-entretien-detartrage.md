@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica Start ECAM 220.22.GB: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für De'Longhi Magnifica Start ECAM 220.22.GB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

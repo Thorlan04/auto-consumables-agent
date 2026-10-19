@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T30 Omni (DX14): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Ecovacs Deebot T30 Omni (DX14)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-t30-omni-dx14-entretien.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

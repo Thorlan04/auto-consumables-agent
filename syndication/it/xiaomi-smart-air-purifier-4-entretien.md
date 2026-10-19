@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

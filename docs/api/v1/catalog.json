@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-18T20:22:54.798093+00:00",
+  "generated_at": "2026-10-19T04:01:51.815424+00:00",
   "total_appliances": 27,
   "supported_languages": [
     "fr",
@@ -4203,7 +4203,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-t30-omni-dx14-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-t30-omni-dx14-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Ecovacs-Deebot-T30-Omni-DX14---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "Brosse principale emmêlée",
@@ -4388,7 +4388,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-Ovi-Smart-XXL-Connected-HD988090---Pièces--Entretien-10-18",
       "common_codes": [
         {
           "code": "E1",

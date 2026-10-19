@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

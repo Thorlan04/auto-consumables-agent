@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica Start ECAM 220.22.GB: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para De'Longhi Magnifica Start ECAM 220.22.GB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

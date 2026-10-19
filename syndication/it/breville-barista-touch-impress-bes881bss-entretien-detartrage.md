@@ -2,7 +2,7 @@
 title: "Breville Barista Touch Impress (BES881BSS): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Breville Barista Touch Impress (BES881BSS)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"
-published_at: "2026-10-18"
+published_at: "2026-10-19"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
