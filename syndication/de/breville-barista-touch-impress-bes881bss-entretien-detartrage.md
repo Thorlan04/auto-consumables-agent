@@ -2,7 +2,7 @@
 title: "Breville Barista Touch Impress (BES881BSS): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Breville Barista Touch Impress (BES881BSS)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

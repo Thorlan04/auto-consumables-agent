@@ -2,7 +2,7 @@
 title: "Breville Barista Touch Impress (BES881BSS): 交換部品・フィルター・エラーコード解説"
 description: "Breville Barista Touch Impress (BES881BSS) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

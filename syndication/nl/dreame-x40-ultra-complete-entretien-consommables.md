@@ -2,7 +2,7 @@
 title: "Dreame X40 Ultra Complete: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Dreame X40 Ultra Complete."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Levoit Core 400S Smart True HEPA: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Levoit Core 400S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

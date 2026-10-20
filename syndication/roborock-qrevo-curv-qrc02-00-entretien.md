@@ -2,7 +2,7 @@
 title: "Entretien Roborock Qrevo Curv (QRC02-00) : Consommables et Codes Erreurs"
 description: "Optimisez l'entretien de votre Roborock Qrevo Curv (QRC02-00) avec nos conseils sur les consommables et la résolution des codes erreurs. Prolongez la durée de vie de votre robot."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

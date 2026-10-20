@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-19T22:10:52.539255+00:00",
+  "generated_at": "2026-10-20T04:15:27.463567+00:00",
   "total_appliances": 29,
   "supported_languages": [
     "fr",
@@ -4541,7 +4541,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S7-Pro-FW210300EU---Pièces--Entretien-10-19",
       "common_codes": [
         {
           "code": "Voyant 'Réservoir d'eau sale plein'",
@@ -4694,7 +4694,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-Série-3300-LatteGo-EP334790---Pièces--Entretien-10-19",
       "common_codes": [
         {
           "code": "Voyant 'AquaClean' (clignotant)",

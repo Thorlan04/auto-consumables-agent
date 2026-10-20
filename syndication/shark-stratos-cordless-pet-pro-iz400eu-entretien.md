@@ -2,7 +2,7 @@
 title: "Entretien Shark Stratos Cordless Pet Pro (IZ400EU) : Filtres et Brosses"
 description: "Guide complet pour l'entretien de votre Shark Stratos Cordless Pet Pro (IZ400EU). Découvrez les filtres, brosses et astuces pour prolonger sa puissance d'aspiration."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

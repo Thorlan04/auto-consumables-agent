@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

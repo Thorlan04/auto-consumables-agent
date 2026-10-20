@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Dyson V15s Detect Submarine (SV47)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

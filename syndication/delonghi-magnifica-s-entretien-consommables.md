@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S : Consommables, Détartrage et Voyants Courants"
 description: "Cartouches filtrantes d'eau, détartrant EcoDecalk et graisse pour groupe café De'Longhi Magnifica S. Guide des voyants et entretien régulier."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-19"
+published_at: "2026-10-20"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
