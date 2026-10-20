@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-20
-> Total appareils répertoriés : 29
+> Total appareils répertoriés : 31
 
 ---
 
@@ -1177,5 +1177,86 @@
   **R :** Lorsque le voyant 'Détartrer' clignote, suivez les instructions pas-à-pas affichées sur l'écran. Utilisez un détartrant Philips (CA6700/10) et assurez-vous de vider les réservoirs et de rincer correctement la machine après le cycle.
 - **Q : Comment nettoyer le système LatteGo de ma machine ?**
   **R :** Le système LatteGo est très facile à nettoyer. Après chaque utilisation, détachez-le et rincez-le sous l'eau du robinet. Vous pouvez également le passer au lave-vaisselle. Le nettoyage régulier prévient l'accumulation de résidus de lait et les mauvaises odeurs.
+
+---
+
+## Dreame L20 Ultra Complete (RLS7LADC)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien du Dreame L20 Ultra Complete (RLS7LADC). Trouvez les consommables essentiels et résolvez les codes erreurs facilement.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Réservoir d'eau sale plein | Le réservoir d'eau sale de la station a atteint sa capacité maximale. | Retirez le réservoir d'eau sale de la station de vidange, videz-le, rincez-le et remettez-le en place correctement. Assurez-vous qu'il est bien enclenché. |
+| Brosse latérale bloquée | La brosse latérale est empêchée de tourner par des cheveux ou des débris. | Éteignez le robot. Retournez-le et retirez délicatement la brosse latérale. Nettoyez les cheveux et les débris enroulés autour de l'axe et de la brosse. Remontez la brosse. |
+| Tapis de lavage sale | Les patins de lavage sont trop encrassés et nécessitent un nettoyage ou un remplacement. | Retirez les patins de lavage du robot. Lavez-les à la main ou en machine (selon les instructions du fabricant) et laissez-les sécher à l'air libre avant de les réinstaller. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Sac à poussière de la station de vidange | Réf. constructeur adaptable | Tous les 30 à 60 jours (selon l'utilisation) | Perte d'efficacité de l'aspiration à la station, mauvaises odeurs, risque de colmatage du conduit. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 3 à 6 mois (lavage régulier recommandé) | Diminution de la puissance d'aspiration, rejet de poussières fines dans l'air, odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21) |
+| Brosse principale en caoutchouc | Réf. constructeur adaptable | Tous les 6 à 12 mois (selon l'utilisation et la présence d'animaux) | Moins bonne collecte des débris, brosse abîmée ou emmêlée, rayures sur les sols fragiles. | [Amazon.fr ↗](https://www.amazon.fr/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21) |
+| Patins de lavage rotatifs | Réf. constructeur adaptable | Tous les 3 à 6 mois (selon l'utilisation et la fréquence de lavage) | Moins bonne efficacité de lavage, traces au sol, accumulation de saleté incrustée. | [Amazon.fr ↗](https://www.amazon.fr/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les capteurs du Dreame L20 Ultra Complete ?**
+  **R :** Utilisez un chiffon doux et sec pour essuyer régulièrement les capteurs de falaise (sous le robot), les capteurs de recharge et le capteur de distance laser (LDS) sur le dessus.
+- **Q : Le robot ne retourne pas à sa station, que faire ?**
+  **R :** Vérifiez que la station est branchée et qu'aucun obstacle ne bloque le chemin du robot. Nettoyez les contacts de charge du robot et de la station avec un chiffon sec. Redémarrez le robot si nécessaire.
+- **Q : Mon robot est bruyant, est-ce normal ?**
+  **R :** Un bruit excessif peut indiquer que la brosse principale ou latérale est obstruée par des cheveux ou des débris. Éteignez le robot et vérifiez toutes les brosses, les roues et le conduit d'aspiration pour retirer tout ce qui pourrait gêner.
+
+---
+
+## Siemens EQ.900 TQ903D03
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/siemens-eq900-tq903d03-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre Siemens EQ.900 TQ903D03. Découvrez comment réaliser le détartrage, remplacer les filtres et maintenir votre machine.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Calc/Clean (Voyant clignotant ou message) | La machine nécessite un détartrage et/ou un nettoyage du circuit de café. | Lancez le programme "Calc'nClean" ou "Détartrage" depuis le menu de l'appareil. Suivez les instructions à l'écran, en utilisant une pastille de détartrage Siemens et un nettoyant pour circuit de café. |
+| Réservoir d'eau vide (Symbole) | Le réservoir d'eau est vide ou mal inséré. | Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX et réinsérez-le fermement dans la machine. Assurez-vous qu'il est correctement enclenché. |
+| Vider le bac d'égouttement (Symbole) | Le bac d'égouttement est plein et doit être vidé. | Retirez le bac d'égouttement et le récipient à marc de café. Videz le marc, rincez les deux éléments à l'eau claire et replacez-les correctement dans la machine. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau BRITA Intenza | TZ70003 | Tous les 2 mois ou après 50 litres d'eau filtrée | Réduction de l'entartrage, amélioration du goût du café, protection de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21) |
+| Pastilles de détartrage | TZ80002N | Tous les 2 à 3 mois (selon la dureté de l'eau et l'utilisation) | Accumulation de calcaire, altération du goût du café, risque de panne de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21) |
+| Pastilles de nettoyage | TZ80001N | Tous les 1 à 2 mois (selon l'utilisation) | Accumulation de résidus de café et d'huiles, altération du goût, encrassement du groupe de percolation. | [Amazon.fr ↗](https://www.amazon.fr/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Ma machine ne chauffe pas assez, que faire ?**
+  **R :** Vérifiez que le programme de détartrage a été effectué récemment. Un entartrage important peut réduire l'efficacité de chauffe. Assurez-vous également que la température du café est réglée au maximum dans les paramètres de la machine.
+- **Q : Le café coule lentement ou goutte à goutte, quelle est la cause ?**
+  **R :** Cela peut indiquer un entartrage, un encrassement du groupe de percolation ou une mouture de café trop fine. Lancez un programme de nettoyage et de détartrage. Si le problème persiste, ajustez la finesse de la mouture.
+- **Q : Comment nettoyer le système de lait de la Siemens EQ.900 ?**
+  **R :** Après chaque préparation lactée, rincez le système de lait en suivant les instructions affichées. Pour un nettoyage en profondeur, démontez les composants du système de lait (tuyau, buse) et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle (si compatible).
 
 ---

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-20T11:12:46.700952+00:00",
-  "total_guides": 29,
+  "last_updated": "2026-10-20T16:37:40.226244+00:00",
+  "total_guides": 31,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -1972,6 +1972,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Philips-Série-3300-LatteGo-EP334790---Pièces--Entretien-10-19"
+    },
+    {
+      "slug": "dreame-l20-ultra-complete-rls7ladc-entretien",
+      "title": "Entretien du Robot Aspirateur Laveur Dreame L20 Ultra Complete (RLS7LADC) : Consommables & Codes Erreur",
+      "brand": "Dreame",
+      "model": "L20 Ultra Complete (RLS7LADC)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet pour l'entretien du Dreame L20 Ultra Complete (RLS7LADC). Trouvez les consommables essentiels et résolvez les codes erreurs facilement.",
+      "common_codes": [
+        {
+          "code": "Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale de la station a atteint sa capacité maximale.",
+          "solution": "Retirez le réservoir d'eau sale de la station de vidange, videz-le, rincez-le et remettez-le en place correctement. Assurez-vous qu'il est bien enclenché."
+        },
+        {
+          "code": "Brosse latérale bloquée",
+          "meaning": "La brosse latérale est empêchée de tourner par des cheveux ou des débris.",
+          "solution": "Éteignez le robot. Retournez-le et retirez délicatement la brosse latérale. Nettoyez les cheveux et les débris enroulés autour de l'axe et de la brosse. Remontez la brosse."
+        },
+        {
+          "code": "Tapis de lavage sale",
+          "meaning": "Les patins de lavage sont trop encrassés et nécessitent un nettoyage ou un remplacement.",
+          "solution": "Retirez les patins de lavage du robot. Lavez-les à la main ou en machine (selon les instructions du fabricant) et laissez-les sécher à l'air libre avant de les réinstaller."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Sac à poussière de la station de vidange",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 30 à 60 jours (selon l'utilisation)",
+          "why_replace": "Perte d'efficacité de l'aspiration à la station, mauvaises odeurs, risque de colmatage du conduit.",
+          "search_keywords": "Dreame L20 Ultra Complete sac poussiere RLS7LADC, sac vidange automatique Dreame L20 Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (lavage régulier recommandé)",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines dans l'air, odeurs.",
+          "search_keywords": "filtre HEPA Dreame L20 Ultra Complete RLS7LADC, filtre aspirateur robot Dreame L20 Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (selon l'utilisation et la présence d'animaux)",
+          "why_replace": "Moins bonne collecte des débris, brosse abîmée ou emmêlée, rayures sur les sols fragiles.",
+          "search_keywords": "brosse principale Dreame L20 Ultra Complete RLS7LADC, rouleau brosse Dreame L20 Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Patins de lavage rotatifs",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon l'utilisation et la fréquence de lavage)",
+          "why_replace": "Moins bonne efficacité de lavage, traces au sol, accumulation de saleté incrustée.",
+          "search_keywords": "patins lavage Dreame L20 Ultra Complete RLS7LADC, serpillères rotatives Dreame L20 Ultra",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs du Dreame L20 Ultra Complete ?",
+          "answer": "Utilisez un chiffon doux et sec pour essuyer régulièrement les capteurs de falaise (sous le robot), les capteurs de recharge et le capteur de distance laser (LDS) sur le dessus."
+        },
+        {
+          "question": "Le robot ne retourne pas à sa station, que faire ?",
+          "answer": "Vérifiez que la station est branchée et qu'aucun obstacle ne bloque le chemin du robot. Nettoyez les contacts de charge du robot et de la station avec un chiffon sec. Redémarrez le robot si nécessaire."
+        },
+        {
+          "question": "Mon robot est bruyant, est-ce normal ?",
+          "answer": "Un bruit excessif peut indiquer que la brosse principale ou latérale est obstruée par des cheveux ou des débris. Éteignez le robot et vérifiez toutes les brosses, les roues et le conduit d'aspiration pour retirer tout ce qui pourrait gêner."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Dreame-L20-Ultra-Complete-RLS7LADC---Pièces--Entretien-10-20"
+    },
+    {
+      "slug": "siemens-eq900-tq903d03-entretien-detartrage",
+      "title": "Entretien de la Machine à Café Siemens EQ.900 TQ903D03 : Détartrage & Consommables",
+      "brand": "Siemens",
+      "model": "EQ.900 TQ903D03",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour votre Siemens EQ.900 TQ903D03. Découvrez comment réaliser le détartrage, remplacer les filtres et maintenir votre machine.",
+      "common_codes": [
+        {
+          "code": "Calc/Clean (Voyant clignotant ou message)",
+          "meaning": "La machine nécessite un détartrage et/ou un nettoyage du circuit de café.",
+          "solution": "Lancez le programme \"Calc'nClean\" ou \"Détartrage\" depuis le menu de l'appareil. Suivez les instructions à l'écran, en utilisant une pastille de détartrage Siemens et un nettoyant pour circuit de café."
+        },
+        {
+          "code": "Réservoir d'eau vide (Symbole)",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX et réinsérez-le fermement dans la machine. Assurez-vous qu'il est correctement enclenché."
+        },
+        {
+          "code": "Vider le bac d'égouttement (Symbole)",
+          "meaning": "Le bac d'égouttement est plein et doit être vidé.",
+          "solution": "Retirez le bac d'égouttement et le récipient à marc de café. Videz le marc, rincez les deux éléments à l'eau claire et replacez-les correctement dans la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau BRITA Intenza",
+          "part_number": "TZ70003",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau filtrée",
+          "why_replace": "Réduction de l'entartrage, amélioration du goût du café, protection de la machine.",
+          "search_keywords": "filtre eau Siemens EQ.900 TQ903D03, BRITA Intenza TZ70003 Siemens EQ.900",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de détartrage",
+          "part_number": "TZ80002N",
+          "frequency": "Tous les 2 à 3 mois (selon la dureté de l'eau et l'utilisation)",
+          "why_replace": "Accumulation de calcaire, altération du goût du café, risque de panne de la machine.",
+          "search_keywords": "pastilles detartrage Siemens EQ.900 TQ903D03, detartrant Siemens TZ80002N",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage",
+          "part_number": "TZ80001N",
+          "frequency": "Tous les 1 à 2 mois (selon l'utilisation)",
+          "why_replace": "Accumulation de résidus de café et d'huiles, altération du goût, encrassement du groupe de percolation.",
+          "search_keywords": "pastilles nettoyage Siemens EQ.900 TQ903D03, nettoyant circuit café Siemens TZ80001N",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ma machine ne chauffe pas assez, que faire ?",
+          "answer": "Vérifiez que le programme de détartrage a été effectué récemment. Un entartrage important peut réduire l'efficacité de chauffe. Assurez-vous également que la température du café est réglée au maximum dans les paramètres de la machine."
+        },
+        {
+          "question": "Le café coule lentement ou goutte à goutte, quelle est la cause ?",
+          "answer": "Cela peut indiquer un entartrage, un encrassement du groupe de percolation ou une mouture de café trop fine. Lancez un programme de nettoyage et de détartrage. Si le problème persiste, ajustez la finesse de la mouture."
+        },
+        {
+          "question": "Comment nettoyer le système de lait de la Siemens EQ.900 ?",
+          "answer": "Après chaque préparation lactée, rincez le système de lait en suivant les instructions affichées. Pour un nettoyage en profondeur, démontez les composants du système de lait (tuyau, buse) et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle (si compatible)."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Siemens-EQ900-TQ903D03---Pièces--Entretien-10-20"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

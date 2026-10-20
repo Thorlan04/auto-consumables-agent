@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-20T11:12:47.122591+00:00",
-  "total_appliances": 29,
+  "generated_at": "2026-10-20T16:37:40.749529+00:00",
+  "total_appliances": 31,
   "supported_languages": [
     "fr",
     "en",
@@ -4822,6 +4822,344 @@
         {
           "question": "Comment nettoyer le système LatteGo de ma machine ?",
           "answer": "Le système LatteGo est très facile à nettoyer. Après chaque utilisation, détachez-le et rincez-le sous l'eau du robinet. Vous pouvez également le passer au lave-vaisselle. Le nettoyage régulier prévient l'accumulation de résidus de lait et les mauvaises odeurs."
+        }
+      ]
+    },
+    {
+      "slug": "dreame-l20-ultra-complete-rls7ladc-entretien",
+      "brand": "Dreame",
+      "model": "L20 Ultra Complete (RLS7LADC)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet pour l'entretien du Dreame L20 Ultra Complete (RLS7LADC). Trouvez les consommables essentiels et résolvez les codes erreurs facilement.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale de la station a atteint sa capacité maximale.",
+          "solution": "Retirez le réservoir d'eau sale de la station de vidange, videz-le, rincez-le et remettez-le en place correctement. Assurez-vous qu'il est bien enclenché."
+        },
+        {
+          "code": "Brosse latérale bloquée",
+          "meaning": "La brosse latérale est empêchée de tourner par des cheveux ou des débris.",
+          "solution": "Éteignez le robot. Retournez-le et retirez délicatement la brosse latérale. Nettoyez les cheveux et les débris enroulés autour de l'axe et de la brosse. Remontez la brosse."
+        },
+        {
+          "code": "Tapis de lavage sale",
+          "meaning": "Les patins de lavage sont trop encrassés et nécessitent un nettoyage ou un remplacement.",
+          "solution": "Retirez les patins de lavage du robot. Lavez-les à la main ou en machine (selon les instructions du fabricant) et laissez-les sécher à l'air libre avant de les réinstaller."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Sac à poussière de la station de vidange",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 30 à 60 jours (selon l'utilisation)",
+          "why_replace": "Perte d'efficacité de l'aspiration à la station, mauvaises odeurs, risque de colmatage du conduit.",
+          "search_keywords": "Dreame L20 Ultra Complete sac poussiere RLS7LADC, sac vidange automatique Dreame L20 Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Dreame+L20+Ultra+Complete+sac+poussiere+RLS7LADC%2C+sac+vidange+automatique+Dreame+L20+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (lavage régulier recommandé)",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines dans l'air, odeurs.",
+          "search_keywords": "filtre HEPA Dreame L20 Ultra Complete RLS7LADC, filtre aspirateur robot Dreame L20 Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=filtre+HEPA+Dreame+L20+Ultra+Complete+RLS7LADC%2C+filtre+aspirateur+robot+Dreame+L20+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (selon l'utilisation et la présence d'animaux)",
+          "why_replace": "Moins bonne collecte des débris, brosse abîmée ou emmêlée, rayures sur les sols fragiles.",
+          "search_keywords": "brosse principale Dreame L20 Ultra Complete RLS7LADC, rouleau brosse Dreame L20 Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=brosse+principale+Dreame+L20+Ultra+Complete+RLS7LADC%2C+rouleau+brosse+Dreame+L20+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Patins de lavage rotatifs",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 à 6 mois (selon l'utilisation et la fréquence de lavage)",
+          "why_replace": "Moins bonne efficacité de lavage, traces au sol, accumulation de saleté incrustée.",
+          "search_keywords": "patins lavage Dreame L20 Ultra Complete RLS7LADC, serpillères rotatives Dreame L20 Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=patins+lavage+Dreame+L20+Ultra+Complete+RLS7LADC%2C+serpill%C3%A8res+rotatives+Dreame+L20+Ultra&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs du Dreame L20 Ultra Complete ?",
+          "answer": "Utilisez un chiffon doux et sec pour essuyer régulièrement les capteurs de falaise (sous le robot), les capteurs de recharge et le capteur de distance laser (LDS) sur le dessus."
+        },
+        {
+          "question": "Le robot ne retourne pas à sa station, que faire ?",
+          "answer": "Vérifiez que la station est branchée et qu'aucun obstacle ne bloque le chemin du robot. Nettoyez les contacts de charge du robot et de la station avec un chiffon sec. Redémarrez le robot si nécessaire."
+        },
+        {
+          "question": "Mon robot est bruyant, est-ce normal ?",
+          "answer": "Un bruit excessif peut indiquer que la brosse principale ou latérale est obstruée par des cheveux ou des débris. Éteignez le robot et vérifiez toutes les brosses, les roues et le conduit d'aspiration pour retirer tout ce qui pourrait gêner."
+        }
+      ]
+    },
+    {
+      "slug": "siemens-eq900-tq903d03-entretien-detartrage",
+      "brand": "Siemens",
+      "model": "EQ.900 TQ903D03",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour votre Siemens EQ.900 TQ903D03. Découvrez comment réaliser le détartrage, remplacer les filtres et maintenir votre machine.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/siemens-eq900-tq903d03-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Calc/Clean (Voyant clignotant ou message)",
+          "meaning": "La machine nécessite un détartrage et/ou un nettoyage du circuit de café.",
+          "solution": "Lancez le programme \"Calc'nClean\" ou \"Détartrage\" depuis le menu de l'appareil. Suivez les instructions à l'écran, en utilisant une pastille de détartrage Siemens et un nettoyant pour circuit de café."
+        },
+        {
+          "code": "Réservoir d'eau vide (Symbole)",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX et réinsérez-le fermement dans la machine. Assurez-vous qu'il est correctement enclenché."
+        },
+        {
+          "code": "Vider le bac d'égouttement (Symbole)",
+          "meaning": "Le bac d'égouttement est plein et doit être vidé.",
+          "solution": "Retirez le bac d'égouttement et le récipient à marc de café. Videz le marc, rincez les deux éléments à l'eau claire et replacez-les correctement dans la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau BRITA Intenza",
+          "part_number": "TZ70003",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau filtrée",
+          "why_replace": "Réduction de l'entartrage, amélioration du goût du café, protection de la machine.",
+          "search_keywords": "filtre eau Siemens EQ.900 TQ903D03, BRITA Intenza TZ70003 Siemens EQ.900",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=filtre+eau+Siemens+EQ.900+TQ903D03%2C+BRITA+Intenza+TZ70003+Siemens+EQ.900&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de détartrage",
+          "part_number": "TZ80002N",
+          "frequency": "Tous les 2 à 3 mois (selon la dureté de l'eau et l'utilisation)",
+          "why_replace": "Accumulation de calcaire, altération du goût du café, risque de panne de la machine.",
+          "search_keywords": "pastilles detartrage Siemens EQ.900 TQ903D03, detartrant Siemens TZ80002N",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=pastilles+detartrage+Siemens+EQ.900+TQ903D03%2C+detartrant+Siemens+TZ80002N&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage",
+          "part_number": "TZ80001N",
+          "frequency": "Tous les 1 à 2 mois (selon l'utilisation)",
+          "why_replace": "Accumulation de résidus de café et d'huiles, altération du goût, encrassement du groupe de percolation.",
+          "search_keywords": "pastilles nettoyage Siemens EQ.900 TQ903D03, nettoyant circuit café Siemens TZ80001N",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=pastilles+nettoyage+Siemens+EQ.900+TQ903D03%2C+nettoyant+circuit+caf%C3%A9+Siemens+TZ80001N&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Ma machine ne chauffe pas assez, que faire ?",
+          "answer": "Vérifiez que le programme de détartrage a été effectué récemment. Un entartrage important peut réduire l'efficacité de chauffe. Assurez-vous également que la température du café est réglée au maximum dans les paramètres de la machine."
+        },
+        {
+          "question": "Le café coule lentement ou goutte à goutte, quelle est la cause ?",
+          "answer": "Cela peut indiquer un entartrage, un encrassement du groupe de percolation ou une mouture de café trop fine. Lancez un programme de nettoyage et de détartrage. Si le problème persiste, ajustez la finesse de la mouture."
+        },
+        {
+          "question": "Comment nettoyer le système de lait de la Siemens EQ.900 ?",
+          "answer": "Après chaque préparation lactée, rincez le système de lait en suivant les instructions affichées. Pour un nettoyage en profondeur, démontez les composants du système de lait (tuyau, buse) et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle (si compatible)."
         }
       ]
     }

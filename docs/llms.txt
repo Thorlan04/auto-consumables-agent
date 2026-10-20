@@ -55,6 +55,7 @@
 - [Breville Barista Touch Impress (BES881BSS)](https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [De'Longhi Magnifica Start ECAM 220.22.GB](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips Série 3300 LatteGo (EP3347/90)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Siemens EQ.900 TQ903D03](https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -67,6 +68,7 @@
 - [Dreame X40 Ultra Complete](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock Qrevo Curv (QRC02-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-qrevo-curv-qrc02-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Ecovacs Deebot T30 Omni (DX14)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t30-omni-dx14-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Dreame L20 Ultra Complete (RLS7LADC)](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)
