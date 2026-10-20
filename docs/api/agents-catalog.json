@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-20T16:37:40.749529+00:00",
+  "generated_at": "2026-10-20T21:25:53.888855+00:00",
   "total_appliances": 31,
   "supported_languages": [
     "fr",
@@ -4847,7 +4847,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Dreame-L20-Ultra-Complete-RLS7LADC---Pièces--Entretien-10-20",
       "common_codes": [
         {
           "code": "Réservoir d'eau sale plein",
@@ -5032,7 +5032,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/siemens-eq900-tq903d03-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/siemens-eq900-tq903d03-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Siemens-EQ900-TQ903D03---Pièces--Entretien-10-20",
       "common_codes": [
         {
           "code": "Calc/Clean (Voyant clignotant ou message)",
