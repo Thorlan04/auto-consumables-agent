@@ -2,7 +2,7 @@
 title: "Entretien Roborock S8 MaxV Ultra: Consommables, filtres et codes erreurs pour une performance optimale"
 description: "Prolongez la durée de vie de votre Roborock S8 MaxV Ultra. Découvrez les consommables, filtres et solutions aux codes erreurs pour un entretien facile et efficace."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

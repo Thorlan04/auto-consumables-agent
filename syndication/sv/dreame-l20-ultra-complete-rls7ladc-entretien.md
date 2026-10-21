@@ -2,7 +2,7 @@
 title: "Dreame L20 Ultra Complete (RLS7LADC): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dreame L20 Ultra Complete (RLS7LADC)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

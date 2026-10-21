@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

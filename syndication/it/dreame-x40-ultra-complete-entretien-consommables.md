@@ -2,7 +2,7 @@
 title: "Dreame X40 Ultra Complete: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Dreame X40 Ultra Complete."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

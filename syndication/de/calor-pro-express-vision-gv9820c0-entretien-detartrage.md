@@ -2,7 +2,7 @@
 title: "Calor Pro Express Vision GV9820C0: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Calor Pro Express Vision GV9820C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

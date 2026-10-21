@@ -2,7 +2,7 @@
 title: "Breville Barista Touch Impress (BES881BSS): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Breville Barista Touch Impress (BES881BSS)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

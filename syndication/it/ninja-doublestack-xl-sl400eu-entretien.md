@@ -2,7 +2,7 @@
 title: "Ninja DoubleStack XL 9,5L (SL400EU): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Ninja DoubleStack XL 9,5L (SL400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

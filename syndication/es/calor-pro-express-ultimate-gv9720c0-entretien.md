@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Calor Pro Express Ultimate GV9720C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

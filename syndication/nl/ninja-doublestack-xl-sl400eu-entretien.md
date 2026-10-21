@@ -2,7 +2,7 @@
 title: "Ninja DoubleStack XL 9,5L (SL400EU): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Ninja DoubleStack XL 9,5L (SL400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

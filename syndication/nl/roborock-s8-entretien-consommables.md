@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

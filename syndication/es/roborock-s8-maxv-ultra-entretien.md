@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

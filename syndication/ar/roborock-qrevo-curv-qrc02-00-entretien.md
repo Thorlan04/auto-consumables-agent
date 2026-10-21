@@ -2,7 +2,7 @@
 title: "Roborock Qrevo Curv (QRC02-00): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Roborock Qrevo Curv (QRC02-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

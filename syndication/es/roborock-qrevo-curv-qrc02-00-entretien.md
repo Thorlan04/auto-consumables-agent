@@ -2,7 +2,7 @@
 title: "Roborock Qrevo Curv (QRC02-00): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Roborock Qrevo Curv (QRC02-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

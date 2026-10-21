@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-20"
+published_at: "2026-10-21"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
