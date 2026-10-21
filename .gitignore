@@ -20,8 +20,9 @@ desktop.ini
 .coverage
 
 # Données fiscales personnelles (Ne JAMAIS exposer publiquement sur GitHub si vous tenez à votre anonymat de CA)
-# NOTE : Vous pouvez choisir de versionner ce dossier dans un repo privé, mais il ne doit JAMAIS être copié dans docs/ !
-# compta_impots/*.csv
+compta_impots/
+compta_impots/*.csv
+compta_impots/*.html
 
 # Node & Browser testing
 node_modules/
