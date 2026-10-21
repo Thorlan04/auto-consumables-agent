@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-10-21T11:28:14.719034+00:00",
+  "retrieved_at": "2026-10-21T16:55:27.714922+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "sterwins",
+      "model": "tronçonneuse thermique  sterwins pcs2-45es.4  – 45cm",
+      "category": "machines",
+      "publication_date": "2026-10-21T14:51:38+00:00",
+      "reason": "le protège chaîne peut se desserrer pendant l'usage. la chaîne risque alors de se détendre et de provoquer des blessures",
+      "risks": "blessures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23870/interne",
+      "safe_replacement_search": "machines sterwins certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=machines+sterwins+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "sans marque",
       "model": "modèle 3123 – alimentation réglable 3v–12v, 3a, 36w",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23315/interne",
       "safe_replacement_search": "appareils électriques, électroménager kosilum certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+kosilum+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "legrand",
-      "model": "réfrences pro : 402038",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-08-04T15:36:46+00:00",
-      "reason": "défaut de conformité affectant le seuil de déclenchement de certains de ¤ces interrupteurs différentiels fabriqués en semaine 24 de  2024. le seuil de déclenchement mesuré est d’environ ¤80 ma, soit un niveau supérieur à la valeur nominale de 30 ma",
-      "risks": "choc électrique",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23050/interne",
-      "safe_replacement_search": "appareils électriques, électroménager legrand certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+legrand+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
