@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-22T11:29:11.032143+00:00",
-  "total_guides": 33,
+  "last_updated": "2026-10-22T16:55:58.015467+00:00",
+  "total_guides": 35,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -2252,6 +2252,154 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Ninja-Foodi-FlexDrawer-AF500EU---Pièces--Entretien-10-22"
+    },
+    {
+      "slug": "shark-stratos-cordless-pet-pro-iz400uk-entretien",
+      "title": "Entretien Shark Stratos Cordless Pet Pro IZ400UK : Filtres, Brosse, Anti-Odeur",
+      "brand": "Shark",
+      "model": "Stratos Cordless Pet Pro (IZ400UK)",
+      "category": "Aspirateurs Balais",
+      "meta_description": "Prolongez la vie de votre aspirateur Shark Stratos IZ400UK ! Guide d'entretien pour filtres HEPA, brosse Anti Hair Wrap Plus et cartouche anti-odeur. Références PN incluses.",
+      "common_codes": [
+        {
+          "code": "Voyant brosse obstruée",
+          "meaning": "Le rouleau brosse est bloqué par des cheveux, des fibres ou des débris.",
+          "solution": "Éteignez l'aspirateur, retirez la buse et dégagez manuellement tout obstacle enroulé autour du rouleau brosse Anti Hair Wrap Plus. Vérifiez également l'entrée d'air."
+        },
+        {
+          "code": "Voyant filtre sale",
+          "meaning": "Les filtres pré-moteur (mousse et feutre) ou post-moteur (HEPA) sont encrassés et nécessitent un nettoyage.",
+          "solution": "Retirez les filtres pré-moteur et HEPA, tapotez-les pour enlever la poussière et rincez-les à l'eau froide. Laissez-les sécher complètement à l'air libre pendant au moins 24 heures avant de les remettre en place."
+        },
+        {
+          "code": "Voyant cartouche anti-odeur",
+          "meaning": "La cartouche de technologie Anti-Odeur est vide ou doit être remplacée pour maintenir l'efficacité.",
+          "solution": "Vérifiez le niveau de la cartouche anti-odeur. Si elle est vide, remplacez-la par une nouvelle cartouche Shark XDCLZ400. Assurez-vous qu'elle est correctement insérée."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse Anti Hair Wrap Plus",
+          "part_number": "XZFLZ400UK",
+          "frequency": "Tous les 6 à 12 mois ou si usée",
+          "why_replace": "Perte d'efficacité d'aspiration, brosse endommagée, bruits anormaux ou mauvaise rotation.",
+          "search_keywords": "Shark IZ400UK rouleau brosse XZFLZ400UK, brosse Anti Hair Wrap Plus Shark Stratos",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA post-moteur",
+          "part_number": "XHF400",
+          "frequency": "Tous les 6 à 12 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine, mauvaises odeurs.",
+          "search_keywords": "Shark IZ400UK filtre HEPA XHF400, filtre post-moteur Shark Stratos",
+          "affiliate_url": null
+        },
+        {
+          "name": "Cartouche technologie Anti-Odeur",
+          "part_number": "XDCLZ400",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Apparition de mauvaises odeurs lors de l'aspiration, perte de l'efficacité de neutralisation des odeurs d'animaux.",
+          "search_keywords": "Shark IZ400UK cartouche anti-odeur XDCLZ400, technologie anti-odeur Stratos",
+          "affiliate_url": null
+        },
+        {
+          "name": "Kit filtres mousse et feutre pré-moteur",
+          "part_number": "XFFLZ400",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Réduction significative de l'aspiration, encrassement visible, risque d'endommagement du moteur.",
+          "search_keywords": "Shark IZ400UK filtres mousse feutre XFFLZ400, filtre pré-moteur Shark Stratos",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les filtres du Shark Stratos IZ400UK ?",
+          "answer": "Retirez les filtres mousse et feutre (pré-moteur) ainsi que le filtre HEPA (post-moteur). Rincez-les à l'eau claire uniquement et laissez-les sécher à l'air libre pendant au moins 24 heures avant de les réinstaller. Ne les mettez jamais au sèche-linge."
+        },
+        {
+          "question": "Pourquoi ma brosse rouleau ne tourne-t-elle plus sur mon IZ400UK ?",
+          "answer": "Vérifiez que la brosse n'est pas obstruée par des cheveux ou des débris. Éteignez l'appareil, retirez la buse et nettoyez soigneusement le rouleau. Si le problème persiste après nettoyage et vérification des connexions, la brosse pourrait être endommagée et nécessiter un remplacement."
+        },
+        {
+          "question": "Quand faut-il remplacer la cartouche anti-odeur du Shark Stratos ?",
+          "answer": "La cartouche anti-odeur doit être remplacée tous les 3 à 6 mois, ou lorsque le voyant de la cartouche s'allume ou que vous remarquez une diminution de l'efficacité de neutralisation des odeurs, notamment d'animaux domestiques."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Shark-Stratos-Cordless-Pet-Pro-IZ400UK---Pièces--Entretien-10-22"
+    },
+    {
+      "slug": "tineco-floor-one-s7-combo-fw210200eu-entretien",
+      "title": "Entretien Tineco Floor One S7 Combo FW210200EU : Brosses, Filtres, Solution",
+      "brand": "Tineco",
+      "model": "Floor One S7 Combo (FW210200EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide complet pour l'entretien du Tineco Floor One S7 Combo FW210200EU. Remplacement des brosses, filtres HEPA et solution de nettoyage Tineco. Optimisez votre appareil.",
+      "common_codes": [
+        {
+          "code": "Voyant réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz son contenu, rincez-le à l'eau claire et remettez-le en place correctement. Nettoyez également le filtre solide à l'intérieur du réservoir."
+        },
+        {
+          "code": "Voyant filtre HEPA encrassé",
+          "meaning": "Le filtre HEPA est obstrué par la poussière et nécessite un nettoyage ou un remplacement.",
+          "solution": "Retirez le filtre HEPA, rincez-le à l'eau claire et laissez-le sécher complètement à l'air libre pendant 24 heures. Si le voyant persiste ou si le filtre est trop usé, remplacez-le par un neuf."
+        },
+        {
+          "code": "Voyant brosse obstruée",
+          "meaning": "Le rouleau brosse est bloqué par des cheveux ou des débris, empêchant sa rotation normale.",
+          "solution": "Éteignez l'appareil, retirez le couvercle de la brosse et dégagez manuellement tout obstacle du rouleau brosse et de la zone de nettoyage. Assurez-vous que la brosse tourne librement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse bi-matière (pour sols durs)",
+          "part_number": "FW210300-BRUSH",
+          "frequency": "Tous les 3 à 6 mois ou si usée",
+          "why_replace": "Perte d'efficacité de nettoyage, traces au sol, bruits anormaux ou odeurs persistantes.",
+          "search_keywords": "Tineco S7 Combo rouleau brosse FW210300-BRUSH, brosse Floor One S7 Combo",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA",
+          "part_number": "FW210300-FILTER",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine, mauvaises odeurs.",
+          "search_keywords": "Tineco S7 Combo filtre HEPA FW210300-FILTER, filtre Floor One S7 Combo",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Tineco (3-en-1)",
+          "part_number": "Tineco 3-in-1 Cleaning Solution",
+          "frequency": "Selon utilisation",
+          "why_replace": "Nettoyage moins efficace, traces, absence de parfum frais ou accumulation de saleté.",
+          "search_keywords": "Tineco S7 Combo solution nettoyage, détergent Tineco Floor One 3-en-1",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre à mailles (pré-filtre)",
+          "part_number": "FW210300-MESHFILTER",
+          "frequency": "Tous les 3 mois ou si endommagé",
+          "why_replace": "Obstruction du flux d'air, diminution de la puissance d'aspiration, risque de surcharge du filtre HEPA.",
+          "search_keywords": "Tineco S7 Combo filtre mailles FW210300-MESHFILTER, pré-filtre Floor One S7 Combo",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment vider et nettoyer le réservoir d'eau sale du Tineco S7 Combo ?",
+          "answer": "Retirez le réservoir d'eau sale de l'appareil. Ouvrez le couvercle, videz l'eau sale et jetez les débris solides. Rincez le réservoir et le couvercle à l'eau claire. Laissez sécher à l'air libre avant de le remettre en place."
+        },
+        {
+          "question": "Mon Tineco S7 Combo laisse des traces, que faire ?",
+          "answer": "Vérifiez que le rouleau brosse est propre et en bon état. Assurez-vous que le réservoir d'eau sale n'est pas plein et que les filtres sont propres. Utilisez la solution de nettoyage Tineco recommandée et ne surchargez pas l'appareil en eau ou détergent."
+        },
+        {
+          "question": "À quelle fréquence dois-je remplacer le filtre HEPA du Tineco S7 Combo ?",
+          "answer": "Il est recommandé de remplacer le filtre HEPA tous les 3 à 6 mois, en fonction de votre fréquence d'utilisation et de la propreté de votre environnement. Un nettoyage régulier prolongera sa durée de vie, mais le remplacement est essentiel pour maintenir les performances d'aspiration."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S7-Combo-FW210200EU---Pièces--Entretien-10-22"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

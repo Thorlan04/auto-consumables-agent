@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-22T11:29:11.620126+00:00",
-  "total_appliances": 33,
+  "generated_at": "2026-10-22T16:55:58.692989+00:00",
+  "total_appliances": 35,
   "supported_languages": [
     "fr",
     "en",
@@ -5185,7 +5185,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/narwal-freo-x-ultra-frxu01-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/narwal-freo-x-ultra-frxu01-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Narwal-Freo-X-Ultra-FRXU01---Pièces--Entretien-10-22",
       "common_codes": [
         {
           "code": "Voyant \"Bac à poussière plein\"",
@@ -5370,7 +5370,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Ninja-Foodi-FlexDrawer-AF500EU---Pièces--Entretien-10-22",
       "common_codes": [
         {
           "code": "Alerte \"Paniers sales\"",
@@ -5498,6 +5498,376 @@
         {
           "question": "Que faire si ma friteuse émet une odeur de plastique neuf ?",
           "answer": "C'est normal lors des premières utilisations. Pour l'atténuer, faites fonctionner l'appareil à vide à haute température pendant environ 15-20 minutes avant la première cuisson, dans une pièce bien ventilée. L'odeur disparaîtra progressivement."
+        }
+      ]
+    },
+    {
+      "slug": "shark-stratos-cordless-pet-pro-iz400uk-entretien",
+      "brand": "Shark",
+      "model": "Stratos Cordless Pet Pro (IZ400UK)",
+      "category": "Aspirateurs Balais",
+      "meta_description": "Prolongez la vie de votre aspirateur Shark Stratos IZ400UK ! Guide d'entretien pour filtres HEPA, brosse Anti Hair Wrap Plus et cartouche anti-odeur. Références PN incluses.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant brosse obstruée",
+          "meaning": "Le rouleau brosse est bloqué par des cheveux, des fibres ou des débris.",
+          "solution": "Éteignez l'aspirateur, retirez la buse et dégagez manuellement tout obstacle enroulé autour du rouleau brosse Anti Hair Wrap Plus. Vérifiez également l'entrée d'air."
+        },
+        {
+          "code": "Voyant filtre sale",
+          "meaning": "Les filtres pré-moteur (mousse et feutre) ou post-moteur (HEPA) sont encrassés et nécessitent un nettoyage.",
+          "solution": "Retirez les filtres pré-moteur et HEPA, tapotez-les pour enlever la poussière et rincez-les à l'eau froide. Laissez-les sécher complètement à l'air libre pendant au moins 24 heures avant de les remettre en place."
+        },
+        {
+          "code": "Voyant cartouche anti-odeur",
+          "meaning": "La cartouche de technologie Anti-Odeur est vide ou doit être remplacée pour maintenir l'efficacité.",
+          "solution": "Vérifiez le niveau de la cartouche anti-odeur. Si elle est vide, remplacez-la par une nouvelle cartouche Shark XDCLZ400. Assurez-vous qu'elle est correctement insérée."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse Anti Hair Wrap Plus",
+          "part_number": "XZFLZ400UK",
+          "frequency": "Tous les 6 à 12 mois ou si usée",
+          "why_replace": "Perte d'efficacité d'aspiration, brosse endommagée, bruits anormaux ou mauvaise rotation.",
+          "search_keywords": "Shark IZ400UK rouleau brosse XZFLZ400UK, brosse Anti Hair Wrap Plus Shark Stratos",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA post-moteur",
+          "part_number": "XHF400",
+          "frequency": "Tous les 6 à 12 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine, mauvaises odeurs.",
+          "search_keywords": "Shark IZ400UK filtre HEPA XHF400, filtre post-moteur Shark Stratos",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Cartouche technologie Anti-Odeur",
+          "part_number": "XDCLZ400",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Apparition de mauvaises odeurs lors de l'aspiration, perte de l'efficacité de neutralisation des odeurs d'animaux.",
+          "search_keywords": "Shark IZ400UK cartouche anti-odeur XDCLZ400, technologie anti-odeur Stratos",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+cartouche+anti-odeur+XDCLZ400%2C+technologie+anti-odeur+Stratos&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Kit filtres mousse et feutre pré-moteur",
+          "part_number": "XFFLZ400",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Réduction significative de l'aspiration, encrassement visible, risque d'endommagement du moteur.",
+          "search_keywords": "Shark IZ400UK filtres mousse feutre XFFLZ400, filtre pré-moteur Shark Stratos",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Shark+IZ400UK+filtres+mousse+feutre+XFFLZ400%2C+filtre+pr%C3%A9-moteur+Shark+Stratos&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les filtres du Shark Stratos IZ400UK ?",
+          "answer": "Retirez les filtres mousse et feutre (pré-moteur) ainsi que le filtre HEPA (post-moteur). Rincez-les à l'eau claire uniquement et laissez-les sécher à l'air libre pendant au moins 24 heures avant de les réinstaller. Ne les mettez jamais au sèche-linge."
+        },
+        {
+          "question": "Pourquoi ma brosse rouleau ne tourne-t-elle plus sur mon IZ400UK ?",
+          "answer": "Vérifiez que la brosse n'est pas obstruée par des cheveux ou des débris. Éteignez l'appareil, retirez la buse et nettoyez soigneusement le rouleau. Si le problème persiste après nettoyage et vérification des connexions, la brosse pourrait être endommagée et nécessiter un remplacement."
+        },
+        {
+          "question": "Quand faut-il remplacer la cartouche anti-odeur du Shark Stratos ?",
+          "answer": "La cartouche anti-odeur doit être remplacée tous les 3 à 6 mois, ou lorsque le voyant de la cartouche s'allume ou que vous remarquez une diminution de l'efficacité de neutralisation des odeurs, notamment d'animaux domestiques."
+        }
+      ]
+    },
+    {
+      "slug": "tineco-floor-one-s7-combo-fw210200eu-entretien",
+      "brand": "Tineco",
+      "model": "Floor One S7 Combo (FW210200EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide complet pour l'entretien du Tineco Floor One S7 Combo FW210200EU. Remplacement des brosses, filtres HEPA et solution de nettoyage Tineco. Optimisez votre appareil.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz son contenu, rincez-le à l'eau claire et remettez-le en place correctement. Nettoyez également le filtre solide à l'intérieur du réservoir."
+        },
+        {
+          "code": "Voyant filtre HEPA encrassé",
+          "meaning": "Le filtre HEPA est obstrué par la poussière et nécessite un nettoyage ou un remplacement.",
+          "solution": "Retirez le filtre HEPA, rincez-le à l'eau claire et laissez-le sécher complètement à l'air libre pendant 24 heures. Si le voyant persiste ou si le filtre est trop usé, remplacez-le par un neuf."
+        },
+        {
+          "code": "Voyant brosse obstruée",
+          "meaning": "Le rouleau brosse est bloqué par des cheveux ou des débris, empêchant sa rotation normale.",
+          "solution": "Éteignez l'appareil, retirez le couvercle de la brosse et dégagez manuellement tout obstacle du rouleau brosse et de la zone de nettoyage. Assurez-vous que la brosse tourne librement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse bi-matière (pour sols durs)",
+          "part_number": "FW210300-BRUSH",
+          "frequency": "Tous les 3 à 6 mois ou si usée",
+          "why_replace": "Perte d'efficacité de nettoyage, traces au sol, bruits anormaux ou odeurs persistantes.",
+          "search_keywords": "Tineco S7 Combo rouleau brosse FW210300-BRUSH, brosse Floor One S7 Combo",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA",
+          "part_number": "FW210300-FILTER",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussière fine, mauvaises odeurs.",
+          "search_keywords": "Tineco S7 Combo filtre HEPA FW210300-FILTER, filtre Floor One S7 Combo",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Solution de nettoyage Tineco (3-en-1)",
+          "part_number": "Tineco 3-in-1 Cleaning Solution",
+          "frequency": "Selon utilisation",
+          "why_replace": "Nettoyage moins efficace, traces, absence de parfum frais ou accumulation de saleté.",
+          "search_keywords": "Tineco S7 Combo solution nettoyage, détergent Tineco Floor One 3-en-1",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+solution+nettoyage%2C+d%C3%A9tergent+Tineco+Floor+One+3-en-1&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre à mailles (pré-filtre)",
+          "part_number": "FW210300-MESHFILTER",
+          "frequency": "Tous les 3 mois ou si endommagé",
+          "why_replace": "Obstruction du flux d'air, diminution de la puissance d'aspiration, risque de surcharge du filtre HEPA.",
+          "search_keywords": "Tineco S7 Combo filtre mailles FW210300-MESHFILTER, pré-filtre Floor One S7 Combo",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Tineco+S7+Combo+filtre+mailles+FW210300-MESHFILTER%2C+pr%C3%A9-filtre+Floor+One+S7+Combo&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment vider et nettoyer le réservoir d'eau sale du Tineco S7 Combo ?",
+          "answer": "Retirez le réservoir d'eau sale de l'appareil. Ouvrez le couvercle, videz l'eau sale et jetez les débris solides. Rincez le réservoir et le couvercle à l'eau claire. Laissez sécher à l'air libre avant de le remettre en place."
+        },
+        {
+          "question": "Mon Tineco S7 Combo laisse des traces, que faire ?",
+          "answer": "Vérifiez que le rouleau brosse est propre et en bon état. Assurez-vous que le réservoir d'eau sale n'est pas plein et que les filtres sont propres. Utilisez la solution de nettoyage Tineco recommandée et ne surchargez pas l'appareil en eau ou détergent."
+        },
+        {
+          "question": "À quelle fréquence dois-je remplacer le filtre HEPA du Tineco S7 Combo ?",
+          "answer": "Il est recommandé de remplacer le filtre HEPA tous les 3 à 6 mois, en fonction de votre fréquence d'utilisation et de la propreté de votre environnement. Un nettoyage régulier prolongera sa durée de vie, mais le remplacement est essentiel pour maintenir les performances d'aspiration."
         }
       ]
     }
