@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

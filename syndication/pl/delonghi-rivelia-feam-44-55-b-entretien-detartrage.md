@@ -2,7 +2,7 @@
 title: "De'Longhi Rivelia (FEAM 44.55.B): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla De'Longhi Rivelia (FEAM 44.55.B)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

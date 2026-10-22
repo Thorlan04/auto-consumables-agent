@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): 耗材配件、滤网更换与故障代码指南"
 description: "Dyson V15s Detect Submarine (SV47) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

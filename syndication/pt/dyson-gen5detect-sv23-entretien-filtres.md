@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

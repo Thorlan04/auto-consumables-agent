@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Philips Série 3300 LatteGo (EP3347/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

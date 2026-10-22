@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dyson V15s Detect Submarine (SV47)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

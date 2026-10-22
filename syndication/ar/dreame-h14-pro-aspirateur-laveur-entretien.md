@@ -2,7 +2,7 @@
 title: "Dreame H14 Pro: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dreame H14 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h14-pro-aspirateur-laveur-entretien.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

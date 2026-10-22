@@ -2,7 +2,7 @@
 title: "Tineco Floor One Switch S7 (FW210100EU): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Tineco Floor One Switch S7 (FW210100EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-switch-s7-fw210100eu-entretien-consommables.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

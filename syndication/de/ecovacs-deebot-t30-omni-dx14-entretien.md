@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T30 Omni (DX14): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ecovacs Deebot T30 Omni (DX14)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-t30-omni-dx14-entretien.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

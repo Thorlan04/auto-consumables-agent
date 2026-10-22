@@ -2,7 +2,7 @@
 title: "Levoit Core 400S Smart True HEPA: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Levoit Core 400S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
-published_at: "2026-10-21"
+published_at: "2026-10-22"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
