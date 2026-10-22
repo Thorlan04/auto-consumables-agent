@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-10-22T04:03:55.934414+00:00",
+  "retrieved_at": "2026-10-22T11:29:11.620126+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "facom",
+      "model": "atp2x125vepb",
+      "category": "outils à main",
+      "publication_date": "2026-10-22T10:28:51+00:00",
+      "reason": "54 tournevis facom atp2x125 portent une fiche d’emballage incorrecte, qui indique à tort qu’il s’agit de tournevis facom atp2x125vepb isolés 1000v, pouvant être utilisés en toute sécurité sur ou à proximité de composants électrique.",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23911/interne",
+      "safe_replacement_search": "outils à main facom certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=outils+%C3%A0+main+facom+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "sterwins",
       "model": "tronçonneuse thermique  sterwins pcs2-45es.4  – 45cm",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23358/interne",
       "safe_replacement_search": "appareils électriques, électroménager la sommelière certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+la+sommeli%C3%A8re+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "kosilum",
-      "model": "référence 601849",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-08-25T14:39:44+00:00",
-      "reason": "l’isolation et le maintien du câble d’alimentation sont insuffisants.",
-      "risks": "choc électrique",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23315/interne",
-      "safe_replacement_search": "appareils électriques, électroménager kosilum certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+kosilum+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }

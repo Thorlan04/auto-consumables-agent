@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-22
-> Total appareils répertoriés : 31
+> Total appareils répertoriés : 33
 
 ---
 
@@ -1258,5 +1258,86 @@
   **R :** Cela peut indiquer un entartrage, un encrassement du groupe de percolation ou une mouture de café trop fine. Lancez un programme de nettoyage et de détartrage. Si le problème persiste, ajustez la finesse de la mouture.
 - **Q : Comment nettoyer le système de lait de la Siemens EQ.900 ?**
   **R :** Après chaque préparation lactée, rincez le système de lait en suivant les instructions affichées. Pour un nettoyage en profondeur, démontez les composants du système de lait (tuyau, buse) et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle (si compatible).
+
+---
+
+## Narwal Freo X Ultra (FRXU01)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/narwal-freo-x-ultra-frxu01-entretien.html
+- **Résumé d'Entretien :** Maximisez la durée de vie de votre robot aspirateur laveur Narwal Freo X Ultra (FRXU01). Trouvez les consommables, filtres et solutions aux codes erreurs.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Bac à poussière plein" | Le sac à poussière est saturé ou le conduit est obstrué. | Retirez le sac à poussière du bac collecteur et remplacez-le par un nouveau. Vérifiez qu'aucun débris ne bloque l'entrée du conduit. |
+| Alerte "Réservoir d'eau sale plein" | Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé. | Retirez le réservoir d'eau sale de la station et videz-le. Rincez-le si nécessaire et replacez-le correctement. |
+| Voyant "Brosses rotatives bloquées" | Des cheveux ou des débris se sont enroulés autour des brosses de nettoyage, empêchant leur rotation. | Retirez les deux brosses rotatives de la base du robot. Nettoyez-les méticuleusement en coupant les cheveux enroulés et retirez tout obstacle. Replacez-les fermement. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Sac à poussière antibactérien (3L) | Réf. constructeur adaptable (Narwal Freo X Ultra Dust Bag) | Tous les 30 à 60 jours (selon l'usage) | Perte d'efficacité d'aspiration, mauvaises odeurs, risque de blocage du conduit d'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable (Narwal Freo X Ultra HEPA Filter) | Tous les 3 à 6 mois | Réduction de la filtration des allergènes et particules fines, risque de colmatage et de surchauffe moteur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21) |
+| Brosse latérale (x2) | Réf. constructeur adaptable (Narwal Freo X Ultra Side Brush) | Tous les 3 à 6 mois | Usure des poils réduisant l'efficacité de balayage des bords et des coins. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21) |
+| Tampons de nettoyage rotatifs (x2) | Réf. constructeur adaptable (Narwal Freo X Ultra Mopping Pads) | Tous les 1 à 3 mois (selon l'usage) | Efficacité de nettoyage réduite, traces sur le sol, accumulation de saletés et bactéries. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment réinitialiser le voyant "Bac à poussière plein" après avoir vidé le sac ?**
+  **R :** Le Narwal Freo X Ultra détecte automatiquement le remplacement du sac. Si le voyant persiste, assurez-vous que le nouveau sac est correctement inséré et que le couvercle du bac est bien fermé. Redémarrez le robot si nécessaire.
+- **Q : Mon robot laisse des traces d'eau sur le sol, que faire ?**
+  **R :** Vérifiez l'état des tampons de nettoyage rotatifs et remplacez-les s'ils sont usés ou très sales. Assurez-vous d'utiliser de l'eau propre dans le réservoir et de nettoyer régulièrement les buses d'eau de la station.
+- **Q : Le robot ne se connecte plus à mon application, quelle est la solution ?**
+  **R :** Assurez-vous que votre routeur Wi-Fi est allumé et que le robot est à portée. Tentez de redémarrer votre routeur et le robot. Si le problème persiste, vous devrez peut-être réinitialiser la connexion Wi-Fi du robot via l'application et le coupler à nouveau.
+
+---
+
+## Ninja Foodi FlexDrawer AF500EU
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-flexdrawer-af500eu-entretien.html
+- **Résumé d'Entretien :** Découvrez l'entretien essentiel pour votre friteuse sans huile Ninja Foodi FlexDrawer AF500EU. Guide des accessoires et nettoyage pour une performance optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Alerte "Paniers sales" | Les paniers de cuisson nécessitent un nettoyage approfondi pour éviter l'accumulation de résidus. | Laissez les paniers refroidir. Retirez-les et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle. Assurez-vous qu'ils soient complètement secs avant de les remettre. |
+| Erreur E1 | Problème de surchauffe ou de capteur de température. | Débranchez l'appareil, laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez qu'il n'y a pas d'obstruction au niveau des évents d'aération. Rebranchez et réessayez. |
+| Alerte "Tiroir mal fermé" | Le tiroir de cuisson n'est pas correctement inséré ou fermé, empêchant le démarrage de la cuisson. | Poussez fermement le tiroir jusqu'à ce qu'il s'enclenche. Assurez-vous qu'aucun objet ne l'empêche de se fermer complètement. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Plaque de cuisson antiadhésive (crisper plate) | Réf. constructeur adaptable (Ninja AF500EU Crisper Plate) | Remplacement si revêtement endommagé (tous les 1-2 ans si usage intensif) | Aliment qui colle, nettoyage difficile, performance de cuisson altérée. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21) |
+| Diviseur de tiroir FlexDrawer | Réf. constructeur adaptable (Ninja AF500EU Divider) | Remplacement si cassé ou déformé (selon l'usage) | Incapacité à séparer les zones de cuisson, cuisson inégale. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21) |
+| Paniers de cuisson antiadhésifs (ensemble) | Réf. constructeur adaptable (Ninja AF500EU Baskets) | Remplacement si revêtement endommagé ou usure excessive. | Aliment qui colle, nettoyage difficile, perte de performance. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les paniers de ma Ninja Foodi FlexDrawer AF500EU ?**
+  **R :** Laissez les paniers refroidir complètement. Lavez-les à la main avec de l'eau chaude savonneuse et une éponge non abrasive, ou placez-les au lave-vaisselle. Évitez les ustensiles métalliques pour protéger le revêtement antiadhésif.
+- **Q : Mes aliments ne cuisent pas uniformément, quelle en est la cause ?**
+  **R :** Assurez-vous de ne pas surcharger les paniers. Remuez les aliments à mi-cuisson pour une meilleure circulation de l'air chaud. Vérifiez également que les évents d'aération de l'appareil ne sont pas obstrués.
+- **Q : Que faire si ma friteuse émet une odeur de plastique neuf ?**
+  **R :** C'est normal lors des premières utilisations. Pour l'atténuer, faites fonctionner l'appareil à vide à haute température pendant environ 15-20 minutes avant la première cuisson, dans une pièce bien ventilée. L'odeur disparaîtra progressivement.
 
 ---

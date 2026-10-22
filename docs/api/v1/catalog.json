@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-22T04:03:55.934414+00:00",
-  "total_appliances": 31,
+  "generated_at": "2026-10-22T11:29:11.620126+00:00",
+  "total_appliances": 33,
   "supported_languages": [
     "fr",
     "en",
@@ -5160,6 +5160,344 @@
         {
           "question": "Comment nettoyer le système de lait de la Siemens EQ.900 ?",
           "answer": "Après chaque préparation lactée, rincez le système de lait en suivant les instructions affichées. Pour un nettoyage en profondeur, démontez les composants du système de lait (tuyau, buse) et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle (si compatible)."
+        }
+      ]
+    },
+    {
+      "slug": "narwal-freo-x-ultra-frxu01-entretien",
+      "brand": "Narwal",
+      "model": "Freo X Ultra (FRXU01)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Maximisez la durée de vie de votre robot aspirateur laveur Narwal Freo X Ultra (FRXU01). Trouvez les consommables, filtres et solutions aux codes erreurs.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/narwal-freo-x-ultra-frxu01-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/narwal-freo-x-ultra-frxu01-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Bac à poussière plein\"",
+          "meaning": "Le sac à poussière est saturé ou le conduit est obstrué.",
+          "solution": "Retirez le sac à poussière du bac collecteur et remplacez-le par un nouveau. Vérifiez qu'aucun débris ne bloque l'entrée du conduit."
+        },
+        {
+          "code": "Alerte \"Réservoir d'eau sale plein\"",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station et videz-le. Rincez-le si nécessaire et replacez-le correctement."
+        },
+        {
+          "code": "Voyant \"Brosses rotatives bloquées\"",
+          "meaning": "Des cheveux ou des débris se sont enroulés autour des brosses de nettoyage, empêchant leur rotation.",
+          "solution": "Retirez les deux brosses rotatives de la base du robot. Nettoyez-les méticuleusement en coupant les cheveux enroulés et retirez tout obstacle. Replacez-les fermement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Sac à poussière antibactérien (3L)",
+          "part_number": "Réf. constructeur adaptable (Narwal Freo X Ultra Dust Bag)",
+          "frequency": "Tous les 30 à 60 jours (selon l'usage)",
+          "why_replace": "Perte d'efficacité d'aspiration, mauvaises odeurs, risque de blocage du conduit d'air.",
+          "search_keywords": "Narwal Freo X Ultra sac poussière, FRXU01 sac aspirateur, sac Narwal Freo X Ultra, accessoires Narwal Freo X Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+sac+poussi%C3%A8re%2C+FRXU01+sac+aspirateur%2C+sac+Narwal+Freo+X+Ultra%2C+accessoires+Narwal+Freo+X+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable (Narwal Freo X Ultra HEPA Filter)",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Réduction de la filtration des allergènes et particules fines, risque de colmatage et de surchauffe moteur.",
+          "search_keywords": "Narwal Freo X Ultra filtre HEPA, filtre FRXU01, filtre Narwal Freo X Ultra, filtre aspirateur Narwal",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+filtre+HEPA%2C+filtre+FRXU01%2C+filtre+Narwal+Freo+X+Ultra%2C+filtre+aspirateur+Narwal&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse latérale (x2)",
+          "part_number": "Réf. constructeur adaptable (Narwal Freo X Ultra Side Brush)",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Usure des poils réduisant l'efficacité de balayage des bords et des coins.",
+          "search_keywords": "Narwal Freo X Ultra brosse latérale, brosse Narwal FRXU01, brosses latérales Narwal Freo X Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+brosse+lat%C3%A9rale%2C+brosse+Narwal+FRXU01%2C+brosses+lat%C3%A9rales+Narwal+Freo+X+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Tampons de nettoyage rotatifs (x2)",
+          "part_number": "Réf. constructeur adaptable (Narwal Freo X Ultra Mopping Pads)",
+          "frequency": "Tous les 1 à 3 mois (selon l'usage)",
+          "why_replace": "Efficacité de nettoyage réduite, traces sur le sol, accumulation de saletés et bactéries.",
+          "search_keywords": "Narwal Freo X Ultra tampons nettoyage, patins laveurs Narwal FRXU01, lingettes Narwal Freo X Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Narwal+Freo+X+Ultra+tampons+nettoyage%2C+patins+laveurs+Narwal+FRXU01%2C+lingettes+Narwal+Freo+X+Ultra&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le voyant \"Bac à poussière plein\" après avoir vidé le sac ?",
+          "answer": "Le Narwal Freo X Ultra détecte automatiquement le remplacement du sac. Si le voyant persiste, assurez-vous que le nouveau sac est correctement inséré et que le couvercle du bac est bien fermé. Redémarrez le robot si nécessaire."
+        },
+        {
+          "question": "Mon robot laisse des traces d'eau sur le sol, que faire ?",
+          "answer": "Vérifiez l'état des tampons de nettoyage rotatifs et remplacez-les s'ils sont usés ou très sales. Assurez-vous d'utiliser de l'eau propre dans le réservoir et de nettoyer régulièrement les buses d'eau de la station."
+        },
+        {
+          "question": "Le robot ne se connecte plus à mon application, quelle est la solution ?",
+          "answer": "Assurez-vous que votre routeur Wi-Fi est allumé et que le robot est à portée. Tentez de redémarrer votre routeur et le robot. Si le problème persiste, vous devrez peut-être réinitialiser la connexion Wi-Fi du robot via l'application et le coupler à nouveau."
+        }
+      ]
+    },
+    {
+      "slug": "ninja-foodi-flexdrawer-af500eu-entretien",
+      "brand": "Ninja",
+      "model": "Foodi FlexDrawer AF500EU",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Découvrez l'entretien essentiel pour votre friteuse sans huile Ninja Foodi FlexDrawer AF500EU. Guide des accessoires et nettoyage pour une performance optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-flexdrawer-af500eu-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Alerte \"Paniers sales\"",
+          "meaning": "Les paniers de cuisson nécessitent un nettoyage approfondi pour éviter l'accumulation de résidus.",
+          "solution": "Laissez les paniers refroidir. Retirez-les et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle. Assurez-vous qu'ils soient complètement secs avant de les remettre."
+        },
+        {
+          "code": "Erreur E1",
+          "meaning": "Problème de surchauffe ou de capteur de température.",
+          "solution": "Débranchez l'appareil, laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez qu'il n'y a pas d'obstruction au niveau des évents d'aération. Rebranchez et réessayez."
+        },
+        {
+          "code": "Alerte \"Tiroir mal fermé\"",
+          "meaning": "Le tiroir de cuisson n'est pas correctement inséré ou fermé, empêchant le démarrage de la cuisson.",
+          "solution": "Poussez fermement le tiroir jusqu'à ce qu'il s'enclenche. Assurez-vous qu'aucun objet ne l'empêche de se fermer complètement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Plaque de cuisson antiadhésive (crisper plate)",
+          "part_number": "Réf. constructeur adaptable (Ninja AF500EU Crisper Plate)",
+          "frequency": "Remplacement si revêtement endommagé (tous les 1-2 ans si usage intensif)",
+          "why_replace": "Aliment qui colle, nettoyage difficile, performance de cuisson altérée.",
+          "search_keywords": "Ninja Foodi FlexDrawer AF500EU plaque cuisson, plaque crisper AF500EU, accessoire Ninja AF500EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Diviseur de tiroir FlexDrawer",
+          "part_number": "Réf. constructeur adaptable (Ninja AF500EU Divider)",
+          "frequency": "Remplacement si cassé ou déformé (selon l'usage)",
+          "why_replace": "Incapacité à séparer les zones de cuisson, cuisson inégale.",
+          "search_keywords": "Ninja Foodi FlexDrawer AF500EU diviseur, séparateur AF500EU, accessoire Ninja AF500EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Paniers de cuisson antiadhésifs (ensemble)",
+          "part_number": "Réf. constructeur adaptable (Ninja AF500EU Baskets)",
+          "frequency": "Remplacement si revêtement endommagé ou usure excessive.",
+          "why_replace": "Aliment qui colle, nettoyage difficile, perte de performance.",
+          "search_keywords": "Ninja Foodi FlexDrawer AF500EU paniers, tiroirs AF500EU, bacs Ninja AF500EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Ninja+Foodi+FlexDrawer+AF500EU+paniers%2C+tiroirs+AF500EU%2C+bacs+Ninja+AF500EU&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les paniers de ma Ninja Foodi FlexDrawer AF500EU ?",
+          "answer": "Laissez les paniers refroidir complètement. Lavez-les à la main avec de l'eau chaude savonneuse et une éponge non abrasive, ou placez-les au lave-vaisselle. Évitez les ustensiles métalliques pour protéger le revêtement antiadhésif."
+        },
+        {
+          "question": "Mes aliments ne cuisent pas uniformément, quelle en est la cause ?",
+          "answer": "Assurez-vous de ne pas surcharger les paniers. Remuez les aliments à mi-cuisson pour une meilleure circulation de l'air chaud. Vérifiez également que les évents d'aération de l'appareil ne sont pas obstrués."
+        },
+        {
+          "question": "Que faire si ma friteuse émet une odeur de plastique neuf ?",
+          "answer": "C'est normal lors des premières utilisations. Pour l'atténuer, faites fonctionner l'appareil à vide à haute température pendant environ 15-20 minutes avant la première cuisson, dans une pièce bien ventilée. L'odeur disparaîtra progressivement."
         }
       ]
     }
