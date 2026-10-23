@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-23T16:47:54.301032+00:00",
+  "generated_at": "2026-10-23T21:13:07.216428+00:00",
   "total_appliances": 39,
   "supported_languages": [
     "fr",
@@ -6263,7 +6263,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/xiaomi-robot-vacuum-x20-plus-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Xiaomi-Robot-Vacuum-X20---Pièces--Entretien-10-23",
       "common_codes": [
         {
           "code": "Erreur 1 (Brosse principale bloquée)",
@@ -6448,7 +6448,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-serie-7000-lattego-ep7446-70-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-Série-7000-LatteGo-EP744670---Pièces--Entretien-10-23",
       "common_codes": [
         {
           "code": "Voyant \"Détartrage\" (icone goutte d'eau clignotante)",
