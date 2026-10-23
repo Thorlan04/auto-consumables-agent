@@ -38,8 +38,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 
 ---
 
-## 📋 Répertoire des Appareils Traités (35 Modèles Référencés)
-*Dernière synchronisation automatique : 2026-10-22 via GitHub Actions.*
+## 📋 Répertoire des Appareils Traités (37 Modèles Référencés)
+*Dernière synchronisation automatique : 2026-10-23 via GitHub Actions.*
 
 | Marque & Modèle Exact | Catégorie | Fiche Web Interactive | Miroir Haute Autorité (Telegra.ph) | Pièces Clés & Liens Directs Amazon |
 |---|---|---|---|---|
@@ -78,6 +78,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 | **Ninja Foodi FlexDrawer AF500EU** | Friteuses sans Huile (Air Fryer) | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Ninja-Foodi-FlexDrawer-AF500EU---Pièces--Entretien-10-22) | • [Plaque de cuisson antiadhésive (crisper plate)](https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+plaque+cuisson%2C+plaque+crisper+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21)<br>• [Diviseur de tiroir FlexDrawer](https://www.amazon.fr/s?k=Ninja+Foodi+FlexDrawer+AF500EU+diviseur%2C+s%C3%A9parateur+AF500EU%2C+accessoire+Ninja+AF500EU&tag=autoconsom-21) |
 | **Shark Stratos Cordless Pet Pro (IZ400UK)** | Aspirateurs Balais | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Shark-Stratos-Cordless-Pet-Pro-IZ400UK---Pièces--Entretien-10-22) | • [Rouleau brosse Anti Hair Wrap Plus](https://www.amazon.fr/s?k=Shark+IZ400UK+rouleau+brosse+XZFLZ400UK%2C+brosse+Anti+Hair+Wrap+Plus+Shark+Stratos&tag=autoconsom-21)<br>• [Filtre HEPA post-moteur](https://www.amazon.fr/s?k=Shark+IZ400UK+filtre+HEPA+XHF400%2C+filtre+post-moteur+Shark+Stratos&tag=autoconsom-21) |
 | **Tineco Floor One S7 Combo (FW210200EU)** | Aspirateurs Laveurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Tineco-Floor-One-S7-Combo-FW210200EU---Pièces--Entretien-10-22) | • [Rouleau brosse bi-matière (pour sols durs)](https://www.amazon.fr/s?k=Tineco+S7+Combo+rouleau+brosse+FW210300-BRUSH%2C+brosse+Floor+One+S7+Combo&tag=autoconsom-21)<br>• [Filtre HEPA](https://www.amazon.fr/s?k=Tineco+S7+Combo+filtre+HEPA+FW210300-FILTER%2C+filtre+Floor+One+S7+Combo&tag=autoconsom-21) |
+| **Ecovacs Deebot X2 Combo (DX2C)** | Robots Aspirateurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Ecovacs-Deebot-X2-Combo-DX2C---Pièces--Entretien-10-23) | • [Sacs à poussière pour station d'auto-vidage](https://www.amazon.fr/s?k=sacs+poussi%C3%A8re+Ecovacs+Deebot+X2+Combo+DX2C%2C+sacs+Deebot+X2+Omni%2C+kit+accessoires+Ecovacs+X2&tag=autoconsom-21)<br>• [Brosses latérales (paire)](https://www.amazon.fr/s?k=brosses+lat%C3%A9rales+Ecovacs+Deebot+X2+Combo+DX2C%2C+brosses+Deebot+X2+Omni%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21) |
+| **Tineco Floor One S6 (FW200200EU)** | Aspirateurs Laveurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s6-fw200200eu-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Tineco-Floor-One-S6-FW200200EU---Pièces--Entretien-10-23) | • [Rouleau brosse microfibre bi-matière](https://www.amazon.fr/s?k=rouleau+brosse+Tineco+Floor+One+S6+FW200200EU%2C+brosse+Tineco+S6%2C+FW010100EU+brosse&tag=autoconsom-21)<br>• [Filtre HEPA](https://www.amazon.fr/s?k=filtre+HEPA+Tineco+Floor+One+S6+FW200200EU%2C+filtre+Tineco+S6%2C+filtre+aspirateur+laveur+Tineco&tag=autoconsom-21) |
 
 ---
 

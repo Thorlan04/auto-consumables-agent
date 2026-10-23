@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

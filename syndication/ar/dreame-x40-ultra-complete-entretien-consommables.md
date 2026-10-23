@@ -2,7 +2,7 @@
 title: "Dreame X40 Ultra Complete: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dreame X40 Ultra Complete."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

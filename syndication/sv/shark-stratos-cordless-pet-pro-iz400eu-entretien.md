@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400EU): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Shark Stratos Cordless Pet Pro (IZ400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

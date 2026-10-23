@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-22T21:22:05.994478+00:00",
-  "total_guides": 35,
+  "last_updated": "2026-10-23T04:08:17.234729+00:00",
+  "total_guides": 37,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -2400,6 +2400,154 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S7-Combo-FW210200EU---Pièces--Entretien-10-22"
+    },
+    {
+      "slug": "ecovacs-deebot-x2-combo-dx2c-entretien",
+      "title": "Entretien Ecovacs Deebot X2 Combo (DX2C) : Consommables & Codes Erreurs",
+      "brand": "Ecovacs",
+      "model": "Deebot X2 Combo (DX2C)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet d'entretien pour votre Ecovacs Deebot X2 Combo (DX2C). Découvrez les consommables, leurs références et les solutions aux codes erreurs.",
+      "common_codes": [
+        {
+          "code": "Voyant Sac à poussière plein",
+          "meaning": "Le sac à poussière de la station d'auto-vidage est plein ou mal installé.",
+          "solution": "Retirez le sac à poussière de la station, vérifiez qu'il n'est pas obstrué, puis remplacez-le par un nouveau sac si nécessaire. Assurez-vous qu'il est correctement inséré."
+        },
+        {
+          "code": "Alerte Brosse principale bloquée",
+          "meaning": "La brosse principale est entravée par des cheveux ou des débris, empêchant sa rotation.",
+          "solution": "Retournez le robot, ouvrez le compartiment de la brosse principale. Retirez la brosse et nettoyez-la soigneusement des cheveux et débris. Réinstallez-la correctement."
+        },
+        {
+          "code": "Voyant Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale de la station est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station, videz son contenu et rincez-le à l'eau claire. Réinsérez-le correctement dans la station."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Sacs à poussière pour station d'auto-vidage",
+          "part_number": "Réf. constructeur adaptable (Kit D-DB03-2223)",
+          "frequency": "Tous les 1 à 2 mois (selon usage)",
+          "why_replace": "Perte d'efficacité de l'aspiration, mauvaises odeurs, risque de colmatage du filtre.",
+          "search_keywords": "sacs poussière Ecovacs Deebot X2 Combo DX2C, sacs Deebot X2 Omni, kit accessoires Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosses latérales (paire)",
+          "part_number": "Réf. constructeur adaptable (Kit D-DB03-2223)",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Brosses usées ou déformées, diminution de l'efficacité de balayage des bords et des coins.",
+          "search_keywords": "brosses latérales Ecovacs Deebot X2 Combo DX2C, brosses Deebot X2 Omni, pièces détachées Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA et mousse (pour robot)",
+          "part_number": "Réf. constructeur adaptable (Kit D-DB03-2223)",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, mauvaise filtration des allergènes et poussières fines, mauvaises odeurs.",
+          "search_keywords": "filtre HEPA Ecovacs Deebot X2 Combo DX2C, filtre Deebot X2 Omni, filtre robot Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Tampons de nettoyage (paire)",
+          "part_number": "Réf. constructeur adaptable (Kit D-DB03-2223)",
+          "frequency": "Tous les 1 à 3 mois (lavables, à remplacer si usés)",
+          "why_replace": "Patins usés ou sales, traces sur le sol, efficacité de lavage réduite.",
+          "search_keywords": "tampons nettoyage Ecovacs Deebot X2 Combo DX2C, patins lavables Deebot X2 Omni, lingettes Ecovacs X2",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les brosses latérales de mon Deebot X2 Combo ?",
+          "answer": "Retirez les brosses latérales en les tirant doucement. Enlevez les cheveux et débris accumulés avec une petite brosse ou vos doigts. Si elles sont très sales, vous pouvez les rincer à l'eau claire et les laisser sécher complètement avant de les remettre en place."
+        },
+        {
+          "question": "Mon robot n'aspire plus correctement, que faire ?",
+          "answer": "Vérifiez le niveau du sac à poussière de la station et remplacez-le s'il est plein. Nettoyez la brosse principale et les brosses latérales des cheveux et débris. Assurez-vous que le filtre HEPA n'est pas colmaté et remplacez-le si nécessaire."
+        },
+        {
+          "question": "Le robot laisse des traces d'eau sur le sol, comment y remédier ?",
+          "answer": "Assurez-vous que les tampons de nettoyage sont propres et correctement installés. Vérifiez que le réservoir d'eau propre contient suffisamment d'eau et que le réservoir d'eau sale n'est pas plein. Vous pouvez également ajuster le niveau d'humidité des patins via l'application."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Ecovacs-Deebot-X2-Combo-DX2C---Pièces--Entretien-10-23"
+    },
+    {
+      "slug": "tineco-floor-one-s6-fw200200eu-entretien",
+      "title": "Entretien Tineco Floor One S6 (FW200200EU) : Consommables & Codes Erreurs",
+      "brand": "Tineco",
+      "model": "Floor One S6 (FW200200EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide d'entretien complet pour votre Tineco Floor One S6 (FW200200EU). Trouvez les rouleaux, filtres (FW010100EU) et solutions aux codes erreurs.",
+      "common_codes": [
+        {
+          "code": "Voyant DWT (Dirty Water Tank) plein",
+          "meaning": "Le réservoir d'eau sale est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le et rincez-le. Réinstallez-le correctement. Le voyant s'éteindra automatiquement."
+        },
+        {
+          "code": "Alerte \"Brosse bloquée\"",
+          "meaning": "Le rouleau brosse est entravé par des cheveux, des débris ou ne tourne pas correctement.",
+          "solution": "Éteignez l'appareil, retirez le rouleau brosse et nettoyez-le minutieusement. Vérifiez que rien n'obstrue le conduit d'aspiration. Réinstallez le rouleau."
+        },
+        {
+          "code": "Voyant d'eau propre vide",
+          "meaning": "Le réservoir d'eau propre est vide et doit être rempli.",
+          "solution": "Remplissez le réservoir d'eau propre avec de l'eau froide du robinet et une solution de nettoyage Tineco si désiré. Réinstallez-le."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse microfibre bi-matière",
+          "part_number": "FW010100EU",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Brosses usées, mauvaises odeurs, nettoyage inefficace, traces sur le sol.",
+          "search_keywords": "rouleau brosse Tineco Floor One S6 FW200200EU, brosse Tineco S6, FW010100EU brosse",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA",
+          "part_number": "FW010100EU-FILTER",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Diminution de l'aspiration, mauvaises odeurs, rejet de poussières fines.",
+          "search_keywords": "filtre HEPA Tineco Floor One S6 FW200200EU, filtre Tineco S6, filtre aspirateur laveur Tineco",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Tineco Multi-Surface",
+          "part_number": "FW100000EU",
+          "frequency": "Selon usage (à chaque remplissage du réservoir d'eau propre)",
+          "why_replace": "Nettoyage moins efficace, absence de parfum frais, accumulation de saleté sans détergent adapté.",
+          "search_keywords": "solution nettoyage Tineco Floor One S6 FW200200EU, détergent Tineco Multi-Surface, FW100000EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Désodorisant Tineco (Odor Remover)",
+          "part_number": "FW010300EU",
+          "frequency": "Selon besoin (à ajouter à l'eau propre ou lors du nettoyage)",
+          "why_replace": "Persistance des mauvaises odeurs après le nettoyage.",
+          "search_keywords": "désodorisant Tineco Floor One S6 FW200200EU, Tineco Odor Remover, FW010300EU",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment puis-je réinitialiser le voyant du filtre HEPA sur mon Tineco S6 ?",
+          "answer": "Après avoir remplacé le filtre HEPA, maintenez le bouton de réinitialisation du filtre (souvent situé à côté du voyant du filtre) enfoncé pendant environ 3 secondes jusqu'à ce que le voyant s'éteigne."
+        },
+        {
+          "question": "Mon Tineco S6 ne s'auto-nettoie pas efficacement, que dois-je vérifier ?",
+          "answer": "Assurez-vous que le réservoir d'eau propre contient suffisamment d'eau et que le réservoir d'eau sale est vide. Vérifiez que le rouleau brosse n'est pas trop encrassé ou usé et qu'il est correctement installé. Un nettoyage manuel du rouleau et du conduit peut être nécessaire."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quelle solution de nettoyage avec mon Tineco Floor One S6 ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement la solution de nettoyage Tineco Multi-Surface (référence FW100000EU) ou un désodorisant Tineco. L'utilisation d'autres produits peut endommager l'appareil, provoquer un excès de mousse ou laisser des résidus."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S6-FW200200EU---Pièces--Entretien-10-23"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

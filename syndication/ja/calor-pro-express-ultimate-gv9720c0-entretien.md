@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: 交換部品・フィルター・エラーコード解説"
 description: "Calor Pro Express Ultimate GV9720C0 の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

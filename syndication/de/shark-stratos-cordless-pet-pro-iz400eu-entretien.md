@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400EU): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Shark Stratos Cordless Pet Pro (IZ400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Dyson V15s Detect Submarine (SV47)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

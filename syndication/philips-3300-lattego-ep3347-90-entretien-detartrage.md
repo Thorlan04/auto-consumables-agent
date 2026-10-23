@@ -2,7 +2,7 @@
 title: "Entretien Philips Série 3300 LatteGo (EP3347/90) : Détartrage & Consommables"
 description: "Guide d'entretien pour votre machine à café Philips 3300 LatteGo (EP3347/90). Découvrez les filtres CA6903/10, les kits de détartrage CA6700/10 et solutions aux alertes."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

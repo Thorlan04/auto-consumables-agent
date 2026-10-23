@@ -38,6 +38,7 @@
 - [Dreame H14 Pro](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-h14-pro-aspirateur-laveur-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tineco Floor One S7 Pro (FW210300EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-pro-fw210300eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tineco Floor One S7 Combo (FW210200EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Tineco Floor One S6 (FW200200EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s6-fw200200eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Centrales Vapeur
 - [Calor Pro Express Ultimate GV9720C0](https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -73,6 +74,7 @@
 - [Ecovacs Deebot T30 Omni (DX14)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t30-omni-dx14-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Dreame L20 Ultra Complete (RLS7LADC)](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Narwal Freo X Ultra (FRXU01)](https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Ecovacs Deebot X2 Combo (DX2C)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

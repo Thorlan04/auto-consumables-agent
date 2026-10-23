@@ -2,7 +2,7 @@
 title: "Entretien Ninja Foodi FlexDrawer AF500EU : Accessoires et Nettoyage"
 description: "Découvrez l'entretien essentiel pour votre friteuse sans huile Ninja Foodi FlexDrawer AF500EU. Guide des accessoires et nettoyage pour une performance optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

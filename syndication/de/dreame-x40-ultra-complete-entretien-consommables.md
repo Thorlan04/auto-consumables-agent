@@ -2,7 +2,7 @@
 title: "Dreame X40 Ultra Complete: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dreame X40 Ultra Complete."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-22"
+published_at: "2026-10-23"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
