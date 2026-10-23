@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-23
-> Total appareils répertoriés : 37
+> Total appareils répertoriés : 39
 
 ---
 
@@ -1503,5 +1503,87 @@
   **R :** Assurez-vous que le réservoir d'eau propre contient suffisamment d'eau et que le réservoir d'eau sale est vide. Vérifiez que le rouleau brosse n'est pas trop encrassé ou usé et qu'il est correctement installé. Un nettoyage manuel du rouleau et du conduit peut être nécessaire.
 - **Q : Puis-je utiliser n'importe quelle solution de nettoyage avec mon Tineco Floor One S6 ?**
   **R :** Il est fortement recommandé d'utiliser uniquement la solution de nettoyage Tineco Multi-Surface (référence FW100000EU) ou un désodorisant Tineco. L'utilisation d'autres produits peut endommager l'appareil, provoquer un excès de mousse ou laisser des résidus.
+
+---
+
+## Xiaomi Robot Vacuum X20+
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/xiaomi-robot-vacuum-x20-plus-entretien.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien de votre Xiaomi Robot Vacuum X20+. Trouvez les consommables, références et solutions aux codes erreurs courants.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Erreur 1 (Brosse principale bloquée) | La brosse principale est enroulée par des cheveux ou obstruée par des débris. | Retournez le robot, ouvrez le couvercle de la brosse principale, retirez la brosse et nettoyez-la de tout obstacle. Réinsérez-la correctement. |
+| Erreur 5 (Brosse latérale bloquée) | Une brosse latérale est empêchée de tourner par des débris. | Retournez le robot et retirez délicatement les brosses latérales pour les nettoyer. Enlevez tous les cheveux ou fils enroulés autour de l'axe. |
+| Erreur 8 (Réservoir d'eau sale plein ou mal installé) | Le réservoir d'eau sale de la station de vidage est plein ou n'est pas correctement inséré. | Retirez le réservoir d'eau sale de la station, videz-le et rincez-le. Assurez-vous de le remettre en place fermement jusqu'à entendre un clic. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale Xiaomi Robot Vacuum X20+ | Réf. constructeur adaptable (ex: BHR7516EU) | Tous les 6 à 12 mois. | Perte d'efficacité de nettoyage, bruits anormaux, marques sur le sol. | [Amazon.fr ↗](https://www.amazon.fr/s?k=brosse+principale+Xiaomi+Robot+Vacuum+X20%2B+brosse+X20%2B+BHR7516EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=brosse+principale+Xiaomi+Robot+Vacuum+X20%2B+brosse+X20%2B+BHR7516EU&tag=autoconsom-21) |
+| Filtre HEPA Xiaomi Robot Vacuum X20+ | Réf. constructeur adaptable (ex: BHR7517EU) | Tous les 3 à 6 mois. | Réduction de l'aspiration, rejet de poussière fine, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+HEPA+Xiaomi+Robot+Vacuum+X20%2B+filtre+X20%2B+BHR7517EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+HEPA+Xiaomi+Robot+Vacuum+X20%2B+filtre+X20%2B+BHR7517EU&tag=autoconsom-21) |
+| Brosses latérales Xiaomi Robot Vacuum X20+ (paire) | Réf. constructeur adaptable (ex: BHR7518EU) | Tous les 3 à 6 mois. | Usure des poils, efficacité de balayage réduite, accumulation de saleté dans les coins. | [Amazon.fr ↗](https://www.amazon.fr/s?k=brosses+lat%C3%A9rales+Xiaomi+Robot+Vacuum+X20%2B+brosse+lat%C3%A9rale+X20%2B+BHR7518EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=brosses+lat%C3%A9rales+Xiaomi+Robot+Vacuum+X20%2B+brosse+lat%C3%A9rale+X20%2B+BHR7518EU&tag=autoconsom-21) |
+| Sac à poussière pour station Xiaomi Robot Vacuum X20+ | Réf. constructeur adaptable (ex: BHR7519EU) | Tous les 1 à 2 mois (selon l'utilisation). | Capacité de collecte de poussière réduite, odeurs, station de vidage inefficace. | [Amazon.fr ↗](https://www.amazon.fr/s?k=sac+poussi%C3%A8re+Xiaomi+Robot+Vacuum+X20%2B+sac+X20%2B+BHR7519EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=sac+poussi%C3%A8re+Xiaomi+Robot+Vacuum+X20%2B+sac+X20%2B+BHR7519EU&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Mon Xiaomi Robot Vacuum X20+ ne retourne pas à sa station, pourquoi ?**
+  **R :** Vérifiez que la station est branchée et qu'il n'y a pas d'obstacles autour. Nettoyez les capteurs de positionnement sur le robot et la station. Assurez-vous également que la station est placée sur une surface plane contre un mur, sans objets à proximité.
+- **Q : Le robot n'aspire plus correctement, que dois-je vérifier ?**
+  **R :** Vérifiez la brosse principale et les brosses latérales pour des obstructions. Nettoyez ou remplacez le filtre HEPA s'il est encrassé. Videz le bac à poussière du robot et vérifiez s'il y a un sac plein dans la station de vidage automatique.
+- **Q : Les serpillières de mon X20+ ne nettoient pas bien, que faire ?**
+  **R :** Assurez-vous que les serpillières sont propres et correctement installées. Vérifiez que le réservoir d'eau propre est rempli et que la pompe à eau n'est pas obstruée. Si les serpillières sont usées, remplacez-les.
+
+---
+
+## Philips Série 7000 LatteGo (EP7446/70)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-serie-7000-lattego-ep7446-70-entretien.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre Philips Série 7000 LatteGo EP7446/70. Détartrage, filtres, et solutions aux alertes courantes pour un café parfait.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Détartrage" (icone goutte d'eau clignotante) | La machine nécessite un cycle de détartrage pour éliminer le calcaire accumulé. | Suivez les instructions affichées sur l'écran. Utilisez le détartrant Philips/Saeco et lancez le programme de détartrage. Le filtre AquaClean doit être retiré pour le détartrage. |
+| Voyant "Bac à marc plein" | Le bac à marc de café est plein et doit être vidé. | Retirez le bac à marc, videz-le et rincez-le. Réinsérez-le dans la machine pendant qu'elle est allumée pour réinitialiser le compteur. |
+| Voyant "Groupe de percolation mal inséré" | Le groupe de percolation n'est pas correctement en place ou est manquant. | Éteignez la machine, retirez le groupe de percolation, assurez-vous qu'il est propre et sec, puis réinsérez-le fermement jusqu'à ce qu'il s'enclenche en position. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Détartrant Philips Saeco CA6700/10 | CA6700/10 | Tous les 2-3 mois, ou selon l'alerte de la machine et la dureté de l'eau. | Accumulation de calcaire, altération du goût du café, dysfonctionnement de la machine, réduction du débit. | [Amazon.fr ↗](https://www.amazon.fr/s?k=d%C3%A9tartrant+Philips+Saeco+CA6700%2F10+S%C3%A9rie+7000+LatteGo+EP7446%2F70+d%C3%A9tartrage+EP7446%2F70&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=d%C3%A9tartrant+Philips+Saeco+CA6700%2F10+S%C3%A9rie+7000+LatteGo+EP7446%2F70+d%C3%A9tartrage+EP7446%2F70&tag=autoconsom-21) |
+| Filtre à eau Philips AquaClean CA6903/10 | CA6903/10 | Tous les 3 mois ou après 625 tasses (selon l'indicateur de la machine). | Protection contre le calcaire, amélioration de la qualité de l'eau et du goût du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+eau+Philips+AquaClean+CA6903%2F10+S%C3%A9rie+7000+LatteGo+EP7446%2F70+filtre+EP7446%2F70&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+eau+Philips+AquaClean+CA6903%2F10+S%C3%A9rie+7000+LatteGo+EP7446%2F70+filtre+EP7446%2F70&tag=autoconsom-21) |
+| Graisse pour groupe de percolation Philips CA6706/00 | CA6706/00 | Tous les 2 mois ou après 500 tasses. | Usure prématurée du groupe, bruits anormaux, difficulté de mouvement. | [Amazon.fr ↗](https://www.amazon.fr/s?k=graisse+groupe+percolation+Philips+CA6706%2F00+S%C3%A9rie+7000+LatteGo+EP7446%2F70+lubrifiant+EP7446%2F70&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=graisse+groupe+percolation+Philips+CA6706%2F00+S%C3%A9rie+7000+LatteGo+EP7446%2F70+lubrifiant+EP7446%2F70&tag=autoconsom-21) |
+| Kit de nettoyage du circuit de lait Philips CA6704/10 | CA6704/10 | Mensuel ou selon l'utilisation. | Accumulation de résidus de lait, obstruction du circuit, altération du goût des boissons lactées. | [Amazon.fr ↗](https://www.amazon.fr/s?k=kit+nettoyage+lait+Philips+CA6704%2F10+LatteGo+EP7446%2F70+nettoyant+LatteGo+EP7446%2F70&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=kit+nettoyage+lait+Philips+CA6704%2F10+LatteGo+EP7446%2F70+nettoyant+LatteGo+EP7446%2F70&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le système LatteGo de mon Philips Série 7000 EP7446/70 ?**
+  **R :** Le système LatteGo est sans tube, se compose de deux pièces faciles à nettoyer. Après chaque utilisation, retirez-le et rincez-le simplement sous l'eau courante. Il est également compatible lave-vaisselle. Pour un nettoyage en profondeur, utilisez le kit de nettoyage de circuit de lait CA6704/10.
+- **Q : Le café ne coule pas ou très lentement, que dois-je faire ?**
+  **R :** Vérifiez si le réservoir d'eau est rempli et si le filtre AquaClean n'est pas obstrué. Un détartrage de la machine est peut-être nécessaire. Vérifiez également que le groupe de percolation est propre et correctement inséré.
+- **Q : À quelle fréquence faut-il nettoyer le groupe de percolation ?**
+  **R :** Le groupe de percolation doit être rincé à l'eau claire une fois par semaine. Pour un entretien optimal, lubrifiez ses joints et guides avec la graisse Philips CA6706/00 tous les 2 mois ou après 500 tasses.
 
 ---

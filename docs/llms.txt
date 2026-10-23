@@ -60,6 +60,7 @@
 - [De'Longhi Magnifica Start ECAM 220.22.GB](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips Série 3300 LatteGo (EP3347/90)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Siemens EQ.900 TQ903D03](https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Philips Série 7000 LatteGo (EP7446/70)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-serie-7000-lattego-ep7446-70-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -75,6 +76,7 @@
 - [Dreame L20 Ultra Complete (RLS7LADC)](https://thorlan04.github.io/auto-consumables-agent/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Narwal Freo X Ultra (FRXU01)](https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Ecovacs Deebot X2 Combo (DX2C)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Xiaomi Robot Vacuum X20+](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-robot-vacuum-x20-plus-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)
