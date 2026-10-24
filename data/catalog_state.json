@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-24T15:40:17.491776+00:00",
-  "total_guides": 39,
+  "last_updated": "2026-10-24T20:30:24.722229+00:00",
+  "total_guides": 41,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -2696,6 +2696,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Philips-Série-7000-LatteGo-EP744670---Pièces--Entretien-10-23"
+    },
+    {
+      "slug": "cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien",
+      "title": "Entretien Cosori Dual Blaze Chef Edition CAF-P583S-KEUR : Panier, Grille, Codes Erreur",
+      "brand": "Cosori",
+      "model": "Dual Blaze Chef Edition (CAF-P583S-KEUR)",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Optimisez l'entretien de votre Cosori Dual Blaze Chef Edition CAF-P583S-KEUR. Trouvez paniers, grilles et solutions aux codes erreur pour une friture saine.",
+      "common_codes": [
+        {
+          "code": "E1",
+          "meaning": "Le capteur de température interne ne fonctionne pas correctement.",
+          "solution": "Débranchez l'appareil pendant 5 minutes puis rebranchez-le. Si l'erreur persiste, contactez le support."
+        },
+        {
+          "code": "E2",
+          "meaning": "L'appareil a surchauffé et s'est arrêté pour des raisons de sécurité.",
+          "solution": "Laissez l'appareil refroidir complètement pendant au moins 30 minutes, puis essayez de le rallumer. Assurez-vous que les évents ne sont pas bloqués."
+        },
+        {
+          "code": "E3",
+          "meaning": "Problème de communication entre les composants internes.",
+          "solution": "Éteignez l'appareil, débranchez-le, attendez 10 minutes, puis rebranchez-le et redémarrez."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Panier de cuisson antiadhésif",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 12-18 mois ou si le revêtement est endommagé.",
+          "why_replace": "Le revêtement antiadhésif s'use, entraînant l'adhérence des aliments et une cuisson inégale.",
+          "search_keywords": "Cosori Dual Blaze CAF-P583S-KEUR panier de rechange, panier Cosori Dual Blaze Chef Edition, accessoire Cosori CAF-P583S-KEUR",
+          "affiliate_url": null
+        },
+        {
+          "name": "Grille de cuisson perforée",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 12-24 mois ou si déformée/très encrassée.",
+          "why_replace": "L'usure et l'accumulation de résidus réduisent l'efficacité de la circulation de l'air chaud et la qualité de cuisson.",
+          "search_keywords": "Cosori Dual Blaze CAF-P583S-KEUR grille, grille de cuisson Cosori Dual Blaze Chef Edition, accessoires Cosori CAF-P583S-KEUR",
+          "affiliate_url": null
+        },
+        {
+          "name": "Kit de nettoyage (brosse et chiffon microfibre)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Selon besoin, pour un nettoyage régulier.",
+          "why_replace": "Les outils de nettoyage spécifiques aident à préserver le revêtement antiadhésif et l'hygiène de l'appareil.",
+          "search_keywords": "Kit nettoyage Cosori Dual Blaze Chef Edition, brosse Cosori CAF-P583S-KEUR, produit nettoyage air fryer Cosori",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le panier de ma Cosori Dual Blaze Chef Edition ?",
+          "answer": "Lavez le panier à la main avec de l'eau chaude savonneuse et une éponge non abrasive. Pour les résidus tenaces, faites tremper le panier avant de le nettoyer. Évitez le lave-vaisselle pour prolonger la durée de vie du revêtement."
+        },
+        {
+          "question": "Mon Air Fryer Cosori émet une fumée blanche, est-ce normal ?",
+          "answer": "Une légère fumée peut apparaître lors des premières utilisations ou si des aliments gras sont cuits. Si la fumée est excessive et persistante, nettoyez en profondeur le panier et la résistance pour éliminer les résidus graisseux."
+        },
+        {
+          "question": "Puis-je utiliser des moules en silicone ou en papier sulfurisé dans mon Air Fryer Cosori ?",
+          "answer": "Oui, vous pouvez utiliser des moules en silicone ou des feuilles de papier sulfurisé adaptées aux friteuses sans huile, à condition qu'ils ne bloquent pas la circulation de l'air. Assurez-vous qu'ils ne touchent pas les éléments chauffants."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Cosori-Dual-Blaze-Chef-Edition-CAF-P583S-KEUR---Pièces--Entretien-10-24"
+    },
+    {
+      "slug": "melitta-barista-t-smart-f83-0-101-entretien-detartrage",
+      "title": "Entretien Melitta Barista T Smart F83/0-101 : Détartrage, Filtres, Codes Erreur",
+      "brand": "Melitta",
+      "model": "Barista T Smart (F83/0-101)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet d'entretien pour votre Melitta Barista T Smart F83/0-101. Détartrage, remplacement des filtres et résolution des codes erreur pour un café parfait.",
+      "common_codes": [
+        {
+          "code": "Calc Clean",
+          "meaning": "L'appareil nécessite un détartrage. L'accumulation de calcaire affecte le goût du café et le fonctionnement de la machine.",
+          "solution": "Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez une solution de détartrage douce compatible avec les machines Melitta."
+        },
+        {
+          "code": "Clean",
+          "meaning": "L'appareil nécessite un nettoyage du système de lait. Des résidus de lait peuvent boucher les conduits.",
+          "solution": "Effectuez le nettoyage du système de lait comme indiqué dans le manuel. Utilisez le nettoyant Melitta pour système de lait."
+        },
+        {
+          "code": "Filter",
+          "meaning": "Le filtre à eau Melitta Pro Aqua doit être remplacé.",
+          "solution": "Retirez l'ancien filtre et insérez un nouveau filtre Melitta Pro Aqua. Activez ensuite le nouveau filtre via le menu de la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau Melitta Pro Aqua",
+          "part_number": "6762772",
+          "frequency": "Tous les 2 mois ou après 50 litres (selon l'utilisation et la dureté de l'eau).",
+          "why_replace": "Empêche l'accumulation de calcaire, améliore le goût du café et protège la machine.",
+          "search_keywords": "Melitta Pro Aqua F83/0-101 filtre, filtre à eau Melitta Barista T Smart, Melitta 6762772",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de détartrage Melitta Anti Calc Bio",
+          "part_number": "6762774",
+          "frequency": "Tous les 3 mois ou lorsque le voyant \"Calc Clean\" s'allume.",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les tuyaux et altérer le goût du café.",
+          "search_keywords": "Melitta Barista T Smart F83/0-101 détartrant, pastilles détartrage Melitta, Melitta Anti Calc Bio",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage Melitta Perfect Clean",
+          "part_number": "6762773",
+          "frequency": "Tous les mois ou après 200 cafés.",
+          "why_replace": "Élimine les résidus de café et les huiles qui peuvent s'accumuler dans l'unité de percolation et altérer le goût.",
+          "search_keywords": "Melitta Barista T Smart F83/0-101 nettoyage, pastilles nettoyage Melitta, Melitta Perfect Clean",
+          "affiliate_url": null
+        },
+        {
+          "name": "Nettoyant pour système de lait Melitta Perfect Clean",
+          "part_number": "6762775",
+          "frequency": "Chaque semaine ou après chaque utilisation intensive du système de lait.",
+          "why_replace": "Élimine les résidus de lait pour maintenir l'hygiène, éviter les obstructions et garantir la qualité de la mousse.",
+          "search_keywords": "Melitta Barista T Smart F83/0-101 nettoyant lait, nettoyant système lait Melitta, Melitta Perfect Clean Milk",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma Melitta Barista T Smart ?",
+          "answer": "La fréquence de détartrage dépend de la dureté de votre eau et de votre utilisation. La machine vous alertera (voyant \"Calc Clean\") lorsque le détartrage est nécessaire, généralement tous les 3 mois. L'utilisation d'un filtre à eau Pro Aqua peut espacer cette opération."
+        },
+        {
+          "question": "Comment nettoyer l'unité de percolation de ma machine Melitta ?",
+          "answer": "L'unité de percolation est amovible. Éteignez la machine et retirez l'unité. Rincez-la à l'eau claire tiède sans détergent. Laissez-la sécher à l'air libre avant de la remettre en place. Effectuez également un nettoyage avec les pastilles Melitta Perfect Clean comme indiqué par la machine."
+        },
+        {
+          "question": "Mon café n'est pas assez chaud, que puis-je faire ?",
+          "answer": "Vérifiez les réglages de température dans le menu de votre Melitta Barista T Smart et augmentez-les si possible. Préchauffez vos tasses. Assurez-vous également que le circuit d'eau n'est pas entartré en effectuant un détartrage si nécessaire."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Melitta-Barista-T-Smart-F830-101---Pièces--Entretien-10-24"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

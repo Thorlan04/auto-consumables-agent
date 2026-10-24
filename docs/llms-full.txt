@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-24
-> Total appareils répertoriés : 39
+> Total appareils répertoriés : 41
 
 ---
 
@@ -1585,5 +1585,86 @@
   **R :** Vérifiez si le réservoir d'eau est rempli et si le filtre AquaClean n'est pas obstrué. Un détartrage de la machine est peut-être nécessaire. Vérifiez également que le groupe de percolation est propre et correctement inséré.
 - **Q : À quelle fréquence faut-il nettoyer le groupe de percolation ?**
   **R :** Le groupe de percolation doit être rincé à l'eau claire une fois par semaine. Pour un entretien optimal, lubrifiez ses joints et guides avec la graisse Philips CA6706/00 tous les 2 mois ou après 500 tasses.
+
+---
+
+## Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html
+- **Résumé d'Entretien :** Optimisez l'entretien de votre Cosori Dual Blaze Chef Edition CAF-P583S-KEUR. Trouvez paniers, grilles et solutions aux codes erreur pour une friture saine.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| E1 | Le capteur de température interne ne fonctionne pas correctement. | Débranchez l'appareil pendant 5 minutes puis rebranchez-le. Si l'erreur persiste, contactez le support. |
+| E2 | L'appareil a surchauffé et s'est arrêté pour des raisons de sécurité. | Laissez l'appareil refroidir complètement pendant au moins 30 minutes, puis essayez de le rallumer. Assurez-vous que les évents ne sont pas bloqués. |
+| E3 | Problème de communication entre les composants internes. | Éteignez l'appareil, débranchez-le, attendez 10 minutes, puis rebranchez-le et redémarrez. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Panier de cuisson antiadhésif | Réf. constructeur adaptable | Tous les 12-18 mois ou si le revêtement est endommagé. | Le revêtement antiadhésif s'use, entraînant l'adhérence des aliments et une cuisson inégale. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Cosori+Dual+Blaze+CAF-P583S-KEUR+panier+de+rechange%2C+panier+Cosori+Dual+Blaze+Chef+Edition%2C+accessoire+Cosori+CAF-P583S-KEUR&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Cosori+Dual+Blaze+CAF-P583S-KEUR+panier+de+rechange%2C+panier+Cosori+Dual+Blaze+Chef+Edition%2C+accessoire+Cosori+CAF-P583S-KEUR&tag=autoconsom-21) |
+| Grille de cuisson perforée | Réf. constructeur adaptable | Tous les 12-24 mois ou si déformée/très encrassée. | L'usure et l'accumulation de résidus réduisent l'efficacité de la circulation de l'air chaud et la qualité de cuisson. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Cosori+Dual+Blaze+CAF-P583S-KEUR+grille%2C+grille+de+cuisson+Cosori+Dual+Blaze+Chef+Edition%2C+accessoires+Cosori+CAF-P583S-KEUR&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Cosori+Dual+Blaze+CAF-P583S-KEUR+grille%2C+grille+de+cuisson+Cosori+Dual+Blaze+Chef+Edition%2C+accessoires+Cosori+CAF-P583S-KEUR&tag=autoconsom-21) |
+| Kit de nettoyage (brosse et chiffon microfibre) | Réf. constructeur adaptable | Selon besoin, pour un nettoyage régulier. | Les outils de nettoyage spécifiques aident à préserver le revêtement antiadhésif et l'hygiène de l'appareil. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Kit+nettoyage+Cosori+Dual+Blaze+Chef+Edition%2C+brosse+Cosori+CAF-P583S-KEUR%2C+produit+nettoyage+air+fryer+Cosori&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Kit+nettoyage+Cosori+Dual+Blaze+Chef+Edition%2C+brosse+Cosori+CAF-P583S-KEUR%2C+produit+nettoyage+air+fryer+Cosori&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le panier de ma Cosori Dual Blaze Chef Edition ?**
+  **R :** Lavez le panier à la main avec de l'eau chaude savonneuse et une éponge non abrasive. Pour les résidus tenaces, faites tremper le panier avant de le nettoyer. Évitez le lave-vaisselle pour prolonger la durée de vie du revêtement.
+- **Q : Mon Air Fryer Cosori émet une fumée blanche, est-ce normal ?**
+  **R :** Une légère fumée peut apparaître lors des premières utilisations ou si des aliments gras sont cuits. Si la fumée est excessive et persistante, nettoyez en profondeur le panier et la résistance pour éliminer les résidus graisseux.
+- **Q : Puis-je utiliser des moules en silicone ou en papier sulfurisé dans mon Air Fryer Cosori ?**
+  **R :** Oui, vous pouvez utiliser des moules en silicone ou des feuilles de papier sulfurisé adaptées aux friteuses sans huile, à condition qu'ils ne bloquent pas la circulation de l'air. Assurez-vous qu'ils ne touchent pas les éléments chauffants.
+
+---
+
+## Melitta Barista T Smart (F83/0-101)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre Melitta Barista T Smart F83/0-101. Détartrage, remplacement des filtres et résolution des codes erreur pour un café parfait.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Calc Clean | L'appareil nécessite un détartrage. L'accumulation de calcaire affecte le goût du café et le fonctionnement de la machine. | Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez une solution de détartrage douce compatible avec les machines Melitta. |
+| Clean | L'appareil nécessite un nettoyage du système de lait. Des résidus de lait peuvent boucher les conduits. | Effectuez le nettoyage du système de lait comme indiqué dans le manuel. Utilisez le nettoyant Melitta pour système de lait. |
+| Filter | Le filtre à eau Melitta Pro Aqua doit être remplacé. | Retirez l'ancien filtre et insérez un nouveau filtre Melitta Pro Aqua. Activez ensuite le nouveau filtre via le menu de la machine. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau Melitta Pro Aqua | 6762772 | Tous les 2 mois ou après 50 litres (selon l'utilisation et la dureté de l'eau). | Empêche l'accumulation de calcaire, améliore le goût du café et protège la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Melitta+Pro+Aqua+F83%2F0-101+filtre%2C+filtre+%C3%A0+eau+Melitta+Barista+T+Smart%2C+Melitta+6762772&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Melitta+Pro+Aqua+F83%2F0-101+filtre%2C+filtre+%C3%A0+eau+Melitta+Barista+T+Smart%2C+Melitta+6762772&tag=autoconsom-21) |
+| Pastilles de détartrage Melitta Anti Calc Bio | 6762774 | Tous les 3 mois ou lorsque le voyant "Calc Clean" s'allume. | Élimine les dépôts de calcaire qui peuvent obstruer les tuyaux et altérer le goût du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Melitta+Barista+T+Smart+F83%2F0-101+d%C3%A9tartrant%2C+pastilles+d%C3%A9tartrage+Melitta%2C+Melitta+Anti+Calc+Bio&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Melitta+Barista+T+Smart+F83%2F0-101+d%C3%A9tartrant%2C+pastilles+d%C3%A9tartrage+Melitta%2C+Melitta+Anti+Calc+Bio&tag=autoconsom-21) |
+| Pastilles de nettoyage Melitta Perfect Clean | 6762773 | Tous les mois ou après 200 cafés. | Élimine les résidus de café et les huiles qui peuvent s'accumuler dans l'unité de percolation et altérer le goût. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Melitta+Barista+T+Smart+F83%2F0-101+nettoyage%2C+pastilles+nettoyage+Melitta%2C+Melitta+Perfect+Clean&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Melitta+Barista+T+Smart+F83%2F0-101+nettoyage%2C+pastilles+nettoyage+Melitta%2C+Melitta+Perfect+Clean&tag=autoconsom-21) |
+| Nettoyant pour système de lait Melitta Perfect Clean | 6762775 | Chaque semaine ou après chaque utilisation intensive du système de lait. | Élimine les résidus de lait pour maintenir l'hygiène, éviter les obstructions et garantir la qualité de la mousse. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Melitta+Barista+T+Smart+F83%2F0-101+nettoyant+lait%2C+nettoyant+syst%C3%A8me+lait+Melitta%2C+Melitta+Perfect+Clean+Milk&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Melitta+Barista+T+Smart+F83%2F0-101+nettoyant+lait%2C+nettoyant+syst%C3%A8me+lait+Melitta%2C+Melitta+Perfect+Clean+Milk&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je détartrer ma Melitta Barista T Smart ?**
+  **R :** La fréquence de détartrage dépend de la dureté de votre eau et de votre utilisation. La machine vous alertera (voyant "Calc Clean") lorsque le détartrage est nécessaire, généralement tous les 3 mois. L'utilisation d'un filtre à eau Pro Aqua peut espacer cette opération.
+- **Q : Comment nettoyer l'unité de percolation de ma machine Melitta ?**
+  **R :** L'unité de percolation est amovible. Éteignez la machine et retirez l'unité. Rincez-la à l'eau claire tiède sans détergent. Laissez-la sécher à l'air libre avant de la remettre en place. Effectuez également un nettoyage avec les pastilles Melitta Perfect Clean comme indiqué par la machine.
+- **Q : Mon café n'est pas assez chaud, que puis-je faire ?**
+  **R :** Vérifiez les réglages de température dans le menu de votre Melitta Barista T Smart et augmentez-les si possible. Préchauffez vos tasses. Assurez-vous également que le circuit d'eau n'est pas entartré en effectuant un détartrage si nécessaire.
 
 ---
