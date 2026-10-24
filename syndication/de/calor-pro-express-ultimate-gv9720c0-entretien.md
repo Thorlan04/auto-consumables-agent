@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Calor Pro Express Ultimate GV9720C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

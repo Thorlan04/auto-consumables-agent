@@ -2,7 +2,7 @@
 title: "Xiaomi Robot Vacuum X20+: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Xiaomi Robot Vacuum X20+."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

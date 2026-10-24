@@ -2,7 +2,7 @@
 title: "Entretien Shark Stratos Cordless Pet Pro IZ400UK : Filtres, Brosse, Anti-Odeur"
 description: "Prolongez la vie de votre aspirateur Shark Stratos IZ400UK ! Guide d'entretien pour filtres HEPA, brosse Anti Hair Wrap Plus et cartouche anti-odeur. Références PN incluses."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

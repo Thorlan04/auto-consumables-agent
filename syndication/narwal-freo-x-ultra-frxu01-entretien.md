@@ -2,7 +2,7 @@
 title: "Entretien Narwal Freo X Ultra (FRXU01) : Consommables et Codes Erreurs"
 description: "Maximisez la durée de vie de votre robot aspirateur laveur Narwal Freo X Ultra (FRXU01). Trouvez les consommables, filtres et solutions aux codes erreurs."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

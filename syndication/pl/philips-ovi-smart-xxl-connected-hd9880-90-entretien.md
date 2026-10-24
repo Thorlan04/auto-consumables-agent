@@ -2,7 +2,7 @@
 title: "Philips Ovi Smart XXL Connected HD9880/90: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips Ovi Smart XXL Connected HD9880/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

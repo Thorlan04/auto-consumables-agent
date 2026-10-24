@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: 交換部品・フィルター・エラーコード解説"
 description: "Ninja Foodi FlexDrawer AF500EU の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

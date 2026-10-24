@@ -2,7 +2,7 @@
 title: "Philips Ovi Smart XXL Connected HD9880/90: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips Ovi Smart XXL Connected HD9880/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

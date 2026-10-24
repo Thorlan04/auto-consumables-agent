@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Calor Pro Express Ultimate GV9720C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

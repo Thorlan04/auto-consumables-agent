@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): 耗材配件、滤网更换与故障代码指南"
 description: "Narwal Freo X Ultra (FRXU01) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

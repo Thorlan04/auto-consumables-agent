@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

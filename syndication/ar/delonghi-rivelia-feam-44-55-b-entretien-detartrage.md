@@ -2,7 +2,7 @@
 title: "De'Longhi Rivelia (FEAM 44.55.B): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز De'Longhi Rivelia (FEAM 44.55.B)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"
-published_at: "2026-10-23"
+published_at: "2026-10-24"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
