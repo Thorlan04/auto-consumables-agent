@@ -2,7 +2,7 @@
 title: "Roborock S8 & S8 Pro Ultra : Consommables, Brosses et Codes Erreurs"
 description: "Filtres HEPA, rouleaux duo-rubber, serpillières vibrantes et sacs à poussière pour Roborock S8. Guide d'entretien sans démontage."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

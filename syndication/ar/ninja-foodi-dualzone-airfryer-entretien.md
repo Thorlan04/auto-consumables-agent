@@ -2,7 +2,7 @@
 title: "Ninja Foodi DualZone (AF300EU / AF400EU): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Ninja Foodi DualZone (AF300EU / AF400EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-dualzone-airfryer-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

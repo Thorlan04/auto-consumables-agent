@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

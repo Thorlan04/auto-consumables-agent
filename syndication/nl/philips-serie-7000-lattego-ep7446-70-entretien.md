@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Philips Série 7000 LatteGo (EP7446/70)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

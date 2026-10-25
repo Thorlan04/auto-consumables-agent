@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Combo (DX2C): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Ecovacs Deebot X2 Combo (DX2C)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-24T20:30:25.320451+00:00",
-  "total_appliances": 41,
+  "generated_at": "2026-10-25T04:01:22.855043+00:00",
+  "total_appliances": 43,
   "supported_languages": [
     "fr",
     "en",
@@ -6633,7 +6633,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Cosori-Dual-Blaze-Chef-Edition-CAF-P583S-KEUR---Pièces--Entretien-10-24",
       "common_codes": [
         {
           "code": "E1",
@@ -6786,7 +6786,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Melitta-Barista-T-Smart-F830-101---Pièces--Entretien-10-24",
       "common_codes": [
         {
           "code": "Calc Clean",
@@ -6946,6 +6946,312 @@
         {
           "question": "Mon café n'est pas assez chaud, que puis-je faire ?",
           "answer": "Vérifiez les réglages de température dans le menu de votre Melitta Barista T Smart et augmentez-les si possible. Préchauffez vos tasses. Assurez-vous également que le circuit d'eau n'est pas entartré en effectuant un détartrage si nécessaire."
+        }
+      ]
+    },
+    {
+      "slug": "dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres",
+      "brand": "Dyson",
+      "model": "Purifier Hot+Cool Formaldehyde (HP09)",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide complet pour l'entretien du Dyson Purifier Hot+Cool Formaldehyde HP09. Découvrez comment changer les filtres HEPA+Carbone et résoudre les alertes d'entretien.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant filtre clignotant",
+          "meaning": "Le filtre HEPA+Carbone combiné est saturé et doit être remplacé.",
+          "solution": "Retirez le couvercle extérieur de l'appareil. Pressez les boutons sur les côtés pour libérer l'ancien filtre. Insérez le nouveau filtre combiné en vous assurant qu'il s'enclenche. Replacez le couvercle. Réinitialisez le voyant via l'application Dyson Link ou en maintenant le bouton 'Mode Nuit' enfoncé pendant 5 secondes."
+        },
+        {
+          "code": "Alerte \"Flux d'air faible\"",
+          "meaning": "Accumulation de poussière sur les entrées d'air ou les grilles, ou filtre encrassé.",
+          "solution": "Débranchez l'appareil. Utilisez un chiffon doux et sec pour nettoyer les grilles d'entrée d'air et la surface de l'amplificateur. Si le problème persiste, le filtre pourrait nécessiter un remplacement (voir \"Voyant filtre clignotant\")."
+        },
+        {
+          "code": "Voyant \"F\" (Formaldehyde) clignotant",
+          "meaning": "Le capteur de formaldéhyde est en cours de calibration ou détecte un niveau élevé de formaldéhyde.",
+          "solution": "Assurez-vous que l'appareil est dans un environnement bien ventilé lors de la première utilisation. Si l'alerte persiste sans source évidente, nettoyez l'entrée du capteur (petit trou sur le côté) avec une brosse douce. Le capteur de formaldéhyde est auto-régénérant et n'a pas besoin d'être remplacé."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA et Carbone combiné Dyson",
+          "part_number": "970341-01",
+          "frequency": "Tous les 12 mois (utilisation 12h/jour) ou selon l'indicateur de l'appareil.",
+          "why_replace": "Perte d'efficacité de filtration des particules fines, allergènes et gaz. Réduction de la qualité de l'air et accumulation d'odeurs.",
+          "search_keywords": "filtre dyson hp09 970341-01, filtre hepa carbone dyson purifier hot cool formaldehyde, remplacement filtre dyson hp09",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Télécommande Dyson (Originale)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Au besoin (perte, dysfonctionnement).",
+          "why_replace": "Impossible de contrôler l'appareil sans l'application mobile.",
+          "search_keywords": "télécommande dyson hp09, télécommande dyson purifier hot cool formaldehyde, accessoire dyson hp09",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Produit de nettoyage externe Dyson",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Mensuel ou selon l'encrassement.",
+          "why_replace": "Accumulation de poussière et saleté sur les surfaces externes, affectant l'esthétique et potentiellement le flux d'air.",
+          "search_keywords": "nettoyant dyson, chiffon microfibre dyson, entretien surface dyson",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser l'indicateur de durée de vie du filtre après son remplacement ?",
+          "answer": "Après avoir remplacé le filtre, branchez l'appareil. Maintenez le bouton 'Mode Nuit' (symbole lune) de la télécommande ou de l'appareil enfoncé pendant 5 secondes jusqu'à ce que l'écran affiche un compte à rebours de 5 à 0, confirmant la réinitialisation."
+        },
+        {
+          "question": "Puis-je nettoyer les filtres Dyson HP09 au lieu de les remplacer ?",
+          "answer": "Non, les filtres HEPA et charbon actif Dyson sont conçus pour être remplacés et ne doivent pas être lavés. Le nettoyage pourrait endommager le média filtrant et compromettre leur efficacité."
+        },
+        {
+          "question": "Mon appareil HP09 ne chauffe plus, que faire ?",
+          "answer": "Vérifiez que le mode chauffage est bien activé et que la température souhaitée est réglée au-dessus de la température ambiante. Assurez-vous que les entrées et sorties d'air ne sont pas obstruées. Si le problème persiste, un nettoyage des grilles peut aider, mais des dysfonctionnements internes nécessitent un diagnostic professionnel."
+        }
+      ]
+    },
+    {
+      "slug": "jura-ena-4-15436-entretien-detartrage-filtre",
+      "brand": "Jura",
+      "model": "ENA 4 (15436)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour la machine à café Jura ENA 4 (15436). Apprenez à détartrer, changer le filtre CLARIS Smart et nettoyer votre machine pour un café parfait.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Symbole \"Filtre\" (goutte d'eau barrée)",
+          "meaning": "Le filtre CLARIS Smart est saturé ou n'est pas inséré correctement, ou la machine demande un nouveau filtre.",
+          "solution": "Retirez l'ancien filtre CLARIS Smart du réservoir d'eau. Insérez un nouveau filtre CLARIS Smart en le tournant jusqu'à ce qu'il s'enclenche. La machine le détectera automatiquement et vous guidera pour le rincer."
+        },
+        {
+          "code": "Symbole \"Bac à marc\" (grains de café)",
+          "meaning": "Le bac à marc et/ou le bac de récupération d'eau sont pleins et doivent être vidés.",
+          "solution": "Retirez le bac de récupération d'eau et le bac à marc. Videz-les et rincez-les à l'eau claire. Replacez-les correctement dans la machine. Le symbole disparaîtra."
+        },
+        {
+          "code": "Symbole \"Détartrage\" (triangle avec des dépôts)",
+          "meaning": "La machine nécessite un cycle de détartrage pour éliminer les dépôts de calcaire.",
+          "solution": "Suivez les instructions affichées sur l'écran de la machine. Utilisez uniquement des pastilles de détartrage Jura. Videz le réservoir d'eau, dissolvez la pastille de détartrage dans de l'eau tiède, versez dans le réservoir et lancez le programme de détartrage."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau CLARIS Smart Jura",
+          "part_number": "71794",
+          "frequency": "Environ tous les 2 mois ou après 50 litres d'eau filtrée (selon l'utilisation et la dureté de l'eau).",
+          "why_replace": "Prévention du tartre, amélioration du goût du café, protection de la machine.",
+          "search_keywords": "filtre jura ena 4, jura claris smart 71794, filtre eau jura ena 4",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de détartrage Jura",
+          "part_number": "61848",
+          "frequency": "Selon l'indication de la machine (environ tous les 3-6 mois sans filtre, ou 1-2 fois par an avec filtre).",
+          "why_replace": "Élimination des dépôts de calcaire qui peuvent endommager la machine et altérer le goût du café.",
+          "search_keywords": "pastilles detartrage jura ena 4, jura 61848 detartrant, detartrant machine cafe jura",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage Jura",
+          "part_number": "62715",
+          "frequency": "Après environ 180 préparations ou selon l'indication de la machine.",
+          "why_replace": "Élimination des résidus de café et des graisses pour garantir une hygiène parfaite et un goût optimal.",
+          "search_keywords": "pastilles nettoyage jura ena 4, jura 62715 nettoyage, nettoyant machine cafe jura",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quelle est la différence entre le détartrage et le nettoyage pour ma Jura ENA 4 ?",
+          "answer": "Le détartrage élimine les dépôts de calcaire dans le système d'eau de la machine, tandis que le nettoyage élimine les résidus de café et les graisses des conduits de café. Les deux opérations sont essentielles pour la longévité de la machine et la qualité du café."
+        },
+        {
+          "question": "Puis-je utiliser des produits de détartrage ou de nettoyage génériques pour ma Jura ENA 4 ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement les produits d'entretien originaux Jura (pastilles de détartrage et de nettoyage) pour garantir l'efficacité et ne pas endommager les composants internes de votre machine."
+        },
+        {
+          "question": "Ma Jura ENA 4 ne coule plus ou très peu, que dois-je vérifier ?",
+          "answer": "Vérifiez si le filtre à eau est saturé ou mal inséré, ou si la machine demande un détartrage ou un nettoyage. Assurez-vous que le réservoir d'eau est correctement positionné et rempli. Si le problème persiste après ces vérifications, le circuit interne pourrait être obstrué et nécessiter un diagnostic."
         }
       ]
     }

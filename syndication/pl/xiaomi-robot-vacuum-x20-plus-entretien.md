@@ -2,7 +2,7 @@
 title: "Xiaomi Robot Vacuum X20+: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Xiaomi Robot Vacuum X20+."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

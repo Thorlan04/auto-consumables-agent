@@ -2,7 +2,7 @@
 title: "Entretien De'Longhi Magnifica Start ECAM 220.22.GB : Détartrage, Filtre & Pièces"
 description: "Guide complet d'entretien pour votre De'Longhi Magnifica Start ECAM 220.22.GB. Découvrez les consommables (filtre DLS C002), le détartrage et les codes d'erreur."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: 耗材配件、滤网更换与故障代码指南"
 description: "Philips Airfryer XXL HD9650/90 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

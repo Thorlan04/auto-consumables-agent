@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

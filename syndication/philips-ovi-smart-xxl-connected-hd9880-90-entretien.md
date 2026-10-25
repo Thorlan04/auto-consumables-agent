@@ -2,7 +2,7 @@
 title: "Entretien Philips Ovi Smart XXL Connected HD9880/90 : Panier, Grille et Nettoyage Facile"
 description: "Prolongez la vie de votre Philips Ovi Smart XXL Connected HD9880/90. Découvrez comment nettoyer le panier, la grille et maintenir votre Airfryer performant."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

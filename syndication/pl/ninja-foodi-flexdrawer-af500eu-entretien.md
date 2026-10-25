@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

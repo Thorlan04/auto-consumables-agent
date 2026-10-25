@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Combo (DX2C): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Ecovacs Deebot X2 Combo (DX2C)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

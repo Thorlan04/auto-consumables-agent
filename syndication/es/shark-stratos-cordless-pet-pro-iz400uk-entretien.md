@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400UK): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Shark Stratos Cordless Pet Pro (IZ400UK)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

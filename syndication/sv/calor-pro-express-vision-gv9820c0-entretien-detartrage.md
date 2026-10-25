@@ -2,7 +2,7 @@
 title: "Calor Pro Express Vision GV9820C0: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Calor Pro Express Vision GV9820C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

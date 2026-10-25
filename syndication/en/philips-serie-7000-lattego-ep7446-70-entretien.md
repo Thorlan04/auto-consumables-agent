@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Philips Série 7000 LatteGo (EP7446/70)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Dreame L20 Ultra Complete (RLS7LADC): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dreame L20 Ultra Complete (RLS7LADC)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

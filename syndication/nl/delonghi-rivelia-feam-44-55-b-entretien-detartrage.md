@@ -2,7 +2,7 @@
 title: "De'Longhi Rivelia (FEAM 44.55.B): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor De'Longhi Rivelia (FEAM 44.55.B)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

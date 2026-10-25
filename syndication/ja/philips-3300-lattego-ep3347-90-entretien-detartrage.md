@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): 交換部品・フィルター・エラーコード解説"
 description: "Philips Série 3300 LatteGo (EP3347/90) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

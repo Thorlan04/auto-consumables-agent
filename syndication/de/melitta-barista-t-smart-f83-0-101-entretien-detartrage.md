@@ -2,7 +2,7 @@
 title: "Melitta Barista T Smart (F83/0-101): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Melitta Barista T Smart (F83/0-101)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

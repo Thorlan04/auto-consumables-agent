@@ -63,10 +63,12 @@
 - [Siemens EQ.900 TQ903D03](https://thorlan04.github.io/auto-consumables-agent/guides/siemens-eq900-tq903d03-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips Série 7000 LatteGo (EP7446/70)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-serie-7000-lattego-ep7446-70-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Melitta Barista T Smart (F83/0-101)](https://thorlan04.github.io/auto-consumables-agent/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Jura ENA 4 (15436)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Levoit Core 400S Smart True HEPA](https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-400s-smart-hepa-entretien-filtres.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Dyson Purifier Hot+Cool Formaldehyde (HP09)](https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Robots Aspirateurs
 - [Roborock S8 / S8 Pro Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.

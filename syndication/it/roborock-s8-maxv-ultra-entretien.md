@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

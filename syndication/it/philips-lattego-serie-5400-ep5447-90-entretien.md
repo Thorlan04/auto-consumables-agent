@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 5400 (EP5447/90): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips LatteGo Série 5400 (EP5447/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

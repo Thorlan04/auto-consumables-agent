@@ -2,7 +2,7 @@
 title: "Xiaomi Robot Vacuum X20+: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Xiaomi Robot Vacuum X20+."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Philips Série 3300 LatteGo (EP3347/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

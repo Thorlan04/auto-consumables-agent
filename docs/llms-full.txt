@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-10-24
-> Total appareils répertoriés : 41
+> Horodatage de génération : 2026-10-25
+> Total appareils répertoriés : 43
 
 ---
 
@@ -1666,5 +1666,85 @@
   **R :** L'unité de percolation est amovible. Éteignez la machine et retirez l'unité. Rincez-la à l'eau claire tiède sans détergent. Laissez-la sécher à l'air libre avant de la remettre en place. Effectuez également un nettoyage avec les pastilles Melitta Perfect Clean comme indiqué par la machine.
 - **Q : Mon café n'est pas assez chaud, que puis-je faire ?**
   **R :** Vérifiez les réglages de température dans le menu de votre Melitta Barista T Smart et augmentez-les si possible. Préchauffez vos tasses. Assurez-vous également que le circuit d'eau n'est pas entartré en effectuant un détartrage si nécessaire.
+
+---
+
+## Dyson Purifier Hot+Cool Formaldehyde (HP09)
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien du Dyson Purifier Hot+Cool Formaldehyde HP09. Découvrez comment changer les filtres HEPA+Carbone et résoudre les alertes d'entretien.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant filtre clignotant | Le filtre HEPA+Carbone combiné est saturé et doit être remplacé. | Retirez le couvercle extérieur de l'appareil. Pressez les boutons sur les côtés pour libérer l'ancien filtre. Insérez le nouveau filtre combiné en vous assurant qu'il s'enclenche. Replacez le couvercle. Réinitialisez le voyant via l'application Dyson Link ou en maintenant le bouton 'Mode Nuit' enfoncé pendant 5 secondes. |
+| Alerte "Flux d'air faible" | Accumulation de poussière sur les entrées d'air ou les grilles, ou filtre encrassé. | Débranchez l'appareil. Utilisez un chiffon doux et sec pour nettoyer les grilles d'entrée d'air et la surface de l'amplificateur. Si le problème persiste, le filtre pourrait nécessiter un remplacement (voir "Voyant filtre clignotant"). |
+| Voyant "F" (Formaldehyde) clignotant | Le capteur de formaldéhyde est en cours de calibration ou détecte un niveau élevé de formaldéhyde. | Assurez-vous que l'appareil est dans un environnement bien ventilé lors de la première utilisation. Si l'alerte persiste sans source évidente, nettoyez l'entrée du capteur (petit trou sur le côté) avec une brosse douce. Le capteur de formaldéhyde est auto-régénérant et n'a pas besoin d'être remplacé. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre HEPA et Carbone combiné Dyson | 970341-01 | Tous les 12 mois (utilisation 12h/jour) ou selon l'indicateur de l'appareil. | Perte d'efficacité de filtration des particules fines, allergènes et gaz. Réduction de la qualité de l'air et accumulation d'odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+dyson+hp09+970341-01%2C+filtre+hepa+carbone+dyson+purifier+hot+cool+formaldehyde%2C+remplacement+filtre+dyson+hp09&tag=autoconsom-21) |
+| Télécommande Dyson (Originale) | Réf. constructeur adaptable | Au besoin (perte, dysfonctionnement). | Impossible de contrôler l'appareil sans l'application mobile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=t%C3%A9l%C3%A9commande+dyson+hp09%2C+t%C3%A9l%C3%A9commande+dyson+purifier+hot+cool+formaldehyde%2C+accessoire+dyson+hp09&tag=autoconsom-21) |
+| Produit de nettoyage externe Dyson | Réf. constructeur adaptable | Mensuel ou selon l'encrassement. | Accumulation de poussière et saleté sur les surfaces externes, affectant l'esthétique et potentiellement le flux d'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=nettoyant+dyson%2C+chiffon+microfibre+dyson%2C+entretien+surface+dyson&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment réinitialiser l'indicateur de durée de vie du filtre après son remplacement ?**
+  **R :** Après avoir remplacé le filtre, branchez l'appareil. Maintenez le bouton 'Mode Nuit' (symbole lune) de la télécommande ou de l'appareil enfoncé pendant 5 secondes jusqu'à ce que l'écran affiche un compte à rebours de 5 à 0, confirmant la réinitialisation.
+- **Q : Puis-je nettoyer les filtres Dyson HP09 au lieu de les remplacer ?**
+  **R :** Non, les filtres HEPA et charbon actif Dyson sont conçus pour être remplacés et ne doivent pas être lavés. Le nettoyage pourrait endommager le média filtrant et compromettre leur efficacité.
+- **Q : Mon appareil HP09 ne chauffe plus, que faire ?**
+  **R :** Vérifiez que le mode chauffage est bien activé et que la température souhaitée est réglée au-dessus de la température ambiante. Assurez-vous que les entrées et sorties d'air ne sont pas obstruées. Si le problème persiste, un nettoyage des grilles peut aider, mais des dysfonctionnements internes nécessitent un diagnostic professionnel.
+
+---
+
+## Jura ENA 4 (15436)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-ena-4-15436-entretien-detartrage-filtre.html
+- **Résumé d'Entretien :** Guide d'entretien pour la machine à café Jura ENA 4 (15436). Apprenez à détartrer, changer le filtre CLARIS Smart et nettoyer votre machine pour un café parfait.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Symbole "Filtre" (goutte d'eau barrée) | Le filtre CLARIS Smart est saturé ou n'est pas inséré correctement, ou la machine demande un nouveau filtre. | Retirez l'ancien filtre CLARIS Smart du réservoir d'eau. Insérez un nouveau filtre CLARIS Smart en le tournant jusqu'à ce qu'il s'enclenche. La machine le détectera automatiquement et vous guidera pour le rincer. |
+| Symbole "Bac à marc" (grains de café) | Le bac à marc et/ou le bac de récupération d'eau sont pleins et doivent être vidés. | Retirez le bac de récupération d'eau et le bac à marc. Videz-les et rincez-les à l'eau claire. Replacez-les correctement dans la machine. Le symbole disparaîtra. |
+| Symbole "Détartrage" (triangle avec des dépôts) | La machine nécessite un cycle de détartrage pour éliminer les dépôts de calcaire. | Suivez les instructions affichées sur l'écran de la machine. Utilisez uniquement des pastilles de détartrage Jura. Videz le réservoir d'eau, dissolvez la pastille de détartrage dans de l'eau tiède, versez dans le réservoir et lancez le programme de détartrage. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau CLARIS Smart Jura | 71794 | Environ tous les 2 mois ou après 50 litres d'eau filtrée (selon l'utilisation et la dureté de l'eau). | Prévention du tartre, amélioration du goût du café, protection de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=filtre+jura+ena+4%2C+jura+claris+smart+71794%2C+filtre+eau+jura+ena+4&tag=autoconsom-21) |
+| Pastilles de détartrage Jura | 61848 | Selon l'indication de la machine (environ tous les 3-6 mois sans filtre, ou 1-2 fois par an avec filtre). | Élimination des dépôts de calcaire qui peuvent endommager la machine et altérer le goût du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=pastilles+detartrage+jura+ena+4%2C+jura+61848+detartrant%2C+detartrant+machine+cafe+jura&tag=autoconsom-21) |
+| Pastilles de nettoyage Jura | 62715 | Après environ 180 préparations ou selon l'indication de la machine. | Élimination des résidus de café et des graisses pour garantir une hygiène parfaite et un goût optimal. | [Amazon.fr ↗](https://www.amazon.fr/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=pastilles+nettoyage+jura+ena+4%2C+jura+62715+nettoyage%2C+nettoyant+machine+cafe+jura&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Quelle est la différence entre le détartrage et le nettoyage pour ma Jura ENA 4 ?**
+  **R :** Le détartrage élimine les dépôts de calcaire dans le système d'eau de la machine, tandis que le nettoyage élimine les résidus de café et les graisses des conduits de café. Les deux opérations sont essentielles pour la longévité de la machine et la qualité du café.
+- **Q : Puis-je utiliser des produits de détartrage ou de nettoyage génériques pour ma Jura ENA 4 ?**
+  **R :** Il est fortement recommandé d'utiliser uniquement les produits d'entretien originaux Jura (pastilles de détartrage et de nettoyage) pour garantir l'efficacité et ne pas endommager les composants internes de votre machine.
+- **Q : Ma Jura ENA 4 ne coule plus ou très peu, que dois-je vérifier ?**
+  **R :** Vérifiez si le filtre à eau est saturé ou mal inséré, ou si la machine demande un détartrage ou un nettoyage. Assurez-vous que le réservoir d'eau est correctement positionné et rempli. Si le problème persiste après ces vérifications, le circuit interne pourrait être obstrué et nécessiter un diagnostic.
 
 ---

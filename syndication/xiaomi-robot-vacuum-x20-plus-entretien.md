@@ -2,7 +2,7 @@
 title: "Entretien Xiaomi Robot Vacuum X20+ : Consommables & Codes Erreur"
 description: "Guide complet pour l'entretien de votre Xiaomi Robot Vacuum X20+. Trouvez les consommables, références et solutions aux codes erreurs courants."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

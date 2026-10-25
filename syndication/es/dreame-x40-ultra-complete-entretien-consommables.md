@@ -2,7 +2,7 @@
 title: "Dreame X40 Ultra Complete: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Dreame X40 Ultra Complete."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

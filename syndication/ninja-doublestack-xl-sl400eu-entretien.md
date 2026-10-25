@@ -2,7 +2,7 @@
 title: "Entretien Ninja DoubleStack XL 9,5L (SL400EU): Accessoires, nettoyage et astuces pour votre Air Fryer"
 description: "Maximisez la durée de vie de votre Ninja DoubleStack XL (SL400EU). Découvrez les accessoires, le nettoyage et les solutions aux problèmes courants de votre Air Fryer."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-24"
+published_at: "2026-10-25"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
