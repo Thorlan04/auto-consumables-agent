@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-25T04:01:22.855043+00:00",
+  "generated_at": "2026-10-25T11:01:44.734224+00:00",
   "total_appliances": 43,
   "supported_languages": [
     "fr",
@@ -6971,7 +6971,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Dyson-Purifier-HotCool-Formaldehyde-HP09---Pièces--Entretien-10-25",
       "common_codes": [
         {
           "code": "Voyant filtre clignotant",
@@ -7124,7 +7124,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-ena-4-15436-entretien-detartrage-filtre.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Jura-ENA-4-15436---Pièces--Entretien-10-25",
       "common_codes": [
         {
           "code": "Symbole \"Filtre\" (goutte d'eau barrée)",
