@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-26T04:05:48.428428+00:00",
-  "total_appliances": 45,
+  "generated_at": "2026-10-26T12:34:57.665523+00:00",
+  "total_appliances": 47,
   "supported_languages": [
     "fr",
     "en",
@@ -7277,7 +7277,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-LatteGo-Série-8000-EP888000---Pièces--Entretien-10-26",
       "common_codes": [
         {
           "code": "Voyant Calc/Clean clignotant",
@@ -7430,7 +7430,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Ecovacs-Deebot-X2-Omni-DX20---Pièces--Entretien-10-26",
       "common_codes": [
         {
           "code": "Alerte 'Brosse principale emmêlée'",
@@ -7590,6 +7590,344 @@
         {
           "question": "Comment réinitialiser la carte de mon Ecovacs Deebot X2 Omni ?",
           "answer": "Pour réinitialiser la carte, ouvrez l'application Ecovacs Home, sélectionnez votre robot, puis accédez aux paramètres de la carte. Vous y trouverez une option pour supprimer ou réinitialiser la carte actuelle. Le robot effectuera ensuite une nouvelle cartographie lors de sa prochaine session de nettoyage."
+        }
+      ]
+    },
+    {
+      "slug": "bissell-crosswave-hydrosteam-pet-pro-3517n-entretien",
+      "brand": "Bissell",
+      "model": "CrossWave HydroSteam Pet Pro (3517N)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Maximisez la durée de vie de votre Bissell CrossWave HydroSteam Pet Pro 3517N. Découvrez les consommables (filtre, rouleau brosse) et l'entretien courant.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Réservoir d'eau propre vide\"",
+          "meaning": "Le réservoir d'eau propre est vide ou mal positionné, empêchant l'appareil de distribuer la solution de nettoyage.",
+          "solution": "Remplissez le réservoir d'eau propre jusqu'à la ligne \"MAX\" avec de l'eau tiède et la solution de nettoyage Bissell appropriée. Assurez-vous qu'il est correctement inséré et verrouillé en place."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau sale plein\"",
+          "meaning": "Le réservoir d'eau sale a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz son contenu, rincez-le et nettoyez le filtre du réservoir. Replacez-le correctement jusqu'à ce qu'il s'enclenche."
+        },
+        {
+          "code": "Voyant \"Rouleau brosse bloqué\"",
+          "meaning": "Le rouleau brosse est obstrué par des cheveux, des débris ou n'est pas correctement installé, ce qui empêche sa rotation.",
+          "solution": "Éteignez et débranchez l'appareil. Retirez le couvercle du rouleau brosse et vérifiez l'absence d'obstructions. Nettoyez le rouleau brosse et la chambre, puis réinstallez-le en vous assurant qu'il tourne librement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse multi-surfaces HydroSteam Pet Pro",
+          "part_number": "3649",
+          "frequency": "Tous les 3 à 6 mois ou selon l'utilisation",
+          "why_replace": "Perte d'efficacité de nettoyage, mauvaise absorption, traînées, odeurs.",
+          "search_keywords": "Bissell CrossWave HydroSteam Pet Pro 3517N rouleau brosse 3649, brosse 3517N, Bissell 3649",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA plissé (Post-Moteur)",
+          "part_number": "3645",
+          "frequency": "Tous les 6 mois ou selon l'utilisation",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines, odeurs.",
+          "search_keywords": "Bissell CrossWave HydroSteam Pet Pro 3517N filtre HEPA 3645, filtre aspirateur 3517N",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Solution de nettoyage multi-surfaces pour animaux (Concentré)",
+          "part_number": "1789L",
+          "frequency": "À chaque utilisation",
+          "why_replace": "Nettoyage inefficace, absence de désinfection et de parfum frais.",
+          "search_keywords": "Bissell CrossWave HydroSteam Pet Pro 3517N solution nettoyage 1789L, liquide sol 3517N",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+solution+nettoyage+1789L%2C+liquide+sol+3517N&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer mon Bissell CrossWave HydroSteam Pet Pro après utilisation ?",
+          "answer": "Après chaque utilisation, videz et rincez le réservoir d'eau sale, lavez le rouleau brosse et le couvercle sous l'eau courante. Utilisez la fonction de cycle de nettoyage automatique si disponible sur votre appareil pour rincer les conduits internes."
+        },
+        {
+          "question": "Mon appareil laisse des traînées sur le sol, que faire ?",
+          "answer": "Vérifiez si le rouleau brosse est propre et non usé. Assurez-vous d'utiliser la bonne quantité de solution de nettoyage et que le réservoir d'eau sale n'est pas trop plein. Un filtre encrassé peut aussi réduire l'aspiration et laisser des résidus."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quelle solution de nettoyage avec mon Bissell 3517N ?",
+          "answer": "Non, il est fortement recommandé d'utiliser uniquement les solutions de nettoyage Bissell officielles conçues pour les appareils CrossWave. L'utilisation d'autres produits peut endommager l'appareil, annuler la garantie et laisser des résidus indésirables."
+        }
+      ]
+    },
+    {
+      "slug": "saeco-granaroma-sm6580-00-entretien-detartrage",
+      "brand": "Saeco",
+      "model": "GranAroma SM6580/00",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Prolongez la vie de votre Saeco GranAroma SM6580/00. Guide d'entretien, filtres AquaClean et détartrants compatibles pour une machine au top.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant \"Détartrage nécessaire\" / Alerte \"CALC CLEAN\"",
+          "meaning": "L'appareil détecte une accumulation de calcaire et nécessite un cycle de détartrage pour maintenir ses performances.",
+          "solution": "Effectuez un cycle de détartrage complet en utilisant la solution de détartrage Saeco/Philips. Suivez les instructions affichées sur l'écran de la machine."
+        },
+        {
+          "code": "Voyant \"Remplir le réservoir d'eau\"",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas ou le réservoir est mal inséré.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX, puis replacez-le correctement dans la machine jusqu'à ce qu'il soit bien en place."
+        },
+        {
+          "code": "Voyant \"Vider le bac à marc\"",
+          "meaning": "Le bac à marc de café est plein et doit être vidé pour que la machine puisse continuer à fonctionner.",
+          "solution": "Retirez et videz le bac à marc ainsi que le bac d'égouttement. Rincez-les à l'eau claire et replacez-les correctement. Le compteur de marc se réinitialise après environ 5 secondes."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau AquaClean",
+          "part_number": "CA6903/10",
+          "frequency": "Tous les 3 mois ou lorsque l'appareil l'indique",
+          "why_replace": "Accumulation de calcaire dans le circuit d'eau, altération du goût du café, détartrages plus fréquents.",
+          "search_keywords": "Saeco GranAroma SM6580/00 filtre AquaClean CA6903/10, filtre à eau Philips Saeco",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Détartrant liquide Saeco/Philips",
+          "part_number": "CA6700/10",
+          "frequency": "Lorsque l'appareil l'indique (environ tous les 6-12 mois sans filtre AquaClean, ou moins souvent avec)",
+          "why_replace": "Entartrage des conduits, dysfonctionnement de la machine, goût altéré du café.",
+          "search_keywords": "Saeco GranAroma SM6580/00 détartrant CA6700/10, détartrant machine café Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Graisse pour groupe café",
+          "part_number": "CA6704/00",
+          "frequency": "Toutes les 500 tasses ou tous les 2 mois",
+          "why_replace": "Usure prématurée du groupe café, grincements, mauvais fonctionnement de l'infuseur.",
+          "search_keywords": "Saeco GranAroma SM6580/00 graisse groupe café CA6704/00, graisse silicone Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+graisse+groupe+caf%C3%A9+CA6704%2F00%2C+graisse+silicone+Philips&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage pour groupe café",
+          "part_number": "CA6703/10",
+          "frequency": "Tous les mois ou toutes les 250 tasses",
+          "why_replace": "Accumulation de résidus de café et d'huiles, altération du goût, encrassement du groupe.",
+          "search_keywords": "Saeco GranAroma SM6580/00 pastilles nettoyage CA6703/10, pastilles dégraissantes Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Saeco+GranAroma+SM6580%2F00+pastilles+nettoyage+CA6703%2F10%2C+pastilles+d%C3%A9graissantes+Philips&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma Saeco GranAroma SM6580/00 ?",
+          "answer": "La fréquence de détartrage dépend de la dureté de votre eau et de l'utilisation du filtre AquaClean. La machine vous alertera lorsqu'un détartrage est nécessaire, généralement tous les 6 à 12 mois avec un filtre, ou plus souvent sans."
+        },
+        {
+          "question": "Comment nettoyer le groupe café de ma machine Saeco GranAroma ?",
+          "answer": "Le groupe café doit être retiré et rincé à l'eau tiède chaque semaine. Laissez-le sécher à l'air libre avant de le réinsérer. Lubrifiez les joints et l'axe du groupe café avec de la graisse silicone Saeco/Philips tous les deux mois."
+        },
+        {
+          "question": "Mon café a un goût amer ou rance, quelle en est la cause ?",
+          "answer": "Un goût amer ou rance peut être dû à un groupe café encrassé par des résidus d'huile, un filtre à eau usagé, ou des grains de café de mauvaise qualité. Nettoyez le groupe café avec les pastilles Saeco et remplacez le filtre AquaClean si nécessaire."
         }
       ]
     }
