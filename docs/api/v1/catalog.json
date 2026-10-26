@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-26T12:34:57.665523+00:00",
+  "generated_at": "2026-10-26T22:28:45.405169+00:00",
   "total_appliances": 47,
   "supported_languages": [
     "fr",
@@ -7615,7 +7615,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Bissell-CrossWave-HydroSteam-Pet-Pro-3517N---Pièces--Entretien-10-26",
       "common_codes": [
         {
           "code": "Voyant \"Réservoir d'eau propre vide\"",
@@ -7768,7 +7768,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Saeco-GranAroma-SM658000---Pièces--Entretien-10-26",
       "common_codes": [
         {
           "code": "Voyant \"Détartrage nécessaire\" / Alerte \"CALC CLEAN\"",
