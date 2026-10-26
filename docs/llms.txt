@@ -64,6 +64,7 @@
 - [Philips Série 7000 LatteGo (EP7446/70)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-serie-7000-lattego-ep7446-70-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Melitta Barista T Smart (F83/0-101)](https://thorlan04.github.io/auto-consumables-agent/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Jura ENA 4 (15436)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Philips LatteGo Série 8000 (EP8880/00)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-8000-ep8880-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -81,6 +82,7 @@
 - [Narwal Freo X Ultra (FRXU01)](https://thorlan04.github.io/auto-consumables-agent/guides/narwal-freo-x-ultra-frxu01-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Ecovacs Deebot X2 Combo (DX2C)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Xiaomi Robot Vacuum X20+](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-robot-vacuum-x20-plus-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Ecovacs Deebot X2 Omni (DX20)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-omni-dx20-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

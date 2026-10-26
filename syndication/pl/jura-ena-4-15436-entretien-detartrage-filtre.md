@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

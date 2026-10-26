@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips Série 7000 LatteGo (EP7446/70)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

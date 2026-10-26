@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Philips Airfryer XXL HD9650/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

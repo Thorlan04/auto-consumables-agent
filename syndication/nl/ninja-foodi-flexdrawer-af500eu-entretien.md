@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

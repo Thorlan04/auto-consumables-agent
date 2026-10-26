@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

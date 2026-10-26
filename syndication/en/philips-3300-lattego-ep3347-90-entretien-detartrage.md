@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Philips Série 3300 LatteGo (EP3347/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

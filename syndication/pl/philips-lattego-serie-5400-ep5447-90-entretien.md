@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 5400 (EP5447/90): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips LatteGo Série 5400 (EP5447/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

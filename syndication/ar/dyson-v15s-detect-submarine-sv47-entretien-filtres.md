@@ -2,7 +2,7 @@
 title: "Dyson V15s Detect Submarine (SV47): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dyson V15s Detect Submarine (SV47)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

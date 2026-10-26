@@ -2,7 +2,7 @@
 title: "Xiaomi Robot Vacuum X20+: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Xiaomi Robot Vacuum X20+."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

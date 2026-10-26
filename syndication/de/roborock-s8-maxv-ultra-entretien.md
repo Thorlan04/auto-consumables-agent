@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

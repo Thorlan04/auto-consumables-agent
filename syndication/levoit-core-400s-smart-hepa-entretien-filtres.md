@@ -2,7 +2,7 @@
 title: "Entretien Levoit Core 400S Smart True HEPA : Remplacement Filtres & Voyants (2024-2026)"
 description: "Guide d'entretien du purificateur d'air Levoit Core 400S : remplacez les filtres True HEPA et charbon actif pour un air pur optimal."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

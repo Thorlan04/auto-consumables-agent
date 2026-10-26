@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Combo (DX2C): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Ecovacs Deebot X2 Combo (DX2C)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

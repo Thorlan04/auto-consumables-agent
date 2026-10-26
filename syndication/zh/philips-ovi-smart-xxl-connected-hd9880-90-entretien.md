@@ -2,7 +2,7 @@
 title: "Philips Ovi Smart XXL Connected HD9880/90: 耗材配件、滤网更换与故障代码指南"
 description: "Philips Ovi Smart XXL Connected HD9880/90 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

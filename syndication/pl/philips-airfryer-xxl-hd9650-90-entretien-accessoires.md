@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips Airfryer XXL HD9650/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

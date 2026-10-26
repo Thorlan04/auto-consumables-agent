@@ -2,7 +2,7 @@
 title: "Calor Pro Express Ultimate GV9720C0: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Calor Pro Express Ultimate GV9720C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/calor-pro-express-ultimate-gv9720c0-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

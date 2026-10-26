@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

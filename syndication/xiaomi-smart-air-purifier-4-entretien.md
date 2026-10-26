@@ -2,7 +2,7 @@
 title: "Entretien Xiaomi Smart Air Purifier 4 : Filtres, Nettoyage et Codes Erreur"
 description: "Maximisez la durée de vie de votre purificateur d'air Xiaomi Smart Air Purifier 4 avec nos conseils d'entretien simple, remplacement de filtre et FAQ."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

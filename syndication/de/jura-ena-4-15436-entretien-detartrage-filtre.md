@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

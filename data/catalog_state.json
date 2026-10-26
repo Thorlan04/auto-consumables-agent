@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-25T20:37:59.459834+00:00",
-  "total_guides": 43,
+  "last_updated": "2026-10-26T04:05:47.689046+00:00",
+  "total_guides": 45,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -2968,6 +2968,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Jura-ENA-4-15436---Pièces--Entretien-10-25"
+    },
+    {
+      "slug": "philips-lattego-serie-8000-ep8880-00-entretien",
+      "title": "Entretien Philips LatteGo Série 8000 EP8880/00 : Consommables & Codes Erreur",
+      "brand": "Philips",
+      "model": "LatteGo Série 8000 (EP8880/00)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet d'entretien pour votre machine à café Philips LatteGo Série 8000 EP8880/00. Découvrez les consommables essentiels, filtres, et solutions aux codes erreurs pour une longévité optimale.",
+      "common_codes": [
+        {
+          "code": "Voyant Calc/Clean clignotant",
+          "meaning": "Indique qu'un cycle de détartrage est nécessaire pour maintenir les performances de la machine et la qualité du café.",
+          "solution": "Suivez les instructions sur l'écran pour lancer le programme de détartrage. Utilisez le détartrant Philips recommandé et videz le bac d'égouttement et le réservoir d'eau avant de commencer."
+        },
+        {
+          "code": "Voyant réservoir d'eau vide",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré, empêchant la machine de fonctionner.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX, puis réinsérez-le correctement jusqu'à entendre un clic. Assurez-vous qu'il n'y a pas de filtre AquaClean mal positionné."
+        },
+        {
+          "code": "Voyant bac à marc plein",
+          "meaning": "Le bac à marc de café est plein et doit être vidé pour permettre de nouvelles préparations.",
+          "solution": "Retirez le bac d'égouttement et le bac à marc. Videz le marc de café et nettoyez les bacs sous l'eau courante. Réinsérez-les correctement dans la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre AquaClean",
+          "part_number": "CA6903/10",
+          "frequency": "Tous les 3 mois ou 625 tasses (selon l'utilisation et la dureté de l'eau)",
+          "why_replace": "Préserve le goût du café, réduit la fréquence de détartrage et protège la machine du calcaire.",
+          "search_keywords": "Philips AquaClean CA6903/10 filtre, filtre eau Philips EP8880/00, filtre cafetière grain Philips Série 8000",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détartrant Philips",
+          "part_number": "CA6700/10",
+          "frequency": "Tous les 6 mois ou lorsque la machine l'indique (même avec le filtre AquaClean)",
+          "why_replace": "Élimine les dépôts de calcaire, prolonge la durée de vie de la machine et assure un fonctionnement optimal.",
+          "search_keywords": "Détartrant Philips CA6700/10, détartrage Philips EP8880/00, produit détartrant machine café Philips",
+          "affiliate_url": null
+        },
+        {
+          "name": "Graisse pour groupe café",
+          "part_number": "HD5061/01",
+          "frequency": "Tous les 2 mois ou après 500 cafés",
+          "why_replace": "Lubrifie le groupe café, assure un mouvement fluide et prévient l'usure prématurée des pièces mobiles.",
+          "search_keywords": "Graisse groupe café Philips HD5061/01, lubrifiant Philips EP8880/00, graisse alimentaire machine à café Philips",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le système LatteGo de ma Philips EP8880/00 ?",
+          "answer": "Après chaque utilisation, retirez le système LatteGo, rincez ses deux pièces sous l'eau courante. Vous pouvez également les passer au lave-vaisselle. Assurez-vous qu'aucun résidu de lait ne bouche les conduits."
+        },
+        {
+          "question": "Ma machine EP8880/00 ne chauffe plus l'eau correctement, que faire ?",
+          "answer": "Un problème de chauffe est souvent lié à l'accumulation de calcaire. Effectuez un cycle de détartrage complet avec le détartrant Philips CA6700/10. Si le problème persiste, cela pourrait indiquer une panne plus sérieuse nécessitant une intervention professionnelle."
+        },
+        {
+          "question": "La mouture du café est trop fine ou trop grossière sur mon EP8880/00, comment ajuster ?",
+          "answer": "Ajustez la finesse de la mouture via le bouton situé dans le bac à grains. Ne le faites que lorsque le broyeur est en marche pour éviter de l'endommager. Une mouture plus fine donne un café plus fort, une mouture plus grossière un café plus doux."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Philips-LatteGo-Série-8000-EP888000---Pièces--Entretien-10-26"
+    },
+    {
+      "slug": "ecovacs-deebot-x2-omni-dx20-entretien",
+      "title": "Entretien Ecovacs Deebot X2 Omni (DX20) : Consommables & Codes Erreur",
+      "brand": "Ecovacs",
+      "model": "Deebot X2 Omni (DX20)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide d'entretien essentiel pour votre robot aspirateur Ecovacs Deebot X2 Omni (DX20). Trouvez les brosses, filtres HEPA et solutions aux alertes pour une performance de nettoyage maximale.",
+      "common_codes": [
+        {
+          "code": "Alerte 'Brosse principale emmêlée'",
+          "meaning": "La brosse principale rotative est bloquée ou ralentie par des cheveux, des fils ou d'autres débris.",
+          "solution": "Éteignez le robot, retirez le couvercle de la brosse principale, puis la brosse elle-même. Nettoyez soigneusement la brosse et ses extrémités des cheveux et débris. Réinstallez la brosse et le couvercle."
+        },
+        {
+          "code": "Alerte 'Capteur de chute sale'",
+          "meaning": "Les capteurs de détection de vide situés sous le robot sont encrassés, ce qui peut entraîner des problèmes de navigation ou des arrêts inopinés.",
+          "solution": "Retournez le robot et nettoyez délicatement les quatre capteurs de chute à l'aide d'un chiffon sec et propre. Assurez-vous qu'il n'y a pas de poussière ou de saleté obstruant la lentille du capteur."
+        },
+        {
+          "code": "Voyant de la station de vidage rouge",
+          "meaning": "Le sac à poussière de la station Omni est plein, le conduit d'aspiration est obstrué, ou le bac à poussière du robot est mal inséré.",
+          "solution": "Vérifiez et remplacez le sac à poussière de la station si nécessaire. Assurez-vous que le bac à poussière du robot est correctement en place. Si le problème persiste, vérifiez et nettoyez le conduit d'aspiration de la station."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosses latérales (paire)",
+          "part_number": "202-2313-00000002",
+          "frequency": "Tous les 3 à 6 mois (selon l'utilisation)",
+          "why_replace": "Des brosses usées ou endommagées réduisent l'efficacité du nettoyage des bords et des coins, laissant des débris.",
+          "search_keywords": "Ecovacs Deebot X2 Omni brosses latérales 202-2313-00000002, brosses robot DX20, pièces détachées Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA (paire)",
+          "part_number": "202-2313-00000003",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Un filtre encrassé diminue la puissance d'aspiration et la capacité à retenir les allergènes et poussières fines.",
+          "search_keywords": "Filtre HEPA Ecovacs Deebot X2 Omni 202-2313-00000003, filtre robot DX20, filtre anti-allergène Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse principale",
+          "part_number": "202-2313-00000001",
+          "frequency": "Tous les 6 à 12 mois (selon l'utilisation et la présence d'animaux)",
+          "why_replace": "Une brosse principale usée ou endommagée ne ramasse plus efficacement la saleté et peut rayer les sols.",
+          "search_keywords": "Brosse principale Ecovacs Deebot X2 Omni 202-2313-00000001, brosse rouleau robot DX20, brosse centrale Ecovacs X2",
+          "affiliate_url": null
+        },
+        {
+          "name": "Sac à poussière pour station Omni (pack de 3)",
+          "part_number": "202-2313-00000004",
+          "frequency": "Tous les 1 à 2 mois (selon la taille du foyer et la fréquence de nettoyage)",
+          "why_replace": "Un sac plein empêche la vidange automatique du robot, réduisant l'autonomie de nettoyage et la commodité.",
+          "search_keywords": "Sac poussière Ecovacs Deebot X2 Omni 202-2313-00000004, sac station DX20, sacs auto-vidange Ecovacs X2",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mon Deebot X2 Omni ne charge plus correctement, que dois-je vérifier ?",
+          "answer": "Assurez-vous que la station de charge est branchée et que les contacts de charge du robot et de la station sont propres. Nettoyez-les avec un chiffon sec. Vérifiez également qu'il n'y a pas d'obstacles empêchant le robot de s'aligner correctement avec la station."
+        },
+        {
+          "question": "Le Deebot X2 Omni ne lave pas les sols efficacement, que faire ?",
+          "answer": "Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau propre est rempli et que le réservoir d'eau sale est vidé. Nettoyez les buses de pulvérisation d'eau si elles sont obstruées."
+        },
+        {
+          "question": "Comment réinitialiser la carte de mon Ecovacs Deebot X2 Omni ?",
+          "answer": "Pour réinitialiser la carte, ouvrez l'application Ecovacs Home, sélectionnez votre robot, puis accédez aux paramètres de la carte. Vous y trouverez une option pour supprimer ou réinitialiser la carte actuelle. Le robot effectuera ensuite une nouvelle cartographie lors de sa prochaine session de nettoyage."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Ecovacs-Deebot-X2-Omni-DX20---Pièces--Entretien-10-26"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

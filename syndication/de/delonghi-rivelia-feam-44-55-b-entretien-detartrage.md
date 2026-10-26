@@ -2,7 +2,7 @@
 title: "De'Longhi Rivelia (FEAM 44.55.B): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für De'Longhi Rivelia (FEAM 44.55.B)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-rivelia-feam-44-55-b-entretien-detartrage.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

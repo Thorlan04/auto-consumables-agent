@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-25T20:38:00.118795+00:00",
-  "total_appliances": 43,
+  "generated_at": "2026-10-26T04:05:48.428428+00:00",
+  "total_appliances": 45,
   "supported_languages": [
     "fr",
     "en",
@@ -7252,6 +7252,344 @@
         {
           "question": "Ma Jura ENA 4 ne coule plus ou très peu, que dois-je vérifier ?",
           "answer": "Vérifiez si le filtre à eau est saturé ou mal inséré, ou si la machine demande un détartrage ou un nettoyage. Assurez-vous que le réservoir d'eau est correctement positionné et rempli. Si le problème persiste après ces vérifications, le circuit interne pourrait être obstrué et nécessiter un diagnostic."
+        }
+      ]
+    },
+    {
+      "slug": "philips-lattego-serie-8000-ep8880-00-entretien",
+      "brand": "Philips",
+      "model": "LatteGo Série 8000 (EP8880/00)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet d'entretien pour votre machine à café Philips LatteGo Série 8000 EP8880/00. Découvrez les consommables essentiels, filtres, et solutions aux codes erreurs pour une longévité optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-lattego-serie-8000-ep8880-00-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Calc/Clean clignotant",
+          "meaning": "Indique qu'un cycle de détartrage est nécessaire pour maintenir les performances de la machine et la qualité du café.",
+          "solution": "Suivez les instructions sur l'écran pour lancer le programme de détartrage. Utilisez le détartrant Philips recommandé et videz le bac d'égouttement et le réservoir d'eau avant de commencer."
+        },
+        {
+          "code": "Voyant réservoir d'eau vide",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré, empêchant la machine de fonctionner.",
+          "solution": "Retirez le réservoir d'eau, remplissez-le d'eau fraîche jusqu'au niveau MAX, puis réinsérez-le correctement jusqu'à entendre un clic. Assurez-vous qu'il n'y a pas de filtre AquaClean mal positionné."
+        },
+        {
+          "code": "Voyant bac à marc plein",
+          "meaning": "Le bac à marc de café est plein et doit être vidé pour permettre de nouvelles préparations.",
+          "solution": "Retirez le bac d'égouttement et le bac à marc. Videz le marc de café et nettoyez les bacs sous l'eau courante. Réinsérez-les correctement dans la machine."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre AquaClean",
+          "part_number": "CA6903/10",
+          "frequency": "Tous les 3 mois ou 625 tasses (selon l'utilisation et la dureté de l'eau)",
+          "why_replace": "Préserve le goût du café, réduit la fréquence de détartrage et protège la machine du calcaire.",
+          "search_keywords": "Philips AquaClean CA6903/10 filtre, filtre eau Philips EP8880/00, filtre cafetière grain Philips Série 8000",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+AquaClean+CA6903%2F10+filtre%2C+filtre+eau+Philips+EP8880%2F00%2C+filtre+cafeti%C3%A8re+grain+Philips+S%C3%A9rie+8000&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Détartrant Philips",
+          "part_number": "CA6700/10",
+          "frequency": "Tous les 6 mois ou lorsque la machine l'indique (même avec le filtre AquaClean)",
+          "why_replace": "Élimine les dépôts de calcaire, prolonge la durée de vie de la machine et assure un fonctionnement optimal.",
+          "search_keywords": "Détartrant Philips CA6700/10, détartrage Philips EP8880/00, produit détartrant machine café Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+Philips+CA6700%2F10%2C+d%C3%A9tartrage+Philips+EP8880%2F00%2C+produit+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Graisse pour groupe café",
+          "part_number": "HD5061/01",
+          "frequency": "Tous les 2 mois ou après 500 cafés",
+          "why_replace": "Lubrifie le groupe café, assure un mouvement fluide et prévient l'usure prématurée des pièces mobiles.",
+          "search_keywords": "Graisse groupe café Philips HD5061/01, lubrifiant Philips EP8880/00, graisse alimentaire machine à café Philips",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Graisse+groupe+caf%C3%A9+Philips+HD5061%2F01%2C+lubrifiant+Philips+EP8880%2F00%2C+graisse+alimentaire+machine+%C3%A0+caf%C3%A9+Philips&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le système LatteGo de ma Philips EP8880/00 ?",
+          "answer": "Après chaque utilisation, retirez le système LatteGo, rincez ses deux pièces sous l'eau courante. Vous pouvez également les passer au lave-vaisselle. Assurez-vous qu'aucun résidu de lait ne bouche les conduits."
+        },
+        {
+          "question": "Ma machine EP8880/00 ne chauffe plus l'eau correctement, que faire ?",
+          "answer": "Un problème de chauffe est souvent lié à l'accumulation de calcaire. Effectuez un cycle de détartrage complet avec le détartrant Philips CA6700/10. Si le problème persiste, cela pourrait indiquer une panne plus sérieuse nécessitant une intervention professionnelle."
+        },
+        {
+          "question": "La mouture du café est trop fine ou trop grossière sur mon EP8880/00, comment ajuster ?",
+          "answer": "Ajustez la finesse de la mouture via le bouton situé dans le bac à grains. Ne le faites que lorsque le broyeur est en marche pour éviter de l'endommager. Une mouture plus fine donne un café plus fort, une mouture plus grossière un café plus doux."
+        }
+      ]
+    },
+    {
+      "slug": "ecovacs-deebot-x2-omni-dx20-entretien",
+      "brand": "Ecovacs",
+      "model": "Deebot X2 Omni (DX20)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide d'entretien essentiel pour votre robot aspirateur Ecovacs Deebot X2 Omni (DX20). Trouvez les brosses, filtres HEPA et solutions aux alertes pour une performance de nettoyage maximale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-x2-omni-dx20-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Alerte 'Brosse principale emmêlée'",
+          "meaning": "La brosse principale rotative est bloquée ou ralentie par des cheveux, des fils ou d'autres débris.",
+          "solution": "Éteignez le robot, retirez le couvercle de la brosse principale, puis la brosse elle-même. Nettoyez soigneusement la brosse et ses extrémités des cheveux et débris. Réinstallez la brosse et le couvercle."
+        },
+        {
+          "code": "Alerte 'Capteur de chute sale'",
+          "meaning": "Les capteurs de détection de vide situés sous le robot sont encrassés, ce qui peut entraîner des problèmes de navigation ou des arrêts inopinés.",
+          "solution": "Retournez le robot et nettoyez délicatement les quatre capteurs de chute à l'aide d'un chiffon sec et propre. Assurez-vous qu'il n'y a pas de poussière ou de saleté obstruant la lentille du capteur."
+        },
+        {
+          "code": "Voyant de la station de vidage rouge",
+          "meaning": "Le sac à poussière de la station Omni est plein, le conduit d'aspiration est obstrué, ou le bac à poussière du robot est mal inséré.",
+          "solution": "Vérifiez et remplacez le sac à poussière de la station si nécessaire. Assurez-vous que le bac à poussière du robot est correctement en place. Si le problème persiste, vérifiez et nettoyez le conduit d'aspiration de la station."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosses latérales (paire)",
+          "part_number": "202-2313-00000002",
+          "frequency": "Tous les 3 à 6 mois (selon l'utilisation)",
+          "why_replace": "Des brosses usées ou endommagées réduisent l'efficacité du nettoyage des bords et des coins, laissant des débris.",
+          "search_keywords": "Ecovacs Deebot X2 Omni brosses latérales 202-2313-00000002, brosses robot DX20, pièces détachées Ecovacs X2",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA (paire)",
+          "part_number": "202-2313-00000003",
+          "frequency": "Tous les 3 à 6 mois",
+          "why_replace": "Un filtre encrassé diminue la puissance d'aspiration et la capacité à retenir les allergènes et poussières fines.",
+          "search_keywords": "Filtre HEPA Ecovacs Deebot X2 Omni 202-2313-00000003, filtre robot DX20, filtre anti-allergène Ecovacs X2",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse principale",
+          "part_number": "202-2313-00000001",
+          "frequency": "Tous les 6 à 12 mois (selon l'utilisation et la présence d'animaux)",
+          "why_replace": "Une brosse principale usée ou endommagée ne ramasse plus efficacement la saleté et peut rayer les sols.",
+          "search_keywords": "Brosse principale Ecovacs Deebot X2 Omni 202-2313-00000001, brosse rouleau robot DX20, brosse centrale Ecovacs X2",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Brosse+principale+Ecovacs+Deebot+X2+Omni+202-2313-00000001%2C+brosse+rouleau+robot+DX20%2C+brosse+centrale+Ecovacs+X2&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sac à poussière pour station Omni (pack de 3)",
+          "part_number": "202-2313-00000004",
+          "frequency": "Tous les 1 à 2 mois (selon la taille du foyer et la fréquence de nettoyage)",
+          "why_replace": "Un sac plein empêche la vidange automatique du robot, réduisant l'autonomie de nettoyage et la commodité.",
+          "search_keywords": "Sac poussière Ecovacs Deebot X2 Omni 202-2313-00000004, sac station DX20, sacs auto-vidange Ecovacs X2",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sac+poussi%C3%A8re+Ecovacs+Deebot+X2+Omni+202-2313-00000004%2C+sac+station+DX20%2C+sacs+auto-vidange+Ecovacs+X2&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mon Deebot X2 Omni ne charge plus correctement, que dois-je vérifier ?",
+          "answer": "Assurez-vous que la station de charge est branchée et que les contacts de charge du robot et de la station sont propres. Nettoyez-les avec un chiffon sec. Vérifiez également qu'il n'y a pas d'obstacles empêchant le robot de s'aligner correctement avec la station."
+        },
+        {
+          "question": "Le Deebot X2 Omni ne lave pas les sols efficacement, que faire ?",
+          "answer": "Vérifiez que les patins de lavage sont propres et correctement fixés. Assurez-vous que le réservoir d'eau propre est rempli et que le réservoir d'eau sale est vidé. Nettoyez les buses de pulvérisation d'eau si elles sont obstruées."
+        },
+        {
+          "question": "Comment réinitialiser la carte de mon Ecovacs Deebot X2 Omni ?",
+          "answer": "Pour réinitialiser la carte, ouvrez l'application Ecovacs Home, sélectionnez votre robot, puis accédez aux paramètres de la carte. Vous y trouverez une option pour supprimer ou réinitialiser la carte actuelle. Le robot effectuera ensuite une nouvelle cartographie lors de sa prochaine session de nettoyage."
         }
       ]
     }

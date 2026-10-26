@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

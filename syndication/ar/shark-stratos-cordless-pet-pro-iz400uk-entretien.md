@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400UK): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Shark Stratos Cordless Pet Pro (IZ400UK)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

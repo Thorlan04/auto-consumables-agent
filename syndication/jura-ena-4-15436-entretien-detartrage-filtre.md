@@ -2,7 +2,7 @@
 title: "Entretien Jura ENA 4 (15436) : Détartrage, Changement Filtre CLARIS Smart & Nettoyage"
 description: "Guide d'entretien pour la machine à café Jura ENA 4 (15436). Apprenez à détartrer, changer le filtre CLARIS Smart et nettoyer votre machine pour un café parfait."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

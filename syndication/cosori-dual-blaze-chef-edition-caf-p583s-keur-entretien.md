@@ -2,7 +2,7 @@
 title: "Entretien Cosori Dual Blaze Chef Edition CAF-P583S-KEUR : Panier, Grille, Codes Erreur"
 description: "Optimisez l'entretien de votre Cosori Dual Blaze Chef Edition CAF-P583S-KEUR. Trouvez paniers, grilles et solutions aux codes erreur pour une friture saine."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html"
-published_at: "2026-10-25"
+published_at: "2026-10-26"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
