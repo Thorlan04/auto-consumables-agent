@@ -40,6 +40,7 @@
 - [Tineco Floor One S7 Combo (FW210200EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-combo-fw210200eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tineco Floor One S6 (FW200200EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s6-fw200200eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Bissell CrossWave HydroSteam Pet Pro (3517N)](https://thorlan04.github.io/auto-consumables-agent/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Tineco Floor One S7 Steam (FW210400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-steam-fw210400eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Centrales Vapeur
 - [Calor Pro Express Ultimate GV9720C0](https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -67,6 +68,7 @@
 - [Jura ENA 4 (15436)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-ena-4-15436-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips LatteGo Série 8000 (EP8880/00)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-8000-ep8880-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Saeco GranAroma SM6580/00](https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [De'Longhi PrimaDonna Soul ECAM 610.75.MB](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.

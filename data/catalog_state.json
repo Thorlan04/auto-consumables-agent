@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-27T04:25:54.277994+00:00",
-  "total_guides": 49,
+  "last_updated": "2026-10-27T11:52:49.820562+00:00",
+  "total_guides": 51,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -3396,6 +3396,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Roborock-Q8-Max-Q8M01-00---Pièces--Entretien-10-27"
+    },
+    {
+      "slug": "tineco-floor-one-s7-steam-fw210400eu-entretien",
+      "title": "Entretien Tineco Floor One S7 Steam (FW210400EU) : Consommables & Codes Erreur",
+      "brand": "Tineco",
+      "model": "Floor One S7 Steam (FW210400EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide d'entretien complet pour votre Tineco Floor One S7 Steam (FW210400EU). Trouvez les consommables essentiels (rouleau, filtre) et résolvez les codes erreur courants sans outil.",
+      "common_codes": [
+        {
+          "code": "Voyant Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le, rincez-le à l'eau claire et replacez-le correctement jusqu'à entendre un clic."
+        },
+        {
+          "code": "Voyant Brosse emmêlée",
+          "meaning": "La brosse rotative est bloquée par des cheveux ou des débris, empêchant son bon fonctionnement.",
+          "solution": "Éteignez l'appareil, retirez la brosse et nettoyez-la soigneusement des cheveux et autres débris. Assurez-vous que le canal d'aspiration est également dégagé."
+        },
+        {
+          "code": "Alerte vocale Vérifier le réservoir d'eau propre",
+          "meaning": "Le réservoir d'eau propre est vide ou mal positionné.",
+          "solution": "Remplissez le réservoir d'eau propre avec de l'eau du robinet (ou déminéralisée si l'eau est très calcaire) jusqu'à la ligne MAX et assurez-vous qu'il est correctement inséré."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse microfibre bi-matière (spécial vapeur)",
+          "part_number": "FW210400EU-01",
+          "frequency": "Tous les 3 à 6 mois (ou plus si usage intensif)",
+          "why_replace": "Perte d'efficacité de nettoyage, apparition de traces, mauvaises odeurs, difficulté à tourner.",
+          "search_keywords": "Tineco Floor One S7 Steam rouleau brosse FW210400EU-01, brosse Tineco S7 Steam, pièces détachées Tineco S7 Steam",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA pour réservoir d'eau sale",
+          "part_number": "FW210400EU-02 (Kit filtres)",
+          "frequency": "Tous les 2 à 3 mois",
+          "why_replace": "Diminution de la puissance d'aspiration, rejet de poussières fines, odeurs désagréables, risque de surchauffe moteur.",
+          "search_keywords": "Tineco Floor One S7 Steam filtre HEPA FW210400EU-02, filtre Tineco S7 Steam, filtres aspirateur laveur Tineco",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage Tineco (pour sols durs)",
+          "part_number": "Tineco Deodorizing & Cleaning Solution (iFLOOR-SOLUTION-EU)",
+          "frequency": "À chaque remplissage du réservoir d'eau propre",
+          "why_replace": "Moins bonne efficacité de nettoyage, absence de parfum frais, accumulation de saletés tenaces.",
+          "search_keywords": "Tineco solution nettoyage S7 Steam, détergent Tineco Floor One, produit nettoyage Tineco",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le réservoir d'eau sale de mon Tineco S7 Steam?",
+          "answer": "Retirez le réservoir, videz l'eau sale et les débris solides. Rincez-le abondamment à l'eau claire, ainsi que le filtre, et laissez-les sécher complètement à l'air libre avant de les remettre en place."
+        },
+        {
+          "question": "Mon Tineco S7 Steam ne produit pas de vapeur, que faire?",
+          "answer": "Vérifiez que le réservoir d'eau propre est rempli et correctement inséré. Assurez-vous que l'appareil est en mode vapeur et que la fonction n'est pas désactivée. Si le problème persiste, un détartrage peut être nécessaire (consultez le manuel)."
+        },
+        {
+          "question": "Puis-je utiliser de l'eau du robinet dans mon Tineco Floor One S7 Steam?",
+          "answer": "Oui, l'eau du robinet est généralement acceptable. Cependant, si votre eau est très calcaire, il est recommandé d'utiliser un mélange d'eau du robinet et d'eau déminéralisée ou de l'eau distillée pour prolonger la durée de vie de l'appareil et éviter l'accumulation de calcaire."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Tineco-Floor-One-S7-Steam-FW210400EU---Pièces--Entretien-10-27"
+    },
+    {
+      "slug": "delonghi-primadonna-soul-ecam610-75-mb-entretien",
+      "title": "Entretien De'Longhi PrimaDonna Soul ECAM 610.75.MB : Détartrage & Consommables",
+      "brand": "De'Longhi",
+      "model": "PrimaDonna Soul ECAM 610.75.MB",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour votre De'Longhi PrimaDonna Soul ECAM 610.75.MB. Découvrez comment détartrer, remplacer le filtre à eau et entretenir le groupe café pour un café parfait.",
+      "common_codes": [
+        {
+          "code": "Voyant Détartrage nécessaire",
+          "meaning": "La machine a détecté une accumulation de calcaire et nécessite un cycle de détartrage pour fonctionner correctement.",
+          "solution": "Suivez les instructions affichées à l'écran pour lancer le programme de détartrage automatique. Utilisez une solution de détartrage De'Longhi (EcoDecalk)."
+        },
+        {
+          "code": "Voyant Bac à marc plein",
+          "meaning": "Le bac à marc de café a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le, rincez-le si nécessaire, puis replacez-le dans la machine. Assurez-vous que la porte de service est bien fermée."
+        },
+        {
+          "code": "Voyant Réservoir d'eau vide",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau MAX et assurez-vous qu'il est correctement positionné dans son logement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau De'Longhi AquaClean",
+          "part_number": "DLSC002",
+          "frequency": "Tous les 3 mois ou après 400 tasses (selon l'utilisation)",
+          "why_replace": "Prévention de l'accumulation de calcaire, amélioration du goût du café, protection de la machine.",
+          "search_keywords": "DeLonghi PrimaDonna Soul filtre AquaClean DLSC002, filtre DeLonghi ECAM 610.75.MB, filtre à eau DeLonghi DLSC002",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de détartrage De'Longhi EcoDecalk",
+          "part_number": "DLSC500 (pour 500ml)",
+          "frequency": "Lorsque la machine l'indique (généralement tous les 2-3 mois)",
+          "why_replace": "Élimination du calcaire, maintien de la température et de la pression optimales, prolongation de la durée de vie de la machine.",
+          "search_keywords": "DeLonghi PrimaDonna Soul détartrant DLSC500, EcoDecalk DeLonghi ECAM 610.75.MB, détartrant machine à café DeLonghi",
+          "affiliate_url": null
+        },
+        {
+          "name": "Dégraissant pour groupe café De'Longhi",
+          "part_number": "DLSC550 (Tablettes de nettoyage)",
+          "frequency": "Tous les mois ou après 200 tasses",
+          "why_replace": "Élimination des résidus de café et des huiles, maintien de l'hygiène du groupe café, amélioration de la qualité du café.",
+          "search_keywords": "DeLonghi PrimaDonna Soul dégraissant DLSC550, pastilles nettoyage DeLonghi ECAM 610.75.MB, produit nettoyage groupe café DeLonghi",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse de nettoyage pour groupe café",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Nettoyage quotidien du groupe café, remplacement si usée",
+          "why_replace": "Élimination des résidus de café moulus, prévention des obstructions et des mauvaises odeurs.",
+          "search_keywords": "Brosse nettoyage DeLonghi PrimaDonna Soul, brosse groupe café DeLonghi ECAM 610.75.MB, accessoires nettoyage DeLonghi",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je nettoyer le groupe café de ma PrimaDonna Soul?",
+          "answer": "Le groupe café doit être rincé à l'eau claire au moins une fois par semaine. Un nettoyage plus approfondi avec des pastilles dégraissantes est recommandé tous les mois ou après 200 tasses, selon votre utilisation."
+        },
+        {
+          "question": "Ma De'Longhi ECAM 610.75.MB indique Rincer le circuit, que dois-je faire?",
+          "answer": "Ce message apparaît souvent après une période d'inactivité ou après le remplissage du réservoir d'eau. Il suffit de placer un récipient sous la buse café et la buse vapeur, puis de confirmer le rinçage via l'écran pour purger les circuits internes."
+        },
+        {
+          "question": "Comment réinitialiser le voyant Détartrage nécessaire après avoir effectué le détartrage?",
+          "answer": "Normalement, le voyant se réinitialise automatiquement une fois le programme de détartrage terminé avec succès. Si ce n'est pas le cas, assurez-vous d'avoir suivi toutes les étapes du processus et d'avoir utilisé le produit de détartrage recommandé. Redémarrez la machine si nécessaire."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/DeLonghi-PrimaDonna-Soul-ECAM-61075MB---Pièces--Entretien-10-27"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"
