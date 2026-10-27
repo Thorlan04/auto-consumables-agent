@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Combo (DX2C): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Ecovacs Deebot X2 Combo (DX2C)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

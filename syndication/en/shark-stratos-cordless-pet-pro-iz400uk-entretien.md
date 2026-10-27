@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400UK): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Shark Stratos Cordless Pet Pro (IZ400UK)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

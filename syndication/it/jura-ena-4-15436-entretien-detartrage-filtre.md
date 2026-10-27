@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

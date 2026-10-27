@@ -2,7 +2,7 @@
 title: "Saeco GranAroma SM6580/00: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Saeco GranAroma SM6580/00."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica Start ECAM 220.22.GB: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز De'Longhi Magnifica Start ECAM 220.22.GB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-start-ecam-220-22-gb-entretien-detartrage.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

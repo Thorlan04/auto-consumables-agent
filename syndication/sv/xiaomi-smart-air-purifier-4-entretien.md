@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

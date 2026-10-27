@@ -2,7 +2,7 @@
 title: "Dyson Purifier Hot+Cool Formaldehyde (HP09): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Dyson Purifier Hot+Cool Formaldehyde (HP09)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

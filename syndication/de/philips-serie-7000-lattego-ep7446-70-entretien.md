@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Philips Série 7000 LatteGo (EP7446/70)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

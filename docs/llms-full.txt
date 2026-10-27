@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-10-26
-> Total appareils répertoriés : 47
+> Horodatage de génération : 2026-10-27
+> Total appareils répertoriés : 49
 
 ---
 
@@ -1908,5 +1908,87 @@
   **R :** Le groupe café doit être retiré et rincé à l'eau tiède chaque semaine. Laissez-le sécher à l'air libre avant de le réinsérer. Lubrifiez les joints et l'axe du groupe café avec de la graisse silicone Saeco/Philips tous les deux mois.
 - **Q : Mon café a un goût amer ou rance, quelle en est la cause ?**
   **R :** Un goût amer ou rance peut être dû à un groupe café encrassé par des résidus d'huile, un filtre à eau usagé, ou des grains de café de mauvaise qualité. Nettoyez le groupe café avec les pastilles Saeco et remplacez le filtre AquaClean si nécessaire.
+
+---
+
+## Ecovacs Deebot X5 Omni (DX50)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-x5-omni-dx50-entretien.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre Ecovacs Deebot X5 Omni (DX50). Découvrez les consommables à remplacer et les solutions aux codes erreurs pour une performance optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Brosse Principale Coincée | La brosse principale rotative est bloquée par des cheveux ou des débris. | Retournez le robot, ouvrez le capot de la brosse principale, retirez la brosse et nettoyez-la des cheveux et débris. Remontez la brosse et le capot. |
+| Alerte Bac à Poussière Plein | Le bac à poussière du robot ou le sac de la station d'accueil est plein et doit être vidé/remplacé. | Retirez le bac à poussière du robot, videz-le et nettoyez le filtre. Si la station est concernée, remplacez le sac à poussière. |
+| Voyant Réservoir d'Eau Vide | Le réservoir d'eau propre de la station d'accueil est vide, empêchant le lavage des serpillières. | Remplissez le réservoir d'eau propre de la station d'accueil jusqu'au niveau maximum indiqué. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale (brosse en caoutchouc anti-emmêlement) | Réf. constructeur adaptable | Tous les 6-12 mois | Réduction de l'efficacité d'aspiration, bruits anormaux, marques sur le sol. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 3-6 mois (selon usage) | Diminution de la qualité de l'air, perte de puissance d'aspiration, odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21) |
+| Sac à poussière pour station d'accueil | Réf. constructeur adaptable | Tous les 1-2 mois (selon usage) | Réduction de l'efficacité de vidage automatique, mauvaises odeurs, débordement du bac. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21) |
+| Brossettes latérales (paires) | Réf. constructeur adaptable | Tous les 3-6 mois | Moins bonne collecte des débris sur les bords, usure des poils, rayures. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les capteurs du Deebot X5 Omni?**
+  **R :** Utilisez un chiffon doux et sec pour essuyer délicatement les capteurs anti-chute et les capteurs de pare-chocs situés sur le robot. Assurez-vous qu'ils sont exempts de poussière ou de saleté pour éviter les problèmes de navigation.
+- **Q : Mon robot ne retourne pas à la station, que faire?**
+  **R :** Vérifiez que la station d'accueil est branchée et qu'il n'y a pas d'obstacles à proximité. Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Assurez-vous que le robot est à portée de la station.
+- **Q : Puis-je utiliser n'importe quel détergent avec le Deebot X5 Omni?**
+  **R :** Non, il est fortement recommandé d'utiliser uniquement la solution de nettoyage Ecovacs officielle ou de l'eau claire. L'utilisation de détergents non approuvés peut endommager le système de lavage et annuler la garantie.
+
+---
+
+## Roborock Q8 Max (Q8M01-00)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-q8-max-q8m01-00-entretien.html
+- **Résumé d'Entretien :** Guide d'entretien essentiel pour votre Roborock Q8 Max (Q8M01-00). Remplacez les consommables et résolvez les codes erreurs pour une propreté impeccable.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Erreur 1 (Brosse principale bloquée) | La brosse principale est enroulée de cheveux ou de débris, empêchant sa rotation. | Retournez le robot, retirez le capot de la brosse principale, nettoyez la brosse en la débarrassant de tout obstacle. Réinstallez-la correctement. |
+| Erreur 4 (Bac à poussière ou filtre manquant/bloqué) | Le bac à poussière n'est pas inséré, est plein, ou le filtre est obstrué. | Vérifiez que le bac à poussière est correctement installé. Videz le bac et nettoyez le filtre HEPA. Assurez-vous qu'il n'y a pas de blocage dans le conduit d'aspiration. |
+| Erreur 8 (Robot bloqué) | Le robot est bloqué ou suspendu dans les airs, ou ses roues sont coincées. | Déplacez le robot vers un endroit dégagé. Vérifiez que les roues ne sont pas bloquées par des câbles ou des objets, et nettoyez-les si nécessaire. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale Duoroller (double brosse en caoutchouc) | Réf. constructeur adaptable | Tous les 6-12 mois | Perte d'efficacité d'aspiration, bruits anormaux, marques de saleté persistantes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21) |
+| Filtre HEPA lavable | Réf. constructeur adaptable | Tous les 3-6 mois (selon usage) | Diminution de l'aspiration, rejet de poussière fine, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21) |
+| Brossettes latérales (paire) | Réf. constructeur adaptable | Tous les 3-6 mois | Moins bonne collecte des débris sur les bords et dans les coins, usure des poils. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21) |
+| Lingettes de nettoyage (mop pads) | Réf. constructeur adaptable | Tous les 1-3 mois (selon usage et lavage) | Moins bonne capacité de nettoyage, traces d'eau, odeurs, usure du tissu. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment réinitialiser le Roborock Q8 Max?**
+  **R :** Maintenez enfoncés les boutons "Nettoyage ponctuel" et "Retour à la station" pendant 3 à 5 secondes jusqu'à ce que vous entendiez un message vocal de réinitialisation. Cela peut aider à résoudre des problèmes logiciels mineurs.
+- **Q : Puis-je laver les lingettes de nettoyage en machine?**
+  **R :** Oui, les lingettes de nettoyage sont généralement lavables en machine à basse température (max 40°C) sans adoucissant. Laissez-les sécher à l'air libre avant de les réutiliser.
+- **Q : Mon robot fait plus de bruit qu'avant, est-ce normal?**
+  **R :** Une augmentation du bruit peut indiquer que la brosse principale ou les brosses latérales sont encrassées ou usées. Vérifiez et nettoyez ces pièces. Si le bruit persiste, le filtre HEPA pourrait être saturé et nécessiter un remplacement.
 
 ---

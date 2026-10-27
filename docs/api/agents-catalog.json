@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-26T22:28:45.405169+00:00",
-  "total_appliances": 47,
+  "generated_at": "2026-10-27T04:25:54.995379+00:00",
+  "total_appliances": 49,
   "supported_languages": [
     "fr",
     "en",
@@ -7928,6 +7928,376 @@
         {
           "question": "Mon café a un goût amer ou rance, quelle en est la cause ?",
           "answer": "Un goût amer ou rance peut être dû à un groupe café encrassé par des résidus d'huile, un filtre à eau usagé, ou des grains de café de mauvaise qualité. Nettoyez le groupe café avec les pastilles Saeco et remplacez le filtre AquaClean si nécessaire."
+        }
+      ]
+    },
+    {
+      "slug": "ecovacs-deebot-x5-omni-dx50-entretien",
+      "brand": "Ecovacs",
+      "model": "Deebot X5 Omni (DX50)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet d'entretien pour votre Ecovacs Deebot X5 Omni (DX50). Découvrez les consommables à remplacer et les solutions aux codes erreurs pour une performance optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-x5-omni-dx50-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-x5-omni-dx50-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Brosse Principale Coincée",
+          "meaning": "La brosse principale rotative est bloquée par des cheveux ou des débris.",
+          "solution": "Retournez le robot, ouvrez le capot de la brosse principale, retirez la brosse et nettoyez-la des cheveux et débris. Remontez la brosse et le capot."
+        },
+        {
+          "code": "Alerte Bac à Poussière Plein",
+          "meaning": "Le bac à poussière du robot ou le sac de la station d'accueil est plein et doit être vidé/remplacé.",
+          "solution": "Retirez le bac à poussière du robot, videz-le et nettoyez le filtre. Si la station est concernée, remplacez le sac à poussière."
+        },
+        {
+          "code": "Voyant Réservoir d'Eau Vide",
+          "meaning": "Le réservoir d'eau propre de la station d'accueil est vide, empêchant le lavage des serpillières.",
+          "solution": "Remplissez le réservoir d'eau propre de la station d'accueil jusqu'au niveau maximum indiqué."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale (brosse en caoutchouc anti-emmêlement)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Réduction de l'efficacité d'aspiration, bruits anormaux, marques sur le sol.",
+          "search_keywords": "Ecovacs Deebot X5 Omni DX50 brosse principale remplacement, brosse caoutchouc Ecovacs DX50",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois (selon usage)",
+          "why_replace": "Diminution de la qualité de l'air, perte de puissance d'aspiration, odeurs.",
+          "search_keywords": "Filtre HEPA Ecovacs Deebot X5 Omni DX50, filtre à poussière Ecovacs DX50",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sac à poussière pour station d'accueil",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-2 mois (selon usage)",
+          "why_replace": "Réduction de l'efficacité de vidage automatique, mauvaises odeurs, débordement du bac.",
+          "search_keywords": "Sacs poussière Ecovacs Deebot X5 Omni DX50, sac station vidage automatique DX50",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sacs+poussi%C3%A8re+Ecovacs+Deebot+X5+Omni+DX50%2C+sac+station+vidage+automatique+DX50&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brossettes latérales (paires)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Moins bonne collecte des débris sur les bords, usure des poils, rayures.",
+          "search_keywords": "Brossettes latérales Ecovacs Deebot X5 Omni DX50, brosses de bord Ecovacs DX50",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Brossettes+lat%C3%A9rales+Ecovacs+Deebot+X5+Omni+DX50%2C+brosses+de+bord+Ecovacs+DX50&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les capteurs du Deebot X5 Omni?",
+          "answer": "Utilisez un chiffon doux et sec pour essuyer délicatement les capteurs anti-chute et les capteurs de pare-chocs situés sur le robot. Assurez-vous qu'ils sont exempts de poussière ou de saleté pour éviter les problèmes de navigation."
+        },
+        {
+          "question": "Mon robot ne retourne pas à la station, que faire?",
+          "answer": "Vérifiez que la station d'accueil est branchée et qu'il n'y a pas d'obstacles à proximité. Nettoyez les contacts de charge sur le robot et la station avec un chiffon sec. Assurez-vous que le robot est à portée de la station."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quel détergent avec le Deebot X5 Omni?",
+          "answer": "Non, il est fortement recommandé d'utiliser uniquement la solution de nettoyage Ecovacs officielle ou de l'eau claire. L'utilisation de détergents non approuvés peut endommager le système de lavage et annuler la garantie."
+        }
+      ]
+    },
+    {
+      "slug": "roborock-q8-max-q8m01-00-entretien",
+      "brand": "Roborock",
+      "model": "Q8 Max (Q8M01-00)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide d'entretien essentiel pour votre Roborock Q8 Max (Q8M01-00). Remplacez les consommables et résolvez les codes erreurs pour une propreté impeccable.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-q8-max-q8m01-00-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-q8-max-q8m01-00-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-q8-max-q8m01-00-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Erreur 1 (Brosse principale bloquée)",
+          "meaning": "La brosse principale est enroulée de cheveux ou de débris, empêchant sa rotation.",
+          "solution": "Retournez le robot, retirez le capot de la brosse principale, nettoyez la brosse en la débarrassant de tout obstacle. Réinstallez-la correctement."
+        },
+        {
+          "code": "Erreur 4 (Bac à poussière ou filtre manquant/bloqué)",
+          "meaning": "Le bac à poussière n'est pas inséré, est plein, ou le filtre est obstrué.",
+          "solution": "Vérifiez que le bac à poussière est correctement installé. Videz le bac et nettoyez le filtre HEPA. Assurez-vous qu'il n'y a pas de blocage dans le conduit d'aspiration."
+        },
+        {
+          "code": "Erreur 8 (Robot bloqué)",
+          "meaning": "Le robot est bloqué ou suspendu dans les airs, ou ses roues sont coincées.",
+          "solution": "Déplacez le robot vers un endroit dégagé. Vérifiez que les roues ne sont pas bloquées par des câbles ou des objets, et nettoyez-les si nécessaire."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale Duoroller (double brosse en caoutchouc)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Perte d'efficacité d'aspiration, bruits anormaux, marques de saleté persistantes.",
+          "search_keywords": "Brosse Roborock Q8 Max, brosse principale Q8M01-00, Duoroller Roborock Q8 Max",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois (selon usage)",
+          "why_replace": "Diminution de l'aspiration, rejet de poussière fine, mauvaises odeurs.",
+          "search_keywords": "Filtre HEPA Roborock Q8 Max, filtre lavable Q8M01-00, filtre à poussière Roborock Q8 Max",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brossettes latérales (paire)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Moins bonne collecte des débris sur les bords et dans les coins, usure des poils.",
+          "search_keywords": "Brossettes latérales Roborock Q8 Max, brosses de bord Q8M01-00",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Brossettes+lat%C3%A9rales+Roborock+Q8+Max%2C+brosses+de+bord+Q8M01-00&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Lingettes de nettoyage (mop pads)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 1-3 mois (selon usage et lavage)",
+          "why_replace": "Moins bonne capacité de nettoyage, traces d'eau, odeurs, usure du tissu.",
+          "search_keywords": "Lingettes Roborock Q8 Max, serpillières Q8M01-00, mop pads Roborock Q8 Max",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Lingettes+Roborock+Q8+Max%2C+serpilli%C3%A8res+Q8M01-00%2C+mop+pads+Roborock+Q8+Max&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment réinitialiser le Roborock Q8 Max?",
+          "answer": "Maintenez enfoncés les boutons \"Nettoyage ponctuel\" et \"Retour à la station\" pendant 3 à 5 secondes jusqu'à ce que vous entendiez un message vocal de réinitialisation. Cela peut aider à résoudre des problèmes logiciels mineurs."
+        },
+        {
+          "question": "Puis-je laver les lingettes de nettoyage en machine?",
+          "answer": "Oui, les lingettes de nettoyage sont généralement lavables en machine à basse température (max 40°C) sans adoucissant. Laissez-les sécher à l'air libre avant de les réutiliser."
+        },
+        {
+          "question": "Mon robot fait plus de bruit qu'avant, est-ce normal?",
+          "answer": "Une augmentation du bruit peut indiquer que la brosse principale ou les brosses latérales sont encrassées ou usées. Vérifiez et nettoyez ces pièces. Si le bruit persiste, le filtre HEPA pourrait être saturé et nécessiter un remplacement."
         }
       ]
     }

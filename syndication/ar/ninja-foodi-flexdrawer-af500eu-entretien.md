@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

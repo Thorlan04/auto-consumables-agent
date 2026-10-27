@@ -2,7 +2,7 @@
 title: "Entretien et Filtres Dyson Gen5detect SV23 : Guide Complet"
 description: "Maintenez la performance de votre aspirateur Dyson Gen5detect SV23. Découvrez comment nettoyer les filtres, remplacer les brosses et résoudre les alertes courantes."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

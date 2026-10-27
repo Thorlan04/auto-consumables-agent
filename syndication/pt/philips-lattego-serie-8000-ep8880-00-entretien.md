@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Philips LatteGo Série 8000 (EP8880/00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-series-2200-lattego-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

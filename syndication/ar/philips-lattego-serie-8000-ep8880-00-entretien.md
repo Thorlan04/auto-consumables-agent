@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Philips LatteGo Série 8000 (EP8880/00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

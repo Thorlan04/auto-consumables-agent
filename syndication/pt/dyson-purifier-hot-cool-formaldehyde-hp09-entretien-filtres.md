@@ -2,7 +2,7 @@
 title: "Dyson Purifier Hot+Cool Formaldehyde (HP09): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Dyson Purifier Hot+Cool Formaldehyde (HP09)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

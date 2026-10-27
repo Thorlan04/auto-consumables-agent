@@ -38,8 +38,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 
 ---
 
-## 📋 Répertoire des Appareils Traités (47 Modèles Référencés)
-*Dernière synchronisation automatique : 2026-10-26 via GitHub Actions.*
+## 📋 Répertoire des Appareils Traités (49 Modèles Référencés)
+*Dernière synchronisation automatique : 2026-10-27 via GitHub Actions.*
 
 | Marque & Modèle Exact | Catégorie | Fiche Web Interactive | Miroir Haute Autorité (Telegra.ph) | Pièces Clés & Liens Directs Amazon |
 |---|---|---|---|---|
@@ -90,6 +90,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 | **Ecovacs Deebot X2 Omni (DX20)** | Robots Aspirateurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-omni-dx20-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Ecovacs-Deebot-X2-Omni-DX20---Pièces--Entretien-10-26) | • [Brosses latérales (paire)](https://www.amazon.fr/s?k=Ecovacs+Deebot+X2+Omni+brosses+lat%C3%A9rales+202-2313-00000002%2C+brosses+robot+DX20%2C+pi%C3%A8ces+d%C3%A9tach%C3%A9es+Ecovacs+X2&tag=autoconsom-21)<br>• [Filtre HEPA (paire)](https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X2+Omni+202-2313-00000003%2C+filtre+robot+DX20%2C+filtre+anti-allerg%C3%A8ne+Ecovacs+X2&tag=autoconsom-21) |
 | **Bissell CrossWave HydroSteam Pet Pro (3517N)** | Aspirateurs Laveurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Bissell-CrossWave-HydroSteam-Pet-Pro-3517N---Pièces--Entretien-10-26) | • [Rouleau brosse multi-surfaces HydroSteam Pet Pro](https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+rouleau+brosse+3649%2C+brosse+3517N%2C+Bissell+3649&tag=autoconsom-21)<br>• [Filtre HEPA plissé (Post-Moteur)](https://www.amazon.fr/s?k=Bissell+CrossWave+HydroSteam+Pet+Pro+3517N+filtre+HEPA+3645%2C+filtre+aspirateur+3517N&tag=autoconsom-21) |
 | **Saeco GranAroma SM6580/00** | Machines à Café à Grains | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Saeco-GranAroma-SM658000---Pièces--Entretien-10-26) | • [Filtre à eau AquaClean](https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+filtre+AquaClean+CA6903%2F10%2C+filtre+%C3%A0+eau+Philips+Saeco&tag=autoconsom-21)<br>• [Détartrant liquide Saeco/Philips](https://www.amazon.fr/s?k=Saeco+GranAroma+SM6580%2F00+d%C3%A9tartrant+CA6700%2F10%2C+d%C3%A9tartrant+machine+caf%C3%A9+Philips&tag=autoconsom-21) |
+| **Ecovacs Deebot X5 Omni (DX50)** | Robots Aspirateurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Ecovacs-Deebot-X5-Omni-DX50---Pièces--Entretien-10-27) | • [Brosse principale (brosse en caoutchouc anti-emmêlement)](https://www.amazon.fr/s?k=Ecovacs+Deebot+X5+Omni+DX50+brosse+principale+remplacement%2C+brosse+caoutchouc+Ecovacs+DX50&tag=autoconsom-21)<br>• [Filtre HEPA lavable](https://www.amazon.fr/s?k=Filtre+HEPA+Ecovacs+Deebot+X5+Omni+DX50%2C+filtre+%C3%A0+poussi%C3%A8re+Ecovacs+DX50&tag=autoconsom-21) |
+| **Roborock Q8 Max (Q8M01-00)** | Robots Aspirateurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Roborock-Q8-Max-Q8M01-00---Pièces--Entretien-10-27) | • [Brosse principale Duoroller (double brosse en caoutchouc)](https://www.amazon.fr/s?k=Brosse+Roborock+Q8+Max%2C+brosse+principale+Q8M01-00%2C+Duoroller+Roborock+Q8+Max&tag=autoconsom-21)<br>• [Filtre HEPA lavable](https://www.amazon.fr/s?k=Filtre+HEPA+Roborock+Q8+Max%2C+filtre+lavable+Q8M01-00%2C+filtre+%C3%A0+poussi%C3%A8re+Roborock+Q8+Max&tag=autoconsom-21) |
 
 ---
 

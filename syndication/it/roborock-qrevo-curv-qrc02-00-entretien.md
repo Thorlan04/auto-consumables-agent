@@ -2,7 +2,7 @@
 title: "Roborock Qrevo Curv (QRC02-00): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock Qrevo Curv (QRC02-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-qrevo-curv-qrc02-00-entretien.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

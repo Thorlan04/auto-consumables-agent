@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-26"
+published_at: "2026-10-27"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
