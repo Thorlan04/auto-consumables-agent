@@ -2,7 +2,7 @@
 title: "Roborock Qrevo MaxV (QRMV01-00): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Roborock Qrevo MaxV (QRMV01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-qrevo-maxv-qrmv01-00-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

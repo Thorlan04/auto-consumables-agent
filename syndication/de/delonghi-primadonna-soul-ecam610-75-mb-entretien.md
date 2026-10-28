@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für De'Longhi PrimaDonna Soul ECAM 610.75.MB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

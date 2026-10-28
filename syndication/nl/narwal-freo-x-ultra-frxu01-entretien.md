@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Narwal Freo X Ultra (FRXU01)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

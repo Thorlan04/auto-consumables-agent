@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

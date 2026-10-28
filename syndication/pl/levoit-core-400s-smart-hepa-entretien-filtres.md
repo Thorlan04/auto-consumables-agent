@@ -2,7 +2,7 @@
 title: "Levoit Core 400S Smart True HEPA: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Levoit Core 400S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

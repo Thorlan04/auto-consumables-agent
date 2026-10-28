@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

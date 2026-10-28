@@ -2,7 +2,7 @@
 title: "Entretien Philips Série 7000 LatteGo EP7446/70 : Détartrage & Consommables"
 description: "Guide d'entretien pour votre Philips Série 7000 LatteGo EP7446/70. Détartrage, filtres, et solutions aux alertes courantes pour un café parfait."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: 耗材配件、滤网更换与故障代码指南"
 description: "De'Longhi PrimaDonna Soul ECAM 610.75.MB 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

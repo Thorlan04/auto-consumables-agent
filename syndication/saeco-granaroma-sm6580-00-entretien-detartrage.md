@@ -2,7 +2,7 @@
 title: "Entretien Saeco GranAroma SM6580/00: Filtre AquaClean & Détartrage"
 description: "Prolongez la vie de votre Saeco GranAroma SM6580/00. Guide d'entretien, filtres AquaClean et détartrants compatibles pour une machine au top."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

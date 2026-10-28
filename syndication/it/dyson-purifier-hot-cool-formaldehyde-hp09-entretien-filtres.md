@@ -2,7 +2,7 @@
 title: "Dyson Purifier Hot+Cool Formaldehyde (HP09): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Dyson Purifier Hot+Cool Formaldehyde (HP09)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

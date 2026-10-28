@@ -2,7 +2,7 @@
 title: "Philips Airfryer XXL HD9650/90: 交換部品・フィルター・エラーコード解説"
 description: "Philips Airfryer XXL HD9650/90 の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

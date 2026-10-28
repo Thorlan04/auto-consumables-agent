@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 5400 (EP5447/90): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Philips LatteGo Série 5400 (EP5447/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Omni (DX20): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ecovacs Deebot X2 Omni (DX20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

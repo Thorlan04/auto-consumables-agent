@@ -2,7 +2,7 @@
 title: "Entretien Ecovacs Deebot X2 Omni (DX20) : Consommables & Codes Erreur"
 description: "Guide d'entretien essentiel pour votre robot aspirateur Ecovacs Deebot X2 Omni (DX20). Trouvez les brosses, filtres HEPA et solutions aux alertes pour une performance de nettoyage maximale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

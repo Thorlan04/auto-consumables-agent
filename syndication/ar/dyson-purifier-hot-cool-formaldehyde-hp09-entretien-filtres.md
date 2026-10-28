@@ -2,7 +2,7 @@
 title: "Dyson Purifier Hot+Cool Formaldehyde (HP09): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dyson Purifier Hot+Cool Formaldehyde (HP09)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

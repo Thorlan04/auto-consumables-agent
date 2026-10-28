@@ -2,7 +2,7 @@
 title: "Melitta Barista T Smart (F83/0-101): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Melitta Barista T Smart (F83/0-101)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

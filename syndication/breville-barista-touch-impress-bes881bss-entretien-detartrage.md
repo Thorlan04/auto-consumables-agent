@@ -2,7 +2,7 @@
 title: "Entretien Breville Barista Touch Impress (BES881BSS) : Guide Complet Détartrage et Filtres"
 description: "Maintenez votre Breville Barista Touch Impress (BES881BSS) au top de sa performance. Guide d'entretien, détartrage, filtre à eau (PN BES008) et pastilles de nettoyage."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/breville-barista-touch-impress-bes881bss-entretien-detartrage.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

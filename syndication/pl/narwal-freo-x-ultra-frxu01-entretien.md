@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Narwal Freo X Ultra (FRXU01)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

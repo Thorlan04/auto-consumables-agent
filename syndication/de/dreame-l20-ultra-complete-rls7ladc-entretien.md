@@ -2,7 +2,7 @@
 title: "Dreame L20 Ultra Complete (RLS7LADC): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dreame L20 Ultra Complete (RLS7LADC)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

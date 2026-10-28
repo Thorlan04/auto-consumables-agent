@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

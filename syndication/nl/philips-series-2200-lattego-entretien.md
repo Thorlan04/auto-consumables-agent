@@ -2,7 +2,7 @@
 title: "Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Philips Série 2200 / 3200 LatteGo (EP2220 / EP2231)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-series-2200-lattego-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

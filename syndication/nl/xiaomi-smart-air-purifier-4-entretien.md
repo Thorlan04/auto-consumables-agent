@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Xiaomi Smart Air Purifier 4."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

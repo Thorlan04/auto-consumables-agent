@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips Série 3300 LatteGo (EP3347/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

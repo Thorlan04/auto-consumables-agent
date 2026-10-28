@@ -2,7 +2,7 @@
 title: "Entretien De'Longhi PrimaDonna Soul ECAM 610.75.MB : Détartrage & Consommables"
 description: "Guide d'entretien pour votre De'Longhi PrimaDonna Soul ECAM 610.75.MB. Découvrez comment détartrer, remplacer le filtre à eau et entretenir le groupe café pour un café parfait."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

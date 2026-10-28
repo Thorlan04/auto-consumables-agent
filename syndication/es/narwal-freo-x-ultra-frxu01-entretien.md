@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Narwal Freo X Ultra (FRXU01)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

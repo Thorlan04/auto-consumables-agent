@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

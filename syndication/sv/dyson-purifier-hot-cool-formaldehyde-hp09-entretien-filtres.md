@@ -2,7 +2,7 @@
 title: "Dyson Purifier Hot+Cool Formaldehyde (HP09): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dyson Purifier Hot+Cool Formaldehyde (HP09)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

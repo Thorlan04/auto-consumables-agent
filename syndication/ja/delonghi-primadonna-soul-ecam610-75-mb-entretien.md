@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: 交換部品・フィルター・エラーコード解説"
 description: "De'Longhi PrimaDonna Soul ECAM 610.75.MB の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: 交換部品・フィルター・エラーコード解説"
 description: "Dreame H12 Pro の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

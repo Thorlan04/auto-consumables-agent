@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips LatteGo Série 8000 (EP8880/00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

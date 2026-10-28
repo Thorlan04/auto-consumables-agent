@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

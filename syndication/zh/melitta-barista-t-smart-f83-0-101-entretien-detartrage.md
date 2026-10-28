@@ -2,7 +2,7 @@
 title: "Melitta Barista T Smart (F83/0-101): 耗材配件、滤网更换与故障代码指南"
 description: "Melitta Barista T Smart (F83/0-101) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
-published_at: "2026-10-27"
+published_at: "2026-10-28"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
