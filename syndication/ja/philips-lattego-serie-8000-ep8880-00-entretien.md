@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): 交換部品・フィルター・エラーコード解説"
 description: "Philips LatteGo Série 8000 (EP8880/00) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

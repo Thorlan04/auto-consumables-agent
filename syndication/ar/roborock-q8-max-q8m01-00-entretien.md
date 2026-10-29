@@ -2,7 +2,7 @@
 title: "Roborock Q8 Max (Q8M01-00): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Roborock Q8 Max (Q8M01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

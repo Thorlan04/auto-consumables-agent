@@ -2,7 +2,7 @@
 title: "Entretien Ecovacs Deebot X2 Combo (DX2C) : Consommables & Codes Erreurs"
 description: "Guide complet d'entretien pour votre Ecovacs Deebot X2 Combo (DX2C). Découvrez les consommables, leurs références et les solutions aux codes erreurs."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

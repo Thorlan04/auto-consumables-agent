@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X5 Omni (DX50): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Ecovacs Deebot X5 Omni (DX50)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-x5-omni-dx50-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

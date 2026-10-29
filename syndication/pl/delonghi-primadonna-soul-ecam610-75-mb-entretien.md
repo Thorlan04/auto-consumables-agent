@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla De'Longhi PrimaDonna Soul ECAM 610.75.MB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

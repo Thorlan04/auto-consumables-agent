@@ -2,7 +2,7 @@
 title: "Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Dreame L20 Ultra Complete (RLS7LADC): 耗材配件、滤网更换与故障代码指南"
 description: "Dreame L20 Ultra Complete (RLS7LADC) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dreame-l20-ultra-complete-rls7ladc-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

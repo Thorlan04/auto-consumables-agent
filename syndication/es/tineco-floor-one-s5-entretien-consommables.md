@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -4,7 +4,7 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-10-28
+> Horodatage de génération : 2026-10-29
 > Total appareils répertoriés : 51
 
 ---

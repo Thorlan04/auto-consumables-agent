@@ -2,7 +2,7 @@
 title: "Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

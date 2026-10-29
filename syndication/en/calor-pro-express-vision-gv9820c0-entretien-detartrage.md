@@ -2,7 +2,7 @@
 title: "Calor Pro Express Vision GV9820C0: Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Calor Pro Express Vision GV9820C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

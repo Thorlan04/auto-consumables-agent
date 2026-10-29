@@ -2,7 +2,7 @@
 title: "Melitta Barista T Smart (F83/0-101): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Melitta Barista T Smart (F83/0-101)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

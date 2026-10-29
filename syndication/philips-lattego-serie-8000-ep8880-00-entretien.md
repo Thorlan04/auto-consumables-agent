@@ -2,7 +2,7 @@
 title: "Entretien Philips LatteGo Série 8000 EP8880/00 : Consommables & Codes Erreur"
 description: "Guide complet d'entretien pour votre machine à café Philips LatteGo Série 8000 EP8880/00. Découvrez les consommables essentiels, filtres, et solutions aux codes erreurs pour une longévité optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

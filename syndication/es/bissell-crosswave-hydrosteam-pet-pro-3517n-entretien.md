@@ -2,7 +2,7 @@
 title: "Bissell CrossWave HydroSteam Pet Pro (3517N): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Bissell CrossWave HydroSteam Pet Pro (3517N)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

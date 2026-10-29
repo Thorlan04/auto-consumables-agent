@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز De'Longhi PrimaDonna Soul ECAM 610.75.MB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

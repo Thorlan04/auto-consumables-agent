@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400UK): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Shark Stratos Cordless Pet Pro (IZ400UK)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/shark-stratos-cordless-pet-pro-iz400uk-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

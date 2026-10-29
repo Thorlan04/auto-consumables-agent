@@ -2,7 +2,7 @@
 title: "Philips Ovi Smart XXL Connected HD9880/90: Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Philips Ovi Smart XXL Connected HD9880/90."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

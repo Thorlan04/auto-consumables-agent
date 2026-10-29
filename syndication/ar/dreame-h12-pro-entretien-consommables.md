@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

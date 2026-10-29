@@ -2,7 +2,7 @@
 title: "Shark Stratos Cordless Pet Pro (IZ400EU): 交換部品・フィルター・エラーコード解説"
 description: "Shark Stratos Cordless Pet Pro (IZ400EU) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/shark-stratos-cordless-pet-pro-iz400eu-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

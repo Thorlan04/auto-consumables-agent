@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Philips LatteGo Série 8000 (EP8880/00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

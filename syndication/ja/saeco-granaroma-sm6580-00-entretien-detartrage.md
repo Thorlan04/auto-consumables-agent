@@ -2,7 +2,7 @@
 title: "Saeco GranAroma SM6580/00: 交換部品・フィルター・エラーコード解説"
 description: "Saeco GranAroma SM6580/00 の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

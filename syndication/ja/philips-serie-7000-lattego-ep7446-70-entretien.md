@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): 交換部品・フィルター・エラーコード解説"
 description: "Philips Série 7000 LatteGo (EP7446/70) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

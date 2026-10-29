@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Narwal Freo X Ultra (FRXU01)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Entretien et Accessoires Philips Airfryer XXL HD9650/90 : Guide pour des Repas Sains"
 description: "Optimisez votre Philips Airfryer XXL HD9650/90 ! Découvrez les astuces d'entretien, les accessoires indispensables et les FAQ pour des cuissons parfaites."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-airfryer-xxl-hd9650-90-entretien-accessoires.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

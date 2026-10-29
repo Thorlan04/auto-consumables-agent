@@ -2,7 +2,7 @@
 title: "Roborock S8 / S8 Pro Ultra: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Roborock S8 / S8 Pro Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s8-entretien-consommables.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

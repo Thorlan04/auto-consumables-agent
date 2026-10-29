@@ -2,7 +2,7 @@
 title: "Xiaomi Robot Vacuum X20+: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Xiaomi Robot Vacuum X20+."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/xiaomi-robot-vacuum-x20-plus-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

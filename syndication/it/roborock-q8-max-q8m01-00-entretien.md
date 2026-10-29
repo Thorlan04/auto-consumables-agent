@@ -2,7 +2,7 @@
 title: "Roborock Q8 Max (Q8M01-00): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock Q8 Max (Q8M01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

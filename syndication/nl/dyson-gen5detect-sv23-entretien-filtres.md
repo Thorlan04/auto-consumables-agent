@@ -2,7 +2,7 @@
 title: "Dyson Gen5detect SV23: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Dyson Gen5detect SV23."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-gen5detect-sv23-entretien-filtres.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

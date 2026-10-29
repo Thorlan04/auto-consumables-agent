@@ -2,7 +2,7 @@
 title: "Melitta Barista T Smart (F83/0-101): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Melitta Barista T Smart (F83/0-101)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/melitta-barista-t-smart-f83-0-101-entretien-detartrage.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

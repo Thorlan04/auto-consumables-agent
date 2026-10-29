@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-28"
+published_at: "2026-10-29"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
