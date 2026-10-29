@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-29T12:38:08.274063+00:00",
+  "generated_at": "2026-10-29T22:36:56.736042+00:00",
   "total_appliances": 53,
   "supported_languages": [
     "fr",
@@ -8661,7 +8661,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/iRobot-Roomba-Combo-j9-c9750---Pièces--Entretien-10-29",
       "common_codes": [
         {
           "code": "Bac à poussière plein",
@@ -8846,7 +8846,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Sage-Barista-Express-Impress-SES876---Pièces--Entretien-10-29",
       "common_codes": [
         {
           "code": "CLEAN ME (voyant clignotant)",
