@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-29T05:07:25.072398+00:00",
-  "total_appliances": 51,
+  "generated_at": "2026-10-29T12:38:08.274063+00:00",
+  "total_appliances": 53,
   "supported_languages": [
     "fr",
     "en",
@@ -8636,6 +8636,376 @@
         {
           "question": "Comment réinitialiser le voyant Détartrage nécessaire après avoir effectué le détartrage?",
           "answer": "Normalement, le voyant se réinitialise automatiquement une fois le programme de détartrage terminé avec succès. Si ce n'est pas le cas, assurez-vous d'avoir suivi toutes les étapes du processus et d'avoir utilisé le produit de détartrage recommandé. Redémarrez la machine si nécessaire."
+        }
+      ]
+    },
+    {
+      "slug": "irobot-roomba-combo-j9-plus-c9750-entretien",
+      "brand": "iRobot",
+      "model": "Roomba Combo j9+ (c9750)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Maximisez la durée de vie de votre iRobot Roomba Combo j9+ (c9750) avec nos conseils d'entretien, références de filtres, brosses et sacs à poussière.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Bac à poussière plein",
+          "meaning": "Le bac de collecte des débris est saturé.",
+          "solution": "Retirez le bac à poussière, ouvrez le compartiment et videz les débris dans une poubelle. Nettoyez le filtre et réinsérez le bac."
+        },
+        {
+          "code": "Brosse latérale bloquée",
+          "meaning": "Des cheveux ou des débris sont enroulés autour de la brosse latérale, l'empêchant de tourner.",
+          "solution": "Retirez la vis centrale de la brosse latérale, enlevez la brosse, nettoyez les débris et les cheveux, puis remontez-la."
+        },
+        {
+          "code": "Erreur de navigation",
+          "meaning": "Les capteurs du robot sont sales ou obstrués, affectant sa capacité à se déplacer correctement.",
+          "solution": "Nettoyez délicatement les capteurs de saleté et de vide situés sur le pare-chocs et sous le robot avec un chiffon sec. Redémarrez ensuite le robot."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA haute efficacité",
+          "part_number": "4707887",
+          "frequency": "Tous les 2-3 mois",
+          "why_replace": "Diminution de l'efficacité de filtration de l'air, risque d'allergènes et de poussière relâchés dans l'environnement.",
+          "search_keywords": "iRobot Roomba Combo j9+ filtre HEPA c9750 4707887",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosses en caoutchouc multi-surfaces",
+          "part_number": "4707886",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Moins bonne collecte des débris, risque de dommages aux sols ou d'usure prématurée du moteur des brosses.",
+          "search_keywords": "iRobot Roomba Combo j9+ brosses caoutchouc c9750 4707886",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse latérale",
+          "part_number": "4707888",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Moins bonne collecte des débris dans les coins et le long des murs, réduisant l'efficacité du nettoyage.",
+          "search_keywords": "iRobot Roomba Combo j9+ brosse latérale c9750 4707888",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sacs à poussière Clean Base",
+          "part_number": "4707889",
+          "frequency": "Tous les 2 mois",
+          "why_replace": "Saturation du sac, ce qui empêche le robot de vider son bac et peut générer de mauvaises odeurs.",
+          "search_keywords": "iRobot Roomba Combo j9+ sacs poussière c9750 4707889",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment vider correctement le bac à poussière du Roomba Combo j9+?",
+          "answer": "Pour vider le bac à poussière, appuyez sur le bouton de déverrouillage situé à l'arrière du robot, retirez le bac, ouvrez son couvercle et jetez les débris. Nettoyez le filtre et rincez le bac si nécessaire avant de le remettre en place."
+        },
+        {
+          "question": "Mon Roomba Combo j9+ laisse des traces d'eau, que faire?",
+          "answer": "Vérifiez que le réservoir d'eau est correctement rempli, que la lingette de nettoyage est propre et bien fixée sous le robot, et que les buses de pulvérisation ne sont pas obstruées. Si le problème persiste, remplacez la lingette."
+        },
+        {
+          "question": "Comment réinitialiser mon iRobot Roomba Combo j9+?",
+          "answer": "Pour une réinitialisation douce, maintenez le bouton CLEAN (le grand bouton central) enfoncé pendant environ 20 secondes. Le voyant lumineux s'éteindra puis se rallumera, indiquant que le robot a redémarré."
+        }
+      ]
+    },
+    {
+      "slug": "sage-barista-express-impress-ses876-entretien-detartrage",
+      "brand": "Sage",
+      "model": "Barista Express Impress (SES876)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Maintenez votre Sage Barista Express Impress (SES876) en parfait état. Remplacement des filtres, pastilles de nettoyage et détartrage facile.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/sage-barista-express-impress-ses876-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "CLEAN ME (voyant clignotant)",
+          "meaning": "Indique que la machine nécessite un cycle de nettoyage du groupe d'infusion.",
+          "solution": "Placez une pastille de nettoyage dans le filtre simple ou le filtre aveugle, insérez le porte-filtre dans le groupe, puis suivez les instructions du manuel pour lancer le cycle de nettoyage."
+        },
+        {
+          "code": "DESCALE (voyant allumé)",
+          "meaning": "Alerte que la machine a besoin d'un cycle de détartrage pour éliminer les dépôts de calcaire.",
+          "solution": "Remplissez le réservoir d'eau avec la solution de détartrage (eau + produit détartrant), puis suivez la procédure de détartrage détaillée dans le manuel de votre machine."
+        },
+        {
+          "code": "EMPTY ME (voyant bac d'égouttement)",
+          "meaning": "Le bac de récupération d'eau est plein et doit être vidé.",
+          "solution": "Retirez le bac d'égouttement de la machine, videz son contenu et nettoyez-le avant de le remettre en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante ClaroSwiss",
+          "part_number": "BES008",
+          "frequency": "Tous les 2-3 mois ou après 40 litres d'eau filtrée",
+          "why_replace": "Accumulation de calcaire dans la machine, altération du goût du café et risque d'endommagement des composants internes.",
+          "search_keywords": "Sage Barista Express Impress filtre eau BES008 ClaroSwiss",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage pour groupe",
+          "part_number": "BES012",
+          "frequency": "Chaque fois que le voyant 'CLEAN ME' apparaît (environ toutes les 200 tasses)",
+          "why_replace": "Accumulation de résidus d'huile et de café dans le groupe d'infusion, entraînant une obstruction et un mauvais goût du café.",
+          "search_keywords": "Sage Barista Express Impress pastilles nettoyage BES012",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Produit détartrant EcoDecalk",
+          "part_number": "BES010 (ou Réf. constructeur adaptable)",
+          "frequency": "Chaque fois que le voyant 'DESCALE' apparaît (environ tous les 2-3 mois selon l'utilisation et la dureté de l'eau)",
+          "why_replace": "Dépôts de calcaire réduisant l'efficacité du chauffage, la pression de l'eau et la durée de vie de la machine.",
+          "search_keywords": "Sage Barista Express Impress détartrant BES010 EcoDecalk",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Joint de groupe en silicone",
+          "part_number": "BES009",
+          "frequency": "Tous les 12-18 mois ou en cas de fuite",
+          "why_replace": "Usure du joint entraînant des fuites autour du porte-filtre pendant l'extraction et une perte de pression.",
+          "search_keywords": "Sage Barista Express Impress joint groupe BES009 silicone",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment effectuer un cycle de nettoyage avec les pastilles sur ma Sage Barista Express Impress?",
+          "answer": "Insérez le filtre aveugle (disque en caoutchouc) dans le porte-filtre, placez une pastille de nettoyage dessus. Verrouillez le porte-filtre dans le groupe, puis suivez les instructions de votre manuel pour lancer le cycle de nettoyage (généralement en appuyant sur un bouton spécifique ou une combinaison de boutons)."
+        },
+        {
+          "question": "Quelle est la meilleure eau à utiliser pour ma machine Sage SES876?",
+          "answer": "Il est recommandé d'utiliser de l'eau filtrée pour minimiser l'accumulation de calcaire et améliorer le goût de votre café. La cartouche ClaroSwiss aide à filtrer les impuretés et le calcaire de l'eau du réservoir."
+        },
+        {
+          "question": "Le café coule trop lentement ou trop vite, que faire?",
+          "answer": "Si le café coule trop lentement, la mouture est probablement trop fine ou le tassage trop fort. Si le café coule trop vite, la mouture est trop grossière ou le tassage insuffisant. Ajustez la finesse de la mouture via le moulin intégré et la pression de tassage."
         }
       ]
     }

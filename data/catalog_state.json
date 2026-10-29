@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-29T05:07:24.449436+00:00",
-  "total_guides": 51,
+  "last_updated": "2026-10-29T12:38:07.433139+00:00",
+  "total_guides": 53,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -3536,6 +3536,154 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/DeLonghi-PrimaDonna-Soul-ECAM-61075MB---Pièces--Entretien-10-27"
+    },
+    {
+      "slug": "irobot-roomba-combo-j9-plus-c9750-entretien",
+      "title": "Entretien iRobot Roomba Combo j9+ (c9750) : Filtres, Brosses et Sacs à Poussière",
+      "brand": "iRobot",
+      "model": "Roomba Combo j9+ (c9750)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Maximisez la durée de vie de votre iRobot Roomba Combo j9+ (c9750) avec nos conseils d'entretien, références de filtres, brosses et sacs à poussière.",
+      "common_codes": [
+        {
+          "code": "Bac à poussière plein",
+          "meaning": "Le bac de collecte des débris est saturé.",
+          "solution": "Retirez le bac à poussière, ouvrez le compartiment et videz les débris dans une poubelle. Nettoyez le filtre et réinsérez le bac."
+        },
+        {
+          "code": "Brosse latérale bloquée",
+          "meaning": "Des cheveux ou des débris sont enroulés autour de la brosse latérale, l'empêchant de tourner.",
+          "solution": "Retirez la vis centrale de la brosse latérale, enlevez la brosse, nettoyez les débris et les cheveux, puis remontez-la."
+        },
+        {
+          "code": "Erreur de navigation",
+          "meaning": "Les capteurs du robot sont sales ou obstrués, affectant sa capacité à se déplacer correctement.",
+          "solution": "Nettoyez délicatement les capteurs de saleté et de vide situés sur le pare-chocs et sous le robot avec un chiffon sec. Redémarrez ensuite le robot."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre HEPA haute efficacité",
+          "part_number": "4707887",
+          "frequency": "Tous les 2-3 mois",
+          "why_replace": "Diminution de l'efficacité de filtration de l'air, risque d'allergènes et de poussière relâchés dans l'environnement.",
+          "search_keywords": "iRobot Roomba Combo j9+ filtre HEPA c9750 4707887",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosses en caoutchouc multi-surfaces",
+          "part_number": "4707886",
+          "frequency": "Tous les 6-12 mois",
+          "why_replace": "Moins bonne collecte des débris, risque de dommages aux sols ou d'usure prématurée du moteur des brosses.",
+          "search_keywords": "iRobot Roomba Combo j9+ brosses caoutchouc c9750 4707886",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse latérale",
+          "part_number": "4707888",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Moins bonne collecte des débris dans les coins et le long des murs, réduisant l'efficacité du nettoyage.",
+          "search_keywords": "iRobot Roomba Combo j9+ brosse latérale c9750 4707888",
+          "affiliate_url": null
+        },
+        {
+          "name": "Sacs à poussière Clean Base",
+          "part_number": "4707889",
+          "frequency": "Tous les 2 mois",
+          "why_replace": "Saturation du sac, ce qui empêche le robot de vider son bac et peut générer de mauvaises odeurs.",
+          "search_keywords": "iRobot Roomba Combo j9+ sacs poussière c9750 4707889",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment vider correctement le bac à poussière du Roomba Combo j9+?",
+          "answer": "Pour vider le bac à poussière, appuyez sur le bouton de déverrouillage situé à l'arrière du robot, retirez le bac, ouvrez son couvercle et jetez les débris. Nettoyez le filtre et rincez le bac si nécessaire avant de le remettre en place."
+        },
+        {
+          "question": "Mon Roomba Combo j9+ laisse des traces d'eau, que faire?",
+          "answer": "Vérifiez que le réservoir d'eau est correctement rempli, que la lingette de nettoyage est propre et bien fixée sous le robot, et que les buses de pulvérisation ne sont pas obstruées. Si le problème persiste, remplacez la lingette."
+        },
+        {
+          "question": "Comment réinitialiser mon iRobot Roomba Combo j9+?",
+          "answer": "Pour une réinitialisation douce, maintenez le bouton CLEAN (le grand bouton central) enfoncé pendant environ 20 secondes. Le voyant lumineux s'éteindra puis se rallumera, indiquant que le robot a redémarré."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/iRobot-Roomba-Combo-j9-c9750---Pièces--Entretien-10-29"
+    },
+    {
+      "slug": "sage-barista-express-impress-ses876-entretien-detartrage",
+      "title": "Entretien Sage Barista Express Impress (SES876) : Filtres, Nettoyage et Détartrage",
+      "brand": "Sage",
+      "model": "Barista Express Impress (SES876)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Maintenez votre Sage Barista Express Impress (SES876) en parfait état. Remplacement des filtres, pastilles de nettoyage et détartrage facile.",
+      "common_codes": [
+        {
+          "code": "CLEAN ME (voyant clignotant)",
+          "meaning": "Indique que la machine nécessite un cycle de nettoyage du groupe d'infusion.",
+          "solution": "Placez une pastille de nettoyage dans le filtre simple ou le filtre aveugle, insérez le porte-filtre dans le groupe, puis suivez les instructions du manuel pour lancer le cycle de nettoyage."
+        },
+        {
+          "code": "DESCALE (voyant allumé)",
+          "meaning": "Alerte que la machine a besoin d'un cycle de détartrage pour éliminer les dépôts de calcaire.",
+          "solution": "Remplissez le réservoir d'eau avec la solution de détartrage (eau + produit détartrant), puis suivez la procédure de détartrage détaillée dans le manuel de votre machine."
+        },
+        {
+          "code": "EMPTY ME (voyant bac d'égouttement)",
+          "meaning": "Le bac de récupération d'eau est plein et doit être vidé.",
+          "solution": "Retirez le bac d'égouttement de la machine, videz son contenu et nettoyez-le avant de le remettre en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante ClaroSwiss",
+          "part_number": "BES008",
+          "frequency": "Tous les 2-3 mois ou après 40 litres d'eau filtrée",
+          "why_replace": "Accumulation de calcaire dans la machine, altération du goût du café et risque d'endommagement des composants internes.",
+          "search_keywords": "Sage Barista Express Impress filtre eau BES008 ClaroSwiss",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage pour groupe",
+          "part_number": "BES012",
+          "frequency": "Chaque fois que le voyant 'CLEAN ME' apparaît (environ toutes les 200 tasses)",
+          "why_replace": "Accumulation de résidus d'huile et de café dans le groupe d'infusion, entraînant une obstruction et un mauvais goût du café.",
+          "search_keywords": "Sage Barista Express Impress pastilles nettoyage BES012",
+          "affiliate_url": null
+        },
+        {
+          "name": "Produit détartrant EcoDecalk",
+          "part_number": "BES010 (ou Réf. constructeur adaptable)",
+          "frequency": "Chaque fois que le voyant 'DESCALE' apparaît (environ tous les 2-3 mois selon l'utilisation et la dureté de l'eau)",
+          "why_replace": "Dépôts de calcaire réduisant l'efficacité du chauffage, la pression de l'eau et la durée de vie de la machine.",
+          "search_keywords": "Sage Barista Express Impress détartrant BES010 EcoDecalk",
+          "affiliate_url": null
+        },
+        {
+          "name": "Joint de groupe en silicone",
+          "part_number": "BES009",
+          "frequency": "Tous les 12-18 mois ou en cas de fuite",
+          "why_replace": "Usure du joint entraînant des fuites autour du porte-filtre pendant l'extraction et une perte de pression.",
+          "search_keywords": "Sage Barista Express Impress joint groupe BES009 silicone",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment effectuer un cycle de nettoyage avec les pastilles sur ma Sage Barista Express Impress?",
+          "answer": "Insérez le filtre aveugle (disque en caoutchouc) dans le porte-filtre, placez une pastille de nettoyage dessus. Verrouillez le porte-filtre dans le groupe, puis suivez les instructions de votre manuel pour lancer le cycle de nettoyage (généralement en appuyant sur un bouton spécifique ou une combinaison de boutons)."
+        },
+        {
+          "question": "Quelle est la meilleure eau à utiliser pour ma machine Sage SES876?",
+          "answer": "Il est recommandé d'utiliser de l'eau filtrée pour minimiser l'accumulation de calcaire et améliorer le goût de votre café. La cartouche ClaroSwiss aide à filtrer les impuretés et le calcaire de l'eau du réservoir."
+        },
+        {
+          "question": "Le café coule trop lentement ou trop vite, que faire?",
+          "answer": "Si le café coule trop lentement, la mouture est probablement trop fine ou le tassage trop fort. Si le café coule trop vite, la mouture est trop grossière ou le tassage insuffisant. Ajustez la finesse de la mouture via le moulin intégré et la pression de tassage."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Sage-Barista-Express-Impress-SES876---Pièces--Entretien-10-29"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

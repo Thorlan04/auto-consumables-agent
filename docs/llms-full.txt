@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-29
-> Total appareils répertoriés : 51
+> Total appareils répertoriés : 53
 
 ---
 
@@ -2071,5 +2071,87 @@
   **R :** Ce message apparaît souvent après une période d'inactivité ou après le remplissage du réservoir d'eau. Il suffit de placer un récipient sous la buse café et la buse vapeur, puis de confirmer le rinçage via l'écran pour purger les circuits internes.
 - **Q : Comment réinitialiser le voyant Détartrage nécessaire après avoir effectué le détartrage?**
   **R :** Normalement, le voyant se réinitialise automatiquement une fois le programme de détartrage terminé avec succès. Si ce n'est pas le cas, assurez-vous d'avoir suivi toutes les étapes du processus et d'avoir utilisé le produit de détartrage recommandé. Redémarrez la machine si nécessaire.
+
+---
+
+## iRobot Roomba Combo j9+ (c9750)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html
+- **Résumé d'Entretien :** Maximisez la durée de vie de votre iRobot Roomba Combo j9+ (c9750) avec nos conseils d'entretien, références de filtres, brosses et sacs à poussière.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Bac à poussière plein | Le bac de collecte des débris est saturé. | Retirez le bac à poussière, ouvrez le compartiment et videz les débris dans une poubelle. Nettoyez le filtre et réinsérez le bac. |
+| Brosse latérale bloquée | Des cheveux ou des débris sont enroulés autour de la brosse latérale, l'empêchant de tourner. | Retirez la vis centrale de la brosse latérale, enlevez la brosse, nettoyez les débris et les cheveux, puis remontez-la. |
+| Erreur de navigation | Les capteurs du robot sont sales ou obstrués, affectant sa capacité à se déplacer correctement. | Nettoyez délicatement les capteurs de saleté et de vide situés sur le pare-chocs et sous le robot avec un chiffon sec. Redémarrez ensuite le robot. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre HEPA haute efficacité | 4707887 | Tous les 2-3 mois | Diminution de l'efficacité de filtration de l'air, risque d'allergènes et de poussière relâchés dans l'environnement. | [Amazon.fr ↗](https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+filtre+HEPA+c9750+4707887&tag=autoconsom-21) |
+| Brosses en caoutchouc multi-surfaces | 4707886 | Tous les 6-12 mois | Moins bonne collecte des débris, risque de dommages aux sols ou d'usure prématurée du moteur des brosses. | [Amazon.fr ↗](https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosses+caoutchouc+c9750+4707886&tag=autoconsom-21) |
+| Brosse latérale | 4707888 | Tous les 3-6 mois | Moins bonne collecte des débris dans les coins et le long des murs, réduisant l'efficacité du nettoyage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+brosse+lat%C3%A9rale+c9750+4707888&tag=autoconsom-21) |
+| Sacs à poussière Clean Base | 4707889 | Tous les 2 mois | Saturation du sac, ce qui empêche le robot de vider son bac et peut générer de mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=iRobot+Roomba+Combo+j9%2B+sacs+poussi%C3%A8re+c9750+4707889&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment vider correctement le bac à poussière du Roomba Combo j9+?**
+  **R :** Pour vider le bac à poussière, appuyez sur le bouton de déverrouillage situé à l'arrière du robot, retirez le bac, ouvrez son couvercle et jetez les débris. Nettoyez le filtre et rincez le bac si nécessaire avant de le remettre en place.
+- **Q : Mon Roomba Combo j9+ laisse des traces d'eau, que faire?**
+  **R :** Vérifiez que le réservoir d'eau est correctement rempli, que la lingette de nettoyage est propre et bien fixée sous le robot, et que les buses de pulvérisation ne sont pas obstruées. Si le problème persiste, remplacez la lingette.
+- **Q : Comment réinitialiser mon iRobot Roomba Combo j9+?**
+  **R :** Pour une réinitialisation douce, maintenez le bouton CLEAN (le grand bouton central) enfoncé pendant environ 20 secondes. Le voyant lumineux s'éteindra puis se rallumera, indiquant que le robot a redémarré.
+
+---
+
+## Sage Barista Express Impress (SES876)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/sage-barista-express-impress-ses876-entretien-detartrage.html
+- **Résumé d'Entretien :** Maintenez votre Sage Barista Express Impress (SES876) en parfait état. Remplacement des filtres, pastilles de nettoyage et détartrage facile.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| CLEAN ME (voyant clignotant) | Indique que la machine nécessite un cycle de nettoyage du groupe d'infusion. | Placez une pastille de nettoyage dans le filtre simple ou le filtre aveugle, insérez le porte-filtre dans le groupe, puis suivez les instructions du manuel pour lancer le cycle de nettoyage. |
+| DESCALE (voyant allumé) | Alerte que la machine a besoin d'un cycle de détartrage pour éliminer les dépôts de calcaire. | Remplissez le réservoir d'eau avec la solution de détartrage (eau + produit détartrant), puis suivez la procédure de détartrage détaillée dans le manuel de votre machine. |
+| EMPTY ME (voyant bac d'égouttement) | Le bac de récupération d'eau est plein et doit être vidé. | Retirez le bac d'égouttement de la machine, videz son contenu et nettoyez-le avant de le remettre en place. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche filtrante ClaroSwiss | BES008 | Tous les 2-3 mois ou après 40 litres d'eau filtrée | Accumulation de calcaire dans la machine, altération du goût du café et risque d'endommagement des composants internes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Sage+Barista+Express+Impress+filtre+eau+BES008+ClaroSwiss&tag=autoconsom-21) |
+| Pastilles de nettoyage pour groupe | BES012 | Chaque fois que le voyant 'CLEAN ME' apparaît (environ toutes les 200 tasses) | Accumulation de résidus d'huile et de café dans le groupe d'infusion, entraînant une obstruction et un mauvais goût du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Sage+Barista+Express+Impress+pastilles+nettoyage+BES012&tag=autoconsom-21) |
+| Produit détartrant EcoDecalk | BES010 (ou Réf. constructeur adaptable) | Chaque fois que le voyant 'DESCALE' apparaît (environ tous les 2-3 mois selon l'utilisation et la dureté de l'eau) | Dépôts de calcaire réduisant l'efficacité du chauffage, la pression de l'eau et la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Sage+Barista+Express+Impress+d%C3%A9tartrant+BES010+EcoDecalk&tag=autoconsom-21) |
+| Joint de groupe en silicone | BES009 | Tous les 12-18 mois ou en cas de fuite | Usure du joint entraînant des fuites autour du porte-filtre pendant l'extraction et une perte de pression. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Sage+Barista+Express+Impress+joint+groupe+BES009+silicone&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment effectuer un cycle de nettoyage avec les pastilles sur ma Sage Barista Express Impress?**
+  **R :** Insérez le filtre aveugle (disque en caoutchouc) dans le porte-filtre, placez une pastille de nettoyage dessus. Verrouillez le porte-filtre dans le groupe, puis suivez les instructions de votre manuel pour lancer le cycle de nettoyage (généralement en appuyant sur un bouton spécifique ou une combinaison de boutons).
+- **Q : Quelle est la meilleure eau à utiliser pour ma machine Sage SES876?**
+  **R :** Il est recommandé d'utiliser de l'eau filtrée pour minimiser l'accumulation de calcaire et améliorer le goût de votre café. La cartouche ClaroSwiss aide à filtrer les impuretés et le calcaire de l'eau du réservoir.
+- **Q : Le café coule trop lentement ou trop vite, que faire?**
+  **R :** Si le café coule trop lentement, la mouture est probablement trop fine ou le tassage trop fort. Si le café coule trop vite, la mouture est trop grossière ou le tassage insuffisant. Ajustez la finesse de la mouture via le moulin intégré et la pression de tassage.
 
 ---
