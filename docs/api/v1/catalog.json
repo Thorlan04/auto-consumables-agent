@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-30T05:06:59.621240+00:00",
-  "total_appliances": 53,
+  "generated_at": "2026-10-30T12:29:48.259495+00:00",
+  "total_appliances": 55,
   "supported_languages": [
     "fr",
     "en",
@@ -9006,6 +9006,344 @@
         {
           "question": "Le café coule trop lentement ou trop vite, que faire?",
           "answer": "Si le café coule trop lentement, la mouture est probablement trop fine ou le tassage trop fort. Si le café coule trop vite, la mouture est trop grossière ou le tassage insuffisant. Ajustez la finesse de la mouture via le moulin intégré et la pression de tassage."
+        }
+      ]
+    },
+    {
+      "slug": "jura-e4-15462-entretien-detartrage-filtre",
+      "brand": "JURA",
+      "model": "E4 (15462)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet pour l'entretien de votre machine JURA E4 (15462). Découvrez les consommables, filtres Claris Smart (71794) et produits de détartrage (62718) pour une performance optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-e4-15462-entretien-detartrage-filtre.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e4-15462-entretien-detartrage-filtre.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Symbole \"Goutte d'eau\" (réservoir vide)",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche et replacez-le correctement jusqu'à ce qu'il s'enclenche."
+        },
+        {
+          "code": "Symbole \"Claris Smart\" clignotant",
+          "meaning": "Le filtre à eau CLARIS Smart est saturé et doit être remplacé. Si aucun filtre n'est utilisé, ce voyant peut indiquer la nécessité d'un détartrage.",
+          "solution": "Retirez l'ancien filtre, insérez un nouveau filtre CLARIS Smart (71794) et activez-le via le menu de la machine. Si pas de filtre, lancez le programme de détartrage."
+        },
+        {
+          "code": "Symbole \"Bac de récupération\" (bac plein)",
+          "meaning": "Le bac d'égouttement et/ou le récipient de marc de café sont pleins et doivent être vidés.",
+          "solution": "Retirez, videz et nettoyez le bac d'égouttement et le récipient de marc. Replacez-les fermement et assurez-vous qu'ils soient bien enclenchés."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau CLARIS Smart",
+          "part_number": "71794",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau",
+          "why_replace": "Prévient le dépôt de calcaire, améliore la qualité de l'eau et le goût du café, protège la machine.",
+          "search_keywords": "Jura E4 filtre Claris Smart 71794, cartouche filtrante Jura E4, filtre eau machine café Jura",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de détartrage JURA",
+          "part_number": "62718",
+          "frequency": "Tous les 3 à 4 mois ou lorsque la machine le signale (si pas de filtre)",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les conduits et altérer le goût du café, prolonge la durée de vie de la machine.",
+          "search_keywords": "Jura E4 pastilles détartrage 62718, détartrant Jura E4, produit détartrage machine café",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage JURA",
+          "part_number": "62715",
+          "frequency": "Tous les 180 cafés ou lorsque la machine le demande",
+          "why_replace": "Élimine les huiles de café et les résidus qui encrassent le groupe de percolation, assure une hygiène parfaite et un arôme optimal.",
+          "search_keywords": "Jura E4 pastilles nettoyage 62715, nettoyage groupe café Jura E4, pastilles Jura expresso",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand ma Jura E4 a besoin d'être détartrée ou que le filtre est à changer ?",
+          "answer": "Votre machine JURA E4 affichera un symbole spécifique (symbole Claris Smart clignotant pour le filtre, ou un message texte pour le détartrage si vous n'utilisez pas de filtre) pour vous indiquer qu'un entretien est nécessaire. Suivez les instructions à l'écran."
+        },
+        {
+          "question": "Puis-je utiliser des produits de détartrage ou des filtres d'autres marques pour ma JURA E4 ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement les filtres à eau CLARIS Smart et les produits d'entretien JURA d'origine (références 71794, 62718, 62715) pour garantir le bon fonctionnement de votre machine, préserver la garantie et obtenir la meilleure qualité de café."
+        },
+        {
+          "question": "Comment nettoyer l'extérieur de ma machine JURA E4 ?",
+          "answer": "Pour nettoyer l'extérieur, utilisez un chiffon doux et humide. N'utilisez jamais de produits abrasifs ou de solvants. Essuyez régulièrement le bac d'égouttement et le récipient de marc de café."
+        }
+      ]
+    },
+    {
+      "slug": "roborock-s7-max-ultra-s7mu02-00-entretien-consommables",
+      "brand": "Roborock",
+      "model": "S7 Max Ultra (S7MU02-00)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet pour l'entretien de votre Roborock S7 Max Ultra (S7MU02-00). Remplacez filtres, brosses et sacs pour une performance de nettoyage optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Erreur 1 : Vérifiez le bac à poussière et la brosse principale.",
+          "meaning": "Le bac à poussière est plein, mal inséré, ou la brosse principale est bloquée par des débris.",
+          "solution": "Videz le bac à poussière et assurez-vous qu'il est correctement inséré. Retirez la brosse principale et nettoyez-la pour éliminer cheveux et débris."
+        },
+        {
+          "code": "Erreur 4 : Réservoir d'eau sale plein (station)",
+          "meaning": "Le réservoir d'eau sale de la station d'accueil est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station, videz-le, rincez-le et replacez-le fermement."
+        },
+        {
+          "code": "Erreur 8 : Capteur de falaise sale",
+          "meaning": "Les capteurs de vide (anti-chute) sont encrassés.",
+          "solution": "Retournez le robot et nettoyez délicatement les quatre capteurs de falaise situés sous l'appareil à l'aide d'un chiffon sec."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "9.01.0772",
+          "frequency": "Tous les 6 à 12 mois, ou si usure visible",
+          "why_replace": "Une brosse usée réduit l'efficacité d'aspiration, peut rayer les sols et s'emmêler plus facilement avec les cheveux.",
+          "search_keywords": "Roborock S7 Max Ultra brosse principale 9.01.0772, brosse caoutchouc Roborock S7MU02-00, rouleau brosse Roborock S7 Max Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "9.01.0774",
+          "frequency": "Tous les 6 à 12 mois, ou si encrassé et non nettoyable",
+          "why_replace": "Un filtre encrassé diminue la puissance d'aspiration, libère des allergènes dans l'air et peut endommager le moteur.",
+          "search_keywords": "Roborock S7 Max Ultra filtre HEPA 9.01.0774, filtre lavable Roborock S7MU02-00, filtre aspirateur Roborock",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Brosse latérale en silicone",
+          "part_number": "9.01.0773",
+          "frequency": "Tous les 3 à 6 mois, ou si les brins sont tordus/cassés",
+          "why_replace": "Une brosse latérale usée ou déformée ne ramasse plus efficacement la poussière le long des murs et dans les coins.",
+          "search_keywords": "Roborock S7 Max Ultra brosse latérale 9.01.0773, brosse côté Roborock S7MU02-00, brosse rotative Roborock S7 Max Ultra",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Sacs à poussière pour station de vidage automatique",
+          "part_number": "9.01.0775",
+          "frequency": "Tous les 1 à 2 mois (selon l'utilisation et la taille du foyer)",
+          "why_replace": "Un sac plein empêche la vidange automatique du robot, réduit l'efficacité de la station et peut causer des odeurs.",
+          "search_keywords": "Roborock S7 Max Ultra sacs poussière 9.01.0775, sac vidage automatique Roborock S7MU02-00, sac station Roborock",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je vider et nettoyer les réservoirs d'eau de la station du Roborock S7 Max Ultra ?",
+          "answer": "Il est recommandé de vider le réservoir d'eau sale après chaque cycle de nettoyage et de le rincer. Le réservoir d'eau propre doit être rempli avant chaque utilisation. Nettoyez les deux réservoirs régulièrement pour éviter les dépôts et les odeurs."
+        },
+        {
+          "question": "Le Roborock S7 Max Ultra peut-il laver les serpillières automatiquement ?",
+          "answer": "Oui, la station d'accueil du S7 Max Ultra nettoie automatiquement la serpillière du robot et la sèche à l'air chaud pour éviter les mauvaises odeurs et la prolifération bactérienne. Assurez-vous que le réservoir d'eau propre est rempli et le réservoir d'eau sale vidé."
+        },
+        {
+          "question": "Comment éviter que les cheveux n'emmêlent la brosse principale de mon Roborock S7 Max Ultra ?",
+          "answer": "La brosse principale en caoutchouc du S7 Max Ultra est conçue pour minimiser les emmêlements. Cependant, un nettoyage régulier (hebdomadaire) de la brosse est recommandé. Utilisez l'outil de nettoyage fourni pour couper et retirer les cheveux et les fibres enroulés."
         }
       ]
     }

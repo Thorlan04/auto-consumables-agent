@@ -70,6 +70,7 @@
 - [Saeco GranAroma SM6580/00](https://thorlan04.github.io/auto-consumables-agent/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [De'Longhi PrimaDonna Soul ECAM 610.75.MB](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Sage Barista Express Impress (SES876)](https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [JURA E4 (15462)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -91,6 +92,7 @@
 - [Ecovacs Deebot X5 Omni (DX50)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock Q8 Max (Q8M01-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [iRobot Roomba Combo j9+ (c9750)](https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Roborock S7 Max Ultra (S7MU02-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

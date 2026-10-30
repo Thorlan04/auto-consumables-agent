@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-30T05:06:58.875809+00:00",
-  "total_guides": 53,
+  "last_updated": "2026-10-30T12:29:47.348210+00:00",
+  "total_guides": 55,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -3684,6 +3684,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Sage-Barista-Express-Impress-SES876---Pièces--Entretien-10-29"
+    },
+    {
+      "slug": "jura-e4-15462-entretien-detartrage-filtre",
+      "title": "Entretien et Consommables Machine à Café JURA E4 (15462) : Détartrage, Filtre Claris Smart",
+      "brand": "JURA",
+      "model": "E4 (15462)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide complet pour l'entretien de votre machine JURA E4 (15462). Découvrez les consommables, filtres Claris Smart (71794) et produits de détartrage (62718) pour une performance optimale.",
+      "common_codes": [
+        {
+          "code": "Symbole \"Goutte d'eau\" (réservoir vide)",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche et replacez-le correctement jusqu'à ce qu'il s'enclenche."
+        },
+        {
+          "code": "Symbole \"Claris Smart\" clignotant",
+          "meaning": "Le filtre à eau CLARIS Smart est saturé et doit être remplacé. Si aucun filtre n'est utilisé, ce voyant peut indiquer la nécessité d'un détartrage.",
+          "solution": "Retirez l'ancien filtre, insérez un nouveau filtre CLARIS Smart (71794) et activez-le via le menu de la machine. Si pas de filtre, lancez le programme de détartrage."
+        },
+        {
+          "code": "Symbole \"Bac de récupération\" (bac plein)",
+          "meaning": "Le bac d'égouttement et/ou le récipient de marc de café sont pleins et doivent être vidés.",
+          "solution": "Retirez, videz et nettoyez le bac d'égouttement et le récipient de marc. Replacez-les fermement et assurez-vous qu'ils soient bien enclenchés."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau CLARIS Smart",
+          "part_number": "71794",
+          "frequency": "Tous les 2 mois ou après 50 litres d'eau",
+          "why_replace": "Prévient le dépôt de calcaire, améliore la qualité de l'eau et le goût du café, protège la machine.",
+          "search_keywords": "Jura E4 filtre Claris Smart 71794, cartouche filtrante Jura E4, filtre eau machine café Jura",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de détartrage JURA",
+          "part_number": "62718",
+          "frequency": "Tous les 3 à 4 mois ou lorsque la machine le signale (si pas de filtre)",
+          "why_replace": "Élimine les dépôts de calcaire qui peuvent obstruer les conduits et altérer le goût du café, prolonge la durée de vie de la machine.",
+          "search_keywords": "Jura E4 pastilles détartrage 62718, détartrant Jura E4, produit détartrage machine café",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage JURA",
+          "part_number": "62715",
+          "frequency": "Tous les 180 cafés ou lorsque la machine le demande",
+          "why_replace": "Élimine les huiles de café et les résidus qui encrassent le groupe de percolation, assure une hygiène parfaite et un arôme optimal.",
+          "search_keywords": "Jura E4 pastilles nettoyage 62715, nettoyage groupe café Jura E4, pastilles Jura expresso",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand ma Jura E4 a besoin d'être détartrée ou que le filtre est à changer ?",
+          "answer": "Votre machine JURA E4 affichera un symbole spécifique (symbole Claris Smart clignotant pour le filtre, ou un message texte pour le détartrage si vous n'utilisez pas de filtre) pour vous indiquer qu'un entretien est nécessaire. Suivez les instructions à l'écran."
+        },
+        {
+          "question": "Puis-je utiliser des produits de détartrage ou des filtres d'autres marques pour ma JURA E4 ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement les filtres à eau CLARIS Smart et les produits d'entretien JURA d'origine (références 71794, 62718, 62715) pour garantir le bon fonctionnement de votre machine, préserver la garantie et obtenir la meilleure qualité de café."
+        },
+        {
+          "question": "Comment nettoyer l'extérieur de ma machine JURA E4 ?",
+          "answer": "Pour nettoyer l'extérieur, utilisez un chiffon doux et humide. N'utilisez jamais de produits abrasifs ou de solvants. Essuyez régulièrement le bac d'égouttement et le récipient de marc de café."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/JURA-E4-15462---Pièces--Entretien-10-30"
+    },
+    {
+      "slug": "roborock-s7-max-ultra-s7mu02-00-entretien-consommables",
+      "title": "Entretien et Consommables Robot Aspirateur Laveur Roborock S7 Max Ultra (S7MU02-00)",
+      "brand": "Roborock",
+      "model": "S7 Max Ultra (S7MU02-00)",
+      "category": "Robots Aspirateurs",
+      "meta_description": "Guide complet pour l'entretien de votre Roborock S7 Max Ultra (S7MU02-00). Remplacez filtres, brosses et sacs pour une performance de nettoyage optimale.",
+      "common_codes": [
+        {
+          "code": "Erreur 1 : Vérifiez le bac à poussière et la brosse principale.",
+          "meaning": "Le bac à poussière est plein, mal inséré, ou la brosse principale est bloquée par des débris.",
+          "solution": "Videz le bac à poussière et assurez-vous qu'il est correctement inséré. Retirez la brosse principale et nettoyez-la pour éliminer cheveux et débris."
+        },
+        {
+          "code": "Erreur 4 : Réservoir d'eau sale plein (station)",
+          "meaning": "Le réservoir d'eau sale de la station d'accueil est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale de la station, videz-le, rincez-le et replacez-le fermement."
+        },
+        {
+          "code": "Erreur 8 : Capteur de falaise sale",
+          "meaning": "Les capteurs de vide (anti-chute) sont encrassés.",
+          "solution": "Retournez le robot et nettoyez délicatement les quatre capteurs de falaise situés sous l'appareil à l'aide d'un chiffon sec."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Brosse principale en caoutchouc",
+          "part_number": "9.01.0772",
+          "frequency": "Tous les 6 à 12 mois, ou si usure visible",
+          "why_replace": "Une brosse usée réduit l'efficacité d'aspiration, peut rayer les sols et s'emmêler plus facilement avec les cheveux.",
+          "search_keywords": "Roborock S7 Max Ultra brosse principale 9.01.0772, brosse caoutchouc Roborock S7MU02-00, rouleau brosse Roborock S7 Max Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA lavable",
+          "part_number": "9.01.0774",
+          "frequency": "Tous les 6 à 12 mois, ou si encrassé et non nettoyable",
+          "why_replace": "Un filtre encrassé diminue la puissance d'aspiration, libère des allergènes dans l'air et peut endommager le moteur.",
+          "search_keywords": "Roborock S7 Max Ultra filtre HEPA 9.01.0774, filtre lavable Roborock S7MU02-00, filtre aspirateur Roborock",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse latérale en silicone",
+          "part_number": "9.01.0773",
+          "frequency": "Tous les 3 à 6 mois, ou si les brins sont tordus/cassés",
+          "why_replace": "Une brosse latérale usée ou déformée ne ramasse plus efficacement la poussière le long des murs et dans les coins.",
+          "search_keywords": "Roborock S7 Max Ultra brosse latérale 9.01.0773, brosse côté Roborock S7MU02-00, brosse rotative Roborock S7 Max Ultra",
+          "affiliate_url": null
+        },
+        {
+          "name": "Sacs à poussière pour station de vidage automatique",
+          "part_number": "9.01.0775",
+          "frequency": "Tous les 1 à 2 mois (selon l'utilisation et la taille du foyer)",
+          "why_replace": "Un sac plein empêche la vidange automatique du robot, réduit l'efficacité de la station et peut causer des odeurs.",
+          "search_keywords": "Roborock S7 Max Ultra sacs poussière 9.01.0775, sac vidage automatique Roborock S7MU02-00, sac station Roborock",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je vider et nettoyer les réservoirs d'eau de la station du Roborock S7 Max Ultra ?",
+          "answer": "Il est recommandé de vider le réservoir d'eau sale après chaque cycle de nettoyage et de le rincer. Le réservoir d'eau propre doit être rempli avant chaque utilisation. Nettoyez les deux réservoirs régulièrement pour éviter les dépôts et les odeurs."
+        },
+        {
+          "question": "Le Roborock S7 Max Ultra peut-il laver les serpillières automatiquement ?",
+          "answer": "Oui, la station d'accueil du S7 Max Ultra nettoie automatiquement la serpillière du robot et la sèche à l'air chaud pour éviter les mauvaises odeurs et la prolifération bactérienne. Assurez-vous que le réservoir d'eau propre est rempli et le réservoir d'eau sale vidé."
+        },
+        {
+          "question": "Comment éviter que les cheveux n'emmêlent la brosse principale de mon Roborock S7 Max Ultra ?",
+          "answer": "La brosse principale en caoutchouc du S7 Max Ultra est conçue pour minimiser les emmêlements. Cependant, un nettoyage régulier (hebdomadaire) de la brosse est recommandé. Utilisez l'outil de nettoyage fourni pour couper et retirer les cheveux et les fibres enroulés."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Roborock-S7-Max-Ultra-S7MU02-00---Pièces--Entretien-10-30"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

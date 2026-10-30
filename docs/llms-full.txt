@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-30
-> Total appareils répertoriés : 53
+> Total appareils répertoriés : 55
 
 ---
 
@@ -2153,5 +2153,86 @@
   **R :** Il est recommandé d'utiliser de l'eau filtrée pour minimiser l'accumulation de calcaire et améliorer le goût de votre café. La cartouche ClaroSwiss aide à filtrer les impuretés et le calcaire de l'eau du réservoir.
 - **Q : Le café coule trop lentement ou trop vite, que faire?**
   **R :** Si le café coule trop lentement, la mouture est probablement trop fine ou le tassage trop fort. Si le café coule trop vite, la mouture est trop grossière ou le tassage insuffisant. Ajustez la finesse de la mouture via le moulin intégré et la pression de tassage.
+
+---
+
+## JURA E4 (15462)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e4-15462-entretien-detartrage-filtre.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien de votre machine JURA E4 (15462). Découvrez les consommables, filtres Claris Smart (71794) et produits de détartrage (62718) pour une performance optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Symbole "Goutte d'eau" (réservoir vide) | Le réservoir d'eau est vide ou mal inséré. | Remplissez le réservoir d'eau fraîche et replacez-le correctement jusqu'à ce qu'il s'enclenche. |
+| Symbole "Claris Smart" clignotant | Le filtre à eau CLARIS Smart est saturé et doit être remplacé. Si aucun filtre n'est utilisé, ce voyant peut indiquer la nécessité d'un détartrage. | Retirez l'ancien filtre, insérez un nouveau filtre CLARIS Smart (71794) et activez-le via le menu de la machine. Si pas de filtre, lancez le programme de détartrage. |
+| Symbole "Bac de récupération" (bac plein) | Le bac d'égouttement et/ou le récipient de marc de café sont pleins et doivent être vidés. | Retirez, videz et nettoyez le bac d'égouttement et le récipient de marc. Replacez-les fermement et assurez-vous qu'ils soient bien enclenchés. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau CLARIS Smart | 71794 | Tous les 2 mois ou après 50 litres d'eau | Prévient le dépôt de calcaire, améliore la qualité de l'eau et le goût du café, protège la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E4+filtre+Claris+Smart+71794%2C+cartouche+filtrante+Jura+E4%2C+filtre+eau+machine+caf%C3%A9+Jura&tag=autoconsom-21) |
+| Pastilles de détartrage JURA | 62718 | Tous les 3 à 4 mois ou lorsque la machine le signale (si pas de filtre) | Élimine les dépôts de calcaire qui peuvent obstruer les conduits et altérer le goût du café, prolonge la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E4+pastilles+d%C3%A9tartrage+62718%2C+d%C3%A9tartrant+Jura+E4%2C+produit+d%C3%A9tartrage+machine+caf%C3%A9&tag=autoconsom-21) |
+| Pastilles de nettoyage JURA | 62715 | Tous les 180 cafés ou lorsque la machine le demande | Élimine les huiles de café et les résidus qui encrassent le groupe de percolation, assure une hygiène parfaite et un arôme optimal. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E4+pastilles+nettoyage+62715%2C+nettoyage+groupe+caf%C3%A9+Jura+E4%2C+pastilles+Jura+expresso&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment savoir quand ma Jura E4 a besoin d'être détartrée ou que le filtre est à changer ?**
+  **R :** Votre machine JURA E4 affichera un symbole spécifique (symbole Claris Smart clignotant pour le filtre, ou un message texte pour le détartrage si vous n'utilisez pas de filtre) pour vous indiquer qu'un entretien est nécessaire. Suivez les instructions à l'écran.
+- **Q : Puis-je utiliser des produits de détartrage ou des filtres d'autres marques pour ma JURA E4 ?**
+  **R :** Il est fortement recommandé d'utiliser uniquement les filtres à eau CLARIS Smart et les produits d'entretien JURA d'origine (références 71794, 62718, 62715) pour garantir le bon fonctionnement de votre machine, préserver la garantie et obtenir la meilleure qualité de café.
+- **Q : Comment nettoyer l'extérieur de ma machine JURA E4 ?**
+  **R :** Pour nettoyer l'extérieur, utilisez un chiffon doux et humide. N'utilisez jamais de produits abrasifs ou de solvants. Essuyez régulièrement le bac d'égouttement et le récipient de marc de café.
+
+---
+
+## Roborock S7 Max Ultra (S7MU02-00)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien de votre Roborock S7 Max Ultra (S7MU02-00). Remplacez filtres, brosses et sacs pour une performance de nettoyage optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Erreur 1 : Vérifiez le bac à poussière et la brosse principale. | Le bac à poussière est plein, mal inséré, ou la brosse principale est bloquée par des débris. | Videz le bac à poussière et assurez-vous qu'il est correctement inséré. Retirez la brosse principale et nettoyez-la pour éliminer cheveux et débris. |
+| Erreur 4 : Réservoir d'eau sale plein (station) | Le réservoir d'eau sale de la station d'accueil est plein et doit être vidé. | Retirez le réservoir d'eau sale de la station, videz-le, rincez-le et replacez-le fermement. |
+| Erreur 8 : Capteur de falaise sale | Les capteurs de vide (anti-chute) sont encrassés. | Retournez le robot et nettoyez délicatement les quatre capteurs de falaise situés sous l'appareil à l'aide d'un chiffon sec. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Brosse principale en caoutchouc | 9.01.0772 | Tous les 6 à 12 mois, ou si usure visible | Une brosse usée réduit l'efficacité d'aspiration, peut rayer les sols et s'emmêler plus facilement avec les cheveux. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+principale+9.01.0772%2C+brosse+caoutchouc+Roborock+S7MU02-00%2C+rouleau+brosse+Roborock+S7+Max+Ultra&tag=autoconsom-21) |
+| Filtre HEPA lavable | 9.01.0774 | Tous les 6 à 12 mois, ou si encrassé et non nettoyable | Un filtre encrassé diminue la puissance d'aspiration, libère des allergènes dans l'air et peut endommager le moteur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+filtre+HEPA+9.01.0774%2C+filtre+lavable+Roborock+S7MU02-00%2C+filtre+aspirateur+Roborock&tag=autoconsom-21) |
+| Brosse latérale en silicone | 9.01.0773 | Tous les 3 à 6 mois, ou si les brins sont tordus/cassés | Une brosse latérale usée ou déformée ne ramasse plus efficacement la poussière le long des murs et dans les coins. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+brosse+lat%C3%A9rale+9.01.0773%2C+brosse+c%C3%B4t%C3%A9+Roborock+S7MU02-00%2C+brosse+rotative+Roborock+S7+Max+Ultra&tag=autoconsom-21) |
+| Sacs à poussière pour station de vidage automatique | 9.01.0775 | Tous les 1 à 2 mois (selon l'utilisation et la taille du foyer) | Un sac plein empêche la vidange automatique du robot, réduit l'efficacité de la station et peut causer des odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Roborock+S7+Max+Ultra+sacs+poussi%C3%A8re+9.01.0775%2C+sac+vidage+automatique+Roborock+S7MU02-00%2C+sac+station+Roborock&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je vider et nettoyer les réservoirs d'eau de la station du Roborock S7 Max Ultra ?**
+  **R :** Il est recommandé de vider le réservoir d'eau sale après chaque cycle de nettoyage et de le rincer. Le réservoir d'eau propre doit être rempli avant chaque utilisation. Nettoyez les deux réservoirs régulièrement pour éviter les dépôts et les odeurs.
+- **Q : Le Roborock S7 Max Ultra peut-il laver les serpillières automatiquement ?**
+  **R :** Oui, la station d'accueil du S7 Max Ultra nettoie automatiquement la serpillière du robot et la sèche à l'air chaud pour éviter les mauvaises odeurs et la prolifération bactérienne. Assurez-vous que le réservoir d'eau propre est rempli et le réservoir d'eau sale vidé.
+- **Q : Comment éviter que les cheveux n'emmêlent la brosse principale de mon Roborock S7 Max Ultra ?**
+  **R :** La brosse principale en caoutchouc du S7 Max Ultra est conçue pour minimiser les emmêlements. Cependant, un nettoyage régulier (hebdomadaire) de la brosse est recommandé. Utilisez l'outil de nettoyage fourni pour couper et retirer les cheveux et les fibres enroulés.
 
 ---
