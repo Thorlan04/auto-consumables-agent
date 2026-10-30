@@ -2,7 +2,7 @@
 title: "De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-s-entretien-consommables.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

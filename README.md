@@ -39,7 +39,7 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 ---
 
 ## 📋 Répertoire des Appareils Traités (53 Modèles Référencés)
-*Dernière synchronisation automatique : 2026-10-29 via GitHub Actions.*
+*Dernière synchronisation automatique : 2026-10-30 via GitHub Actions.*
 
 | Marque & Modèle Exact | Catégorie | Fiche Web Interactive | Miroir Haute Autorité (Telegra.ph) | Pièces Clés & Liens Directs Amazon |
 |---|---|---|---|---|

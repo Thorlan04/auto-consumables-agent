@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 5400 (EP5447/90): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Philips LatteGo Série 5400 (EP5447/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-lattego-serie-5400-ep5447-90-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

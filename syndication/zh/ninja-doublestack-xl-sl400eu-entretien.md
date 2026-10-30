@@ -2,7 +2,7 @@
 title: "Ninja DoubleStack XL 9,5L (SL400EU): 耗材配件、滤网更换与故障代码指南"
 description: "Ninja DoubleStack XL 9,5L (SL400EU) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-doublestack-xl-sl400eu-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

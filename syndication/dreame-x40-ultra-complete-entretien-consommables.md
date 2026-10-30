@@ -2,7 +2,7 @@
 title: "Entretien Dreame X40 Ultra Complete : Filtres, Brosses & Pièces détachées"
 description: "Guide d'entretien pour votre robot Dreame X40 Ultra Complete. Trouvez les filtres HEPA, brosses latérales et accessoires pour une performance optimale. Réf. PN inclus."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dreame-x40-ultra-complete-entretien-consommables.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

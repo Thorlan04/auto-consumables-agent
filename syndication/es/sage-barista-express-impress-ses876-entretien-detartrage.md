@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Sage Barista Express Impress (SES876)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

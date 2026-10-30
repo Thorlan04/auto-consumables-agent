@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): 耗材配件、滤网更换与故障代码指南"
 description: "Sage Barista Express Impress (SES876) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

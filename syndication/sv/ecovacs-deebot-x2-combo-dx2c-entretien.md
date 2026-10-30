@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Combo (DX2C): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Ecovacs Deebot X2 Combo (DX2C)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-x2-combo-dx2c-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

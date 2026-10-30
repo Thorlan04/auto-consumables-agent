@@ -2,7 +2,7 @@
 title: "Narwal Freo X Ultra (FRXU01): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Narwal Freo X Ultra (FRXU01)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/narwal-freo-x-ultra-frxu01-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "iRobot Roomba Combo j9+ (c9750): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز iRobot Roomba Combo j9+ (c9750)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

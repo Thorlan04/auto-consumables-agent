@@ -2,7 +2,7 @@
 title: "Roborock Q8 Max (Q8M01-00): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Roborock Q8 Max (Q8M01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

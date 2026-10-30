@@ -2,7 +2,7 @@
 title: "Ninja Foodi FlexDrawer AF500EU: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Ninja Foodi FlexDrawer AF500EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-flexdrawer-af500eu-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

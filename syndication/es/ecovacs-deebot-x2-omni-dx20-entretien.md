@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Omni (DX20): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Ecovacs Deebot X2 Omni (DX20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

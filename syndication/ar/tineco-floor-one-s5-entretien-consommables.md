@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

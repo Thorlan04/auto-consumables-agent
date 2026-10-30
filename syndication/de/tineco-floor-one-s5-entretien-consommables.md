@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

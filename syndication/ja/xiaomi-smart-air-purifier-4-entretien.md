@@ -2,7 +2,7 @@
 title: "Xiaomi Smart Air Purifier 4: 交換部品・フィルター・エラーコード解説"
 description: "Xiaomi Smart Air Purifier 4 の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/xiaomi-smart-air-purifier-4-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

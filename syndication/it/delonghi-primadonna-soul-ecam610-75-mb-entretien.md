@@ -2,7 +2,7 @@
 title: "De'Longhi PrimaDonna Soul ECAM 610.75.MB: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per De'Longhi PrimaDonna Soul ECAM 610.75.MB."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-primadonna-soul-ecam610-75-mb-entretien.html"
-published_at: "2026-10-29"
+published_at: "2026-10-30"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
