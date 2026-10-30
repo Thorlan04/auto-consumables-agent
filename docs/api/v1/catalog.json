@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-30T12:29:48.259495+00:00",
+  "generated_at": "2026-10-30T22:06:01.389314+00:00",
   "total_appliances": 55,
   "supported_languages": [
     "fr",
@@ -9031,7 +9031,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-e4-15462-entretien-detartrage-filtre.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e4-15462-entretien-detartrage-filtre.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/JURA-E4-15462---Pièces--Entretien-10-30",
       "common_codes": [
         {
           "code": "Symbole \"Goutte d'eau\" (réservoir vide)",
@@ -9184,7 +9184,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Roborock-S7-Max-Ultra-S7MU02-00---Pièces--Entretien-10-30",
       "common_codes": [
         {
           "code": "Erreur 1 : Vérifiez le bac à poussière et la brosse principale.",
