@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-31T04:53:27.068202+00:00",
-  "total_appliances": 55,
+  "generated_at": "2026-10-31T11:57:35.593545+00:00",
+  "total_appliances": 57,
   "supported_languages": [
     "fr",
     "en",
@@ -9344,6 +9344,312 @@
         {
           "question": "Comment éviter que les cheveux n'emmêlent la brosse principale de mon Roborock S7 Max Ultra ?",
           "answer": "La brosse principale en caoutchouc du S7 Max Ultra est conçue pour minimiser les emmêlements. Cependant, un nettoyage régulier (hebdomadaire) de la brosse est recommandé. Utilisez l'outil de nettoyage fourni pour couper et retirer les cheveux et les fibres enroulés."
+        }
+      ]
+    },
+    {
+      "slug": "karcher-fc7-cordless-1055-700-0-entretien-consommables",
+      "brand": "Kärcher",
+      "model": "FC 7 Cordless (1.055-700.0)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Prolongez la durée de vie de votre Kärcher FC 7 Cordless (1.055-700.0) avec nos conseils d'entretien, les références des consommables et solutions aux voyants.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Réservoir d'eau propre vide",
+          "meaning": "Le réservoir d'eau propre est vide ou mal positionné.",
+          "solution": "Remplissez le réservoir d'eau propre jusqu'à la marque MAX et assurez-vous qu'il est correctement inséré dans l'appareil."
+        },
+        {
+          "code": "Voyant Rouleaux secs",
+          "meaning": "Les rouleaux ne sont pas suffisamment humides pour le nettoyage.",
+          "solution": "Vérifiez que le réservoir d'eau propre est rempli et que la buse de pulvérisation n'est pas obstruée. Relancez l'appareil pour humidifier les rouleaux."
+        },
+        {
+          "code": "Voyant Bac à eau sale plein",
+          "meaning": "Le réservoir d'eau sale est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le, rincez-le et replacez-le correctement dans l'appareil jusqu'à ce qu'il s'enclenche."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleaux microfibres universels (jaunes)",
+          "part_number": "2.050-022.0",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Perte d'efficacité de nettoyage, traces au sol, mauvaise absorption.",
+          "search_keywords": "Kärcher 2.050-022.0 rouleaux FC 7 Cordless, Kärcher FC 7 Cordless rouleaux microfibres, rouleaux Kärcher 1.055-700.0",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Détergent sols durs RM 536",
+          "part_number": "6.296-100.0",
+          "frequency": "Selon besoin (consommation)",
+          "why_replace": "Absence de nettoyage efficace, manque de brillance, sols non désinfectés.",
+          "search_keywords": "Kärcher 6.296-100.0 détergent RM 536, Kärcher FC 7 Cordless détergent sols durs, produit nettoyage Kärcher 1.055-700.0",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre à cheveux et grosses particules",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (ou si endommagé)",
+          "why_replace": "Diminution de l'aspiration des débris, obstruction du circuit d'eau sale, mauvaises odeurs.",
+          "search_keywords": "Kärcher FC 7 Cordless filtre cheveux, filtre grosses particules Kärcher 1.055-700.0, filtre bac eau sale Kärcher FC 7",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les rouleaux après chaque utilisation de mon Kärcher FC 7?",
+          "answer": "Après chaque utilisation, retirez les rouleaux et rincez-les sous l'eau courante. Vous pouvez également lancer le programme d'auto-nettoyage de l'appareil en plaçant l'appareil sur sa station et en suivant les instructions."
+        },
+        {
+          "question": "Mon Kärcher FC 7 laisse des traces sur le sol, que faire?",
+          "answer": "Vérifiez l'état de vos rouleaux (usure, saleté excessive) et remplacez-les si nécessaire. Assurez-vous d'utiliser la bonne quantité de détergent et de nettoyer le bac d'eau sale régulièrement."
+        },
+        {
+          "question": "Est-il nécessaire d'utiliser le détergent Kärcher spécifique?",
+          "answer": "Il est fortement recommandé d'utiliser les détergents Kärcher officiels (RM 536) car ils sont formulés pour ne pas endommager l'appareil et garantir une performance optimale sans laisser de résidus."
+        }
+      ]
+    },
+    {
+      "slug": "krups-evidence-plus-ea894t10-entretien-detartrage",
+      "brand": "Krups",
+      "model": "Evidence Plus (EA894T10)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Gardez votre Krups Evidence Plus EA894T10 performante. Découvrez les cartouches filtrantes, les pastilles de nettoyage et la procédure de détartrage.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant CALC (clignotant)",
+          "meaning": "L'appareil nécessite un détartrage pour éliminer les dépôts de calcaire.",
+          "solution": "Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez un produit détartrant adapté à votre machine."
+        },
+        {
+          "code": "Voyant Bac à marc plein",
+          "meaning": "Le bac à marc de café est plein et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le et rincez-le. Assurez-vous de le remettre en place correctement jusqu'à l'enclenchement. Le voyant se réinitialisera automatiquement."
+        },
+        {
+          "code": "Voyant Réservoir d'eau vide",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau MAX et assurez-vous qu'il est bien en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante Claris AquaFilter System",
+          "part_number": "F088",
+          "frequency": "Tous les 2 mois ou 50 litres (selon l'usage et la dureté de l'eau)",
+          "why_replace": "Accumulation de calcaire dans la machine, altération du goût du café, diminution du débit d'eau.",
+          "search_keywords": "Krups F088 filtre Claris AquaFilter System, cartouche Krups Evidence Plus EA894T10, filtre à eau Krups F088",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage Krups",
+          "part_number": "XS3000",
+          "frequency": "Tous les 360 cycles de café ou 2 mois",
+          "why_replace": "Dépôts d'huile de café, goût rance, obstruction du circuit de café, mauvaises odeurs.",
+          "search_keywords": "Krups XS3000 pastilles nettoyage, pastilles Krups Evidence Plus EA894T10, nettoyage Krups XS3000",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Poudre détartrante Krups",
+          "part_number": "F054",
+          "frequency": "Tous les 3 mois ou lorsque le voyant CALC s'affiche",
+          "why_replace": "Blocage du circuit d'eau, diminution de la température du café, fuites, dommages internes dus au calcaire.",
+          "search_keywords": "Krups F054 poudre détartrante, détartrant Krups Evidence Plus EA894T10, produit détartrage Krups F054",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma Krups Evidence Plus EA894T10?",
+          "answer": "La machine vous signalera quand un détartrage est nécessaire via le voyant CALC, généralement tous les 3 mois en fonction de la dureté de votre eau et de votre utilisation. L'utilisation d'une cartouche filtrante peut espacer cette opération."
+        },
+        {
+          "question": "Comment puis-je améliorer le goût de mon café avec cette machine?",
+          "answer": "Assurez-vous d'utiliser des grains de café de qualité, de remplacer régulièrement la cartouche filtrante F088, de nettoyer la machine avec les pastilles XS3000 et de détartrer dès que le voyant CALC s'allume. Ajustez également la finesse de mouture."
+        },
+        {
+          "question": "Le voyant Bac à marc plein s'affiche même après avoir vidé le bac. Que faire?",
+          "answer": "Videz le bac à marc lorsque la machine est allumée et attendez quelques secondes avant de le remettre en place. Le capteur a besoin de détecter le retrait du bac pendant que la machine est sous tension pour réinitialiser le compteur."
         }
       ]
     }

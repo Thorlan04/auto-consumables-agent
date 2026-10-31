@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-31T04:53:26.245286+00:00",
-  "total_guides": 55,
+  "last_updated": "2026-10-31T11:57:34.787323+00:00",
+  "total_guides": 57,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -3824,6 +3824,138 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Roborock-S7-Max-Ultra-S7MU02-00---Pièces--Entretien-10-30"
+    },
+    {
+      "slug": "karcher-fc7-cordless-1055-700-0-entretien-consommables",
+      "title": "Entretien Kärcher FC 7 Cordless (1.055-700.0) : Consommables & Dépannage",
+      "brand": "Kärcher",
+      "model": "FC 7 Cordless (1.055-700.0)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Prolongez la durée de vie de votre Kärcher FC 7 Cordless (1.055-700.0) avec nos conseils d'entretien, les références des consommables et solutions aux voyants.",
+      "common_codes": [
+        {
+          "code": "Voyant Réservoir d'eau propre vide",
+          "meaning": "Le réservoir d'eau propre est vide ou mal positionné.",
+          "solution": "Remplissez le réservoir d'eau propre jusqu'à la marque MAX et assurez-vous qu'il est correctement inséré dans l'appareil."
+        },
+        {
+          "code": "Voyant Rouleaux secs",
+          "meaning": "Les rouleaux ne sont pas suffisamment humides pour le nettoyage.",
+          "solution": "Vérifiez que le réservoir d'eau propre est rempli et que la buse de pulvérisation n'est pas obstruée. Relancez l'appareil pour humidifier les rouleaux."
+        },
+        {
+          "code": "Voyant Bac à eau sale plein",
+          "meaning": "Le réservoir d'eau sale est plein et doit être vidé.",
+          "solution": "Retirez le réservoir d'eau sale, videz-le, rincez-le et replacez-le correctement dans l'appareil jusqu'à ce qu'il s'enclenche."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleaux microfibres universels (jaunes)",
+          "part_number": "2.050-022.0",
+          "frequency": "Tous les 3 à 6 mois (selon usage)",
+          "why_replace": "Perte d'efficacité de nettoyage, traces au sol, mauvaise absorption.",
+          "search_keywords": "Kärcher 2.050-022.0 rouleaux FC 7 Cordless, Kärcher FC 7 Cordless rouleaux microfibres, rouleaux Kärcher 1.055-700.0",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détergent sols durs RM 536",
+          "part_number": "6.296-100.0",
+          "frequency": "Selon besoin (consommation)",
+          "why_replace": "Absence de nettoyage efficace, manque de brillance, sols non désinfectés.",
+          "search_keywords": "Kärcher 6.296-100.0 détergent RM 536, Kärcher FC 7 Cordless détergent sols durs, produit nettoyage Kärcher 1.055-700.0",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre à cheveux et grosses particules",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (ou si endommagé)",
+          "why_replace": "Diminution de l'aspiration des débris, obstruction du circuit d'eau sale, mauvaises odeurs.",
+          "search_keywords": "Kärcher FC 7 Cordless filtre cheveux, filtre grosses particules Kärcher 1.055-700.0, filtre bac eau sale Kärcher FC 7",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer les rouleaux après chaque utilisation de mon Kärcher FC 7?",
+          "answer": "Après chaque utilisation, retirez les rouleaux et rincez-les sous l'eau courante. Vous pouvez également lancer le programme d'auto-nettoyage de l'appareil en plaçant l'appareil sur sa station et en suivant les instructions."
+        },
+        {
+          "question": "Mon Kärcher FC 7 laisse des traces sur le sol, que faire?",
+          "answer": "Vérifiez l'état de vos rouleaux (usure, saleté excessive) et remplacez-les si nécessaire. Assurez-vous d'utiliser la bonne quantité de détergent et de nettoyer le bac d'eau sale régulièrement."
+        },
+        {
+          "question": "Est-il nécessaire d'utiliser le détergent Kärcher spécifique?",
+          "answer": "Il est fortement recommandé d'utiliser les détergents Kärcher officiels (RM 536) car ils sont formulés pour ne pas endommager l'appareil et garantir une performance optimale sans laisser de résidus."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Kärcher-FC-7-Cordless-1055-7000---Pièces--Entretien-10-31"
+    },
+    {
+      "slug": "krups-evidence-plus-ea894t10-entretien-detartrage",
+      "title": "Entretien Krups Evidence Plus (EA894T10) : Détartrage & Consommables",
+      "brand": "Krups",
+      "model": "Evidence Plus (EA894T10)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Gardez votre Krups Evidence Plus EA894T10 performante. Découvrez les cartouches filtrantes, les pastilles de nettoyage et la procédure de détartrage.",
+      "common_codes": [
+        {
+          "code": "Voyant CALC (clignotant)",
+          "meaning": "L'appareil nécessite un détartrage pour éliminer les dépôts de calcaire.",
+          "solution": "Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez un produit détartrant adapté à votre machine."
+        },
+        {
+          "code": "Voyant Bac à marc plein",
+          "meaning": "Le bac à marc de café est plein et doit être vidé.",
+          "solution": "Retirez le bac à marc, videz-le et rincez-le. Assurez-vous de le remettre en place correctement jusqu'à l'enclenchement. Le voyant se réinitialisera automatiquement."
+        },
+        {
+          "code": "Voyant Réservoir d'eau vide",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau MAX et assurez-vous qu'il est bien en place."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante Claris AquaFilter System",
+          "part_number": "F088",
+          "frequency": "Tous les 2 mois ou 50 litres (selon l'usage et la dureté de l'eau)",
+          "why_replace": "Accumulation de calcaire dans la machine, altération du goût du café, diminution du débit d'eau.",
+          "search_keywords": "Krups F088 filtre Claris AquaFilter System, cartouche Krups Evidence Plus EA894T10, filtre à eau Krups F088",
+          "affiliate_url": null
+        },
+        {
+          "name": "Pastilles de nettoyage Krups",
+          "part_number": "XS3000",
+          "frequency": "Tous les 360 cycles de café ou 2 mois",
+          "why_replace": "Dépôts d'huile de café, goût rance, obstruction du circuit de café, mauvaises odeurs.",
+          "search_keywords": "Krups XS3000 pastilles nettoyage, pastilles Krups Evidence Plus EA894T10, nettoyage Krups XS3000",
+          "affiliate_url": null
+        },
+        {
+          "name": "Poudre détartrante Krups",
+          "part_number": "F054",
+          "frequency": "Tous les 3 mois ou lorsque le voyant CALC s'affiche",
+          "why_replace": "Blocage du circuit d'eau, diminution de la température du café, fuites, dommages internes dus au calcaire.",
+          "search_keywords": "Krups F054 poudre détartrante, détartrant Krups Evidence Plus EA894T10, produit détartrage Krups F054",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma Krups Evidence Plus EA894T10?",
+          "answer": "La machine vous signalera quand un détartrage est nécessaire via le voyant CALC, généralement tous les 3 mois en fonction de la dureté de votre eau et de votre utilisation. L'utilisation d'une cartouche filtrante peut espacer cette opération."
+        },
+        {
+          "question": "Comment puis-je améliorer le goût de mon café avec cette machine?",
+          "answer": "Assurez-vous d'utiliser des grains de café de qualité, de remplacer régulièrement la cartouche filtrante F088, de nettoyer la machine avec les pastilles XS3000 et de détartrer dès que le voyant CALC s'allume. Ajustez également la finesse de mouture."
+        },
+        {
+          "question": "Le voyant Bac à marc plein s'affiche même après avoir vidé le bac. Que faire?",
+          "answer": "Videz le bac à marc lorsque la machine est allumée et attendez quelques secondes avant de le remettre en place. Le capteur a besoin de détecter le retrait du bac pendant que la machine est sous tension pour réinitialiser le compteur."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Krups-Evidence-Plus-EA894T10---Pièces--Entretien-10-31"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

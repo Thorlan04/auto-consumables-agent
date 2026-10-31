@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-10-31
-> Total appareils répertoriés : 55
+> Total appareils répertoriés : 57
 
 ---
 
@@ -2234,5 +2234,85 @@
   **R :** Oui, la station d'accueil du S7 Max Ultra nettoie automatiquement la serpillière du robot et la sèche à l'air chaud pour éviter les mauvaises odeurs et la prolifération bactérienne. Assurez-vous que le réservoir d'eau propre est rempli et le réservoir d'eau sale vidé.
 - **Q : Comment éviter que les cheveux n'emmêlent la brosse principale de mon Roborock S7 Max Ultra ?**
   **R :** La brosse principale en caoutchouc du S7 Max Ultra est conçue pour minimiser les emmêlements. Cependant, un nettoyage régulier (hebdomadaire) de la brosse est recommandé. Utilisez l'outil de nettoyage fourni pour couper et retirer les cheveux et les fibres enroulés.
+
+---
+
+## Kärcher FC 7 Cordless (1.055-700.0)
+- **Catégorie :** Aspirateurs Laveurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html
+- **Résumé d'Entretien :** Prolongez la durée de vie de votre Kärcher FC 7 Cordless (1.055-700.0) avec nos conseils d'entretien, les références des consommables et solutions aux voyants.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Réservoir d'eau propre vide | Le réservoir d'eau propre est vide ou mal positionné. | Remplissez le réservoir d'eau propre jusqu'à la marque MAX et assurez-vous qu'il est correctement inséré dans l'appareil. |
+| Voyant Rouleaux secs | Les rouleaux ne sont pas suffisamment humides pour le nettoyage. | Vérifiez que le réservoir d'eau propre est rempli et que la buse de pulvérisation n'est pas obstruée. Relancez l'appareil pour humidifier les rouleaux. |
+| Voyant Bac à eau sale plein | Le réservoir d'eau sale est plein et doit être vidé. | Retirez le réservoir d'eau sale, videz-le, rincez-le et replacez-le correctement dans l'appareil jusqu'à ce qu'il s'enclenche. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleaux microfibres universels (jaunes) | 2.050-022.0 | Tous les 3 à 6 mois (selon usage) | Perte d'efficacité de nettoyage, traces au sol, mauvaise absorption. | [Amazon.fr ↗](https://www.amazon.fr/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=K%C3%A4rcher+2.050-022.0+rouleaux+FC+7+Cordless%2C+K%C3%A4rcher+FC+7+Cordless+rouleaux+microfibres%2C+rouleaux+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21) |
+| Détergent sols durs RM 536 | 6.296-100.0 | Selon besoin (consommation) | Absence de nettoyage efficace, manque de brillance, sols non désinfectés. | [Amazon.fr ↗](https://www.amazon.fr/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=K%C3%A4rcher+6.296-100.0+d%C3%A9tergent+RM+536%2C+K%C3%A4rcher+FC+7+Cordless+d%C3%A9tergent+sols+durs%2C+produit+nettoyage+K%C3%A4rcher+1.055-700.0&tag=autoconsom-21) |
+| Filtre à cheveux et grosses particules | Réf. constructeur adaptable | Tous les 6 à 12 mois (ou si endommagé) | Diminution de l'aspiration des débris, obstruction du circuit d'eau sale, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=K%C3%A4rcher+FC+7+Cordless+filtre+cheveux%2C+filtre+grosses+particules+K%C3%A4rcher+1.055-700.0%2C+filtre+bac+eau+sale+K%C3%A4rcher+FC+7&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer les rouleaux après chaque utilisation de mon Kärcher FC 7?**
+  **R :** Après chaque utilisation, retirez les rouleaux et rincez-les sous l'eau courante. Vous pouvez également lancer le programme d'auto-nettoyage de l'appareil en plaçant l'appareil sur sa station et en suivant les instructions.
+- **Q : Mon Kärcher FC 7 laisse des traces sur le sol, que faire?**
+  **R :** Vérifiez l'état de vos rouleaux (usure, saleté excessive) et remplacez-les si nécessaire. Assurez-vous d'utiliser la bonne quantité de détergent et de nettoyer le bac d'eau sale régulièrement.
+- **Q : Est-il nécessaire d'utiliser le détergent Kärcher spécifique?**
+  **R :** Il est fortement recommandé d'utiliser les détergents Kärcher officiels (RM 536) car ils sont formulés pour ne pas endommager l'appareil et garantir une performance optimale sans laisser de résidus.
+
+---
+
+## Krups Evidence Plus (EA894T10)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html
+- **Résumé d'Entretien :** Gardez votre Krups Evidence Plus EA894T10 performante. Découvrez les cartouches filtrantes, les pastilles de nettoyage et la procédure de détartrage.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant CALC (clignotant) | L'appareil nécessite un détartrage pour éliminer les dépôts de calcaire. | Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez un produit détartrant adapté à votre machine. |
+| Voyant Bac à marc plein | Le bac à marc de café est plein et doit être vidé. | Retirez le bac à marc, videz-le et rincez-le. Assurez-vous de le remettre en place correctement jusqu'à l'enclenchement. Le voyant se réinitialisera automatiquement. |
+| Voyant Réservoir d'eau vide | Le réservoir d'eau est vide ou mal inséré. | Remplissez le réservoir d'eau fraîche jusqu'au niveau MAX et assurez-vous qu'il est bien en place. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche filtrante Claris AquaFilter System | F088 | Tous les 2 mois ou 50 litres (selon l'usage et la dureté de l'eau) | Accumulation de calcaire dans la machine, altération du goût du café, diminution du débit d'eau. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Krups+F088+filtre+Claris+AquaFilter+System%2C+cartouche+Krups+Evidence+Plus+EA894T10%2C+filtre+%C3%A0+eau+Krups+F088&tag=autoconsom-21) |
+| Pastilles de nettoyage Krups | XS3000 | Tous les 360 cycles de café ou 2 mois | Dépôts d'huile de café, goût rance, obstruction du circuit de café, mauvaises odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Krups+XS3000+pastilles+nettoyage%2C+pastilles+Krups+Evidence+Plus+EA894T10%2C+nettoyage+Krups+XS3000&tag=autoconsom-21) |
+| Poudre détartrante Krups | F054 | Tous les 3 mois ou lorsque le voyant CALC s'affiche | Blocage du circuit d'eau, diminution de la température du café, fuites, dommages internes dus au calcaire. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Krups+F054+poudre+d%C3%A9tartrante%2C+d%C3%A9tartrant+Krups+Evidence+Plus+EA894T10%2C+produit+d%C3%A9tartrage+Krups+F054&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je détartrer ma Krups Evidence Plus EA894T10?**
+  **R :** La machine vous signalera quand un détartrage est nécessaire via le voyant CALC, généralement tous les 3 mois en fonction de la dureté de votre eau et de votre utilisation. L'utilisation d'une cartouche filtrante peut espacer cette opération.
+- **Q : Comment puis-je améliorer le goût de mon café avec cette machine?**
+  **R :** Assurez-vous d'utiliser des grains de café de qualité, de remplacer régulièrement la cartouche filtrante F088, de nettoyer la machine avec les pastilles XS3000 et de détartrer dès que le voyant CALC s'allume. Ajustez également la finesse de mouture.
+- **Q : Le voyant Bac à marc plein s'affiche même après avoir vidé le bac. Que faire?**
+  **R :** Videz le bac à marc lorsque la machine est allumée et attendez quelques secondes avant de le remettre en place. Le capteur a besoin de détecter le retrait du bac pendant que la machine est sous tension pour réinitialiser le compteur.
 
 ---
