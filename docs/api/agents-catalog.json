@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-10-31T11:57:35.593545+00:00",
+  "generated_at": "2026-10-31T17:11:31.956302+00:00",
   "total_appliances": 57,
   "supported_languages": [
     "fr",
@@ -9369,7 +9369,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Kärcher-FC-7-Cordless-1055-7000---Pièces--Entretien-10-31",
       "common_codes": [
         {
           "code": "Voyant Réservoir d'eau propre vide",
@@ -9522,7 +9522,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Krups-Evidence-Plus-EA894T10---Pièces--Entretien-10-31",
       "common_codes": [
         {
           "code": "Voyant CALC (clignotant)",
