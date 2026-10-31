@@ -2,7 +2,7 @@
 title: "Saeco GranAroma SM6580/00: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Saeco GranAroma SM6580/00."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

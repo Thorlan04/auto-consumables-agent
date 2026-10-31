@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X2 Omni (DX20): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Ecovacs Deebot X2 Omni (DX20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-x2-omni-dx20-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

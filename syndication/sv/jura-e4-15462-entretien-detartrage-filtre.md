@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

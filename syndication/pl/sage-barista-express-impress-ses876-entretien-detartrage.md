@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Sage Barista Express Impress (SES876)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

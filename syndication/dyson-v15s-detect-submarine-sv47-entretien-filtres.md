@@ -2,7 +2,7 @@
 title: "Entretien Dyson V15s Detect Submarine (SV47) : Guide Complet Filtres et Têtes de Nettoyage"
 description: "Optimisez votre Dyson V15s Detect Submarine (SV47) avec notre guide d'entretien. Trouvez filtres HEPA (PN 971634-01) et rouleaux Submarine pour une performance maximale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-v15s-detect-submarine-sv47-entretien-filtres.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

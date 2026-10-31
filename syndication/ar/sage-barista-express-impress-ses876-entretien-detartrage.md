@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Sage Barista Express Impress (SES876)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

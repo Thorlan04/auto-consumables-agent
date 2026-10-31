@@ -2,7 +2,7 @@
 title: "Roborock S7 Max Ultra (S7MU02-00): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Roborock S7 Max Ultra (S7MU02-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

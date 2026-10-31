@@ -2,7 +2,7 @@
 title: "Jura ENA 4 (15436): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Jura ENA 4 (15436)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-ena-4-15436-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

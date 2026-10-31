@@ -2,7 +2,7 @@
 title: "Philips LatteGo Série 8000 (EP8880/00): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Philips LatteGo Série 8000 (EP8880/00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-lattego-serie-8000-ep8880-00-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

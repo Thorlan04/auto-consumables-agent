@@ -2,7 +2,7 @@
 title: "Roborock Q8 Max (Q8M01-00): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Roborock Q8 Max (Q8M01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

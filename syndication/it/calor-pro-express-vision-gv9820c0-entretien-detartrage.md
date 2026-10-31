@@ -2,7 +2,7 @@
 title: "Calor Pro Express Vision GV9820C0: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Calor Pro Express Vision GV9820C0."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/calor-pro-express-vision-gv9820c0-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

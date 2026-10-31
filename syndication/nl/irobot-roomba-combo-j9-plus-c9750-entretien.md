@@ -2,7 +2,7 @@
 title: "iRobot Roomba Combo j9+ (c9750): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor iRobot Roomba Combo j9+ (c9750)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

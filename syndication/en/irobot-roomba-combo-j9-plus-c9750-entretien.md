@@ -2,7 +2,7 @@
 title: "iRobot Roomba Combo j9+ (c9750): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for iRobot Roomba Combo j9+ (c9750)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

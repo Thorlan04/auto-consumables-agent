@@ -2,7 +2,7 @@
 title: "iRobot Roomba Combo j9+ (c9750): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für iRobot Roomba Combo j9+ (c9750)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

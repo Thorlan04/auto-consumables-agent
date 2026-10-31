@@ -2,7 +2,7 @@
 title: "Entretien Sage Barista Express Impress (SES876) : Filtres, Nettoyage et Détartrage"
 description: "Maintenez votre Sage Barista Express Impress (SES876) en parfait état. Remplacement des filtres, pastilles de nettoyage et détartrage facile."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

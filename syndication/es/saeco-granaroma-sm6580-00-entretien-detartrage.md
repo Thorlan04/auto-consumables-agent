@@ -2,7 +2,7 @@
 title: "Saeco GranAroma SM6580/00: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Saeco GranAroma SM6580/00."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/saeco-granaroma-sm6580-00-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Roborock S7 Max Ultra (S7MU02-00): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Roborock S7 Max Ultra (S7MU02-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

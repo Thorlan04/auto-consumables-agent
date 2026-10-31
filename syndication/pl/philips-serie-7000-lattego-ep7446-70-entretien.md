@@ -2,7 +2,7 @@
 title: "Philips Série 7000 LatteGo (EP7446/70): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips Série 7000 LatteGo (EP7446/70)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-serie-7000-lattego-ep7446-70-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

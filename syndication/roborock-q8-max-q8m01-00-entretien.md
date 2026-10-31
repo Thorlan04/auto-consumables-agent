@@ -2,7 +2,7 @@
 title: "Entretien Roborock Q8 Max (Q8M01-00): Consommables & Codes Erreur"
 description: "Guide d'entretien essentiel pour votre Roborock Q8 Max (Q8M01-00). Remplacez les consommables et résolvez les codes erreurs pour une propreté impeccable."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

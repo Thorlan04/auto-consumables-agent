@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Machine à Café JURA E4 (15462) : Détartrage, Filtre Claris Smart"
 description: "Guide complet pour l'entretien de votre machine JURA E4 (15462). Découvrez les consommables, filtres Claris Smart (71794) et produits de détartrage (62718) pour une performance optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

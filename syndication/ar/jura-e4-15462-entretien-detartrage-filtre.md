@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

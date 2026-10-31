@@ -2,7 +2,7 @@
 title: "iRobot Roomba Combo j9+ (c9750): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per iRobot Roomba Combo j9+ (c9750)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

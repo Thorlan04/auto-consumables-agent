@@ -2,7 +2,7 @@
 title: "Entretien iRobot Roomba Combo j9+ (c9750) : Filtres, Brosses et Sacs à Poussière"
 description: "Maximisez la durée de vie de votre iRobot Roomba Combo j9+ (c9750) avec nos conseils d'entretien, références de filtres, brosses et sacs à poussière."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

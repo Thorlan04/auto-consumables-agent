@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Entretien Dyson Purifier Hot+Cool Formaldehyde HP09 : Changement Filtres HEPA & Carbone"
 description: "Guide complet pour l'entretien du Dyson Purifier Hot+Cool Formaldehyde HP09. Découvrez comment changer les filtres HEPA+Carbone et résoudre les alertes d'entretien."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-hot-cool-formaldehyde-hp09-entretien-filtres.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

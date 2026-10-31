@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X5 Omni (DX50): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Ecovacs Deebot X5 Omni (DX50)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-x5-omni-dx50-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

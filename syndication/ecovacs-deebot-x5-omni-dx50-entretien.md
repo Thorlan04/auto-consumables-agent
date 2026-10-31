@@ -2,7 +2,7 @@
 title: "Entretien Ecovacs Deebot X5 Omni (DX50): Consommables & Codes Erreur"
 description: "Guide complet d'entretien pour votre Ecovacs Deebot X5 Omni (DX50). Découvrez les consommables à remplacer et les solutions aux codes erreurs pour une performance optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-x5-omni-dx50-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

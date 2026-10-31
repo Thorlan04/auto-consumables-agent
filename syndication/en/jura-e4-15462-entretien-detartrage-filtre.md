@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

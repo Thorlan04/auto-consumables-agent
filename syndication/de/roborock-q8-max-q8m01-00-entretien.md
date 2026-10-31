@@ -2,7 +2,7 @@
 title: "Roborock Q8 Max (Q8M01-00): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Roborock Q8 Max (Q8M01-00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/roborock-q8-max-q8m01-00-entretien.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

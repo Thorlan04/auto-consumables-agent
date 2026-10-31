@@ -2,7 +2,7 @@
 title: "Philips Série 3300 LatteGo (EP3347/90): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Philips Série 3300 LatteGo (EP3347/90)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-3300-lattego-ep3347-90-entretien-detartrage.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

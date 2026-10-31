@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-10-30"
+published_at: "2026-10-31"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
