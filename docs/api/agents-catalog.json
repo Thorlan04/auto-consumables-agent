@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-01T05:20:38.020040+00:00",
+  "generated_at": "2026-11-01T12:56:51.526336+00:00",
   "total_appliances": 59,
   "supported_languages": [
     "fr",
@@ -9675,7 +9675,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Tefal-ActiFry-Genius-XL-2-in-1-FZ775E00---Pièces--Entretien-11-01",
       "common_codes": [
         {
           "code": "Voyant Nettoyage nécessaire",
@@ -9828,7 +9828,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Shark-HydroVac-Cordless-Pro-XL-WD210EU---Pièces--Entretien-11-01",
       "common_codes": [
         {
           "code": "Voyant Réservoir d'eau propre vide",
