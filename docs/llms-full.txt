@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-11-01
-> Total appareils répertoriés : 59
+> Total appareils répertoriés : 61
 
 ---
 
@@ -2394,5 +2394,85 @@
   **R :** Après chaque utilisation, retirez le rouleau brosse. Rincez-le sous l'eau courante pour éliminer les débris et les cheveux. Laissez-le sécher complètement à l'air libre avant de le réinstaller pour éviter les mauvaises odeurs.
 - **Q : Quel type de solution de nettoyage dois-je utiliser avec mon HydroVac ?**
   **R :** Il est recommandé d'utiliser uniquement la solution de nettoyage multi-surfaces Shark HydroVac officielle. L'utilisation d'autres produits peut endommager l'appareil, annuler la garantie ou laisser des résidus indésirables.
+
+---
+
+## Cosori Turbo Blaze (CAF-P583R-EUR)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html
+- **Résumé d'Entretien :** Optimisez votre Cosori Turbo Blaze (CAF-P583R-EUR) avec notre guide d'entretien. Découvrez les pièces d'usure et résolvez les codes d'erreur courants.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Alerte "Panier non inséré" | Le panier de cuisson n'est pas correctement inséré dans l'appareil, ce qui empêche le démarrage. | Assurez-vous que le panier est complètement et correctement inséré dans le corps de l'appareil jusqu'à ce qu'il s'enclenche fermement. Le tiroir doit être bien fermé. |
+| Voyant "Surchauffe" | L'appareil a détecté une température interne excessive et s'est mis en sécurité. | Débranchez l'appareil et laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez que les évents d'aération à l'arrière ne sont pas obstrués par des objets ou des débris. |
+| Écran vide / Appareil éteint | L'appareil ne reçoit pas d'alimentation électrique ou est en veille prolongée. | Vérifiez que le cordon d'alimentation est bien branché à la prise murale et à l'arrière de l'appareil. Essayez une autre prise si nécessaire. Appuyez sur le bouton d'alimentation pour le rallumer. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Plaque de cuisson croustillante (Crisper Plate) | Réf. constructeur adaptable | Remplacer si le revêtement antiadhésif est endommagé, environ tous les 12-24 mois selon l'usage. | Assure une cuisson uniforme et empêche les aliments de coller. Un revêtement abîmé peut affecter la qualité de cuisson et être nocif. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+plaque+croustillante%2C+grille+Cosori+Turbo+Blaze&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+plaque+croustillante%2C+grille+Cosori+Turbo+Blaze&tag=autoconsom-21) |
+| Panier de cuisson (Basket) | Réf. constructeur adaptable | Remplacer si le revêtement antiadhésif est endommagé ou si le panier est déformé, tous les 24-36 mois. | Permet une cuisson saine et facile. Un panier endommagé peut compromettre la sécurité alimentaire et l'efficacité de l'appareil. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+panier%2C+bac+cuisson+Cosori+Turbo+Blaze&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+panier%2C+bac+cuisson+Cosori+Turbo+Blaze&tag=autoconsom-21) |
+| Lot de feuilles de papier sulfurisé jetables pour Air Fryer | Générique (pas de PN constructeur) | Après chaque utilisation. | Protège le panier des résidus alimentaires, facilite le nettoyage et prolonge la durée de vie du revêtement antiadhésif. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Papier+sulfuris%C3%A9+Cosori+Turbo+Blaze+CAF-P583R-EUR%2C+feuilles+cuisson+air+fryer&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Papier+sulfuris%C3%A9+Cosori+Turbo+Blaze+CAF-P583R-EUR%2C+feuilles+cuisson+air+fryer&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le panier de ma Cosori Turbo Blaze (CAF-P583R-EUR) ?**
+  **R :** Lavez le panier et la plaque de cuisson à l'eau chaude savonneuse après chaque utilisation. Vous pouvez utiliser une éponge non abrasive. Assurez-vous qu'ils soient complètement secs avant de les réinsérer dans l'appareil.
+- **Q : Dois-je préchauffer ma friteuse sans huile Cosori Turbo Blaze (CAF-P583R-EUR) ?**
+  **R :** Oui, il est recommandé de préchauffer l'appareil pendant 3 à 5 minutes avant d'y placer les aliments pour obtenir les meilleurs résultats de cuisson et une texture croustillante uniforme.
+- **Q : Puis-je utiliser du papier sulfurisé ou des moules en silicone dans ma Cosori Turbo Blaze (CAF-P583R-EUR) ?**
+  **R :** Oui, vous pouvez utiliser du papier sulfurisé ou des moules en silicone adaptés à la taille du panier. Cela aide à maintenir le panier propre et à éviter que les aliments ne collent, mais assurez-vous de ne pas obstruer la circulation de l'air.
+
+---
+
+## Jura E6 (EB) (15372)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html
+- **Résumé d'Entretien :** Maximisez la durée de vie de votre machine à café Jura E6 (EB) (15372). Découvrez les filtres, produits de détartrage et solutions aux codes d'erreur.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Filtre" (ou "CLARIS Smart") | Le filtre à eau CLARIS Smart a atteint sa capacité maximale et doit être remplacé. | Retirez l'ancien filtre usagé et insérez un nouveau filtre CLARIS Smart dans le réservoir d'eau. La machine détectera le nouveau filtre et lancera automatiquement un rinçage. |
+| Alerte "Vider le récipient à marc" | Le bac de récupération du marc de café est plein et doit être vidé. | Retirez le bac à marc, videz-le et rincez-le si nécessaire. Il est crucial de le vider pendant que la machine est allumée et de le réinsérer rapidement pour que le capteur le détecte et réinitialise l'alerte. |
+| Voyant "Nettoyage" (avec symbole de nettoyage) | La machine nécessite un programme de nettoyage pour éliminer les résidus de café et les huiles. | Suivez les instructions affichées à l'écran. Utilisez une pastille de nettoyage Jura officielle lorsque la machine le demande. Lancez le programme de nettoyage qui dure environ 20 minutes. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau CLARIS Smart | 71794 | Tous les 2 mois environ, ou après 50 litres d'eau filtrée, selon le premier terme atteint. | Réduit le calcaire, le chlore et autres substances altérant le goût, protège la machine et assure un café de meilleure qualité et plus pur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E6+15372+filtre+CLARIS+Smart+71794%2C+filtre+eau+Jura+E6&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E6+15372+filtre+CLARIS+Smart+71794%2C+filtre+eau+Jura+E6&tag=autoconsom-21) |
+| Pastilles de nettoyage Jura | 62715 | Toutes les 180-200 préparations, ou lorsque la machine le demande. | Élimine les résidus de café, les graisses et les huiles de la chambre de percolation, garantissant une hygiène parfaite et un goût optimal pour chaque tasse. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E6+15372+pastilles+nettoyage+62715%2C+produit+nettoyage+Jura+E6&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E6+15372+pastilles+nettoyage+62715%2C+produit+nettoyage+Jura+E6&tag=autoconsom-21) |
+| Pastilles de détartrage Jura | 61848 | Lorsque la machine le demande (variable selon la dureté de l'eau et l'utilisation, si pas de filtre CLARIS Smart). | Élimine les dépôts de calcaire des conduits d'eau, prévenant les pannes, prolongeant la durée de vie de l'appareil et maintenant les performances de chauffage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+E6+15372+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+E6&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+E6+15372+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+E6&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je remplacer le filtre CLARIS Smart de ma Jura E6 (EB) (15372) ?**
+  **R :** Le filtre doit être remplacé environ tous les deux mois, ou après 50 litres d'eau filtrée, selon le premier terme atteint. La machine vous avertira lorsque le remplacement est nécessaire.
+- **Q : Que faire si ma Jura E6 (EB) (15372) demande un détartrage même avec un filtre CLARIS Smart ?**
+  **R :** Si vous utilisez correctement le filtre CLARIS Smart, le détartrage n'est généralement pas nécessaire. Si la machine le demande, assurez-vous que le filtre est bien installé et activé. Si l'alerte persiste, il est possible que l'eau utilisée soit exceptionnellement dure. Suivez alors le programme de détartrage avec les pastilles Jura.
+- **Q : Comment nettoyer l'unité de percolation de ma Jura E6 (EB) (15372) ?**
+  **R :** L'unité de percolation des machines Jura est autonettoyante et ne doit pas être retirée. La machine vous guidera automatiquement pour le programme de nettoyage avec les pastilles de nettoyage Jura, ce qui assure une hygiène parfaite sans intervention manuelle sur l'unité.
 
 ---

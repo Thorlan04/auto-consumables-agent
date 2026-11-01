@@ -56,6 +56,7 @@
 - [Ninja Foodi FlexDrawer AF500EU](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tefal ActiFry Genius XL 2-in-1 (FZ775E00)](https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Cosori Turbo Blaze (CAF-P583R-EUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -75,6 +76,7 @@
 - [Sage Barista Express Impress (SES876)](https://thorlan04.github.io/auto-consumables-agent/guides/sage-barista-express-impress-ses876-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [JURA E4 (15462)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-e4-15462-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Krups Evidence Plus (EA894T10)](https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Jura E6 (EB) (15372)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
