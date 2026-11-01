@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-31T21:14:32.692258+00:00",
-  "total_guides": 57,
+  "last_updated": "2026-11-01T05:20:37.028004+00:00",
+  "total_guides": 59,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -3956,6 +3956,138 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Krups-Evidence-Plus-EA894T10---Pièces--Entretien-10-31"
+    },
+    {
+      "slug": "tefal-actifry-genius-xl-2-en-1-fz775e00-entretien",
+      "title": "Entretien et Consommables Tefal ActiFry Genius XL 2-en-1 (FZ775E00) - Pièces Détachées",
+      "brand": "Tefal",
+      "model": "ActiFry Genius XL 2-in-1 (FZ775E00)",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Guide d'entretien pour votre Tefal ActiFry Genius XL 2-en-1 FZ775E00. Trouvez les pièces de rechange et conseils pour prolonger sa durée de vie.",
+      "common_codes": [
+        {
+          "code": "Voyant Nettoyage nécessaire",
+          "meaning": "L'appareil détecte un besoin de nettoyage après plusieurs utilisations.",
+          "solution": "Débranchez l'appareil. Retirez le couvercle, la pale de brassage, la cuve et le plateau de cuisson. Lavez toutes les pièces amovibles à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'unité principale avec un chiffon humide. Réassemblez l'appareil."
+        },
+        {
+          "code": "Alerte Vérifier la pale de brassage",
+          "meaning": "La pale de brassage n'est pas correctement installée ou est bloquée.",
+          "solution": "Éteignez et débranchez l'appareil. Vérifiez que la pale de brassage est bien enclenchée sur son axe au fond de la cuve. Assurez-vous qu'aucun résidu alimentaire ne l'obstrue. Redémarrez l'appareil."
+        },
+        {
+          "code": "Code E1",
+          "meaning": "Problème de surchauffe ou de capteur de température.",
+          "solution": "Éteignez et débranchez l'appareil. Laissez-le refroidir complètement pendant au moins 30 minutes. Assurez-vous que les grilles d'aération ne sont pas obstruées. Rebranchez et redémarrez."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Pale de brassage ActiFry Genius XL",
+          "part_number": "XA701201",
+          "frequency": "Tous les 1-2 ans, ou si endommagée",
+          "why_replace": "Assure un brassage homogène des aliments pour une cuisson uniforme. Une pale endommagée peut rayer la cuve ou mal mélanger.",
+          "search_keywords": "Pale de brassage Tefal ActiFry Genius XL 2-in-1 FZ775E00 XA701201",
+          "affiliate_url": null
+        },
+        {
+          "name": "Cuve de cuisson ActiFry Genius XL 2-en-1",
+          "part_number": "XA701001",
+          "frequency": "Si la surface antiadhésive est rayée ou endommagée",
+          "why_replace": "Une cuve abîmée perd son revêtement antiadhésif, ce qui entraîne l'adhérence des aliments et rend le nettoyage difficile.",
+          "search_keywords": "Cuve Tefal ActiFry Genius XL 2-in-1 FZ775E00 XA701001",
+          "affiliate_url": null
+        },
+        {
+          "name": "Couvercle transparent ActiFry Genius XL",
+          "part_number": "XA701101",
+          "frequency": "Si fissuré ou opaque",
+          "why_replace": "Un couvercle endommagé peut compromettre la sécurité, l'efficacité de la cuisson et la visibilité des aliments.",
+          "search_keywords": "Couvercle Tefal ActiFry Genius XL 2-in-1 FZ775E00 XA701101",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer ma Tefal ActiFry Genius XL 2-en-1 après chaque utilisation ?",
+          "answer": "Après chaque utilisation, laissez l'appareil refroidir. Retirez le couvercle, la pale, la cuve et le plateau. Lavez-les à la main avec de l'eau chaude savonneuse ou placez-les au lave-vaisselle. Essuyez l'extérieur de l'unité principale avec un chiffon humide."
+        },
+        {
+          "question": "Mon ActiFry fait du bruit et la pale ne tourne pas, que faire ?",
+          "answer": "Éteignez et débranchez l'appareil. Vérifiez que la pale est correctement positionnée sur son axe. Assurez-vous qu'aucun morceau d'aliment ne bloque sa rotation. Redémarrez l'appareil. Si le problème persiste, la pale pourrait être défectueuse."
+        },
+        {
+          "question": "Puis-je utiliser des ustensiles métalliques dans la cuve de mon ActiFry ?",
+          "answer": "Non, il est fortement déconseillé d'utiliser des ustensiles métalliques, car ils pourraient rayer et endommager le revêtement antiadhésif de la cuve. Utilisez uniquement des ustensiles en bois, en silicone ou en plastique."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Tefal-ActiFry-Genius-XL-2-in-1-FZ775E00---Pièces--Entretien-11-01"
+    },
+    {
+      "slug": "shark-hydrovac-cordless-pro-xl-wd210eu-entretien",
+      "title": "Entretien et Consommables Shark HydroVac Cordless Pro XL (WD210EU)",
+      "brand": "Shark",
+      "model": "HydroVac Cordless Pro XL (WD210EU)",
+      "category": "Aspirateurs Laveurs",
+      "meta_description": "Guide complet d'entretien pour votre Shark HydroVac Cordless Pro XL WD210EU. Trouvez filtres, brosses et conseils pour des performances optimales.",
+      "common_codes": [
+        {
+          "code": "Voyant Réservoir d'eau propre vide",
+          "meaning": "Le réservoir d'eau propre est vide et nécessite un remplissage.",
+          "solution": "Retirez le réservoir d'eau propre de l'appareil. Remplissez-le avec de l'eau tiède et la solution de nettoyage Shark HydroVac recommandée jusqu'à la ligne MAX. Réinsérez fermement le réservoir dans l'appareil."
+        },
+        {
+          "code": "Voyant Réservoir d'eau sale plein",
+          "meaning": "Le réservoir d'eau sale est plein et doit être vidé.",
+          "solution": "Éteignez l'appareil. Retirez le réservoir d'eau sale. Videz l'eau sale et rincez le réservoir à l'eau claire. Nettoyez le filtre du réservoir si nécessaire. Réinstallez le réservoir vide et propre."
+        },
+        {
+          "code": "Voyant Rouleau brosse bloqué",
+          "meaning": "Le rouleau brosse est obstrué par des cheveux, des débris ou ne tourne pas correctement.",
+          "solution": "Éteignez l'appareil. Retirez le cache du rouleau brosse et retirez le rouleau. Enlevez tous les cheveux ou débris emmêlés. Rincez le rouleau à l'eau si nécessaire et laissez-le sécher. Réinstallez le rouleau et le cache."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Rouleau brosse multi-surfaces Shark HydroVac",
+          "part_number": "XFFWD200",
+          "frequency": "Tous les 6 mois ou si usé/endommagé",
+          "why_replace": "Un rouleau brosse usé perd son efficacité de nettoyage et peut laisser des traces ou mal aspirer les liquides.",
+          "search_keywords": "Rouleau brosse Shark HydroVac Cordless Pro XL WD210EU XFFWD200",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre HEPA Shark HydroVac",
+          "part_number": "XFFWD200EU",
+          "frequency": "Tous les 3-6 mois, selon l'utilisation",
+          "why_replace": "Un filtre obstrué réduit la puissance d'aspiration, peut surchauffer le moteur et rejeter des allergènes dans l'air.",
+          "search_keywords": "Filtre HEPA Shark HydroVac Cordless Pro XL WD210EU XFFWD200EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution nettoyante multi-surfaces Shark HydroVac",
+          "part_number": "XHCWD200EU",
+          "frequency": "Selon l'utilisation (recharge régulière)",
+          "why_replace": "L'utilisation d'une solution non adaptée peut endommager l'appareil, laisser des résidus ou ne pas nettoyer efficacement les surfaces.",
+          "search_keywords": "Solution nettoyante Shark HydroVac Cordless Pro XL WD210EU XHCWD200EU",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Mon HydroVac laisse des traces d'eau sale, que faire ?",
+          "answer": "Assurez-vous que le réservoir d'eau sale n'est pas plein et que le rouleau brosse est propre. Vérifiez également que le mode d'aspiration est bien activé et que vous ne déplacez pas l'appareil trop rapidement. Nettoyez le conduit d'aspiration si nécessaire."
+        },
+        {
+          "question": "Comment nettoyer le rouleau brosse de mon Shark HydroVac ?",
+          "answer": "Après chaque utilisation, retirez le rouleau brosse. Rincez-le sous l'eau courante pour éliminer les débris et les cheveux. Laissez-le sécher complètement à l'air libre avant de le réinstaller pour éviter les mauvaises odeurs."
+        },
+        {
+          "question": "Quel type de solution de nettoyage dois-je utiliser avec mon HydroVac ?",
+          "answer": "Il est recommandé d'utiliser uniquement la solution de nettoyage multi-surfaces Shark HydroVac officielle. L'utilisation d'autres produits peut endommager l'appareil, annuler la garantie ou laisser des résidus indésirables."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Shark-HydroVac-Cordless-Pro-XL-WD210EU---Pièces--Entretien-11-01"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

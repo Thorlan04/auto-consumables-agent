@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-10-31
-> Total appareils répertoriés : 57
+> Horodatage de génération : 2026-11-01
+> Total appareils répertoriés : 59
 
 ---
 
@@ -2314,5 +2314,85 @@
   **R :** Assurez-vous d'utiliser des grains de café de qualité, de remplacer régulièrement la cartouche filtrante F088, de nettoyer la machine avec les pastilles XS3000 et de détartrer dès que le voyant CALC s'allume. Ajustez également la finesse de mouture.
 - **Q : Le voyant Bac à marc plein s'affiche même après avoir vidé le bac. Que faire?**
   **R :** Videz le bac à marc lorsque la machine est allumée et attendez quelques secondes avant de le remettre en place. Le capteur a besoin de détecter le retrait du bac pendant que la machine est sous tension pour réinitialiser le compteur.
+
+---
+
+## Tefal ActiFry Genius XL 2-in-1 (FZ775E00)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre Tefal ActiFry Genius XL 2-en-1 FZ775E00. Trouvez les pièces de rechange et conseils pour prolonger sa durée de vie.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Nettoyage nécessaire | L'appareil détecte un besoin de nettoyage après plusieurs utilisations. | Débranchez l'appareil. Retirez le couvercle, la pale de brassage, la cuve et le plateau de cuisson. Lavez toutes les pièces amovibles à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'unité principale avec un chiffon humide. Réassemblez l'appareil. |
+| Alerte Vérifier la pale de brassage | La pale de brassage n'est pas correctement installée ou est bloquée. | Éteignez et débranchez l'appareil. Vérifiez que la pale de brassage est bien enclenchée sur son axe au fond de la cuve. Assurez-vous qu'aucun résidu alimentaire ne l'obstrue. Redémarrez l'appareil. |
+| Code E1 | Problème de surchauffe ou de capteur de température. | Éteignez et débranchez l'appareil. Laissez-le refroidir complètement pendant au moins 30 minutes. Assurez-vous que les grilles d'aération ne sont pas obstruées. Rebranchez et redémarrez. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Pale de brassage ActiFry Genius XL | XA701201 | Tous les 1-2 ans, ou si endommagée | Assure un brassage homogène des aliments pour une cuisson uniforme. Une pale endommagée peut rayer la cuve ou mal mélanger. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Pale+de+brassage+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701201&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Pale+de+brassage+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701201&tag=autoconsom-21) |
+| Cuve de cuisson ActiFry Genius XL 2-en-1 | XA701001 | Si la surface antiadhésive est rayée ou endommagée | Une cuve abîmée perd son revêtement antiadhésif, ce qui entraîne l'adhérence des aliments et rend le nettoyage difficile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Cuve+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701001&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Cuve+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701001&tag=autoconsom-21) |
+| Couvercle transparent ActiFry Genius XL | XA701101 | Si fissuré ou opaque | Un couvercle endommagé peut compromettre la sécurité, l'efficacité de la cuisson et la visibilité des aliments. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Couvercle+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701101&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Couvercle+Tefal+ActiFry+Genius+XL+2-in-1+FZ775E00+XA701101&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer ma Tefal ActiFry Genius XL 2-en-1 après chaque utilisation ?**
+  **R :** Après chaque utilisation, laissez l'appareil refroidir. Retirez le couvercle, la pale, la cuve et le plateau. Lavez-les à la main avec de l'eau chaude savonneuse ou placez-les au lave-vaisselle. Essuyez l'extérieur de l'unité principale avec un chiffon humide.
+- **Q : Mon ActiFry fait du bruit et la pale ne tourne pas, que faire ?**
+  **R :** Éteignez et débranchez l'appareil. Vérifiez que la pale est correctement positionnée sur son axe. Assurez-vous qu'aucun morceau d'aliment ne bloque sa rotation. Redémarrez l'appareil. Si le problème persiste, la pale pourrait être défectueuse.
+- **Q : Puis-je utiliser des ustensiles métalliques dans la cuve de mon ActiFry ?**
+  **R :** Non, il est fortement déconseillé d'utiliser des ustensiles métalliques, car ils pourraient rayer et endommager le revêtement antiadhésif de la cuve. Utilisez uniquement des ustensiles en bois, en silicone ou en plastique.
+
+---
+
+## Shark HydroVac Cordless Pro XL (WD210EU)
+- **Catégorie :** Aspirateurs Laveurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre Shark HydroVac Cordless Pro XL WD210EU. Trouvez filtres, brosses et conseils pour des performances optimales.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Réservoir d'eau propre vide | Le réservoir d'eau propre est vide et nécessite un remplissage. | Retirez le réservoir d'eau propre de l'appareil. Remplissez-le avec de l'eau tiède et la solution de nettoyage Shark HydroVac recommandée jusqu'à la ligne MAX. Réinsérez fermement le réservoir dans l'appareil. |
+| Voyant Réservoir d'eau sale plein | Le réservoir d'eau sale est plein et doit être vidé. | Éteignez l'appareil. Retirez le réservoir d'eau sale. Videz l'eau sale et rincez le réservoir à l'eau claire. Nettoyez le filtre du réservoir si nécessaire. Réinstallez le réservoir vide et propre. |
+| Voyant Rouleau brosse bloqué | Le rouleau brosse est obstrué par des cheveux, des débris ou ne tourne pas correctement. | Éteignez l'appareil. Retirez le cache du rouleau brosse et retirez le rouleau. Enlevez tous les cheveux ou débris emmêlés. Rincez le rouleau à l'eau si nécessaire et laissez-le sécher. Réinstallez le rouleau et le cache. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Rouleau brosse multi-surfaces Shark HydroVac | XFFWD200 | Tous les 6 mois ou si usé/endommagé | Un rouleau brosse usé perd son efficacité de nettoyage et peut laisser des traces ou mal aspirer les liquides. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Rouleau+brosse+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Rouleau+brosse+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200&tag=autoconsom-21) |
+| Filtre HEPA Shark HydroVac | XFFWD200EU | Tous les 3-6 mois, selon l'utilisation | Un filtre obstrué réduit la puissance d'aspiration, peut surchauffer le moteur et rejeter des allergènes dans l'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Filtre+HEPA+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Filtre+HEPA+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200EU&tag=autoconsom-21) |
+| Solution nettoyante multi-surfaces Shark HydroVac | XHCWD200EU | Selon l'utilisation (recharge régulière) | L'utilisation d'une solution non adaptée peut endommager l'appareil, laisser des résidus ou ne pas nettoyer efficacement les surfaces. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Solution+nettoyante+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XHCWD200EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Solution+nettoyante+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XHCWD200EU&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Mon HydroVac laisse des traces d'eau sale, que faire ?**
+  **R :** Assurez-vous que le réservoir d'eau sale n'est pas plein et que le rouleau brosse est propre. Vérifiez également que le mode d'aspiration est bien activé et que vous ne déplacez pas l'appareil trop rapidement. Nettoyez le conduit d'aspiration si nécessaire.
+- **Q : Comment nettoyer le rouleau brosse de mon Shark HydroVac ?**
+  **R :** Après chaque utilisation, retirez le rouleau brosse. Rincez-le sous l'eau courante pour éliminer les débris et les cheveux. Laissez-le sécher complètement à l'air libre avant de le réinstaller pour éviter les mauvaises odeurs.
+- **Q : Quel type de solution de nettoyage dois-je utiliser avec mon HydroVac ?**
+  **R :** Il est recommandé d'utiliser uniquement la solution de nettoyage multi-surfaces Shark HydroVac officielle. L'utilisation d'autres produits peut endommager l'appareil, annuler la garantie ou laisser des résidus indésirables.
 
 ---

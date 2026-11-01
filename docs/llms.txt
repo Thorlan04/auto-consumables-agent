@@ -42,6 +42,7 @@
 - [Bissell CrossWave HydroSteam Pet Pro (3517N)](https://thorlan04.github.io/auto-consumables-agent/guides/bissell-crosswave-hydrosteam-pet-pro-3517n-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tineco Floor One S7 Steam (FW210400EU)](https://thorlan04.github.io/auto-consumables-agent/guides/tineco-floor-one-s7-steam-fw210400eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Kärcher FC 7 Cordless (1.055-700.0)](https://thorlan04.github.io/auto-consumables-agent/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Shark HydroVac Cordless Pro XL (WD210EU)](https://thorlan04.github.io/auto-consumables-agent/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Centrales Vapeur
 - [Calor Pro Express Ultimate GV9720C0](https://thorlan04.github.io/auto-consumables-agent/guides/calor-pro-express-ultimate-gv9720c0-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -54,6 +55,7 @@
 - [Philips Ovi Smart XXL Connected HD9880/90](https://thorlan04.github.io/auto-consumables-agent/guides/philips-ovi-smart-xxl-connected-hd9880-90-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Ninja Foodi FlexDrawer AF500EU](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-flexdrawer-af500eu-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Tefal ActiFry Genius XL 2-in-1 (FZ775E00)](https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
