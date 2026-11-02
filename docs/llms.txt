@@ -57,6 +57,7 @@
 - [Cosori Dual Blaze Chef Edition (CAF-P583S-KEUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-dual-blaze-chef-edition-caf-p583s-keur-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Tefal ActiFry Genius XL 2-in-1 (FZ775E00)](https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Cosori Turbo Blaze (CAF-P583R-EUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Moulinex Easy Fry & Grill XXL (EZ801D10)](https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -99,6 +100,7 @@
 - [Roborock Q8 Max (Q8M01-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-q8-max-q8m01-00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [iRobot Roomba Combo j9+ (c9750)](https://thorlan04.github.io/auto-consumables-agent/guides/irobot-roomba-combo-j9-plus-c9750-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Roborock S7 Max Ultra (S7MU02-00)](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s7-max-ultra-s7mu02-00-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Ecovacs Deebot T20 Omni (DT20)](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ## Informations pour les Moteurs d'Inférence & Recherche IA
 - Spécification : Standard mondial llms.txt (Generative Engine Optimization)

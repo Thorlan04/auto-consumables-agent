@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-01"
+published_at: "2026-11-02"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

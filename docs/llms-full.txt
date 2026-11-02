@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-11-01
-> Total appareils répertoriés : 61
+> Horodatage de génération : 2026-11-02
+> Total appareils répertoriés : 63
 
 ---
 
@@ -2474,5 +2474,86 @@
   **R :** Si vous utilisez correctement le filtre CLARIS Smart, le détartrage n'est généralement pas nécessaire. Si la machine le demande, assurez-vous que le filtre est bien installé et activé. Si l'alerte persiste, il est possible que l'eau utilisée soit exceptionnellement dure. Suivez alors le programme de détartrage avec les pastilles Jura.
 - **Q : Comment nettoyer l'unité de percolation de ma Jura E6 (EB) (15372) ?**
   **R :** L'unité de percolation des machines Jura est autonettoyante et ne doit pas être retirée. La machine vous guidera automatiquement pour le programme de nettoyage avec les pastilles de nettoyage Jura, ce qui assure une hygiène parfaite sans intervention manuelle sur l'unité.
+
+---
+
+## Moulinex Easy Fry & Grill XXL (EZ801D10)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre Moulinex Easy Fry & Grill XXL EZ801D10. Trouvez les accessoires, pièces et conseils pour une durée de vie optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "SHAKE" clignotant | Indique qu'il est temps de secouer ou retourner les aliments pour une cuisson homogène. | Ouvrez le tiroir de cuisson, secouez ou retournez les aliments, puis replacez le tiroir. L'appareil reprendra la cuisson automatiquement. |
+| Écran affiche "E1" | Problème de capteur de température interne. | Débranchez l'appareil pendant 5 minutes, puis rebranchez-le. Si le problème persiste, assurez-vous que les grilles sont correctement insérées et que l'appareil n'est pas surchargé. |
+| Fumée excessive | Résidus alimentaires ou graisse accumulée sur la résistance ou dans le tiroir, non liée à la cuisson d'aliments gras. | Laissez l'appareil refroidir complètement, puis nettoyez soigneusement le tiroir, la grille et l'intérieur de la cuve avec de l'eau chaude savonneuse et une éponge non abrasive. Assurez-vous que tout est sec avant de réutiliser. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Grille de cuisson amovible | SS-996417 | À remplacer si endommagée ou si le revêtement antiadhésif est altéré. | Une grille endommagée peut coller les aliments, altérer la cuisson et rendre le nettoyage difficile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+grille+cuisson+SS-996417&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+grille+cuisson+SS-996417&tag=autoconsom-21) |
+| Bac de cuisson (tiroir) | SS-996418 | À remplacer si le revêtement antiadhésif est endommagé ou s'il y a des fuites. | Un bac abîmé peut rendre la cuisson inefficace, adhérer les aliments et être difficile à nettoyer. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+bac+tiroir+SS-996418&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+bac+tiroir+SS-996418&tag=autoconsom-21) |
+| Kit d'accessoires (ex: moule à gâteau, brochettes) | XA112010 | Selon l'usure des pièces ou le besoin d'étendre les fonctionnalités de cuisson. | Des accessoires usés ou inadaptés peuvent altérer la qualité des préparations et la sécurité d'utilisation. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+accessoires+XA112010&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+accessoires+XA112010&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer ma Moulinex Easy Fry & Grill XXL EZ801D10 après utilisation ?**
+  **R :** Laissez l'appareil refroidir complètement. Retirez le tiroir et la grille. Lavez-les à l'eau chaude avec du liquide vaisselle et une éponge non abrasive. L'extérieur de l'appareil peut être essuyé avec un chiffon humide. Assurez-vous que toutes les pièces sont parfaitement sèches avant de les remonter.
+- **Q : Puis-je utiliser du papier sulfurisé ou des moules en silicone dans ma friteuse sans huile ?**
+  **R :** Oui, vous pouvez utiliser du papier sulfurisé ou des moules en silicone adaptés à la taille du tiroir, à condition qu'ils n'obstruent pas la circulation de l'air chaud et ne touchent pas la résistance chauffante de l'appareil.
+- **Q : Ma friteuse sans huile ne chauffe pas correctement, que faire ?**
+  **R :** Vérifiez que l'appareil est correctement branché et que le tiroir est bien fermé. Assurez-vous qu'il n'y a pas de surcharge alimentaire et que les orifices de ventilation ne sont pas obstrués. Si le problème persiste, débranchez et rebranchez l'appareil après quelques minutes.
+
+---
+
+## Ecovacs Deebot T20 Omni (DT20)
+- **Catégorie :** Robots Aspirateurs
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre robot aspirateur Ecovacs Deebot T20 Omni DT20. Trouvez filtres, brosses et sacs pour des performances optimales.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Brosse principale bloquée" | La brosse principale est enroulée de cheveux ou de débris, ou bloquée par un objet. | Retournez le robot, retirez le couvercle de la brosse principale. Nettoyez la brosse, coupez les cheveux emmêlés et retirez tout objet. Réinstallez la brosse et son couvercle fermement. |
+| Voyant "Capteur de chute sale" | Les capteurs anti-chute sous le robot sont encrassés par la poussière ou les saletés. | Retournez le robot et nettoyez délicatement les capteurs anti-chute avec un chiffon sec et doux. Assurez-vous qu'ils sont exempts de toute obstruction. |
+| Alerte "Réservoir d'eau propre vide" ou "Réservoir d'eau sale plein" | Le réservoir d'eau propre de la station est vide ou le réservoir d'eau sale est plein et nécessite d'être vidé. | Remplissez le réservoir d'eau propre jusqu'au niveau maximum et/ou videz le réservoir d'eau sale. Assurez-vous que les deux réservoirs sont correctement repositionnés dans la station. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre HEPA | D-HF03-2003 (ou Réf. constructeur adaptable) | Tous les 3 à 6 mois selon l'utilisation et la présence d'animaux domestiques. | Un filtre sale réduit la puissance d'aspiration, la qualité de filtration de l'air et peut causer des odeurs. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+filtre+HEPA+D-HF03-2003&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ecovacs+Deebot+T20+Omni+DT20+filtre+HEPA+D-HF03-2003&tag=autoconsom-21) |
+| Brosse principale | D-MB02-2003 (ou Réf. constructeur adaptable) | Tous les 6 à 12 mois selon l'usure et la présence de cheveux ou poils. | Une brosse usée ou endommagée diminue l'efficacité de ramassage des débris et peut rayer les sols. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+brosse+principale+D-MB02-2003&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ecovacs+Deebot+T20+Omni+DT20+brosse+principale+D-MB02-2003&tag=autoconsom-21) |
+| Brosses latérales (paire) | D-SB01-2003 (ou Réf. constructeur adaptable) | Tous les 3 à 6 mois selon l'usure et la fréquence d'utilisation. | Des brosses latérales usées ou tordues ne ramassent plus efficacement la poussière le long des murs et dans les coins. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+brosses+lat%C3%A9rales+D-SB01-2003&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ecovacs+Deebot+T20+Omni+DT20+brosses+lat%C3%A9rales+D-SB01-2003&tag=autoconsom-21) |
+| Sacs à poussière pour station de vidage | D-DB01-2003 (ou Réf. constructeur adaptable) | Tous les 1 à 3 mois selon l'utilisation et le volume de saleté collectée. | Un sac plein empêche la vidange automatique du robot, réduit l'efficacité d'aspiration et peut causer des odeurs désagréables. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+sacs+poussi%C3%A8re+D-DB01-2003&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Ecovacs+Deebot+T20+Omni+DT20+sacs+poussi%C3%A8re+D-DB01-2003&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je nettoyer les serpillières du Deebot T20 Omni ?**
+  **R :** Les serpillières doivent être nettoyées après chaque session de nettoyage. La station OMNI les lave et les sèche automatiquement, mais un lavage manuel régulier en machine (sans adoucissant) est recommandé pour une meilleure hygiène et efficacité.
+- **Q : Mon robot ne retourne pas à sa station de vidage, que faire ?**
+  **R :** Assurez-vous que la station est branchée, qu'il n'y a pas d'obstacles autour d'elle (1 mètre devant, 0,5 mètre sur les côtés) et que les contacts de charge du robot et de la station sont propres. Vérifiez également que le réservoir d'eau propre n'est pas vide et le sale pas plein.
+- **Q : Comment réinitialiser la carte de nettoyage de mon Ecovacs Deebot T20 Omni ?**
+  **R :** Pour réinitialiser la carte, ouvrez l'application Ecovacs Home, allez dans les paramètres de votre robot, puis cherchez l'option 'Gestion des cartes' ou 'Réinitialiser la carte'. Confirmez la réinitialisation. Le robot devra ensuite refaire une exploration complète pour créer une nouvelle carte.
 
 ---

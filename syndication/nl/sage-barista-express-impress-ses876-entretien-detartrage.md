@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Sage Barista Express Impress (SES876)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-11-01"
+published_at: "2026-11-02"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

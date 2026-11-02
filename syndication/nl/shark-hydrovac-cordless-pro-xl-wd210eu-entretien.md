@@ -2,7 +2,7 @@
 title: "Shark HydroVac Cordless Pro XL (WD210EU): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Shark HydroVac Cordless Pro XL (WD210EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html"
-published_at: "2026-11-01"
+published_at: "2026-11-02"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

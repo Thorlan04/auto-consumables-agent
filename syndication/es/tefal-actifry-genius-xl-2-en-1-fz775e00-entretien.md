@@ -2,7 +2,7 @@
 title: "Tefal ActiFry Genius XL 2-in-1 (FZ775E00): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Tefal ActiFry Genius XL 2-in-1 (FZ775E00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
-published_at: "2026-11-01"
+published_at: "2026-11-02"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

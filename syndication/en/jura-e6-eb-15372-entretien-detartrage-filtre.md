@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-01"
+published_at: "2026-11-02"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

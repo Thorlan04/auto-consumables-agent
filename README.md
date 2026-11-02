@@ -38,8 +38,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 
 ---
 
-## 📋 Répertoire des Appareils Traités (61 Modèles Référencés)
-*Dernière synchronisation automatique : 2026-11-01 via GitHub Actions.*
+## 📋 Répertoire des Appareils Traités (63 Modèles Référencés)
+*Dernière synchronisation automatique : 2026-11-02 via GitHub Actions.*
 
 | Marque & Modèle Exact | Catégorie | Fiche Web Interactive | Miroir Haute Autorité (Telegra.ph) | Pièces Clés & Liens Directs Amazon |
 |---|---|---|---|---|
@@ -104,6 +104,8 @@ Tous les endpoints ci-dessous sont publics, statiques, sans clé API et sans rat
 | **Shark HydroVac Cordless Pro XL (WD210EU)** | Aspirateurs Laveurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Shark-HydroVac-Cordless-Pro-XL-WD210EU---Pièces--Entretien-11-01) | • [Rouleau brosse multi-surfaces Shark HydroVac](https://www.amazon.fr/s?k=Rouleau+brosse+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200&tag=autoconsom-21)<br>• [Filtre HEPA Shark HydroVac](https://www.amazon.fr/s?k=Filtre+HEPA+Shark+HydroVac+Cordless+Pro+XL+WD210EU+XFFWD200EU&tag=autoconsom-21) |
 | **Cosori Turbo Blaze (CAF-P583R-EUR)** | Friteuses sans Huile (Air Fryer) | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Cosori-Turbo-Blaze-CAF-P583R-EUR---Pièces--Entretien-11-01) | • [Plaque de cuisson croustillante (Crisper Plate)](https://www.amazon.fr/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+plaque+croustillante%2C+grille+Cosori+Turbo+Blaze&tag=autoconsom-21)<br>• [Panier de cuisson (Basket)](https://www.amazon.fr/s?k=Cosori+Turbo+Blaze+CAF-P583R-EUR+panier%2C+bac+cuisson+Cosori+Turbo+Blaze&tag=autoconsom-21) |
 | **Jura E6 (EB) (15372)** | Machines à Café à Grains | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Jura-E6-EB-15372---Pièces--Entretien-11-01) | • [Filtre à eau CLARIS Smart](https://www.amazon.fr/s?k=Jura+E6+15372+filtre+CLARIS+Smart+71794%2C+filtre+eau+Jura+E6&tag=autoconsom-21)<br>• [Pastilles de nettoyage Jura](https://www.amazon.fr/s?k=Jura+E6+15372+pastilles+nettoyage+62715%2C+produit+nettoyage+Jura+E6&tag=autoconsom-21) |
+| **Moulinex Easy Fry & Grill XXL (EZ801D10)** | Friteuses sans Huile (Air Fryer) | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Moulinex-Easy-Fry--Grill-XXL-EZ801D10---Pièces--Entretien-11-02) | • [Grille de cuisson amovible](https://www.amazon.fr/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+grille+cuisson+SS-996417&tag=autoconsom-21)<br>• [Bac de cuisson (tiroir)](https://www.amazon.fr/s?k=Moulinex+Easy+Fry+Grill+XXL+EZ801D10+bac+tiroir+SS-996418&tag=autoconsom-21) |
+| **Ecovacs Deebot T20 Omni (DT20)** | Robots Aspirateurs | [Consulter le guide ↗](https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html) | [Miroir Telegra.ph ↗](https://telegra.ph/Ecovacs-Deebot-T20-Omni-DT20---Pièces--Entretien-11-02) | • [Filtre HEPA](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+filtre+HEPA+D-HF03-2003&tag=autoconsom-21)<br>• [Brosse principale](https://www.amazon.fr/s?k=Ecovacs+Deebot+T20+Omni+DT20+brosse+principale+D-MB02-2003&tag=autoconsom-21) |
 
 ---
 
