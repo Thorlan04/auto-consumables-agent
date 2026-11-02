@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-11-02
-> Total appareils répertoriés : 63
+> Total appareils répertoriés : 65
 
 ---
 
@@ -2555,5 +2555,85 @@
   **R :** Assurez-vous que la station est branchée, qu'il n'y a pas d'obstacles autour d'elle (1 mètre devant, 0,5 mètre sur les côtés) et que les contacts de charge du robot et de la station sont propres. Vérifiez également que le réservoir d'eau propre n'est pas vide et le sale pas plein.
 - **Q : Comment réinitialiser la carte de nettoyage de mon Ecovacs Deebot T20 Omni ?**
   **R :** Pour réinitialiser la carte, ouvrez l'application Ecovacs Home, allez dans les paramètres de votre robot, puis cherchez l'option 'Gestion des cartes' ou 'Réinitialiser la carte'. Confirmez la réinitialisation. Le robot devra ensuite refaire une exploration complète pour créer une nouvelle carte.
+
+---
+
+## Levoit Core 600S Smart True HEPA
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre purificateur Levoit Core 600S Smart True HEPA. Remplacez les filtres LV-H133-RF pour une qualité d'air optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant de remplacement du filtre (rouge/clignotant) | Le filtre 3-en-1 est arrivé en fin de vie et doit être remplacé. | Remplacez le filtre 3-en-1 (PN LV-H133-RF) par un neuf. Une fois le filtre remplacé et le couvercle remis, branchez l'appareil. Appuyez et maintenez le bouton d'alimentation pendant 5 secondes pour réinitialiser le voyant. |
+| Voyant Wi-Fi éteint | Le purificateur n'est pas connecté au réseau Wi-Fi ou la connexion a été perdue. | Assurez-vous que votre routeur Wi-Fi est allumé et à portée. Si le problème persiste, appuyez et maintenez le bouton Wi-Fi pendant 5 secondes pour réinitialiser les paramètres Wi-Fi du purificateur, puis suivez les instructions de l'application VeSync pour reconnecter l'appareil. |
+| Voyant de qualité de l'air (bleu/vert/orange/rouge) ne change pas | Le capteur de particules est encrassé et ne peut pas mesurer correctement la qualité de l'air. | Débranchez l'appareil. Utilisez un coton-tige sec pour nettoyer délicatement la lentille du capteur de poussière situé sur le côté de l'appareil. Ne pas utiliser d'eau ou de liquide. Rebranchez l'appareil. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre 3-en-1 (Pré-filtre, True HEPA, Charbon Actif) | LV-H133-RF | Tous les 6-8 mois (ou selon l'utilisation) | Perte d'efficacité de filtration, odeurs persistantes, augmentation du bruit du ventilateur, diminution du débit d'air pur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+600S+filtre+LV-H133-RF+remplacement%2C+filtre+Levoit+LV-H133-RF%2C+Levoit+Core+600S+consommable&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+600S+filtre+LV-H133-RF+remplacement%2C+filtre+Levoit+LV-H133-RF%2C+Levoit+Core+600S+consommable&tag=autoconsom-21) |
+| Lingettes de nettoyage pour capteur de poussière | Réf. constructeur adaptable (coton-tige sec) | Tous les 2-4 mois | Mesures de qualité de l'air imprécises, voyant de qualité de l'air bloqué sur une couleur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+600S+nettoyage+capteur%2C+coton-tige+Levoit+purificateur%2C+Levoit+Core+600S+entretien&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+600S+nettoyage+capteur%2C+coton-tige+Levoit+purificateur%2C+Levoit+Core+600S+entretien&tag=autoconsom-21) |
+| Huiles essentielles pour diffuseur (non Levoit, générique) | Réf. constructeur adaptable | Selon l'utilisation | Pour maintenir l'ambiance olfactive souhaitée et éviter l'encrassement du tampon diffuseur. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Huile+essentielle+Levoit+Core+600S%2C+tampon+diffuseur+Levoit%2C+Levoit+Core+600S+aromath%C3%A9rapie&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Huile+essentielle+Levoit+Core+600S%2C+tampon+diffuseur+Levoit%2C+Levoit+Core+600S+aromath%C3%A9rapie&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment savoir quand changer le filtre de mon Levoit Core 600S ?**
+  **R :** Le voyant de remplacement du filtre s'allumera en rouge et clignotera sur l'appareil. De plus, l'application VeSync vous enverra une notification lorsque le filtre aura atteint la fin de sa durée de vie estimée.
+- **Q : Puis-je laver le filtre de mon purificateur Levoit Core 600S ?**
+  **R :** Non, le filtre 3-en-1 (LV-H133-RF) n'est pas lavable. Tenter de le laver endommagerait les matériaux filtrants et réduirait considérablement son efficacité. Il doit être remplacé.
+- **Q : Mon Levoit Core 600S fait plus de bruit qu'avant, est-ce normal ?**
+  **R :** Une augmentation du bruit peut indiquer un filtre encrassé, ce qui force le ventilateur à travailler plus fort. Vérifiez et remplacez le filtre si le voyant de remplacement est allumé ou si cela fait plus de 6-8 mois depuis le dernier remplacement.
+
+---
+
+## Philips PerfectCare 9000 Series PSG9020/20
+- **Catégorie :** Centrales Vapeur
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre centrale vapeur Philips PerfectCare 9000 Series PSG9020/20. Préservez sa performance avec la cartouche anticalcaire optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant CALC-CLEAN clignotant | Il est temps de détartrer votre centrale vapeur. L'accumulation de calcaire réduit l'efficacité et peut endommager l'appareil. | Placez la centrale vapeur sur une surface plane. Videz le réservoir d'eau. Remplissez-le d'eau propre. Placez un récipient sous la sortie de vapeur de la semelle. Appuyez et maintenez le bouton CALC-CLEAN pendant 2 secondes jusqu'à ce que des bips retentissent. La centrale effectuera un cycle de détartrage automatique d'environ 2 minutes. Une fois terminé, le voyant s'éteindra. |
+| Voyant Réservoir d'eau vide (icône de goutte d'eau) | Le niveau d'eau dans le réservoir est trop bas ou vide. | Remplissez le réservoir d'eau du robinet ou d'eau déminéralisée jusqu'au niveau MAX indiqué. Le voyant s'éteindra automatiquement une fois le réservoir suffisamment rempli et remis en place. |
+| Pas de vapeur / Vapeur faible | Plusieurs causes possibles: réservoir vide, mode ECO activé, ou accumulation de calcaire importante. | Vérifiez le niveau d'eau et remplissez le réservoir si nécessaire. Assurez-vous que le mode ECO n'est pas activé si vous avez besoin de plus de vapeur. Si le problème persiste et que le voyant CALC-CLEAN n'est pas allumé, effectuez un détartrage manuel en suivant les instructions du manuel. Si l'eau de votre région est très calcaire, un détartrage plus fréquent peut être nécessaire. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche anticalcaire Philips PerfectCare | CA6903/10 | Tous les 1 à 3 mois (selon la dureté de l'eau et l'utilisation) | Accumulation de calcaire dans le générateur de vapeur, réduction du débit de vapeur, taches sur les vêtements, risque d'endommagement de la centrale. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+PerfectCare+9000+PSG9020%2F20+cartouche+anticalcaire%2C+CA6903%2F10+Philips%2C+filtre+calcaire+centrale+vapeur+Philips&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+PerfectCare+9000+PSG9020%2F20+cartouche+anticalcaire%2C+CA6903%2F10+Philips%2C+filtre+calcaire+centrale+vapeur+Philips&tag=autoconsom-21) |
+| Produit de détartrage doux pour centrale vapeur | Réf. constructeur adaptable (ex: acide citrique) | En complément ou alternative au remplacement de la cartouche, si le détartrage automatique ne suffit pas (rare). | Élimination des dépôts de calcaire tenaces pour maintenir la performance. | [Amazon.fr ↗](https://www.amazon.fr/s?k=D%C3%A9tartrant+centrale+vapeur+Philips%2C+acide+citrique+centrale+vapeur%2C+entretien+Philips+PSG9020%2F20&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=D%C3%A9tartrant+centrale+vapeur+Philips%2C+acide+citrique+centrale+vapeur%2C+entretien+Philips+PSG9020%2F20&tag=autoconsom-21) |
+| Semelle de protection pour tissus délicats | Réf. constructeur adaptable (ex: GC026/00) | Selon besoin et usure | Pour éviter de brûler ou de lustrer les tissus fragiles, prolonge la durée de vie de la semelle du fer. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+semelle+protection+tissus+d%C3%A9licats%2C+semelle+fer+vapeur+Philips+PerfectCare%2C+accessoire+repassage+Philips+PSG9020%2F20&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+semelle+protection+tissus+d%C3%A9licats%2C+semelle+fer+vapeur+Philips+PerfectCare%2C+accessoire+repassage+Philips+PSG9020%2F20&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Quelle eau dois-je utiliser pour ma centrale vapeur Philips PerfectCare 9000 Series ?**
+  **R :** Vous pouvez utiliser de l'eau du robinet normale. Si l'eau de votre région est très dure, vous pouvez mélanger 50% d'eau du robinet avec 50% d'eau déminéralisée pour prolonger la durée de vie de la cartouche anticalcaire et réduire la fréquence de détartrage. N'utilisez jamais d'eau parfumée ou d'additifs.
+- **Q : À quelle fréquence dois-je remplacer la cartouche anticalcaire CA6903/10 ?**
+  **R :** La fréquence dépend de la dureté de l'eau dans votre région et de votre fréquence d'utilisation. En général, il est recommandé de la remplacer tous les 1 à 3 mois. Le voyant CALC-CLEAN vous indiquera quand un détartrage est nécessaire.
+- **Q : Ma centrale vapeur fuit de l'eau, que dois-je faire ?**
+  **R :** Assurez-vous que le réservoir est correctement inséré et que le bouchon de remplissage est bien fermé. Une fuite peut aussi être due à une accumulation excessive de calcaire. Effectuez un cycle de détartrage complet. Si le problème persiste, cela pourrait indiquer un problème plus sérieux nécessitant un contact avec le support Philips.
 
 ---
