@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-03T13:54:43.500328+00:00",
+  "generated_at": "2026-11-03T23:03:10.262638+00:00",
   "total_appliances": 67,
   "supported_languages": [
     "fr",
@@ -10931,7 +10931,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-Série-3000i-AC303310---Pièces--Entretien-11-03",
       "common_codes": [
         {
           "code": "Voyant Filtre à remplacer (rouge clignotant)",
@@ -11084,7 +11084,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/DeLonghi-Eletta-Explore-ECAM45055G---Pièces--Entretien-11-03",
       "common_codes": [
         {
           "code": "Voyant Détartrage nécessaire (symbole calcaire clignotant)",
