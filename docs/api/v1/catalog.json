@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-03T00:47:37.451587+00:00",
-  "total_appliances": 65,
+  "generated_at": "2026-11-03T13:54:43.500328+00:00",
+  "total_appliances": 67,
   "supported_languages": [
     "fr",
     "en",
@@ -10906,6 +10906,312 @@
         {
           "question": "Ma centrale vapeur fuit de l'eau, que dois-je faire ?",
           "answer": "Assurez-vous que le réservoir est correctement inséré et que le bouchon de remplissage est bien fermé. Une fuite peut aussi être due à une accumulation excessive de calcaire. Effectuez un cycle de détartrage complet. Si le problème persiste, cela pourrait indiquer un problème plus sérieux nécessitant un contact avec le support Philips."
+        }
+      ]
+    },
+    {
+      "slug": "philips-purificateur-air-3000i-ac3033-10-entretien",
+      "brand": "Philips",
+      "model": "Série 3000i (AC3033/10)",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide complet d'entretien pour votre Philips Purificateur d'Air Série 3000i (AC3033/10). Découvrez les filtres à remplacer et les codes d'erreur courants.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Filtre à remplacer (rouge clignotant)",
+          "meaning": "Le filtre NanoProtect HEPA et/ou le filtre à charbon actif ont atteint leur fin de vie utile.",
+          "solution": "Remplacez le filtre indiqué par l'appareil (souvent le filtre 3-en-1) puis réinitialisez le voyant en appuyant 3 secondes sur le bouton de réinitialisation du filtre."
+        },
+        {
+          "code": "Voyant Nettoyage du pré-filtre (orange fixe)",
+          "meaning": "Le pré-filtre est encrassé et nécessite un nettoyage pour maintenir les performances de purification.",
+          "solution": "Retirez le panneau arrière, déclipsez le pré-filtre et nettoyez-le à l'eau courante. Laissez-le sécher complètement avant de le remettre en place. Aucune réinitialisation manuelle n'est généralement nécessaire."
+        },
+        {
+          "code": "Code E1 ou E2 (affichage numérique)",
+          "meaning": "Erreur de capteur ou de moteur du ventilateur. Peut indiquer un blocage ou un dysfonctionnement interne.",
+          "solution": "Débranchez l'appareil, attendez 60 secondes, puis rebranchez-le. Si l'erreur persiste, assurez-vous que les grilles d'entrée/sortie d'air ne sont pas obstruées. Si le problème persiste, cela peut nécessiter un contact avec le support Philips."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre NanoProtect Série 3000i (HEPA et Charbon Actif)",
+          "part_number": "FY3430/30",
+          "frequency": "Tous les 12 mois (selon utilisation et qualité de l'air)",
+          "why_replace": "Perte d'efficacité de filtration (particules fines, gaz, odeurs), augmentation de la consommation d'énergie, diminution du débit d'air purifié.",
+          "search_keywords": "Philips FY3430/30 filtre, Filtre purificateur Philips AC3033/10, Filtre HEPA Philips Série 3000i",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pré-filtre (intégré, lavable)",
+          "part_number": "N/A",
+          "frequency": "Nettoyage tous les 2 mois",
+          "why_replace": "Accumulation de grosses poussières et poils, réduction du flux d'air, diminution de l'efficacité globale du système.",
+          "search_keywords": "Nettoyage pré-filtre Philips AC3033/10, Entretien filtre Philips 3000i",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre NanoProtect Série 3000i (pack complet)",
+          "part_number": "FY3432/30",
+          "frequency": "Tous les 12 mois (selon utilisation et qualité de l'air)",
+          "why_replace": "Performance de filtration réduite, accumulation de polluants, odeurs persistantes, risque pour la santé respiratoire.",
+          "search_keywords": "Philips FY3432/30 filtre complet, Filtre purificateur d'air Philips AC3033/10, Filtre de rechange Philips 3000i",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand changer le filtre de mon Philips AC3033/10 ?",
+          "answer": "L'appareil vous l'indiquera via le voyant \"Filtre à remplacer\" qui s'allumera en rouge. Vous devriez également le remplacer environ tous les 12 mois pour une performance optimale, même sans alerte si l'utilisation est intense."
+        },
+        {
+          "question": "Puis-je nettoyer le filtre principal (HEPA/Charbon) du purificateur Philips Série 3000i ?",
+          "answer": "Non, le filtre NanoProtect (HEPA et Charbon Actif) est conçu pour être remplacé et ne doit pas être nettoyé, car cela endommagerait sa structure filtrante et réduirait son efficacité. Seul le pré-filtre est lavable et réutilisable."
+        },
+        {
+          "question": "Mon purificateur AC3033/10 fait plus de bruit que d'habitude, que faire ?",
+          "answer": "Vérifiez si le pré-filtre est propre et si le filtre principal est correctement installé. Un filtre encrassé ou mal positionné peut forcer le ventilateur et générer plus de bruit. Assurez-vous également qu'aucun objet n'obstrue les entrées ou sorties d'air."
+        }
+      ]
+    },
+    {
+      "slug": "delonghi-eletta-explore-ecam450-55-g-entretien-detartrage",
+      "brand": "De'Longhi",
+      "model": "Eletta Explore (ECAM450.55.G)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Guide d'entretien pour votre machine à café De'Longhi Eletta Explore (ECAM450.55.G). Détartrage, filtre à eau et nettoyage du système LatteCrema Hot & Cool.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant Détartrage nécessaire (symbole calcaire clignotant)",
+          "meaning": "L'appareil a détecté une accumulation de calcaire et nécessite un cycle de détartrage pour maintenir ses performances et prolonger sa durée de vie.",
+          "solution": "Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez un détartrant De'Longhi EcoDecalk. Le processus est guidé par l'écran de la machine."
+        },
+        {
+          "code": "Voyant Bac à marc plein (symbole bac à marc)",
+          "meaning": "Le bac à marc a atteint sa capacité maximale et doit être vidé.",
+          "solution": "Retirez et videz le bac à marc. Assurez-vous de le retirer pendant que la machine est allumée pour que le compteur interne se réinitialise. Rincez-le si nécessaire."
+        },
+        {
+          "code": "Voyant Remplir le réservoir d'eau (symbole goutte d'eau)",
+          "meaning": "Le niveau d'eau dans le réservoir est trop bas ou le réservoir n'est pas correctement inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau maximum et assurez-vous qu'il est correctement et fermement inséré dans son logement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre à eau De'Longhi DLS C002",
+          "part_number": "DLS C002",
+          "frequency": "Tous les 2 mois ou 50 litres d'eau (selon l'indicateur de la machine)",
+          "why_replace": "Accumulation de calcaire dans le circuit d'eau, altération du goût du café, réduction de la durée de vie de la machine.",
+          "search_keywords": "Filtre à eau DeLonghi DLS C002, Filtre machine café DeLonghi Eletta Explore, Cartouche filtrante DeLonghi ECAM450.55.G",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Détartrant De'Longhi EcoDecalk",
+          "part_number": "DLSC500",
+          "frequency": "Tous les 3 mois ou lorsque l'appareil l'indique (selon la dureté de l'eau)",
+          "why_replace": "Risque de panne dû au calcaire, altération de la température et du goût du café, diminution du débit.",
+          "search_keywords": "Détartrant DeLonghi EcoDecalk DLSC500, Produit détartrage DeLonghi Eletta Explore, Détartrant machine à café ECAM450.55.G",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Solution de nettoyage système LatteCrema Hot & Cool (pour lait)",
+          "part_number": "DLSC550",
+          "frequency": "Chaque semaine ou après plusieurs utilisations de lait",
+          "why_replace": "Accumulation de résidus de lait, obstruction des conduits, développement de bactéries, altération du goût des boissons lactées.",
+          "search_keywords": "Nettoyant lait DeLonghi DLSC550, Produit nettoyage LatteCrema Eletta Explore, Nettoyant circuit lait ECAM450.55.G",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma De'Longhi Eletta Explore ECAM450.55.G ?",
+          "answer": "La machine vous l'indiquera automatiquement via un voyant. La fréquence dépend de la dureté de votre eau et de votre utilisation, mais généralement tous les 2 à 3 mois si vous n'utilisez pas de filtre à eau, ou moins souvent avec un filtre."
+        },
+        {
+          "question": "Comment nettoyer le système LatteCrema Hot & Cool de mon Eletta Explore ?",
+          "answer": "Après chaque utilisation de lait, tournez le bouton du réservoir à lait sur la position \"Clean\" pour un rinçage rapide. Régulièrement (hebdomadairement), démontez les composants du réservoir à lait et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle, et utilisez le produit de nettoyage DLSC550."
+        },
+        {
+          "question": "Puis-je utiliser n'importe quel détartrant pour ma machine De'Longhi Eletta Explore ?",
+          "answer": "Il est fortement recommandé d'utiliser uniquement le détartrant De'Longhi EcoDecalk (DLSC500). Les détartrants génériques peuvent être trop agressifs ou inefficaces, risquant d'endommager les composants internes de la machine."
         }
       ]
     }

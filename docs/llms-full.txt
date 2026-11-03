@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-11-03
-> Total appareils répertoriés : 65
+> Total appareils répertoriés : 67
 
 ---
 
@@ -2635,5 +2635,85 @@
   **R :** La fréquence dépend de la dureté de l'eau dans votre région et de votre fréquence d'utilisation. En général, il est recommandé de la remplacer tous les 1 à 3 mois. Le voyant CALC-CLEAN vous indiquera quand un détartrage est nécessaire.
 - **Q : Ma centrale vapeur fuit de l'eau, que dois-je faire ?**
   **R :** Assurez-vous que le réservoir est correctement inséré et que le bouchon de remplissage est bien fermé. Une fuite peut aussi être due à une accumulation excessive de calcaire. Effectuez un cycle de détartrage complet. Si le problème persiste, cela pourrait indiquer un problème plus sérieux nécessitant un contact avec le support Philips.
+
+---
+
+## Philips Série 3000i (AC3033/10)
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html
+- **Résumé d'Entretien :** Guide complet d'entretien pour votre Philips Purificateur d'Air Série 3000i (AC3033/10). Découvrez les filtres à remplacer et les codes d'erreur courants.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Filtre à remplacer (rouge clignotant) | Le filtre NanoProtect HEPA et/ou le filtre à charbon actif ont atteint leur fin de vie utile. | Remplacez le filtre indiqué par l'appareil (souvent le filtre 3-en-1) puis réinitialisez le voyant en appuyant 3 secondes sur le bouton de réinitialisation du filtre. |
+| Voyant Nettoyage du pré-filtre (orange fixe) | Le pré-filtre est encrassé et nécessite un nettoyage pour maintenir les performances de purification. | Retirez le panneau arrière, déclipsez le pré-filtre et nettoyez-le à l'eau courante. Laissez-le sécher complètement avant de le remettre en place. Aucune réinitialisation manuelle n'est généralement nécessaire. |
+| Code E1 ou E2 (affichage numérique) | Erreur de capteur ou de moteur du ventilateur. Peut indiquer un blocage ou un dysfonctionnement interne. | Débranchez l'appareil, attendez 60 secondes, puis rebranchez-le. Si l'erreur persiste, assurez-vous que les grilles d'entrée/sortie d'air ne sont pas obstruées. Si le problème persiste, cela peut nécessiter un contact avec le support Philips. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre NanoProtect Série 3000i (HEPA et Charbon Actif) | FY3430/30 | Tous les 12 mois (selon utilisation et qualité de l'air) | Perte d'efficacité de filtration (particules fines, gaz, odeurs), augmentation de la consommation d'énergie, diminution du débit d'air purifié. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+FY3430%2F30+filtre%2C+Filtre+purificateur+Philips+AC3033%2F10%2C+Filtre+HEPA+Philips+S%C3%A9rie+3000i&tag=autoconsom-21) |
+| Pré-filtre (intégré, lavable) | N/A | Nettoyage tous les 2 mois | Accumulation de grosses poussières et poils, réduction du flux d'air, diminution de l'efficacité globale du système. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Nettoyage+pr%C3%A9-filtre+Philips+AC3033%2F10%2C+Entretien+filtre+Philips+3000i&tag=autoconsom-21) |
+| Filtre NanoProtect Série 3000i (pack complet) | FY3432/30 | Tous les 12 mois (selon utilisation et qualité de l'air) | Performance de filtration réduite, accumulation de polluants, odeurs persistantes, risque pour la santé respiratoire. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Philips+FY3432%2F30+filtre+complet%2C+Filtre+purificateur+d%27air+Philips+AC3033%2F10%2C+Filtre+de+rechange+Philips+3000i&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment savoir quand changer le filtre de mon Philips AC3033/10 ?**
+  **R :** L'appareil vous l'indiquera via le voyant "Filtre à remplacer" qui s'allumera en rouge. Vous devriez également le remplacer environ tous les 12 mois pour une performance optimale, même sans alerte si l'utilisation est intense.
+- **Q : Puis-je nettoyer le filtre principal (HEPA/Charbon) du purificateur Philips Série 3000i ?**
+  **R :** Non, le filtre NanoProtect (HEPA et Charbon Actif) est conçu pour être remplacé et ne doit pas être nettoyé, car cela endommagerait sa structure filtrante et réduirait son efficacité. Seul le pré-filtre est lavable et réutilisable.
+- **Q : Mon purificateur AC3033/10 fait plus de bruit que d'habitude, que faire ?**
+  **R :** Vérifiez si le pré-filtre est propre et si le filtre principal est correctement installé. Un filtre encrassé ou mal positionné peut forcer le ventilateur et générer plus de bruit. Assurez-vous également qu'aucun objet n'obstrue les entrées ou sorties d'air.
+
+---
+
+## De'Longhi Eletta Explore (ECAM450.55.G)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre machine à café De'Longhi Eletta Explore (ECAM450.55.G). Détartrage, filtre à eau et nettoyage du système LatteCrema Hot & Cool.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant Détartrage nécessaire (symbole calcaire clignotant) | L'appareil a détecté une accumulation de calcaire et nécessite un cycle de détartrage pour maintenir ses performances et prolonger sa durée de vie. | Lancez le programme de détartrage en suivant les instructions du manuel. Utilisez un détartrant De'Longhi EcoDecalk. Le processus est guidé par l'écran de la machine. |
+| Voyant Bac à marc plein (symbole bac à marc) | Le bac à marc a atteint sa capacité maximale et doit être vidé. | Retirez et videz le bac à marc. Assurez-vous de le retirer pendant que la machine est allumée pour que le compteur interne se réinitialise. Rincez-le si nécessaire. |
+| Voyant Remplir le réservoir d'eau (symbole goutte d'eau) | Le niveau d'eau dans le réservoir est trop bas ou le réservoir n'est pas correctement inséré. | Remplissez le réservoir d'eau fraîche jusqu'au niveau maximum et assurez-vous qu'il est correctement et fermement inséré dans son logement. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre à eau De'Longhi DLS C002 | DLS C002 | Tous les 2 mois ou 50 litres d'eau (selon l'indicateur de la machine) | Accumulation de calcaire dans le circuit d'eau, altération du goût du café, réduction de la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Filtre+%C3%A0+eau+DeLonghi+DLS+C002%2C+Filtre+machine+caf%C3%A9+DeLonghi+Eletta+Explore%2C+Cartouche+filtrante+DeLonghi+ECAM450.55.G&tag=autoconsom-21) |
+| Détartrant De'Longhi EcoDecalk | DLSC500 | Tous les 3 mois ou lorsque l'appareil l'indique (selon la dureté de l'eau) | Risque de panne dû au calcaire, altération de la température et du goût du café, diminution du débit. | [Amazon.fr ↗](https://www.amazon.fr/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=D%C3%A9tartrant+DeLonghi+EcoDecalk+DLSC500%2C+Produit+d%C3%A9tartrage+DeLonghi+Eletta+Explore%2C+D%C3%A9tartrant+machine+%C3%A0+caf%C3%A9+ECAM450.55.G&tag=autoconsom-21) |
+| Solution de nettoyage système LatteCrema Hot & Cool (pour lait) | DLSC550 | Chaque semaine ou après plusieurs utilisations de lait | Accumulation de résidus de lait, obstruction des conduits, développement de bactéries, altération du goût des boissons lactées. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Nettoyant+lait+DeLonghi+DLSC550%2C+Produit+nettoyage+LatteCrema+Eletta+Explore%2C+Nettoyant+circuit+lait+ECAM450.55.G&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je détartrer ma De'Longhi Eletta Explore ECAM450.55.G ?**
+  **R :** La machine vous l'indiquera automatiquement via un voyant. La fréquence dépend de la dureté de votre eau et de votre utilisation, mais généralement tous les 2 à 3 mois si vous n'utilisez pas de filtre à eau, ou moins souvent avec un filtre.
+- **Q : Comment nettoyer le système LatteCrema Hot & Cool de mon Eletta Explore ?**
+  **R :** Après chaque utilisation de lait, tournez le bouton du réservoir à lait sur la position "Clean" pour un rinçage rapide. Régulièrement (hebdomadairement), démontez les composants du réservoir à lait et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle, et utilisez le produit de nettoyage DLSC550.
+- **Q : Puis-je utiliser n'importe quel détartrant pour ma machine De'Longhi Eletta Explore ?**
+  **R :** Il est fortement recommandé d'utiliser uniquement le détartrant De'Longhi EcoDecalk (DLSC500). Les détartrants génériques peuvent être trop agressifs ou inefficaces, risquant d'endommager les composants internes de la machine.
 
 ---
