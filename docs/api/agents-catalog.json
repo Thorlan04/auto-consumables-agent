@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-02T15:15:34.872105+00:00",
+  "generated_at": "2026-11-03T00:47:37.451587+00:00",
   "total_appliances": 65,
   "supported_languages": [
     "fr",
@@ -10625,7 +10625,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Levoit-Core-600S-Smart-True-HEPA---Pièces--Entretien-11-02",
       "common_codes": [
         {
           "code": "Voyant de remplacement du filtre (rouge/clignotant)",
@@ -10778,7 +10778,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Philips-PerfectCare-9000-Series-PSG902020---Pièces--Entretien-11-02",
       "common_codes": [
         {
           "code": "Voyant CALC-CLEAN clignotant",

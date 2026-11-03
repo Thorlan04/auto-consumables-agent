@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T20 Omni (DT20): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Ecovacs Deebot T20 Omni (DT20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-02"
+published_at: "2026-11-03"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

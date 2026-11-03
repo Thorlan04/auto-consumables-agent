@@ -2,7 +2,7 @@
 title: "Philips PerfectCare 9000 Series PSG9020/20: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Philips PerfectCare 9000 Series PSG9020/20."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
-published_at: "2026-11-02"
+published_at: "2026-11-03"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

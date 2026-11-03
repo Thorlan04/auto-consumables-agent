@@ -2,7 +2,7 @@
 title: "Entretien Krups Evidence Plus (EA894T10) : Détartrage & Consommables"
 description: "Gardez votre Krups Evidence Plus EA894T10 performante. Découvrez les cartouches filtrantes, les pastilles de nettoyage et la procédure de détartrage."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-02"
+published_at: "2026-11-03"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

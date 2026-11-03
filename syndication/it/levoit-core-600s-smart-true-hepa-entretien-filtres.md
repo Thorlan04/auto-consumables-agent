@@ -2,7 +2,7 @@
 title: "Levoit Core 600S Smart True HEPA: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Levoit Core 600S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html"
-published_at: "2026-11-02"
+published_at: "2026-11-03"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
