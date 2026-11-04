@@ -2,7 +2,7 @@
 title: "Levoit Core 600S Smart True HEPA: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Levoit Core 600S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

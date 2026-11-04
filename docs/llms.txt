@@ -59,6 +59,7 @@
 - [Tefal ActiFry Genius XL 2-in-1 (FZ775E00)](https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Cosori Turbo Blaze (CAF-P583R-EUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Moulinex Easy Fry & Grill XXL (EZ801D10)](https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)](https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -80,6 +81,7 @@
 - [Krups Evidence Plus (EA894T10)](https://thorlan04.github.io/auto-consumables-agent/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Jura E6 (EB) (15372)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [De'Longhi Eletta Explore (ECAM450.55.G)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Jura J8 (15555)](https://thorlan04.github.io/auto-consumables-agent/guides/jura-j8-15555-entretien-detartrage-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Purificateurs d'Air
 - [Xiaomi Smart Air Purifier 4](https://thorlan04.github.io/auto-consumables-agent/guides/xiaomi-smart-air-purifier-4-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.

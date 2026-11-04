@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

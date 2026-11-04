@@ -4,8 +4,8 @@
 > Domaine : https://thorlan04.github.io/auto-consumables-agent
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
-> Horodatage de génération : 2026-11-03
-> Total appareils répertoriés : 67
+> Horodatage de génération : 2026-11-04
+> Total appareils répertoriés : 69
 
 ---
 
@@ -2715,5 +2715,87 @@
   **R :** Après chaque utilisation de lait, tournez le bouton du réservoir à lait sur la position "Clean" pour un rinçage rapide. Régulièrement (hebdomadairement), démontez les composants du réservoir à lait et lavez-les à l'eau chaude savonneuse ou au lave-vaisselle, et utilisez le produit de nettoyage DLSC550.
 - **Q : Puis-je utiliser n'importe quel détartrant pour ma machine De'Longhi Eletta Explore ?**
   **R :** Il est fortement recommandé d'utiliser uniquement le détartrant De'Longhi EcoDecalk (DLSC500). Les détartrants génériques peuvent être trop agressifs ou inefficaces, risquant d'endommager les composants internes de la machine.
+
+---
+
+## Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html
+- **Résumé d'Entretien :** Optimisez votre Instant Vortex Plus 5.7L avec nos conseils d'entretien. Découvrez quand remplacer le panier, la grille et les accessoires pour des repas parfaits.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Food | Indique que l'appareil est préchauffé et prêt à recevoir les aliments. | Ouvrez le tiroir du panier, placez vos aliments à l'intérieur (sans dépasser la limite MAX), puis refermez le tiroir pour que la cuisson démarre. |
+| Shake | Rappel de secouer ou retourner les aliments pour une cuisson uniforme. | Ouvrez le tiroir du panier, secouez ou retournez les aliments, puis refermez le tiroir. La cuisson reprendra automatiquement. |
+| E1 | Problème lié au capteur de température ou à une surchauffe. | Débranchez l'appareil, laissez-le refroidir complètement pendant au moins 30 minutes. Assurez-vous que les entrées et sorties d'air ne sont pas obstruées. Rebranchez et réessayez. Si le code persiste, contactez le support. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Panier de cuisson antiadhésif Instant Vortex Plus 5.7L | Réf. constructeur adaptable | Tous les 12 à 24 mois (selon l'usage) | Revêtement antiadhésif usé, rayures, aliments qui collent, nettoyage difficile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21) |
+| Grille de cuisson perforée Instant Vortex Plus 5.7L | Réf. constructeur adaptable | Tous les 12 à 24 mois (si endommagée) | Déformation, revêtement antiadhésif abîmé, nourriture qui adhère, difficulté de nettoyage. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21) |
+| Accessoires en silicone Instant Brands (moules, tapis) | Réf. constructeur adaptable | Tous les 6 à 12 mois (si usés) | Déchirures, déformations, perte de propriétés antiadhésives, odeurs persistantes. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21) |
+| Produit de nettoyage doux pour Air Fryer | N/A | Après chaque utilisation ou selon besoin | Maintenir l'hygiène et prévenir l'accumulation de graisses et résidus alimentaires. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer mon Instant Vortex Plus 5.7L ?**
+  **R :** Après chaque utilisation, laissez le panier et la grille refroidir, puis lavez-les à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'intérieur et l'extérieur de l'appareil avec un chiffon humide non abrasif.
+- **Q : Mes aliments ne cuisent pas uniformément, que faire ?**
+  **R :** Assurez-vous de ne pas surcharger le panier. Secouez ou retournez les aliments à mi-cuisson (lorsque l'alerte 'Shake' apparaît) pour garantir une circulation d'air optimale et une cuisson homogène.
+- **Q : Le revêtement antiadhésif de mon panier s'abîme, est-ce normal ?**
+  **R :** Avec le temps et l'utilisation, le revêtement antiadhésif peut s'user, surtout en cas d'utilisation d'ustensiles métalliques ou de nettoyants abrasifs. Il est recommandé d'utiliser des ustensiles en silicone ou en bois et de remplacer le panier si l'antiadhésif est trop dégradé.
+
+---
+
+## Jura J8 (15555)
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-j8-15555-entretien-detartrage-filtre.html
+- **Résumé d'Entretien :** Optimisez la longévité et la qualité de votre Jura J8 (15555) avec notre guide d'entretien. Découvrez le filtre Claris Smart, le détartrage et les alertes courantes.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Changer le filtre | La cartouche filtrante CLARIS Smart est épuisée et doit être remplacée. | Retirez l'ancienne cartouche du réservoir d'eau. Insérez une nouvelle cartouche CLARIS Smart, puis suivez les instructions à l'écran pour rincer le filtre et confirmer le remplacement. |
+| Détartrer l'appareil | L'appareil a atteint le seuil de calcification et nécessite un détartrage. | Videz le réservoir d'eau. Dissolvez une pastille de détartrage Jura dans de l'eau tiède, versez dans le réservoir et suivez les étapes du programme de détartrage guidé à l'écran. |
+| Nettoyer l'appareil | Le programme de nettoyage du système de café doit être effectué pour éliminer les résidus de café. | Placez un récipient sous la buse. Insérez une pastille de nettoyage Jura dans l'orifice prévu à cet effet (généralement via le compartiment à café moulu) et suivez les instructions du programme de nettoyage à l'écran. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche filtrante Jura CLARIS Smart | 71793 | Tous les 2 mois (ou après 50 litres d'eau) | Prévention de l'accumulation de calcaire, amélioration du goût du café et protection des composants internes de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21) |
+| Pastilles de nettoyage Jura | 62715 | Tous les 180 cafés (ou selon l'affichage) | Élimination des résidus de café et des graisses dans l'unité de percolation, maintien de l'hygiène et du goût optimal du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21) |
+| Pastilles de détartrage Jura | 61848 | Tous les 3 à 6 mois (ou selon l'affichage et la dureté de l'eau) | Élimination du calcaire accumulé dans le système de chauffage, protection des composants internes et maintien du débit d'eau. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21) |
+| Lait de nettoyage du système de lait Jura | 24196 | Quotidiennement ou après chaque utilisation du système de lait | Élimination des résidus de lait et prévention de la formation de bactéries, garantissant l'hygiène et le bon fonctionnement du système à lait. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je changer le filtre CLARIS Smart de ma Jura J8 ?**
+  **R :** Le filtre doit être remplacé tous les deux mois ou après avoir préparé environ 50 litres d'eau, selon la première échéance atteinte. Votre machine vous alertera automatiquement.
+- **Q : Le programme de détartrage est-il nécessaire si j'utilise le filtre à eau ?**
+  **R :** Oui, même avec un filtre, un détartrage périodique reste nécessaire car le filtre ne peut pas éliminer 100% du calcaire. La fréquence dépendra de la dureté de votre eau et de l'utilisation du filtre.
+- **Q : Comment puis-je nettoyer le système de lait de ma Jura J8 ?**
+  **R :** Après chaque utilisation de lait, la machine vous invitera à rincer le système à lait. Pour un nettoyage en profondeur, utilisez le programme de nettoyage du système de lait avec le produit de nettoyage spécifique Jura, comme indiqué à l'écran.
 
 ---

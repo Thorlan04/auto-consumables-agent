@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Tefal ActiFry Genius XL 2-en-1 (FZ775E00) - Pièces Détachées"
 description: "Guide d'entretien pour votre Tefal ActiFry Genius XL 2-en-1 FZ775E00. Trouvez les pièces de rechange et conseils pour prolonger sa durée de vie."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

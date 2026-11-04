@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Jura E6 (EB) (15372) - Guide Complet"
 description: "Maximisez la durée de vie de votre machine à café Jura E6 (EB) (15372). Découvrez les filtres, produits de détartrage et solutions aux codes d'erreur."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

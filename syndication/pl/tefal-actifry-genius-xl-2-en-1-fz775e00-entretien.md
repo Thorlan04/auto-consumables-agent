@@ -2,7 +2,7 @@
 title: "Tefal ActiFry Genius XL 2-in-1 (FZ775E00): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Tefal ActiFry Genius XL 2-in-1 (FZ775E00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

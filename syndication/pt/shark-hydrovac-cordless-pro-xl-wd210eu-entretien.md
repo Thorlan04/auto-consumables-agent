@@ -2,7 +2,7 @@
 title: "Shark HydroVac Cordless Pro XL (WD210EU): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Shark HydroVac Cordless Pro XL (WD210EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

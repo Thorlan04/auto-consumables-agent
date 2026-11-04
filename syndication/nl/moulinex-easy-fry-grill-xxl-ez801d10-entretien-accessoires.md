@@ -2,7 +2,7 @@
 title: "Moulinex Easy Fry & Grill XXL (EZ801D10): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Moulinex Easy Fry & Grill XXL (EZ801D10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T20 Omni (DT20): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Ecovacs Deebot T20 Omni (DT20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

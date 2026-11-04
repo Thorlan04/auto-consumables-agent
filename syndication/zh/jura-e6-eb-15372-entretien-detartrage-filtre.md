@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): 耗材配件、滤网更换与故障代码指南"
 description: "Jura E6 (EB) (15372) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

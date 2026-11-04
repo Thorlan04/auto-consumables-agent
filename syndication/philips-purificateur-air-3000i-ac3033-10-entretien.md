@@ -2,7 +2,7 @@
 title: "Entretien Philips Purificateur d'Air Série 3000i (AC3033/10) : Filtres & Codes Erreurs"
 description: "Guide complet d'entretien pour votre Philips Purificateur d'Air Série 3000i (AC3033/10). Découvrez les filtres à remplacer et les codes d'erreur courants."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-03"
+published_at: "2026-11-04"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

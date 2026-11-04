@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-03T23:03:10.262638+00:00",
-  "total_appliances": 67,
+  "generated_at": "2026-11-04T05:39:57.025102+00:00",
+  "total_appliances": 69,
   "supported_languages": [
     "fr",
     "en",
@@ -11212,6 +11212,376 @@
         {
           "question": "Puis-je utiliser n'importe quel détartrant pour ma machine De'Longhi Eletta Explore ?",
           "answer": "Il est fortement recommandé d'utiliser uniquement le détartrant De'Longhi EcoDecalk (DLSC500). Les détartrants génériques peuvent être trop agressifs ou inefficaces, risquant d'endommager les composants internes de la machine."
+        }
+      ]
+    },
+    {
+      "slug": "instant-vortex-plus-5-7l-air-fryer-entretien-accessoires",
+      "brand": "Instant Brands",
+      "model": "Instant Vortex Plus 5.7L (6-in-1 Air Fryer)",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Optimisez votre Instant Vortex Plus 5.7L avec nos conseils d'entretien. Découvrez quand remplacer le panier, la grille et les accessoires pour des repas parfaits.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Food",
+          "meaning": "Indique que l'appareil est préchauffé et prêt à recevoir les aliments.",
+          "solution": "Ouvrez le tiroir du panier, placez vos aliments à l'intérieur (sans dépasser la limite MAX), puis refermez le tiroir pour que la cuisson démarre."
+        },
+        {
+          "code": "Shake",
+          "meaning": "Rappel de secouer ou retourner les aliments pour une cuisson uniforme.",
+          "solution": "Ouvrez le tiroir du panier, secouez ou retournez les aliments, puis refermez le tiroir. La cuisson reprendra automatiquement."
+        },
+        {
+          "code": "E1",
+          "meaning": "Problème lié au capteur de température ou à une surchauffe.",
+          "solution": "Débranchez l'appareil, laissez-le refroidir complètement pendant au moins 30 minutes. Assurez-vous que les entrées et sorties d'air ne sont pas obstruées. Rebranchez et réessayez. Si le code persiste, contactez le support."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Panier de cuisson antiadhésif Instant Vortex Plus 5.7L",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 12 à 24 mois (selon l'usage)",
+          "why_replace": "Revêtement antiadhésif usé, rayures, aliments qui collent, nettoyage difficile.",
+          "search_keywords": "Instant Vortex Plus 5.7L panier remplacement, Instant Brands Vortex Plus 6 Quart basket, panier Instant Vortex Plus original",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+panier+remplacement%2C+Instant+Brands+Vortex+Plus+6+Quart+basket%2C+panier+Instant+Vortex+Plus+original&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Grille de cuisson perforée Instant Vortex Plus 5.7L",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 12 à 24 mois (si endommagée)",
+          "why_replace": "Déformation, revêtement antiadhésif abîmé, nourriture qui adhère, difficulté de nettoyage.",
+          "search_keywords": "Instant Vortex Plus 5.7L grille, Instant Brands Vortex Plus 6 Quart grill plate, grille de cuisson Instant Vortex Plus",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+grille%2C+Instant+Brands+Vortex+Plus+6+Quart+grill+plate%2C+grille+de+cuisson+Instant+Vortex+Plus&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Accessoires en silicone Instant Brands (moules, tapis)",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 6 à 12 mois (si usés)",
+          "why_replace": "Déchirures, déformations, perte de propriétés antiadhésives, odeurs persistantes.",
+          "search_keywords": "Instant Vortex Plus 5.7L accessoires silicone, Instant Brands Vortex Plus moule, tapis silicone Instant Vortex Plus",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Instant+Vortex+Plus+5.7L+accessoires+silicone%2C+Instant+Brands+Vortex+Plus+moule%2C+tapis+silicone+Instant+Vortex+Plus&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Produit de nettoyage doux pour Air Fryer",
+          "part_number": "N/A",
+          "frequency": "Après chaque utilisation ou selon besoin",
+          "why_replace": "Maintenir l'hygiène et prévenir l'accumulation de graisses et résidus alimentaires.",
+          "search_keywords": "Produit nettoyage Air Fryer, dégraissant Air Fryer, nettoyant panier friteuse sans huile",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Produit+nettoyage+Air+Fryer%2C+d%C3%A9graissant+Air+Fryer%2C+nettoyant+panier+friteuse+sans+huile&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer mon Instant Vortex Plus 5.7L ?",
+          "answer": "Après chaque utilisation, laissez le panier et la grille refroidir, puis lavez-les à l'eau chaude savonneuse ou au lave-vaisselle. Essuyez l'intérieur et l'extérieur de l'appareil avec un chiffon humide non abrasif."
+        },
+        {
+          "question": "Mes aliments ne cuisent pas uniformément, que faire ?",
+          "answer": "Assurez-vous de ne pas surcharger le panier. Secouez ou retournez les aliments à mi-cuisson (lorsque l'alerte 'Shake' apparaît) pour garantir une circulation d'air optimale et une cuisson homogène."
+        },
+        {
+          "question": "Le revêtement antiadhésif de mon panier s'abîme, est-ce normal ?",
+          "answer": "Avec le temps et l'utilisation, le revêtement antiadhésif peut s'user, surtout en cas d'utilisation d'ustensiles métalliques ou de nettoyants abrasifs. Il est recommandé d'utiliser des ustensiles en silicone ou en bois et de remplacer le panier si l'antiadhésif est trop dégradé."
+        }
+      ]
+    },
+    {
+      "slug": "jura-j8-15555-entretien-detartrage-filtre",
+      "brand": "Jura",
+      "model": "J8 (15555)",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Optimisez la longévité et la qualité de votre Jura J8 (15555) avec notre guide d'entretien. Découvrez le filtre Claris Smart, le détartrage et les alertes courantes.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-j8-15555-entretien-detartrage-filtre.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-j8-15555-entretien-detartrage-filtre.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Changer le filtre",
+          "meaning": "La cartouche filtrante CLARIS Smart est épuisée et doit être remplacée.",
+          "solution": "Retirez l'ancienne cartouche du réservoir d'eau. Insérez une nouvelle cartouche CLARIS Smart, puis suivez les instructions à l'écran pour rincer le filtre et confirmer le remplacement."
+        },
+        {
+          "code": "Détartrer l'appareil",
+          "meaning": "L'appareil a atteint le seuil de calcification et nécessite un détartrage.",
+          "solution": "Videz le réservoir d'eau. Dissolvez une pastille de détartrage Jura dans de l'eau tiède, versez dans le réservoir et suivez les étapes du programme de détartrage guidé à l'écran."
+        },
+        {
+          "code": "Nettoyer l'appareil",
+          "meaning": "Le programme de nettoyage du système de café doit être effectué pour éliminer les résidus de café.",
+          "solution": "Placez un récipient sous la buse. Insérez une pastille de nettoyage Jura dans l'orifice prévu à cet effet (généralement via le compartiment à café moulu) et suivez les instructions du programme de nettoyage à l'écran."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante Jura CLARIS Smart",
+          "part_number": "71793",
+          "frequency": "Tous les 2 mois (ou après 50 litres d'eau)",
+          "why_replace": "Prévention de l'accumulation de calcaire, amélioration du goût du café et protection des composants internes de la machine.",
+          "search_keywords": "Jura J8 filtre CLARIS Smart 71793, cartouche filtrante Jura J8, filtre à eau Jura 71793",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+J8+filtre+CLARIS+Smart+71793%2C+cartouche+filtrante+Jura+J8%2C+filtre+%C3%A0+eau+Jura+71793&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de nettoyage Jura",
+          "part_number": "62715",
+          "frequency": "Tous les 180 cafés (ou selon l'affichage)",
+          "why_replace": "Élimination des résidus de café et des graisses dans l'unité de percolation, maintien de l'hygiène et du goût optimal du café.",
+          "search_keywords": "Jura J8 pastilles nettoyage 62715, pastilles de nettoyage Jura, produit nettoyage Jura J8",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+J8+pastilles+nettoyage+62715%2C+pastilles+de+nettoyage+Jura%2C+produit+nettoyage+Jura+J8&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Pastilles de détartrage Jura",
+          "part_number": "61848",
+          "frequency": "Tous les 3 à 6 mois (ou selon l'affichage et la dureté de l'eau)",
+          "why_replace": "Élimination du calcaire accumulé dans le système de chauffage, protection des composants internes et maintien du débit d'eau.",
+          "search_keywords": "Jura J8 pastilles détartrage 61848, détartrant Jura J8, produit détartrage Jura machine café",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+J8+pastilles+d%C3%A9tartrage+61848%2C+d%C3%A9tartrant+Jura+J8%2C+produit+d%C3%A9tartrage+Jura+machine+caf%C3%A9&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Lait de nettoyage du système de lait Jura",
+          "part_number": "24196",
+          "frequency": "Quotidiennement ou après chaque utilisation du système de lait",
+          "why_replace": "Élimination des résidus de lait et prévention de la formation de bactéries, garantissant l'hygiène et le bon fonctionnement du système à lait.",
+          "search_keywords": "Jura J8 nettoyage système lait 24196, liquide nettoyage lait Jura, Jura milk cleaner",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Jura+J8+nettoyage+syst%C3%A8me+lait+24196%2C+liquide+nettoyage+lait+Jura%2C+Jura+milk+cleaner&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je changer le filtre CLARIS Smart de ma Jura J8 ?",
+          "answer": "Le filtre doit être remplacé tous les deux mois ou après avoir préparé environ 50 litres d'eau, selon la première échéance atteinte. Votre machine vous alertera automatiquement."
+        },
+        {
+          "question": "Le programme de détartrage est-il nécessaire si j'utilise le filtre à eau ?",
+          "answer": "Oui, même avec un filtre, un détartrage périodique reste nécessaire car le filtre ne peut pas éliminer 100% du calcaire. La fréquence dépendra de la dureté de votre eau et de l'utilisation du filtre."
+        },
+        {
+          "question": "Comment puis-je nettoyer le système de lait de ma Jura J8 ?",
+          "answer": "Après chaque utilisation de lait, la machine vous invitera à rincer le système à lait. Pour un nettoyage en profondeur, utilisez le programme de nettoyage du système de lait avec le produit de nettoyage spécifique Jura, comme indiqué à l'écran."
         }
       ]
     }
