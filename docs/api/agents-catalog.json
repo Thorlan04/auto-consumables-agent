@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-04T05:39:57.025102+00:00",
+  "generated_at": "2026-11-04T14:03:50.033268+00:00",
   "total_appliances": 69,
   "supported_languages": [
     "fr",
@@ -11237,7 +11237,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Instant-Brands-Instant-Vortex-Plus-57L-6-in-1-Air-Fryer---Pièces--Entretien-11-04",
       "common_codes": [
         {
           "code": "Food",
@@ -11422,7 +11422,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-j8-15555-entretien-detartrage-filtre.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-j8-15555-entretien-detartrage-filtre.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Jura-J8-15555---Pièces--Entretien-11-04",
       "common_codes": [
         {
           "code": "Changer le filtre",

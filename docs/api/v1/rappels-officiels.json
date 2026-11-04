@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-04T05:39:57.025102+00:00",
+  "retrieved_at": "2026-11-04T14:03:50.033268+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "eglo",
+      "model": "301303 - mandroni ambre¤301304 - mandroni noir fume¤301305 - mandroni vert",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-11-04T13:27:52+00:00",
+      "reason": "le produit présente un défaut de fabrication pouvant entraîner la rupture du verre après installation. ce risque survient lorsque le serrage appliqué lors du montage dépasse le niveau recommandé.",
+      "risks": "blessures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23998/interne",
+      "safe_replacement_search": "appareils électriques, électroménager eglo certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+eglo+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "sterwins",
       "model": "tronçonneuse thermique  sterwins pcs2-45es.4  – 45cm",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23372/interne",
       "safe_replacement_search": "machines ribimex certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=machines+ribimex+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "la sommelière",
-      "model": "dvv4¤dvv6¤dvv6ss¤dvv8",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-09-01T10:33:48+00:00",
-      "reason": "risques d’échauffement, de dégagement de fumée et de combustion de la carte électronique lors de défaut d'entretien après plusieurs années d'utilisation¤",
-      "risks": "incendie",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23358/interne",
-      "safe_replacement_search": "appareils électriques, électroménager la sommelière certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+la+sommeli%C3%A8re+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
