@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-11-04
-> Total appareils répertoriés : 69
+> Total appareils répertoriés : 71
 
 ---
 
@@ -2797,5 +2797,86 @@
   **R :** Oui, même avec un filtre, un détartrage périodique reste nécessaire car le filtre ne peut pas éliminer 100% du calcaire. La fréquence dépendra de la dureté de votre eau et de l'utilisation du filtre.
 - **Q : Comment puis-je nettoyer le système de lait de ma Jura J8 ?**
   **R :** Après chaque utilisation de lait, la machine vous invitera à rincer le système à lait. Pour un nettoyage en profondeur, utilisez le programme de nettoyage du système de lait avec le produit de nettoyage spécifique Jura, comme indiqué à l'écran.
+
+---
+
+## Dyson Dyson Purifier Cool Gen1 (TP10)
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html
+- **Résumé d'Entretien :** Optimisez votre Dyson Purifier Cool Gen1 TP10. Découvrez les filtres HEPA/charbon actif, la fréquence de remplacement et les solutions aux voyants d'alerte pour une qualité d'air optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant du filtre clignotant | Le filtre combiné HEPA et charbon actif est encrassé et doit être remplacé. | Retirez l'ancien filtre en appuyant sur les boutons de libération, insérez le nouveau filtre jusqu'à entendre un clic, puis réinitialisez le voyant en maintenant le bouton 'Mode Nuit' pendant 5 secondes. |
+| Voyant d'alerte qualité de l'air (couleur rouge) | La qualité de l'air ambiant est très mauvaise (présence élevée de polluants). | Augmentez la vitesse de ventilation manuellement ou activez le mode automatique pour que l'appareil purifie plus intensément. Assurez-vous que l'appareil est placé dans un endroit dégagé. |
+| Pas d'air expulsé ou faible flux | Le circuit d'air est obstrué ou le ventilateur est bloqué. | Éteignez et débranchez l'appareil. Vérifiez qu'aucun objet n'obstrue les grilles d'entrée ou de sortie d'air. Nettoyez délicatement les surfaces externes avec un chiffon sec. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre combiné HEPA et charbon actif Dyson Purifier Cool Gen1 | 972691-01 | Tous les 12 mois ou selon l'utilisation | Perte d'efficacité de filtration des particules fines (HEPA) et des odeurs/gaz (charbon actif), entraînant une mauvaise qualité de l'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Dyson+Purifier+Cool+Gen1+TP10+filtre+972691-01%2C+filtre+HEPA+charbon+actif+Dyson+TP10%2C+remplacement+filtre+Dyson+Gen1&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Dyson+Purifier+Cool+Gen1+TP10+filtre+972691-01%2C+filtre+HEPA+charbon+actif+Dyson+TP10%2C+remplacement+filtre+Dyson+Gen1&tag=autoconsom-21) |
+| Lingettes de nettoyage pour capteurs Dyson | Réf. constructeur adaptable | Tous les 3 mois | Accumulation de poussière sur les capteurs, entraînant des lectures inexactes de la qualité de l'air et une purification inefficace. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Lingettes+nettoyage+capteurs+Dyson+purificateur%2C+kit+entretien+capteur+Dyson+Purifier+Cool&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Lingettes+nettoyage+capteurs+Dyson+purificateur%2C+kit+entretien+capteur+Dyson+Purifier+Cool&tag=autoconsom-21) |
+| Solution de nettoyage externe Dyson | Réf. constructeur adaptable | Selon besoin | Saletés et poussières accumulées sur les surfaces, réduisant l'esthétique et pouvant gêner le flux d'air. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Produit+nettoyage+externe+Dyson%2C+chiffon+microfibre+Dyson+purificateur&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Produit+nettoyage+externe+Dyson%2C+chiffon+microfibre+Dyson+purificateur&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment savoir quand changer le filtre de mon Dyson Purifier Cool Gen1 TP10?**
+  **R :** Un voyant lumineux sur l'écran de l'appareil clignotera et l'application Dyson Link vous alertera lorsque le filtre combiné HEPA et charbon actif doit être remplacé, généralement après 12 mois d'utilisation.
+- **Q : Mon purificateur Dyson ne détecte plus les polluants, que faire?**
+  **R :** Nettoyez délicatement les capteurs de l'appareil avec un chiffon sec et doux. Assurez-vous que l'appareil est dans un endroit dégagé et que le filtre n'est pas complètement obstrué. Si le problème persiste, le filtre peut nécessiter un remplacement.
+- **Q : Puis-je laver le filtre de mon Dyson Purifier Cool Gen1 TP10?**
+  **R :** Non, le filtre combiné HEPA et charbon actif du Dyson Purifier Cool Gen1 TP10 n'est pas lavable et doit être remplacé lorsqu'il est saturé pour maintenir les performances optimales de l'appareil.
+
+---
+
+## De'Longhi De'Longhi Magnifica Evo ECAM290.61.B
+- **Catégorie :** Machines à Café à Grains
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html
+- **Résumé d'Entretien :** Prolongez la vie de votre De'Longhi Magnifica Evo ECAM290.61.B. Découvrez les cartouches filtrantes, détartrants, et solutions aux codes d'erreur pour un café parfait.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant "Détartrage" | La machine a besoin d'être détartrée pour éliminer les dépôts de calcaire. | Lancez le cycle de détartrage en suivant les instructions du manuel. Utilisez un produit détartrant De'Longhi compatible, videz le bac d'égouttement et remplissez le réservoir d'eau avec la solution de détartrage. |
+| Voyant "Réservoir d'eau vide" | Le réservoir d'eau est vide ou mal inséré. | Remplissez le réservoir d'eau fraîche jusqu'au niveau max et assurez-vous qu'il est correctement et fermement en place dans la machine. |
+| Voyant "Bac à marc plein" | Le bac à marc est plein et doit être vidé. | Retirez le bac d'égouttement avec le bac à marc, videz le marc de café, rincez-les si nécessaire, puis réinsérez-les correctement. Le voyant se réinitialise automatiquement. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Cartouche filtrante anti-calcaire De'Longhi DLS C002 | DLS C002 / SER3017 | Tous les 2 mois ou 50 litres d'eau | Réduit l'accumulation de calcaire, améliore la qualité de l'eau et prolonge la durée de vie de la machine. | [Amazon.fr ↗](https://www.amazon.fr/s?k=DeLonghi+DLS+C002+filtre%2C+cartouche+filtrante+Magnifica+Evo+ECAM290.61.B%2C+SER3017+filtre+DeLonghi&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=DeLonghi+DLS+C002+filtre%2C+cartouche+filtrante+Magnifica+Evo+ECAM290.61.B%2C+SER3017+filtre+DeLonghi&tag=autoconsom-21) |
+| Détartrant écologique De'Longhi Ecodecalk | DLSC500 | Tous les 2-3 mois (selon dureté de l'eau et utilisation) | Élimine le calcaire des circuits internes, prévient les pannes et assure un fonctionnement optimal et un meilleur goût du café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=DeLonghi+Ecodecalk+DLSC500%2C+d%C3%A9tartrant+machine+caf%C3%A9+Magnifica+Evo%2C+produit+d%C3%A9tartrage+DeLonghi+ECAM290.61.B&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=DeLonghi+Ecodecalk+DLSC500%2C+d%C3%A9tartrant+machine+caf%C3%A9+Magnifica+Evo%2C+produit+d%C3%A9tartrage+DeLonghi+ECAM290.61.B&tag=autoconsom-21) |
+| Brosse de nettoyage pour broyeur/groupe café | Réf. constructeur adaptable | Hebdomadaire | Accumulation de résidus de café, pouvant altérer le goût, bloquer le broyeur ou le groupe café. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Brosse+nettoyage+groupe+caf%C3%A9+DeLonghi%2C+kit+nettoyage+Magnifica+Evo&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Brosse+nettoyage+groupe+caf%C3%A9+DeLonghi%2C+kit+nettoyage+Magnifica+Evo&tag=autoconsom-21) |
+| Graisse alimentaire pour groupe café De'Longhi | Réf. constructeur adaptable | Tous les 3-6 mois | Maintient la bonne lubrification des joints et des pièces mobiles du groupe café, assurant son bon fonctionnement et évitant l'usure prématurée. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Graisse+alimentaire+groupe+caf%C3%A9+DeLonghi%2C+lubrifiant+Magnifica+Evo&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Graisse+alimentaire+groupe+caf%C3%A9+DeLonghi%2C+lubrifiant+Magnifica+Evo&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : À quelle fréquence dois-je détartrer ma De'Longhi Magnifica Evo ECAM290.61.B?**
+  **R :** La fréquence de détartrage dépend de la dureté de votre eau et de votre utilisation. La machine vous l'indiquera via un voyant. En moyenne, c'est tous les 2 à 3 mois si vous utilisez une cartouche filtrante, plus souvent sans filtre.
+- **Q : Comment nettoyer le groupe café de ma Magnifica Evo?**
+  **R :** Le groupe café est amovible. Éteignez et débranchez la machine. Retirez le groupe, rincez-le à l'eau claire sans détergent et laissez-le sécher à l'air libre avant de le réinsérer. Lubrifiez les joints mobiles avec de la graisse alimentaire tous les 3 à 6 mois.
+- **Q : Le café de ma Magnifica Evo coule très lentement ou ne coule plus, pourquoi?**
+  **R :** Cela peut indiquer une accumulation de calcaire (nécessitant un détartrage), un groupe café encrassé (à nettoyer) ou un filtre à eau saturé (à remplacer). Vérifiez également que les buses de sortie ne sont pas obstruées par du café moulu.
 
 ---

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-11-04T14:03:49.209167+00:00",
-  "total_guides": 69,
+  "last_updated": "2026-11-04T23:27:28.053178+00:00",
+  "total_guides": 71,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -4772,6 +4772,146 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/Jura-J8-15555---Pièces--Entretien-11-04"
+    },
+    {
+      "slug": "dyson-purifier-cool-gen1-tp10-entretien-filtre",
+      "title": "Entretien et consommables pour Purificateur d'Air Dyson Purifier Cool Gen1 TP10",
+      "brand": "Dyson",
+      "model": "Dyson Purifier Cool Gen1 (TP10)",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Optimisez votre Dyson Purifier Cool Gen1 TP10. Découvrez les filtres HEPA/charbon actif, la fréquence de remplacement et les solutions aux voyants d'alerte pour une qualité d'air optimale.",
+      "common_codes": [
+        {
+          "code": "Voyant du filtre clignotant",
+          "meaning": "Le filtre combiné HEPA et charbon actif est encrassé et doit être remplacé.",
+          "solution": "Retirez l'ancien filtre en appuyant sur les boutons de libération, insérez le nouveau filtre jusqu'à entendre un clic, puis réinitialisez le voyant en maintenant le bouton 'Mode Nuit' pendant 5 secondes."
+        },
+        {
+          "code": "Voyant d'alerte qualité de l'air (couleur rouge)",
+          "meaning": "La qualité de l'air ambiant est très mauvaise (présence élevée de polluants).",
+          "solution": "Augmentez la vitesse de ventilation manuellement ou activez le mode automatique pour que l'appareil purifie plus intensément. Assurez-vous que l'appareil est placé dans un endroit dégagé."
+        },
+        {
+          "code": "Pas d'air expulsé ou faible flux",
+          "meaning": "Le circuit d'air est obstrué ou le ventilateur est bloqué.",
+          "solution": "Éteignez et débranchez l'appareil. Vérifiez qu'aucun objet n'obstrue les grilles d'entrée ou de sortie d'air. Nettoyez délicatement les surfaces externes avec un chiffon sec."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre combiné HEPA et charbon actif Dyson Purifier Cool Gen1",
+          "part_number": "972691-01",
+          "frequency": "Tous les 12 mois ou selon l'utilisation",
+          "why_replace": "Perte d'efficacité de filtration des particules fines (HEPA) et des odeurs/gaz (charbon actif), entraînant une mauvaise qualité de l'air.",
+          "search_keywords": "Dyson Purifier Cool Gen1 TP10 filtre 972691-01, filtre HEPA charbon actif Dyson TP10, remplacement filtre Dyson Gen1",
+          "affiliate_url": null
+        },
+        {
+          "name": "Lingettes de nettoyage pour capteurs Dyson",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3 mois",
+          "why_replace": "Accumulation de poussière sur les capteurs, entraînant des lectures inexactes de la qualité de l'air et une purification inefficace.",
+          "search_keywords": "Lingettes nettoyage capteurs Dyson purificateur, kit entretien capteur Dyson Purifier Cool",
+          "affiliate_url": null
+        },
+        {
+          "name": "Solution de nettoyage externe Dyson",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Selon besoin",
+          "why_replace": "Saletés et poussières accumulées sur les surfaces, réduisant l'esthétique et pouvant gêner le flux d'air.",
+          "search_keywords": "Produit nettoyage externe Dyson, chiffon microfibre Dyson purificateur",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand changer le filtre de mon Dyson Purifier Cool Gen1 TP10?",
+          "answer": "Un voyant lumineux sur l'écran de l'appareil clignotera et l'application Dyson Link vous alertera lorsque le filtre combiné HEPA et charbon actif doit être remplacé, généralement après 12 mois d'utilisation."
+        },
+        {
+          "question": "Mon purificateur Dyson ne détecte plus les polluants, que faire?",
+          "answer": "Nettoyez délicatement les capteurs de l'appareil avec un chiffon sec et doux. Assurez-vous que l'appareil est dans un endroit dégagé et que le filtre n'est pas complètement obstrué. Si le problème persiste, le filtre peut nécessiter un remplacement."
+        },
+        {
+          "question": "Puis-je laver le filtre de mon Dyson Purifier Cool Gen1 TP10?",
+          "answer": "Non, le filtre combiné HEPA et charbon actif du Dyson Purifier Cool Gen1 TP10 n'est pas lavable et doit être remplacé lorsqu'il est saturé pour maintenir les performances optimales de l'appareil."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Dyson-Dyson-Purifier-Cool-Gen1-TP10---Pièces--Entretien-11-04"
+    },
+    {
+      "slug": "delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage",
+      "title": "Entretien et consommables pour Machine à Café De'Longhi Magnifica Evo ECAM290.61.B",
+      "brand": "De'Longhi",
+      "model": "De'Longhi Magnifica Evo ECAM290.61.B",
+      "category": "Machines à Café à Grains",
+      "meta_description": "Prolongez la vie de votre De'Longhi Magnifica Evo ECAM290.61.B. Découvrez les cartouches filtrantes, détartrants, et solutions aux codes d'erreur pour un café parfait.",
+      "common_codes": [
+        {
+          "code": "Voyant \"Détartrage\"",
+          "meaning": "La machine a besoin d'être détartrée pour éliminer les dépôts de calcaire.",
+          "solution": "Lancez le cycle de détartrage en suivant les instructions du manuel. Utilisez un produit détartrant De'Longhi compatible, videz le bac d'égouttement et remplissez le réservoir d'eau avec la solution de détartrage."
+        },
+        {
+          "code": "Voyant \"Réservoir d'eau vide\"",
+          "meaning": "Le réservoir d'eau est vide ou mal inséré.",
+          "solution": "Remplissez le réservoir d'eau fraîche jusqu'au niveau max et assurez-vous qu'il est correctement et fermement en place dans la machine."
+        },
+        {
+          "code": "Voyant \"Bac à marc plein\"",
+          "meaning": "Le bac à marc est plein et doit être vidé.",
+          "solution": "Retirez le bac d'égouttement avec le bac à marc, videz le marc de café, rincez-les si nécessaire, puis réinsérez-les correctement. Le voyant se réinitialise automatiquement."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Cartouche filtrante anti-calcaire De'Longhi DLS C002",
+          "part_number": "DLS C002 / SER3017",
+          "frequency": "Tous les 2 mois ou 50 litres d'eau",
+          "why_replace": "Réduit l'accumulation de calcaire, améliore la qualité de l'eau et prolonge la durée de vie de la machine.",
+          "search_keywords": "DeLonghi DLS C002 filtre, cartouche filtrante Magnifica Evo ECAM290.61.B, SER3017 filtre DeLonghi",
+          "affiliate_url": null
+        },
+        {
+          "name": "Détartrant écologique De'Longhi Ecodecalk",
+          "part_number": "DLSC500",
+          "frequency": "Tous les 2-3 mois (selon dureté de l'eau et utilisation)",
+          "why_replace": "Élimine le calcaire des circuits internes, prévient les pannes et assure un fonctionnement optimal et un meilleur goût du café.",
+          "search_keywords": "DeLonghi Ecodecalk DLSC500, détartrant machine café Magnifica Evo, produit détartrage DeLonghi ECAM290.61.B",
+          "affiliate_url": null
+        },
+        {
+          "name": "Brosse de nettoyage pour broyeur/groupe café",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Hebdomadaire",
+          "why_replace": "Accumulation de résidus de café, pouvant altérer le goût, bloquer le broyeur ou le groupe café.",
+          "search_keywords": "Brosse nettoyage groupe café DeLonghi, kit nettoyage Magnifica Evo",
+          "affiliate_url": null
+        },
+        {
+          "name": "Graisse alimentaire pour groupe café De'Longhi",
+          "part_number": "Réf. constructeur adaptable",
+          "frequency": "Tous les 3-6 mois",
+          "why_replace": "Maintient la bonne lubrification des joints et des pièces mobiles du groupe café, assurant son bon fonctionnement et évitant l'usure prématurée.",
+          "search_keywords": "Graisse alimentaire groupe café DeLonghi, lubrifiant Magnifica Evo",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quelle fréquence dois-je détartrer ma De'Longhi Magnifica Evo ECAM290.61.B?",
+          "answer": "La fréquence de détartrage dépend de la dureté de votre eau et de votre utilisation. La machine vous l'indiquera via un voyant. En moyenne, c'est tous les 2 à 3 mois si vous utilisez une cartouche filtrante, plus souvent sans filtre."
+        },
+        {
+          "question": "Comment nettoyer le groupe café de ma Magnifica Evo?",
+          "answer": "Le groupe café est amovible. Éteignez et débranchez la machine. Retirez le groupe, rincez-le à l'eau claire sans détergent et laissez-le sécher à l'air libre avant de le réinsérer. Lubrifiez les joints mobiles avec de la graisse alimentaire tous les 3 à 6 mois."
+        },
+        {
+          "question": "Le café de ma Magnifica Evo coule très lentement ou ne coule plus, pourquoi?",
+          "answer": "Cela peut indiquer une accumulation de calcaire (nécessitant un détartrage), un groupe café encrassé (à nettoyer) ou un filtre à eau saturé (à remplacer). Vérifiez également que les buses de sortie ne sont pas obstruées par du café moulu."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/DeLonghi-DeLonghi-Magnifica-Evo-ECAM29061B---Pièces--Entretien-11-04"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

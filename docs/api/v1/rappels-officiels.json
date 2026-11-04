@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-04T14:03:50.033268+00:00",
+  "retrieved_at": "2026-11-04T23:27:29.245944+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "kryolights",
+      "model": "référence zx-8736-675 n° lot 188766",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-11-04T15:33:35+00:00",
+      "reason": "puissance du pointeur laser correspondant à la classe 3r, supérieure à la classe 1 indiquée sur le produit. cette situation peut entraîner un risque de lésions oculaires et d'éblouissement pouvant provoquer un accident.",
+      "risks": "dommage à la vue",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23990/interne",
+      "safe_replacement_search": "appareils électriques, électroménager kryolights certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+kryolights+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "eglo",
       "model": "301303 - mandroni ambre¤301304 - mandroni noir fume¤301305 - mandroni vert",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23442/interne",
       "safe_replacement_search": "appareils électriques, électroménager atelier loupiote certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+atelier+loupiote+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "ribimex",
-      "model": "prm115/600",
-      "category": "machines",
-      "publication_date": "2026-09-01T11:12:52+00:00",
-      "reason": "le manque d’efficacité du protecteur de la meuleuse est tel qu’il existe un risque de blessure de l’utilisateur. (cf.¤manquement 06)",
-      "risks": "blessures",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23372/interne",
-      "safe_replacement_search": "machines ribimex certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=machines+ribimex+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
