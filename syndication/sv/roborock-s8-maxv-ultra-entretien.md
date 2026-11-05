@@ -2,7 +2,7 @@
 title: "Roborock S8 MaxV Ultra: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Roborock S8 MaxV Ultra."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/roborock-s8-maxv-ultra-entretien.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Jura J8 (15555)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

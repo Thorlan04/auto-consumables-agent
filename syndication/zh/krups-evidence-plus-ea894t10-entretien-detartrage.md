@@ -2,7 +2,7 @@
 title: "Krups Evidence Plus (EA894T10): 耗材配件、滤网更换与故障代码指南"
 description: "Krups Evidence Plus (EA894T10) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

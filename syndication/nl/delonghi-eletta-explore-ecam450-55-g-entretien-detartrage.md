@@ -2,7 +2,7 @@
 title: "De'Longhi Eletta Explore (ECAM450.55.G): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor De'Longhi Eletta Explore (ECAM450.55.G)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

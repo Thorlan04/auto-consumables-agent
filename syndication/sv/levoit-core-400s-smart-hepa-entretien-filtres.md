@@ -2,7 +2,7 @@
 title: "Levoit Core 400S Smart True HEPA: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Levoit Core 400S Smart True HEPA."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-400s-smart-hepa-entretien-filtres.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

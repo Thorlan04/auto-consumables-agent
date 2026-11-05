@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot X5 Omni (DX50): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Ecovacs Deebot X5 Omni (DX50)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-x5-omni-dx50-entretien.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

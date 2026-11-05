@@ -2,7 +2,7 @@
 title: "Philips PerfectCare 9000 Series PSG9020/20: قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Philips PerfectCare 9000 Series PSG9020/20."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

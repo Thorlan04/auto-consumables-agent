@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Ecovacs Deebot T20 Omni DT20"
 description: "Guide complet d'entretien pour votre robot aspirateur Ecovacs Deebot T20 Omni DT20. Trouvez filtres, brosses et sacs pour des performances optimales."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

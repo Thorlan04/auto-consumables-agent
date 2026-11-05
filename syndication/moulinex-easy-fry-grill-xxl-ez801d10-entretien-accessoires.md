@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Moulinex Easy Fry & Grill XXL EZ801D10"
 description: "Guide complet d'entretien pour votre Moulinex Easy Fry & Grill XXL EZ801D10. Trouvez les accessoires, pièces et conseils pour une durée de vie optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

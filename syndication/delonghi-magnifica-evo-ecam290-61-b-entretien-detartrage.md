@@ -2,7 +2,7 @@
 title: "Entretien et consommables pour Machine à Café De'Longhi Magnifica Evo ECAM290.61.B"
 description: "Prolongez la vie de votre De'Longhi Magnifica Evo ECAM290.61.B. Découvrez les cartouches filtrantes, détartrants, et solutions aux codes d'erreur pour un café parfait."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

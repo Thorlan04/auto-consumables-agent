@@ -2,7 +2,7 @@
 title: "Sage Barista Express Impress (SES876): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Sage Barista Express Impress (SES876)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/sage-barista-express-impress-ses876-entretien-detartrage.html"
-published_at: "2026-11-04"
+published_at: "2026-11-05"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-04T23:27:29.245944+00:00",
+  "generated_at": "2026-11-05T05:57:15.635077+00:00",
   "total_appliances": 71,
   "supported_languages": [
     "fr",
@@ -11607,7 +11607,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Dyson-Dyson-Purifier-Cool-Gen1-TP10---Pièces--Entretien-11-04",
       "common_codes": [
         {
           "code": "Voyant du filtre clignotant",
@@ -11760,7 +11760,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/DeLonghi-DeLonghi-Magnifica-Evo-ECAM29061B---Pièces--Entretien-11-04",
       "common_codes": [
         {
           "code": "Voyant \"Détartrage\"",
