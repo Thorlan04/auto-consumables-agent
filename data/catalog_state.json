@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-11-05T14:29:42.115791+00:00",
-  "total_guides": 71,
+  "last_updated": "2026-11-05T23:29:28.755353+00:00",
+  "total_guides": 73,
   "guides": [
     {
       "slug": "tineco-floor-one-s5-entretien-consommables",
@@ -4912,6 +4912,138 @@
         }
       ],
       "telegraph_url": "https://telegra.ph/DeLonghi-DeLonghi-Magnifica-Evo-ECAM29061B---Pièces--Entretien-11-04"
+    },
+    {
+      "slug": "levoit-core-300s-core-300s-p-entretien-filtres",
+      "title": "Entretien Levoit Core 300S (Core 300S-P) : Remplacement Filtres HEPA & Charbon Actif",
+      "brand": "Levoit",
+      "model": "Core 300S (Core 300S-P)",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide d'entretien pour votre purificateur d'air Levoit Core 300S (Core 300S-P). Découvrez quand et comment remplacer les filtres HEPA pour une qualité d'air optimale.",
+      "common_codes": [
+        {
+          "code": "Voyant de Remplacement du Filtre (Rouge)",
+          "meaning": "Indique que le filtre du purificateur a atteint sa durée de vie maximale et doit être remplacé.",
+          "solution": "Remplacez le filtre usagé par un nouveau filtre Levoit Core 300S-RF. Après le remplacement, maintenez le bouton de réinitialisation du filtre enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne."
+        },
+        {
+          "code": "Voyant de Remplacement du Filtre (Clignotant)",
+          "meaning": "Rappel que le voyant doit être réinitialisé après le remplacement du filtre.",
+          "solution": "Appuyez et maintenez le bouton de réinitialisation du filtre pendant 3 secondes après avoir installé un nouveau filtre. Le voyant cessera de clignoter et s'éteindra."
+        },
+        {
+          "code": "Mauvaise Qualité d'Air (Voyant BLEU constant)",
+          "meaning": "Le purificateur fonctionne, mais le capteur de qualité d'air indique une pollution persistante, souvent due à un filtre encrassé ou une mauvaise circulation de l'air.",
+          "solution": "Assurez-vous que le filtre est propre ou remplacez-le si nécessaire. Vérifiez que les entrées et sorties d'air ne sont pas obstruées. Éloignez l'appareil des murs ou des meubles pour une meilleure circulation."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre de remplacement 3-en-1 True HEPA Levoit Core 300S",
+          "part_number": "Core 300S-RF",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Un filtre encrassé réduit l'efficacité de filtration de l'air, augmente la consommation d'énergie et peut dégager des odeurs désagréables.",
+          "search_keywords": "Levoit Core 300S-RF filtre, filtre Levoit Core 300S, filtre HEPA Levoit Core 300S-RF, Core 300S filtre de remplacement",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre anti-allergènes pour Levoit Core 300S",
+          "part_number": "Core 300S-RF-PA",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Un filtre saturé perd sa capacité à capturer efficacement les allergènes (pollen, squames d'animaux), réduisant la protection contre les réactions allergiques.",
+          "search_keywords": "Levoit Core 300S-RF-PA filtre, filtre anti-allergènes Core 300S, filtre Levoit Core 300S pollen, Levoit Core 300S filtre animaux",
+          "affiliate_url": null
+        },
+        {
+          "name": "Filtre anti-animaux domestiques Levoit Core 300S",
+          "part_number": "Core 300S-RF-TX",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Ce filtre est conçu pour neutraliser les odeurs d'animaux. S'il n'est pas remplacé, les odeurs peuvent persister et l'efficacité de filtration des poils et squames diminue.",
+          "search_keywords": "Levoit Core 300S-RF-TX filtre, filtre Levoit Core 300S odeur animaux, filtre Levoit Core 300S animaux, Core 300S filtre charbon actif",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand changer le filtre de mon Levoit Core 300S ?",
+          "answer": "Le voyant de remplacement du filtre s'allumera en rouge sur le panneau de commande lorsque le filtre doit être changé. Levoit recommande un remplacement tous les 6 à 8 mois, selon l'utilisation et la qualité de l'air ambiant."
+        },
+        {
+          "question": "Puis-je laver le filtre de mon Levoit Core 300S ?",
+          "answer": "Non, le filtre 3-en-1 du Levoit Core 300S n'est pas lavable. Essayer de le laver endommagerait le matériau filtrant (HEPA et charbon actif) et réduirait son efficacité. Il doit être remplacé."
+        },
+        {
+          "question": "Mon Levoit Core 300S émet une odeur étrange après quelques semaines, est-ce normal ?",
+          "answer": "Une légère odeur peut survenir initialement due aux nouveaux matériaux. Si l'odeur persiste ou devient désagréable après plusieurs semaines, cela peut indiquer une saturation du filtre à charbon actif, surtout dans des environnements très pollués. Un remplacement du filtre est alors recommandé."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Levoit-Core-300S-Core-300S-P---Pièces--Entretien-11-05"
+    },
+    {
+      "slug": "ninja-foodi-max-af160eu-entretien-accessoires",
+      "title": "Entretien Ninja Foodi Max AF160EU : Accessoires & Consommables pour Friteuse Sans Huile",
+      "brand": "Ninja",
+      "model": "Foodi Max AF160EU",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Guide complet pour l'entretien de votre friteuse sans huile Ninja Foodi Max AF160EU. Découvrez les accessoires compatibles et les meilleures pratiques de nettoyage.",
+      "common_codes": [
+        {
+          "code": "E1, E2, E3 (Code Erreur)",
+          "meaning": "Ces codes indiquent généralement un problème de capteur de température interne, qui peut être causé par une surchauffe ou un dysfonctionnement.",
+          "solution": "Éteignez l'appareil et débranchez-le. Laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez qu'il n'y a pas d'obstructions autour de l'appareil. Rebranchez et redémarrez. Si le problème persiste, contactez le support."
+        },
+        {
+          "code": "OPEN (Affichage)",
+          "meaning": "L'écran affiche 'OPEN' lorsque le tiroir est mal fermé ou qu'un capteur détecte qu'il est ouvert pendant le fonctionnement.",
+          "solution": "Assurez-vous que le tiroir de cuisson est correctement inséré et complètement fermé. Poussez-le fermement jusqu'à entendre un clic. Si le problème persiste, vérifiez qu'aucun résidu alimentaire n'empêche la fermeture."
+        },
+        {
+          "code": "Odeur de Brûlé Persistante",
+          "meaning": "Une odeur de brûlé tenace indique souvent une accumulation de résidus alimentaires ou de graisse dans le panier ou sur la résistance chauffante.",
+          "solution": "Débranchez l'appareil et laissez-le refroidir. Nettoyez soigneusement le panier, la plaque croustillante et l'intérieur de la chambre de cuisson avec de l'eau chaude savonneuse. Assurez-vous d'éliminer tous les résidus et séchez complètement avant de réutiliser."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Plaque de cuisson croustillante antiadhésive Ninja Foodi Max AF160EU",
+          "part_number": "AF160-CRISPER-PLATE",
+          "frequency": "À remplacer si endommagée ou usée",
+          "why_replace": "Une plaque endommagée ou dont le revêtement est rayé peut altérer la cuisson des aliments, favoriser l'adhérence et libérer des particules indésirables.",
+          "search_keywords": "Plaque croustillante Ninja AF160EU, plaque antiadhésive Ninja Foodi Max AF160EU, accessoire AF160EU, plateau cuisson AF160EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Panier de cuisson antiadhésif Ninja Foodi Max AF160EU",
+          "part_number": "AF160-BASKET",
+          "frequency": "À remplacer si endommagé ou usé",
+          "why_replace": "Un panier rayé ou déformé peut compromettre la circulation de l'air chaud, affecter la qualité de cuisson et rendre le nettoyage difficile.",
+          "search_keywords": "Panier Ninja AF160EU, panier cuisson Ninja Foodi Max AF160EU, bac friteuse AF160EU, pièce détachée AF160EU",
+          "affiliate_url": null
+        },
+        {
+          "name": "Grille multi-usage pour Ninja Foodi Max AF160EU",
+          "part_number": "AF160-RACK",
+          "frequency": "À remplacer si endommagée ou déformée",
+          "why_replace": "Une grille endommagée ne permet plus de positionner correctement les aliments, ce qui peut entraîner une cuisson inégale ou des difficultés d'utilisation.",
+          "search_keywords": "Grille Ninja AF160EU, grille multi-usage AF160EU, accessoire Ninja Foodi Max AF160EU, support AF160EU",
+          "affiliate_url": null
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le panier et la plaque de cuisson de ma Ninja Foodi Max AF160EU ?",
+          "answer": "Le panier et la plaque croustillante sont antiadhésifs et peuvent être lavés à la main avec de l'eau chaude savonneuse et une éponge non abrasive, ou placés au lave-vaisselle pour un nettoyage facile."
+        },
+        {
+          "question": "Que faire si ma friteuse sans huile Ninja AF160EU émet de la fumée blanche pendant la cuisson ?",
+          "answer": "La fumée blanche est souvent causée par la cuisson d'aliments riches en matières grasses. Assurez-vous de nettoyer le panier et la plaque après chaque utilisation pour éviter l'accumulation de graisses. Vous pouvez également utiliser du papier sulfurisé adapté pour absorber l'excès de graisse."
+        },
+        {
+          "question": "Puis-je utiliser du papier sulfurisé ou des moules en silicone dans ma Ninja Foodi Max AF160EU ?",
+          "answer": "Oui, vous pouvez utiliser du papier sulfurisé ou des moules en silicone résistants à la chaleur, à condition qu'ils ne bloquent pas la circulation de l'air. Ne les laissez pas dépasser du panier et assurez-vous qu'ils ne touchent pas la résistance chauffante."
+        }
+      ],
+      "telegraph_url": "https://telegra.ph/Ninja-Foodi-Max-AF160EU---Pièces--Entretien-11-05"
     }
   ],
   "telegraph_access_token": "4d09fad15fdbf3713553824d2479b8cd7735588ca8048364ec85a966650e"

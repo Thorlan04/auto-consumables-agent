@@ -1,8 +1,8 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-05T14:29:42.642200+00:00",
-  "total_appliances": 71,
+  "generated_at": "2026-11-05T23:29:29.827437+00:00",
+  "total_appliances": 73,
   "supported_languages": [
     "fr",
     "en",
@@ -11920,6 +11920,312 @@
         {
           "question": "Le café de ma Magnifica Evo coule très lentement ou ne coule plus, pourquoi?",
           "answer": "Cela peut indiquer une accumulation de calcaire (nécessitant un détartrage), un groupe café encrassé (à nettoyer) ou un filtre à eau saturé (à remplacer). Vérifiez également que les buses de sortie ne sont pas obstruées par du café moulu."
+        }
+      ]
+    },
+    {
+      "slug": "levoit-core-300s-core-300s-p-entretien-filtres",
+      "brand": "Levoit",
+      "model": "Core 300S (Core 300S-P)",
+      "category": "Purificateurs d'Air",
+      "meta_description": "Guide d'entretien pour votre purificateur d'air Levoit Core 300S (Core 300S-P). Découvrez quand et comment remplacer les filtres HEPA pour une qualité d'air optimale.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "Voyant de Remplacement du Filtre (Rouge)",
+          "meaning": "Indique que le filtre du purificateur a atteint sa durée de vie maximale et doit être remplacé.",
+          "solution": "Remplacez le filtre usagé par un nouveau filtre Levoit Core 300S-RF. Après le remplacement, maintenez le bouton de réinitialisation du filtre enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne."
+        },
+        {
+          "code": "Voyant de Remplacement du Filtre (Clignotant)",
+          "meaning": "Rappel que le voyant doit être réinitialisé après le remplacement du filtre.",
+          "solution": "Appuyez et maintenez le bouton de réinitialisation du filtre pendant 3 secondes après avoir installé un nouveau filtre. Le voyant cessera de clignoter et s'éteindra."
+        },
+        {
+          "code": "Mauvaise Qualité d'Air (Voyant BLEU constant)",
+          "meaning": "Le purificateur fonctionne, mais le capteur de qualité d'air indique une pollution persistante, souvent due à un filtre encrassé ou une mauvaise circulation de l'air.",
+          "solution": "Assurez-vous que le filtre est propre ou remplacez-le si nécessaire. Vérifiez que les entrées et sorties d'air ne sont pas obstruées. Éloignez l'appareil des murs ou des meubles pour une meilleure circulation."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Filtre de remplacement 3-en-1 True HEPA Levoit Core 300S",
+          "part_number": "Core 300S-RF",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Un filtre encrassé réduit l'efficacité de filtration de l'air, augmente la consommation d'énergie et peut dégager des odeurs désagréables.",
+          "search_keywords": "Levoit Core 300S-RF filtre, filtre Levoit Core 300S, filtre HEPA Levoit Core 300S-RF, Core 300S filtre de remplacement",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre anti-allergènes pour Levoit Core 300S",
+          "part_number": "Core 300S-RF-PA",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Un filtre saturé perd sa capacité à capturer efficacement les allergènes (pollen, squames d'animaux), réduisant la protection contre les réactions allergiques.",
+          "search_keywords": "Levoit Core 300S-RF-PA filtre, filtre anti-allergènes Core 300S, filtre Levoit Core 300S pollen, Levoit Core 300S filtre animaux",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Filtre anti-animaux domestiques Levoit Core 300S",
+          "part_number": "Core 300S-RF-TX",
+          "frequency": "Tous les 6 à 8 mois",
+          "why_replace": "Ce filtre est conçu pour neutraliser les odeurs d'animaux. S'il n'est pas remplacé, les odeurs peuvent persister et l'efficacité de filtration des poils et squames diminue.",
+          "search_keywords": "Levoit Core 300S-RF-TX filtre, filtre Levoit Core 300S odeur animaux, filtre Levoit Core 300S animaux, Core 300S filtre charbon actif",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment savoir quand changer le filtre de mon Levoit Core 300S ?",
+          "answer": "Le voyant de remplacement du filtre s'allumera en rouge sur le panneau de commande lorsque le filtre doit être changé. Levoit recommande un remplacement tous les 6 à 8 mois, selon l'utilisation et la qualité de l'air ambiant."
+        },
+        {
+          "question": "Puis-je laver le filtre de mon Levoit Core 300S ?",
+          "answer": "Non, le filtre 3-en-1 du Levoit Core 300S n'est pas lavable. Essayer de le laver endommagerait le matériau filtrant (HEPA et charbon actif) et réduirait son efficacité. Il doit être remplacé."
+        },
+        {
+          "question": "Mon Levoit Core 300S émet une odeur étrange après quelques semaines, est-ce normal ?",
+          "answer": "Une légère odeur peut survenir initialement due aux nouveaux matériaux. Si l'odeur persiste ou devient désagréable après plusieurs semaines, cela peut indiquer une saturation du filtre à charbon actif, surtout dans des environnements très pollués. Un remplacement du filtre est alors recommandé."
+        }
+      ]
+    },
+    {
+      "slug": "ninja-foodi-max-af160eu-entretien-accessoires",
+      "brand": "Ninja",
+      "model": "Foodi Max AF160EU",
+      "category": "Friteuses sans Huile (Air Fryer)",
+      "meta_description": "Guide complet pour l'entretien de votre friteuse sans huile Ninja Foodi Max AF160EU. Découvrez les accessoires compatibles et les meilleures pratiques de nettoyage.",
+      "url_fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+      "url_en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+      "urls": {
+        "fr": "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "en": "https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "es": "https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "de": "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "it": "https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "nl": "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "pl": "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "pt": "https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "sv": "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "ja": "https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
+        "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
+      },
+      "telegraph_url": null,
+      "common_codes": [
+        {
+          "code": "E1, E2, E3 (Code Erreur)",
+          "meaning": "Ces codes indiquent généralement un problème de capteur de température interne, qui peut être causé par une surchauffe ou un dysfonctionnement.",
+          "solution": "Éteignez l'appareil et débranchez-le. Laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez qu'il n'y a pas d'obstructions autour de l'appareil. Rebranchez et redémarrez. Si le problème persiste, contactez le support."
+        },
+        {
+          "code": "OPEN (Affichage)",
+          "meaning": "L'écran affiche 'OPEN' lorsque le tiroir est mal fermé ou qu'un capteur détecte qu'il est ouvert pendant le fonctionnement.",
+          "solution": "Assurez-vous que le tiroir de cuisson est correctement inséré et complètement fermé. Poussez-le fermement jusqu'à entendre un clic. Si le problème persiste, vérifiez qu'aucun résidu alimentaire n'empêche la fermeture."
+        },
+        {
+          "code": "Odeur de Brûlé Persistante",
+          "meaning": "Une odeur de brûlé tenace indique souvent une accumulation de résidus alimentaires ou de graisse dans le panier ou sur la résistance chauffante.",
+          "solution": "Débranchez l'appareil et laissez-le refroidir. Nettoyez soigneusement le panier, la plaque croustillante et l'intérieur de la chambre de cuisson avec de l'eau chaude savonneuse. Assurez-vous d'éliminer tous les résidus et séchez complètement avant de réutiliser."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Plaque de cuisson croustillante antiadhésive Ninja Foodi Max AF160EU",
+          "part_number": "AF160-CRISPER-PLATE",
+          "frequency": "À remplacer si endommagée ou usée",
+          "why_replace": "Une plaque endommagée ou dont le revêtement est rayé peut altérer la cuisson des aliments, favoriser l'adhérence et libérer des particules indésirables.",
+          "search_keywords": "Plaque croustillante Ninja AF160EU, plaque antiadhésive Ninja Foodi Max AF160EU, accessoire AF160EU, plateau cuisson AF160EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Panier de cuisson antiadhésif Ninja Foodi Max AF160EU",
+          "part_number": "AF160-BASKET",
+          "frequency": "À remplacer si endommagé ou usé",
+          "why_replace": "Un panier rayé ou déformé peut compromettre la circulation de l'air chaud, affecter la qualité de cuisson et rendre le nettoyage difficile.",
+          "search_keywords": "Panier Ninja AF160EU, panier cuisson Ninja Foodi Max AF160EU, bac friteuse AF160EU, pièce détachée AF160EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21"
+          }
+        },
+        {
+          "name": "Grille multi-usage pour Ninja Foodi Max AF160EU",
+          "part_number": "AF160-RACK",
+          "frequency": "À remplacer si endommagée ou déformée",
+          "why_replace": "Une grille endommagée ne permet plus de positionner correctement les aliments, ce qui peut entraîner une cuisson inégale ou des difficultés d'utilisation.",
+          "search_keywords": "Grille Ninja AF160EU, grille multi-usage AF160EU, accessoire Ninja Foodi Max AF160EU, support AF160EU",
+          "purchase_url_fr": "https://www.amazon.fr/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_global": "https://www.amazon.com/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_es": "https://www.amazon.es/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_de": "https://www.amazon.de/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_it": "https://www.amazon.it/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_nl": "https://www.amazon.nl/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_pl": "https://www.amazon.pl/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_pt": "https://www.amazon.com.br/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_sv": "https://www.amazon.se/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_ja": "https://www.amazon.co.jp/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_url_ar": "https://www.amazon.ae/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+          "purchase_urls": {
+            "fr": "https://www.amazon.fr/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "en": "https://www.amazon.com/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "es": "https://www.amazon.es/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "de": "https://www.amazon.de/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "it": "https://www.amazon.it/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "nl": "https://www.amazon.nl/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "pl": "https://www.amazon.pl/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "pt": "https://www.amazon.com.br/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "sv": "https://www.amazon.se/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "ja": "https://www.amazon.co.jp/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "zh": "https://www.amazon.com/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21",
+            "ar": "https://www.amazon.ae/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment nettoyer le panier et la plaque de cuisson de ma Ninja Foodi Max AF160EU ?",
+          "answer": "Le panier et la plaque croustillante sont antiadhésifs et peuvent être lavés à la main avec de l'eau chaude savonneuse et une éponge non abrasive, ou placés au lave-vaisselle pour un nettoyage facile."
+        },
+        {
+          "question": "Que faire si ma friteuse sans huile Ninja AF160EU émet de la fumée blanche pendant la cuisson ?",
+          "answer": "La fumée blanche est souvent causée par la cuisson d'aliments riches en matières grasses. Assurez-vous de nettoyer le panier et la plaque après chaque utilisation pour éviter l'accumulation de graisses. Vous pouvez également utiliser du papier sulfurisé adapté pour absorber l'excès de graisse."
+        },
+        {
+          "question": "Puis-je utiliser du papier sulfurisé ou des moules en silicone dans ma Ninja Foodi Max AF160EU ?",
+          "answer": "Oui, vous pouvez utiliser du papier sulfurisé ou des moules en silicone résistants à la chaleur, à condition qu'ils ne bloquent pas la circulation de l'air. Ne les laissez pas dépasser du panier et assurez-vous qu'ils ne touchent pas la résistance chauffante."
         }
       ]
     }

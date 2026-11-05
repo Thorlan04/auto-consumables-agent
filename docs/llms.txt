@@ -60,6 +60,7 @@
 - [Cosori Turbo Blaze (CAF-P583R-EUR)](https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Moulinex Easy Fry & Grill XXL (EZ801D10)](https://thorlan04.github.io/auto-consumables-agent/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)](https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Ninja Foodi Max AF160EU](https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-max-af160eu-entretien-accessoires.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Machines à Café à Grains
 - [De'Longhi Magnifica S (ECAM 22.110.B / 22.110.SB)](https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-magnifica-s-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
@@ -91,6 +92,7 @@
 - [Levoit Core 600S Smart True HEPA](https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Philips Série 3000i (AC3033/10)](https://thorlan04.github.io/auto-consumables-agent/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 - [Dyson Dyson Purifier Cool Gen1 (TP10)](https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
+- [Levoit Core 300S (Core 300S-P)](https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-300s-core-300s-p-entretien-filtres.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.
 
 ### Robots Aspirateurs
 - [Roborock S8 / S8 Pro Ultra](https://thorlan04.github.io/auto-consumables-agent/guides/roborock-s8-entretien-consommables.html): Pièces d'usure certifiées, filtres, joints et codes de diagnostic.

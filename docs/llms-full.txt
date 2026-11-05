@@ -5,7 +5,7 @@
 > API JSON v1 Catalogue : https://thorlan04.github.io/auto-consumables-agent/api/v1/catalog.json
 > API Rappels Officiels : https://thorlan04.github.io/auto-consumables-agent/api/v1/rappels-officiels.json
 > Horodatage de génération : 2026-11-05
-> Total appareils répertoriés : 71
+> Total appareils répertoriés : 73
 
 ---
 
@@ -2878,5 +2878,85 @@
   **R :** Le groupe café est amovible. Éteignez et débranchez la machine. Retirez le groupe, rincez-le à l'eau claire sans détergent et laissez-le sécher à l'air libre avant de le réinsérer. Lubrifiez les joints mobiles avec de la graisse alimentaire tous les 3 à 6 mois.
 - **Q : Le café de ma Magnifica Evo coule très lentement ou ne coule plus, pourquoi?**
   **R :** Cela peut indiquer une accumulation de calcaire (nécessitant un détartrage), un groupe café encrassé (à nettoyer) ou un filtre à eau saturé (à remplacer). Vérifiez également que les buses de sortie ne sont pas obstruées par du café moulu.
+
+---
+
+## Levoit Core 300S (Core 300S-P)
+- **Catégorie :** Purificateurs d'Air
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-300s-core-300s-p-entretien-filtres.html
+- **Résumé d'Entretien :** Guide d'entretien pour votre purificateur d'air Levoit Core 300S (Core 300S-P). Découvrez quand et comment remplacer les filtres HEPA pour une qualité d'air optimale.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| Voyant de Remplacement du Filtre (Rouge) | Indique que le filtre du purificateur a atteint sa durée de vie maximale et doit être remplacé. | Remplacez le filtre usagé par un nouveau filtre Levoit Core 300S-RF. Après le remplacement, maintenez le bouton de réinitialisation du filtre enfoncé pendant 3 secondes jusqu'à ce que le voyant s'éteigne. |
+| Voyant de Remplacement du Filtre (Clignotant) | Rappel que le voyant doit être réinitialisé après le remplacement du filtre. | Appuyez et maintenez le bouton de réinitialisation du filtre pendant 3 secondes après avoir installé un nouveau filtre. Le voyant cessera de clignoter et s'éteindra. |
+| Mauvaise Qualité d'Air (Voyant BLEU constant) | Le purificateur fonctionne, mais le capteur de qualité d'air indique une pollution persistante, souvent due à un filtre encrassé ou une mauvaise circulation de l'air. | Assurez-vous que le filtre est propre ou remplacez-le si nécessaire. Vérifiez que les entrées et sorties d'air ne sont pas obstruées. Éloignez l'appareil des murs ou des meubles pour une meilleure circulation. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Filtre de remplacement 3-en-1 True HEPA Levoit Core 300S | Core 300S-RF | Tous les 6 à 8 mois | Un filtre encrassé réduit l'efficacité de filtration de l'air, augmente la consommation d'énergie et peut dégager des odeurs désagréables. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+300S-RF+filtre%2C+filtre+Levoit+Core+300S%2C+filtre+HEPA+Levoit+Core+300S-RF%2C+Core+300S+filtre+de+remplacement&tag=autoconsom-21) |
+| Filtre anti-allergènes pour Levoit Core 300S | Core 300S-RF-PA | Tous les 6 à 8 mois | Un filtre saturé perd sa capacité à capturer efficacement les allergènes (pollen, squames d'animaux), réduisant la protection contre les réactions allergiques. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+300S-RF-PA+filtre%2C+filtre+anti-allerg%C3%A8nes+Core+300S%2C+filtre+Levoit+Core+300S+pollen%2C+Levoit+Core+300S+filtre+animaux&tag=autoconsom-21) |
+| Filtre anti-animaux domestiques Levoit Core 300S | Core 300S-RF-TX | Tous les 6 à 8 mois | Ce filtre est conçu pour neutraliser les odeurs d'animaux. S'il n'est pas remplacé, les odeurs peuvent persister et l'efficacité de filtration des poils et squames diminue. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Levoit+Core+300S-RF-TX+filtre%2C+filtre+Levoit+Core+300S+odeur+animaux%2C+filtre+Levoit+Core+300S+animaux%2C+Core+300S+filtre+charbon+actif&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment savoir quand changer le filtre de mon Levoit Core 300S ?**
+  **R :** Le voyant de remplacement du filtre s'allumera en rouge sur le panneau de commande lorsque le filtre doit être changé. Levoit recommande un remplacement tous les 6 à 8 mois, selon l'utilisation et la qualité de l'air ambiant.
+- **Q : Puis-je laver le filtre de mon Levoit Core 300S ?**
+  **R :** Non, le filtre 3-en-1 du Levoit Core 300S n'est pas lavable. Essayer de le laver endommagerait le matériau filtrant (HEPA et charbon actif) et réduirait son efficacité. Il doit être remplacé.
+- **Q : Mon Levoit Core 300S émet une odeur étrange après quelques semaines, est-ce normal ?**
+  **R :** Une légère odeur peut survenir initialement due aux nouveaux matériaux. Si l'odeur persiste ou devient désagréable après plusieurs semaines, cela peut indiquer une saturation du filtre à charbon actif, surtout dans des environnements très pollués. Un remplacement du filtre est alors recommandé.
+
+---
+
+## Ninja Foodi Max AF160EU
+- **Catégorie :** Friteuses sans Huile (Air Fryer)
+- **Fiche Web Interactive (FR) :** https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (EN) :** https://thorlan04.github.io/auto-consumables-agent/en/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (ES) :** https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (DE) :** https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (IT) :** https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (NL) :** https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (PL) :** https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (PT) :** https://thorlan04.github.io/auto-consumables-agent/pt/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (SV) :** https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (JA) :** https://thorlan04.github.io/auto-consumables-agent/ja/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (ZH) :** https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Fiche Web Interactive (AR) :** https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-max-af160eu-entretien-accessoires.html
+- **Résumé d'Entretien :** Guide complet pour l'entretien de votre friteuse sans huile Ninja Foodi Max AF160EU. Découvrez les accessoires compatibles et les meilleures pratiques de nettoyage.
+
+### 🚨 Tableau des Codes Erreurs & Voyants d'Alerte
+| Code / Alerte Lumineuse | Cause Constatée | Procédure de Résolution Sans Outil |
+|---|---|---|
+| E1, E2, E3 (Code Erreur) | Ces codes indiquent généralement un problème de capteur de température interne, qui peut être causé par une surchauffe ou un dysfonctionnement. | Éteignez l'appareil et débranchez-le. Laissez-le refroidir complètement pendant au moins 30 minutes. Vérifiez qu'il n'y a pas d'obstructions autour de l'appareil. Rebranchez et redémarrez. Si le problème persiste, contactez le support. |
+| OPEN (Affichage) | L'écran affiche 'OPEN' lorsque le tiroir est mal fermé ou qu'un capteur détecte qu'il est ouvert pendant le fonctionnement. | Assurez-vous que le tiroir de cuisson est correctement inséré et complètement fermé. Poussez-le fermement jusqu'à entendre un clic. Si le problème persiste, vérifiez qu'aucun résidu alimentaire n'empêche la fermeture. |
+| Odeur de Brûlé Persistante | Une odeur de brûlé tenace indique souvent une accumulation de résidus alimentaires ou de graisse dans le panier ou sur la résistance chauffante. | Débranchez l'appareil et laissez-le refroidir. Nettoyez soigneusement le panier, la plaque croustillante et l'intérieur de la chambre de cuisson avec de l'eau chaude savonneuse. Assurez-vous d'éliminer tous les résidus et séchez complètement avant de réutiliser. |
+
+### ⚙️ Consommables, Pièces de Rechange & Liens d'Achat Vérifiés
+| Pièce d'Usure | Référence Constructeur (PN) | Fréquence de Remplacement | Rôle / Impact de l'Usure | URL Amazon.fr | URL Amazon Global (.com) |
+|---|---|---|---|---|---|
+| Plaque de cuisson croustillante antiadhésive Ninja Foodi Max AF160EU | AF160-CRISPER-PLATE | À remplacer si endommagée ou usée | Une plaque endommagée ou dont le revêtement est rayé peut altérer la cuisson des aliments, favoriser l'adhérence et libérer des particules indésirables. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Plaque+croustillante+Ninja+AF160EU%2C+plaque+antiadh%C3%A9sive+Ninja+Foodi+Max+AF160EU%2C+accessoire+AF160EU%2C+plateau+cuisson+AF160EU&tag=autoconsom-21) |
+| Panier de cuisson antiadhésif Ninja Foodi Max AF160EU | AF160-BASKET | À remplacer si endommagé ou usé | Un panier rayé ou déformé peut compromettre la circulation de l'air chaud, affecter la qualité de cuisson et rendre le nettoyage difficile. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Panier+Ninja+AF160EU%2C+panier+cuisson+Ninja+Foodi+Max+AF160EU%2C+bac+friteuse+AF160EU%2C+pi%C3%A8ce+d%C3%A9tach%C3%A9e+AF160EU&tag=autoconsom-21) |
+| Grille multi-usage pour Ninja Foodi Max AF160EU | AF160-RACK | À remplacer si endommagée ou déformée | Une grille endommagée ne permet plus de positionner correctement les aliments, ce qui peut entraîner une cuisson inégale ou des difficultés d'utilisation. | [Amazon.fr ↗](https://www.amazon.fr/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21) | [Amazon.com ↗](https://www.amazon.com/s?k=Grille+Ninja+AF160EU%2C+grille+multi-usage+AF160EU%2C+accessoire+Ninja+Foodi+Max+AF160EU%2C+support+AF160EU&tag=autoconsom-21) |
+
+### ❓ Questions Fréquentes de Maintenance
+- **Q : Comment nettoyer le panier et la plaque de cuisson de ma Ninja Foodi Max AF160EU ?**
+  **R :** Le panier et la plaque croustillante sont antiadhésifs et peuvent être lavés à la main avec de l'eau chaude savonneuse et une éponge non abrasive, ou placés au lave-vaisselle pour un nettoyage facile.
+- **Q : Que faire si ma friteuse sans huile Ninja AF160EU émet de la fumée blanche pendant la cuisson ?**
+  **R :** La fumée blanche est souvent causée par la cuisson d'aliments riches en matières grasses. Assurez-vous de nettoyer le panier et la plaque après chaque utilisation pour éviter l'accumulation de graisses. Vous pouvez également utiliser du papier sulfurisé adapté pour absorber l'excès de graisse.
+- **Q : Puis-je utiliser du papier sulfurisé ou des moules en silicone dans ma Ninja Foodi Max AF160EU ?**
+  **R :** Oui, vous pouvez utiliser du papier sulfurisé ou des moules en silicone résistants à la chaleur, à condition qu'ils ne bloquent pas la circulation de l'air. Ne les laissez pas dépasser du panier et assurez-vous qu'ils ne touchent pas la résistance chauffante.
 
 ---
