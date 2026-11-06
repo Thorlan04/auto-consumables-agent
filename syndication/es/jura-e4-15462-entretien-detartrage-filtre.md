@@ -2,7 +2,7 @@
 title: "JURA E4 (15462): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para JURA E4 (15462)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/jura-e4-15462-entretien-detartrage-filtre.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

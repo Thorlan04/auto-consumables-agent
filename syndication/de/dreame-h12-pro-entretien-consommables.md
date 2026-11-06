@@ -2,7 +2,7 @@
 title: "Dreame H12 Pro: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dreame H12 Pro."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dreame-h12-pro-entretien-consommables.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

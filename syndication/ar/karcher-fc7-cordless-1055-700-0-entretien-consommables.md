@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

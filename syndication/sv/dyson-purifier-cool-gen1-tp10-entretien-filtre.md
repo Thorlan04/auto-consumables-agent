@@ -2,7 +2,7 @@
 title: "Dyson Dyson Purifier Cool Gen1 (TP10): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Dyson Dyson Purifier Cool Gen1 (TP10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

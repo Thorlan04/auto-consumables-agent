@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): 交換部品・フィルター・エラーコード解説"
 description: "Levoit Core 300S (Core 300S-P) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

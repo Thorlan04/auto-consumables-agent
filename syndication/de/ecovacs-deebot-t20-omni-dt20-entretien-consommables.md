@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T20 Omni (DT20): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ecovacs Deebot T20 Omni (DT20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

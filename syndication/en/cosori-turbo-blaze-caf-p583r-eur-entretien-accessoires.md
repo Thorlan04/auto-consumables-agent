@@ -2,7 +2,7 @@
 title: "Cosori Turbo Blaze (CAF-P583R-EUR): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Cosori Turbo Blaze (CAF-P583R-EUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

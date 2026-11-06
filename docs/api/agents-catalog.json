@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "standard": "GEO / Autonomous Agent Purchasing Registry",
-  "generated_at": "2026-11-05T23:29:29.827437+00:00",
+  "generated_at": "2026-11-06T05:53:18.664678+00:00",
   "total_appliances": 73,
   "supported_languages": [
     "fr",
@@ -11945,7 +11945,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-300s-core-300s-p-entretien-filtres.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Levoit-Core-300S-Core-300S-P---Pièces--Entretien-11-05",
       "common_codes": [
         {
           "code": "Voyant de Remplacement du Filtre (Rouge)",
@@ -12098,7 +12098,7 @@
         "zh": "https://thorlan04.github.io/auto-consumables-agent/zh/guides/ninja-foodi-max-af160eu-entretien-accessoires.html",
         "ar": "https://thorlan04.github.io/auto-consumables-agent/ar/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
       },
-      "telegraph_url": null,
+      "telegraph_url": "https://telegra.ph/Ninja-Foodi-Max-AF160EU---Pièces--Entretien-11-05",
       "common_codes": [
         {
           "code": "E1, E2, E3 (Code Erreur)",

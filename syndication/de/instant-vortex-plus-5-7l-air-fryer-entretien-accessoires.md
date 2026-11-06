@@ -2,7 +2,7 @@
 title: "Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

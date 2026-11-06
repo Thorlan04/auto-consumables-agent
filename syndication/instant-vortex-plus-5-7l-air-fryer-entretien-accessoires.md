@@ -2,7 +2,7 @@
 title: "Entretien Instant Vortex Plus 5.7L Air Fryer : Panier, Grille & Consommables"
 description: "Optimisez votre Instant Vortex Plus 5.7L avec nos conseils d'entretien. Découvrez quand remplacer le panier, la grille et les accessoires pour des repas parfaits."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

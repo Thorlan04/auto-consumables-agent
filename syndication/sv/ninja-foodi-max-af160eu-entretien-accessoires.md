@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

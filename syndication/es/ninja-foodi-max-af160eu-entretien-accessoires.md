@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

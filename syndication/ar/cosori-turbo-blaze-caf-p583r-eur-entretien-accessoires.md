@@ -2,7 +2,7 @@
 title: "Cosori Turbo Blaze (CAF-P583R-EUR): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Cosori Turbo Blaze (CAF-P583R-EUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html"
-published_at: "2026-11-05"
+published_at: "2026-11-06"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
