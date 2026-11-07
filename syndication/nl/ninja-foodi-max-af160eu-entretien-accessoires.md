@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

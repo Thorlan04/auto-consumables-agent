@@ -2,7 +2,7 @@
 title: "Tefal ActiFry Genius XL 2-in-1 (FZ775E00): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Tefal ActiFry Genius XL 2-in-1 (FZ775E00)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

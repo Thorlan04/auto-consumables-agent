@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

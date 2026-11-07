@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für De'Longhi De'Longhi Magnifica Evo ECAM290.61.B."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

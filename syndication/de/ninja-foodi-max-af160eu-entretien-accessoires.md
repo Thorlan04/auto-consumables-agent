@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

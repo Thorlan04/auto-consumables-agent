@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Levoit Core 300S (Core 300S-P)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

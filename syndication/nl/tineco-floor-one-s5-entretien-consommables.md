@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-11-06"
+published_at: "2026-11-07"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
