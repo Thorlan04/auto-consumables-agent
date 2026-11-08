@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Levoit Core 300S (Core 300S-P)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

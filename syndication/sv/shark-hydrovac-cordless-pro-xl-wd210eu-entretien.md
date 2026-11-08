@@ -2,7 +2,7 @@
 title: "Shark HydroVac Cordless Pro XL (WD210EU): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Shark HydroVac Cordless Pro XL (WD210EU)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T20 Omni (DT20): Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för Ecovacs Deebot T20 Omni (DT20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: 交換部品・フィルター・エラーコード解説"
 description: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

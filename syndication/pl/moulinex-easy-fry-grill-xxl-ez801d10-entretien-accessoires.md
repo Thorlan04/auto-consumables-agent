@@ -2,7 +2,7 @@
 title: "Moulinex Easy Fry & Grill XXL (EZ801D10): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Moulinex Easy Fry & Grill XXL (EZ801D10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

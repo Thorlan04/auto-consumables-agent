@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per De'Longhi De'Longhi Magnifica Evo ECAM290.61.B."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

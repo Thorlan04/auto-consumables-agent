@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

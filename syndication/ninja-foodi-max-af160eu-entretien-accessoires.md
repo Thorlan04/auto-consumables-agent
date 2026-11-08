@@ -2,7 +2,7 @@
 title: "Entretien Ninja Foodi Max AF160EU : Accessoires & Consommables pour Friteuse Sans Huile"
 description: "Guide complet pour l'entretien de votre friteuse sans huile Ninja Foodi Max AF160EU. Découvrez les accessoires compatibles et les meilleures pratiques de nettoyage."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Entretien Jura J8 (15555) : Filtre Claris Smart, Détartrage & Consommables"
 description: "Optimisez la longévité et la qualité de votre Jura J8 (15555) avec notre guide d'entretien. Découvrez le filtre Claris Smart, le détartrage et les alertes courantes."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-07"
+published_at: "2026-11-08"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
