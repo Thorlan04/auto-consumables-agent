@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-08"
+published_at: "2026-11-09"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

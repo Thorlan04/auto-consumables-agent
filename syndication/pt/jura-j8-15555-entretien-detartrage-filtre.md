@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Jura J8 (15555)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-08"
+published_at: "2026-11-09"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

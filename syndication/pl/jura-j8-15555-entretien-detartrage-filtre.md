@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Jura J8 (15555)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-08"
+published_at: "2026-11-09"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

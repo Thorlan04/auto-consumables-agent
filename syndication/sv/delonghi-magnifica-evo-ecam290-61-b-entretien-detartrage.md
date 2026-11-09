@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: Reservdelar, Filter och Felkoder"
 description: "Guide för ersättningsfilter, borstar, avkalkning och felkoder för De'Longhi De'Longhi Magnifica Evo ECAM290.61.B."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/sv/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-08"
+published_at: "2026-11-09"
 lang: "sv"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

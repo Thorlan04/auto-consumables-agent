@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Levoit Core 300S (Core 300S-P)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-08"
+published_at: "2026-11-09"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
