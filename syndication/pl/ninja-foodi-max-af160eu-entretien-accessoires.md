@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

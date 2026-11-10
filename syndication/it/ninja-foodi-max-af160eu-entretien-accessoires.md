@@ -2,7 +2,7 @@
 title: "Ninja Foodi Max AF160EU: Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Ninja Foodi Max AF160EU."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/ninja-foodi-max-af160eu-entretien-accessoires.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Philips PerfectCare 9000 Series PSG9020/20: Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para Philips PerfectCare 9000 Series PSG9020/20."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

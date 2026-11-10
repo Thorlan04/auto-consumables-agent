@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Jura J8 (15555)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

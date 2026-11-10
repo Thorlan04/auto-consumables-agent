@@ -2,7 +2,7 @@
 title: "Entretien Purificateur d'Air Levoit Core 600S Smart True HEPA - Filtres LV-H133-RF"
 description: "Guide complet d'entretien pour votre purificateur Levoit Core 600S Smart True HEPA. Remplacez les filtres LV-H133-RF pour une qualité d'air optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

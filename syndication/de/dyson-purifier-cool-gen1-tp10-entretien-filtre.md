@@ -2,7 +2,7 @@
 title: "Dyson Dyson Purifier Cool Gen1 (TP10): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Dyson Dyson Purifier Cool Gen1 (TP10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

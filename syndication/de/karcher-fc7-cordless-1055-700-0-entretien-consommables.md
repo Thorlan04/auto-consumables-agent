@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

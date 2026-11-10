@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-09"
+published_at: "2026-11-10"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
