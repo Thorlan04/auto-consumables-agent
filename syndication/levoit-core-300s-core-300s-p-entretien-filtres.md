@@ -2,7 +2,7 @@
 title: "Entretien Levoit Core 300S (Core 300S-P) : Remplacement Filtres HEPA & Charbon Actif"
 description: "Guide d'entretien pour votre purificateur d'air Levoit Core 300S (Core 300S-P). Découvrez quand et comment remplacer les filtres HEPA pour une qualité d'air optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

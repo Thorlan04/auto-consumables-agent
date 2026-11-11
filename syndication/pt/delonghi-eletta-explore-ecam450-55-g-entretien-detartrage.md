@@ -2,7 +2,7 @@
 title: "De'Longhi Eletta Explore (ECAM450.55.G): Peças de Reposição, Filtros e Códigos de Erro"
 description: "Guia de peças de reposição, filtros, escovas, cartuchos de descalcificação e códigos de erro para De'Longhi Eletta Explore (ECAM450.55.G)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pt/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "pt"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

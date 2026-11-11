@@ -2,7 +2,7 @@
 title: "Moulinex Easy Fry & Grill XXL (EZ801D10): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Moulinex Easy Fry & Grill XXL (EZ801D10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Moulinex Easy Fry & Grill XXL (EZ801D10): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Moulinex Easy Fry & Grill XXL (EZ801D10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/moulinex-easy-fry-grill-xxl-ez801d10-entretien-accessoires.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

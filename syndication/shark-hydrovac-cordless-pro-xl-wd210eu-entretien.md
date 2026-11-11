@@ -2,7 +2,7 @@
 title: "Entretien et Consommables Shark HydroVac Cordless Pro XL (WD210EU)"
 description: "Guide complet d'entretien pour votre Shark HydroVac Cordless Pro XL WD210EU. Trouvez filtres, brosses et conseils pour des performances optimales."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/shark-hydrovac-cordless-pro-xl-wd210eu-entretien.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

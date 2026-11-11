@@ -2,7 +2,7 @@
 title: "Philips PerfectCare 9000 Series PSG9020/20: Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips PerfectCare 9000 Series PSG9020/20."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

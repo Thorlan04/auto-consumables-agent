@@ -2,7 +2,7 @@
 title: "Kärcher FC 7 Cordless (1.055-700.0): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Kärcher FC 7 Cordless (1.055-700.0)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi Eletta Explore (ECAM450.55.G): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla De'Longhi Eletta Explore (ECAM450.55.G)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

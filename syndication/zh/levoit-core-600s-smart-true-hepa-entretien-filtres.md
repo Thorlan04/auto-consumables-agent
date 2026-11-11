@@ -2,7 +2,7 @@
 title: "Levoit Core 600S Smart True HEPA: 耗材配件、滤网更换与故障代码指南"
 description: "Levoit Core 600S Smart True HEPA 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/levoit-core-600s-smart-true-hepa-entretien-filtres.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

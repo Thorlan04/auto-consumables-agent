@@ -2,7 +2,7 @@
 title: "Entretien et consommables pour Purificateur d'Air Dyson Purifier Cool Gen1 TP10"
 description: "Optimisez votre Dyson Purifier Cool Gen1 TP10. Découvrez les filtres HEPA/charbon actif, la fréquence de remplacement et les solutions aux voyants d'alerte pour une qualité d'air optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

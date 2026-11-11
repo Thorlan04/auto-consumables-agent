@@ -2,7 +2,7 @@
 title: "Dyson Dyson Purifier Cool Gen1 (TP10): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Dyson Dyson Purifier Cool Gen1 (TP10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

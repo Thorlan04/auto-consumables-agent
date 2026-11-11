@@ -2,7 +2,7 @@
 title: "Entretien et Accessoires Cosori Turbo Blaze (CAF-P583R-EUR) - Guide Complet"
 description: "Optimisez votre Cosori Turbo Blaze (CAF-P583R-EUR) avec notre guide d'entretien. Découvrez les pièces d'usure et résolvez les codes d'erreur courants."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

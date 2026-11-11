@@ -2,7 +2,7 @@
 title: "Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
-published_at: "2026-11-10"
+published_at: "2026-11-11"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
