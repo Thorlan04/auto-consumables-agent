@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-12T00:18:32.899469+00:00",
+  "retrieved_at": "2026-11-12T14:54:40.071554+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "eglo",
+      "model": "301303 - mandroni ambre¤301304 - mandroni noir fume¤301305 - mandroni vert¤301302 - mandroni 2 lumieres",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-11-12T09:46:28+00:00",
+      "reason": "le produit présente un défaut de fabrication pouvant entraîner la rupture du verre après installation. ce risque survient lorsque le serrage appliqué lors du montage dépasse le niveau recommandé.",
+      "risks": "blessures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/24057/interne",
+      "safe_replacement_search": "appareils électriques, électroménager eglo certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+eglo+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "kryolights",
       "model": "référence zx-8736-675 n° lot 188766",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23520/interne",
       "safe_replacement_search": "appareils électriques, électroménager bonplus certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+bonplus+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "atelier loupiote",
-      "model": "lampes à poser atome et alice, baladeuses antoine, archimède et ariane, lampadaire tipi, toutes teintes et couleurs de câble, y compris versions l'imparfait et camif. tous exemplaires à câble textile avec fiche et interrupteur.",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-09-04T14:07:32+00:00",
-      "reason": "après essais en laboratoire (ddpp du rhône), le câble d'alimentation textile n'est pas du type requis par la norme nf en iec 60598-1 et son arrêt de traction ne résiste pas aux essais de traction et de torsion. notice et marquage incomplets.",
-      "risks": "choc électrique",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23442/interne",
-      "safe_replacement_search": "appareils électriques, électroménager atelier loupiote certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+atelier+loupiote+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
