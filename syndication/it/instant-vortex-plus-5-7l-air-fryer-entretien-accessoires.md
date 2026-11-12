@@ -2,7 +2,7 @@
 title: "Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Instant Brands Instant Vortex Plus 5.7L (6-in-1 Air Fryer)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/instant-vortex-plus-5-7l-air-fryer-entretien-accessoires.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

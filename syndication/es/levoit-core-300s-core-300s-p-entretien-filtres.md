@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Levoit Core 300S (Core 300S-P)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

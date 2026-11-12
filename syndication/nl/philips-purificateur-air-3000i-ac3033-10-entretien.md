@@ -2,7 +2,7 @@
 title: "Philips Série 3000i (AC3033/10): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Philips Série 3000i (AC3033/10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

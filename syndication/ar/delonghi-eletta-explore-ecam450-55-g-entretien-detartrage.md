@@ -2,7 +2,7 @@
 title: "De'Longhi Eletta Explore (ECAM450.55.G): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز De'Longhi Eletta Explore (ECAM450.55.G)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para De'Longhi De'Longhi Magnifica Evo ECAM290.61.B."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

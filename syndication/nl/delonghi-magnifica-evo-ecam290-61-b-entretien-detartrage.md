@@ -2,7 +2,7 @@
 title: "De'Longhi De'Longhi Magnifica Evo ECAM290.61.B: Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor De'Longhi De'Longhi Magnifica Evo ECAM290.61.B."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/delonghi-magnifica-evo-ecam290-61-b-entretien-detartrage.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

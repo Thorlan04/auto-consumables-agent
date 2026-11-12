@@ -2,7 +2,7 @@
 title: "Cosori Turbo Blaze (CAF-P583R-EUR): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Cosori Turbo Blaze (CAF-P583R-EUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

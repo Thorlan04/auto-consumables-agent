@@ -2,7 +2,7 @@
 title: "Ecovacs Deebot T20 Omni (DT20): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Ecovacs Deebot T20 Omni (DT20)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/ecovacs-deebot-t20-omni-dt20-entretien-consommables.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

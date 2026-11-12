@@ -2,7 +2,7 @@
 title: "Entretien De'Longhi Eletta Explore (ECAM450.55.G) : Détartrage, Filtres & Consommables"
 description: "Guide d'entretien pour votre machine à café De'Longhi Eletta Explore (ECAM450.55.G). Détartrage, filtre à eau et nettoyage du système LatteCrema Hot & Cool."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/delonghi-eletta-explore-ecam450-55-g-entretien-detartrage.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

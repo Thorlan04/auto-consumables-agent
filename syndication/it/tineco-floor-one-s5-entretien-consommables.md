@@ -2,7 +2,7 @@
 title: "Tineco Floor One S5 (Combo / Pro): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Tineco Floor One S5 (Combo / Pro)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/tineco-floor-one-s5-entretien-consommables.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

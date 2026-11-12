@@ -2,7 +2,7 @@
 title: "Cosori Turbo Blaze (CAF-P583R-EUR): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Cosori Turbo Blaze (CAF-P583R-EUR)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/cosori-turbo-blaze-caf-p583r-eur-entretien-accessoires.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

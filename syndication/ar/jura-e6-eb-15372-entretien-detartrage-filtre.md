@@ -2,7 +2,7 @@
 title: "Jura E6 (EB) (15372): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Jura E6 (EB) (15372)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-e6-eb-15372-entretien-detartrage-filtre.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Philips Série 3000i (AC3033/10): 耗材配件、滤网更换与故障代码指南"
 description: "Philips Série 3000i (AC3033/10) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

@@ -2,7 +2,7 @@
 title: "Tefal ActiFry Genius XL 2-in-1 (FZ775E00): 交換部品・フィルター・エラーコード解説"
 description: "Tefal ActiFry Genius XL 2-in-1 (FZ775E00) の純正交換用フィルター、ブラシ、除石灰カートリッジおよび日常エラーコードの解説ガイド。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ja/guides/tefal-actifry-genius-xl-2-en-1-fz775e00-entretien.html"
-published_at: "2026-11-11"
+published_at: "2026-11-12"
 lang: "ja"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
