@@ -2,7 +2,7 @@
 title: "Krups Evidence Plus (EA894T10): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Krups Evidence Plus (EA894T10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-12"
+published_at: "2026-11-13"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

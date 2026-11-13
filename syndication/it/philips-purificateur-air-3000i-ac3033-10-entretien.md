@@ -2,7 +2,7 @@
 title: "Philips Série 3000i (AC3033/10): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Philips Série 3000i (AC3033/10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-12"
+published_at: "2026-11-13"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

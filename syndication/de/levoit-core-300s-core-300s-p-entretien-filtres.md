@@ -2,7 +2,7 @@
 title: "Levoit Core 300S (Core 300S-P): Ersatzteile, Filter und Fehlercodes"
 description: "Anleitung für Ersatzfilter, Bürstenwalzen, Entkalkung und Fehlercodes für Levoit Core 300S (Core 300S-P)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/de/guides/levoit-core-300s-core-300s-p-entretien-filtres.html"
-published_at: "2026-11-12"
+published_at: "2026-11-13"
 lang: "de"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

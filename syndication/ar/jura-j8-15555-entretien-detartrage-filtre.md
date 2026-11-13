@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Jura J8 (15555)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-12"
+published_at: "2026-11-13"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
