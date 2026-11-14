@@ -2,7 +2,7 @@
 title: "Philips Série 3000i (AC3033/10): Części Zamienne, Filtry i Kody Błędów"
 description: "Poradnik wymiany filtrów HEPA, szczotek i rozwiązywania kodów błędów dla Philips Série 3000i (AC3033/10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/pl/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "pl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

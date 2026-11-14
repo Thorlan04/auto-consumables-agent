@@ -2,7 +2,7 @@
 title: "Entretien Kärcher FC 7 Cordless (1.055-700.0) : Consommables & Dépannage"
 description: "Prolongez la durée de vie de votre Kärcher FC 7 Cordless (1.055-700.0) avec nos conseils d'entretien, les références des consommables et solutions aux voyants."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/karcher-fc7-cordless-1055-700-0-entretien-consommables.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

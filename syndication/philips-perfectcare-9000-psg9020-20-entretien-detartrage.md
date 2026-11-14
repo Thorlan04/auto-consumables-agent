@@ -2,7 +2,7 @@
 title: "Entretien Centrale Vapeur Philips PerfectCare 9000 Series PSG9020/20 - Cartouche Anticalcaire"
 description: "Guide d'entretien pour votre centrale vapeur Philips PerfectCare 9000 Series PSG9020/20. Préservez sa performance avec la cartouche anticalcaire optimale."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/guides/philips-perfectcare-9000-psg9020-20-entretien-detartrage.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "fr"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

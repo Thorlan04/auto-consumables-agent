@@ -2,7 +2,7 @@
 title: "Jura J8 (15555): 耗材配件、滤网更换与故障代码指南"
 description: "Jura J8 (15555) 正品替换滤网、滚刷、除垢滤芯及常见故障报警代码对照指南。"
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/zh/guides/jura-j8-15555-entretien-detartrage-filtre.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "zh"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

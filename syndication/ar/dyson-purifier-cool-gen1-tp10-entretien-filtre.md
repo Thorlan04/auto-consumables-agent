@@ -2,7 +2,7 @@
 title: "Dyson Dyson Purifier Cool Gen1 (TP10): قطع الغيار والفلاتر وأكواد الأعطال"
 description: "دليل قطع الغيار الاستهلاكية وفلاتر HEPA وإزالة التكلسات وأكواد الصيانة لجهاز Dyson Dyson Purifier Cool Gen1 (TP10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/ar/guides/dyson-purifier-cool-gen1-tp10-entretien-filtre.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "ar"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

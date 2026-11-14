@@ -2,7 +2,7 @@
 title: "Krups Evidence Plus (EA894T10): Repuestos, Filtros y Códigos de Error"
 description: "Guía de recambios, filtros, cepillos, cartuchos antical y códigos de error comunes para Krups Evidence Plus (EA894T10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/es/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "es"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

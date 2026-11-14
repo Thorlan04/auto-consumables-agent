@@ -2,7 +2,7 @@
 title: "Krups Evidence Plus (EA894T10): Ricambi, Filtri e Codici Errore"
 description: "Guida a filtri HEPA, spazzole, anticalcare e risoluzione codici errore per Krups Evidence Plus (EA894T10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/it/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "it"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

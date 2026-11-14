@@ -2,7 +2,7 @@
 title: "Krups Evidence Plus (EA894T10): Onderdelen, Filters en Foutcodes"
 description: "Gids voor vervangingsfilters, borstels, ontkalking en storingscodes voor Krups Evidence Plus (EA894T10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/nl/guides/krups-evidence-plus-ea894t10-entretien-detartrage.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "nl"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---

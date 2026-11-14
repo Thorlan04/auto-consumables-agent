@@ -2,7 +2,7 @@
 title: "Philips Série 3000i (AC3033/10): Replacement Parts, Filters & Error Codes"
 description: "Genuine OEM replacement filters, brushes, descaling cartridges and routine error codes guide for Philips Série 3000i (AC3033/10)."
 canonical_url: "https://thorlan04.github.io/auto-consumables-agent/en/guides/philips-purificateur-air-3000i-ac3033-10-entretien.html"
-published_at: "2026-11-13"
+published_at: "2026-11-14"
 lang: "en"
 tags: ["diy", "guide", "appliances", "maintenance", "tech"]
 ---
