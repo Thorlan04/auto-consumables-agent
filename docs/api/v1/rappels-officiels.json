@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-17T01:46:11.864743+00:00",
+  "retrieved_at": "2026-11-17T15:44:13.632380+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "jatrhg",
+      "model": "s1_72_8m",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-11-17T09:50:10+00:00",
+      "reason": "non-conformité à la réglementation française (norme nf c 15-100) applicable aux bornes de recharge résidentielles et tertiaires, en raison de l'absence d'obturateurs mécaniques de protection contre les chocs électriques sur la fiche type 2 du câble.",
+      "risks": "choc électrique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/24096/interne",
+      "safe_replacement_search": "appareils électriques, électroménager jatrhg certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+jatrhg+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "eglo",
       "model": "301303 - mandroni ambre¤301304 - mandroni noir fume¤301305 - mandroni vert¤301302 - mandroni 2 lumieres",
@@ -69,17 +80,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23759/interne",
       "safe_replacement_search": "appareils électriques, électroménager sans marque certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+sans+marque+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "jatrhg",
-      "model": "s1_72_8m",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-10-08T15:48:22+00:00",
-      "reason": "non-conformité à la réglementation française (norme nf c 15-100) applicable aux bornes de recharge résidentielles et tertiaires : risque de choc électrique en raison de l'absence d'obturateurs de sécurité sur la fiche type 2 du câble attaché.",
-      "risks": "choc électrique",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23727/interne",
-      "safe_replacement_search": "appareils électriques, électroménager jatrhg certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+jatrhg+certifie+conforme+sans+danger&tag=autoconsom-21"
     },
     {
       "brand": "youngkee",
