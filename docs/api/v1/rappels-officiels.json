@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-18T00:47:21.799770+00:00",
+  "retrieved_at": "2026-11-18T15:24:37.348972+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "dexter",
+      "model": "orbital sander 320w dexter¤réf fournisseur : 320osl1.5001¤adeo key : 93840029¤ean : 3276007931280¤",
+      "category": "machines",
+      "publication_date": "2026-11-18T08:44:50+00:00",
+      "reason": "lors de l'utilisation, le plateau de la ponceuse peut se détacher et provoquer une blessure.",
+      "risks": "blessures",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/24101/interne",
+      "safe_replacement_search": "machines dexter certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=machines+dexter+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "jatrhg",
       "model": "s1_72_8m",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23348/interne",
       "safe_replacement_search": "appareils électriques, électroménager acebell certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+acebell+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "bonplus",
-      "model": "nettoyeur haute pression bonplus 2¤batteries 48 v",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-09-15T12:13:17+00:00",
-      "reason": "produit potentiellement dangereux",
-      "risks": "choc électrique",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23520/interne",
-      "safe_replacement_search": "appareils électriques, électroménager bonplus certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+bonplus+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
