@@ -1,9 +1,20 @@
 {
   "api_version": "1.0",
   "source": "RappelConso - République Française (data.economie.gouv.fr)",
-  "retrieved_at": "2026-11-20T00:27:31.420947+00:00",
+  "retrieved_at": "2026-11-20T15:08:19.734407+00:00",
   "total_recalls": 10,
   "recalls": [
+    {
+      "brand": "carrefour home",
+      "model": "référence haf6l1750-26",
+      "category": "appareils électriques, électroménager",
+      "publication_date": "2026-11-20T10:11:57+00:00",
+      "reason": "en raison de la mauvaise tenue du revêtement de la grille intérieure, il y a un risque d’ingestion avec les aliments.",
+      "risks": "risque chimique",
+      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/24124/interne",
+      "safe_replacement_search": "appareils électriques, électroménager carrefour home certifie conforme sans danger",
+      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+carrefour+home+certifie+conforme+sans+danger&tag=autoconsom-21"
+    },
     {
       "brand": "dexter",
       "model": "orbital sander 320w dexter¤réf fournisseur : 320osl1.5001¤adeo key : 93840029¤ean : 3276007931280¤",
@@ -102,17 +113,6 @@
       "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23603/interne",
       "safe_replacement_search": "appareils électriques, électroménager youngkee certifie conforme sans danger",
       "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+youngkee+certifie+conforme+sans+danger&tag=autoconsom-21"
-    },
-    {
-      "brand": "acebell",
-      "model": "acebell tl-b3-5-eu",
-      "category": "appareils électriques, électroménager",
-      "publication_date": "2026-09-16T09:33:15+00:00",
-      "reason": "émission de rayonnement parasite  puissance rayonnée par  la sonnette occupe les limites de bande passante / bande ¤masque d'émission hors bande de l'émetteur.",
-      "risks": "risque environnemental",
-      "official_notice_url": "https://rappel.conso.gouv.fr/fiche-rappel/23348/interne",
-      "safe_replacement_search": "appareils électriques, électroménager acebell certifie conforme sans danger",
-      "safe_replacement_amazon_url": "https://www.amazon.fr/s?k=appareils+%C3%A9lectriques%2C+%C3%A9lectrom%C3%A9nager+acebell+certifie+conforme+sans+danger&tag=autoconsom-21"
     }
   ]
 }
